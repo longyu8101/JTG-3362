@@ -1,0 +1,27 @@
+1 总则
+==================================
+
+.. raw:: html
+
+  <h2 id="test111">1 总则</h2>
+
+.. raw:: html
+
+ <p style="text-align:justify"><a href="#id1.0.1"> 1.0.1</a> <span id="id1.0.1">为规范在用公路桥梁技术状况评定，提供桥梁养护决策依据，制定本标准。</span></p>
+ <p style="text-align:justify"><a href="#id1.0.2"> 1.0.2</a> <span id="id1.0.2">本标准适用于各级公路的桥梁技术状况评定。</span></p>
+ <p style="text-align:justify"><a href="#id1.0.3"> 1.0.3</a> <span id="id1.0.3">公路桥梁技术状况的检测采用目测与仪器相结合的方法。</span></p>
+ <p style="text-align:justify"><a href="#id1.0.4"> 1.0.4</a> <span id="id1.0.4">公路桥梁技术状况评定采用分层综合评定与单项指标控制相结合的方法。</span></p>
+ <p style="text-align:justify"><a href="#id1.0.5"> 1.0.5</a> <span id="id1.0.5">公路桥梁技术状况评定的技术资料，应归入桥梁养护技术文档和公路桥梁管理系统。</span></p>
+ <p style="text-align:justify"><a href="#id1.0.6"> 1.0.6</a> <span id="id1.0.6">公路桥梁技术状况评定，除应符合本标准的规定外，尚应符合现行国家和行业有关标准的规定。</span></p>
+.. raw:: html
+
+    <style>
+        #abc{
+            height:400px;
+            background-color: #f0ffff;
+        }
+    </style>
+ </head>
+ <body>
+    <div id="abc"></div>
+ </body>

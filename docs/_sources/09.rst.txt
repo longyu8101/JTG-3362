@@ -1,0 +1,1718 @@
+9 桥梁下部结构构件技术状况评定
+========================================
+
+.. raw:: html
+
+  <h2 id="test111">9 桥梁下部结构构件技术状况评定</h2>
+
+9.1 桥墩
+----------------------
+
+.. raw:: html
+
+ <p style="text-align:justify"><a href="#id9.1.1"> 9.1.1</a> <span id="id9.1.1"> 墩身评定指标及分级评定标准：</span></p>
+ <ol>
+ <li>蜂窝、麻面评定标准见<a href="#B9.1.1-1">表9.1.1-1</a>。</li>
+ <li>剥落、露筋评定标准见<a href="#B9.1.1-2">表9.1.1-2</a>。</li>
+ <li>空洞、孔洞评定标准见<a href="#B9.1.1-3">表9.1.1-3</a>。</li>
+ <li>钢筋锈蚀评定标准见<a href="#B9.1.1-4">表9.1.1-4</a>。</li>
+ <li>混凝土碳化、腐蚀评定标准见<a href="#B9.1.1-5">表9.1.1-5</a>。</li>
+ <li>磨损评定标准见<a href="#B9.1.1-6">表9.1.1-6</a>。</li>
+ <li>圬工砌体缺陷评定标准见<a href="#B9.1.1-7">表9.1.1-7</a>。</li>
+ <li>位移评定标准见<a href="#B9.1.1-8">表9.1.1-8</a>。</li>
+ <li>裂缝评定标准见<a href="#B9.1.1-9">表9.1.1-9</a>。</li>  
+ </ol>
+ <style>
+     #biaoge {
+         border: 2px solid black;
+         border-collapse: collapse;
+         margin-bottom:1px;
+        
+      }
+      th, td {
+         padding-top: 5px;
+         padding-bottom:5px;
+         padding-left:5px;
+         padding-right:5px;
+         border: 1px solid black;
+         vertical-align: middle;
+      }
+      #eqzs {
+         border: 0px;
+         vertical-align: top;
+      }
+      #dhbg {
+        vertical-align: middle;
+      }
+     </style>
+
+ <table id="biaoge" style="font-family:times new roman">
+
+     <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="B9.1.1-1">表9.1.1-1 蜂窝、麻面</b></caption>	
+              
+		    <tr>
+		      <td  align="center" width=60px rowspan="2" id="dhbg">标度</td>
+		      <td  align="center"  colspan="2">评定指标</td>
+				  <!-- <td></td> -->
+		    </tr>
+  		  <tr>
+		     <!-- <td></td> -->
+		      <td align="center" width=360px>定性描述</td>
+				  <td align="center" width=480px>定量描述</td>
+		    </tr>
+  		  <tr>
+		     <td align="center">1</td>
+		     <td align="left">完好</td>
+			   <td align="center">—</td>
+		    </tr> 
+  		  <tr>
+		     <td align="center">2</td>
+			   <td align="left">轻微蜂窝、麻面</td>
+			   <td align="left">累计面积≤构件面积的20%，单处面积≤1.0m²</td>
+		    </tr>
+  		  <tr>
+		     <td align="center">3</td>
+		     <td align="left">较多蜂窝、麻面</td>
+			   <td align="left">累计面积＞构件面积的20%，单处面积＞1.0m²</td>
+		     </tr>     
+		</table> 
+    <p> </p>
+
+  <table id="biaoge" style="font-family:times new roman">
+
+     <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="B9.1.1-2">表9.1.1-2 剥落、露筋</b></caption>	
+              
+		    <tr>
+		      <td  align="center" width=60px rowspan="2" id="dhbg">标度</td>
+		      <td  align="center"  colspan="2">评定指标</td>
+				  <!-- <td></td> -->
+		    </tr>
+  		  <tr>
+		     <!-- <td></td> -->
+		      <td align="center" width=360px>定性描述</td>
+				  <td align="center" width=480px>定量描述</td>
+		    </tr>
+  		  <tr>
+		     <td align="center">1</td>
+		     <td align="left">完好</td>
+			   <td align="center">—</td>
+		    </tr> 
+  		  <tr>
+		     <td align="center">2</td>
+			   <td align="left">局部混凝土剥落、露筋</td>
+			   <td align="left">累计面积≤构件面积的3%，单处面积≤0.5m²</td>
+		    </tr>
+  		  <tr>
+		     <td align="center">3</td>
+		     <td align="left">较大范围混凝土剥落、露筋</td>
+			   <td align="left">累计面积＞构件面积的3%且≤构件面积的10%，单处面积≤1.0m²</td>
+		     </tr>       
+  		   <tr>
+		     <td align="center" >4</td>
+		     <td align="left">大范围混凝土剥落、露筋</td>
+			   <td align="left">累计面积＞构件面积的10%，单处面积＞1.0m²</td>
+		     </tr>       
+		</table> 
+    <p> </p>
+
+  <table id="biaoge" style="font-family:times new roman">
+
+     <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="B9.1.1-3">表9.1.1-3 空洞、孔洞</b></caption>	
+              
+		    <tr>
+		      <td  align="center" width=60px rowspan="2" id="dhbg">标度</td>
+		      <td  align="center"  colspan="2">评定指标</td>
+				  <!-- <td></td> -->
+		    </tr>
+  		  <tr>
+		     <!-- <td></td> -->
+		      <td align="center" width=360px>定性描述</td>
+				  <td align="center" width=480px>定量描述</td>
+		    </tr>
+  		  <tr>
+		     <td align="center">1</td>
+		     <td align="left">完好</td>
+			   <td align="center">—</td>
+		    </tr> 
+  		  <tr>
+		     <td align="center">2</td>
+			   <td align="left">局部空洞、孔洞</td>
+			   <td align="left">累计面积≤构件面积的3%，单处面积≤0.5m²</td>
+		    </tr>
+  		  <tr>
+		     <td align="center">3</td>
+		     <td align="left">较大范围空洞、孔洞</td>
+			   <td align="left">累计面积＞构件面积的3%且≤构件面积的10%，单处面积≤0.5m²或最大深度≤25mm</td>
+		     </tr>       
+  		   <tr>
+		     <td align="center" >4</td>
+		     <td align="left">大范围空洞、孔洞</td>
+			   <td align="left">累计面积＞构件面积的10%，单处面积＞0.5m²或最大深度＞25mm</td>
+		     </tr>       
+		</table> 
+    <p> </p>      
+
+ <table id="biaoge" style="font-family:times new roman">
+
+     <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="B9.1.1-4">表9.1.1-4 钢筋锈蚀</b></caption>	
+              
+		    <tr>
+		      <td  align="center" width=60px rowspan="2" id="dhbg">标度</td>
+		      <td  align="center" width=840px>评定指标</td>
+ 		    </tr> 
+        <tr> 
+         <!-- <td></td> -->       
+				 <td  align="center">定性描述</td>
+		    </tr>
+  		  <tr>
+		     <td align="center">1</td>
+		     <td align="left">完好</td>
+		    </tr> 
+  		  <tr>
+		     <td align="center">2</td>
+		     <td align="left">有锈蚀现象</td>
+		    </tr>
+  		  <tr>
+		     <td align="center">3</td>
+		      <td align="left">钢筋锈蚀，混凝土表面有洞主筋方向的裂缝或混凝土表面有锈迹</td>
+		    </tr> 
+        <tr>
+		     <td align="center">4</td>
+		     <td align="left">大量主筋锈蚀，混凝土表面保护层剥落，钢筋祼露，甚至出现主筋锈断现象</td>
+		    </tr>  
+        <tr>
+		     <td align="center">5</td>
+		     <td align="left">钢筋严重锈蚀，主筋锈断，混凝土表面开裂严重，出现严重滑动或倾斜等现象</td>
+		    </tr>    
+  		</table> 
+      <p> </p> 
+
+ <table id="biaoge" style="font-family:times new roman">
+
+     <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="B9.1.1-5">表9.1.1-5 混凝土碳化、腐蚀</b></caption>	
+              
+		    <tr>
+		      <td  align="center" width=60px rowspan="2" id="dhbg">标度</td>
+		      <td  align="center" width=840px>评定指标</td>
+ 		    </tr> 
+        <tr> 
+         <!-- <td></td> -->       
+				 <td  align="center">定性描述</td>
+		    </tr>
+  		  <tr>
+		     <td align="center">1</td>
+		     <td align="left">无碳化现象</td>
+		    </tr> 
+  		  <tr>
+		     <td align="center">2</td>
+		     <td align="left">有少量碳化或腐蚀现象，且所有碳化深度均小于混凝土保护层厚度</td>
+		    </tr>
+  		  <tr>
+		     <td align="center">3</td>
+		      <td align="left">部分位置出现碳化现象，局部碳化深度大于混凝土保护层厚度，混凝土表面少量胶凝料松散粉化，或构件受强酸性液体或气体腐蚀，造成混凝土受到腐蚀，或钢筋出现少量锈蚀，或有冻融现象，造成混凝土出现胀裂</td>
+		    </tr> 
+        <tr>
+		     <td align="center">4</td>
+		     <td align="left">大部分位置碳化，碳化深度大于混凝土保护层厚度，混凝土表面胶凝料大量松散粉化，或构件受强酸性液体或气体腐蚀，造成混凝土腐蚀或钢筋大量锈蚀，或有冻融现象，造成混凝土严重胀裂</td>
+		    </tr>   
+  		</table> 
+      <p> </p>       
+ 
+ <table id="biaoge" style="font-family:times new roman">
+
+     <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="B9.1.1-6">表9.1.1-6 磨损</b></caption>	
+              
+		    <tr>
+		      <td  align="center" width=60px rowspan="2" id="dhbg">标度</td>
+		      <td  align="center"  colspan="2">评定指标</td>
+				  <!-- <td></td> -->
+		    </tr>
+  		  <tr>
+		     <!-- <td></td> -->
+		      <td align="center" width=360px>定性描述</td>
+				  <td align="center" width=480px>定量描述</td>
+		    </tr>
+  		  <tr>
+		     <td align="center">1</td>
+		     <td align="left">完好</td>
+			   <td align="center">—</td>
+		    </tr> 
+  		  <tr>
+		     <td align="center">2</td>
+			   <td align="left">有磨损现象，个别部位表面磨耗，粗集料显露</td>
+			   <td align="left">累计面积≤构件面积的5%²</td>
+		    </tr>
+  		  <tr>
+		     <td align="center">3</td>
+		     <td align="left">较大范围有磨损，缩颈现象，并出现露桩或锈蚀</td>
+			   <td align="left">累计面积＞构件面积的5%且≤构件面积的50%</td>
+		     </tr>       
+  		   <tr>
+		     <td align="center" >4</td>
+		     <td align="left">大范围有磨损，缩颈现象，混凝土剥蚀，大范围出现露筋现象，祼露钢筋锈蚀</td>
+			   <td align="left">累计面积＞构件面积的20%</td>
+		     </tr>       
+		</table> 
+    <p> </p>
+
+  <table id="biaoge" style="font-family:times new roman">
+
+     <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="B9.1.1-7">表9.1.1-7 圬工砌体缺陷</b></caption>	
+              
+		    <tr>
+		      <td  align="center" width=60px rowspan="2" id="dhbg">标度</td>
+		      <td  align="center"  colspan="2">评定指标</td>
+				  <!-- <td></td> -->
+		    </tr>
+  		  <tr>
+		     <!-- <td></td> -->
+		      <td align="center" width=360px>定性描述</td>
+				  <td align="center" width=480px>定量描述</td>
+		    </tr>
+  		  <tr>
+		     <td align="center">1</td>
+		     <td align="left">完好</td>
+			   <td align="center">—</td>
+		    </tr> 
+  		  <tr>
+		     <td align="center">2</td>
+			   <td align="left">砌体局部出现灰缝脱落现象，或砌体局部出现破损、剥落等现象</td>
+			   <td align="left">灰缝脱落累计长度≤构件截面长度的10%，或破损、剥落累计面积≤构件面积的3%</td>
+		    </tr>
+  		  <tr>
+		     <td align="center">3</td>
+		     <td align="left">砌体大范围出现灰缝脱落现象，或砌体较大范围出现破损、剥落等现象</td>
+			   <td align="left">灰缝脱落累计长度＞构件截面长度的10%，或破损、剥落累计面积＞构件面积的3%且≤构件面积的10%</td>
+		     </tr>       
+  		   <tr>
+		     <td align="center" >4</td>
+		     <td align="left">砌体大范围出现破损、剥落、松动、变形等现象</td>
+			   <td align="left">破损、剥落、松动、变形等累计面积＞构件面积的10%</td>
+		     </tr>       
+		</table> 
+    <p> </p>      
+
+ <table id="biaoge" style="font-family:times new roman">
+
+     <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="B9.1.1-8">表9.1.1-8 位移</b></caption>	
+              
+		    <tr>
+		      <td  align="center" width=60px rowspan="2" id="dhbg">标度</td>
+		      <td  align="center" width=840px>评定指标</td>
+ 		    </tr> 
+        <tr> 
+         <!-- <td></td> -->       
+				 <td  align="center">定性描述</td>
+		    </tr>
+  		  <tr>
+		     <td align="center">1</td>
+		     <td align="left">完好</td>
+		    </tr> 
+  		  <tr>
+		     <td align="center">2</td>
+		     <td align="center">—</td>
+		    </tr>
+  		  <tr>
+		     <td align="center">3</td>
+		      <td align="left">桥墩出现轻微下沉、倾斜滑动等，发展缓慢或趋向稳定</td>
+		    </tr> 
+        <tr>
+		     <td align="center">4</td>
+		     <td align="left">桥墩出现滑动、下沉、倾斜，变形小于或等于规范值</td>
+		    </tr>  
+        <tr>
+		     <td align="center">5</td>
+		     <td align="left">桥墩不稳定，出现严重滑动、下沉、位移、倾斜现象，造成结构和桥面变形过大，变形大于规范值或不能正常行车</td>
+		    </tr>    
+  		</table> 
+
+ <p style="text-align:justify;text-indent:2em;font-size:10px;">注：简支梁墩台允许沉降——均匀总沉降值（不包括施工中沉降）：2.0<math xmlns='http://www.w3.org/1998/Math/MathML'> <msqrt> <mi> L </mi> </msqrt> </math> cm;相邻墩台均匀沉降值（不包括施工中沉降）：1.0<math xmlns='http://www.w3.org/1998/Math/MathML'> <msqrt> <mi> L </mi> </msqrt> </math> cm;顶面水平位移：0.5<math xmlns='http://www.w3.org/1998/Math/MathML'> <msqrt> <mi> L </mi> </msqrt> </math> cm。<i>L</i>为相邻墩台间最小跨境长度，以米计。跨径小于25cm时仍以25m计。</p> 
+
+   <table id="biaoge" style="font-family:times new roman">
+
+     <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="B9.1.1-9">表9.1.1-9 裂缝</b></caption>	
+              
+		    <tr>
+		      <td  align="center" width=60px rowspan="2" id="dhbg">标度</td>
+		      <td  align="center"  colspan="2">评定指标</td>
+				  <!-- <td></td> -->
+		    </tr>
+  		  <tr>
+		     <!-- <td></td> -->
+		      <td align="center" width=360px>定性描述</td>
+				  <td align="center" width=480px>定量描述</td>
+		    </tr>
+  		  <tr>
+		     <td align="center">1</td>
+		     <td align="left">完好，无裂缝</td>
+			   <td align="center">—</td>
+		    </tr> 
+  		  <tr>
+		     <td align="center"rowspan="6">2</td>
+			   <td align="left">网状裂缝：局部网状裂缝</td>
+			   <td align="left">网状裂缝：累计面积≤构件面积的20%，单处面积≤1.0m²</td>
+		    </tr> 
+  		  <tr>
+		      <!-- <td></td> -->
+			   <td align="left">墩身的水平裂缝：较少裂缝，缝宽未超限</td>
+			   <td align="left">墩身的水平裂缝：缝长≤墩身直径或墩身宽度的1/8</td>
+		    </tr>
+		      <!-- <td></td> -->
+			   <td align="left">竖向裂缝：较少裂缝，缝宽未超限</td>
+			   <td align="left">竖向裂缝：缝长≤截面尺寸的1/5</td>
+		    </tr>
+		      <!-- <td></td> -->
+			   <td align="left">不等高的墩盖梁上的竖向裂缝：较少裂缝，缝宽未超限</td>
+			   <td align="left">不等高的墩盖梁上的坚向裂缝：缝长≤截面尺寸的1/2</td>
+		    </tr>
+		      <!-- <td></td> -->
+			   <td align="left">悬臂桥墩角隅处的裂缝：较少裂缝，缝宽未超限</td>
+			   <td align="left">悬臂桥墩角隅处的裂缝：缝长≤截面尺寸的1/3</td>
+		    </tr>
+		      <!-- <td></td> -->
+			   <td align="left">镶面石突出的裂缝：局部开裂</td>
+			   <td align="left">镶面石突出的裂缝：累计面积≤构件面积的10%，单处面积≤0.5m²</td>
+		    </tr>
+  		  <tr>
+		     <td align="center"rowspan="8">3</td>
+		     <td align="left">网状裂缝：局部网状裂缝</td>
+			   <td align="left">网状裂缝：累计面积＞构件表面积的20%，单处面积＞1.0m²</td>
+		     </tr>
+		      <!-- <td></td> -->
+			   <td align="left">从基础向上发展至墩身的裂缝：较多裂缝，缝宽未超限</td>
+			   <td align="left">从基础向上发展至墩身的裂缝：缝长≤截面尺寸的1/3，间距≥50cm</td>
+		    </tr>
+		      <!-- <td></td> -->
+			   <td align="left">墩身的水平裂缝：较多裂缝，缝宽未超限</td>
+			   <td align="left">墩身的水平裂缝：缝长＞墩身直径或墩身宽度的1/8，且≤墩身直径或墩身宽度的1/2</td>
+		    </tr>
+		      <!-- <td></td> -->
+			   <td align="left">墩身的剪切破坏：较多裂缝，缝宽未超限</td>
+			   <td align="left">墩身的剪切破坏：缝长≤截面尺寸的1/3</td>
+		    </tr>
+		      <!-- <td></td> -->
+			   <td align="left">竖向裂缝：较多裂缝，缝宽未超限</td>
+			   <td align="left">竖向裂缝：缝长＞截面尺寸的1/5且≤截面尺寸的1/3，间距≥30cm</td>
+		    </tr>
+		      <!-- <td></td> -->
+			   <td align="left">不等高的墩盖梁上的竖向裂缝：较多裂缝，缝宽未超限</td>
+			   <td align="left">不等高的墩盖梁上的坚向裂缝：缝长＞截面尺寸的1/3，且≤截面尺寸的2/3</td>
+		    </tr>
+		      <!-- <td></td> -->
+			   <td align="left">悬臂桥墩角隅处的裂缝：较多裂缝，缝宽未超限</td>
+			   <td align="left">悬臂桥墩角隅处的裂缝：缝长＞截面尺寸的1/3，且≤截面尺寸的1/2</td>
+		    </tr>
+		      <!-- <td></td> -->
+			   <td align="left">镶面石突出的裂缝：局部开裂，少量裂缝宽度超限</td>
+			   <td align="left">镶面石突出的裂缝：累计面积＞构件面积的10%且≤构件面积的20%，单处面积≤1.0m²</td>
+		    </tr>       
+  		   <tr>
+		     <td align="center" rowspan="7">4</td>
+		     <td align="left">从基础向上发展至墩身的裂缝：存在大量裂缝，缝宽大多超限</td>
+			   <td align="left">从基础向上发展至墩身的裂缝：缝长＞截面尺寸的1/3，间距＜50cm</td>
+		     </tr>
+		      <!-- <td></td> -->
+			   <td align="left">墩身的水平裂缝：存在大量裂缝，缝宽大多超限</td>
+			   <td align="left">墩身的水平裂缝：缝长＞墩身直径或墩身宽度的1/2</td>
+		    </tr>
+		      <!-- <td></td> -->
+			   <td align="left">墩身的剪切破坏：缝宽超限</td>
+			   <td align="left">墩身的剪切破坏：缝长＞截面尺寸的1/3</td>
+		    </tr>
+		      <!-- <td></td> -->
+			   <td align="left">竖向裂缝：存在大量裂缝，缝宽大多超限</td>
+			   <td align="left">竖向裂缝：缝长＞截面尺寸的1/3，间距＜30cm</td>
+		    </tr>
+		      <!-- <td></td> -->
+			   <td align="left">悬臂桥墩角隅处的裂缝：缝宽超限</td>
+			   <td align="left">悬臂桥墩角隅处的裂缝：缝长＞截面尺寸的1/2</td>
+		    </tr>
+		      <!-- <td></td> -->
+			   <td align="left">不等高的墩盖梁上的竖向裂缝：存在大量裂缝，缝宽大多超限，少部分混凝土出现剥落、露筋</td>
+			   <td align="left">不等高的墩盖梁上的坚向裂缝：缝长＞截面尺寸的2/3</td>
+		    </tr>
+		      <!-- <td></td> -->
+			   <td align="left">镶面石突出的裂缝：多处开裂，裂缝宽度大多超限</td>
+			   <td align="left">镶面石突出的裂缝：累计面积＞构件面积的20%</td>
+		    </tr> 
+  		   <tr>
+		     <td align="center" >5</td>
+		     <td align="left">桥墩出现结构性裂缝，缝宽超限，裂缝有开合现象，桥墩变形失稳</td>
+			   <td align="center">—</td>
+		     </tr>       
+		</table> 
+    <p> </p>  
+
+
+ <p style="text-align:justify"><a href="#id9.1.2"> 9.1.2</a> <span id="id9.1.2"> 盖梁和系梁评定指标及分级评定标准：</span></p>
+    <ol>
+ <li>蜂窝、麻面评定标准见<a href="#B9.1.1-1">表9.1.1-1</a>。</li>
+ <li>剥落、露筋评定标准见<a href="#B9.1.1-2">表9.1.1-2</a>。</li>
+ <li>空洞、孔洞评定标准见<a href="#B9.1.1-3">表9.1.1-3</a>。</li>
+ <li>钢筋锈蚀评定标准见<a href="#B9.1.1-4">表9.1.1-4</a>。</li>
+ <li>混凝土碳化、腐蚀评定标准见<a href="#B9.1.1-5">表9.1.1-5</a>。</li>
+ <li>磨损评定标准见<a href="#B9.1.2">表9.1.2</a>。</li>
+ </ol>
+
+   <table id="biaoge" style="font-family:times new roman">
+
+     <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="B9.1.2">表9.1.2 裂缝</b></caption>	
+              
+		    <tr>
+		      <td  align="center" width=60px rowspan="2" id="dhbg">标度</td>
+		      <td  align="center"  colspan="2">评定指标</td>
+				  <!-- <td></td> -->
+		    </tr>
+  		  <tr>
+		     <!-- <td></td> -->
+		      <td align="center" width=360px>定性描述</td>
+				  <td align="center" width=480px>定量描述</td>
+		    </tr>
+  		  <tr>
+		     <td align="center">1</td>
+		     <td align="left">完好，无裂缝</td>
+			   <td align="center">—</td>
+		    </tr> 
+  		  <tr>
+		     <td align="center"rowspan="4">2</td>
+			   <td align="left">网状裂缝：局部网状开裂</td>
+			   <td align="left">网状裂缝：累计面积≤构件面积的20%，单处面积≤1.0m²</td>
+		    </tr> 
+  		  <tr>
+		      <!-- <td></td> -->
+			   <td align="left">墩帽顶面水平裂缝：少量裂缝，缝宽未超限</td>
+			   <td align="left">墩帽顶面水平裂缝：缝长≤截面尺寸的1/3</td>
+		    </tr>
+		      <!-- <td></td> -->
+			   <td align="left">由支承垫石从下向上发展的裂缝：缝宽未超限</td>
+			   <td align="left">由支承垫石从下向上发展的裂缝：缝长≤截面尺寸的1/3</td>
+		    </tr>
+		      <!-- <td></td> -->
+			   <td align="left">盖梁自上而下的垂直裂缝：缝宽未超限</td>
+			   <td align="left">盖梁自上而下的垂直裂缝：缝长≤截面尺寸的1/5，间距＞80cm</td>
+		    </tr>
+  		  <tr>
+		     <td align="center"rowspan="4">3</td>
+		     <td align="left">网状裂缝：局部网裂</td>
+			   <td align="left">网状裂缝：累计面积＞构件面积的20%，单处面积＞1.0m²</td>
+		     </tr>
+		      <!-- <td></td> -->
+			   <td align="left">墩帽顶面水平裂缝：缝宽未超限</td>
+			   <td align="left">墩帽顶面水平裂缝：缝长＞截面尺寸的1/3，且≤截面尺寸的2/3</td>
+		    </tr>
+		      <!-- <td></td> -->
+			   <td align="left">由支承垫石从下向上发展的裂缝：缝宽未超限</td>
+			   <td align="left">由支承垫石从下向上发展的裂缝：缝长＞截面尺寸的1/3，且≤截面尺寸的2/3</td>
+		    </tr>
+		      <!-- <td></td> -->
+			   <td align="left">墩盖梁自上而下的垂直裂缝：缝宽未超限</td>
+			   <td align="left">盖梁自上而下的垂直裂缝：缝长＞截面尺寸的1/5，且≤截面尺寸的1/3，间距≥50cm</td>
+		    </tr>       
+  		   <tr>
+		     <td align="center" rowspan="3">4</td>
+		     <td align="left">墩帽顶面水平裂缝：存在大量裂缝，缝宽超限</td>
+			   <td align="left">墩帽顶面水平裂缝：缝长＞截面尺寸的2/3，间距＜20cm</td>
+		     </tr>
+		      <!-- <td></td> -->
+			   <td align="left">由支承垫石从下向上发展的裂缝：存在大量裂缝，缝宽超限</td>
+			   <td align="left">由支承垫石从下向上发展的裂缝：缝长＞截面尺寸的2/3</td>
+		    </tr>
+		      <!-- <td></td> -->
+			   <td align="left">盖梁自上而下的垂直裂缝：裂缝贯通，缝宽超限</td>
+			   <td align="left">盖梁自上而下的垂直裂缝：缝长＞截面尺寸的1/3，间距＜50cm</td>
+		    </tr>
+		</table> 
+    <p> </p>
+
+9.2 桥台
+----------------------
+
+.. raw:: html
+
+ <p style="text-align:justify"><a href="#id9.2.1"> 9.2.1</a> <span id="id9.2.1"> 台身评定指标及分级评定标准：</span></p>
+ 
+    <ol>
+ <li>剥落评定标准见<a href="#B9.2.1-1">表9.2.1-1</a>。</li>
+ <li>空洞、孔洞评定标准见<a href="#B9.2.1-2">表9.2.1-2</a>。</li>
+ <li>磨损评定标准见<a href="#B9.2.1-3">表9.2.1-3</a>。</li>
+ <li>混凝土碳化、腐蚀评定标准见<a href="#B9.2.1-4">表9.2.1-4</a>。</li>
+ <li>圬工砌体缺陷评定标准见<a href="#B9.2.1-5">表9.2.1-5</a>。</li>
+ <li>桥头跳车评定标准见<a href="#B9.2.1-6">表9.2.1-6</a>。</li>
+ <li>台北排水状况评定标准见<a href="#B9.2.1-7">表9.2.1-7</a>。</li>
+ <li>位移评定标准见<a href="#B9.2.1-8">表9.2.1-8</a>。</li>
+ <li>裂缝评定标准见<a href="#B9.2.1-9">表9.2.1-9</a>。</li>  
+ </ol>
+
+  <table id="biaoge" style="font-family:times new roman">
+
+     <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="B9.2.1-1">表9.2.1-1 剥落</b></caption>	
+              
+    <tr>
+		      <td  align="center" width=60px rowspan="2" id="dhbg">标度</td>
+		      <td  align="center"  colspan="2">评定指标</td>
+				  <!-- <td></td> -->
+		    </tr>
+  		  <tr>
+		     <!-- <td></td> -->
+		      <td align="center" width=360px>定性描述</td>
+				  <td align="center" width=480px>定量描述</td>
+		    </tr>
+  		  <tr>
+		     <td align="center">1</td>
+		     <td align="left">完好</td>
+			   <td align="center">—</td>
+		    </tr> 
+  		  <tr>
+		     <td align="center">2</td>
+			   <td align="left">局部混凝土剥落</td>
+			   <td align="left">累计面积≤构件面积5%，单处面积≤0.5m²</td>
+		    </tr>
+  		  <tr>
+		     <td align="center">3</td>
+		     <td align="left">较大范围混凝土剥落</td>
+			   <td align="left">累计面积＞构件面积5%且≤构件面积的20%，单处面积≤1.0m²</td>
+		     </tr>       
+  		   <tr>
+		     <td align="center" >4</td>
+		     <td align="left">大范围混凝土剥落</td>
+			   <td align="left">累计面积＞构件面积的20%，单处面积＞1.0m²</td>
+		     </tr>       
+		</table> 
+    <p> </p>
+
+  <table id="biaoge" style="font-family:times new roman">
+
+     <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="B9.2.1-2">表9.2.1-2 空洞、孔洞</b></caption>	
+              
+		    <tr>
+		      <td  align="center" width=60px rowspan="2" id="dhbg">标度</td>
+		      <td  align="center"  colspan="2">评定指标</td>
+				  <!-- <td></td> -->
+		    </tr>
+  		  <tr>
+		     <!-- <td></td> -->
+		      <td align="center" width=360px>定性描述</td>
+				  <td align="center" width=480px>定量描述</td>
+		    </tr>
+  		  <tr>
+		     <td align="center">1</td>
+		     <td align="left">完好</td>
+			   <td align="center">—</td>
+		    </tr> 
+  		  <tr>
+		     <td align="center">2</td>
+			   <td align="left">局部空洞、孔洞</td>
+			   <td align="left">累计面积≤构件面积5%，单处面积≤0.5m²</td>
+		    </tr>
+  		  <tr>
+		     <td align="center">3</td>
+		     <td align="left">较大范围空洞、孔洞</td>
+			   <td align="left">累计面积＞构件面积5%且≤构件面积的20%，单处面积≤1.0m²或深度≤25mm</td>
+		     </tr>       
+  		   <tr>
+		     <td align="center" >4</td>
+		     <td align="left">大范围空洞、孔洞</td>
+			   <td align="left">累计面积＞构件面积的20%，单处面积＞1.0m²或深度＞25mm</td>
+		     </tr>       
+		</table> 
+    <p> </p>
+
+  <table id="biaoge" style="font-family:times new roman">
+
+     <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="B9.2.1-3">表9.2.1-3 磨损</b></caption>	
+              
+		    <tr>
+		      <td  align="center" width=60px rowspan="2" id="dhbg">标度</td>
+		      <td  align="center"  colspan="2">评定指标</td>
+				  <!-- <td></td> -->
+		    </tr>
+  		  <tr>
+		     <!-- <td></td> -->
+		      <td align="center" width=360px>定性描述</td>
+				  <td align="center" width=480px>定量描述</td>
+		    </tr>
+  		  <tr>
+		     <td align="center">1</td>
+		     <td align="left">完好</td>
+			   <td align="center">—</td>
+		    </tr> 
+  		  <tr>
+		     <td align="center">2</td>
+			   <td align="left">出现磨损，个别部位表面磨损，粗集料显露</td>
+			   <td align="left">累计面积≤构件面积10%</td>
+		    </tr>
+  		  <tr>
+		     <td align="center">3</td>
+		     <td align="left">大范围有磨损，粗集料显露</td>
+			   <td align="left">累计面积＞构件面积10%</td>
+		     </tr>        
+		</table> 
+    <p> </p>      
+
+ <table id="biaoge" style="font-family:times new roman">
+
+     <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="B9.2.1-4">表9.2.1-4 混凝土碳化、腐蚀</b></caption>	
+              
+		    <tr>
+		      <td  align="center" width=60px rowspan="2" id="dhbg">标度</td>
+		      <td  align="center" width=840px>评定指标</td>
+ 		    </tr> 
+        <tr> 
+         <!-- <td></td> -->       
+				 <td  align="center">定性描述</td>
+		    </tr>
+  		  <tr>
+		     <td align="center">1</td>
+		     <td align="left">完好</td>
+		    </tr> 
+  		  <tr>
+		     <td align="center">2</td>
+		     <td align="left">有局部碳化或腐蚀现象，且所有碳化深度均小于混凝土保护层厚度</td>
+		    </tr>
+  		  <tr>
+		     <td align="center">3</td>
+		      <td align="left">大部分出现碳化或腐蚀现象，局部碳化深度大于混凝土保护层厚度，混凝土表面少量胶凝料松散粉化</td>
+		    </tr>    
+  		</table> 
+      <p> </p> 
+
+ <table id="biaoge" style="font-family:times new roman">
+
+     <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="B9.2.1-5">表9.2.1-5 圬工砌体缺陷</b></caption>	
+              
+	    <tr>
+		      <td  align="center" width=60px rowspan="2" id="dhbg">标度</td>
+		      <td  align="center"  colspan="2">评定指标</td>
+				  <!-- <td></td> -->
+		    </tr>
+  		  <tr>
+		     <!-- <td></td> -->
+		      <td align="center" width=360px>定性描述</td>
+				  <td align="center" width=480px>定量描述</td>
+		    </tr>
+  		  <tr>
+		     <td align="center">1</td>
+		     <td align="left">完好</td>
+			   <td align="center">—</td>
+		    </tr> 
+  		  <tr>
+		     <td align="center">2</td>
+			   <td align="left">砌体局部出现灰缝脱落现象，或砌体局部出现破损、剥落等现象</td>
+			   <td align="left">灰缝脱落累计长度≤构件截面长度的10%，或破损、剥落累计面积＜构件面积的3%</td>
+		    </tr>
+  		  <tr>
+		     <td align="center">3</td>
+		     <td align="left">砌体大范围出现灰缝脱落现象，或砌体较大范围出现破损、剥落等现象</td>
+			   <td align="left">灰缝脱落累计长度＞构件截面长度的10%，或破损、剥落、局部变形等累计面积＞构件面积的3%且≤构件面积的10%</td>
+		     </tr>       
+  		   <tr>
+		     <td align="center" >4</td>
+		     <td align="left">砌体大范围出现破损、剥落、松动、变形等现象</td>
+			   <td align="left">破损、剥落、松动、变形等现象累计面积＞构件面积的10%</td>
+		     </tr>       
+		</table> 
+    <p> </p>      
+ 
+ <table id="biaoge" style="font-family:times new roman">
+
+     <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="B9.2.1-6">表9.2.1-6 桥头跳车</b></caption>	
+              
+		    <tr>
+		      <td  align="center" width=60px rowspan="2" id="dhbg">标度</td>
+		      <td  align="center"  colspan="2">评定指标</td>
+				  <!-- <td></td> -->
+		    </tr>
+  		  <tr>
+		     <!-- <td></td> -->
+		      <td align="center" width=360px>定性描述</td>
+				  <td align="center" width=480px>定量描述</td>
+		    </tr>
+  		  <tr>
+		     <td align="center">1</td>
+		     <td align="left">完好</td>
+			   <td align="center">—</td>
+		    </tr> 
+  		  <tr>
+		     <td align="center">2</td>
+			   <td align="left">台背路面轻微沉降，有轻度跳车现象</td>
+			   <td align="left">沉降值≤2cm</td>
+		    </tr>
+  		  <tr>
+		     <td align="center">3</td>
+		     <td align="left">台背路面沉降较大，桥头跳车明显</td>
+			   <td align="left">沉降值＞2cm且≤5cm</td>
+		     </tr>       
+  		   <tr>
+		     <td align="center" >4</td>
+		     <td align="left">台背路面明显沉降，桥头跳车严重</td>
+			   <td align="left">沉降值＞5cm</td>
+		     </tr>       
+		</table> 
+    <p> </p>
+
+ <table id="biaoge" style="font-family:times new roman">
+
+     <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="B9.2.1-7">表9.2.1-7 台背排水状况</b></caption>	
+              
+		    <tr>
+		      <td  align="center" width=60px rowspan="2" id="dhbg">标度</td>
+		      <td  align="center" width=840px>评定指标</td>
+ 		    </tr> 
+        <tr> 
+         <!-- <td></td> -->       
+				 <td  align="center">定性描述</td>
+		    </tr>
+  		  <tr>
+		     <td align="center">1</td>
+		     <td align="left">完好</td>
+		    </tr> 
+  		  <tr>
+		     <td align="center">2</td>
+		     <td align="left">台背排水不良，造成桥台被渗水污染</td>
+		    </tr>
+  		  <tr>
+		     <td align="center">3</td>
+		      <td align="left">台背填土排水不畅，填土出现膨胀或冻裂现象，造成挤压隆起，变形发展较快</td>
+		    </tr> 
+        <tr>
+		     <td align="center">4</td>
+		     <td align="left">台背填土排水不畅，填土出现膨胀或冻裂现象，造成台身、翼墙等构件出现大面积鼓肚或砌体松动，甚至出现严重变形</td>
+		    </tr>    
+  		</table> 
+
+    <p> </p>      
+
+ <table id="biaoge" style="font-family:times new roman">
+
+     <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="B9.2.1-8">表9.2.1-8 位移</b></caption>	
+              
+		    <tr>
+		      <td  align="center" width=60px rowspan="2" id="dhbg">标度</td>
+		      <td  align="center" width=840px>评定指标</td>
+ 		    </tr> 
+        <tr> 
+         <!-- <td></td> -->       
+				 <td  align="center">定性描述</td>
+		    </tr>
+  		  <tr>
+		     <td align="center">1</td>
+		     <td align="left">完好</td>
+		    </tr> 
+  		  <tr>
+		     <td align="center">2</td>
+		     <td align="center">—</td>
+		    </tr>
+  		  <tr>
+		     <td align="center">3</td>
+		      <td align="left">出现轻微下沉、倾斜滑动，发展缓慢或趋向稳定</td>
+		    </tr> 
+        <tr>
+		     <td align="center">4</td>
+		     <td align="left">桥台出现滑动、下沉、倾斜、冻拔等，台背填土有沉降裂缝或挤压隆起，变形发展较快，变形小于或等于规范值</td>
+		    </tr>  
+        <tr>
+		     <td align="center">5</td>
+		     <td align="left">桥台不稳定，出现严重滑动、下沉、位移、倾斜、冻拔等，造成结构和桥面变形过大，变形大于规范值或不能正常行车</td>
+		    </tr>    
+  		</table> 
+
+ <p style="text-align:justify;text-indent:2em;font-size:10px;">注：简支梁墩台允许沉降见<a href="#B9.1.1-8">表9.1.1-8</a>的表注</a></p> 
+
+   <table id="biaoge" style="font-family:times new roman">
+
+     <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="B9.2.1-9">表9.2.1-9 裂缝</b></caption>	
+              
+		    <tr>
+		      <td  align="center" width=60px rowspan="2" id="dhbg">标度</td>
+		      <td  align="center"  colspan="2">评定指标</td>
+				  <!-- <td></td> -->
+		    </tr>
+  		  <tr>
+		     <!-- <td></td> -->
+		      <td align="center" width=360px>定性描述</td>
+				  <td align="center" width=480px>定量描述</td>
+		    </tr>
+  		  <tr>
+		     <td align="center">1</td>
+		     <td align="left">完好，无裂缝</td>
+			   <td align="center">—</td>
+		    </tr> 
+  		  <tr>
+		     <td align="center"rowspan="6">2</td>
+			   <td align="left">网状裂缝：局部网状开裂</td>
+			   <td align="left">网状裂缝：累计面积≤构件面积的20%，单处面积≤1.0m²</td>
+		    </tr> 
+  		  <tr>
+		      <!-- <td></td> -->
+			   <td align="left">从基础向上发展至台身的裂缝；缝宽未超限</td>
+			   <td align="left">从基础向上发展至台身的裂缝；缝宽≤截面尺寸的1/5</td>
+		    </tr>
+		      <!-- <td></td> -->
+			   <td align="left">台身的水平裂缝：缝宽未超限</td>
+			   <td align="left">台身的水平裂缝：缝长≤台身宽的1/8</td>
+		    </tr>
+		      <!-- <td></td> -->
+			   <td align="left">竖向裂缝：缝宽未超限</td>
+			   <td align="left">竖向裂缝：缝长≤截面尺寸的1/3</td>
+		    </tr>
+		      <!-- <td></td> -->
+			   <td align="left">翼墙和前墙断裂的裂缝：出现开裂，缝宽未超限</td>
+			   <td align="left">翼墙和前墙断裂的裂缝：缝长≤截面尺寸的1/3</td>
+		    </tr>
+		      <!-- <td></td> -->
+			   <td align="left">镶面石突出的裂缝：局部开裂</td>
+			   <td align="left">镶面石突出的裂缝：累计面积≤构件面积的10%，单处面积≤0.5m²</td>
+		    </tr>
+  		  <tr>
+		     <td align="center"rowspan="6">3</td>
+		     <td align="left">网状裂缝：局部网状裂缝</td>
+			   <td align="left">网状裂缝：累计面积＞构件面积的20%，单处面积＞1.0m²</td>
+		     </tr>
+		      <!-- <td></td> -->
+			   <td align="left">从基础向上发展至台身的裂缝；缝宽未超限</td>
+			   <td align="left">从基础向上发展至台身的裂缝；缝宽＞截面尺寸的1/5且≤截面尺寸的1/3，间距≥20cm</td>
+		    </tr>
+		      <!-- <td></td> -->
+			   <td align="left">台身的水平裂缝：缝宽未超限</td>
+			   <td align="left">台身的水平裂缝：缝长≤台身宽的1/8</td>
+		    </tr>
+		      <!-- <td></td> -->
+			   <td align="left">竖向裂缝：缝宽未超限</td>
+			   <td align="left">竖向裂缝：缝长＞截面尺寸的1/3且≤截面尺寸的1/2，间距≥20cm</td>
+		    </tr>
+		      <!-- <td></td> -->
+			   <td align="left">翼墙和前墙断裂的裂缝：出现开裂，缝宽未超限</td>
+			   <td align="left">翼墙和前墙断裂的裂缝：缝长＞截面尺寸的1/3且≤截面尺寸的2/3</td>
+		    </tr>
+		      <!-- <td></td> -->
+			   <td align="left">镶面石突出的裂缝：局部开裂</td>
+			   <td align="left">镶面石突出的裂缝：累计面积＞构件面积的10%，单处面积＞1.0m²</td>
+		    </tr>      
+  		   <tr>
+		     <td align="center" rowspan="4">4</td>
+		     <td align="left">从基础向上发展至台身的裂缝；重点部位缝宽超限</td>
+			   <td align="left">从基础向上发展至台身的裂缝；缝宽＞截面尺寸的1/3，间距＜20cm</td>
+		     </tr>
+		      <!-- <td></td> -->
+			   <td align="left">台身的水平裂缝：重点部位缝宽超限</td>
+			   <td align="left">台身的水平裂缝：缝长＞台身宽的1/8</td>
+		    </tr>
+		      <!-- <td></td> -->
+			   <td align="left">竖向裂缝：重点部位缝宽超限</td>
+			   <td align="left">竖向裂缝：缝长＞截面尺寸的1/2，间距＜20cm</td>
+		    </tr>
+		      <!-- <td></td> -->
+			   <td align="left">翼墙和前墙断裂的裂缝：出现开裂，缝宽超限</td>
+			   <td align="left">翼墙和前墙断裂的裂缝：缝长＞截面尺寸的2/3，缝宽＞1.0mm</td>
+		    </tr>
+  		   <tr>
+		     <td align="center" >5</td>
+		     <td align="left">桥台出现结构性裂缝，桥台变形失稳</td>
+			   <td align="left">缝宽＞1.0mm，缝长＞台身宽的2/3</td>
+		     </tr>       
+		</table> 
+    <p> </p>  
+ 
+ <p style="text-align:justify"><a href="#id9.2.2"> 9.2.2</a> <span id="id9.2.2"> 台帽评定指标及分级评定标准：</span></p>
+
+  <ol>
+ <li>破损评定标准见<a href="#B9.2.2-1">表9.2.2-1</a>。</li>
+ <li>混凝土碳化、腐蚀评定标准见<a href="#B9.2.2-2">表9.2.2-2</a>。</li>
+ <li>裂缝评定标准见<a href="#B9.2.2-3">表9.2.2-3</a>。</li>
+ <li>空洞、孔洞评定标准见<a href="#B9.2.1-2">表9.2.1-2</a>。</li>
+ </ol>
+
+  <table id="biaoge" style="font-family:times new roman">
+
+     <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="B9.2.2-1">表9.2.2-1 破损</b></caption>	
+              
+		    <tr>
+		      <td  align="center" width=60px rowspan="2" id="dhbg">标度</td>
+		      <td  align="center"  colspan="2">评定指标</td>
+				  <!-- <td></td> -->
+		    </tr>
+  		  <tr>
+		     <!-- <td></td> -->
+		      <td align="center" width=360px>定性描述</td>
+				  <td align="center" width=480px>定量描述</td>
+		    </tr>
+  		  <tr>
+		     <td align="center">1</td>
+		     <td align="left">完好</td>
+			   <td align="center">—</td>
+		    </tr> 
+  		  <tr>
+		     <td align="center">2</td>
+			   <td align="left">局部混凝土剥落、磨损等</td>
+			   <td align="left">累计面积≤构件面积10%，单处面积≤0.5m²</td>
+		    </tr>
+  		  <tr>
+		     <td align="center">3</td>
+		     <td align="left">较大范围混凝土剥落，磨损等</td>
+			   <td align="left">累计面积＞构件面积10%且≤构件面积20%，单处面积≤1.0m²</td>
+		     </tr>
+  		  <tr>
+		     <td align="center">4</td>
+		     <td align="left">大范围混凝土剥落，磨损等</td>
+			   <td align="left">累计面积≥构件面积20%，单处面积＞1.0m²</td>
+		     </tr>        
+		</table> 
+    <p> </p>      
+
+ <table id="biaoge" style="font-family:times new roman">
+
+     <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="B9.2.2-2">表9.2.2-2 混凝土碳化、腐蚀</b></caption>	
+              
+		    <tr>
+		      <td  align="center" width=60px rowspan="2" id="dhbg">标度</td>
+		      <td  align="center" width=840px>评定指标</td>
+ 		    </tr> 
+        <tr> 
+         <!-- <td></td> -->       
+				 <td  align="center">定性描述</td>
+		    </tr>
+  		  <tr>
+		     <td align="center">1</td>
+		     <td align="left">无碳化现象</td>
+		    </tr> 
+  		  <tr>
+		     <td align="center">2</td>
+		     <td align="left">有局部碳化或腐蚀现象，且所有碳化深度均小于混凝土保护层厚度</td>
+		    </tr>
+  		  <tr>
+		     <td align="center">3</td>
+		      <td align="left">大部分出现碳化或腐蚀现象，局部碳化深度大于混凝土保护层厚度，混凝土表面松散粉化</td>
+		    </tr>    
+  		</table> 
+      <p> </p> 
+
+  <table id="biaoge" style="font-family:times new roman">
+
+     <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="B9.2.2-3">表9.2.2-3 裂缝</b></caption>	
+              
+		    <tr>
+		      <td  align="center" width=60px rowspan="2" id="dhbg">标度</td>
+		      <td  align="center"  colspan="2">评定指标</td>
+				  <!-- <td></td> -->
+		    </tr>
+  		  <tr>
+		     <!-- <td></td> -->
+		      <td align="center" width=360px>定性描述</td>
+				  <td align="center" width=480px>定量描述</td>
+		    </tr>
+  		  <tr>
+		     <td align="center">1</td>
+		     <td align="left">完好，无裂缝</td>
+			   <td align="center">—</td>
+		    </tr>
+  		  <tr>
+		     <td align="center"rowspan="2">2</td>
+			   <td align="left">由支承垫石从下向上发展的裂缝：缝宽未超限</td>
+			   <td align="left">由支承垫石从下向上发展的裂缝：缝长≤截面尺寸的2/3</td>
+		    </tr> 
+  		  <tr>
+		     <!-- <td></td> -->
+			 <td align="left">台帽自上而下的垂直裂缝：缝宽未超限</td>
+			 <td align="left">台帽自上而下的垂直裂缝：缝长≤截面尺寸的2/3，间距≥20cm</td>
+		    </tr>
+  		  <tr>
+		     <td align="center"rowspan="2">3</td>
+		     <td align="left">由支承垫石从下向上发展的裂缝：缝宽超限</td>
+			   <td align="left">由支承垫石从下向上发展的裂缝：缝长＞截面尺寸的2/3</td>
+		     </tr> 
+  		  <tr>
+		     <!-- <td></td> -->
+			 <td align="left">台帽自上而下的垂直裂缝：缝宽超限</td>
+			 <td align="left">台帽自上而下的垂直裂缝：缝宽＞限值且≤1.0mm，缝长＞截面尺寸的2/3，间距＜20cm</td>
+		    </tr>       
+  		   <tr>
+		     <td align="center" >4</td>
+		     <td align="left">台帽自上而下的垂直裂缝：缝宽超限</td>
+			   <td align="left">台帽自上而下的垂直裂缝：缝宽＞1.0mm，缝长＞截面尺寸的2/3，间距＜20cm</td>
+		     </tr>       
+		</table> 
+    <p> </p>
+
+9.3 基础
+---------------------------------
+.. raw:: html
+
+ <p style="text-align:justify"><a href="#id9.3.1"> 9.3.1</a> <span id="id9.3.1"> 应对基础及河底铺砌的缺损情况进行详细检查。水下部分可通过相关辅助手段（水下摄像机、水下腐蚀电位测量仪等）进行检查，了解构建的损伤、损坏情况。</span></p>
+ <p style="text-align:justify"><a href="#id9.3.2"> 9.3.2</a> <span id="id9.3.2"> 基础（包括水下基础）评定指标积分及评定标准：</span></p>
+    <ol>
+ <li>冲刷、掏空评定标准见<a href="#B9.3.2-1">表9.3.2-1</a>。</li>
+ <li>剥落、露筋评定标准见<a href="#B9.3.2-2">表9.3.2-2</a>。</li>
+ <li>冲蚀评定标准见<a href="#B9.3.2-3">表9.3.2-3</a>。</li>
+ <li>河底铺砌损坏评定标准见<a href="#B9.3.2-4">表9.3.2-4</a>。</li>
+ <li>沉降评定标准见<a href="#B9.3.2-5">表9.3.2-5</a>。</li>
+ <li>滑移和倾斜评定标准见<a href="#B9.3.2-6">表9.3.2-6</a>。</li>
+ <li>裂缝评定标准见<a href="#B9.3.2-7">表9.3.2-7</a>。</li>
+  </ol>
+
+  <table id="biaoge" style="font-family:times new roman">
+
+     <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="B9.3.2-1">表9.3.2-1 冲刷、掏空</b></caption>	
+              
+		    <tr>
+		      <td  align="center" width=60px rowspan="2" id="dhbg">标度</td>
+		      <td  align="center"  colspan="2">评定指标</td>
+				  <!-- <td></td> -->
+		    </tr>
+  		  <tr>
+		     <!-- <td></td> -->
+		      <td align="center" width=360px>定性描述</td>
+				  <td align="center" width=480px>定量描述</td>
+		    </tr>
+  		  <tr>
+		     <td align="center">1</td>
+		     <td align="left">完好</td>
+			 <td align="center">—</td>
+		    </tr> 
+  		  <tr>
+		     <td align="center">2</td>
+			 <td align="left">基础无冲蚀现象，表面长有青苔、杂草</td>
+			 <td align="center">—</td>
+		    </tr>
+  		  <tr>
+		     <td align="center">3</td>
+		     <td align="left">基础有局部冲蚀现象，部分外露，但未露出基底</td>
+			 <td align="left">基础冲空面积≤10%</td>
+		     </tr>
+  		  <tr>
+		     <td align="center">4</td>
+		     <td align="left">浅基被冲空，露出底面，冲刷深度大于设计值</td>
+			 <td align="left">基础冲空面积且＞10%且≤20%</td>
+		     </tr>
+  		  <tr>
+		     <td align="center">5</td>
+		     <td align="left">冲刷深度大于设计值，地基失效，承载力降低，或桥台岸坡滑移或基础无法修复</td>
+			   <td align="left">基础冲空面积且＞20%</td>
+		     </tr>         
+		</table> 
+    <p> </p>      
+
+  <table id="biaoge" style="font-family:times new roman">
+
+     <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="B9.3.2-2">表9.3.2-2 剥落、露筋</b></caption>	
+              
+		    <tr>
+		      <td  align="center" width=60px rowspan="2" id="dhbg">标度</td>
+		      <td  align="center"  colspan="2">评定指标</td>
+				  <!-- <td></td> -->
+		    </tr>
+  		  <tr>
+		     <!-- <td></td> -->
+		      <td align="center" width=360px>定性描述</td>
+				  <td align="center" width=480px>定量描述</td>
+		    </tr>
+  		  <tr>
+		     <td align="center">1</td>
+		     <td align="left">完好</td>
+			   <td align="center">—</td>
+		    </tr> 
+  		  <tr>
+		     <td align="center">2</td>
+			   <td align="left">承台出现少量剥落、露筋、锈蚀现象，或基础少量混凝土剥落</td>
+			   <td align="left">累计面积≤构件面积3%，单处面积≤0.25m²</td>
+		    </tr>
+  		  <tr>
+		     <td align="center">3</td>
+		     <td align="left">承台较大范围出现剥落、露筋、锈蚀现象，或基础小范围出现剥落、露筋、锈蚀现象</td>
+			   <td align="left">剥落、露筋累计面积＞构件面积3%且≤构件面积10%，单处面积＞0.25m²且≤1.0m²</td>
+		     </tr>
+  		  <tr>
+		     <td align="center">4</td>
+		     <td align="left">承台大范围出现严重剥落、露筋、锈蚀现象且混凝土出现严重锈蚀裂缝，或基础较大范围出现剥落、露筋、主筋严重锈蚀</td>
+			   <td align="left">剥落、露筋累计面积＞构件面积10%且≤构件面积20%，单处面积＞1.0m²</td>
+		     </tr>
+  		  <tr>
+		     <td align="center">5</td>
+		     <td align="left">基础大量剥落、露筋且主筋有锈断现象，基础失稳</td>
+			   <td align="left">基础剥落、露筋累计面积＞构件面积20%，单处面积＞1.0m²</td>
+		     </tr>         
+		</table> 
+    <p> </p> 
+
+  <table id="biaoge" style="font-family:times new roman">
+
+     <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="B9.3.2-3">表9.3.2-3 冲蚀</b></caption>	
+              
+		    <tr>
+		      <td  align="center" width=60px rowspan="2" id="dhbg">标度</td>
+		      <td  align="center"  colspan="2">评定指标</td>
+				  <!-- <td></td> -->
+		    </tr>
+  		  <tr>
+		     <!-- <td></td> -->
+		      <td align="center" width=360px>定性描述</td>
+				  <td align="center" width=480px>定量描述</td>
+		    </tr>
+  		  <tr>
+		     <td align="center">1</td>
+		     <td align="left">完好</td>
+			   <td align="center">—</td>
+		    </tr> 
+  		  <tr>
+		     <td align="center">2</td>
+			   <td align="left">基础或承台有轻微磨损、腐蚀现象，个别部位表面磨耗，粗骨料显露</td>
+			   <td align="left">累计面积≤构件面积3%</td>
+		    </tr>
+  		  <tr>
+		     <td align="center">3</td>
+		     <td align="left">基础或承台大范围被侵蚀，有磨损、缩颈，露筋或者环状冻裂现象；或桩基顶面出现较大空洞</td>
+			   <td align="left">累计面积＞构件面积3%且≤构件面积10%</td>
+		     </tr>
+  		  <tr>
+		     <td align="center">4</td>
+		     <td align="left">混凝土腐蚀或钢筋大量锈蚀并有锈断现象；或有严重冻融现象，造成大面积混凝土胀裂</td>
+			   <td align="left">累计面积＞构件面积10%</td>
+		     </tr>        
+		</table> 
+    <p> </p> 	
+
+ <table id="biaoge" style="font-family:times new roman">
+
+     <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="B9.3.2-4">表9.3.2-4 河底铺砌损坏</b></caption>	
+              
+		    <tr>
+		      <td  align="center" width=60px rowspan="2" id="dhbg">标度</td>
+		      <td  align="center" width=840px>评定指标</td>
+ 		    </tr> 
+        <tr> 
+         <!-- <td></td> -->       
+				 <td  align="center">定性描述</td>
+		    </tr>
+  		  <tr>
+		     <td align="center">1</td>
+		     <td align="left">河底铺砌完好，无冲刷现象</td>
+		    </tr> 
+  		  <tr>
+		     <td align="center">2</td>
+		     <td align="left">河底铺砌局部轻微冲刷或损坏</td>
+		    </tr>
+  		  <tr>
+		     <td align="center">3</td>
+		      <td align="left">河底铺砌冲刷较重或损坏严重</td>
+		    </tr> 
+  		  <tr>
+		     <td align="center">4</td>
+		      <td align="left">河底铺砌出现严重冲刷淘空或损坏</td>
+		    </tr>    
+  		</table> 
+      <p> </p> 
+
+ <table id="biaoge" style="font-family:times new roman">
+
+     <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="B9.3.2-5">表9.3.2-5 沉降</b></caption>	
+              
+		    <tr>
+		      <td  align="center" width=60px rowspan="2" id="dhbg">标度</td>
+		      <td  align="center" width=840px>评定指标</td>
+ 		    </tr> 
+        <tr> 
+         <!-- <td></td> -->       
+				 <td  align="center">定性描述</td>
+		    </tr>
+  		  <tr>
+		     <td align="center">1</td>
+		     <td align="left">完好</td>
+		    </tr> 
+  		  <tr>
+		     <td align="center">2</td>
+		     <td align="center">—</td>
+		    </tr>
+  		  <tr>
+		     <td align="center">3</td>
+		      <td align="left">出现轻微的下沉，发展缓慢或下沉趋于稳定化</td>
+		    </tr>
+  		  <tr>
+		     <td align="center">4</td>
+		      <td align="left">出现下沉现象，沉降量小于或等于规范值</td>
+		    </tr>
+  		  <tr>
+		     <td align="center">5</td>
+		      <td align="left">基础不稳定，下沉现象严重，沉降量大于规范值，造成上部结构和桥面系变形过大</td>
+		    </tr>    
+  		</table> 
+    <p style="text-align:justify;text-indent:2em;font-size:10px;">注：简支梁基础允许沉降——均匀总沉降值（不包括施工中沉降）：2.0<math xmlns='http://www.w3.org/1998/Math/MathML'> <msqrt> <mi> L </mi> </msqrt> </math> cm;相邻墩台均匀沉降值差值（不包括施工中沉降）：1.0<math xmlns='http://www.w3.org/1998/Math/MathML'> <msqrt> <mi> L </mi> </msqrt> </math> cm。<i>L</i>为相邻墩台间最小跨境长度，以米计。跨径小于25m时仍以25m计。</p>  
+
+ <table id="biaoge" style="font-family:times new roman">
+
+     <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="B9.3.2-6">表9.3.2-6 滑移和倾斜</b></caption>	
+              
+		    <tr>
+		      <td  align="center" width=60px rowspan="2" id="dhbg">标度</td>
+		      <td  align="center" width=840px>评定指标</td>
+ 		    </tr> 
+        <tr> 
+         <!-- <td></td> -->       
+				 <td  align="center">定性描述</td>
+		    </tr>
+  		  <tr>
+		     <td align="center">1</td>
+		     <td align="left">完好</td>
+		    </tr> 
+  		  <tr>
+		     <td align="center">2</td>
+		      <td align="center">—</td>
+		    </tr>
+  		  <tr>
+		     <td align="center">3</td>
+		      <td align="left">出现滑移或倾斜，导致支座和墩台支承面轻微损坏，或导致伸缩装置破坏、接缝减小、伸缩机能受损，但发展缓缓慢或下沉趋于稳定</td>
+		    </tr>
+  		  <tr>
+		     <td align="center">4</td>
+		      <td align="left">基础出现滑移或倾斜，导致支座和墩台支承面被严重破坏，或导致伸缩装置破坏、接缝减小、伸缩机能完全丧失，或滑移量过大，梁端与胸墙紧贴</td>
+		    </tr> 
+  		  <tr>
+		     <td align="center">5</td>
+		      <td align="left">滑移量过大导致前墙破坏或局部破碎、压曲，或基础不稳定，滑移或倾斜现象严重，或导致梁体从支承面上滑落</td>
+		    </tr>     
+  		</table> 
+      <p> </p> 	  	  
+
+  <table id="biaoge" style="font-family:times new roman">
+
+     <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="B9.3.2-7">表9.3.2-7 裂缝</b></caption>	
+              
+		    <tr>
+		      <td  align="center" width=60px rowspan="2" id="dhbg">标度</td>
+		      <td  align="center"  colspan="2">评定指标</td>
+				  <!-- <td></td> -->
+		    </tr>
+  		  <tr>
+		     <!-- <td></td> -->
+		      <td align="center" width=360px>定性描述</td>
+				  <td align="center" width=480px>定量描述</td>
+		    </tr>
+  		  <tr>
+		     <td align="center">1</td>
+		     <td align="left">完好</td>
+			   <td align="center">—</td>
+		    </tr> 
+  		  <tr>
+		     <td align="center">2</td>
+			   <td align="left">结构应力异常，出现剪切裂缝，缝宽未超限</td>
+			   <td align="left">缝长≤截面尺寸的1/3</td>
+		    </tr>
+  		  <tr>
+		     <td align="center">3</td>
+		     <td align="left">结构应力异常，出现剪切裂缝，缝宽未超限</td>
+			   <td align="left">缝长＞截面尺寸的1/3且≤截面尺寸的1/2</td>
+		     </tr>
+  		  <tr>
+		     <td align="center">4</td>
+		     <td align="left">结构应力异常，出现剪切裂缝或混凝土出现碎裂</td>
+			   <td align="left">缝宽＞限值且≤1.0mm，缝长＞截面尺寸的1/2</td>
+		     </tr>
+  		  <tr>
+		     <td align="center">5</td>
+		     <td align="left">结构应力异常，出现剪切裂缝，裂缝贯通，基础处于失稳状态，或基础现结构性裂缝甚至断裂</td>
+			   <td align="left">缝宽＞1.0mm，缝长＞截面尺寸的1/2</td>
+		     </tr>          
+		</table> 
+    <p> </p> 
+
+9.4 翼墙、耳墙
+----------------------
+
+.. raw:: html
+
+ <p style="text-align:justify"><a href="#id9.4.1"> 9.4.1</a> <span id="id9.4.1"> 翼墙、耳墙评定指标及分级评定标准：</span></p>
+ <ol>
+ <li>破损评定标准见<a href="#B9.4.1-1">表9.4.1-1</a>。</li>
+ <li>位移评定标准见<a href="#B9.4.1-2">表9.4.1-2</a>。</li>
+ <li>鼓肚、砌体松动评定标准见<a href="#B9.4.1-3">表9.4.1-3</a>。</li>
+ <li>裂缝评定标准见<a href="#B9.4.1-4">表9.4.1-4</a>。</li>
+  </ol>
+
+
+  <table id="biaoge" style="font-family:times new roman">
+
+     <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="B9.4.1-1">表9.4.1-1 破损</b></caption>	
+              
+		    <tr>
+		      <td  align="center" width=60px rowspan="2" id="dhbg">标度</td>
+		      <td  align="center"  colspan="2">评定指标</td>
+				  <!-- <td></td> -->
+		    </tr>
+  		  <tr>
+		     <!-- <td></td> -->
+		      <td align="center" width=360px>定性描述</td>
+				  <td align="center" width=480px>定量描述</td>
+		    </tr>
+  		  <tr>
+		     <td align="center">1</td>
+		     <td align="left">完好</td>
+			   <td align="center">—</td>
+		    </tr> 
+  		  <tr>
+		     <td align="center">2</td>
+			   <td align="left">局部混凝土出现空洞、孔洞、剥落，或砖石表面小块脱落</td>
+			   <td align="left">累计面积≤构件面积的5%，单处面积≤0.5m²</td>
+		    </tr>
+  		  <tr>
+		     <td align="center">3</td>
+		     <td align="left">较大范围混凝土或砖石出现空洞、孔洞、剥落</td>
+			   <td align="left">累计面积＞构件面积的5%且≤构件面积的30%，单处面积≤1.0m²</td>
+		     </tr>
+  		  <tr>
+		     <td align="center">4</td>
+		     <td align="left">大范围混凝土或砖石出现空洞、孔洞、剥落</td>
+			   <td align="left">累计面积＞构件面积的20%</td>
+		     </tr>         
+		</table> 
+    <p> </p>
+
+ <table id="biaoge" style="font-family:times new roman">
+
+     <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="B9.4.1-2">表9.4.1-2 位移</b></caption>	
+              
+		    <tr>
+		      <td  align="center" width=60px rowspan="2" id="dhbg">标度</td>
+		      <td  align="center" width=840px>评定指标</td>
+ 		    </tr> 
+        <tr> 
+         <!-- <td></td> -->       
+				 <td  align="center">定性描述</td>
+		    </tr>
+  		  <tr>
+		     <td align="center">1</td>
+		     <td align="left">完好</td>
+		    </tr> 
+  		  <tr>
+		     <td align="center">2</td>
+		      <td align="center">—</td>
+		    </tr>
+  		  <tr>
+		     <td align="center">3</td>
+		      <td align="left">存在明显的永久变形，但无明显的外倾、下沉，或出现填料损失，但仍可起到挡土的作用</td>
+		    </tr>
+  		  <tr>
+		     <td align="center">4</td>
+		      <td align="left">有下沉、滑动现象，造成翼墙断裂，外倾失稳，砌体变形，部分倒塌，或填料严重流失，失去挡土功能</td>
+		    </tr>    
+  		</table> 
+      <p> </p> 	
+
+ <table id="biaoge" style="font-family:times new roman">
+
+     <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="B9.4.1-3">表9.4.1-3 鼓肚、砌体松动</b></caption>	
+              
+		    <tr>
+		      <td  align="center" width=60px rowspan="2" id="dhbg">标度</td>
+		      <td  align="center" width=840px>评定指标</td>
+ 		    </tr> 
+        <tr> 
+         <!-- <td></td> -->       
+				 <td  align="center">定性描述</td>
+		    </tr>
+  		  <tr>
+		     <td align="center">1</td>
+		     <td align="left">完好</td>
+		    </tr> 
+  		  <tr>
+		     <td align="center">2</td>
+		      <td align="left">局部鼓肚，砌体松动</td>
+		    </tr>
+  		  <tr>
+		     <td align="center">3</td>
+		      <td align="left">大面积鼓肚，砌体松动</td>
+		    </tr>
+  		  <tr>
+		     <td align="center">4</td>
+		      <td align="left">大面积鼓肚，砌体松动，甚至出现严重渗漏</td>
+		    </tr>     
+  		</table> 
+      <p> </p> 		  
+
+  <table id="biaoge" style="font-family:times new roman">
+
+     <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="B9.4.1-4">表9.4.1-4 裂缝</b></caption>	
+              
+		    <tr>
+		      <td  align="center" width=60px rowspan="2" id="dhbg">标度</td>
+		      <td  align="center"  colspan="2">评定指标</td>
+				  <!-- <td></td> -->
+		    </tr>
+  		  <tr>
+		     <!-- <td></td> -->
+		      <td align="center" width=360px>定性描述</td>
+				  <td align="center" width=480px>定量描述</td>
+		    </tr>
+  		  <tr>
+		     <td align="center">1</td>
+		     <td align="left">完好或有轻微网裂</td>
+			   <td align="left">网裂总面积≤10%</td>
+		    </tr> 
+  		  <tr>
+		     <td align="center">2</td>
+			   <td align="left">较多网裂，出现个别网裂，缝宽未超限</td>
+			   <td align="left">网裂总面积＞10%</td>
+		    </tr>
+  		  <tr>
+		     <td align="center">3</td>
+		     <td align="left">出现多处裂缝，未贯通，缝宽超限，或翼墙或耳墙有断裂，与前墙脱开现象</td>
+			   <td align="center">—</td>
+		     </tr>
+  		  <tr>
+		     <td align="center">4</td>
+		     <td align="left">出现通缝，裂缝超限，或翼墙或耳墙断裂，与前墙完全脱开</td>
+			   <td align="center">—</td>
+		     </tr>         
+		</table> 
+    <p> </p>	
+
+9.5 锥坡、护坡
+----------------------
+
+.. raw:: html
+
+ <p style="text-align:justify"><a href="#id9.5.1"> 9.5.1</a> <span id="id9.5.1"> 锥坡、护坡评定指标及分级评定标准：</span></p>
+ <ol>
+ <li>缺陷评定标准见<a href="#B9.5.1-1">表9.5.1-1</a>。</li>
+ <li>冲刷评定标准见<a href="#B9.5.1-2">表9.5.1-2</a>。</li>
+  </ol>
+
+  <table id="biaoge" style="font-family:times new roman">
+
+     <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="B9.5.1-1">表9.5.1-1 缺陷</b></caption>	
+              
+		    <tr>
+		      <td  align="center" width=60px rowspan="2" id="dhbg">标度</td>
+		      <td  align="center"  colspan="2">评定指标</td>
+				  <!-- <td></td> -->
+		    </tr>
+  		  <tr>
+		     <!-- <td></td> -->
+		      <td align="center" width=360px>定性描述</td>
+				  <td align="center" width=480px>定量描述</td>
+		    </tr>
+  		  <tr>
+		     <td align="center">1</td>
+		     <td align="left">完好</td>
+			   <td align="center">—</td>
+		    </tr> 
+  		  <tr>
+		     <td align="center">2</td>
+			   <td align="left">铺砌面局部隆起、凹陷、开裂，砌缝砂浆脱落，或局部铺砌面下滑，坡角损坏</td>
+			   <td align="left">缺陷面积≤10%</td>
+		    </tr>
+  		  <tr>
+		     <td align="center">3</td>
+		     <td align="left">铺砌面出现大面积隆起、凹陷、开裂，砌缝砂浆脱落</td>
+			   <td align="left">缺陷面积＞10%且≤20%</td>
+		     </tr>
+  		  <tr>
+		     <td align="center">4</td>
+		     <td align="left">出现孔洞，破损等，丧失锥坡、护坡功能，或锥坡体和坡脚损坏严重，大面积滑坡、坍塌，坡顶下降较大，锥坡、护坡作用明显降低</td>
+			   <td align="left">缺陷面积＞20%</td>
+		     </tr>          
+		</table> 
+    <p> </p>	
+
+ <table id="biaoge" style="font-family:times new roman">
+
+     <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="B9.5.1-2">表9.5.1-2 冲刷</b></caption>	
+              
+		    <tr>
+		      <td  align="center" width=60px rowspan="2" id="dhbg">标度</td>
+		      <td  align="center" width=840px>评定指标</td>
+ 		    </tr> 
+        <tr> 
+         <!-- <td></td> -->       
+				 <td  align="center">定性描述</td>
+		    </tr>
+  		  <tr>
+		     <td align="center">1</td>
+		     <td align="left">完好</td>
+		    </tr> 
+  		  <tr>
+		     <td align="center">2</td>
+		      <td align="left">局部冲成浅坑</td>
+		    </tr>
+  		  <tr>
+		     <td align="center">3</td>
+		      <td align="left">坡脚局部冲蚀，冲成深坑，沟或槽</td>
+		    </tr>
+  		  <tr>
+		     <td align="center">4</td>
+		      <td align="left">堆坡体和坡脚冲蚀严重，基础有淘空现象</td>
+		    </tr>     
+  		</table> 
+      <p> </p> 	
+
+
+9.6 河床及调治构造物
+----------------------
+
+.. raw:: html
+
+ <p style="text-align:justify"><a href="#id9.6.1"> 9.6.1</a> <span id="id9.6.1"> 河床评定指标及分级评定标准：</span></p>
+  <ol>
+ <li>堵塞评定标准见<a href="#B9.6.1-1">表9.6.1-1</a>。</li>
+ <li>冲刷评定标准见<a href="#B9.6.1-2">表9.6.1-2</a>。</li>
+ <li>河床变迁评定标准见<a href="#B9.6.1-3">表9.6.1-3</a>。</li>
+  </ol>
+ <table id="biaoge" style="font-family:times new roman">
+
+     <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="B9.6.1-1">表9.6.1-1 堵塞</b></caption>	
+              
+		    <tr>
+		      <td  align="center" width=60px rowspan="2" id="dhbg">标度</td>
+		      <td  align="center" width=840px>评定指标</td>
+ 		    </tr> 
+        <tr> 
+         <!-- <td></td> -->       
+				 <td  align="center">定性描述</td>
+		    </tr>
+  		  <tr>
+		     <td align="center">1</td>
+		     <td align="left">完好</td>
+		    </tr> 
+  		  <tr>
+		     <td align="center">2</td>
+		      <td align="left">局部有漂流物，堵塞河道</td>
+		    </tr>
+  		  <tr>
+		     <td align="center">3</td>
+		      <td align="left">多处有漂流物堵塞河道</td>
+		    </tr>
+  		  <tr>
+		     <td align="center">4</td>
+		      <td align="left">河道被完全堵塞</td>
+		    </tr>    
+  		</table> 
+      <p> </p> 	
+
+	 <table id="biaoge" style="font-family:times new roman">
+
+     <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="B9.6.1-2">表9.6.1-2 冲刷</b></caption>	
+              
+		    <tr>
+		      <td  align="center" width=60px rowspan="2" id="dhbg">标度</td>
+		      <td  align="center" width=840px>评定指标</td>
+ 		    </tr> 
+        <tr> 
+         <!-- <td></td> -->       
+				 <td  align="center">定性描述</td>
+		    </tr>
+  		  <tr>
+		     <td align="center">1</td>
+		     <td align="left">河床稳定，无冲刷现象</td>
+		    </tr> 
+  		  <tr>
+		     <td align="center">2</td>
+		      <td align="left">局部轻微冲刷</td>
+		    </tr>
+  		  <tr>
+		     <td align="center">3</td>
+		      <td align="left">冲刷较重，墩台底有淘空现象，防护体损坏严重</td>
+		    </tr>
+  		  <tr>
+		     <td align="center">4</td>
+		      <td align="left">河床压缩，出现严重冲刷淘空，危及桥梁安全</td>
+		    </tr>    
+  		</table> 
+      <p> </p> 	
+
+	 <table id="biaoge" style="font-family:times new roman">
+
+     <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="B9.6.1-3">表9.6.1-3 河床变迁</b></caption>	
+              
+		    <tr>
+		      <td  align="center" width=60px rowspan="2" id="dhbg">标度</td>
+		      <td  align="center" width=840px>评定指标</td>
+ 		    </tr> 
+        <tr> 
+         <!-- <td></td> -->       
+				 <td  align="center">定性描述</td>
+		    </tr>
+  		  <tr>
+		     <td align="center">1</td>
+		     <td align="left">完好</td>
+		    </tr> 
+  		  <tr>
+		     <td align="center">2</td>
+		      <td align="left">局部轻微淤积</td>
+		    </tr>
+  		  <tr>
+		     <td align="center">3</td>
+		      <td align="left">河床淤泥严重，河床扩宽有变迁趋势</td>
+		    </tr>
+  		  <tr>
+		     <td align="center">4</td>
+		      <td align="left">已出现变迁、扩宽现象，并有发展趋势</td>
+		    </tr>    
+  		</table> 
+      <p> </p> 	    
+
+ <p style="text-align:justify"><a href="#id9.6.2"> 9.6.2</a> <span id="id9.6.2"> 调制构造物评定指标及分级评定标准：</span></p>
+ 
+  <ol>
+ <li>损坏评定标准见<a href="#B9.6.2-1">表9.6.2-1</a>。</li>
+ <li>冲刷、变形评定标准见<a href="#B9.6.2-2">表9.6.2-2</a>。</li>
+  </ol>
+ <table id="biaoge" style="font-family:times new roman">
+
+     <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="B9.6.2-1">表9.6.2-1 损坏</b></caption>	
+              
+	   <tr>
+		 <td  align="center" width=60px rowspan="2" id="dhbg">标度</td>
+		 <td  align="center" width=840px>评定指标</td>
+ 		 </tr> 
+        <tr> 
+         <!-- <td></td> -->       
+				 <td  align="center">定性描述</td>
+		    </tr>
+  		  <tr>
+		     <td align="center">1</td>
+		     <td align="left">完好</td>
+		    </tr> 
+  		  <tr>
+		     <td align="center">2</td>
+		      <td align="left">构造物局部断裂，砌体松动、鼓肚、凹陷或灰浆脱落</td>
+		    </tr>
+  		  <tr>
+		     <td align="center">3</td>
+		      <td align="left">表面出现大面积损坏或坡脚局部损坏</td>
+		    </tr>
+  		  <tr>
+		     <td align="center">4</td>
+		      <td align="left">需要设置但没有设置调治构造物者</td>
+		    </tr>     
+  		</table> 
+      <p> </p> 	
+
+	 <table id="biaoge" style="font-family:times new roman">
+
+     <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="B9.6.2-2">表9.6.2-2 冲刷、变形</b></caption>	
+              
+	   <tr>
+		 <td  align="center" width=60px rowspan="2" id="dhbg">标度</td>
+		 <td  align="center" width=840px>评定指标</td>
+ 		 </tr> 
+        <tr> 
+         <!-- <td></td> -->       
+				 <td  align="center">定性描述</td>
+		    </tr>
+  		  <tr>
+		     <td align="center">1</td>
+		     <td align="left">完好</td>
+		    </tr> 
+  		  <tr>
+		     <td align="center">2</td>
+		      <td align="left">边坡局部下滑，基础局部冲空</td>
+		    </tr>
+  		  <tr>
+		     <td align="center">3</td>
+		      <td align="left">边坡大面积下滑，构造物出现下沉、倾斜，局部坍塌</td>
+		    </tr>
+  		  <tr>
+		     <td align="center">4</td>
+		      <td align="left">构造物出现下沉、倾斜、坍塌，基础冲蚀严重</td>
+		    </tr>   
+  		</table> 
+      <p> </p> 	   
+ 
+:math:`\ `

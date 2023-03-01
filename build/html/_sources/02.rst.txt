@@ -1,0 +1,117 @@
+2 术语和符号
+=================
+
+.. raw:: html
+
+  <h2 id="test111">2 术语和符号</h2>
+
+
+2.1 术语
+--------------------
+.. raw:: html
+
+ <p style="text-align:justify"><a href="#id2.1.1"> 2.1.1</a> <span id="id2.1.1"> 桥梁构件 bridge member<br>
+ 组成桥梁结构的最小单元，如一片梁、一个桥墩等。</span></p>
+ <p style="text-align:justify"><a href="#id2.1.2"> 2.1.2</a> <span id="id2.1.2"> 桥梁部件 bridge component<br>
+ 结构中同类构件的统称，如梁、桥墩等。</span></p>
+ <p style="text-align:justify"><a href="#id2.1.3"> 2.1.3</a> <span id="id2.1.3"> 蜂窝 voids<br>
+ 混凝土局部不密实或松散，混凝土表面多砂少浆，呈蜂窝状孔洞。</span></p>
+ <p style="text-align:justify"><a href="#id2.1.4"> 2.1.4</a> <span id="id2.1.4"> 麻面 hungry spots<br>
+ 混凝上表面局部缺浆、粗糙，或有大量小凹坑的现象</span></p>
+ <p style="text-align:justify"><a href="#id2.1.5"> 2.1.5</a> <span id="id2.1.5"> 剥落 spalling<br>
+ 混凝土表层脱落、粗集料外露的现象。严重时，成片状脱落，钢筋外露。</span></p>
+ <p style="text-align:justify"><a href="#id2.1.6"> 2.1.6</a> <span id="id2.1.6"> 掉角 edge failure<br>
+ 构件角边处混凝上局部掉落，或出现不规整缺陷。</span></p>
+ <p style="text-align:justify"><a href="#id2.1.7"> 2.1.7</a> <span id="id2.1.7"> 裂缝 erack<br>
+ 构件表面的开裂现象。混凝土中裂缝的严重程度，可依据裂缝的产生原因、长度与宽度的大小及其是否随时间而增加等因素来判断。本标准中构件上下底面裂缝根据性状不同分为：网状裂缝、纵向裂缝、横向裂缝、斜向裂缝；侧立面裂缝根据性状不同分为：网状裂缝、竖向裂缝、斜向裂缝、水平裂缝。</span></p>
+ <p style="text-align:justify"><a href="#id2.1.8"> 2.1.8</a> <span id="id2.1.8"> 跨中挠度 mid-span deflection<br>
+ 桥梁结构或构件在荷载作用下跨中截面产生的竖向位移。</span></p>
+ <p style="text-align:justify"><a href="#id2.1.9"> 2.1.9</a> <span id="id2.1.9"> 结构位移 structural displacement<br>
+ 由于基础移动、超载、碰撞、火灾、冲刷等原因引起的结构或构件位置的移动或截面的转动。</span></p>
+ <p style="text-align:justify"><a href="#id2.1.10"> 2.1.10</a> <span id="id2.1.10"> 涂层缺陷 coating defect<br>
+ 钢结构表面涂层出现流痕、气泡、白化、起皱、起皮等现象。</span></p>
+ <p style="text-align:justify"><a href="#id2.1.11"> 2.1.11</a> <span id="id2.1.11"> 磨损 abrasion<br>
+ 构件在车辆、水流等外界作用下出现的集料和砂浆的表面磨耗脱损现象。</span></p>
+ <p style="text-align:justify"><a href="#id2.1.12"> 2.1.12</a> <span id="id2.1.12"> 桥梁基础冲刷、淘空 scour and cavem of bridge foundation <br>
+ 在水流作用下，基础周围埋置物被冲刷淘空的现象。</span></p>
+
+
+2.2 符号
+-------------------------------
+
+.. raw:: html
+
+
+ <body>
+ <table border="0" style="font-family:times new roman" >
+ <tr>
+ <td width=70px align="right"><i>D</i><sub>r</sub></td>
+ <td width=20px align="center">——</td>
+ <td  align="left">桥梁总体技术状况评分；</td>
+ </tr>
+ <tr>
+ <td align="right"><i>D</i><sub>j</sub></td>
+ <td  align="center">——</td>
+ <td  align="left">桥梁总体技术状况等级；</td>
+ </tr>
+  <tr>
+ <td align="right">SPCI</td>
+ <td  align="center">——</td>
+ <td  align="left">桥梁上部结构技术状况评分：</td>
+ </tr>
+  <tr>
+ <td align="right">PCCI</td>
+ <td  align="center">——</td>
+ <td  align="left">桥梁上部结构各部件技术状况评分：</td>
+ </tr>
+  <tr>
+ <td align="right">PMCI</td>
+ <td  align="center">——</td>
+ <td  align="left">桥梁上部结构各构件技术状况评分：</td>
+ </tr>
+  <tr>
+ <td align="right">SBCI</td>
+ <td  align="center">——</td>
+ <td  align="left">桥梁下部结构技术状况评分；</td>
+ </tr>
+  <tr>
+ <td align="right">BCCI</td>
+ <td  align="center">——</td>
+ <td  align="left">桥梁下部结构各部件技术状况评分：</td>
+ </tr>
+  <tr>
+ <td align="right">BMCI</td>
+ <td  align="center">——</td>
+ <td  align="left">桥梁下部结构各构件技术状况评分；</td>
+ </tr>
+  <tr>
+ <td align="right">BDCI</td>
+ <td  align="center">——</td>
+ <td  align="left">桥面系技术状况评分：</td>
+ </tr>
+  <tr>
+ <td align="right">DCCI</td>
+ <td  align="center">——</td>
+ <td  align="left">桥面系各部件技术状况评分；</td>
+ </tr>
+  <tr>
+ <td align="right">DMCI</td>
+ <td  align="center">——</td>
+ <td  align="left">桥面系各构件技术状况评分；</td>
+ </tr>
+  <tr>
+ <td align="right"><i>W</i></td>
+ <td  align="center">——</td>
+ <td  align="left">桥梁各部件技术状况评定权值；</td>
+ </tr>
+  <tr>
+ <td align="right">DP</td>
+ <td  align="center">——</td>
+ <td  align="left">桥梁构件各类病害的扣分值。</td>
+ </tr>
+ </table>
+	</body>
+ <p></p>
+
+
+
