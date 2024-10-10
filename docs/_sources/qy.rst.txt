@@ -7,31 +7,53 @@
 
 .. raw:: html
 
- <p style="text-align:justify;text-indent:2em;">根据原交通部《关于下达2004年度公路工程标准制修订项目计划的通知》（厅公路字〔2004〕165号）的要求，由原交通部公路科学研究所主持《公路桥梁养护质量检查评价标准》的制定工作，此标准在2005年大纲审查会上更名为《公路桥梁技术状况评定标准）。</p>
- <p style="text-align:justify;text-indent:2em;">编写组按照“全面，实用”的指导原则，进行了广泛的调查研究，查阅了大量国内外有关桥梁技术状况评定的文献资料，对国内外公路桥梁评定的实践经验进行消化吸收。为增强标准的可操作性，编写组征求了全国各省市相关单位和专家的意见，在总结经验、广泛征求意见、技术论证及大量试点应用的基础上，完成了编制任务。</p>
- <p style="text-align:justify;text-indent:2em;">本标准按不同桥型进行桥梁评定分类，并细化不同桥型的部件分类；根据不同桥型的部件类型制定评定细则，将评定指标进行细分并提出了量化标准；提出了5类桥梁技术状况单项控制指标；改进了桥梁技术状况的评定模型。</p>
- <p style="text-align:justify;text-indent:2em;">请各有关单位在执行中，将发现的问题和建议，函告交通运输部公路科学研究院（地址：北京市海淀区西土城路8号，邮编：100088，邮箱：xinqiaozp＠163．com），以便修订时研用。</p>
+ <p style="text-align:justify;text-indent:2em;">根据交通运输部厅公路字〔2011〕115号《关于下达2011年度公路工程标准制修订项目计划的通知》的要求，由中交公路规划设计院有限公司作为主编单位承担对《公路钢筋混凝土及预应力混凝土桥涵设计规范》(JTG D62-2004)的修订工作。经批准颁发后以《公路钢筋混凝土及预应力混凝土桥涵设计规范》(JTG 3362-2018)颁布实施。</p>
+ <p style="text-align:justify;text-indent:2em;">在修订过程中，规范修订组进行了大量的专题研究工作，吸取了国内其他单位的研究成果和实际工程设计经验；参考、借鉴了国内外相关标准规范。在规范条文初稿编写完成以后，通过多种方式广泛征求了设计、施工、建设、管理等有关单位和专家的意见，经过反复讨论、修改，最终定稿。</p>
+ <p style="text-align:justify;text-indent:2em;">本次修订的主要内容包括：调整了混凝土桥涵用钢筋等级；增加了桥梁结构设计的基本要求；强化了混凝土桥涵的耐久性设计要求；补充了混凝土箱梁桥抗倾覆验算要求、针对复杂桥梁的实用精细化分析方法、体外预应力桥梁设计方法、混凝土桥梁应力扰动区设计方法；调整了圆形截面受压构件的正截面承载力计算方法；增加了不同边界条件下确定受压构件计算长度系数的计算公式；调整了钢筋混凝土及 B 类预应力混凝土结构裂缝宽度计算方法；补充调整了构造设计要求。</p>
+ <p style="text-align:justify;text-indent:2em;">请各有关单位在执行过程中，将发现的问题和意见，函告本规范日常管理组，联系人：李会驰(地址：北京市德胜门外大街83号德胜国际中心B座407室，中交公路规划设计院有限公司，邮政编码：100088,传真：010-82017041,电子邮箱：sssohpdi@163.com),以便修订时研用。</p>
  
   <body>
  <table border="0" style="font-family:times new roman" >
  <tr>
- <td width=100px><br><br><b>主&nbsp;编&nbsp;单&nbsp;位&nbsp;:</b></td>
- <td><br><br>交通运输部公路科学研究院</td>
+ <td width=120px><br/><b>主  &nbsp;编  &nbsp;单  &nbsp;位 &nbsp;:</b></td>
+ <td><br/>中交公路规划设计院有限公司</td>
+ </tr>
+  <tr>
+ <td ><b>参 &nbsp;编 &nbsp;单 &nbsp;位 &nbsp;:</b></td>
+ <td>同济大学</td>
  </tr>
  <tr>
- <td width=100px><b>主要起草人:</b></td>
- <td>李昌铸&emsp;张劲泉&emsp;夏晓霞&emsp;申&emsp;强&emsp;赵之杰&emsp;李万恒&emsp;张建升&emsp;程寿山&emsp;罗贵州&emsp;张&emsp;臣&emsp;刘&emsp;渊&emsp;张&emsp;磊&emsp;韩&emsp;帅</td>
+ <td > </td>
+ <td>东南大学</td>
  </tr>
+ <tr>
+ <td > </td>
+ <td>交通运输部公路科学研究院</td>
+ </tr>
+ <tr>
+ <td > </td>
+ <td>大连理工大学</td>
+ </tr>
+ <tr>
+ <td > </td>
+ <td>中交公路长大桥建设国家工程研究中心有限公司</td>
+ </tr>   
+ <tr>
+ <td ><b>主&emsp;&emsp;&emsp;&nbsp;&nbsp;&nbsp;&nbsp;编：</b></td>
+ <td>袁&emsp;洪</td>
+ </tr>
+ <tr>
+ <td ><b>主要参编人员:</b></td>
+ <td >赵君黎、徐国平、徐&emsp;栋、刘&emsp;钊、吕建鸣、贡金鑫、冯&emsp;芪、李会驰、李文杰</td>
+ </tr>
+ <tr>
+ <td ><b>主&emsp;&emsp;&emsp;&nbsp;&nbsp;&nbsp;&nbsp;审：</b></td>
+ <td>袁&emsp;洪</td>
+ </tr>
+ <tr>
+ <td ><b>参与审查人员:</b></td>
+ <td >余培玉、杨耀铨、冯鹏程、席广恒、张少青、李怀峰、马健中、刘俊起、刘东旭、戴本良、徐宏光、韩大章、李&emsp;正、史方华、钟明全、田&emsp;波、梁立农、包琦玮、秦大航、徐&emsp;岳</td>
+ </tr> 
  </table>
 	</body>
-
-  <style>
-        #abc{
-            height:200px;
-            background-color: #f0ffff;
-        }
-    </style>
- </head>
- <body>
-    <div id="abc"></div>
- </body>
+ <p></p>

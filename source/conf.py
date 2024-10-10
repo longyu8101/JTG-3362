@@ -6,7 +6,7 @@
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
-project = '公路桥梁技术状况评定标准<br /><br />JTG/T H21-2011'
+project = '公路钢筋混凝土及预应力混凝土<br /><br />桥涵设计规范<br /><br />JTG 3362-2018'
 copyright = '哈尔滨工业大学' 
 
 # -- General configuration ---------------------------------------------------
@@ -33,7 +33,7 @@ html_theme = 'sphinx_rtd_theme'
 
 # html_theme = 'sphinx_book_theme'
 
-html_title = "公路桥梁技术状况评定标准 GB55001-2021"
+html_title = "公路钢筋混凝土及预应力混凝土桥涵设计规范 JTG 3362-2018"
 # html_logo = "_static/logo.png"
 html_favicon = "_static/logo.png"
 

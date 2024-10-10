@@ -10,18 +10,18 @@
  <p></p>
 
  
-公路桥梁技术状况评定标准
+公路钢筋混凝土及预应力混凝土桥涵设计规范
 =========================================
 .. raw:: html
 
  <p></p>
 
-  <h1 id="test111" ><font size="6"><br/><br/><br/>公路桥梁技术状况评定标准</font></h1>
+  <h1 id="test111" ><font size="6"><br/><br/><br/>公路钢筋混凝土及预应力混凝土桥涵设计规范</font></h1>
 
- <b><br/><br/><font size="3">Standards for Technical Condition Evaluation of Highway Bridges</font></b>
+ <b><br/><br/><font size="3">Specifications for Design of Highway Reinforced Concrete <br/> and Prestressed Concrete Bridges and Culverts</font></b>
 
 
-  <b><br/><br/><br/><font size="4">JTG/T H21-2011</font></b>
+  <b><br/><br/><br/><font size="4">JTG 3362-2018</font></b>
 
  <p></p>
 
@@ -30,7 +30,7 @@
  <table border="0" style="font-family:times new roman" >
  <tr>
  <td><font size="4"><br/><br/>主编单位:</font></td>
- <td><font size="4"><br/><br/>交通运输部公路科学研究院</font></td>
+ <td><font size="4"><br/><br/>中交公路规划设计院有限公司</font></td>
  </tr>
  <tr>
  <td><font size="4"><br/>批准部门：</font></td>
@@ -38,7 +38,7 @@
  </tr>
  <tr>
  <td><font size="4"><br/>实施日期：</font></td>
- <td><font size="4"><br/>2011年09月01日</font></td>
+ <td><font size="4"><br/>2018年11月1日</font></td>
  </tr>
  </table>
 	</body>
@@ -47,7 +47,7 @@
 
     <style>
         #abc{
-            height:300px;
+            height:100px;
             background-color: #f0ffff;
         }
     </style>
@@ -58,7 +58,7 @@
 
 
 
- <p><b><font size="4">人民交通出版社</font></b></p>
+ <p><b><font size="4">人民交通出版社股份有限公司</font></b></p>
 
 
 
@@ -68,7 +68,6 @@
     :maxdepth: 3
     :hidden:
     
-    gg
     qy
     01
     02
