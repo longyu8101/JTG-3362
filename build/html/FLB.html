@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="zh" >
+<head>
+  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>附录B 拉压杆模型分析方法 (新增) &mdash; 公路钢筋混凝土及预应力混凝土桥涵设计规范 JTG 3362-2018</title>
+      <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="_static/css/custom.css" type="text/css" />
+      <link rel="stylesheet" href="_static/css/custom.css" type="text/css" />
+    <link rel="shortcut icon" href="_static/logo.png"/>
+  <!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+        <script src="_static/jquery.js"></script>
+        <script src="_static/underscore.js"></script>
+        <script src="_static/_sphinx_javascript_frameworks_compat.js"></script>
+        <script src="_static/doctools.js"></script>
+        <script src="_static/sphinx_highlight.js"></script>
+    <script src="_static/js/theme.js"></script>
+    <link rel="index" title="索引" href="genindex.html" />
+    <link rel="search" title="搜索" href="search.html" />
+    <link rel="next" title="附录C 混凝土收缩应变和徐变系数计算及钢筋松弛损失中间值与终极值的比值" href="FLC.html" />
+    <link rel="prev" title="附录A 桥梁结构的实用精细化分析模型 (新增)" href="FLA.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+            <a href="index.html" class="icon icon-home"> 公路钢筋混凝土及预应力混凝土<br /><br />桥涵设计规范<br /><br />JTG 3362-2018
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="搜索文档" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="导航菜单">
+              <p class="caption" role="heading"><span class="caption-text">目次</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="qy.html">前言</a></li>
+<li class="toctree-l1"><a class="reference internal" href="01.html">1 总则</a></li>
+<li class="toctree-l1"><a class="reference internal" href="02.html">2 术语和符号</a></li>
+<li class="toctree-l1"><a class="reference internal" href="03.html">3 材料</a></li>
+<li class="toctree-l1"><a class="reference internal" href="04.html">4 结构设计基本规定</a></li>
+<li class="toctree-l1"><a class="reference internal" href="05.html">5 持久状况承载能力极限状态计算</a></li>
+<li class="toctree-l1"><a class="reference internal" href="06.html">6  持久状况正常使用极限状态计算</a></li>
+<li class="toctree-l1"><a class="reference internal" href="07.html">7  持久状况和短暂状况构件的应力计算</a></li>
+<li class="toctree-l1"><a class="reference internal" href="08.html">8  构件计算的规定</a></li>
+<li class="toctree-l1"><a class="reference internal" href="09.html">9  构造规定</a></li>
+<li class="toctree-l1"><a class="reference internal" href="FLA.html">附录A 桥梁结构的实用精细化分析模型 (新增)</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">附录B 拉压杆模型分析方法 (新增)</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#b-1">B.1  一般规定</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#b-2">B.2 构建方法</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#b-3">B.3 验算内容</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="FLC.html">附录C 混凝土收缩应变和徐变系数计算及钢筋松弛损失中间值与终极值的比值</a></li>
+<li class="toctree-l1"><a class="reference internal" href="FLD.html">附录D 温差作用效应计算公式</a></li>
+<li class="toctree-l1"><a class="reference internal" href="FLE.html">附录E 受压构件计算长度的简化计算公式 (新增)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="FLF.html">附录F 沿周边均匀配置纵向钢筋的圆形截面钢筋混凝土偏心受压构件正截面抗压承载力计算(新增)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="FLG.html">附录G 预应力曲线钢筋由锚具变形、钢筋回缩和接缝压缩引起的考虑反向摩擦后的预应力损失简化计算</a></li>
+<li class="toctree-l1"><a class="reference internal" href="FLH.html">附录H 后张法预应力混凝土构件弹性压缩损失的简化计算</a></li>
+<li class="toctree-l1"><a class="reference internal" href="FLJ.html">附录J 允许开裂的B类预应力混凝土受弯构件受压区高度计算</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ycsm.html">本规范用词用语说明</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">条文说明</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="twsm/t01.html">1 总则</a></li>
+<li class="toctree-l1"><a class="reference internal" href="twsm/t02.html">2 术语和符号</a></li>
+<li class="toctree-l1"><a class="reference internal" href="twsm/t03.html">3 材料</a></li>
+<li class="toctree-l1"><a class="reference internal" href="twsm/t04.html">4 结构设计基本规定</a></li>
+<li class="toctree-l1"><a class="reference internal" href="twsm/t05.html">5 持久状况承载能力极限状态计算</a></li>
+<li class="toctree-l1"><a class="reference internal" href="twsm/t06.html">6  持久状况正常使用极限状态计算</a></li>
+<li class="toctree-l1"><a class="reference internal" href="twsm/t07.html">7  持久状况和短暂状况构件的应力计算</a></li>
+<li class="toctree-l1"><a class="reference internal" href="twsm/t08.html">8  构件计算的规定</a></li>
+<li class="toctree-l1"><a class="reference internal" href="twsm/t09.html">9  构造规定</a></li>
+<li class="toctree-l1"><a class="reference internal" href="twsm/tFLA.html">附录A 桥梁结构的实用精细化分析模型 (新增)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="twsm/tFLB.html">附录B 拉压杆模型分析方法 (新增)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="twsm/tFLC.html">附录C 混凝土收缩应变和徐变系数计算及钢筋松弛损失中间值与终极值的比值</a></li>
+<li class="toctree-l1"><a class="reference internal" href="twsm/tFLD.html">附录D 温差作用效应计算公式</a></li>
+<li class="toctree-l1"><a class="reference internal" href="twsm/tFLE.html">附录E 受压构件计算长度的简化计算公式 (新增)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="twsm/tFLF.html">附录F 沿周边均匀配置纵向钢筋的圆形截面钢筋混凝土偏心受压构件正截面抗压承载力计算(新增)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="twsm/tFLG.html">附录G 预应力曲线钢筋由锚具变形、钢筋回缩和接缝压缩引起的考虑反向摩擦后的预应力损失简化计算</a></li>
+<li class="toctree-l1"><a class="reference internal" href="twsm/tFLJ.html">附录J 允许开裂的B类预应力混凝土受弯构件受压区高度计算</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="移动版导航菜单" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">公路钢筋混凝土及预应力混凝土<br /><br />桥涵设计规范<br /><br />JTG 3362-2018</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="页面导航">
+  <ul class="wy-breadcrumbs">
+      <li><a href="index.html" class="icon icon-home"></a></li>
+      <li class="breadcrumb-item active">附录B 拉压杆模型分析方法 (新增)</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="_sources/FLB.rst.txt" rel="nofollow"> 查看页面源码</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="b">
+<h1>附录B 拉压杆模型分析方法 (新增)<a class="headerlink" href="#b" title="此标题的永久链接"></a></h1>
+<h2 id="test111">附录B 拉压杆模型分析方法 (新增)</h2><section id="b-1">
+<h2>B.1  一般规定<a class="headerlink" href="#b-1" title="此标题的永久链接"></a></h2>
+<p style="text-align:justify"><a href="#idB.1.1"> B.1.1</a> <span id="idB.1.1"> 混凝土桥梁的应力扰动区范围，宜根据圣维南原理确定。</span></p>
+<p style="text-align:justify"><a href="#idB.1.2"> B.1.2</a> <span id="idB.1.2"> 混凝土桥梁的应力扰动区，可采用拉压杆模型按如下步骤进行简化分析：</span></p>
+<ol>
+<li>根据结构边界条件及受力情况，确定应力扰动区的范围(见第B.1.1条)。</li>
+<li>构建应力扰动区的拉压杆模型(见B.2节)。</li>
+<li>根据应力扰动区边界上的作用力设计值和拉压杆模型的受力平衡条件，求解模型中各杆件的内力设计值。</li>
+<li>进行拉杆、压杆和节点的强度验算(见B.3节),确认拉杆、压杆和节点区域所选择的材料强度、配筋及构造尺寸是否满足要求。</li>
+<li>若验算不能通过，则需要对拉压杆模型的构形甚至结构尺寸进行调整，并重复以上步骤；若验算通过，再根据构造要求进行详细配筋设计，并且构件表面的构造分布钢筋应满足第B.3.5条的规定。</li>
+</ol></section>
+<section id="b-2">
+<h2>B.2 构建方法<a class="headerlink" href="#b-2" title="此标题的永久链接"></a></h2>
+<p style="text-align:justify"><a href="#idB.2.1"> B.2.1</a> <span id="idB.2.1"> 拉压杆模型应满足受力平衡条件，并正确反映混凝土结构内部的力流传递特征。</span></p>
+
+
+<p style="text-align:justify"><a href="#idB.2.2"> B.2.2</a> <span id="idB.2.2"> 构建拉压杆模型可采用荷载路径法、应力迹线法、力流线法、最小应变能准则、最大强度准则等方法。</span></p>
+
+
+<p style="text-align:justify"><a href="#idB.2.3"> B.2.3</a> <span id="idB.2.3"> 拉压杆模型中，拉杆与压杆之间的最小夹角不宜小于25°。</span></p></section>
+<section id="b-3">
+<h2>B.3 验算内容<a class="headerlink" href="#b-3" title="此标题的永久链接"></a></h2>
+<p style="text-align:justify"><a href="#idB.3.1"> B.3.1</a> <span id="idB.3.1">  拉压杆模型的拉杆、压杆和节点，应按下式进行承载力验算：</span></p>
+<p style="text-align:justify"><a href="#idB.3.2"> B.3.2</a> <span id="idB.3.2">  拉杆应配置普通钢筋或预应力钢筋，其承载力设计值应按下式计算：</span></p>
+<p style="text-align:justify"><a href="#idB.3.3"> B.3.3</a> <span id="idB.3.3">  混凝土压杆的承载力设计值应按下列规定计算：</span></p>
+<p style="text-align:justify"><a href="#idB.3.4"> B.3.4</a> <span id="idB.3.4">  节点的承载力设计值，应按下列公式计算：</span></p>
+<p style="text-align:justify"><a href="#idB.3.5"> B.3.5</a> <span id="idB.3.5">  按照拉压杆模型设计的应力扰动区，应在表面配置正交的钢筋网，网格间距不得超过300 mm,钢筋面积对混凝土毛截面积的比值在各个方向不应小于0.3%。</span></p></section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="页脚">
+        <a href="FLA.html" class="btn btn-neutral float-left" title="附录A 桥梁结构的实用精细化分析模型 (新增)" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> 上一页</a>
+        <a href="FLC.html" class="btn btn-neutral float-right" title="附录C 混凝土收缩应变和徐变系数计算及钢筋松弛损失中间值与终极值的比值" accesskey="n" rel="next">下一页 <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; 版权所有 哈尔滨工业大学.</p>
+  </div>
+
+  利用 <a href="https://www.sphinx-doc.org/">Sphinx</a> 构建，使用的 
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">主题</a>
+    由 <a href="https://readthedocs.org">Read the Docs</a> 开发.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

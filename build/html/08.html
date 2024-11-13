@@ -4,7 +4,7 @@
   <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>8 斜拉桥主要构件评定技术状况评定 &mdash; 公路钢筋混凝土及预应力混凝土桥涵设计规范 JTG 3362-2018</title>
+  <title>8 构件计算的规定 &mdash; 公路钢筋混凝土及预应力混凝土桥涵设计规范 JTG 3362-2018</title>
       <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
       <link rel="stylesheet" href="_static/css/custom.css" type="text/css" />
       <link rel="stylesheet" href="_static/css/custom.css" type="text/css" />
@@ -19,11 +19,12 @@
         <script src="_static/_sphinx_javascript_frameworks_compat.js"></script>
         <script src="_static/doctools.js"></script>
         <script src="_static/sphinx_highlight.js"></script>
+        <script async="async" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
     <script src="_static/js/theme.js"></script>
     <link rel="index" title="索引" href="genindex.html" />
     <link rel="search" title="搜索" href="search.html" />
-    <link rel="next" title="9 桥梁下部结构构件技术状况评定" href="09.html" />
-    <link rel="prev" title="7 悬索桥主要构建技术评定状况" href="07.html" /> 
+    <link rel="next" title="9 构造规定" href="09.html" />
+    <link rel="prev" title="7 持久状况和短暂状况构件的应力计算" href="07.html" /> 
 </head>
 
 <body class="wy-body-for-nav"> 
@@ -43,40 +44,56 @@
         </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="导航菜单">
               <p class="caption" role="heading"><span class="caption-text">目次</span></p>
 <ul class="current">
-<li class="toctree-l1"><a class="reference internal" href="gg.html">中华人民共和国交通运输部公告</a></li>
 <li class="toctree-l1"><a class="reference internal" href="qy.html">前言</a></li>
 <li class="toctree-l1"><a class="reference internal" href="01.html">1 总则</a></li>
 <li class="toctree-l1"><a class="reference internal" href="02.html">2 术语和符号</a></li>
-<li class="toctree-l1"><a class="reference internal" href="03.html">3 评定方法及等级分类</a></li>
-<li class="toctree-l1"><a class="reference internal" href="04.html">4 桥梁技术状况评定</a></li>
-<li class="toctree-l1"><a class="reference internal" href="05.html">5 梁式桥上部结构构件技术状况评定</a></li>
-<li class="toctree-l1"><a class="reference internal" href="06.html">6 拱式桥上部结构构件技术状况评定</a></li>
-<li class="toctree-l1"><a class="reference internal" href="07.html">7 悬索桥主要构建技术评定状况</a></li>
-<li class="toctree-l1 current"><a class="current reference internal" href="#">8 斜拉桥主要构件评定技术状况评定</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="#id2">8.1 斜拉索</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#id3">8.2 斜拉索护套</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#id4">8.3 主梁</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#id5">8.4 索塔</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#id6">8.5 锚具</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#id7">8.6 减震装置</a></li>
+<li class="toctree-l1"><a class="reference internal" href="03.html">3 材料</a></li>
+<li class="toctree-l1"><a class="reference internal" href="04.html">4 结构设计基本规定</a></li>
+<li class="toctree-l1"><a class="reference internal" href="05.html">5 持久状况承载能力极限状态计算</a></li>
+<li class="toctree-l1"><a class="reference internal" href="06.html">6  持久状况正常使用极限状态计算</a></li>
+<li class="toctree-l1"><a class="reference internal" href="07.html">7  持久状况和短暂状况构件的应力计算</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">8  构件计算的规定</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#id2">8.1 组合式受弯构件</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id3">8.2 后张预应力混凝土锚固区 (新增)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id4">8.3 支座处横隔梁 (新增)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id5">8.4 墩台盖梁</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id6">8.5 桩基承台</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id7">8.6 铰</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id8">8.7 支座</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id9">8.8 桥梁伸缩装置</a></li>
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="09.html">9 桥梁下部结构构件技术状况评定</a></li>
-<li class="toctree-l1"><a class="reference internal" href="10.html">10 桥面系构件技术状况评定</a></li>
-<li class="toctree-l1"><a class="reference internal" href="FLA.html">附录A 桥梁检查评定记录表</a></li>
-<li class="toctree-l1"><a class="reference internal" href="ycsm.html">本标准用此说明</a></li>
+<li class="toctree-l1"><a class="reference internal" href="09.html">9  构造规定</a></li>
+<li class="toctree-l1"><a class="reference internal" href="FLA.html">附录A 桥梁结构的实用精细化分析模型 (新增)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="FLB.html">附录B 拉压杆模型分析方法 (新增)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="FLC.html">附录C 混凝土收缩应变和徐变系数计算及钢筋松弛损失中间值与终极值的比值</a></li>
+<li class="toctree-l1"><a class="reference internal" href="FLD.html">附录D 温差作用效应计算公式</a></li>
+<li class="toctree-l1"><a class="reference internal" href="FLE.html">附录E 受压构件计算长度的简化计算公式 (新增)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="FLF.html">附录F 沿周边均匀配置纵向钢筋的圆形截面钢筋混凝土偏心受压构件正截面抗压承载力计算(新增)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="FLG.html">附录G 预应力曲线钢筋由锚具变形、钢筋回缩和接缝压缩引起的考虑反向摩擦后的预应力损失简化计算</a></li>
+<li class="toctree-l1"><a class="reference internal" href="FLH.html">附录H 后张法预应力混凝土构件弹性压缩损失的简化计算</a></li>
+<li class="toctree-l1"><a class="reference internal" href="FLJ.html">附录J 允许开裂的B类预应力混凝土受弯构件受压区高度计算</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ycsm.html">本规范用词用语说明</a></li>
 </ul>
 <p class="caption" role="heading"><span class="caption-text">条文说明</span></p>
 <ul>
 <li class="toctree-l1"><a class="reference internal" href="twsm/t01.html">1 总则</a></li>
-<li class="toctree-l1"><a class="reference internal" href="twsm/t03.html">3 评定方法及等级分类</a></li>
-<li class="toctree-l1"><a class="reference internal" href="twsm/t04.html">4 桥梁技术状况评定</a></li>
-<li class="toctree-l1"><a class="reference internal" href="twsm/t05.html">5 梁式桥上部结构构件技术状况评定</a></li>
-<li class="toctree-l1"><a class="reference internal" href="twsm/t06.html">6 拱式桥上部结构构件技术状况评定</a></li>
-<li class="toctree-l1"><a class="reference internal" href="twsm/t07.html">7 悬索桥主要构建技术评定状况</a></li>
-<li class="toctree-l1"><a class="reference internal" href="twsm/t08.html">8 斜拉桥主要构件评定技术状况评定</a></li>
-<li class="toctree-l1"><a class="reference internal" href="twsm/t09.html">9 桥梁下部结构构件技术状况评定</a></li>
-<li class="toctree-l1"><a class="reference internal" href="twsm/t10.html">10 桥面系构件技术状况评定</a></li>
+<li class="toctree-l1"><a class="reference internal" href="twsm/t02.html">2 术语和符号</a></li>
+<li class="toctree-l1"><a class="reference internal" href="twsm/t03.html">3 材料</a></li>
+<li class="toctree-l1"><a class="reference internal" href="twsm/t04.html">4 结构设计基本规定</a></li>
+<li class="toctree-l1"><a class="reference internal" href="twsm/t05.html">5 持久状况承载能力极限状态计算</a></li>
+<li class="toctree-l1"><a class="reference internal" href="twsm/t06.html">6  持久状况正常使用极限状态计算</a></li>
+<li class="toctree-l1"><a class="reference internal" href="twsm/t07.html">7  持久状况和短暂状况构件的应力计算</a></li>
+<li class="toctree-l1"><a class="reference internal" href="twsm/t08.html">8  构件计算的规定</a></li>
+<li class="toctree-l1"><a class="reference internal" href="twsm/t09.html">9  构造规定</a></li>
+<li class="toctree-l1"><a class="reference internal" href="twsm/tFLA.html">附录A 桥梁结构的实用精细化分析模型 (新增)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="twsm/tFLB.html">附录B 拉压杆模型分析方法 (新增)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="twsm/tFLC.html">附录C 混凝土收缩应变和徐变系数计算及钢筋松弛损失中间值与终极值的比值</a></li>
+<li class="toctree-l1"><a class="reference internal" href="twsm/tFLD.html">附录D 温差作用效应计算公式</a></li>
+<li class="toctree-l1"><a class="reference internal" href="twsm/tFLE.html">附录E 受压构件计算长度的简化计算公式 (新增)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="twsm/tFLF.html">附录F 沿周边均匀配置纵向钢筋的圆形截面钢筋混凝土偏心受压构件正截面抗压承载力计算(新增)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="twsm/tFLG.html">附录G 预应力曲线钢筋由锚具变形、钢筋回缩和接缝压缩引起的考虑反向摩擦后的预应力损失简化计算</a></li>
+<li class="toctree-l1"><a class="reference internal" href="twsm/tFLJ.html">附录J 允许开裂的B类预应力混凝土受弯构件受压区高度计算</a></li>
 </ul>
 
         </div>
@@ -93,7 +110,7 @@
           <div role="navigation" aria-label="页面导航">
   <ul class="wy-breadcrumbs">
       <li><a href="index.html" class="icon icon-home"></a></li>
-      <li class="breadcrumb-item active">8 斜拉桥主要构件评定技术状况评定</li>
+      <li class="breadcrumb-item active">8  构件计算的规定</li>
       <li class="wy-breadcrumbs-aside">
             <a href="_sources/08.rst.txt" rel="nofollow"> 查看页面源码</a>
       </li>
@@ -104,798 +121,1394 @@
            <div itemprop="articleBody">
              
   <section id="id1">
-<h1>8 斜拉桥主要构件评定技术状况评定<a class="headerlink" href="#id1" title="此标题的永久链接"></a></h1>
-<h2 id="test111">8 斜拉桥主要构件评定技术状况评定</h2><section id="id2">
-<h2>8.1 斜拉索<a class="headerlink" href="#id2" title="此标题的永久链接"></a></h2>
-<p style="text-align:justify"><a href="#id8.1.1"> 8.1.1</a> <span id="id8.1.1"> 斜拉索评定指标及分级评定标准：</span></p>
+<h1>8  构件计算的规定<a class="headerlink" href="#id1" title="此标题的永久链接"></a></h1>
+<h2 id="test111">8  构件计算的规定</h2><section id="id2">
+<h2>8.1 组合式受弯构件<a class="headerlink" href="#id2" title="此标题的永久链接"></a></h2>
+<p style="text-align:justify"><a href="#id8.1.1"> 8.1.1</a> <span id="id8.1.1"> 组合式受弯构件的预制构件应按<a href="https://jtg-3362.readthedocs.io/zh/latest/7.html#id3">第7.2节</a>的规定进行施工阶段验算。</span></p>
+<p style="text-align:justify"><a href="#id8.1.2"> 8.1.2</a> <span id="id8.1.2"> 组合式受弯构件的作用效应应按下列两个阶段进行计算：</span></p>
+
+
  <ol>
-<li>拉索锈蚀、断丝评定标准见<a href="#B8.1.1-1">表8.1.1-1</a>。</li>
-<li>滑移变位评定标准见<a href="#B8.1.1-2">表8.1.1-2</a>。</li>
-<li>涂层损坏评定标准见<a href="#B8.1.1-3">表8.1.1-3</a>。</li>
-<li>护套内的材料老化变质评定标准见<a href="#B8.1.1-4">表8.1.1-4</a>。</li>
-<li>错固区损坏评定标准见<a href="#B8.1.1-5">表8.1.1-5</a>。</li>
-<li>拉索线形异常评定标准见<a href="#B8.1.1-6">表8.1.1-6</a>。</li>
+<li>第一阶段：现浇混凝土层达到强度标准值前，作用应考虑预制构件自重、现浇混凝土层自重及施工时附加的其他作用。</li>
+<li>第二阶段：现浇混凝土层达到强度标准值后，组合梁按整体计算，作用应计算组合构件自重、桥面系自重及使用阶段可变作用。</li>
 </ol>
+<p style="text-align:justify"><a href="#id8.1.3"> 8.1.3</a> <span id="id8.1.3"> 组合式受弯构件宜计算预制构件与现浇混凝土层间由混凝土龄期之差引起的混凝土收缩差效应。(修编)</span></p>
+<p style="text-align:justify"><a href="#id8.1.4"> 8.1.4</a> <span id="id8.1.4"> 组合式受弯构件及其预制构件应按<a href="https://jtg-3362.readthedocs.io/zh/latest/5.html#id3">第5.2节</a>的规定进行正截面抗弯承载力计算，其弯矩设计值应按下列规定采用：</span></p>
 
-<style>
-    #biaoge {
-        border: 2px solid black;
-        border-collapse: collapse;
-        margin-bottom:1px;
+<p style="text-align:justify;text-indent:2em;" >对预制构件</p><p>$$M_{1\mathrm{d}}=M_{1\mathrm{Gd}}+M_{1\mathrm{Qd}}\tag{8.1.4-1}$$</p>
+<p style="text-align:justify;text-indent:2em;" >对组合构件(应考虑结构重要性系数<i>γ</i><sub>0</sub>)</p><p>$$M_{\mathrm{d}}=M_{1\mathrm{Gd}}+M_{2\mathrm{Gd}}+M_{2\mathrm{Qd}}\tag{8.1.4-2}$$</p>
+<table border="0" style="font-family:times new roman" id="gongshi">
+<tr>
+<td width="50px" align='center' id="eqzs">式中:</td>
+<td width="30px" align='right' id="eqzs"><i>M</i><sub>1Gd</sub></td>
+<td width="40px" align='left' id="eqzs">——</td>
+<td id="eqzs">第一阶段预制构件和现浇混凝土层自重产生的弯矩设计值，取作用标准值乘以作用分项系数1.2;</td>
+</tr>
+<tr>
+<td  align='left' id="eqzs"> </td>
+ <td  align='right' id="eqzs"><i>M</i><sub>1Qd</sub></td>
+<td  align='left' id="eqzs">——</td>
+<td id="eqzs">第一阶段施工时附加的其他作用产生的弯矩设计值，取作用标准值乘以作用分项系数1.4;</td>
+</tr>
+<tr>
+<td  align='left' id="eqzs"> </td>
+ <td  align='right' id="eqzs"><i>M</i><sub>2Gd</sub></td>
+<td  align='left' id="eqzs">——</td>
+<td id="eqzs">第二阶段桥面系自重产生的弯矩设计值，取作用标准值乘以作用分项系数1.2;</td>
+</tr>
+<tr>
+<td  align='left' id="eqzs"> </td>
+<td  align='right' id="eqzs"><i>M</i><sub>2Qd</sub></td>
+<td  align='left' id="eqzs">——</td>
+<td id="eqzs">第二阶段可变作用组合产生的弯矩设计值，其作用分项系数按现行《公路桥涵设计通用规范》(JTG D60)取用。</td>
+</tr>
+</table>
+<p></p>
+<p style="text-align:justify;text-indent:2em;" >对组合构件当现浇混凝土层的强度等级与预制构件强度等级不同时，混凝土强度等级应取现浇混凝土强度等级。</p>
 
-     }
-     th, td {
-        padding-top: 5px;
-        padding-bottom:5px;
-        padding-left:5px;
-        padding-right:5px;
-        border: 1px solid black;
-        vertical-align: middle;
-     }
-     #eqzs {
-        border: 0px;
-        vertical-align: top;
-     }
-     #dhbg {
-       vertical-align: middle;
-     }
-    </style>
+<p style="text-align:justify"><a href="#id8.1.5"> 8.1.5</a> <span id="id8.1.5"> 组合式受弯构件及其预制构件应按<a href="https://jtg-3362.readthedocs.io/zh/latest/5.html#id3">第5.2节</a>的规定分别计算斜截面抗剪、抗弯承载力，其中作用分项系数按<a href="#id8.1.4">第8.1.4条</a>取用，剪力设计值按下列规定采用：</span></p>
 
+<p style="text-align:justify;text-indent:2em;" >对预制构件</p><p>$$V_{1\mathrm{d}}=V_{1\mathrm{Gd}}+V_{1\mathrm{Qd}}\tag{8.1.5-1}$$</p>
+<p style="text-align:justify;text-indent:2em;" >对组合构件(应考虑结构重要性系数<i>γ</i><sub>0</sub>)</p><p>$$V_{\mathrm{d}}=V_{1\mathrm{Gd}}+V_{2\mathrm{Gd}}+V_{2\mathrm{Qd}}\tag{8.1.5-2}$$</p>
+<table border="0" style="font-family:times new roman" id="gongshi">
+<tr>
+<td width="50px" align='center' id="eqzs">式中:</td>
+<td width="30px" align='right' id="eqzs"><i>V</i><sub>1Gd</sub></td>
+<td width="40px" align='left' id="eqzs">——</td>
+<td id="eqzs">第一阶段预制构件和现浇混凝土层自重产生的剪力设计值；</td>
+</tr>
+<tr>
+<td  align='left' id="eqzs"> </td>
+ <td  align='right' id="eqzs"><i>V</i><sub>1Qd</sub></td>
+<td  align='left' id="eqzs">——</td>
+<td id="eqzs">第一阶段施工时附加的其他作用产生的剪力设计值；</td>
+</tr>
+<tr>
+<td  align='left' id="eqzs"> </td>
+ <td  align='right' id="eqzs"><i>V</i><sub>2Gd</sub></td>
+<td  align='left' id="eqzs">——</td>
+<td id="eqzs">第二阶段桥面系自重产生的剪力设计值；</td>
+</tr>
+<tr>
+<td  align='left' id="eqzs"> </td>
+<td  align='right' id="eqzs"><i>V</i><sub>2Qd</sub></td>
+<td  align='left' id="eqzs">——</td>
+<td id="eqzs">第二阶段可变作用组合产生的剪力设计值。</td>
+</tr>
+</table>
+<p></p>
+<p style="text-align:justify;text-indent:2em;" >对组合构件，计算斜截面内混凝土和箍筋共同抗剪的承载力设计值 <i>V</i><sub>cs</sub>[公式(5.2.9-2)]时，如现浇混凝土层与预制构件的混凝土强度等级不同，应取两者较低者，但按公式计算的组合构件抗剪承载力设计值不应低于预制构件的抗剪承载力设计值；对预应力混凝土组合构件，取预应力提高系数<i>α</i><sub>2</sub>=1.0。</p>
 
-<table id="biaoge" style="font-family:times new roman">
-
-    <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="B8.1.1-1">表8.1.1-1 拉索锈蚀、断丝</b></caption>
-
-                   <tr>
-                     <td  align="center" width=60px rowspan="2" id="dhbg">标度</td>
-                     <td  align="center" width=840px>评定指标</td>
-                   </tr>
-       <tr>
-        <!-- <td></td> -->
-                                <td  align="center">定性描述</td>
-                   </tr>
-                 <tr>
-                    <td align="center">1</td>
-                    <td align="left">完好</td>
-                   </tr>
-                 <tr>
-                    <td align="center">2</td>
-                    <td align="left">钢丝有极少量锈蚀</td>
-                   </tr>
-                 <tr>
-                    <td align="center">3</td>
-                     <td align="left">钢丝少量锈蚀，钢丝无断裂</td>
-                   </tr>
-       <tr>
-                    <td align="center">4</td>
-                    <td align="left">钢丝较多锈蚀或损坏，钢丝断裂，截面出现削弱</td>
-                   </tr>
-       <tr>
-                    <td align="center">5</td>
-                    <td align="left">钢索裸露，钢丝大量严重锈蚀或损坏，钢丝断裂，质量出现严重变形，造成安全隐患</td>
-                   </tr>
-               </table>
-     <p> </p>
-
-<table id="biaoge" style="font-family:times new roman">
-
-    <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="B8.1.1-2">表8.1.1-2 滑移变位</b></caption>
-
-                   <tr>
-                     <td  align="center" width=60px rowspan="2" id="dhbg">标度</td>
-                     <td  align="center" width=840px>评定指标</td>
-                   </tr>
-       <tr>
-        <!-- <td></td> -->
-                                <td  align="center">定性描述</td>
-                   </tr>
-                 <tr>
-                    <td align="center">1</td>
-                    <td align="left">完好</td>
-                   </tr>
-                 <tr>
-                    <td align="center">2</td>
-                    <td align="center">—</td>
-                   </tr>
-                 <tr>
-                    <td align="center">3</td>
-                     <td align="center">—</td>
-                   </tr>
-       <tr>
-                    <td align="center">4</td>
-                    <td align="left">斜拉索出现异常位移变形，且无法复位</td>
-                   </tr>
-       <tr>
-                    <td align="center">5</td>
-                    <td align="left">斜拉索异常位移变形过大，导致桥面线形、纵向位移伸缩量出现显著异常，结构震动或摇晃显著，影响结构安全</td>
-                   </tr>
-               </table>
-     <p> </p>
-
- <table id="biaoge" style="font-family:times new roman">
-
-    <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="B8.1.1-3">表8.1.1-3 涂层损坏</b></caption>
-
-                   <tr>
-                     <td  align="center" width=60px rowspan="2" id="dhbg">标度</td>
-                     <td  align="center"  colspan="2">评定指标</td>
-                                 <!-- <td></td> -->
-                   </tr>
-                 <tr>
-                    <!-- <td></td> -->
-                     <td align="center" width=360px>定性描述</td>
-                                 <td align="center" width=480px>定量描述</td>
-                   </tr>
-                 <tr>
-                    <td align="center">1</td>
-                    <td align="left">完好</td>
-                          <td align="center">—</td>
-                   </tr>
-                 <tr>
-                    <td align="center">2</td>
-                          <td align="left">涂层有轻微损坏、裂纹、起皮或剥落</td>
-                          <td align="left">累计面积≤构建面积的10%，单处面积≤0.5m²</td>
-                   </tr>
-                 <tr>
-                    <td align="center">3</td>
-                    <td align="left">较大范围涂层有损坏、裂纹、起皮、剥落</td>
-                          <td align="left">累计面积＞构件面积的10%且≤构件面积的20%，单处面积≤1.0m²</td>
-                    </tr>
-                  <tr>
-                    <td align="center" >4</td>
-                    <td align="left">大范围涂层有损坏、裂纹、起皮或剥落</td>
-                          <td align="left">累计面积＞构件面积的20%，单处面积＞1.0m²</td>
-                    </tr>
-               </table>
-   <p> </p>
-
-<table id="biaoge" style="font-family:times new roman">
-
-    <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="B8.1.1-4">表8.1.1-4 护套内的材料老化变质</b></caption>
-
-                   <tr>
-                     <td  align="center" width=60px rowspan="2" id="dhbg">标度</td>
-                     <td  align="center" width=840px>评定指标</td>
-                   </tr>
-       <tr>
-        <!-- <td></td> -->
-                                <td  align="center">定性描述</td>
-                   </tr>
-                 <tr>
-                    <td align="center">1</td>
-                    <td align="left">完好</td>
-                   </tr>
-                 <tr>
-                    <td align="center">2</td>
-                    <td align="left">护套内的材料轻微老化，表面有脏污</td>
-                   </tr>
-                 <tr>
-                    <td align="center">3</td>
-                     <td align="left">护套内的材料老化变形</td>
-                   </tr>
-       <tr>
-                    <td align="center">4</td>
-                    <td align="left">护套内的材料老化变形，并有破裂现象，局部还造成渗水</td>
-                   </tr>
-               </table>
-     <p> </p>
-
-<table id="biaoge" style="font-family:times new roman">
-
-    <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="B8.1.1-5">表8.1.1-5 锚固区损坏</b></caption>
-
-                   <tr>
-                     <td  align="center" width=60px rowspan="2" id="dhbg">标度</td>
-                     <td  align="center" width=840px>评定指标</td>
-                   </tr>
-       <tr>
-        <!-- <td></td> -->
-                                <td  align="center">定性描述</td>
-                   </tr>
-                 <tr>
-                    <td align="center">1</td>
-                    <td align="left">完好</td>
-                   </tr>
-                 <tr>
-                    <td align="center">2</td>
-                    <td align="left">个别锚头或锚拉板出现轻微破损</td>
-                   </tr>
-                 <tr>
-                    <td align="center">3</td>
-                     <td align="left">个别锚头出现破损、松动或出现不密封现象，但未造成拉索锈蚀，个别锚拉板出现疲劳损伤状况</td>
-                   </tr>
-       <tr>
-                    <td align="center">4</td>
-                    <td align="left">较多锚头或锚拉板出现破损、松动或裂缝，锚固区有明显的受力裂缝</td>
-                   </tr>
-       <tr>
-                    <td align="center">5</td>
-                    <td align="left">较多锚头或锚拉板出现严重破损、松动、裂缝，锚头积水锈蚀严重，锚固区有明显的受力裂缝，且缝宽＞0.2mm</td>
-                   </tr>
-               </table>
-     <p> </p>
-
-<table id="biaoge" style="font-family:times new roman">
-
-    <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="B8.1.1-6">表8.1.1-6 拉索线形异常</b></caption>
-
-                   <tr>
-                     <td  align="center" width=60px rowspan="2" id="dhbg">标度</td>
-                     <td  align="center" width=840px>评定指标</td>
-                   </tr>
-       <tr>
-        <!-- <td></td> -->
-                                <td  align="center">定性描述</td>
-                   </tr>
-                 <tr>
-                    <td align="center">1</td>
-                    <td align="left">完好</td>
-                   </tr>
-                 <tr>
-                    <td align="center">2</td>
-                   <td align="center">—</td>
-                   </tr>
-                 <tr>
-                    <td align="center">3</td>
-                    <td align="center">—</td>
-                   </tr>
-       <tr>
-                    <td align="center">4</td>
-                    <td align="left">拉索线性出现明显异常或有异常声音</td>
-                   </tr>
-
-       <tr>
-                    <td align="center">5</td>
-                    <td align="left">拉索现行出现显著异常，桥面线形出现显著异常，结构震动摇晃明显，主梁出现严重变形</td>
-                   </tr>
-               </table>
-     <p> </p></section>
+<p style="text-align:justify"><a href="#id8.1.6"> 8.1.6</a> <span id="id8.1.6">组合式受弯梁当符合<a href="https://jtg-3362.readthedocs.io/zh/latest/9.html#id9.3.16">第9.3.16条</a>和<a href="https://jtg-3362.readthedocs.io/zh/latest/9.html#id9.3.17">第9.3.17条</a>构造要求时，预制构件与现浇混凝土层之间结合面的抗剪承载力应满足下式要求：</span></p>
+<p style="text-align:justify"><a href="#id8.1.7"> 8.1.7</a> <span id="id8.1.7">组合式受弯构件，其结合面抗剪承载力应符合下式要求：(修编)</span></p>
+<p style="text-align:justify"><a href="#id8.1.8"> 8.1.8</a> <span id="id8.1.8">使用阶段要求不出现裂缝的预应力混凝土组合式受弯构件，其预制构件和组合构件应分别按<a href="https://jtg-3362.readthedocs.io/zh/latest/6.html#id6.1.1">第6.1.1条</a>、<a href="https://jtg-3362.readthedocs.io/zh/latest/6.html#id6.3.1">第6.3.1条</a>的规定进行正截面抗裂验算。对组合构件，<a href="https://jtg-3362.readthedocs.io/zh/latest/6.html#id6.3.1">第6.3.1条</a>有关公式中的<i>σ</i><sub>pc</sub>取预制构件抗裂边缘混凝土的预压应力，<i>f</i><sub>tk</sub>取预制构件混凝土的抗拉强度标准值。作用频遇组合和准永久组合下构件抗裂验算边缘混凝土的法向拉应力应按下列公式计算：</span></p>
+<p style="text-align:justify"><a href="#id8.1.9"> 8.1.9</a> <span id="id8.1.9">预应力混凝土组合式受弯构件，应按<a href="https://jtg-3362.readthedocs.io/zh/latest/6.html#id6.3.1">第6.3.1条</a>对全预应力混凝土构件、预应力混凝土 A 类构件的要求进行斜截面抗裂验算，混凝土主拉应力应考虑组合构件受力特点，按<a href="https://jtg-3362.readthedocs.io/zh/latest/6.html#id6.3.3">第6.3.3条</a>的规定计算。</span></p>
+<p style="text-align:justify"><a href="#id8.1.10"> 8.1.10</a> <span id="id8.1.10">钢筋混凝土组合构件应验算裂缝宽度。按作用频遇组合并考虑长期效应的影响计算的最大裂缝宽度不应超过<a href="https://jtg-3362.readthedocs.io/zh/latest/6.html#id6.4.2">第6.4.2条</a>规定的限值。</span></p>
+<p style="text-align:justify"><a href="#id8.1.11"> 8.1.11</a> <span id="id8.1.11">钢筋混凝土组合式受弯构件作为整体构件，其最大裂缝宽度可按公式(6.4.3)计算，式中的长期效应影响系数<i>C</i><sub>2</sub>和钢筋应力<i>σ</i><sub>ss</sub>按下列公式计算：</span></p>
+<p style="text-align:justify"><a href="#id8.1.12"> 8.1.12</a> <span id="id8.1.12">组合式受弯构件在正常使用极限状态下的挠度，可根据给定的刚度用结构力学的方法计算。</span></p>
+<p style="text-align:justify"><a href="#id8.1.13"> 8.1.13</a> <span id="id8.1.13">在作用频遇组合下组合式受弯构件的刚度，可按下列规定计算：</span></p>
+<p style="text-align:justify"><a href="#id8.1.14"> 8.1.14</a> <span id="id8.1.14">组合式受弯构件的长期挠度，可在按<a href="#id8.1.13">第8.1.13条</a>刚度计算的挠度值基础上，乘以长期增长系数<i>η</i><sub>0</sub>求得：</span></p>
+<p style="text-align:justify"><a href="#id8.1.15"> 8.1.15</a> <span id="id8.1.15">预应力混凝土受弯组合构件由预加力引起的反拱值，可用结构力学方法按预制构件刚度<i>E</i><sub>c1</sub><i>i</i><sub>01</sub>计算；使用阶段预加力反拱值应将计算结果乘以长期增长系数1.75。在计算中，预应力钢筋的应力应扣除全部预应力损失。</span></p>
+<p style="text-align:justify"><a href="#id8.1.16"> 8.1.16</a> <span id="id8.1.16">组合式受弯构件的预制构件预拱度可按<a href="https://jtg-3362.readthedocs.io/zh/latest/6.html#id6.5.5">第6.5.5条</a>的规定设置。</span></p>
+<p style="text-align:justify"><a href="#id8.1.17"> 8.1.17</a> <span id="id8.1.17">预应力混凝土组合式受弯构件持久状况应力计算，应考虑组合结构的受力特点，按<a href="https://jtg-3362.readthedocs.io/zh/latest/7.html#id2">第7.1节</a>进行。</span></p></section>
 <section id="id3">
-<h2>8.2 斜拉索护套<a class="headerlink" href="#id3" title="此标题的永久链接"></a></h2>
-<p style="text-align:justify"><a href="#id8.2.1"> 8.2.1</a> <span id="id8.2.1"> 斜拉索护套评定指标及分级评定标准：</span></p>
+<h2>8.2 后张预应力混凝土锚固区 (新增)<a class="headerlink" href="#id3" title="此标题的永久链接"></a></h2>
+<p style="text-align:justify"><a href="#id8.2.1"> 8.2.1</a> <span id="id8.2.1"> 对于后张预应力混凝土构件，其预应力锚固区的承载力应满足下列要求：</span></p>
  <ol>
-<li>漆膜损坏评定标准见<a href="#B8.2.1-1">表8.2.1-1</a>。</li>
-<li>护套裂缝评定标准见<a href="#B8.2.1-2">表8.2.1-2</a>。</li>
-<li>护套锈蚀评定标准见<a href="#B8.2.1-3">表8.2.1-3</a>。</li>
-<li>防护层破损评定标准见<a href="#B8.2.1-4">表8.2.1-4</a>。</li>
-<li>护套上端浆液离析评定标准见<a href="#B8.2.1-5">表8.2.1-5</a>。</li>
-<li>渗水评定标准见<a href="#B8.2.1-6">表8.2.1-6</a>。</li>
-</ol>
+<li>局部区的锚下抗压承载力应符合<a href="https://jtg-3362.readthedocs.io/zh/latest/5.html#id8">第5.7节</a>的规定。</li>
+<li>体区各受拉部位的抗拉承载力应符合下式规定：</li>
+</ol><p>$$\gamma _{0}T_{(.),\mathrm{d}}\leqslant f_{\mathrm{sd} }A_{\mathrm{s} }\tag{8.2.1}$$</p>
+<table border="0" style="font-family:times new roman" id="gongshi">
+<tr>
+<td width="50px" align='center' id="eqzs">式中:</td>
+<td width="30px" align='right' id="eqzs"><i>T</i><sub>(.),d</sub></td>
+<td width="40px" align='left' id="eqzs">——</td>
+<td id="eqzs">总体区各受拉部位的拉力设计值。对于端部锚固区，锚下劈裂力<i>T</i><sub>b,d</sub>、剥裂力<i>T</i><sub>s,d</sub>和边缘拉力<i>T</i><sub>et,d</sub>,可按<a href="#id8.2.2">第8.2.2条</a>～<a href="#id8.2.5">第8.2.5条</a>计算或采用拉压杆模型计算；对于三角齿块锚固区，五个受拉部位的拉力设计值可按<a href="#id8.2.6">第8.2.6条</a>计算或采用拉压杆模型计算；</td>
+</tr>
+<tr>
+<td align='right' id="eqzs" > </td>
+<td  align='right' id="eqzs"><i>f</i><sub>sd</sub></td>
+<td  align='left' id="eqzs">——</td>
+<td id="eqzs">普通钢筋抗拉强度设计值；</td>
+</tr>
+<tr>
+<td align='right' id="eqzs" > </td>
+<td  align='right' id="eqzs"><i>A</i><sub>s</sub></td>
+<td  align='left' id="eqzs">——</td>
+<td id="eqzs">拉杆中的普通钢筋面积，按<a href="https://jtg-3362.readthedocs.io/zh/latest/9.html#id9.4.18">第9.4.18条</a>和<a href="https://jtg-3362.readthedocs.io/zh/latest/6.html#id9.4.20">第9.4.20条</a>规定布置范围内的钢筋计算。</td>
+</tr>
+</table>
+<p>注：1.预应力锚固区的范围，对于端部锚固区，横向取梁端全截面，纵向取1.0至1.2倍的梁高或梁宽的较大值；对于三角齿块锚固区，横向取齿块宽度的3倍，纵向取齿块长度外加2倍壁板厚度。<br/>
+&emsp; &emsp;2.局部区的范围，横向取锚下局部受压面积(<a href="https://jtg-362.readthedocs.io/zh/latest/03.html#fig5.7.1">图5.7.1</a>),纵向取1.2倍的锚垫板较长边尺寸。<br/>
+&emsp; &emsp;3.总体区的范围，取局部区以外的锚固区部分。</p>
 
-<table id="biaoge" style="font-family:times new roman">
 
-    <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="B8.2.1-1">表8.2.1-1 漆膜损坏</b></caption>
+<p style="text-align:justify"><a href="#id8.2.2"> 8.2.2</a> <span id="id8.2.2"> 端部锚固区的锚下劈裂力设计值<i>T</i><sub>b,d</sub>(<a href="#fig8.2.2">图 8.2.2</a>)宜按下列规定计算。</span></p>
 
-                   <tr>
-                     <td  align="center" width=60px rowspan="2" id="dhbg">标度</td>
-                     <td  align="center"  colspan="2">评定指标</td>
-                                 <!-- <td></td> -->
-                   </tr>
-                 <tr>
-                    <!-- <td></td> -->
-                     <td align="center" width=360px>定性描述</td>
-                                 <td align="center" width=480px>定量描述</td>
-                   </tr>
-                 <tr>
-                    <td align="center">1</td>
-                    <td align="left">各部分油漆均匀平光、完整，色泽鲜明</td>
-                          <td align="center">—</td>
-                   </tr>
-                 <tr>
-                    <td align="center">2</td>
-                          <td align="left">油漆面色、轻微损坏、裂纹、起皮或剥落</td>
-                          <td align="left">累计失效面积≤构件面积的10%</td>
-                   </tr>
-                 <tr>
-                    <td align="center">3</td>
-                    <td align="left">较大范围涂层有轻微损坏、裂纹、起皮或剥落</td>
-                          <td align="left">累计失效面积＞构件面积的10%且≤构件面积的20%</td>
-                    </tr>
-                  <tr>
-                    <td align="center" >4</td>
-                    <td align="left">大范围涂层有轻微损坏、裂纹、起皮或剥落</td>
-                          <td align="left">累计失效面积＞构件面积的20%</td>
-                    </tr>
-               </table>
-   <p> </p>
+<p style="text-align:justify;text-indent:2em;" >1 单个锚头引起的锚下劈裂力设计值：</p><p>$$T_{\mathrm{b,d}}= 0.25P_{\mathrm{d}}(1+\gamma)^{2}\left[(1-\gamma )-\dfrac{a}{h}\right ]+0.5P_{\mathrm{d}}\left | \sin \alpha  \right | \tag{8.2.2-1}$$</p>
+<p style="text-align:justify;text-indent:2em;" > 劈裂力作用位置至锚固端面的水平距离：</p><p>$$d_{b}=0.5(h-2e)+e\sin\alpha \tag{8.2.2-2}$$</p>
+<table border="0" style="font-family:times new roman" id="gongshi">
+<tr>
+<td width="50px" align='center' id="eqzs">式中:</td>
+<td width="30px" align='right' id="eqzs"><i>P</i><sub>d</sub></td>
+<td width="40px" align='left' id="eqzs">——</td>
+<td id="eqzs">预应力锚固力设计值，取1.2倍张拉控制力；</td>
+</tr>
+<tr>
+<td  align='left' id="eqzs"> </td>
+ <td  align='right' id="eqzs"><i>α</i></td>
+<td  align='left' id="eqzs">——</td>
+<td id="eqzs">锚垫板宽度；</td>
+</tr>
+ <tr>
+<td  align='left' id="eqzs"> </td>
+ <td  align='right' id="eqzs"><i>h</i></td>
+<td  align='left' id="eqzs">——</td>
+<td id="eqzs">锚固端截面高度；</td>
+</tr>
+<tr>
+<td  align='left' id="eqzs"> </td>
+ <td  align='right' id="eqzs"><i>e</i></td>
+<td  align='left' id="eqzs">——</td>
+<td id="eqzs">锚固力偏心距，即锚固力作用点距截面形心的距离；</td>
+</tr>
+<tr>
+<td  align='left' id="eqzs"> </td>
+<td  align='right' id="eqzs"><i>γ</i></td>
+<td  align='left' id="eqzs">——</td>
+<td id="eqzs">锚固力在截面上的偏心率，<i>γ</i>=2<i>e/h</i>;</td>
+</tr>
+<tr>
+<td  align='left' id="eqzs"> </td>
+ <td  align='right' id="eqzs"><i>α</i></td>
+<td  align='left' id="eqzs">——</td>
+<td id="eqzs">力筋倾角，一般在-50～+20°之间；当锚固力作用线从起点指向截面形心时取正值，逐渐远离截面形心时取负值。</td>
+</tr>
+</table>
+<p></p>
+<p style="text-align:justify;text-indent:2em;" > 2 一组密集锚头引起的锚下劈裂力设计值，宜采用其锚固力的合力值代入式(8.2.2-1)计算。</p>
+<p style="text-align:justify;text-indent:2em;" > 3 非密集锚头引起的锚下劈裂力设计值，宜按单个锚头分别计算，取各劈裂力的最大值。</p>
+<p style="text-align:justify;text-indent:2em;" > 注：1.当相邻锚垫板的中心距小于2倍锚垫板宽度时(<a href="#fig8.2.2">图8.2.2b</a>),该锚头为密集锚头；否则，为非密集锚头。</p>
+<p style="text-align:justify;text-indent:2em;" >&emsp;&emsp;2.一组密集锚头的总垫板宽度a取该组锚头两个最外侧垫板外缘之间的间距(<a href="#fig8.2.2">图8.2.2b</a>)。</p>
 
-<table id="biaoge" style="font-family:times new roman">
+<div align="center"><img id="fig8.2.2" src="./_static/fig/8.2.2.png" alt="Picture" width="500px"></div>
+ <p style="color: dimgray;text-align: center;">图 8.2.2 端部锚固区的锚下劈裂力计算</p>
+ <script type="text/javascript">var viewer = new Viewer(document.getElementById('fig8.2.2'));</script>
 
-    <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="B8.2.1-2">表8.2.1-2 护套裂缝</b></caption>
+<p style="text-align:justify"><a href="#id8.2.3"> 8.2.3</a> <span id="id8.2.3"> 由锚垫板局部压陷引起的周边剥裂力<i>T</i><sub>s,d</sub>(<a href="#fig8.2.3">图 8.2.3</a>)宜按下式计算：</span></p><p>$$T_{\mathrm{s,d} }=0.02\mathrm{max} \left \{ P_{\mathrm{di} } \right \}  \tag{8.2.3}$$</p>
+<table border="0" style="font-family:times new roman" id="gongshi">
+<tr>
+<td width="50px" align='center' id="eqzs">式中:</td>
+<td width="30px" align='right' id="eqzs"><i>P</i><sub>id</sub></td>
+<td width="40px" align='left' id="eqzs">——</td>
+<td id="eqzs">同一端面上，第<i>i</i>个锚固力设计值。</td>
+</tr>
+</table>
+<p></p>
+<div align="center"><img id="fig8.2.3" src="./_static/fig/8.2.3.png" alt="Picture" width="200px"></div>
+ <p style="color: dimgray;text-align: center;">图 8.2.3 锚头的周边剥裂力计算</p>
+ <script type="text/javascript">var viewer = new Viewer(document.getElementById('fig8.2.3'));</script>
 
-                   <tr>
-                     <td  align="center" width=60px rowspan="2" id="dhbg">标度</td>
-                     <td  align="center" width=840px>评定指标</td>
-                   </tr>
-       <tr>
-        <!-- <td></td> -->
-                                <td  align="center">定性描述</td>
-                   </tr>
-                 <tr>
-                    <td align="center">1</td>
-                    <td align="left">完好</td>
-                   </tr>
-                 <tr>
-                    <td align="center">2</td>
-                    <td align="left">PE管或金属管轻微胀裂，未造成渗水等；或热挤PE护套轻微开裂，未造成其他影响，符合相关要求</td>
-                   </tr>
-                 <tr>
-                    <td align="center">3</td>
-                     <td align="left">PE管或金属管胀裂，造成渗水等，钢丝有锈迹或护套内有氧化物，钢束截面削弱，但在规范范围内；或热挤PE护套产生环状开裂或PE层断开，造成渗水，导致钢丝锈蚀，但在规范范围内</td>
-                   </tr>
-       <tr>
-                    <td align="center">4</td>
-                    <td align="left">PE管或金属管胀裂，出现很多纵向裂缝，渗水造成钢丝锈蚀和护套内有氧化物，钢束截面削弱超出规范范围；或热挤PE护套产生严重环状开裂或PE层断开，造成渗水，导致钢丝锈蚀超出规范范围</td>
-                   </tr>
-               </table>
-     <p> </p>
+<p style="text-align:justify"><a href="#id8.2.4"> 8.2.4</a> <span id="id8.2.4"> 当两个锚固力的中心距大于1/2 锚固端截面高度时，该组大间距锚头间的端面剥裂力(<a href="#fig8.2.4">图 8.2.4</a>)宜按下式计算，且不小于最大锚固力设计值的0.02倍。</span></p>
 
-<table id="biaoge" style="font-family:times new roman">
+<div align="center"><img id="fig8.2.4" src="./_static/fig/8.2.4.png" alt="Picture" width="200px"></div>
+ <p style="color: dimgray;text-align: center;">图 8.2.4 大间距锚头间的剥裂力计算</p>
+ <script type="text/javascript">var viewer = new Viewer(document.getElementById('fig8.2.4'));</script><p>$$T_{\mathrm{s,d} }=0.45\overline{P}_{\mathrm{d}}\cdot\left (\dfrac{2S}{h}-1\right )\tag{8.2.4}$$</p>
+ <table border="0" style="font-family:times new roman" id="gongshi">
+<tr>
+<td width="50px" align='center' id="eqzs">式中:</td>
+<td width="30px" align='right' id="eqzs"><math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mover><mi>P</mi><mo accent="false">¯</mo></mover><mrow><mrow><mi mathvariant="normal">d</mi></mrow></mrow></msub></math></td>
+<td width="40px" align='left' id="eqzs">——</td>
+<td id="eqzs">锚固力设计值的平均值，即<math xmlns="http://www.w3.org/1998/Math/MathML" ><msub><mover><mi>P</mi><mo accent="false">¯</mo></mover><mrow><mrow><mi mathvariant="normal">d</mi></mrow></mrow></msub><mo>=</mo><mo stretchy="false">(</mo><msub><mrow><mi>P</mi></mrow><mrow><mrow><mi mathvariant="normal">d</mi><mn>1</mn></mrow></mrow></msub><mo>+</mo><msub><mrow><mi>P</mi></mrow><mrow><mrow><mi mathvariant="normal">d</mi><mn>2</mn></mrow></mrow></msub><mo stretchy="false">)</mo><mrow><mo>/</mo></mrow><mn>2</mn></math>；</td>
+</tr>
+<tr>
+<td  align='left' id="eqzs"> </td>
+<td  align='right' id="eqzs"><i>S</i></td>
+<td  align='left' id="eqzs">——</td>
+<td id="eqzs">两个锚固力的中心距；</td>
+</tr>
+ <tr>
+<td  align='left' id="eqzs"> </td>
+<td  align='right' id="eqzs"><i>h</i></td>
+<td  align='left' id="eqzs">——</td>
+<td id="eqzs">锚固端截面高度。</td>
+</tr>
+</table>
+<p></p>
 
-    <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="B8.2.1-3">表8.2.1-3 护套锈蚀</b></caption>
+<p style="text-align:justify"><a href="#id8.2.5"> 8.2.5</a> <span id="id8.2.5"> 端部锚固区的边缘拉力设计值(<a href="#fig8.2.5">图 8.2.5</a>)宜按下式计算：</span></p><p>$$T_{\mathrm{et,d}}=\left\{\begin{matrix}0 \hspace{3cm}\gamma \leqslant 1/3\\\dfrac{(3\gamma -1)^2}{12\gamma }P_{\mathrm{d} }\hspace{1cm}\gamma &gt;1/3\end{matrix}\right.\tag{8.2.5}$$</p>
+ <table border="0" style="font-family:times new roman" id="gongshi">
+<tr>
+<td width="50px" align='center' id="eqzs">式中:</td>
+<td width="30px" align='right' id="eqzs"><i>γ</i></td>
+<td width="40px" align='left' id="eqzs">——</td>
+<td id="eqzs"> 锚固力在截面上的偏心率，<i>γ</i>=2<i>e/h</i>,<i>e</i>和<i>h</i>按<a href="#id8.2.2">第8.2.2条</a>的规定取值。</td>
+</tr>
+</table>
+<p> </p>
 
-                   <tr>
-                     <td  align="center" width=60px rowspan="2" id="dhbg">标度</td>
-                     <td  align="center" width=840px>评定指标</td>
-                   </tr>
-       <tr>
-        <!-- <td></td> -->
-                                <td  align="center">定性描述</td>
-                   </tr>
-                 <tr>
-                    <td align="center">1</td>
-                    <td align="left">完好</td>
-                   </tr>
-                 <tr>
-                    <td align="center">2</td>
-                    <td align="left">护套表面发生轻微锈蚀，并且少部分氧化皮或油漆层已经剥落</td>
-                   </tr>
-                 <tr>
-                    <td align="center">3</td>
-                     <td align="left">护套表面部分发生锈蚀，并且部分氧化皮或油漆层已经剥落</td>
-                   </tr>
-       <tr>
-                    <td align="center">4</td>
-                    <td align="left">护套表面发生锈蚀，有大量点蚀现象，氧化皮或油漆层因锈蚀而部分剥落或者可以刮除</td>
-                   </tr>
-               </table>
-     <p> </p>
+<div align="center"><img id="fig8.2.5" src="./_static/fig/8.2.5.png" alt="Picture" width="250px"></div>
+ <p style="color: dimgray;text-align: center;">图 8.2.5 端部锚固区的边缘拉力计算</p>
+ <script type="text/javascript">var viewer = new Viewer(document.getElementById('fig8.2.5'));</script>
 
-<table id="biaoge" style="font-family:times new roman">
+<p style="text-align:justify"><a href="#id8.2.6"> 8.2.6</a> <span id="id8.2.6"> 三角齿块锚固区内五个受拉部位(<a href="#fig8.2.6">图 8.2.6</a>)的拉力设计值，宜按以下规定计算。</span></p>
 
-    <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="B8.2.1-4">表8.2.1-4 防护层破损</b></caption>
+<div align="center"><img id="fig8.2.6" src="./_static/fig/8.2.6.png" alt="Picture" width="400px"></div>
+ <p style="color: dimgray;text-align: center;">图 8.2.6 后张预应力构件齿块锚固区的受拉效应</p>
+ <script type="text/javascript">var viewer = new Viewer(document.getElementById('fig8.2.6'));</script>
 
-                   <tr>
-                     <td  align="center" width=60px rowspan="2" id="dhbg">标度</td>
-                     <td  align="center" width=840px>评定指标</td>
-                   </tr>
-       <tr>
-        <!-- <td></td> -->
-                                <td  align="center">定性描述</td>
-                   </tr>
-                 <tr>
-                    <td align="center">1</td>
-                    <td align="left">完好</td>
-                   </tr>
-                 <tr>
-                    <td align="center">2</td>
-                   <td align="left">个别防护层轻微老化或破损</td>
-                   </tr>
-                 <tr>
-                    <td align="center">3</td>
-                    <td align="left">个别防护层老化、破损、松动</td>
-                   </tr>
-       <tr>
-                    <td align="center">4</td>
-                    <td align="left">部分防护层老化、破损、裂纹或积水，造成局部渗水或锈蚀；个别护筒甚至脱落</td>
-                   </tr>
-               </table>
-     <p> </p>
 
-<table id="biaoge" style="font-family:times new roman">
+<p style="text-align:justify;text-indent:2em;" >1 锚下劈裂力设计值</p><p>$$T_{\mathrm{b,d}}=0.25P_{\mathrm{d} }\left ( 1-\dfrac{a}{2d} \right ) \tag{8.2.6-1}$$</p>
+<table border="0" style="font-family:times new roman" id="gongshi">
+<tr>
+<td width="50px" align='center' id="eqzs">式中：</td>
+<td width="30px" align='right' id="eqzs"><i>d</i></td>
+<td width="40px" align='left' id="eqzs">——</td>
+<td id="eqzs">锚固力中心至齿板上边缘的垂直距离。</td>
+</tr>
+</table>
+<p> </p>
 
-    <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="B8.2.1-5">表8.2.1-5 护套上端浆液离析</b></caption>
-
-                   <tr>
-                     <td  align="center" width=60px rowspan="2" id="dhbg">标度</td>
-                     <td  align="center"  colspan="2">评定指标</td>
-                                 <!-- <td></td> -->
-                   </tr>
-                 <tr>
-                    <!-- <td></td> -->
-                     <td align="center" width=360px>定性描述</td>
-                                 <td align="center" width=480px>定量描述</td>
-                   </tr>
-                 <tr>
-                    <td align="center">1</td>
-                    <td align="left">完好</td>
-                          <td align="center">—</td>
-                   </tr>
-                 <tr>
-                    <td align="center">2</td>
-                          <td align="center">—</td>
-                          <td align="center">—</td>
-                   </tr>
-                 <tr>
-                    <td align="center">3</td>
-                    <td align="left">局部离析</td>
-                          <td align="left">≤10%的浆液没有凝固</td>
-                    </tr>
-                  <tr>
-                    <td align="center" >4</td>
-                    <td align="left">局部离析，浆液有流动性</td>
-                          <td align="left">＞10%的浆液没有凝固</td>
-                    </tr>
-               </table>
-   <p> </p>
-
-<table id="biaoge" style="font-family:times new roman">
-
-    <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="B8.2.1-6">表8.2.1-6 渗水</b></caption>
-
-                   <tr>
-                     <td  align="center" width=60px rowspan="2" id="dhbg">标度</td>
-                     <td  align="center" width=840px>评定指标</td>
-                   </tr>
-       <tr>
-        <!-- <td></td> -->
-                                <td  align="center">定性描述</td>
-                   </tr>
-                 <tr>
-                    <td align="center">1</td>
-                    <td align="left">完好</td>
-                   </tr>
-                 <tr>
-                    <td align="center">2</td>
-                    <td align="left">个别护套轻微渗水</td>
-                   </tr>
-                 <tr>
-                    <td align="center">3</td>
-                     <td align="left">个别护套明显渗水；个别渗水伴有锈蚀</td>
-                   </tr>
-       <tr>
-                    <td align="center">4</td>
-                    <td align="left">多处护套明显渗水，渗水处伴有锈蚀</td>
-                   </tr>
-               </table>
-     <p> </p></section>
+<p style="text-align:justify;text-indent:2em;" >1 锚下劈裂力设计值</p><p>$$T_{\mathrm{s,d}}=0.04P_{\mathrm{d} }\tag{8.2.6-2}$$</p>
+<p style="text-align:justify;text-indent:2em;" >1 锚下劈裂力设计值</p><p>$$T_{\mathrm{tb,d}}=0.20P_{\mathrm{d} }\tag{8.2.6-3}$$</p>
+<p style="text-align:justify;text-indent:2em;" >1 锚下劈裂力设计值</p><p>$$T_{\mathrm{et,d}}=\dfrac{(2e-d)^2}{12e(e+d)}P_{\mathrm{d} }\tag{8.2.6-4}$$</p>
+ <table border="0" style="font-family:times new roman" id="gongshi">
+<tr>
+<td width="50px" align='center' id="eqzs">式中：</td>
+<td width="30px" align='right' id="eqzs"><i>e</i></td>
+<td width="40px" align='left' id="eqzs">——</td>
+<td id="eqzs"> 固力作用点至壁板中心的距离。</td>
+</tr>
+</table>
+<p> </p><p>$$T_{\mathrm{R,d}}=P_{\mathrm{d} }\alpha \tag{8.2.6-5}$$</p>
+ <table border="0" style="font-family:times new roman" id="gongshi">
+<tr>
+<td width="50px" align='center' id="eqzs">式中：</td>
+<td width="30px" align='right' id="eqzs"><i>α</i></td>
+<td width="40px" align='left' id="eqzs">——</td>
+<td id="eqzs"> 应力钢筋转向前后的切线夹角(rad)。</td>
+</tr>
+</table>
+<p> </p></section>
 <section id="id4">
-<h2>8.3 主梁<a class="headerlink" href="#id4" title="此标题的永久链接"></a></h2>
-<p style="text-align:justify"><a href="#id8.3.1"> 8.3.1</a> <span id="id8.3.1"> 预应力混凝土主梁评定指标及分级评定标准依照<a href="https://jtg-h21.readthedocs.io/zh/latest/07.html#id7.4.1">7.4.1</a>悬索桥预应力混凝土加劲梁的相关规定。</span></p>
-<p style="text-align:justify"><a href="#id8.3.2"> 8.3.2</a> <span id="id8.3.2"> 钢桁架主梁评定指标及分级评定标准依照<a href="https://jtg-h21.readthedocs.io/zh/latest/07.html#id7.4.2">7.4.2</a>悬索桥钢桁架加劲梁的相关规定。</span></p>
-<p style="text-align:justify"><a href="#id8.3.3"> 8.3.3</a> <span id="id8.3.3"> 钢箱梁主梁评定指标及分级评定标准依照<a href="https://jtg-h21.readthedocs.io/zh/latest/07.html#id7.4.3">7.4.3</a>悬索桥钢箱梁加劲梁的相关规定。</span></p></section>
+<h2>8.3 支座处横隔梁 (新增)<a class="headerlink" href="#id4" title="此标题的永久链接"></a></h2>
+<p style="text-align:justify"><a href="#id8.3.1"> 8.3.1</a> <span id="id8.3.1"> 支座处横隔梁应进行横桥向受力计算，可采用隔离体简化模型，假定跨内荷载由腹板传递至横隔梁。当横隔梁的宽高比<i>B</i><sub>w</sub>/<i>h</i>>2时，可按<a href="https://jtg-3362.readthedocs.io/zh/latest/5.html">第5章</a>~<a href="https://jtg-3362.readthedocs.io/zh/latest/7.html">第7章</a>钢筋混凝土受弯构件进行计算；当横隔梁的宽高比 <i>B</i><sub>w</sub>/<i>h</i>≤2时，可按应力扰动区进行计算。<i>B</i><sub>w</sub>为横隔梁外腹板中心线之间的距离，<i>h</i>为横隔梁的高度。</span></p>
+<p style="text-align:justify"><a href="#id8.3.2"> 8.3.2</a> <span id="id8.3.2"> 单室箱梁的横隔梁，当其宽高比0.5≤<i>B</i><sub>w</sub>/<i>h</i>≤2时，可按以下规定进行顶部横向受拉部位的抗拉承载力计算：</span></p><p>$$T_{\mathrm{R,d}}=P_{\mathrm{d} }\alpha \tag{8.3.2-1}$$
+$$T_{\mathrm{R,d}}=P_{\mathrm{d} }\alpha \tag{8.3.2-2}$$</p>
+ <table border="0" style="font-family:times new roman" id="gongshi">
+<tr>
+<td width="50px" align='center' id="eqzs">式中：</td>
+<td width="30px" align='right' id="eqzs"><i>α</i><sub>t,d</sub></td>
+<td width="40px" align='left' id="eqzs">——</td>
+<td id="eqzs"> 横隔梁顶部横向拉杆内力设计值，见图8.3.2;</td>
+</tr>
+<tr>
+<td  align='left' id="eqzs"> </td>
+<td  align='right' id="eqzs"><i>V</i><sub>d</sub></td>
+<td  align='left' id="eqzs">——</td>
+<td id="eqzs">由单侧腹板传递至横隔梁的竖向剪力设计值。对于双支座情形，<i>V</i><sub>d</sub>取为单个支座反力设计值<i>R</i><sub>d</sub>;对于单支座情形，<i>V</i><sub>d</sub>取为1/2 支座反力设计值，即<i>V</i><sub>d</sub>=<i>R</i><sub>d</sub>/2;</td>
+</tr>
+<tr>
+<td  align='left' id="eqzs"> </td>
+<td  align='right' id="eqzs"><i>S</i></td>
+<td  align='left' id="eqzs">——</td>
+<td id="eqzs">对于双支座支承的横隔梁，<i>S</i>取支座中心距；对于单支座支承的横隔梁，<i>S</i>取1/2 支座垫板宽度<i>α</i>;</td>
+</tr>
+<tr>
+<td  align='left' id="eqzs"> </td>
+<td  align='right' id="eqzs"><i>h</i></td>
+<td  align='left' id="eqzs">——</td>
+<td id="eqzs">横隔梁的高度，取支座处箱梁梁高；</td>
+</tr>
+<tr>
+<td  align='left' id="eqzs"> </td>
+<td  align='right' id="eqzs"><i>B</i><sub>w</sub></td>
+<td  align='left' id="eqzs">——</td>
+<td id="eqzs">对于直腹板，<i>B</i><sub>w</sub>为腹板中心线之间的间距；对于斜腹板，<i>B</i><sub>w</sub>为腹板中心线中点之间的距离；</td>
+</tr>
+<tr>
+<td  align='right' id="eqzs"colspan="2"> <i>f</i><sub>sd</sub>、<i>f</i><sub>pd</sub></td>
+<!-- <td></td> -->
+<td  align='left' id="eqzs">——</td>
+<td id="eqzs">普通钢筋、预应力钢筋的抗拉强度设计值；</td>
+</tr>
+<tr>
+<td  align='right' id="eqzs"colspan="2"> <i>A</i><sub>s</sub>、<i>A</i><sub>p</sub></td>
+<!-- <td></td> -->
+<td  align='left' id="eqzs">——</td>
+<td id="eqzs">拉杆中的普通钢筋、预应力钢筋面积，在桥梁纵向应计入横隔梁及其两侧各1倍横隔梁厚度范围内的钢筋，在梁高方向应计入箱梁顶板厚度内的钢筋。</td>
+</tr>
+
+</table>
+<p> </p>
+
+<div align="center"><img id="fig8.3.2" src="./_static/fig/8.3.2.png" alt="Picture" width="500px"></div>
+ <p style="color: dimgray;text-align: center;">图 8.3.2 支座处横隔梁的顶部横向拉力计算</p>
+ <script type="text/javascript">var viewer = new Viewer(document.getElementById('fig8.3.2'));</script></section>
 <section id="id5">
-<h2>8.4 索塔<a class="headerlink" href="#id5" title="此标题的永久链接"></a></h2>
-<p style="text-align:justify"><a href="#id8.4.1"> 8.4.1</a> <span id="id8.4.1"> 索塔评定指标及分级评定标准：</span></p>
+<h2>8.4 墩台盖梁<a class="headerlink" href="#id5" title="此标题的永久链接"></a></h2>
+<p style="text-align:justify"><a href="#id8.4.1"> 8.4.1</a> <span id="id8.4.1"> 墩台盖梁与柱宜按刚架计算，盖梁的计算跨径宜取支承中心的距离。</span></p>
+<p style="text-align:justify"><a href="#id8.4.2"> 8.4.2</a> <span id="id8.4.2"> 盖梁应按下列规定进行结构设计： (修编)</span></p>
+ <ol>
+ <li>当盖梁跨中部分的跨高比<i>l</i>/<i>h</i>>5.0时，按<a href="https://jtg-3362.readthedocs.io/zh/latest/5.html">第5章</a>~<a href="https://jtg-3362.readthedocs.io/zh/latest/7.html">第7章</a>钢筋混凝土一般构件计算；当盖梁跨中部分的跨高比为2.5< <i>l</i>/<i>h</i>≤5.0时，按<a href="#id8.4.3">第8.4.3条</a>条~<a href="#id8.4.5">第8.4.5条</a>条进行承载力验算。此处，<i>l</i>为盖梁的计算跨径，<i>h</i>为盖梁的高度。</li>
+ <li>盖梁(墩帽)的悬臂部分，按<a href="#id8.4.6">第8.4.6条</a>和<a href="#id8.4.7">第8.4.7条</a>进行承载力验算。</li>
+ </ol>
+<p style="text-align:justify"><a href="#id8.4.3"> 8.4.3</a> <span id="id8.4.3"> 钢筋混凝土盖梁的正截面抗弯承载力应满足下列公式要求：</span></p><p>$$ \gamma _{0}M_{\mathrm{d} }\leqslant f_{\mathrm{sd} }A_{\mathrm{s} }Z\tag{8.4.3-1}$$
+$$ z=\left ( 0.75+0.05\dfrac{l}{h} \right )(h_{0}-0.5x) \tag{8.4.3-2}$$</p>
+<table border="0" style="font-family:times new roman" id="gongshi">
+<tr>
+<td width="40px" align='center' id="eqzs">式中:</td>
+<td width="30px" align='right' id="eqzs"><i>M</i><sub>d</sub></td>
+<td width="40px" align='left' id="eqzs">——</td>
+<td id="eqzs">盖梁最大弯矩设计值；</td>
+</tr>
+<tr>
+<td  align='left' id="eqzs"> </td>
+ <td  align='right'id="eqzs"><i>f</i><sub>sd</sub></td>
+<td  align='left' id="eqzs">——</td>
+<td id="eqzs">纵向普通钢筋的抗拉强度设计值；</td>
+</tr>
+<tr>
+<td  align='left' id="eqzs"> </td>
+<td  align='right' id="eqzs"><i>A</i><sub>s</sub></td>
+<td  align='left' id="eqzs">——</td>
+<td id="eqzs">受拉区普通钢筋截面面积；</td>
+</tr>
+ <tr>
+<td  align='left' id="eqzs"> </td>
+<td  align='right' id="eqzs"><i>z</i></td>
+<td  align='left' id="eqzs">——</td>
+<td id="eqzs">内力臂；</td>
+</tr>
+ <tr>
+<td  align='left' id="eqzs"> </td>
+<td  align='right' id="eqzs"><i>x</i></td>
+<td  align='left' id="eqzs">——</td>
+<td id="eqzs">截面受压区高度，按公式(5.2.2-2)计算；</td>
+</tr>
+<tr>
+<td  align='left' id="eqzs"> </td>
+<td  align='right' id="eqzs"><i>h</i><sub>0</sub></td>
+<td  align='left' id="eqzs">——</td>
+<td id="eqzs">截面有效高度。</td>
+</tr>
+</table>
+<p></p>
+<p style="text-align:justify"><a href="#id8.4.4"> 8.4.4</a> <span id="id8.4.4"> 钢筋混凝土盖梁的抗剪截面应满足下列要求：</span></p><p>$$\gamma _{0}V_{\mathrm{d} }\leqslant 0.33\times 10^{-4}\left ( \dfrac{l}{h} +10.3\right )\sqrt{f_{\mathrm{cu,k}}}bh_{0}  \tag{8.4.4}$$</p>
+<table border="0" style="font-family:times new roman" id="gongshi">
+<tr>
+<td width="40px" align='center' id="eqzs">式中:</td>
+<td width="30px" align='right' id="eqzs"><i>V</i><sub>d</sub></td>
+<td width="40px" align='left' id="eqzs">——</td>
+<td id="eqzs">验算截面处的剪力设计值(kN);</td>
+</tr>
+<tr>
+<td  align='left' id="eqzs"> </td>
+<td  align='right' id="eqzs"><i>b</i></td>
+<td  align='left' id="eqzs">——</td>
+<td id="eqzs">盖梁截面宽度(mm);</td>
+</tr>
+<tr>
+<td  align='left' id="eqzs"> </td>
+<td  align='right' id="eqzs"><i>h</i><sub>0</sub></td>
+<td  align='left' id="eqzs">——</td>
+<td id="eqzs">盖梁截面有效高度(mm);</td>
+</tr>
+ <tr>
+<td  align='left' id="eqzs"> </td>
+<td  align='right' id="eqzs"><i>f</i><sub>cu,k</sub></td>
+<td  align='left' id="eqzs">——</td>
+<td id="eqzs">混凝土立方体抗压强度标准值(MPa)。</td>
+</tr>
+</table>
+<p></p>
+<p style="text-align:justify"><a href="#id8.4.5"> 8.4.5</a> <span id="id8.4.5"> 钢筋混凝土盖梁的斜截面抗剪承载力应满足下列要求：</span></p><p>$$\gamma _{0}V_{\mathrm{d} }\leqslant 0.5\times 10^{-4}\alpha _{1}\left (14- \dfrac{l}{h} \right )bh_{0}\sqrt{(2+0.6P)\sqrt{f_{\mathrm{cu,k}}}\rho_{\mathrm{sv}}f_{\mathrm{sv}}} \tag{8.4.5}$$</p>
+<table border="0" style="font-family:times new roman" id="gongshi">
+<tr>
+<td width="40px" align='center' id="eqzs">式中:</td>
+<td width="30px" align='right' id="eqzs"><i>V</i><sub>d</sub></td>
+<td width="40px" align='left' id="eqzs">——</td>
+<td id="eqzs">验算截面处的剪力设计值(kN);</td>
+</tr>
+<tr>
+<td  align='left' id="eqzs"> </td>
+ <td  align='right' id="eqzs"><i>α</i><sub>1</sub></td>
+<td  align='left' id="eqzs">——</td>
+<td id="eqzs">连续梁异号弯矩影响系数，计算近边支点梁段的抗剪承载力时，<i>α</i><sub>1</sub>=1.0;计算中间支点梁段及刚构各节点附近时，<i>α</i><sub>1</sub>=0.9;</td>
+</tr>
+<tr>
+<td  align='left' id="eqzs"> </td>
+<td  align='right' id="eqzs"><i>P</i></td>
+<td  align='left' id="eqzs">——</td>
+<td id="eqzs">受拉区纵向受拉钢筋的配筋百分率，<i>P</i>=100<i>ρ</i>, <i>ρ</i>=<i>A</i><sub></sub>/<i>bh</i><sub>0</sub>,当<i>P</i>>2.5时，取<i>P</i>=2.5;</td>
+</tr>
+<tr>
+<td  align='left' id="eqzs"> </td>
+<td  align='right' id="eqzs"><i>ρ</i><sub>sv</sub></td>
+<td  align='left' id="eqzs">——</td>
+<td id="eqzs">箍筋配筋率，<math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mi>ρ</mi><mrow><mrow><mi mathvariant="normal">s</mi><mi mathvariant="normal">v</mi></mrow></mrow></msub><mo>=</mo><mstyle displaystyle="true" scriptlevel="0"><mfrac><msub><mi>A</mi><mrow><mrow><mi mathvariant="normal">s</mi><mi mathvariant="normal">v</mi></mrow></mrow></msub><msub><mi>b</mi><mrow><msub><mrow><mi mathvariant="normal">S</mi></mrow><mrow><mrow><mi mathvariant="normal">v</mi></mrow></mrow></msub></mrow></msub></mfrac></mstyle></math>，此处，<i>A</i><sub>sv</sub>为同一截面内箍筋各肢的总截面面积，<i>S</i><sub>v</sub>为箍筋间距；箍筋配筋率应符合<a href="https://jtg-3362.readthedocs.io/zh/latest/9.html#id9.3.12">第9.3.12条</a>规定；</td>
+</tr>
+<tr>
+<td  align='left' id="eqzs"> </td>
+<td  align='right' id="eqzs"><i>f</i><sub>sv</sub></td>
+<td  align='left' id="eqzs">——</td>
+<td id="eqzs">箍筋的抗拉强度设计值(MPa);</td>
+</tr>
+<tr>
+<td  align='left' id="eqzs"> </td>
+<td  align='right' id="eqzs"><i>b</i></td>
+<td  align='left' id="eqzs">——</td>
+<td id="eqzs">盖梁的截面宽度(mm);</td>
+</tr>
+<tr>
+<td  align='left' id="eqzs"> </td>
+<td  align='right' id="eqzs"><i>h</i><sub>0</sub></td>
+<td  align='left' id="eqzs">——</td>
+<td id="eqzs">盖梁的截面有效高度(mm)。</td>
+</tr>
+</table>
+<p></p>
 
-<ol>
-<li>倾斜变形评定标准见<a href="#B8.4.1-1">表8.4.1-1</a>。</li>
-<li>裂缝评定标准见<a href="#B8.4.1-2">表8.4.1-2</a>。</li>
-<li>沉降评定标准见<a href="#B8.4.1-3">表8.4.1-3</a>。</li>
-<li>错固区渗水评定标准见<a href="#B8.4.1-4">表8.4.1-4</a>。</li>
-<li>蜂窝、麻面评定标准见<a href="https://jtg-h21.readthedocs.io/zh/latest/07.html#B7.5.1-2">表7.5.1-2</a>。</li>
-<li>剥落、露筋评定标准见<a href="https://jtg-h21.readthedocs.io/zh/latest/07.html#B7.5.1-3">表7.5.1-3</a>。</li>
-<li>钢筋锈蚀评定标准见<a href="https://jtg-h21.readthedocs.io/zh/latest/07.html#B7.5.1-4">表7.5.1-4</a>。</li>
-<li>基础冲刷评定标准见<a href="https://jtg-h21.readthedocs.io/zh/latest/07.html#B7.5.1-7">表7.5.1-7</a>。</li>
-</ol>
+<p style="text-align:justify"><a href="#id8.4.6"> 8.4.6</a> <span id="id8.4.6"> 钢筋混凝土盖梁的悬臂部分承受竖向力作用时，应符合下列规定：</span></p>
+ <ol>
+ <li>当竖向力作用点至柱边缘的水平距离(圆形截面柱可换算为边长等于0.8倍直径的方形截面柱)大于盖梁截面高度时，按<a href="https://jtg-3362.readthedocs.io/zh/latest/5.html">第5章</a>~<a href="https://jtg-3362.readthedocs.io/zh/latest/7.html">第7章</a>钢筋混凝土一般构件计算。</li>
+ <li>当竖向力作用点至柱边缘的水平距离等于或小于盖梁截面高度时，可采用拉压杆模型按下列规定计算悬臂上缘拉杆的抗拉承载力(<a href="#fig8.4.6">图 8.4.6</a>):</li>
+ </ol><p>$$ \gamma _{0}T_{\mathrm{t,d} }\leqslant f_{\mathrm{sd}}A_{\mathrm{s}}+f_{\mathrm{pd}}A_{\mathrm{p}}\tag{8.4.6-1}$$
+$$T_{\mathrm{t,d} }=\dfrac{x+b_{c}/2}{z}F_{d}\tag{8.4.6-2}$$</p>
+<table border="0" style="font-family:times new roman" id="gongshi">
+<tr>
+<td width="40px" align='center' id="eqzs">式中:</td>
+<td width="60px" align='right' id="eqzs"><i>T</i><sub>t,d</sub></td>
+<td width="40px" align='left' id="eqzs">——</td>
+<td id="eqzs">盖梁悬臂上缘拉杆的内力设计值；</td>
+</tr>
+<tr>
+<td  align='left' id="eqzs"> </td>
+ <td  align='right' id="eqzs"><i>f</i><sub>sd</sub>、<i>f</i><sub>pd</sub></td>
+<td  align='left' id="eqzs">——</td>
+<td id="eqzs">普通钢筋、预应力钢筋的抗拉强度设计值；</td>
+</tr>
+<tr>
+<td  align='left' id="eqzs"> </td>
+<td  align='right' id="eqzs"><i>A</i><sub>s</sub>、<i>A</i><sub>p</sub></td>
+<td  align='left' id="eqzs">——</td>
+<td id="eqzs">拉杆中的普通钢筋、预应力钢筋面积；</td>
+</tr>
+<tr>
+<td  align='left' id="eqzs"> </td>
+<td  align='right' id="eqzs"><i>F</i><sub>d</sub></td>
+<td  align='left' id="eqzs">——</td>
+<td id="eqzs">盖梁悬臂部分的竖向力设计值，按基本组合取用；</td>
+</tr>
+<tr>
+<td  align='left' id="eqzs"> </td>
+<td  align='right' id="eqzs"><i>b</i><sub>c</sub></td>
+<td  align='left' id="eqzs">——</td>
+<td id="eqzs">柱的支撑宽度，方形截面柱取截面边长，圆形截面柱取0.8倍直径；</td>
+</tr>
+<tr>
+<td  align='left' id="eqzs"> </td>
+<td  align='right' id="eqzs"><i>x</i></td>
+<td  align='left' id="eqzs">——</td>
+<td id="eqzs">竖向力作用点至柱边缘的水平距离；</td>
+</tr>
+<tr>
+<td  align='left' id="eqzs"> </td>
+<td  align='right' id="eqzs"><i>h</i><sub>0</sub></td>
+<td  align='left' id="eqzs">——</td>
+<td id="eqzs">盖梁的有效高度；</td>
+</tr>
+<tr>
+<td  align='left' id="eqzs"> </td>
+<td  align='right' id="eqzs"><i>z</i></td>
+<td  align='left' id="eqzs">——</td>
+<td id="eqzs">盖梁的内力臂，可取<i>z</i>=0.9<i>h</i><sub>0</sub>。</td>
+</tr>
+</table>
+<p></p>
 
-<table id="biaoge" style="font-family:times new roman">
+<div align="center"><img id="fig8.4.6" src="./_static/fig/8.4.6.png" alt="Picture" width="300px"></div>
+ <p style="color: dimgray;text-align: center;">图 8.4.6 盖梁短悬臂部分的拉压杆模型</p>
+ <script type="text/javascript">var viewer = new Viewer(document.getElementById('fig8.4.6'));</script>
 
-    <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="B8.4.1-1">表8.4.1-1 倾斜变形</b></caption>
+<p style="text-align:justify"><a href="#id8.4.7"> 8.4.7</a> <span id="id8.4.7"> 对于布置双支座的独柱墩的墩帽(顶部),可采用拉压杆模型按下列规定计算顶部横向受拉部位的抗拉承载力(<a href="#fig8.4.7">图 8.4.7</a>): (新增)</span></p><p>$$\gamma _{0}T_{\mathrm{t,d} }\leqslant f_{\mathrm{sd} }A_{\mathrm{s} }\tag{8.4.7-1}$$
+$$T_{\mathrm{t,d} }=0.45F_{\mathrm{d} }\left ( \dfrac{2S-b^{'}}{h} \right ) \tag{8.4.7-2}$$</p>
+<div align="center"><img id="fig8.4.7" src="./_static/fig/8.4.7.png" alt="Picture" width="600px"></div>
+ <p style="color: dimgray;text-align: center;">图 8.4.7 三种独柱墩的墩帽(顶部)配筋设计的拉压杆模型</p>
+ <script type="text/javascript">var viewer = new Viewer(document.getElementById('fig8.4.7'));</script>
 
-                   <tr>
-                     <td  align="center" width=60px rowspan="2" id="dhbg">标度</td>
-                     <td  align="center" width=840px>评定指标</td>
-                   </tr>
-       <tr>
-        <!-- <td></td> -->
-                                <td  align="center">定性描述</td>
-                   </tr>
-                 <tr>
-                    <td align="center">1</td>
-                    <td align="left">无倾斜变形</td>
-                   </tr>
-                 <tr>
-                    <td align="center">2</td>
-                    <td align="center">—</td>
-                   </tr>
-                 <tr>
-                    <td align="center">3</td>
-                     <td align="left">有倾斜变形现象或存在扭转现象，但情况轻微，不影响结构安全</td>
-                   </tr>
-       <tr>
-                    <td align="center">4</td>
-                    <td align="left">存在倾斜变形或存在扭转，两塔不对称变形，存在安全隐患</td>
-                   </tr>
-        <tr>
-                    <td align="center">5</td>
-                    <td align="left">索塔出现明显倾斜，或两塔不对称变位严重，造成主梁出现严重变形，严重影响结构安全</td>
-                   </tr>
-               </table>
-     <p> </p>
 
-<table id="biaoge" style="font-family:times new roman">
+<table border="0" style="font-family:times new roman" id="gongshi">
+<tr>
+<td width="40px" align='center' id="eqzs">式中:</td>
+<td width="60px" align='right' id="eqzs"><i>T</i><sub>t,d</sub></td>
+<td width="40px" align='left' id="eqzs">——</td>
+<td id="eqzs">墩顶的横向拉杆内力设计值；</td>
+</tr>
+<tr>
+<td  align='left' id="eqzs"> </td>
+<td  align='right' id="eqzs"><i>F</i><sub>d</sub></td>
+<td  align='left' id="eqzs">——</td>
+<td id="eqzs">墩顶的竖向力设计值，按基本组合取用；</td>
+</tr>
+<tr>
+<td  align='left' id="eqzs"> </td>
+<td  align='right' id="eqzs"><i>S</i></td>
+<td  align='left' id="eqzs">——</td>
+<td id="eqzs">双支座的中心距；</td>
+</tr>
+<tr>
+<td  align='left' id="eqzs"> </td>
+<td  align='right' id="eqzs"><i>h</i></td>
+<td  align='left' id="eqzs">——</td>
+<td id="eqzs">墩顶横向变宽度区段的高度，当<i>h</i>><i>b</i>时取<i>h</i>=<i>b</i>,<i>b</i>为墩帽顶部横向宽度；</td>
+</tr>
+<tr>
+<td  align='left' id="eqzs"> </td>
+<td  align='right' id="eqzs"><i>b'</i></td>
+<td  align='left' id="eqzs">——</td>
+<td id="eqzs">距离墩顶高度为<i>h</i>的位置处，墩帽或墩身的横向宽度；</td>
+</tr>
+<tr>
+<td  align='left' id="eqzs"> </td>
+<td  align='right' id="eqzs"><i>f</i><sub>sd</sub></td>
+<td  align='left' id="eqzs">——</td>
+<td id="eqzs">普通钢筋抗拉强度设计值；</td>
+</tr>
+<tr>
+<td  align='left' id="eqzs"> </td>
+<td  align='right' id="eqzs"><i>A</i><sub>s</sub></td>
+<td  align='left' id="eqzs">——</td>
+<td id="eqzs">拉杆中的普通钢筋面积，按盖梁顶部 2<i>h</i>/9 高度范围内的钢筋计算。</td>
+</tr>
+</table>
+<p></p>
 
-    <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="B8.4.1-2">表8.4.1-2 裂缝</b></caption>
 
-                   <tr>
-                     <td  align="center" width=60px rowspan="2" id="dhbg">标度</td>
-                     <td  align="center"  colspan="2">评定指标</td>
-                                 <!-- <td></td> -->
-                   </tr>
-                 <tr>
-                    <!-- <td></td> -->
-                     <td align="center" width=360px>定性描述</td>
-                                 <td align="center" width=480px>定量描述</td>
-                   </tr>
-                 <tr>
-                    <td align="center">1</td>
-                    <td align="left">完好，无裂缝</td>
-                          <td align="center">—</td>
-                   </tr>
-                 <tr>
-                    <td align="center" rowspan="2">2</td>
-                          <td align="left">网状裂缝：局部网状裂缝</td>
-                          <td align="left">网状裂缝：累计面积≤构件面积的20%，单处面积≤1.0m²</td>
-                   </tr>
-                 <tr>
-                     <!-- <td></td> -->
-                          <td align="left">其他裂缝：有少量裂缝，缝宽未超限</td>
-                          <td align="left">其他裂缝：缝长≤截面尺寸的1/3</td>
-                   </tr>
-                 <tr>
-                    <td align="center" rowspan="2">3</td>
-                    <td align="left">网状裂缝：局部网状裂缝</td>
-                          <td align="left">网状裂缝：累计面积＞构件表面积的20%，单处面积＞1.0m²</td>
-                    </tr>
-
-                 <tr>
-                     <!-- <td></td> -->
-                          <td align="left">其他裂缝：有大量裂缝，缝宽未超限</td>
-                          <td align="left">其他裂缝：缝长＞截面尺寸的1/3且≤截面尺寸的2/3，间距≥20cm</td>
-                   </tr>
-                  <tr>
-                    <td align="center" >4</td>
-                    <td align="left">有大量裂缝，缝宽超限</td>
-                          <td align="left">缝宽＞限值，缝长＞截面尺寸的2/3，间距＜20cm</td>
-                    </tr>
-               </table>
-   <p> </p>
-
-  <table id="biaoge" style="font-family:times new roman">
-
-    <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="B8.4.1-3">表8.4.1-3 沉降</b></caption>
-
-                   <tr>
-                     <td  align="center" width=60px rowspan="2" id="dhbg">标度</td>
-                     <td  align="center" width=840px>评定指标</td>
-                   </tr>
-       <tr>
-        <!-- <td></td> -->
-                                <td  align="center">定性描述</td>
-                   </tr>
-                 <tr>
-                    <td align="center">1</td>
-                    <td align="left">完好</td>
-                   </tr>
-                 <tr>
-                    <td align="center">2</td>
-                    <td align="center">—</td>
-                   </tr>
-                 <tr>
-                    <td align="center">3</td>
-                     <td align="left">索塔有小幅度沉降，但沉降稳定</td>
-                   </tr>
-       <tr>
-                    <td align="center">4</td>
-                    <td align="left">索塔沉降较大，但沉降稳定</td>
-                   </tr>
-       <tr>
-                    <td align="center">5</td>
-                    <td align="left">索塔沉降量异常且不稳定，或索塔基础出现严重沉降或位移</td>
-                   </tr>
-               </table>
-     <p> </p>
-
-  <table id="biaoge" style="font-family:times new roman">
-
-    <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="B8.4.1-4">表8.4.1-4 锚固区渗水</b></caption>
-
-                   <tr>
-                     <td  align="center" width=60px rowspan="2" id="dhbg">标度</td>
-                     <td  align="center" width=840px>评定指标</td>
-                   </tr>
-       <tr>
-        <!-- <td></td> -->
-                                <td  align="center">定性描述</td>
-                   </tr>
-                 <tr>
-                    <td align="center">1</td>
-                    <td align="left">完好</td>
-                   </tr>
-                 <tr>
-                    <td align="center">2</td>
-                    <td align="left">锚固区有轻微渗水</td>
-                   </tr>
-                 <tr>
-                    <td align="center">3</td>
-                     <td align="left">锚固区有局部明显渗水，渗水量较大</td>
-                   </tr>
-       <tr>
-                    <td align="center">4</td>
-                    <td align="left">锚固区有多处明显渗水，渗水量大；个别渗水处伴有晶体析出或锈蚀，流膏处混凝土松散</td>
-                   </tr>
-               </table>
-     <p> </p></section>
+<p style="text-align:justify"><a href="#id8.4.8"> 8.4.8</a> <span id="id8.4.8"> 当盖梁跨中部分的跨高比为2.5< <i>l</i>/<i>h</i>≤5.0时，钢筋混凝土盖梁的最大裂缝宽度按<a href="https://jtg-3362.readthedocs.io/zh/latest/6.html#id6.4.3">第6.4.3条</a>的公式计算，但其中系数<i>C</i><sub>3</sub>取为<math xmlns="http://www.w3.org/1998/Math/MathML" d><mstyle displaystyle="true" scriptlevel="0"><mfrac><mn>1</mn><mn>3</mn></mfrac></mstyle><mrow data-mjx-texclass="INNER"><mo data-mjx-texclass="OPEN">(</mo><mstyle displaystyle="true" scriptlevel="0"><mfrac><mrow><mn>0.4</mn><mi>l</mi></mrow><mi>h</mi></mfrac></mstyle><mo>+</mo><mn>1</mn><mo data-mjx-texclass="CLOSE">)</mo></mrow></math>并不应超过<a href="https://jtg-3362.readthedocs.io/zh/latest/6.html#id6.4.2">第6.4.2条</a>的限值。</span></p>
+<p style="text-align:justify"><a href="#id8.4.9"> 8.4.9</a> <span id="id8.4.9">当盖梁跨中部分的跨高比 <i>l</i>/<i>h</i> >5.0时，钢筋混凝土盖梁宜按照本规范<a href="https://jtg-3362.readthedocs.io/zh/latest/6.html#id6">第6.5节</a>的规定进行挠度验算。</span></p></section>
 <section id="id6">
-<h2>8.5 锚具<a class="headerlink" href="#id6" title="此标题的永久链接"></a></h2>
-<p style="text-align:justify"><a href="#id8.5.1"> 8.5.1</a> <span id="id8.5.1"> 锚具评定指标及分级评定标准：</span></p>
+<h2>8.5 桩基承台<a class="headerlink" href="#id6" title="此标题的永久链接"></a></h2>
+<p style="text-align:justify"><a href="#id8.5.1"> 8.5.1</a> <span id="id8.5.1"> 在进行承台计算时，单桩作用于承台底面的竖向力设计值可按下列公式计算(<a href="#fig8.5.1">图 8.5.1</a>):</span></p><p>$$N_{\mathrm{id} }=\dfrac{F_{\mathrm{d}}}{n}\pm\dfrac{M_{\mathrm{xd} }\mathrm{y}_{i} }{\sum \mathrm{y} ^{2}_{i}}\pm\dfrac{M_{\mathrm{y}d}x_{i} }{\sum x^{2}_{i}}\tag{8.5.1}$$</p>
+<table border="0" style="font-family:times new roman" id="gongshi">
+<tr>
+<td width="40px" align='center' id="eqzs">式中:</td>
+<td width="80px" align='right' id="eqzs"><i>N</i><sub>id</sub></td>
+<td width="40px" align='left' id="eqzs">——</td>
+<td id="eqzs">第<i>i</i>根桩作用于承台底面的竖向力设计值；</td>
+</tr>
+<tr>
+<td  align='left' id="eqzs"> </td>
+<td  align='right' id="eqzs"><i>F</i><sub>d</sub></td>
+<td  align='left' id="eqzs">——</td>
+<td id="eqzs">由承台底面以上的作用组合产生的竖向力设计值；</td>
+</tr>
+<tr>
+<td  align='left' id="eqzs"> </td>
+<td  align='right' id="eqzs"><i>M</i><sub>xd</sub>、<i>M</i><sub>yd</sub></td>
+<td  align='left' id="eqzs">——</td>
+<td id="eqzs">由承台底面以上的作用组合绕通过桩群形心的<i>x</i>轴、<i>y</i>轴的弯矩设计值；</td>
+</tr>
+<tr>
+<td  align='left' id="eqzs"> </td>
+<td  align='right' id="eqzs"><i>n</i></td>
+<td  align='left' id="eqzs">——</td>
+<td id="eqzs">承台下面桩的总根数；</td>
+</tr>
+<tr>
+<td  align='left' id="eqzs"> </td>
+<td  align='right' id="eqzs"><i>xi</i>、<i>yi</i></td>
+<td  align='left' id="eqzs">——</td>
+<td id="eqzs">第<i>i</i>排桩中心至<i>y</i>轴、<i>x</i>轴的距离。</td>
+</tr>
+</table>
+<p></p>
+
+
+<div align="center"><img id="fig8.5.1" src="./_static/fig/8.5.1.png" alt="Picture" width="600px"></div>
+ <p style="color: dimgray;text-align: center;">图 8.5.1 桩基承台计算<br/>1-墩身；2-承台；3-桩；4-剪切破坏斜截面</p>
+ <script type="text/javascript">var viewer = new Viewer(document.getElementById('fig8.45.1'));</script>
+
+
+<p style="text-align:justify"><a href="#id8.5.2"> 8.5.2</a> <span id="id8.5.2"> 当承台下面外排桩中心距墩台身边缘大于承台高度时，其正截面(垂直于x轴和y轴的竖向截面)抗弯承载力可作为悬臂梁按<a href="https://jtg-3362.readthedocs.io/zh/latest/5.html#id3">第5.2节</a>规定计算。</span></p>
 <ol>
-<li>锚杯积水评定标准见<a href="#B8.5.1-1">表8.5.1-1</a>。</li>
-<li>错具内潮湿评定标准见<a href="#B8.5.1-2">表8.5.1-2</a>。</li>
-<li>防锈油结块评定标准见<a href="#B8.5.1-3">表8.5.1-3</a>。</li>
-<li>错具锈蚀评定标准见<a href="#B8.5.1-4">表8.5.1-4</a>。</li>
+<li> 承台截面计算宽度</li>
 </ol>
+<p style="text-align:justify;text-indent:2em;" >1)当桩中距不大于三倍桩边长或三倍桩直径时，取承台全宽；</p>
+<p style="text-align:justify;text-indent:2em;" >2)当桩中距大于三倍桩边长或三倍桩直径时</p><p>$$b_{\mathrm{s} }=2a +3D(n-1)\tag{8.5.2-1}$$</p>
+<table border="0" style="font-family:times new roman" id="gongshi">
+<tr>
+<td width="40px" align='center' id="eqzs">式中:</td>
+<td width="60px" align='right' id="eqzs"><i>b</i><sub>s</sub></td>
+<td width="40px" align='left' id="eqzs">——</td>
+<td id="eqzs">台截面计算宽度；</td>
+</tr>
+<tr>
+<td  align='left' id="eqzs"> </td>
+<td  align='right' id="eqzs"><i>α</i></td>
+<td  align='left' id="eqzs">——</td>
+<td id="eqzs">平行于计算截面的边桩中心距承台边缘距离；</td>
+</tr>
+<tr>
+<td  align='left' id="eqzs"> </td>
+<td  align='right' id="eqzs"><i>D</i></td>
+<td  align='left' id="eqzs">——</td>
+<td id="eqzs">桩边长或桩直径；</td>
+</tr>
+<tr>
+<td  align='left' id="eqzs"> </td>
+<td  align='right' id="eqzs"><i>n</i></td>
+<td  align='left' id="eqzs">——</td>
+<td id="eqzs">平行于计算截面的桩的根数。</td>
+</tr>
+</table>
+<p></p>
 
-<table id="biaoge" style="font-family:times new roman">
+<ol start="2">
+<li> 承台计算截面弯矩设计值应按下列公式计算(<a href="#fig8.5.1">图 8.5.1</a>):</li>
+</ol><p>$$M_{\mathrm{xcd} }=\sum N_{\mathrm{id}}\mathrm{y_{ci}} \tag{8.5.2-2}$$
+$$M_{\mathrm{ycd} }=\sum N_{\mathrm{id}}x_\mathrm{ci} \tag{8.5.2-3}$$</p>
+<table border="0" style="font-family:times new roman" id="gongshi">
+<tr>
+<td width="40px" align='center' id="eqzs">式中:</td>
+<td width="80px" align='right' id="eqzs"><i>M</i><sub>xcd</sub>、<i>M</i><sub>ycd</sub></td>
+<td width="40px" align='left' id="eqzs">——</td>
+<td id="eqzs">—计算截面外侧各排桩竖向力组合产生的绕x轴和y轴在计算截面处的弯矩设计值；</td>
+</tr>
+<tr>
+<td  align='left' id="eqzs"> </td>
+<td  align='right' id="eqzs"><i>N</i><sub>id</sub></td>
+<td  align='left' id="eqzs">——</td>
+<td id="eqzs">计算截面外侧第<i>i</i>排桩的竖向力设计值，取该排桩根数乘以该排桩中最大单桩竖向力设计值；</td>
+</tr>
+<tr>
+<td  align='left' id="eqzs"> </td>
+<td  align='right' id="eqzs"><i>x</i><sub>ci</sub>、<i>y</i><sub>ci</sub></td>
+<td  align='left' id="eqzs">——</td>
+<td id="eqzs">垂直于y轴和x轴方向，自第i排桩中心线至计算截面的距离。</td>
+</tr>
+<tr>
+<td  align='left' id="eqzs"> </td>
+<td  align='right' id="eqzs"><i>n</i></td>
+<td  align='left' id="eqzs">——</td>
+<td id="eqzs">承台下面桩的总根数；；</td>
+</tr>
+<tr>
+<td  align='left' id="eqzs"> </td>
+<td  align='right' id="eqzs"><i>xi</i>、<i>yi</i></td>
+<td  align='left' id="eqzs">——</td>
+<td id="eqzs">第<i>i</i>排桩中心至<i>y</i>轴、<i>x</i>轴的距离。</td>
+</tr>
+</table>
+<p></p>
 
-    <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="B8.5.1-1">表8.5.1-1 锚杯积水</b></caption>
 
-                   <tr>
-                     <td  align="center" width=60px rowspan="2" id="dhbg">标度</td>
-                     <td  align="center" width=840px>评定指标</td>
-                   </tr>
-       <tr>
-        <!-- <td></td> -->
-                                <td  align="center">定性描述</td>
-                   </tr>
-                 <tr>
-                    <td align="center">1</td>
-                    <td align="left">完好，锚杯无积水</td>
-                   </tr>
-                 <tr>
-                    <td align="center">2</td>
-                    <td align="left">锚杯积水较少，空气湿度较大</td>
-                   </tr>
-                 <tr>
-                    <td align="center">3</td>
-                     <td align="left">锚杯积水严重，空气湿度很大</td>
-                   </tr>
-               </table>
-     <p> </p>
+<p style="text-align:justify"><a href="#id8.5.3"> 8.5.3</a> <span id="id8.5.3"> 当承台下面外排桩中心距墩台身边缘大于承台高度时，其斜截面抗剪承载力计算应符合下列规定(见<a href="#fig8.5.1">图 8.5.1</a>):</span></p><p>$$\gamma _{0}V_{\mathrm{d} }\leqslant 0.9\times 10^{-4}\dfrac{(2+0.6P)}{m}\sqrt{f_{\mathrm{cu,k} }}b_{\mathrm{s} }h_{0} \tag{8.5.3}$$</p>
+<table border="0" style="font-family:times new roman" id="gongshi">
+<tr>
+<td width="40px" align='center' id="eqzs">式中:</td>
+<td width="60px" align='right' id="eqzs"><i>V</i><sub>d</sub></td>
+<td width="40px" align='left' id="eqzs">——</td>
+<td id="eqzs">由承台悬臂下面桩的竖向力设计值产生的计算斜截面以外各排桩最大剪力设计值的总和(kN);每排桩的竖向力设计值，取其中一根最大值乘以该排桩的根数；</td>
+</tr>
+<tr>
+<td  align='left' id="eqzs"> </td>
+<td  align='right' id="eqzs"><i>f</i><sub>cu,k</sub></td>
+<td  align='left' id="eqzs">——</td>
+<td id="eqzs">边长为150 mm的混凝土立方体抗压强度标准值(MPa);</td>
+</tr>
+<tr>
+<td  align='left' id="eqzs"> </td>
+<td  align='right' id="eqzs"><i>P</i></td>
+<td  align='left' id="eqzs">——</td>
+<td id="eqzs">斜截面内纵向受拉钢筋的配筋百分率，<i>P</i>=100<i>ρ</i>,<i>ρ</i>=<i>A</i><sub>s</sub>/<i>bh</i><sub>0</sub>,当<i>P</i>>2.5时，取<i>P</i>=2.5,其中 <i>A</i><sub>s</sub>为承台截面计算宽度(<a href="#id8.5.2">第8.5.2条</a>)内纵向受拉钢筋截面面积；</td>
+</tr>
+<tr>
+<td  align='left' id="eqzs"> </td>
+<td  align='right' id="eqzs"><i>m</i></td>
+<td  align='left' id="eqzs">——</td>
+<td id="eqzs">剪跨比，<i>m</i>=<i>α</i><sub>xi</sub>/<i>h</i><sub>0</sub>或<i>m</i>=<i>α</i><sub>yi</sub>/<i>h</i><sub>0</sub>,当<i>m</i>＜0.5时，取 <i>m</i>=0.5,其中<i>α</i><sub>xi</sub>和<i>α</i><sub>yi</sub>分别为沿<i>x</i>轴和<i>y</i>轴墩台边缘至计算斜截面外侧第<i>i</i>排桩边缘的距离；当为圆形截面桩时，可换算为边长等于0.8倍圆桩直径的方形截面桩；</td>
+</tr>
+<tr>
+<td  align='left' id="eqzs"> </td>
+<td  align='right' id="eqzs"><i>b</i><sub>s</sub></td>
+<td  align='left' id="eqzs">——</td>
+<td id="eqzs">承台计算宽度(mm),见<a href="#id8.5.2">第8.5.2条</a>有关正截面抗弯承载力计算时对于计算宽度的规定；</td>
+</tr>
+<tr>
+<td  align='left' id="eqzs"> </td>
+<td  align='right' id="eqzs"><i>h</i><sub>0</sub></td>
+<td  align='left' id="eqzs">——</td>
+<td id="eqzs">承台有效高度(mm)。</td>
+</tr>
+</table>
+<p></p>
+<p style="text-align:justify;text-indent:2em;" > 当承台的同方向可作出多个斜截面破坏面时，应分别对每个斜截面进行抗剪承载力计算。</p>
 
-<table id="biaoge" style="font-family:times new roman">
+<p style="text-align:justify"><a href="#id8.5.4"> 8.5.4</a> <span id="id8.5.4"> 当承台下面外排桩中心与墩台身边缘的距离等于或小于承台高度时，承台的极限承载力可按附录B中的拉压杆模型方法进行设计(<a href="#fig8.5.4">图 8.5.4</a>)。</span></p>
+<p style="text-align:justify;text-indent:2em;" > 1 斜压杆承载力符合下列规定：</p><p>$$ \gamma _{0}C_{\mathrm{i,d} }\leqslant tb_{\mathrm{s} }f_{\mathrm{ce,d} }\tag{8.5.4-1}$$
+$$ f_{\mathrm{ce,d} }=\dfrac{\beta_{\mathrm{c}}f_{\mathrm{cd}}}{0.8+170\varepsilon_{1}}\leqslant 0.85\beta_{\mathrm{c} }f_{\mathrm{cd} } \tag{8.5.4-2}$$
+$$ \varepsilon_{1}=\dfrac{T_{\mathrm{i,d} }}{A_{\mathrm{s}}E_{\mathrm{s}}}+\left ( \dfrac{T_{\mathrm{i,d} }}{A_{\mathrm{s}}E_{\mathrm{s}}}+0.002 \right )\cot^{2}\theta _{\mathrm{i} } \tag{8.5.4-3}$$
+$$ t=b\sin\theta _{\mathrm{i} }+h_{a}\cos\theta _{\mathrm{i} }\tag{8.5.4-4}$$
+$$ h_{a}=S+6d\tag{8.5.4-5}$$</p>
+<table border="0" style="font-family:times new roman" id="gongshi">
+<tr>
+<td width="40px" align='center' id="eqzs">式中:</td>
+<td width="60px" align='right' id="eqzs"><i>c</i><sub>i,d</sub></td>
+<td width="40px" align='left' id="eqzs">——</td>
+<td id="eqzs">压杆的内力设计值，包括<math xmlns="http://www.w3.org/1998/Math/MathML" ><msub><mi>C</mi><mrow><mn>1</mn><mo>,</mo><mrow><mi mathvariant="normal">d</mi></mrow></mrow></msub><mo>=</mo><msub><mi>N</mi><mrow><mn>1</mn><mrow><mi mathvariant="normal">d</mi></mrow></mrow></msub><mrow><mo>/</mo></mrow><mi>sin</mi><mo data-mjx-texclass="NONE">⁡</mo><msub><mi>θ</mi><mrow><mn>1</mn></mrow></msub></math>,<math xmlns="http://www.w3.org/1998/Math/MathML" ><msub><mi>C</mi><mrow><mn>2</mn><mo>,</mo><mrow><mi mathvariant="normal">d</mi></mrow></mrow></msub><mo>=</mo><msub><mi>N</mi><mrow><mn>2</mn><mrow><mi mathvariant="normal">d</mi></mrow></mrow></msub><mrow><mo>/</mo></mrow><mi>sin</mi><mo data-mjx-texclass="NONE">⁡</mo><msub><mi>θ</mi><mrow><mn>2</mn></mrow></msub></math>,其中<i>N</i><sub>1d</sub>和<i>N</i><sub>2d</sub>分别为承台悬臂下面“1”排桩和“2”排桩内该排桩的根数乘以该排桩中最大单桩竖向力设计值，竖向力设计值按公式(8.5.1)计算；按公式(8.5.4-1)计算压杆承载力时，式中<i>C</i><sub>i,d</sub>取<i>C</i><sub>1,d</sub>和<i>c</i><sub>2,d</sub>两者中较大者；</td>
+</tr>
+<tr>
+<td  align='left' id="eqzs"> </td>
+<td  align='right' id="eqzs"><i>θ</i><sub>i</sub></td>
+<td  align='left' id="eqzs">——</td>
+<td id="eqzs">斜压杆与拉杆之间的夹角，其中<math xmlns="http://www.w3.org/1998/Math/MathML" ><msub><mi>θ</mi><mrow><mn>1</mn></mrow></msub><mo>=</mo><msup><mi>tan</mi><mrow><mo>−</mo><mn>1</mn></mrow></msup><mo data-mjx-texclass="NONE">⁡</mo><mstyle displaystyle="true" scriptlevel="0"><mfrac><msub><mi>h</mi><mrow><mn>0</mn></mrow></msub><mrow><mi>a</mi><mo>+</mo><msub><mi>x</mi><mrow><mn>1</mn></mrow></msub></mrow></mfrac></mstyle></math>，<math xmlns="http://www.w3.org/1998/Math/MathML" ><msub><mi>θ</mi><mrow><mn>2</mn></mrow></msub><mo>=</mo><msup><mi>tan</mi><mrow><mo>−</mo><mn>1</mn></mrow></msup><mo data-mjx-texclass="NONE">⁡</mo><mstyle displaystyle="true" scriptlevel="0"><mfrac><msub><mi>h</mi><mrow><mn>0</mn></mrow></msub><mrow><mi>a</mi><mo>+</mo><msub><mi>x</mi><mrow><mn>2</mn></mrow></msub></mrow></mfrac></mstyle></math>其中<i>h</i><sub>0</sub>为承台有效高度；<i>α</i>为压杆中线与承台顶面的交点至墩台边缘的距离，取<i>α</i>=0.15<i>h</i><sub>0</sub>;<i>x</i><sub>1</sub>和<i>x</i><sub>2</sub>为桩中心至墩台边缘的距离；</td>
+</tr>
+<tr>
+<td  align='left' id="eqzs"> </td>
+<td  align='right' id="eqzs"><i>f</i><sub>ce,d</sub></td>
+<td  align='left' id="eqzs">——</td>
+<td id="eqzs">混凝土压杆的等效抗压强度设计值，计算时参数βc按附录B取值：</td>
+</tr>
+<tr>
+<td  align='left' id="eqzs"> </td>
+<td  align='right' id="eqzs"><i>t</i></td>
+<td  align='left' id="eqzs">——</td>
+<td id="eqzs">压杆计算高度；</td>
+</tr>
+<tr>
+<td  align='left' id="eqzs"> </td>
+<td  align='right' id="eqzs"><i>b</i><sub>s</sub></td>
+<td  align='left' id="eqzs">——</td>
+<td id="eqzs">压杆计算宽度，按<a href="#id8.5.2">第8.5.2条</a>有关正截面抗弯承载力计算时对计算宽度的规定取用；</td>
+</tr>
+<tr>
+<td  align='left' id="eqzs"> </td>
+<td  align='right' id="eqzs"><i>b</i></td>
+<td  align='left' id="eqzs">——</td>
+<td id="eqzs">桩的支撑面计算宽度，方形截面取截面边长，圆形截面取直径的0.8倍；</td>
+</tr>
+<tr>
+<td  align='left' id="eqzs"> </td>
+<td  align='right' id="eqzs"><i>A</i><sub>s</sub></td>
+<td  align='left' id="eqzs">——</td>
+<td id="eqzs">在压杆计算宽度 <i>b</i><sub>s</sub>(拉杆计算宽度)范围内拉杆钢筋截面面积；</td>
+</tr>
+<tr>
+<td  align='left' id="eqzs"> </td>
+<td  align='right' id="eqzs"><i>s</i></td>
+<td  align='left' id="eqzs">——</td>
+<td id="eqzs">拉杆钢筋的顶层钢筋中心至承台底的距离；</td>
+</tr>
+<tr>
+<td  align='left' id="eqzs"> </td>
+<td  align='right' id="eqzs"><i>d</i></td>
+<td  align='left' id="eqzs">——</td>
+<td id="eqzs">拉杆钢筋直径，当采用不同直径的钢筋时，d取加权平均值。</td>
+</tr>
+</table>
+<p></p>
 
-    <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="B8.5.1-2">表8.5.1-2 锚具内潮湿</b></caption>
+ <div align="center"><img id="fig8.5.4" src="./_static/fig/8.5.4.png" alt="Picture" width="400px"></div>
+ <p style="color: dimgray;text-align: center;">图 8.5.4 承台按拉压杆模型计算<br/>1-墩台身；2-承台；3-桩；4-拉杆钢筋</p>
+ <script type="text/javascript">var viewer = new Viewer(document.getElementById('fig8.5.4'));</script>
 
-                   <tr>
-                     <td  align="center" width=60px rowspan="2" id="dhbg">标度</td>
-                     <td  align="center"  colspan="2">评定指标</td>
-                                 <!-- <td></td> -->
-                   </tr>
-                 <tr>
-                    <!-- <td></td> -->
-                     <td align="center" width=360px>定性描述</td>
-                                 <td align="center" width=480px>定量描述</td>
-                   </tr>
-                 <tr>
-                    <td align="center">1</td>
-                    <td align="left">完好，空气干燥</td>
-                          <td align="center">—</td>
-                   </tr>
-                 <tr>
-                    <td align="center" >2</td>
-                          <td align="left">锚具内有少量水汽，空气较潮湿</td>
-                          <td align="left">湿度≤40%</td>
-                   </tr>
-                 <tr>
-                    <td align="center" >3</td>
-                    <td align="left">锚具内水汽较多，空气潮湿，锚具锈蚀</td>
-                          <td align="left">湿度＞40%且≤50%</td>
-                    </tr>
-                  <tr>
-                    <td align="center" >4</td>
-                    <td align="left">锚具内空气潮湿，造成锚具严重锈蚀</td>
-                          <td align="left">湿度＞50%</td>
-                    </tr>
-               </table>
-   <p> </p>
+<p style="text-align:justify;text-indent:2em;" > 2 拉杆承载力符合下列规定：</p><p>$$\gamma _{0}T_{\mathrm{i,d} }\leqslant f_{\mathrm{sd} }A_{\mathrm{s} }\tag{8.5.4-6}$$</p>
+<table border="0" style="font-family:times new roman" id="gongshi">
+<tr>
+<td width="40px" align='center' id="eqzs">式中:</td>
+<td width="60px" align='right' id="eqzs"><i>T</i><sub>i,d</sub></td>
+<td width="40px" align='left' id="eqzs">——</td>
+<td id="eqzs">拉杆内力设计值，取<i>T</i><sub>1,d</sub>与<i>T</i><sub>2,d</sub>两者中较大者，其中 <math xmlns="http://www.w3.org/1998/Math/MathML" ><msub><mi>T</mi><mrow><mn>1</mn><mo>,</mo><mrow><mi mathvariant="normal">d</mi></mrow></mrow></msub><mo>=</mo><msub><mi>N</mi><mrow><mn>1</mn><mrow><mi mathvariant="normal">d</mi></mrow></mrow></msub><mrow><mo>/</mo></mrow><mi>tan</mi><mo data-mjx-texclass="NONE">⁡</mo><msub><mi>θ</mi><mrow><mn>1</mn></mrow></msub></math>，<math xmlns="http://www.w3.org/1998/Math/MathML" ><msub><mi>T</mi><mrow><mn>2</mn><mo>,</mo><mrow><mi mathvariant="normal">d</mi></mrow></mrow></msub><mo>=</mo><msub><mi>N</mi><mrow><mn>2</mn><mrow><mi mathvariant="normal">d</mi></mrow></mrow></msub><mrow><mo>/</mo></mrow><mi>tan</mi><mo data-mjx-texclass="NONE">⁡</mo><msub><mi>θ</mi><mrow><mn>2</mn></mrow></msub></math>;</td>
+</tr>
+<tr>
+<td  align='left' id="eqzs"> </td>
+<td  align='right' id="eqzs"><i>f</i><sub>sd</sub></td>
+<td  align='left' id="eqzs">——</td>
+<td id="eqzs">拉杆钢筋抗拉强度设计值</td>
+</tr>
+<tr>
+<td  align='left' id="eqzs"> </td>
+<td  align='right' id="eqzs"><i>A</i><sub>s</sub></td>
+<td  align='left' id="eqzs">——</td>
+<td id="eqzs">在压杆计算宽度<i>b</i><sub>s</sub>(拉杆计算宽度)范围内拉杆钢筋截面面积。</td>
+</tr>
+</table>
+<p></p>
 
-  <table id="biaoge" style="font-family:times new roman">
 
-    <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="B8.5.1-3">表8.5.1-3 防锈油结块</b></caption>
+<p style="text-align:justify;text-indent:2em;" > 在垂直于拉杆的承台全宽内，拉杆钢筋应按<a href="https://jtg-3362.readthedocs.io/zh/latest/9.html#id9.6.10">第9.6.10条</a>第2款布置。在拉杆计算宽度<i>b</i><sub>s</sub>内的受拉钢筋的配筋率不应小于0.15%。</p>
+<p style="text-align:justify"><a href="#id8.5.5"> 8.5.5</a> <span id="id8.5.5"> 承台应按下列规定进行冲切承载力验算：</span></p>
 
-                   <tr>
-                     <td  align="center" width=60px rowspan="2" id="dhbg">标度</td>
-                     <td  align="center" width=840px>评定指标</td>
-                   </tr>
-       <tr>
-        <!-- <td></td> -->
-                                <td  align="center">定性描述</td>
-                   </tr>
-                 <tr>
-                    <td align="center">1</td>
-                    <td align="left">防锈油无结块</td>
-                   </tr>
-                 <tr>
-                    <td align="center">2</td>
-                    <td align="left">防锈油有少量结块</td>
-                   </tr>
-                 <tr>
-                    <td align="center">3</td>
-                     <td align="left">防锈油结块面积较大</td>
-                   </tr>
-               </table>
-     <p> </p>
+ <div align="center"><img id="fig8.5.5" src="./_static/fig/8.5.5.png" alt="Picture" width="300px"></div>
+ <p style="color: dimgray;text-align: center;">图 8.5.5 承台冲切破坏锥体</p>
+ <script type="text/javascript">var viewer = new Viewer(document.getElementById('fig8.5.5'));</script>
 
-  <table id="biaoge" style="font-family:times new roman">
+<p style="text-align:justify;text-indent:2em;" > 1 柱或墩台向下冲切的破坏锥体应采用自柱或墩台边缘至相应桩顶边缘连线构成的锥体；桩顶位于承台顶面以下一倍有效高度<i>h</i><sub>0</sub>处。锥体斜面与水平面的夹角，不应小于45°,当小于45°时，取用45°。</p>
+<p style="text-align:justify;text-indent:2em;" > 柱或墩台向下冲切承台的冲切承载力符合下列规定：</p><p>$$\gamma_{0}F_{l\mathrm{d}}\leqslant 0.6f_{\mathrm{td} }h_{0}[2a_{\mathrm{px}}(b_{\mathrm{y} }+a_{\mathrm{y} })+2a_{\mathrm{py}}(b_{\mathrm{x} }+a_{\mathrm{x} })]\tag{8.5.5-1}$$
+$$a_{\mathrm{px} }=\dfrac{1.2}{\lambda _{\mathrm{x} }+0.2}\tag{8.5.5-2}$$
+$$a_{\mathrm{py} }=\dfrac{1.2}{\lambda _{\mathrm{y} }+0.2}\tag{8.5.5-3}$$</p>
+<table border="0" style="font-family:times new roman" id="gongshi">
+<tr>
+<td width="40px" align='center' id="eqzs">式中:</td>
+<td width="60px" align='right' id="eqzs"><i>F</i><sub><i>l</i>d</sub></td>
+<td width="40px" align='left' id="eqzs">——</td>
+<td id="eqzs">作用于冲切破坏锥体上的冲切力设计值，可取柱或墩台的竖向力设计值减去锥体范围内桩的反力设计值；</td>
+</tr>
+<tr>
+<td  align='left' id="eqzs"> </td>
+<td  align='right' id="eqzs"><i>b</i><sub>x</sub>、<i>b</i><sub>y</sub></td>
+<td  align='left' id="eqzs">——</td>
+<td id="eqzs">柱或墩台作用面积的边长[<a href="#fig8.5.5">图8.5.5a</a>)]</a>；</td>
+</tr>
+<tr>
+<td  align='left' id="eqzs"> </td>
+<td  align='right' id="eqzs"><i>a</i><sub>x</sub>、<i>a</i><sub>y</sub></td>
+<td  align='left' id="eqzs">——</td>
+<td id="eqzs">冲跨，冲切破坏锥体侧面顶边与底边间的水平距离，即柱或墩台边缘到桩边缘的水平距离，其值不应大于<i>h</i><sub>0</sub>[<a href="#fig8.5.5">图8.5.5a</a>)]；</td>
+</tr>
+ <tr>
+<td  align='left' id="eqzs"> </td>
+<td  align='right' id="eqzs"><i>λ</i><sub>x</sub>、<i>λ</i><sub>y</sub></td>
+<td  align='left' id="eqzs">——</td>
+<td id="eqzs">冲跨比，<i>λ</i><sub>x</sub>=<i>α</i><sub>x</sub>/<i>h</i><sub>0</sub>,<i>λ</i><sub>y</sub>=<i>α</i><sub>y</sub>/<i>h</i><sub>0</sub>,当<i>α</i><sub>x</sub> < 0.2<i>h</i><sub>0</sub>或<i>α</i><sub>y</sub> < 0.2<i>h</i><sub>0</sub>时，取 <i>α</i><sub>x</sub>=0.2<i>h</i><sub>0</sub>或<i>α</i><sub>y</sub>=0.2<i>h</i><sub>0</sub></a>；</td>
+</tr>
+ <tr>
+<td  align='left' id="eqzs"> </td>
+<td  align='right' id="eqzs"><i>α</i><sub>px</sub>、<i>α</i><sub>py</sub></td>
+<td  align='left' id="eqzs">——</td>
+<td id="eqzs">分别与冲跨比<i>λ</i><sub>x</sub>、<i>λ</i><sub>y</sub>对应的冲切承载力系数；</td>
+</tr>
+ <tr>
+<td  align='left' id="eqzs"> </td>
+<td  align='right' id="eqzs"><i>f</i><sub>td</sub></td>
+<td  align='left' id="eqzs">——</td>
+<td id="eqzs">混凝土轴心抗拉强度设计值。</td>
+</tr>
+</table>
+<p></p>
 
-    <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="B8.5.1-4">表8.5.1-4 锚具锈蚀</b></caption>
 
-                   <tr>
-                     <td  align="center" width=60px rowspan="2" id="dhbg">标度</td>
-                     <td  align="center" width=840px>评定指标</td>
-                   </tr>
-       <tr>
-        <!-- <td></td> -->
-                                <td  align="center">定性描述</td>
-                   </tr>
-                 <tr>
-                    <td align="center">1</td>
-                    <td align="left">完好</td>
-                   </tr>
-                 <tr>
-                    <td align="center">2</td>
-                    <td align="left">个别锚具轻微锈蚀</td>
-                   </tr>
-                 <tr>
-                    <td align="center">3</td>
-                     <td align="left">部分锚具锈蚀，个别处有少量点蚀现象，氧化皮或油漆层因锈蚀而部分剥落或者可以刮除</td>
-                   </tr>
-       <tr>
-                    <td align="center">4</td>
-                    <td align="left">锚具锈蚀、疲劳或者损坏严重，防护普遍开裂，并大量脱落，表面普遍有点蚀现象，氧化皮或油漆层因锈蚀而全面剥离</td>
-                   </tr>
-               </table>
-     <p> </p></section>
+<p style="text-align:justify;text-indent:2em;" > 2 对于柱或墩台向下的冲切破坏锥体以外的角桩和边桩，其向上冲切承台的冲切承载力符合下列规定：</p>
+<p style="text-align:justify;text-indent:2em;" > 1)角桩</p><p>$$\gamma _{0}F_{l\mathrm{d}}\leqslant 0.6f_{\mathrm{td} }h_{0}\left [  \alpha ^{'}_{\mathrm{px} }\left (b_{\mathrm{y} }+\dfrac{a_{\mathrm{y} }}{2}\right )+a^{'}_{\mathrm{py} }\left (b_{x}+\dfrac{a_{x}}{2}\right )\right ] \tag{8.5.5-4}$$
+$$a^{'}_{\mathrm{px} }=\dfrac{0.8}{\lambda _{\mathrm{x} }+0.2}\tag{8.5.5-5}$$
+$$a^{'}_{\mathrm{py} }=\dfrac{0.8}{\lambda _{\mathrm{y} }+0.2}\tag{8.5.5-6}$$</p>
+<table border="0" style="font-family:times new roman" id="gongshi">
+<tr>
+<td width="40px" align='center' id="eqzs">式中:</td>
+<td width="60px" align='right' id="eqzs"><i>F</i><sub><i>l</i>d</sub></td>
+<td width="40px" align='left' id="eqzs">——</td>
+<td id="eqzs">角桩竖向力设计值；</td>
+</tr>
+<tr>
+<td  align='left' id="eqzs"> </td>
+<td  align='right' id="eqzs"><i>b</i><sub>x</sub>、<i>b</i><sub>y</sub></td>
+<td  align='left' id="eqzs">——</td>
+<td id="eqzs">承台边缘至桩内边缘的水平距离[<a href="#fig8.5.5">图8.5.5b</a>)]；</td>
+</tr>
+<tr>
+<td  align='left' id="eqzs"> </td>
+<td  align='right' id="eqzs"><i>a</i><sub>x</sub>、<i>a</i><sub>y</sub></td>
+<td  align='left' id="eqzs">——</td>
+<td id="eqzs">冲跨，为桩边缘至相应柱或墩台边缘的水平距离，其值不应大于 h<i>h</i><sub>0</sub>[<a href="#fig8.5.5">图8.5.5b</a>)]；</td>
+</tr>
+ <tr>
+<td  align='left' id="eqzs"> </td>
+<td  align='right' id="eqzs"><i>λ</i><sub>x</sub>、<i>λ</i><sub>y</sub></td>
+<td  align='left' id="eqzs">——</td>
+<td id="eqzs">冲跨比，<i>λ</i><sub>x</sub>=<i>α</i><sub>x</sub>/<i>h</i><sub>0</sub>,<i>λ</i><sub>y</sub>=<i>α</i><sub>y</sub>/<i>h</i><sub>0</sub>,当<i>α</i><sub>x</sub> < 0.2<i>h</i><sub>0</sub>或<i>α</i><sub>y</sub> < 0.2<i>h</i><sub>0</sub>时，取 <i>α</i><sub>x</sub>=0.2<i>h</i><sub>0</sub>或<i>α</i><sub>y</sub>=0.2<i>h</i><sub>0</sub></a>；</td>
+</tr>
+ <tr>
+<td  align='left' id="eqzs"> </td>
+<td  align='right' id="eqzs"><i>α'</i><sub>px</sub>、<i>α'</i><sub>py</sub></td>
+<td  align='left' id="eqzs">——</td>
+<td id="eqzs">分别与冲跨比<i>λ</i><sub>x</sub>、<i>λ</i><sub>y</sub>y对应的冲切承载力系数。</td>
+</tr>
+ </table>
+<p></p>
+
+ <p style="text-align:justify;text-indent:2em;" > 2)边桩，当<math xmlns="http://www.w3.org/1998/Math/MathML" ><msub><mi>b</mi><mrow><mrow><mi mathvariant="normal">p</mi></mrow></mrow></msub><mo>+</mo><mn>2</mn><msub><mi>h</mi><mrow><mn>0</mn></mrow></msub><mo>⩽</mo><mi>b</mi></math>时[b见<a href="#fig8.5.5">图8.5.5b</a>)]</p><p>$$\gamma _{0}F_{l\mathrm{d}}\leqslant 0.6f_{\mathrm{td} }h_{0}[\alpha ^{'}(b_{\mathrm{p} }+h_{0})+0.667\cdot(2b_{\mathrm{x} }+a_{\mathrm{x} })]\tag{8.5.5-7}$$</p>
+<table border="0" style="font-family:times new roman" id="gongshi">
+<tr>
+<td width="40px" align='center' id="eqzs">式中:</td>
+<td width="80px" align='right' id="eqzs"><i>F</i><sub><i>l</i>d</sub></td>
+<td width="40px" align='left' id="eqzs">——</td>
+<td id="eqzs">边桩竖向力设计值；</td>
+</tr>
+<tr>
+<td  align='left' id="eqzs"> </td>
+<td  align='right' id="eqzs"><i>b</i><sub>x</sub></td>
+<td  align='left' id="eqzs">——</td>
+<td id="eqzs">承台边缘至桩内边缘的水平距离；</td>
+</tr>
+<tr>
+<td  align='left' id="eqzs"> </td>
+<td  align='right' id="eqzs"><i>b</i><sub>p</sub></td>
+<td  align='left' id="eqzs">——</td>
+<td id="eqzs">方桩的边长；</td>
+</tr>
+ <tr>
+<td  align='left' id="eqzs"> </td>
+<td  align='right' id="eqzs"><i>α</i><sub>x</sub></td>
+<td  align='left' id="eqzs">——</td>
+<td id="eqzs">冲跨，为桩边缘至相应柱或墩台边缘的水平距离，其值不应大于<i>h</i><sub>0</sub></a>；</td>
+</tr>
+ <tr>
+<td  align='left' id="eqzs"> </td>
+<td  align='right' id="eqzs"><i>α'</i><sub>px</sub>、<i>α'</i><sub>py</sub></td>
+<td  align='left' id="eqzs">——</td>
+<td id="eqzs">分别与冲跨比<i>λ</i><sub>x</sub>、<i>λ</i><sub>y</sub>y对应的冲切承载力系数。</td>
+</tr>
+ </table>
+<p></p>
+
+<p style="text-align:justify;text-indent:2em;" >按上述各款计算时，圆形截面桩可换算为边长等于0.8倍圆桩直径的方形截面桩。<br/>注：当承台为变厚度时，公式(8.5.5-1)中的<i>h</i><sub>0</sub>取沿柱或墩台边缘垂直截面的承台有效高度；公式(8.5.5-4)、(8.5.5-7)中的<i>h</i><sub>0</sub>取承台边缘截面的有效高度。</p>
+
+<p style="text-align:justify"><a href="#id8.5.6"> 8.5.6</a> <span id="id8.5.6"> 承台在承受局部荷载的部位，应按<a href="https://jtg-3362.readthedocs.io/zh/latest/5.html#id8">第5.7节</a>进行局部承压承载力的验算。</span></p></section>
 <section id="id7">
-<h2>8.6 减震装置<a class="headerlink" href="#id7" title="此标题的永久链接"></a></h2>
-<p style="text-align:justify"><a href="#id8.6.1"> 8.6.1</a> <span id="id8.6.1"> 减震装置损坏评定标准见<a href="#B8.6.1-1">表8.6.1-1</a>。</span></p>
+<h2>8.6 铰<a class="headerlink" href="#id7" title="此标题的永久链接"></a></h2>
+<p style="text-align:justify"><a href="#id8.6.1"> 8.6.1</a> <span id="id8.6.1"> 线接触的圆柱形铰，其受压面抗压承载力宜符合下列规定：</span></p><p>$$\gamma _{0}F_{\mathrm{hd}}\leqslant \dfrac{7.14(\eta_{\mathrm{s} }\beta f_{\mathrm{cd} })^{2}l}{E_{c}\left(\dfrac{1}{r_{1}}-\dfrac{1}{r_{2}}\right)}\tag{8.6.1-1}$$
+$$\beta=\sqrt{\dfrac{A_{\mathrm{b} }}{bl}}\tag{8.6.1-2}$$</p>
+<p style="text-align:justify;text-indent:2em;" > 压力传递面的宽度b(<a href="#fig8.6.1">图 8.6.1</a>)按下列公式计算：</p><p>$$b=2.74\sqrt{\dfrac{\gamma _{0}F_{\mathrm{hd} }}{E_{c}\left(\dfrac{1}{r_{1}}-\dfrac{1}{r_{2}}\right)l}}\tag{8.6.1-3}$$</p>
+<table border="0" style="font-family:times new roman" id="gongshi">
+<tr>
+<td width="40px" align='center' id="eqzs">式中:</td>
+<td width="50px" align='right' id="eqzs"><i>F</i><sub>hd</sub></td>
+<td width="40px" align='left' id="eqzs">——</td>
+<td id="eqzs">作用于受压面上铰的压力设计值；</td>
+</tr>
+<tr>
+<td  align='left' id="eqzs"> </td>
+<td  align='right' id="eqzs"><i>f</i><sub>cd</sub></td>
+<td  align='left' id="eqzs">——</td>
+<td id="eqzs">混凝土抗压强度设计值；</td>
+</tr>
+<tr>
+<td  align='left' id="eqzs"> </td>
+<td  align='right' id="eqzs"><i>A</i><sub>b</sub></td>
+<td  align='left' id="eqzs">——</td>
+<td id="eqzs">局部受压时的计算底面积，按<a href="https://jtg-362.readthedocs.io/zh/latest/05.html#fig5.7.1">图5.7.1</a>确定；</td>
+</tr>
+ <tr>
+<td  align='left' id="eqzs"> </td>
+<td  align='right' id="eqzs"><i>η</i><sub>s</sub></td>
+<td  align='left' id="eqzs">——</td>
+<td id="eqzs">混凝土局部承压修正系数，按<a href="https://jtg-3362.readthedocs.io/zh/latest/05.html#id5.7.1">第5.7.1条</a>规定采用；</td>
+</tr>
+ <tr>
+<td  align='left' id="eqzs"> </td>
+<td  align='right' id="eqzs"><i>l</i></td>
+<td  align='left' id="eqzs">——</td>
+<td id="eqzs">圆柱形铰的长度；</td>
+</tr>
+<tr>
+<td  align='left' id="eqzs"> </td>
+<td  align='right' id="eqzs"><i>E</i><sub>c</sub></td>
+<td  align='left' id="eqzs">——</td>
+<td id="eqzs">混凝土弹性模量；</td>
+</tr>
+<tr>
+<td  align='left' id="eqzs"> </td>
+<td  align='right' id="eqzs"><i>r</i><sub>1</sub>、<i>r</i><sub>2</sub></td>
+<td  align='left' id="eqzs">——</td>
+<td id="eqzs">上下圆柱体半径，当上圆柱体与平面接触时，取<math xmlns="http://www.w3.org/1998/Math/MathML" ><mstyle displaystyle="true" scriptlevel="0"><mfrac><mn>1</mn><msub><mi>r</mi><mrow><mn>2</mn></mrow></msub></mfrac></mstyle><mo>=</mo><mn>0</mn></math>；</td>
+</tr>
+<tr>
+<td  align='left' id="eqzs"> </td>
+<td  align='right' id="eqzs"><i>γ</i><sub>0</sub></td>
+<td  align='left' id="eqzs">——</td>
+<td id="eqzs">结构重要性系数。</td>
+</tr>
+ </table>
+<p></p>
 
-   <table id="biaoge" style="font-family:times new roman">
+ <div align="center"><img id="fig8.6.1" src="./_static/fig/8.6.1.png" alt="Picture" width="150px"></div>
+ <p style="color: dimgray;text-align: center;">图 8.6.1 混凝土铰</p>
+ <script type="text/javascript">var viewer = new Viewer(document.getElementById('fig8.6.1'));</script>
 
-    <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="B8.6.1-1">表8.6.1-1 减震装置损坏</b></caption>
+<p style="text-align:justify"><a href="#id8.6.2"> 8.6.2</a> <span id="id8.6.2"> 铰的横向抗拉承载力宜符合下列规定(<a href="#fig8.6.1">图 8.6.1</a>):</span></p><p>$$\gamma _{0}F_{\mathrm{hd} }\leqslant \dfrac{h}{0.425(a-b)}f_{\mathrm{sd} }A_{\mathrm{s} }\tag{8.6.2}$$</p>
+<table border="0" style="font-family:times new roman" id="gongshi">
+<tr>
+<td width="40px" align='center' id="eqzs">式中:</td>
+<td width="40px" align='right' id="eqzs"><i>f</i><sub>sd</sub></td>
+<td width="40px" align='left' id="eqzs">——</td>
+<td id="eqzs">铰内横向钢筋抗拉强度设计值；</td>
+</tr>
+<tr>
+<td  align='left' id="eqzs"> </td>
+<td  align='right' id="eqzs"><i>α</i></td>
+<td  align='left' id="eqzs">——</td>
+<td id="eqzs">铰的宽度；</td>
+</tr>
+<tr>
+<td  align='left' id="eqzs"> </td>
+<td  align='right' id="eqzs"><i>h</i></td>
+<td  align='left' id="eqzs">——</td>
+<td id="eqzs">铰的高度，取<i>α</i>值的0.80~1.25倍；</td>
+</tr>
+ <tr>
+<td  align='left' id="eqzs"> </td>
+<td  align='right' id="eqzs"><i>b</i></td>
+<td  align='left' id="eqzs">——</td>
+<td id="eqzs">铰的压力传递面宽度，按公式(8.6.1-3)计算；</td>
+</tr>
+ <tr>
+<td  align='left' id="eqzs"> </td>
+<td  align='right' id="eqzs"><i>A</i><sub>s</sub></td>
+<td  align='left' id="eqzs">——</td>
+<td id="eqzs">铰的横向抗拉钢筋截面面积。</td>
+</tr>
+ </table>
+<p></p>
+<p style="text-align:justify;text-indent:2em;" >在铰的侧向，可按横向钢筋截面面积的0.4倍配置钢筋。</p></section>
+<section id="id8">
+<h2>8.7 支座<a class="headerlink" href="#id8" title="此标题的永久链接"></a></h2>
+<p style="text-align:justify"><a href="#id8.7.1"> 8.7.1</a> <span id="id8.7.1"> 桥梁支座应符合下列要求： (新增)</span></p>
 
-                   <tr>
-                     <td  align="center" width=60px rowspan="2" id="dhbg">标度</td>
-                     <td  align="center" width=840px>评定指标</td>
-                   </tr>
-       <tr>
-        <!-- <td></td> -->
-                                <td  align="center">定性描述</td>
-                   </tr>
-                 <tr>
-                    <td align="center">1</td>
-                    <td align="left">完好</td>
-                   </tr>
-                 <tr>
-                    <td align="center">2</td>
-                    <td align="left">减震装置极个别轻微损坏</td>
-                   </tr>
-                 <tr>
-                    <td align="center">3</td>
-                     <td align="left">减震装置出现较多处损坏，部分功能失效</td>
-                   </tr>
-               </table>
-     <p> </p></section>
+<ol>
+
+<li> 支座应具有将上部结构承受的结构自重、汽车荷载等竖向作用有效传递到下部结构的能力，且保证在风荷载、地震作用等水平荷载作用下上部结构的安全。 </li>
+<li> 支座类型及规格应根据上下部结构形式、支座反力及水平力设计值、支座处位移量确定。 </li>
+<li> 支座反力设计值Rck应按竖向荷载(汽车荷载应计入冲击系数)标准值进行组合计算。 </li>
+<li> 支座水平力设计值应按水平向作用的标准值进行组合计算。 </li>
+<li> 计算支座处梁的相对位移量时应考虑以下因素：<br/>
+1)因温度变化、汽车制动力等引起的位移；<br/>
+2)因梁挠曲引起的位移；<br/>
+3)因施加预应力引起的主梁位移；<br/>
+4)因混凝土收缩徐变引起的位移；<br/>
+5)因地震等偶然作用引起的位移。</li>
+</ol>
+<p style="text-align:justify"><a href="#id8.7.2"> 8.7.2</a> <span id="id8.7.2"> 板式橡胶支座的基本设计数据，及其产品分类、技术要求、试验方法、检验规则等应符合《公路桥梁板式橡胶支座》(JT/T4)的规定。</span></p>
+<p style="text-align:justify"><a href="#id8.7.3"> 8.7.3</a> <span id="id8.7.3"> 板式橡胶支座的选择应符合下列规定。</span></p>
+<p style="text-align:justify;text-indent:2em;" > 1有效承压面积应符合下列规定：</p><p>$$A_{\mathrm{e}}\geqslant\dfrac{R_{\mathrm{ck}}}{\sigma _{\mathrm{c}}}\tag{8.7.3-1}$$</p>
+<table border="0" style="font-family:times new roman" id="gongshi">
+<tr>
+<td width="40px" align='center' id="eqzs">式中:</td>
+<td width="40px" align='right' id="eqzs"><i>A</i><sub>e</sub></td>
+<td width="40px" align='left' id="eqzs">——</td>
+<td id="eqzs">支座有效承压面积(承压加劲钢板面积);</td>
+</tr>
+<tr>
+<td  align='left' id="eqzs"> </td>
+<td  align='right' id="eqzs"><i>R</i><sub>ck</sub></td>
+<td  align='left' id="eqzs">——</td>
+<td id="eqzs">支座反力设计值，汽车荷载应计入冲击系数；</td>
+</tr>
+<tr>
+<td  align='left' id="eqzs"> </td>
+<td  align='right' id="eqzs"><i>σ</i><sub>c</sub></td>
+<td  align='left' id="eqzs">——</td>
+<td id="eqzs">使用阶段支座平均压应力限值，按《公路桥梁板式橡胶支座》(JT/T4)取用。</td>
+</tr>
+ </table>
+<p></p>
+
+<p style="text-align:justify;text-indent:2em;" > 2橡胶层总厚度应符合下列规定：</p>
+<p style="text-align:justify;text-indent:2em;" > 1)从满足剪切变形考虑，应符合下列条件：</p><p>$$不计制动力时\hspace{3.6cm}t_{\mathrm{e} }\geqslant 2\Delta_{l}\tag{8.7.3-2}$$
+$$计入制动力时\hspace{3cm}t_{\mathrm{e} }\geqslant 1.43\Delta_{l}\tag{8.7.3-3}$$</p>
+<p style="text-align:justify;text-indent:2em;" > 当板式橡胶支座在横桥向平行于墩台帽或盖梁顶横坡设置时，支座橡胶层总厚度应符合下列条件：</p><p>$$不计制动力时\hspace{3.8cm}t_{\mathrm{e} }\geqslant \sqrt{\Delta_{l}^{2}+\Delta_{\mathrm{t} }^{2}}\tag{8.7.3-4}$$
+$$计入制动力时\hspace{3cm}t_{\mathrm{e} }\geqslant 1.43\sqrt{\Delta_{l}^{2}+\Delta_{\mathrm{t} }^{2}}\tag{8.7.3-5}$$</p>
+<table border="0" style="font-family:times new roman" id="gongshi">
+<tr>
+<td width="40px" align='center' id="eqzs">式中:</td>
+<td width="40px" align='right' id="eqzs"><i>t</i><sub>e</sub></td>
+<td width="40px" align='left' id="eqzs">——</td>
+<td id="eqzs">支座橡胶层总厚度；</td>
+</tr>
+<tr>
+<td  align='left' id="eqzs"> </td>
+<td  align='right' id="eqzs"><i>Δl</i></td>
+<td  align='left' id="eqzs">——</td>
+<td id="eqzs">由上部结构温度变化、混凝土收缩和徐变等作用标准值引起的支座剪切变形和纵向力标准值(计入制动力标准值)产生的支座剪切变形，以及支座直接设置于不大于 1%坡的梁底面下、在支座顶面由支座反力设计值顺纵坡方向分力产生的剪切变形之和；</td>
+</tr>
+<tr>
+<td  align='left' id="eqzs"> </td>
+<td  align='right' id="eqzs"><i>Δt</i></td>
+<td  align='left' id="eqzs">——</td>
+<td id="eqzs">支座在横桥向平行于不大于2%墩台帽或盖梁顶横坡上设置，由支座反力设计值平行于横坡方向分力产生的剪切变形。</td>
+</tr>
+ </table>
+<p></p>
+
+<p style="text-align:justify;text-indent:2em;" > 2)从保证受压稳定考虑，应符合下列条件：</p><p>$$矩形支座\hspace{3cm}\dfrac{l_{a}}{10}\leqslant t_{\mathrm{e} }\leqslant \dfrac{l_{a}}{5}\tag{8.7.3-6}$$
+$$圆形支座\hspace{3cm}\dfrac{d}{10}\leqslant t_{\mathrm{e} }\leqslant \dfrac{d}{5}\tag{8.7.3-7}$$</p>
+<table border="0" style="font-family:times new roman" id="gongshi">
+<tr>
+<td width="40px" align='center' id="eqzs">式中:</td>
+<td width="40px" align='right' id="eqzs"><i>l</i><sub>a</sub></td>
+<td width="40px" align='left' id="eqzs">——</td>
+<td id="eqzs">矩形支座短边尺寸；</td>
+</tr>
+<tr>
+<td  align='left' id="eqzs"> </td>
+<td  align='right' id="eqzs"><i>d</i></td>
+<td  align='left' id="eqzs">——</td>
+<td id="eqzs">圆形支座直径。</td>
+</tr>
+</table>
+<p></p>
+
+<p style="text-align:justify;text-indent:2em;" > 3 板式橡胶支座竖向平均压缩变形应符合下列规定：</p><p>$$ \delta _{\mathrm{c,m} }=\dfrac{R_{\mathrm{ck}}t_{\mathrm{e}}}{A_{\mathrm{e}}E_{\mathrm{e}}}+\dfrac{R_{\mathrm{ck}}t_{\mathrm{e}}}{A_{\mathrm{e}}E_{\mathrm{b}}}\tag{8.7.3-8}$$
+$$\theta \cdot\dfrac{l_{\mathrm{a} }}{2}\leqslant \delta _{\mathrm{c,m} }\leqslant 0.07t_{\mathrm{e} }\tag{8.7.3-9}$$</p>
+<table border="0" style="font-family:times new roman" id="gongshi">
+<tr>
+<td width="40px" align='center' id="eqzs">式中:</td>
+<td width="40px" align='right' id="eqzs"><i>δ</i><sub>c,m</sub></td>
+<td width="40px" align='left' id="eqzs">——</td>
+<td id="eqzs">支座竖向平均压缩变形；</td>
+</tr>
+<tr>
+<td  align='left' id="eqzs"> </td>
+<td  align='right' id="eqzs"><i>E</i><sub>e</sub></td>
+<td  align='left' id="eqzs">——</td>
+<td id="eqzs">支座抗压弹性模量，按《公路桥梁板式橡胶支座》(JT/T4)取用；</td>
+</tr>
+<tr>
+<td  align='left' id="eqzs"> </td>
+<td  align='right' id="eqzs"><i>E</i><sub>b</sub></td>
+<td  align='left' id="eqzs">——</td>
+<td id="eqzs">橡胶弹性体体积模量，按《公路桥梁板式橡胶支座》(JT/T4)取用；</td>
+</tr>
+<tr>
+<td  align='left' id="eqzs"> </td>
+<td  align='right' id="eqzs"><i>l</i><sub>a</sub></td>
+<td  align='left' id="eqzs">——</td>
+<td id="eqzs">矩形支座短边尺寸或圆形支座直径；</td>
+</tr>
+<tr>
+<td  align='left' id="eqzs"> </td>
+<td  align='right' id="eqzs"><i>θ</i></td>
+<td  align='left' id="eqzs">——</td>
+<td id="eqzs">由上部结构挠曲在支座顶面引起的倾角，以及支座直接设置于不大于1%纵坡的梁底面下，在支座顶面引起的纵坡坡角(rad)。</td>
+</tr>
+ </table>
+<p></p>
+
+<p style="text-align:justify;text-indent:2em;" > 4 板式橡胶支座加劲钢板应符合下列规定，且其最小厚度不应小于2 mm。</p><p>$$t_{\mathrm{s}}\geqslant\dfrac{K_{\mathrm{p}}R_{\mathrm{ck}}(t_{\mathrm{es,u}}+t_{\mathrm{es,}l})}{A_{\mathrm{e}}\sigma _{\mathrm{s} }}\tag{8.7.3-10}$$</p>
+<table border="0" style="font-family:times new roman" id="gongshi">
+<tr>
+<td width="40px" align='center' id="eqzs">式中:</td>
+<td width="40px" align='right' id="eqzs"><i>t</i><sub>s</sub></td>
+<td width="40px" align='left' id="eqzs">——</td>
+<td id="eqzs">支座加劲钢板厚度；</td>
+</tr>
+<tr>
+<td  align='left' id="eqzs"> </td>
+<td  align='right' id="eqzs"><i>K</i><sub>p</sub></td>
+<td  align='left' id="eqzs">——</td>
+<td id="eqzs">应力校正系数，取1.3;</td>
+</tr>
+<tr>
+<td  align='right' id="eqzs"colspan="2"> <i>t</i><sub>es,u</sub>、<i>t</i><sub>es,<i>l</i></sub></td>
+<!-- <td></td> -->
+<td  align='left' id="eqzs">——</td>
+<td id="eqzs">一块加劲钢板上、下橡胶层厚度；</td>
+</tr>
+<tr>
+<td  align='left' id="eqzs"> </td>
+<td  align='right' id="eqzs"><i>σ</i><sub>s</sub></td>
+<td  align='left' id="eqzs">——</td>
+<td id="eqzs">加劲钢板轴向拉应力限值，可取钢材屈服强度的0.65倍。</td>
+</tr>
+</table>
+<p></p>
+
+<p style="text-align:justify;text-indent:2em;" > 加劲钢板与支座边缘的最小距离不应小于5 mm，上、下保护层厚度不应小于2.5 mm。</p>
+<p style="text-align:justify"><a href="#id8.7.4"> 8.7.4</a> <span id="id8.7.4"> 板式橡胶支座抗滑稳定应符合下列规定：</span></p><p>$$ 不计汽车制动力时\hspace{3cm}\mu R_{\mathrm{Gk}}\geqslant1.4 G_{\mathrm{e}}A_{\mathrm{g}}\dfrac{\Delta l}{t_{\mathrm{e} }}  \tag{8.7.4-1}$$
+$$ 计入汽车制动力时\hspace{3cm}\mu R_{\mathrm{ck}}\geqslant1.4 G_{\mathrm{e}}A_{\mathrm{g}}\dfrac{\Delta l}{t_{\mathrm{e}}}+F_{\mathrm{bk} }  \tag{8.7.4-2}$$</p>
+ <table border="0" style="font-family:times new roman" id="gongshi">
+<tr>
+<td width="40px" align='center' id="eqzs">式中:</td>
+<td width="40px" align='right' id="eqzs"><i>R</i><sub>Gk</sub></td>
+<td width="40px" align='left' id="eqzs">——</td>
+<td id="eqzs">由结构自重引起的支座反力；</td>
+</tr>
+<tr>
+<td  align='left' id="eqzs"> </td>
+<td  align='right' id="eqzs"><i>R</i><sub>ck</sub></td>
+<td  align='left' id="eqzs">——</td>
+<td id="eqzs">由结构自重标准值和 0.5 倍汽车荷载标准值(计入冲击系数)引起的支座反力；</td>
+</tr>
+<tr>
+<td  align='left' id="eqzs"> </td>
+<td  align='right' id="eqzs"><i>μ</i></td>
+<td  align='left' id="eqzs">——</td>
+<td id="eqzs">支座与接触面的摩擦系数，按《公路桥梁板式橡胶支座》(JT/T4)取用；</td>
+</tr>
+<tr>
+<td  align='left' id="eqzs"> </td>
+<td  align='right' id="eqzs"><i>G</i><sub>e</sub></td>
+<td  align='left' id="eqzs">——</td>
+<td id="eqzs">支座剪变模量，按《公路桥梁板式橡胶支座》(JT/T4)取用；</td>
+</tr>
+<tr>
+<td  align='left' id="eqzs"> </td>
+<td  align='right' id="eqzs"><i>Δl</i></td>
+<td  align='left' id="eqzs">——</td>
+<td id="eqzs">见<a href="#id8.7.3">第8.7.3条</a>，但不包括汽车制动力引起的剪切变形；</td>
+</tr>
+<tr>
+<td  align='left' id="eqzs"> </td>
+<td  align='right' id="eqzs"><i>F</i><sub>bk</sub></td>
+<td  align='left' id="eqzs">——</td>
+<td id="eqzs">由汽车荷载引起的制动力标准值；</td>
+</tr>
+<tr>
+<td  align='left' id="eqzs"> </td>
+<td  align='right' id="eqzs"><i>A</i><sub>g</sub></td>
+<td  align='left' id="eqzs">——</td>
+<td id="eqzs">座平面毛面积。</td>
+</tr>
+ </table>
+<p></p>
+
+
+<p style="text-align:justify"><a href="#id8.7.5"> 8.7.5</a> <span id="id8.7.5"> 聚四氟乙烯滑板式橡胶支座的摩擦力应符合下列规定：</span></p><p>$$不计汽车制动力时\hspace{3cm}\mu_{\mathrm{f}}R_{\mathrm{Gk}}\leqslant G_{\mathrm{e}}A_{\mathrm{g}}\tan \alpha  \tag{8.7.5-1}$$
+$$计入汽车制动力时\hspace{3cm}\mu_{\mathrm{f}}R_{\mathrm{ck}}\leqslant G_{\mathrm{e}}A_{\mathrm{g}}\tan \alpha  \tag{8.7.5-2}$$</p>
+<table border="0" style="font-family:times new roman" id="gongshi">
+<tr>
+<td width="40px" align='center' id="eqzs">式中:</td>
+<td width="40px" align='right' id="eqzs"><i>μ</i><sub>f</sub></td>
+<td width="40px" align='left' id="eqzs">——</td>
+<td id="eqzs">聚四氟乙烯与不锈钢板的摩擦系数，按《公路桥梁板式橡胶支座》(JT/T4)取用；</td>
+</tr>
+<tr>
+<td  align='left' id="eqzs"> </td>
+<td  align='right' id="eqzs">tan<i>α</i></td>
+<td  align='left' id="eqzs">——</td>
+<td id="eqzs">橡胶支座剪切角正切值的限值，按《公路桥梁板式橡胶支座》(JT/T4)取用；</td>
+</tr>
+<tr>
+<td  align='left' id="eqzs"> </td>
+<td  align='right' id="eqzs"><i>R</i><sub>ck</sub></td>
+<td  align='left' id="eqzs">——</td>
+<td id="eqzs">由结构自重标准值和汽车荷载标准值(计入冲击系数)引起的支座反力；</td>
+</tr>
+<tr>
+<td  align='left' id="eqzs"> </td>
+<td  align='right' id="eqzs"><i>A</i><sub>g</sub></td>
+<td  align='left' id="eqzs">——</td>
+<td id="eqzs">支座平面毛面积。</td>
+</tr>
+ </table>
+<p></p>
+
+<p style="text-align:justify"><a href="#id8.7.6"> 8.7.6</a> <span id="id8.7.6"> 采用定型生产的盆式橡胶支座、球型支座应分别符合《公路桥梁盆式橡胶支座》(JT/T 391)、《桥梁球型支座》(GB/T 17955)的技术要求。</span></p></section>
+<section id="id9">
+<h2>8.8 桥梁伸缩装置<a class="headerlink" href="#id9" title="此标题的永久链接"></a></h2>
+<p style="text-align:justify"><a href="#id8.8.1"> 8.8.1</a> <span id="id8.8.1"> 桥梁伸缩装置应符合下列要求：</span></p>
+
+<ol>
+
+<li> 伸缩装置的材料及其成品的技术要求应符合交通行业标准《公路桥梁伸缩装置通用技术条件》(JT/T 327)的有关规定。 </li>
+<li> 采用定型生产的各类伸缩装置时，可根据桥梁所在地区的气温条件和施工季节，选择伸缩装置的安装温度，按<a href="#id8.8.2">第8.8.2条</a>规定计算桥梁接缝处梁体的伸长量和缩短量(接缝的闭口量和开口量),据此选用伸缩装置的类型和型号。<br/> 自行设计伸缩装置时，对于承受汽车荷载的钢构件，应考虑冲击作用及重复作用引起的疲劳影响。</li>
+<li> 根据伸缩装置的安装宽度，绘制桥梁接缝处的结构图，标明安装伸缩装置所必需的槽口尺寸(深度及上、下口宽度)、伸缩装置连接所需的预埋件及其位置。同时，图纸上应标明下列内容：<br/>
+1)槽口内填筑的材料种类及其强度等级；<br/>
+2)安装伸缩装置的温度范围，在该范围内安装伸缩装置，可保证在安装后伸缩装置工作正常；<br/>
+3)伸缩装置的类型和型号，该装置的最大及最小工作宽度(<i>B</i><sub>max</sub>及 <i>B</i><sub>min</sub>);<br/>
+4)伸缩装置的安装宽度或出厂宽度(板式伸缩装置为压缩后的宽度，可由工厂临时固定出厂);<br/>
+5)伸缩装置施工时应注意事项。</li>
+</ol>
+<p style="text-align:justify"><a href="#id8.8.2"> 8.8.2</a> <span id="id8.8.2"> 伸缩装置安装以后的伸缩量，可考虑下列因素进行计算：</span></p>
+
+<p style="text-align:justify;text-indent:2em;" > 1 由温度变化引起的伸缩量，按下列公式计算：</p>
+<p style="text-align:justify;text-indent:2em;" >温度上升引起的梁体伸长量<math xmlns="http://www.w3.org/1998/Math/MathML" ><mi mathvariant="normal">Δ</mi><msup><mi>l</mi><mrow><mo>+</mo></mrow></msup></math></p><p>$$\Delta l_{\mathrm{t}}^{+}=a_{\mathrm{c}l}(T_{\mathrm{max}}-T_{\mathrm{set},l})\tag{8.8.2-1}$$</p>
+<p style="text-align:justify;text-indent:2em;" >温度下降引起的梁体缩短量<math xmlns="http://www.w3.org/1998/Math/MathML" ><mi mathvariant="normal">Δ</mi><msup><mi>l</mi><mrow><mo>-</mo></mrow></msup></math></p><p>$$\Delta l_{\mathrm{t}}^{-}=a_{\mathrm{c}l}(T_{\mathrm{set,u}}-T_{\mathrm{min}})\tag{8.8.2-2}$$</p>
+<table border="0" style="font-family:times new roman" id="gongshi">
+<tr>
+<td width="40px" align='center' id="eqzs">式中:</td>
+<td width="100px" align='right' id="eqzs"><i>T</i><sub>max</sub>、<i>T</i><sub>min</sub></td>
+<td width="40px" align='left' id="eqzs">——</td>
+<td id="eqzs">当地最高、最低有效气温值，按现行《公路桥涵设计通用规范》(JTGD60)取用；</td>
+</tr>
+<tr>
+<td  align='left' id="eqzs"> </td>
+<td  align='right' id="eqzs"><i>T</i><sub>set,u</sub>、<i>T</i><sub>set,l</sub></td>
+<td  align='left' id="eqzs">——</td>
+<td id="eqzs">预设的安装温度范围的上限值和下限值；</td>
+</tr>
+<tr>
+<td  align='left' id="eqzs"> </td>
+<td  align='right' id="eqzs"><i>l</i></td>
+<td  align='left' id="eqzs">——</td>
+<td id="eqzs">计算一个伸缩装置伸缩量所采用的梁体长度，视桥梁长度分段及支座布置情况而定；</td>
+</tr>
+<tr>
+<td  align='left' id="eqzs"> </td>
+<td  align='right' id="eqzs"><i>α</i><sub>c</sub></td>
+<td  align='left' id="eqzs">——</td>
+<td id="eqzs">梁体混凝土材料线膨胀系数，采用<i>α</i><sub>c</sub>=0.00001。</td>
+</tr>
+ </table>
+<p></p>
+
+<p style="text-align:justify;text-indent:2em;" > 2 由混凝土收缩引起的梁体缩短量<math xmlns="http://www.w3.org/1998/Math/MathML" ><mi mathvariant="normal">Δ</mi><msubsup><mi>l</mi><mrow><mrow><mi mathvariant="normal">s</mi></mrow></mrow><mrow><mo>−</mo></mrow></msubsup></math>,按下列公式计算：</p><p>$$\Delta l_{\mathrm{s}}^{-}=\varepsilon _{\mathrm{cs} }(t_{\mathrm{u} },t_{0})l\tag{8.8.2-3}$$</p>
+<table border="0" style="font-family:times new roman" id="gongshi">
+<tr>
+<td width="40px" align='center' id="eqzs">式中:</td>
+<td width="100px" align='right' id="eqzs"><i>ε</i><sub>cs</sub>(<i>t</i><sub>u</sub>,<i>t</i><sub>0</sub>)</td>
+<td width="40px" align='left' id="eqzs">——</td>
+<td id="eqzs">伸缩装置安装完成时梁体混凝土龄期<i>t</i><sub>0</sub>至收缩终了时混凝土龄期<i>t</i><sub>u</sub>之间的混凝土收缩应变，可按<a href="https://jtg-3362.readthedocs.io/zh/latest/FLC.html">附录C</a>计算。</td>
+</tr>
+</table>
+<p></p>
+
+
+
+<p style="text-align:justify;text-indent:2em;" > 3 由混凝土徐变引起的梁体缩短量<math xmlns="http://www.w3.org/1998/Math/MathML" ><mi mathvariant="normal">Δ</mi><msubsup><mi>l</mi><mrow><mrow><mi mathvariant="normal">c</mi></mrow></mrow><mrow><mo>−</mo></mrow></msubsup></math>按下列公式计算：</p><p>$$ \Delta l_{\mathrm{c}}^{-}=\dfrac{\sigma _{\mathrm{pc} }}{E_{\mathrm{c}}}\phi (t_{\mathrm{u} },t_{0})l\tag{8.8.2-4}$$</p>
+<table border="0" style="font-family:times new roman" id="gongshi">
+<tr>
+<td width="40px" align='center' id="eqzs">式中:</td>
+<td width="80px" align='right' id="eqzs"><i>σ</i><sub>pc</sub></td>
+<td width="40px" align='left' id="eqzs">——</td>
+<td id="eqzs">由预应力(扣除相应阶段预应力损失)引起的截面重心处的法向压应力，当计算的梁为简支梁时，可取跨中截面与1/4跨径截面的平均值；当梁体为连续梁或连续刚构时，可取若干有代表性截面的平均值；</td>
+</tr>
+<tr>
+<td  align='left' id="eqzs"> </td>
+<td  align='right' id="eqzs"><i>E</i><sub>c</sub></td>
+<td  align='left' id="eqzs">——</td>
+<td id="eqzs">梁体混凝土弹性模量，按<a href="https://jtg-3362.readthedocs.io/zh/latest/03.html#B3.1.5">表3.1.5</a>采用；</td>
+</tr>
+<tr>
+<td  align='left' id="eqzs"> </td>
+<td  align='right' id="eqzs"><i>φ</i>(<i>t</i><sub>u</sub>,<i>t</i><sub>0</sub>)</td>
+<td  align='left' id="eqzs">——</td>
+<td id="eqzs">伸缩装置安装完成时梁体混凝土龄期<i>t</i><sub>0</sub>至徐变终了时混凝土龄期<i>t</i><sub>u</sub>之间的混凝土徐变系数，可按<a href="https://jtg-3362.readthedocs.io/zh/latest/FLC.html">附录C</a>计算。</td>
+</tr>
+ </table>
+<p></p>
+
+
+<p style="text-align:justify;text-indent:2em;" > 4 由制动力引起的板式橡胶支座剪切变形而导致的伸缩缝开口量<math xmlns="http://www.w3.org/1998/Math/MathML"><mi mathvariant="normal">Δ</mi><msubsup><mi>l</mi><mrow><mrow><mi mathvariant="normal">b</mi></mrow></mrow><mrow><mo>−</mo></mrow></msubsup></math>或闭口量<math xmlns="http://www.w3.org/1998/Math/MathML" ><mi mathvariant="normal">Δ</mi><msubsup><mi>l</mi><mrow><mrow><mi mathvariant="normal">b</mi></mrow></mrow><mrow><mo>+</mo></mrow></msubsup></math>,其值可按<math xmlns="http://www.w3.org/1998/Math/MathML" ><mi mathvariant="normal">Δ</mi><msubsup><mi>l</mi><mrow><mrow><mi mathvariant="normal">b</mi></mrow></mrow><mrow><mo>−</mo></mrow></msubsup></math>或<math xmlns="http://www.w3.org/1998/Math/MathML" ><mi mathvariant="normal">Δ</mi><msubsup><mi>l</mi><mrow><mrow><mi mathvariant="normal">b</mi></mrow></mrow><mrow><mo>+</mo></mrow></msubsup><mo>=</mo><msub><mi>F</mi><mrow><mrow><mi mathvariant="normal">k</mi></mrow></mrow></msub><msub><mi>t</mi><mrow><mrow><mi mathvariant="normal">e</mi></mrow></mrow></msub><mrow><mo>/</mo></mrow><msub><mi>G</mi><mrow><mrow><mi mathvariant="normal">e</mi></mrow></mrow></msub><msub><mi>A</mi><mrow><mrow><mi mathvariant="normal">g</mi></mrow></mrow></msub></math>计算，其中<math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mi>F</mi><mrow><mrow><mi mathvariant="normal">k</mi></mrow></mrow></msub></math>为分配给支座的汽车制动力标准值，<math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mi>t</mi><mrow><mrow><mi mathvariant="normal">e</mi></mrow></mrow></msub></math>为支座橡胶层总厚度，<math xmlns="http://www.w3.org/1998/Math/MathML" ><msub><mi>G</mi><mrow><mrow><mi mathvariant="normal">e</mi></mrow></mrow></msub></math>为支座橡胶剪变模量(按<a href="#id8.7.4">第8.7.4条</a>采用),<math xmlns="http://www.w3.org/1998/Math/MathML" ><msub><mi>A</mi><mrow><mrow><mi mathvariant="normal">e</mi></mrow></mrow></msub></math>为支座平面毛面积。</p>
+<p style="text-align:justify;text-indent:2em;" > 5 按照梁体的伸缩量选用伸缩装置的型号</p>
+
+
+<p style="text-align:justify;text-indent:2em;" > 1)伸缩装置在安装后的闭口量<math xmlns="http://www.w3.org/1998/Math/MathML" ><msup><mi>C</mi><mrow><mo>+</mo></mrow></msup></math></p><p>$$ C^{+}=\beta (\Delta l_{\mathrm{t}}^{+}+\Delta l_{\mathrm{b}}^{+})\tag{8.8.2-5}$$</p>
+<p style="text-align:justify;text-indent:2em;" > 2)伸缩装置在安装后的开口量<math xmlns="http://www.w3.org/1998/Math/MathML" ><msup><mi>C</mi><mrow><mo>-</mo></mrow></msup></math></p><p>$$ C^{-}=\beta (\Delta l_{\mathrm{t}}^{-}+\Delta l_{\mathrm{s}}^{-}+\Delta l_{\mathrm{c}}^{-}+\Delta l_{\mathrm{b}}^{-})\tag{8.8.2-6}$$</p>
+<p style="text-align:justify;text-indent:2em;" > 3)伸缩装置的伸缩量C应满足：</p><p>$$C\geqslant C^{+}+ C^{-}\tag{8.8.2-7}$$</p>
+<table border="0" style="font-family:times new roman" id="gongshi">
+<tr>
+<td width="40px" align='center' id="eqzs">式中:</td>
+<td width="40px" align='right' id="eqzs"><i>β</i></td>
+<td width="40px" align='left' id="eqzs">——</td>
+<td id="eqzs">伸缩装置伸缩量增大系数，可取<i>β</i>=1.2~1.4。</td>
+</tr>
+</table>
+<p></p>
+
+<p style="text-align:justify;text-indent:2em;" > 注：1.对影响伸缩装置伸缩量的其他因素，如地震作用、风荷载、梁的挠度等，应视具体情况予以考虑。<br/>2.当施工安装温度在设计规定的安装温度范围以外时，伸缩装置应另行计算。</p>
+
+
+<p style="text-align:justify"><a href="#id8.8.3"> 8.8.3</a> <span id="id8.8.3"> 伸缩装置的安装宽度(或出厂宽度),可按<a href="#id8.8.2">第8.8.2条</a>计算得到的开口量<i>C</i><sup>-</sup>和闭口量<i>C</i><sup>+</sup>进行计算，其值可在[<i>B</i><sub>min</sub>+(<i>C</i>-<i>C</i><sup>-</sup>)]与(<i>B</i><sub>min</sub>+<i>C</i><sup>+</sup>)两者中或两者之间取用，其中<i>C</i>为选用的伸缩装置的伸缩量，<i>B</i><sub>min</sub>为选用的伸缩装置的最小工作宽度。</span></p><p><span class="math notranslate nohighlight">\(\ \)</span></p>
+</section>
 </section>
 
 
            </div>
           </div>
           <footer><div class="rst-footer-buttons" role="navigation" aria-label="页脚">
-        <a href="07.html" class="btn btn-neutral float-left" title="7 悬索桥主要构建技术评定状况" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> 上一页</a>
-        <a href="09.html" class="btn btn-neutral float-right" title="9 桥梁下部结构构件技术状况评定" accesskey="n" rel="next">下一页 <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="07.html" class="btn btn-neutral float-left" title="7 持久状况和短暂状况构件的应力计算" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> 上一页</a>
+        <a href="09.html" class="btn btn-neutral float-right" title="9 构造规定" accesskey="n" rel="next">下一页 <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
     </div>
 
   <hr/>

@@ -1,222 +1,74 @@
-4 桥梁技术状况评定
+4 结构设计基本规定
 ===================
 
 .. raw:: html
 
-  <h2 id="test111">4 桥梁技术状况评定</h2>
+  <h2 id="test111">4 结构设计基本规定</h2>
 
-4.1 桥梁技术状况评定计算
+
+4.1  一般规定
 -----------------------------------
 .. raw:: html
 
- <p style="text-align:justify;text-indent:2em;"> 由于发生在不同构件的各种病害对桥梁影响程度不同，每种病害的最严重等级也不同。病害最严重等级分为3级、4级、5级（例如：蜂窝麻面最严重等级为3级，主梁的裂缝最严重等级为5级）。通过<a href="https://jtg-h21.readthedocs.io/zh/latest/04.html#B4.1.1">表4.1.1</a>将不同病害进行分级扣分，某些病害达到最严重也仅能评为3级，此病害扣分为60分；某些病害达到最严重评为4级，此病害扣分为70分；某些病害达到最严重能评为5级，此病害扣分为100分。按照这种扣分方法能体现出不同病害对桥梁影响程度的不同。</p>
- <p style="text-align:justify;text-indent:2em;"> 对照<a href="https://jtg-h21.readthedocs.io/zh/latest/04.html#B4.1.1">表4.1.1</a>得到构件各病害量化评定指标值(0-100分)，然后根据技术状况评定模型依次得到构件、部件的最化评定值，最后根据各部件量化评定值分别得到桥面系、上部结构、下部结构的量化评定值，从而最终得到整桥的综合评定值。</p>
- <p style="text-align:justify;text-indent:2em;"> 在主要部件评分中，当主要部件的构件评分值在[0，60)时，主要部件的评分值等于此构件的评分值。</p>
- <p style="text-align:justify;text-indent:2em;"> 实际工作中当存在某座桥梁没有设置某些部件时，如单跨桥梁无桥墩、部分桥梁无人行道等类似情况，需要根据此构件隶属于上部构件、下部构件或桥面系关系，将此缺失构件的权重值分配给其他部件。分配方法采用将缺失部件权重值按照既有部件权重在全部既有部件权重中所占比例进行分配的方法，简单易行，从而保证既有部件参与评价，使桥梁评价更符合实际情况。</p>
- <p style="text-align:justify;text-indent:2em;"> 例：xx梁式桥为单跨桥梁，无桥墩部件，其部件权重值分配表见<a href="#Bt4-1">表4-1</a>。</p>
- <style>
-     #biaoge {
-         border: 2px solid black;
-         border-collapse: collapse;
-         margin-bottom:1px;
-        
-      }
-      th, td {
-         padding-top: 5px;
-         padding-bottom:5px;
-         padding-left:5px;
-         padding-right:5px;
-         border: 1px solid black;
-         vertical-align: middle;
-      }
-      #eqzs {
-         border: 0px;
-         vertical-align: top;
-      }
-      #dhbg {
-        vertical-align: middle;
-      }
-     </style>
+ <p style="text-align:justify"><a href="#idt4.1.1"> 4.1.1</a> <span id="idt4.1.1">  承载能力极限状态包括构件和连接的强度破坏、结构或构件丧失稳定及结构倾覆。正常使用极限状态包括影响结构、构件正常使用的开裂、变形。</span></p>
 
- <table id="biaoge" style="font-family:times new roman">
+ <p style="text-align:justify"><a href="#idt4.1.2"> 4.1.2</a> <span id="idt4.1.2">  为有效保证桥涵结构的安全耐久，本次修编补充了有关结构设计的基本要求，结构设计的内容应考虑整个结构体系和单个构件两个层次，包括结构方案、受力分析、截面设计、连接构造、耐久性及工程的特殊性能设计等。</span></p>
 
-     <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="Bt4-1"> 表4-1 X X 梁式桥部件权重值分配表</b></caption>	
-   <tr>
-    <td  align="center" width=60px id="dhbg">部位</td>
-    <td  align="center" width=70px id="dhbg">类别<i>i</i></td>
-    <td  align="center" width=220px id="dhbg">部件名称</td>
-    <td  align="center" width=60px id="dhbg">权重</td>
-    <td  align="center" width=100px id="dhbg">重新分配后权重</td>
-    <td  align="center" width=300px id="dhbg">计算式</td>
-    <td  align="center" width=85px id="dhbg">备注</td>
-   </tr>
-  <tr>
-    <td  align="center" rowspan="3" id="dhbg">上部结构</td>
-    <td  align="center" >1</td>
-    <td  align="center">上部承重构件<br>(主梁、挂梁)</td>
-    <td  align="center">0.70</td>
-    <td  align="center">0.70</td>
-    <td  align="center">无</td>
-    <td  align="center"> </td>
-   </tr>  
-   <tr>
-    <!-- <td></td> -->
-    <td  align="center" >2</td>
-    <td  align="center">上部一般构件<br>(湿接缝、横隔板等)</td>
-    <td  align="center">0.18</td>
-    <td  align="center">0.18</td>
-    <td  align="center">无</td>
-    <td  align="center"> </td>
-   </tr>  
-   <tr>
-    <!-- <td></td> -->
-    <td  align="center" >3</td>
-    <td  align="center">支座</td>
-    <td  align="center">0.12</td>
-    <td  align="center">0.12</td>
-    <td  align="center">无</td>
-    <td  align="center"> </td>
-   </tr>  
-   <tr>
-    <td  align="center" rowspan="7" id="dhbg">下部结构</td>
-    <td  align="center" >4</td>
-    <td  align="center">翼墙耳墙</td>
-    <td  align="center">0.02</td>
-    <td  align="center">0.03</td>
-    <td  align="center"><math xmlns='http://www.w3.org/1998/Math/MathML'> <mfrac> <mrow> <mi> 0.02 </mi> </mrow> <mrow> <mi> (0.02+0.01+0.30+0.28+0.07+0.02) </mi> </mrow> </mfrac> <mo> &#x00D7; <!-- multiplication sign --> </mo> <mi> 0.30 </mi> <mo> + </mo> <mi> 0.02 </mi> </math></td>
-    <td  align="center"rowspan="2" >保留两位小数</td>
-   </tr>  
-   <tr>
-    <!-- <td></td> -->
-    <td  align="center" >5</td>
-    <td  align="center">锥坡护坡</td>
-    <td  align="center">0.01</td>
-    <td  align="center">0.01</td>
-    <td  align="center"><math xmlns='http://www.w3.org/1998/Math/MathML'> <mfrac> <mrow> <mi> 0.01 </mi> </mrow> <mrow> <mi> (0.02+0.01+0.30+0.28+0.07+0.02) </mi> </mrow> </mfrac> <mo> &#x00D7; <!-- multiplication sign --> </mo> <mi> 0.30 </mi> <mo> + </mo> <mi> 0.01 </mi> </math></td>
-    <!-- <td></td> -->
-   </tr>  
-   <tr>
-    <!-- <td></td> -->
-    <td  align="center" >6</td>
-    <td  align="center">桥墩</td>
-    <td  align="center">0.30</td>
-    <td  align="center">0.00</td>
-    <td  align="center">无</td>
-    <td  align="center">无桥墩</td>
-   </tr>  
-   <tr>
-    <!-- <td></td> -->
-    <td  align="center" >7</td>
-    <td  align="center">桥台</td>
-    <td  align="center">0.30</td>
-    <td  align="center">0.43</td>
-    <td  align="center"><math xmlns='http://www.w3.org/1998/Math/MathML'> <mfrac> <mrow> <mi> 0.30 </mi> </mrow> <mrow> <mi> (0.02+0.01+0.30+0.28+0.07+0.02) </mi> </mrow> </mfrac> <mo> &#x00D7; <!-- multiplication sign --> </mo> <mi> 0.30 </mi> <mo> + </mo> <mi> 0.30 </mi> </math></td>
-    <td  align="center"rowspan="4" >保留两位小数</td>
-   </tr>  
-   <tr>
-    <!-- <td></td> -->
-    <td  align="center" >8</td>
-    <td  align="center">墩台基础</td>
-    <td  align="center">0.28</td>
-    <td  align="center">0.40</td>
-    <td  align="center"><math xmlns='http://www.w3.org/1998/Math/MathML'> <mfrac> <mrow> <mi> 0.28 </mi> </mrow> <mrow> <mi> (0.02+0.01+0.30+0.28+0.07+0.02) </mi> </mrow> </mfrac> <mo> &#x00D7; <!-- multiplication sign --> </mo> <mi> 0.30 </mi> <mo> + </mo> <mi> 0.28 </mi> </math></td>
-    <!-- <td></td> -->
-    </tr>  
-    <tr>
-    <!-- <td></td> -->
-    <td  align="center" >9</td>
-    <td  align="center">河床</td>
-    <td  align="center">0.07</td>
-    <td  align="center">0.10</td>
-    <td  align="center"><math xmlns='http://www.w3.org/1998/Math/MathML'> <mfrac> <mrow> <mi> 0.07 </mi> </mrow> <mrow> <mi> (0.02+0.01+0.30+0.28+0.07+0.02) </mi> </mrow> </mfrac> <mo> &#x00D7; <!-- multiplication sign --> </mo> <mi> 0.30 </mi> <mo> + </mo> <mi> 0.07 </mi> </math></td>
-    <!-- <td></td> -->
-    </tr>  
-    <tr>
-    <!-- <td></td> -->
-    <td  align="center" >10</td>
-    <td  align="center">调治构造物</td>
-    <td  align="center">0.02</td>
-    <td  align="center">0.03</td>
-    <td  align="center"><math xmlns='http://www.w3.org/1998/Math/MathML'> <mfrac> <mrow> <mi> 0.02 </mi> </mrow> <mrow> <mi> (0.02+0.01+0.30+0.28+0.07+0.02) </mi> </mrow> </mfrac> <mo> &#x00D7; <!-- multiplication sign --> </mo> <mi> 0.30 </mi> <mo> + </mo> <mi> 0.02 </mi> </math></td>
-    <!-- <td></td> -->
-    </tr>
- <tr>
-    <td  align="center" rowspan="6" id="dhbg">桥面系</td>
-    <td  align="center" >11</td>
-    <td  align="center">桥面铺装</td>
-    <td  align="center">0.40</td>
-    <td  align="center">0.40</td>
-    <td  align="center">无</td>
-    <td  align="center"> </td>
-    </tr>  
-    <tr>
-    <!-- <td></td> -->
-    <td  align="center" >12</td>
-    <td  align="center">伸缩缝装置</td>
-    <td  align="center">0.25</td>
-    <td  align="center">0.25</td>
-    <td  align="center">无</td>
-    <td  align="center"> </td>
-    </tr>  
-    <tr>
-    <!-- <td></td> -->
-    <td  align="center" >13</td>
-    <td  align="center">人行道</td>
-    <td  align="center">0.10</td>
-    <td  align="center">0.10</td>
-    <td  align="center">无</td>
-    <td  align="center"> </td>
-    </tr>  
-    <tr>
-    <!-- <td></td> -->
-    <td  align="center" >14</td>
-    <td  align="center">栏杆、护栏</td>
-    <td  align="center">0.10</td>
-    <td  align="center">0.10</td>
-    <td  align="center">无</td>
-    <td  align="center"> </td>
-    </tr>  
-    <tr>
-    <!-- <td></td> -->
-    <td  align="center" >15</td>
-    <td  align="center">排水系统</td>
-    <td  align="center">0.10</td>
-    <td  align="center">0.10</td>
-    <td  align="center">无</td>
-    <td  align="center"> </td>
-    </tr>  
-    <tr>
-    <!-- <td></td> -->
-    <td  align="center" >16</td>
-    <td  align="center">照明、标志</td>
-    <td  align="center">0.05</td>
-    <td  align="center">0.05</td>
-    <td  align="center">无</td>
-    <td  align="center"> </td>
-    </tr>           
+ <p style="text-align:justify"><a href="#idt4.1.3"> 4.1.3</a> <span id="idt4.1.3"> 标准化跨径按现行《公路桥涵设计通用规范》(JTG D60)的规定取0.75 m、1.0 m、1.25 m、1.5 m、2.0 m、2.5 m、3.0 m、4.0 m、5.0 m、6.0 m、8.0 m、10 m、13 m、1 6m、20 m、25 m、30 m、35 m、40 m、45 m、50 m。</span></p>
+ <p style="text-align:justify"><a href="#idt4.1.4"> 4.1.4</a> <span id="idt4.1.4"> ~<a href="#idt4.1.5"> 4.1.5</a> <span id="idt4.1.5">  混凝土梁桥分为装配式结构和现浇结构两大类。各种结构的跨径限值根据标准化跨径在原规范基础进行了适当细化。</span></p>
+ <p style="text-align:justify"><a href="#idt4.1.7"> 4.1.7</a> <span id="idt4.1.7"> 混凝土桥梁在施工过程中存在体系转换，一般采用增量叠加法(分阶段计算结构的变形、内力和应力增量，逐阶段累加)计算作用效应。混凝土收缩徐变效应，需考虑超静定结构的内力重分布和钢筋约束混凝土引起的应力重分布，由施工阶段混凝土结构的初始内力、初始龄期和施工时段，按附录C的混凝土收缩徐变函数计算</span></p>
+ <p style="text-align:justify"><a href="#idt4.1.8"> 4.1.8</a> <span id="idt4.1.8"> 自2007年，内蒙古包头、天津、浙江上虞、黑龙江哈尔滨和广东河源相继发生箱梁匝道桥体横桥向倾覆失稳直至垮塌的事故案例。事故桥梁的基本特征(如图 4-1)为：上部结构采用整体式箱梁；结构体系为连续梁，上部结构由单向受压支座支承；桥台或过渡墩采用双支座或三支座，跨中桥墩全部或部分采用单支座。</span></p>
+ <p style="text-align:justify"><a href="#idt4.1.9"> 4.1.9</a> <span id="idt4.1.9"> 自上世纪八十年代以来，国际工程界倡导将混凝土结构划分为B区和 D区：B区指截面应变符合平截面假定的区域，按“梁式体系”计算；D区，即应力扰动区，指截面应变分布不符合平截面假定的区域，一般位于集中力作用点附近或几何尺寸发生突变的部位。混凝土桥梁的典型应力扰动区如图4-5。</span></p>
+ <p style="text-align:justify"><a href="#idt4.1.10"> 4.1.10</a> <span id="idt4.1.10"> 混凝土结构的耐久性在很大程度上取决于施工质量和结构使用过程中的正确维护与例行检测。因此，本条特作相应规定；《公路桥梁施工技术规范》(JTG/T F50)已对施工过程中的质量控制、质量保证进行了详细规定，这里不再重复。</span></p>
 
- </table>
- <p> </p> 
-
-
-
-
-
- <p style="text-align:justify;text-indent:2em;"> 鉴于4.5类桥梁的严重性，桥梁总体技术状况评定除了按照评定模型进行计算后按照<a href="https://jtg-h21.readthedocs.io/zh/latest/04.html#B4.1.5">表4.1.5</a>进行技术状况分类以外，本标准在<a href="https://jtg-h21.readthedocs.io/zh/latest/04.html#id4.1.6">4.1.6</a> ~ <a href="https://jtg-h21.readthedocs.io/zh/latest/04.html#id4.1.8">4.1.8</a>条中对4、5类桥梁的技术状况附加了3条要求。</p>
- <p style="text-align:justify;text-indent:2em;"> 如果桥梁出现了<a hrf="https://jtg-h21.readthedocs.io/zh/latest/04.html#id4">4.3节</a>中任一情况，但是全桥技术状况评分没有达到5类桥梁评分范围，桥梁也应评定为5类。</p>
- <p style="text-align:justify;text-indent:2em;"> 如果桥梁总体技术状况评分计算结果为40≤D，＜60时，但上部结构和下部结构技术状况等级为3类、桥面系技术状况等级为4类，桥梁总体技术状况等级应评定为3类。此条规定是为了避免桥面系评为4类，上部结构和下部结构没有达到4类而导致桥梁总体技术状况评为4类的情况出现。</p>
- <p style="text-align:justify;text-indent:2em;"> 当主要部件的评分为4类或者5类，且影响到桥梁的安全时，本标准允许“可按照桥梁主要部件最差的缺损状况评定”。这是因为各主要部件在桥梁安全使用中的作用作为“串联”分析，荷载内力由桥面依次传递到上部结构、墩台、基础、地基，某一个环节出现严重缺损都可能影响到桥梁的安全使用。主要部件不仅对安全使用至关重要，而且维修工作量大、难度也较大，这种评定方法突出了安全因素的影响。</p>
-
-
-4.2 各结构形式桥梁部件分类及权重指
-------------------------------------------
+4.2  板的计算
+-----------------------------------
 .. raw:: html
 
- <p style="text-align:justify;text-indent:2em;"> 在进行上部结构、下部结构、桥面系的综合评定时，依据不同桥型各部件重要程度的不同，给予了各类型桥梁部件不同的权重<i>W</i><sub>i</sub>。在进行全桥的综合评定时，依据上部结构、下部结构、桥面系重要程度的不同，分别给予了上部结构的权重<i>W</i><sub>SP</sub>、下部结构的权重<i>W</i><sub>SB</sub>、桥面系的权重<i>W</i><sub>D</sub>。由于各地环境条件不同，除了采用本规范的推荐值外，还允许依据实际情况进行调整。调整权重可采用专家评估法，调整值应经过批准认可，对主要构件的权重则不宜减小。</p>
+ <p style="text-align:justify"><a href="#idt4.2.1"> 4.2.1</a> <span id="idt4.2.1">  </span></p>
+ <p style="text-align:justify"><a href="#idt4.2.2"> 4.2.2</a> <span id="idt4.2.2"> 由于支承点并非完全固结，弯矩计算跨径取净跨径加板厚，但不大于支承点中距。与梁肋整体连接的板，支点截面偏安全地按固端考虑，其弯矩为：</span></p>
+ 
+ <p style="text-align:justify"><a href="#idt4.2.3"> 4.2.3</a> <span id="idt4.2.3"> 3垂直于板跨径方向的分布宽度，当车轮荷载位于板的跨径中部时，一般以车轮着地并通过铺装层扩散后再加一个计算跨径分数值的形式来表达，本条规定为通过铺装层扩散后再加一个1/3 计算跨径。根据弹性理论，车轮荷载在跨中部位分布宽度一般为0.6~0.7倍计算跨径，故规定不小于2/3计算跨径。</span></p>
+ <p style="text-align:justify"><a href="#idt4.2.4"> 4.2.4</a> <span id="idt4.2.4"> 当 </span></p>
+ <p style="text-align:justify"><a href="#idt4.2.5"> 4.2.5</a> <span id="idt4.2.5">本条车轮荷载分布适用于<i>l</i><sub>c</sub>值不大于2.5 m情况。当悬臂板<i>l</i><sub>c</sub>值大于2.5 m时，可采用沙柯公式计算悬臂根部单位宽度的负弯矩<i>m</i><sub>x</sub>:</span></p>
+ <p style="text-align:justify"><a href="#id4.2.6"> 4.2.6</a> <span id="id4.2.6"> 试验表明，当 tanα>1/3时，应力流仍集中在tanα=1/3范围以内，承托的一部分不起作用，因此板的计算高度 <i>h</i><sub>e</sub>,当 tanα>1/3时只能按 tana=1/3考虑。</span></p>    
 
-4.3 5类桥梁技术状况单项控制指标
-------------------------------------------------
+
+4.3 梁的计算
+-----------------------------------
 .. raw:: html
 
- <p style="text-align:justify;text-indent:2em;"> 主要部件和其他部件的关键病害对安全使用至关重要，为了突出安全因素的影响，本标准将5类桥梁的评定方法列出，制定了各类桥梁5类技术状况单项控制指标，通过桥梁的关键病害确定桥梁的技术状况等级，以引起管理者的重视，及时、认真地进行养护维修，确保安全。</p>
- <p style="text-align:justify;text-indent:2em;"> 实践证明，桥梁某些关键部位出现严重病害就足以危及桥梁安全，即使其他部位状况再好，也不能改善其总体安全状态。因此，本标准制定了将桥梁技术状况评定为5类的单项控制指标，只要在桥梁检查中发现符合此节规定的任一情况时，就应将整座桥技术状况评定为5类。</p>
+ <p style="text-align:justify"><a href="#idt4.3.1"> 4.3.1</a> <span id="idt4.3.1"> </span></p>
+ <p style="text-align:justify"><a href="#idt4.3.2"> 4.3.2</a> <span id="idt4.3.2"> </span></p>
+ <p style="text-align:justify"><a href="#idt4.3.3"> 4.3.3</a> <span id="idt4.3.3"> </span></p>
+ <p style="text-align:justify"><a href="#idt4.3.4"> 4.3.4</a> <span id="idt4.3.4"> </span></p>
+ <p style="text-align:justify"><a href="#idt4.3.5"> 4.3.5</a> <span id="idt4.3.5"> </span></p>
+ <p style="text-align:justify"><a href="#idt4.3.6"> 4.3.6</a> <span id="idt4.3.6"> </span></p>
+ <p style="text-align:justify"><a href="#idt4.3.7"> 4.3.7</a> <span id="idt4.3.7"> </span></p>
+ <p style="text-align:justify"><a href="#idt4.3.8"> 4.3.8</a> <span id="idt4.3.8"> </span></p>
+ <p style="text-align:justify"><a href="#idt4.3.9"> 4.3.9</a> <span id="idt4.3.9"> </span></p>
+ <p style="text-align:justify"><a href="#idt4.3.10"> 4.3.10</a> <span id="idt4.3.10"> </span></p>
+
+4.4 拱的计算
+-----------------------------------
+.. raw:: html
+
+ <p style="text-align:justify"><a href="#idt4.4.1"> 4.3.1</a> <span id="idt4.4.1"> </span></p>
+ <p style="text-align:justify"><a href="#idt4.4.2"> 4.3.2</a> <span id="idt4.4.2"> </span></p>
+ <p style="text-align:justify"><a href="#idt4.4.3"> 4.3.3</a> <span id="idt4.4.3"> </span></p>
+ <p style="text-align:justify"><a href="#idt4.4.7"> 4.3.7</a> <span id="idt4.4.7"> </span></p>
+ <p style="text-align:justify"><a href="#idt4.4.8"> 4.3.8</a> <span id="idt4.4.8"> </span></p>
+ <p style="text-align:justify"><a href="#idt4.4.9"> 4.3.9</a> <span id="idt4.4.9"> </span></p>
+ <p style="text-align:justify"><a href="#idt4.4.11"> 4.4.11</a> <span id="idt4.4.11"> </span></p>
+ <p style="text-align:justify"><a href="#idt4.4.12"> 4.4.12</a> <span id="idt4.4.12"> </span></p>
+ <p style="text-align:justify"><a href="#idt4.4.13"> 4.4.13</a> <span id="idt4.4.13"> </span></p>
+ <p style="text-align:justify"><a href="#idt4.4.14"> 4.4.14</a> <span id="idt4.4.14"> </span></p>   
+ 
+4.5 耐久性设计要求
+-----------------------------------
+.. raw:: html
+
+ <p style="text-align:justify"><a href="#idt4.5.2"> 4.5.2</a> <span id="idt4.5.2"> </span></p>
+ <p style="text-align:justify"><a href="#idt4.5.4"> 4.5.4</a> <span id="idt4.5.4"> </span></p> 
+
+:math:`\ `

@@ -1,51 +1,119 @@
-8 斜拉桥主要构件评定技术状况评定
+8  构件计算的规定
 ========================================
 
 .. raw:: html
 
-  <h2 id="test111">8 斜拉桥主要构件评定技术状况评定</h2>
+  <h2 id="test111">8  构件计算的规定</h2>
 
-8.1 斜拉索
+8.1 组合式受弯构件
 ----------------------
 
 .. raw:: html
 
- <p style="text-align:justify;text-indent:2em;"> 斜拉桥的养护重点是斜拉索。斜拉索处在高的动应力状态且截面较小，所以对腐蚀十分敏感，其检查指标根据斜拉索材料主要缺陷进行分类描述。</p>
- <p style="text-align:justify;text-indent:2em;"> 斜拉索检查指标中的滑移变位、护套内的材料老化变质和锚固区损坏等病害，难以用准确的定量指标进行划分，故只从定性方面进行分类。为了便于一线养护工作者实际操作，本标准未对斜拉桥索力等指标进行划分，有条件的大型斜拉桥应定期对拉索的索力进行测定，依据测值来指导养护与维修。</p> 
- 
-8.2 斜拉索护套
+ <p style="text-align:justify"><a href="#idt8.1.1"> 8.1.1</a> <span id="idt8.1.1">  </span></p>
+ <p style="text-align:justify"><a href="#idt8.1.3"> 8.1.3</a> <span id="idt8.1.3">  </span></p>
+ <p style="text-align:justify"><a href="#idt8.1.6"> 8.1.6</a> <span id="idt8.1.6">  </span></p>
+ <p style="text-align:justify"><a href="#idt8.1.7"> 8.1.7</a> <span id="idt8.1.7">  </span></p>
+ <p style="text-align:justify"><a href="#idt8.1.11"> 8.1.11</a> <span id="idt8.1.11">  </span></p>
+ <p style="text-align:justify"><a href="#idt8.1.12"> 8.1.12</a> <span id="idt8.1.12"> 、<a href="#idt8.1.13"> 8.1.13</a> <span id="idt8.1.13">  </span></p>
+ <p style="text-align:justify"><a href="#idt8.1.14"> 8.1.14</a> <span id="idt8.1.14">  </span></p>
+ <p style="text-align:justify"><a href="#idt8.1.15"> 8.1.15</a> <span id="idt8.1.15">  </span></p>       
+
+
+8.2 后张预应力混凝土锚固区
+----------------------------------
+
+.. raw:: html
+
+ <p style="text-align:justify"><a href="#idt8.2.1"> 8.2.1</a> <span id="idt8.2.1">  </span></p>
+ <p style="text-align:justify"><a href="#idt8.2.2"> 8.2.2</a> <span id="idt8.2.2">  </span></p>
+ <p style="text-align:justify"><a href="#idt8.2.3"> 8.2.3</a> <span id="idt8.2.3">  </span></p>
+ <p style="text-align:justify"><a href="#idt8.2.4"> 8.2.4</a> <span id="idt8.2.4">  </span></p>
+ <p style="text-align:justify"><a href="#idt8.2.5"> 8.2.5</a> <span id="idt8.2.5">  </span></p>
+ <p style="text-align:justify"><a href="#idt8.2.6"> 8.2.6</a> <span id="idt8.2.6">  </span></p>
+
+
+8.3 支座处横隔梁
 ----------------------
 
 .. raw:: html
 
- <p style="text-align:justify;text-indent:2em;"> 鉴于斜拉桥的养护重点是斜拉索，拉索的防护尤为重要。针对常用的两种防护套（加聚乙烯护套和热挤压包裹聚乙烯护套）材料主要缺陷进行分类描述。</p>
- <p style="text-align:justify;text-indent:2em;"> 斜拉索护套检查指标中的护套裂缝、护套锈蚀、防护层破损、渗水等病害难以用准确的定量指标进行划分，故只作定性分类。</p>
+ <p style="text-align:justify"><a href="#idt8.3.1"> 8.3.1</a> <span id="idt8.3.1">  </span></p>
+ <p style="text-align:justify"><a href="#idt8.3.2"> 8.3.2</a> <span id="idt8.3.2">  </span></p>
 
-8.3 主梁
----------------------------------
-.. raw:: html
 
- <p style="text-align:justify;text-indent:2em;"> 根据斜拉桥主梁的材料和结构状况将加劲梁分成预应力混凝土主梁、钢桁架主梁和钢箱主梁。</p>
- <p style="text-align:justify;text-indent:2em;"> 斜拉桥主梁的检查指标和分类方法与悬索桥预应力混凝土加劲梁、钢桁架加劲梁或钢箱加劲梁基本相同，视其采用的结构形式，参照悬索桥有关指标规定。</p>
-
-8.4 索塔
+8.4 墩台盖梁
 ----------------------
 
 .. raw:: html
 
- <p style="text-align:justify;text-indent:2em;"> 本标准中的检测指标主要侧重于对索塔安全性的影响。对索塔倾斜变形、沉降和冲刷应及时进行检查，倾斜变形、沉降等程度稍大就应该采取处治措施。</p>
+ <p style="text-align:justify"><a href="#idt8.4.1"> 8.4.1</a> <span id="idt8.4.1">  </span></p>
+ <p style="text-align:justify"><a href="#idt8.4.2"> 8.4.2</a> <span id="idt8.4.2">  </span></p>
+ <p style="text-align:justify"><a href="#idt8.4.3"> 8.4.3</a> <span id="idt8.4.3">  </span></p>
+ <p style="text-align:justify"><a href="#idt8.4.4"> 8.4.4</a> <span id="idt8.4.4">  </span></p>
+ <p style="text-align:justify"><a href="#idt8.4.5"> 8.4.5</a> <span id="idt8.4.5">  </span></p>
+ <p style="text-align:justify"><a href="#idt8.4.6"> 8.4.6</a> <span id="idt8.4.6">  </span></p>
+ <p style="text-align:justify"><a href="#idt8.4.7"> 8.4.7</a> <span id="idt8.4.7">  </span></p>
+ <p style="text-align:justify"><a href="#idt8.4.8"> 8.4.8</a> <span id="idt8.4.8">  </span></p>
+ <p style="text-align:justify"><a href="#idt8.4.9"> 8.4.9</a> <span id="idt8.4.9">  </span></p>
 
-8.5 锚具
+8.5 桩基承台
 ----------------------
 
 .. raw:: html
 
- <p style="text-align:justify;text-indent:2em;"> 斜拉索两端锚具的锈蚀是斜拉桥锚具的主要病害，而引起斜拉桥锚具锈蚀的起因，如错杯积水、错具内潮湿和防锈油结块等病害，也是养护工作的重点。</p>
- <p style="text-align:justify;text-indent:2em;"> 由于斜拉桥锚具的锚杯积水、锈蚀和防锈油结块等检查指标，难以用准确的定量指标进行划分，故只从定性方面进行分类。</p>
+ <p style="text-align:justify"><a href="#idt8.5.1"> 8.5.1</a> <span id="idt8.5.1">  </span></p>
+ <p style="text-align:justify"><a href="#idt8.5.2"> 8.5.2</a> <span id="idt8.5.2">  </span></p>
+ <p style="text-align:justify"><a href="#idt8.5.3"> 8.5.3</a> <span id="idt8.5.3">  </span></p>
+ <p style="text-align:justify"><a href="#idt8.5.4"> 8.5.4</a> <span id="idt8.5.4">  </span></p>
+ <p style="text-align:justify"><a href="#idt8.5.5"> 8.5.5</a> <span id="idt8.5.5">  </span></p>
 
-8.6 减震装置
+
+8.6 铰
 ----------------------
 
 .. raw:: html
 
- <p style="text-align:justify;text-indent:2em;"> 部分斜拉桥装有减震装置，检查时主要针对是否有异常或失效，如发现问题应及时进行检修。</p>
+ <p style="text-align:justify"><a href="#idt8.6.1"> 8.6.1</a> <span id="idt8.6.1">  </span></p>
+ <p style="text-align:justify"><a href="#idt8.6.2"> 8.6.2</a> <span id="idt8.6.2">  </span></p>
+
+
+8.7 支座
+----------------------
+
+.. raw:: html
+
+ <p style="text-align:justify"><a href="#idt8.7.1"> 8.7.1</a> <span id="idt8.7.1">  </span></p>
+ <p style="text-align:justify"><a href="#idt8.7.2"> 8.7.2</a> <span id="idt8.7.2">  </span></p>
+ <p style="text-align:justify"><a href="#idt8.7.3"> 8.7.3</a> <span id="idt8.7.3">  </span></p>
+ <p style="text-align:justify"><a href="#idt8.7.4"> 8.7.4</a> <span id="idt8.7.4">  </span></p>
+ <p style="text-align:justify"><a href="#idt8.7.5"> 8.7.5</a> <span id="idt8.7.5">  </span></p> 
+
+8.8 桥梁伸缩装置
+----------------------
+
+.. raw:: html
+
+ <p style="text-align:justify"><a href="#idt8.8.1"> 8.8.1</a> <span id="idt8.8.1">  </span></p>
+ <p style="text-align:justify"><a href="#idt8.8.2"> 8.8.2</a> <span id="idt8.8.2">  </span></p>
+
+
+
+:math:`\ ` 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

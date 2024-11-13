@@ -1,45 +1,134 @@
-9 桥梁下部结构构件技术状况评定
+9  构造规定
 ========================================
 
 .. raw:: html
 
-  <h2 id="test111">9 桥梁下部结构构件技术状况评定</h2>
+  <h2 id="test111">9  构造规定</h2>
 
-9.1 桥墩
+9.1  一般规定
 ----------------------
 
 .. raw:: html
 
- <p style="text-align:justify;text-indent:2em;"> 桥墩按照构件组成分为墩身、盖梁和系梁。</p>
- <p style="text-align:justify;text-indent:2em;"> 墩身的检查指标根据其主要材料缺陷和变形状况进行分类描述。</p>
- <p style="text-align:justify;text-indent:2em;"> 墩身为桥梁的主要部件，不仅对安全使用至关重要，而且维修工作量和难度均较大。所以对桥墩标度≥3类的情况就需要进行及时维修。</p>  
- <p style="text-align:justify;text-indent:2em;"> 墩身位移指标由于较难以量化反映，本标准只进行定性描述和分类。墩身位移一旦出现，情形就较严重，故本标准中墩身位移的标度从3类开始。连续梁、连续刚构，拱桥等其他类型桥梁一旦发生墩台沉降或位移，即需要进行计算分析并采取应对措施。</p>
- <p style="text-align:justify;text-indent:2em;"> 数身裂缝的描述根据裂缝的不同形态和发生部位分为网状裂缝、墩身的水平裂缝、竖向裂缝、从基础向上发展至墩身的裂缝，悬臂桥墩角隅处的裂缝、不等高的墩盖梁上的竖向袋缝以及镶面石突出的裂缝。</p>
- <p style="text-align:justify;text-indent:2em;"> 盖梁和系梁裂缝评定标准根据裂缝的不同形态和发生部位分为网状裂缝，由支承垫石从下向上发展的裂缝、墩帽顶面水平裂缝和盖梁自上面下的垂直裂缝。根据盖梁和系梁结构特点和裂缝对结构不同影响程度，对裂缝进行分类描述。</p>  
- 
-9.2 桥台
+ <p style="text-align:justify"><a href="#idt9.1.1"> 9.1.1</a> <span id="idt9.1.1">  </span></p>
+ <p style="text-align:justify"><a href="#idt9.1.2"> 9.1.2</a> <span id="idt9.1.2">  </span></p>
+ <p style="text-align:justify"><a href="#idt9.1.3"> 9.1.3</a> <span id="idt9.1.3">  </span></p>
+ <p style="text-align:justify"><a href="#idt9.1.4"> 9.1.4</a> <span id="idt9.1.4">  </span></p>
+ <p style="text-align:justify"><a href="#idt9.1.5"> 9.1.5</a> <span id="idt9.1.5"> 、<a href="#idt9.1.6"> 9.1.6</a> <span id="idt9.1.6">  </span></p>
+ <p style="text-align:justify"><a href="#idt9.1.7"> 9.1.7</a> <span id="idt9.1.7">  </span></p>
+ <p style="text-align:justify"><a href="#idt9.1.8"> 9.1.8</a> <span id="idt9.1.8">  </span></p>
+ <p style="text-align:justify"><a href="#idt9.1.9"> 9.1.9</a> <span id="idt9.1.9">  </span></p>
+ <p style="text-align:justify"><a href="#idt9.1.12"> 9.1.12</a> <span id="idt9.1.12">  </span></p>
+ <p style="text-align:justify"><a href="#idt9.1.13"> 9.1.13</a> <span id="idt9.1.13">  </span></p>
+
+9.2 板
 ----------------------
 
 .. raw:: html
 
- <p style="text-align:justify;text-indent:2em;"> 桥台按照其构件组成台身、台帽。</p>
- <p style="text-align:justify;text-indent:2em;"> 台身位移指标由于较难以量化反映，本标准只进行定性描述和分类。连续梁、连续刚构、拱桥等其他类型桥梁一旦发生墩台沉降或位移，即需要进行计算分析并采取应对措施。</p>
- <p style="text-align:justify;text-indent:2em;"> 台身裂缝的描述根据裂缝的不同形态和发生部位分为网状裂缝、从基础向上发展至台身的裂缝、台身的水平裂缝、竖向裂缝、翼墙和前墙断裂的裂缝和镶面石突出的裂缝。</p>
- <p style="text-align:justify;text-indent:2em;"> 台帽裂缝评定标准根据裂缝的不同形态和发生部位分为由支承垫石从下向上发展的裂缝、台帽自上面下的垂直裂缝，并进行分类描述。</p>    
+ <p style="text-align:justify"><a href="#idt9.2.6"> 9.2.6</a> <span id="idt9.2.6"> 斜板的钢筋布置沿用了原规范的规定，原规范参考了国外相关规范，说明如下</span></p>
 
-
-9.3 基础
----------------------------------
-.. raw:: html
-
- <p style="text-align:justify;text-indent:2em;"> 连续梁、连续刚构、拱桥等其他类型桥梁一旦发生基础沉降或位移，即需要进行计算分析并采取应对措施。</p>
- <p style="text-align:justify;text-indent:2em;"> 剥落、露筋、冲蚀等指标对明挖基础是不容易采集到的，但是在特殊情况下（如基础冲刷裸露时）也能采集到，基础缺损面积的百分比是相对于露出地面部分的基础面积，地基以下的基础不包含在内。</p>
- <p style="text-align:justify;text-indent:2em;"> 本标准中对基础的检测指标主要侧重于冲刷、淘空、损坏、基础沉降、滑移和倾斜和开裂等影响结构安全的方面。</p> 
- 
-9.4 翼墙、耳墙 ~ 9.6 河床及调治构造物
----------------------------------------------
+9.3  梁
+----------------------
 
 .. raw:: html
 
- <p style="text-align:justify;text-indent:2em;"> 翼墙、耳墙和锥坡、护坡以及河床等为桥梁的次要部件，故其各检查指标的标度最大只有4类，且各检查指标较难以量化反映，本标准只进行定性分类和描述。</p>
+ <p style="text-align:justify"><a href="#idt9.3.1"> 9.3.1</a> <span id="idt9.3.1">  </span></p>
+ <p style="text-align:justify"><a href="#idt9.3.2"> 9.3.2</a> <span id="idt9.3.2">  </span></p>
+ <p style="text-align:justify"><a href="#idt9.3.3"> 9.3.3</a> <span id="idt9.3.3">  </span></p>
+ <p style="text-align:justify"><a href="#idt9.3.4"> 9.3.4</a> <span id="idt9.3.4">  </span></p>
+ <p style="text-align:justify"><a href="#idt9.3.5"> 9.3.5</a> <span id="idt9.3.5">  </span></p>
+ <p style="text-align:justify"><a href="#idt9.3.6"> 9.3.6</a> <span id="idt9.3.6">  </span></p> 
+ <p style="text-align:justify"><a href="#idt9.3.7"> 9.3.7</a> <span id="idt9.3.7">  </span></p>
+ <p style="text-align:justify"><a href="#idt9.3.8"> 9.3.8</a> <span id="idt9.3.8">  </span></p>
+ <p style="text-align:justify"><a href="#idt9.3.9"> 9.3.9</a> <span id="idt9.3.9">  </span></p>
+ <p style="text-align:justify"><a href="#idt9.3.10"> 9.3.10</a> <span id="idt9.3.10">  </span></p>
+ <p style="text-align:justify"><a href="#idt9.3.11"> 9.3.11</a> <span id="idt9.3.11">  </span></p>
+ <p style="text-align:justify"><a href="#idt9.3.12"> 9.3.12</a> <span id="idt9.3.12">  </span></p>
+ <p style="text-align:justify"><a href="#idt9.3.13"> 9.3.13</a> <span id="idt9.3.13">  </span></p>
+ <p style="text-align:justify"><a href="#idt9.3.14"> 9.3.14</a> <span id="idt9.3.14">  </span></p>
+ <p style="text-align:justify"><a href="#idt9.3.15"> 9.3.15</a> <span id="idt9.3.15">  </span></p>
+ <p style="text-align:justify"><a href="#idt9.3.16"> 9.3.16</a> <span id="idt9.3.16">  </span></p>
+ <p style="text-align:justify"><a href="#idt9.3.17"> 9.3.17</a> <span id="idt9.3.17">  </span></p>  
 
+9.4  预应力混凝土上部结构
+-------------------------------
+
+.. raw:: html
+
+ <p style="text-align:justify"><a href="#idt9.4.1"> 9.4.1</a> <span id="idt9.4.1">  </span></p>
+ <p style="text-align:justify"><a href="#idt9.4.3"> 9.4.3</a> <span id="idt9.4.3">  </span></p>
+ <p style="text-align:justify"><a href="#idt9.4.4"> 9.4.4</a> <span id="idt9.4.4">  </span></p>
+ <p style="text-align:justify"><a href="#idt9.4.5"> 9.4.5</a> <span id="idt9.4.5">  </span></p>
+ <p style="text-align:justify"><a href="#idt9.4.6"> 9.4.6</a> <span id="idt9.4.6">  </span></p> 
+ <p style="text-align:justify"><a href="#idt9.4.7"> 9.4.7</a> <span id="idt9.4.7">  </span></p>
+ <p style="text-align:justify"><a href="#idt9.4.8"> 9.4.8</a> <span id="idt9.4.8">  </span></p>
+ <p style="text-align:justify"><a href="#idt9.4.10"> 9.4.10</a> <span id="idt9.4.10">  </span></p>
+ <p style="text-align:justify"><a href="#idt9.4.11"> 9.4.11</a> <span id="idt9.4.11">  </span></p>
+ <p style="text-align:justify"><a href="#idt9.4.14"> 9.4.14</a> <span id="idt9.4.14">  </span></p>
+ <p style="text-align:justify"><a href="#idt9.4.15"> 9.4.15</a> <span id="idt9.4.15">  </span></p>
+ <p style="text-align:justify"><a href="#idt9.4.16"> 9.4.16</a> <span id="idt9.4.16">  </span></p>
+ <p style="text-align:justify"><a href="#idt9.4.17"> 9.4.17</a> <span id="idt9.4.17">  </span></p>  
+ <p style="text-align:justify"><a href="#idt9.4.18"> 9.4.18</a> <span id="idt9.4.18">  </span></p>  
+ <p style="text-align:justify"><a href="#idt9.4.19"> 9.4.19</a> <span id="idt9.4.19">  </span></p>  
+ <p style="text-align:justify"><a href="#idt9.4.20"> 9.4.20</a> <span id="idt9.4.20">  </span></p>  
+ <p style="text-align:justify"><a href="#idt9.4.24"> 9.4.24</a> <span id="idt9.4.24">  </span></p>  
+ <p style="text-align:justify"><a href="#idt9.4.25"> 9.4.25</a> <span id="idt9.4.25"> ~<a href="#idt9.4.27"> 9.4.27</a> <span id="idt9.4.27">  </span></p>    
+
+
+
+9.5 拱桥
+-------------------------------
+
+.. raw:: html
+
+ <p style="text-align:justify"><a href="#idt9.5.1"> 9.5.1</a> <span id="idt9.5.1">  </span></p>
+ <p style="text-align:justify"><a href="#idt9.5.2"> 9.5.2</a> <span id="idt9.5.2">  </span></p>
+ <p style="text-align:justify"><a href="#idt9.5.4"> 9.5.4</a> <span id="idt9.5.4">  </span></p>
+ <p style="text-align:justify"><a href="#idt9.5.5"> 9.5.5</a> <span id="idt9.5.5">  </span></p>
+ <p style="text-align:justify"><a href="#idt9.5.6"> 9.5.6</a> <span id="idt9.5.6">  </span></p> 
+ <p style="text-align:justify"><a href="#idt9.5.7"> 9.5.7</a> <span id="idt9.5.7">  </span></p>
+ <p style="text-align:justify"><a href="#idt9.5.8"> 9.5.8</a> <span id="idt9.5.8">  </span></p>
+ <p style="text-align:justify"><a href="#idt9.5.9"> 9.5.9</a> <span id="idt9.5.9">  </span></p>
+ <p style="text-align:justify"><a href="#idt9.5.11"> 9.5.11</a> <span id="idt9.5.11">  </span></p>
+ <p style="text-align:justify"><a href="#idt9.5.12"> 9.5.12</a> <span id="idt9.5.12">  </span></p>
+ <p style="text-align:justify"><a href="#idt9.5.13"> 9.5.13</a> <span id="idt9.5.13">  </span></p>
+
+
+9.6 柱、墩台和桩基承台
+-------------------------------
+
+.. raw:: html
+
+ <p style="text-align:justify"><a href="#idt9.6.1"> 9.6.1</a> <span id="idt9.6.1">  </span></p>
+ <p style="text-align:justify"><a href="#idt9.6.2"> 9.6.2</a> <span id="idt9.6.2">  </span></p>
+ <p style="text-align:justify"><a href="#idt9.6.3"> 9.6.3</a> <span id="idt9.6.3">  </span></p>  
+ <p style="text-align:justify"><a href="#idt9.6.4"> 9.6.4</a> <span id="idt9.6.4">  </span></p>
+ <p style="text-align:justify"><a href="#idt9.6.5"> 9.6.5</a> <span id="idt9.6.5">  </span></p>
+ <p style="text-align:justify"><a href="#idt9.6.7"> 9.6.7</a> <span id="idt9.6.7">  </span></p>
+ <p style="text-align:justify"><a href="#idt9.6.8"> 9.6.8</a> <span id="idt9.6.8">  </span></p>
+ <p style="text-align:justify"><a href="#idt9.6.9"> 9.6.9</a> <span id="idt9.6.9">  </span></p>
+ <p style="text-align:justify"><a href="#idt9.6.10"> 9.6.10</a> <span id="idt9.6.10">  </span></p>
+
+9.7 柱、墩台和桩基承台
+-------------------------------
+
+.. raw:: html
+
+ <p style="text-align:justify"><a href="#idt9.7.2"> 9.7.2</a> <span id="idt9.7.2">  </span></p>
+ <p style="text-align:justify"><a href="#idt9.7.3"> 9.7.3</a> <span id="idt9.7.3">  </span></p>  
+ <p style="text-align:justify"><a href="#idt9.7.4"> 9.7.4</a> <span id="idt9.7.4">  </span></p>
+ <p style="text-align:justify"><a href="#idt9.7.6"> 9.7.6</a> <span id="idt9.7.6">  </span></p> 
+ <p style="text-align:justify"><a href="#idt9.7.7"> 9.7.7</a> <span id="idt9.7.7">  </span></p>
+
+
+9.8 涵洞、吊环和铰
+-------------------------------
+
+.. raw:: html
+
+ <p style="text-align:justify"><a href="#idt9.8.2"> 9.8.2</a> <span id="idt9.8.2">  </span></p>
+ <p style="text-align:justify"><a href="#idt9.8.3"> 9.8.3</a> <span id="idt9.8.3">  </span></p> 
+
+
+:math:`\ `

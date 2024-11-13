@@ -94,7 +94,7 @@
  <td  align="left">混凝土轴心抗压强度标准值、设计值；</td>
  </tr>  
  <tr>
- <td align="right"><i>f</i><sub>ck</sub><sup>'</sup>、<i>f</i><sub>tk</sub><sup>'</sup></td>
+ <td align="right"><i>f '</i><sub>ck</sub>、<i>f '</i><sub>tk</sub></td>
  <td  align="center">——</td>
  <td  align="left">短暂状况施工阶段的混凝土轴心抗压、抗拉强度标准值；</td>
  </tr>  
@@ -104,12 +104,12 @@
  <td  align="left">长为150 mm的混凝土立方体抗压强度；</td>
  </tr>
  <tr>
- <td align="right"><i>f</i><sub>cu</sub><sup>'</sup></td>
+ <td align="right"><i>f '</i><sub>cu</sub></td>
  <td  align="center">——</td>
  <td  align="left">边长为150 mm的施工阶段混凝土立方体抗压强度；</td>
  </tr>
  <tr>
- <td align="right"><i>f</i><sub>cu,k</sub><sup>'</sup></td>
+ <td align="right"><i>f '</i><sub>cu,k</sub></td>
  <td  align="center">——</td>
  <td  align="left">边长为150 mm的混凝士立方体抗压强度标准值；</td>
  </tr>
@@ -124,7 +124,7 @@
  <td  align="left">通钢筋抗拉强度标准值、设计值；</td>
  </tr>
  <tr>
- <td align="right"><i>f</i><sub>sd</sub><sup>'</sup>、<i>f</i><sub>pd</sub><sup>'</sup></td>
+ <td align="right"><i>f '</i><sub>sd</sub>、<i>f '</i><sub>pd</sub></td>
  <td  align="center">——</td>
  <td  align="left">通钢筋、预应力钢筋抗压强度设计值；</td>
  </tr>
@@ -146,7 +146,7 @@
  <body>
  <table border="0" style="font-family:times new roman" >
  <tr>
- <td width=70px align="right"><i>f</i><sub>ld</sub></td>
+ <td width=90px align="right"><i>f</i><sub>ld</sub></td>
  <td width=20px align="center">——</td>
  <td  align="left">集中反力或局部压力设计值；</td>
  </tr>
@@ -236,7 +236,7 @@
  <td  align="left">构件开裂截面按使用阶段计算的混凝土法向压应力；</td>
  </tr> 
  <tr>
- <td align="right"><i>σ</i><sub>con</sub>、<i>σ</i><sub>con</sub><sup>'</sup></td>
+ <td align="right"><i>σ</i><sub>con</sub>、<i>σ '</i><sub>con</sub></td>
  <td  align="center">——</td>
  <td  align="left">构件受拉区、受压区预应力钢筋张拉控制应力(对后张法构件为梁体内锚下应力);</td>
  </tr> 
@@ -246,12 +246,12 @@
  <td  align="left">由作用标准值产生的混凝土法向压应力、拉应力；</td>
  </tr> 
  <tr>
- <td align="right"><i>σ</i><sub>l</sub>、<i>σ</i><sub>l</sub><sup>'</sup></td>
+ <td align="right"><i>σ</i><sub>l</sub>、<i>σ '</i><sub>l</sub></td>
  <td  align="center">——</td>
  <td  align="left">构件受拉区、受压区预应力钢筋相应阶段的预应力损失；</td>
  </tr> 
  <tr>
- <td align="right"><i>σ</i><sub>p0</sub>、<i>σ</i><sub>p0</sub><sup>'</sup></td>
+ <td align="right"><i>σ</i><sub>p0</sub>、<i>σ '</i><sub>p0</sub></td>
  <td  align="center">——</td>
  <td  align="left">截面受拉区、受压区纵向预应力钢筋合力点处混凝土法向应力等于零时预应力钢筋的应力；</td>
  </tr> 
@@ -261,7 +261,7 @@
  <td  align="left">由预加力产生的混凝土法向预压应力；</td>
  </tr> 
  <tr>
- <td align="right"><i>σ</i><sub>pe</sub>、<i>σ</i><sub>pe</sub><sup>'</sup></td>
+ <td align="right"><i>σ</i><sub>pe</sub>、<i>σ '</i><sub>pe</sub></td>
  <td  align="center">——</td>
  <td  align="left">截面受拉区、受压区纵向预应力钢筋的有效预应力；</td>
  </tr> 
@@ -334,7 +334,7 @@
  <td  align="left">混凝土局部受压面积、局部受压净面积；</td>
  </tr>
  <tr>
- <td align="right"><i>A</i><sub>p</sub>、<i>A</i><sub>p</sub><sup>'</sup></td>
+ <td align="right"><i>A</i><sub>p</sub>、<i>A '</i><sub>p</sub></td>
  <td  align="center">——</td>
  <td  align="left">构件受拉区、受压区纵向预应力钢筋的截面面积；</td>
  </tr>
@@ -344,7 +344,7 @@
  <td  align="left">构件受拉区纵向普通钢筋的截面面积，或圆形截面构件全部纵向普通钢筋的截面面积；</td>
  </tr>  
  <tr>
- <td align="right"><i>A</i><sub>S</sub><sup>'</sup></td>
+ <td align="right"><i>A '</i><sub>S</sub></td>
  <td  align="center">——</td>
  <td  align="left">构件受压区纵向普通钢筋的截面面积；</td>
  </tr>
@@ -404,7 +404,7 @@
  <td  align="left">换算截面、净截面受拉边缘的弹性抵抗矩；</td>
  </tr>
  <tr>
- <td align="right"><i>α</i><sub>0</sub>、<i>α</i><sup>'</sup></td>
+ <td align="right"><i>α</i><sub>0</sub>、<i>α '</i></td>
  <td  align="center">——</td>
  <td  align="left">构件受拉区、受压区普通钢筋和预应力钢筋合力点至截面近边的距离；</td>
  </tr>
@@ -414,7 +414,7 @@
  <td  align="left">构件受拉区普通钢筋合力点、预应力钢筋合力点至受拉区边缘的距离；</td>
  </tr>
  <tr>
- <td align="right"><i>α</i><sub>s</sub><sup>'</sup>、<i>α</i><sub>p</sub><sup>'</sup></td>
+ <td align="right"><i>α '</i><sub>s</sub>、<i>α '</i><sub>p</sub></td>
  <td  align="center">——</td>
  <td  align="left">构件受压区普通钢筋合力点、预应力钢筋合力点至受压区边缘的距离；</td>
  </tr>
@@ -424,12 +424,12 @@
  <td  align="left">矩形截面宽度，T形或I形截面腹板宽度；</td>
  </tr>
  <tr>
- <td align="right"><i>b</i><sub>f</sub>、<i>b</i><sub>f</sub><sup>'</sup></td>
+ <td align="right"><i>b</i><sub>f</sub>、<i>b '</i><sub>f</sub></td>
  <td  align="center">——</td>
  <td  align="left">T 形或I形截面受拉区、受压区的(有效)翼缘宽度；</td>
  </tr>
  <tr>
- <td align="right"><i>h</i><sub>f</sub>、<i>h</i><sub>f</sub><sup>'</sup></td>
+ <td align="right"><i>h</i><sub>f</sub>、<i>h '</i><sub>f</sub></td>
  <td  align="center">——</td>
  <td  align="left">T 形或I形截面受拉区、受压区的翼缘厚度；</td>
  </tr>
@@ -444,7 +444,7 @@
  <td  align="left">钢筋公称直径；</td>
  </tr>
  <tr>
- <td align="right"><i>e</i><sub>f</sub>、<i>e</i><sub>f</sub><sup>'</sup></td>
+ <td align="right"><i>e</i><sub>f</sub>、<i>e '</i><sub>f</sub></td>
  <td  align="center">——</td>
  <td  align="left">轴向力作用点至受拉区纵向钢筋合力点、受压区纵向钢筋合力点的距离；</td>
  </tr>
@@ -459,7 +459,7 @@
  <td  align="left">轴向力作用点至受拉区纵向普通钢筋合力点、预应力钢筋合力点的距离；</td>
  </tr>
  <tr>
- <td align="right"><i>e</i><sub>s</sub><sup>'</sup>、<i>e</i><sub>p</sub><sup>'</sup></td>
+ <td align="right"><i>e '</i><sub>s</sub>、<i>e '</i><sub>p</sub></td>
  <td  align="center">——</td>
  <td  align="left">轴向力作用点至受压区纵向普通钢筋合力点、预应力钢筋合力点的距离；</td>
  </tr>
@@ -499,22 +499,22 @@
  <td  align="left">构件换算截面重心、净截面重心至截面计算纤维处的距离；</td>
  </tr>
  <tr>
- <td align="right"><i>y</i><sub>p</sub>、<i>y</i><sub>p</sub><sup>'</sup></td>
+ <td align="right"><i>y</i><sub>p</sub>、<i>y '</i><sub>p</sub></td>
  <td  align="center">——</td>
  <td  align="left">构件受拉区、受压区预应力钢筋合力点至换算截面重心轴的距离；</td>
  </tr>
  <tr>
- <td align="right"><i>y</i><sub>pn</sub>、<i>y</i><sub>pn</sub><sup>'</sup></td>
+ <td align="right"><i>y</i><sub>pn</sub>、<i>y '</i><sub>pn</sub></td>
  <td  align="center">——</td>
  <td  align="left">构件受拉区、受压区预应力钢筋合力点至净截面重心轴的距离；</td>
  </tr>
  <tr>
- <td align="right"><i>y</i><sub>s</sub>、<i>y</i><sub>s</sub><sup>'</sup></td>
+ <td align="right"><i>y</i><sub>s</sub>、<i>y '</i><sub>s</sub></td>
  <td  align="center">——</td>
  <td  align="left">构件受拉区、受压区普通钢筋重心至换算截面重心轴的距离；</td>
  </tr>
  <tr>
- <td align="right"><i>y</i><sub>sn</sub>、<i>y</i><sub>sn</sub><sup>'</sup></td>
+ <td align="right"><i>y</i><sub>sn</sub>、<i>y '</i><sub>sn</sub></td>
  <td  align="center">——</td>
  <td  align="left">构件受拉区、受压区普通钢筋重心至净截面重心轴的距离；</td>
  </tr>
@@ -544,223 +544,68 @@
  <tr>
  <td width=70px align="right"><i>k</i><sub>qf</sub></td>
  <td width=20px align="center">——</td>
- <td  align="left">向倾覆安全系数；(新增)</td>
+ <td  align="left">横向倾覆安全系数；(新增)</td>
  </tr>
  <tr>
- <td align="right"><i>A</i><sub>0</sub>、<i>A</i><sub>n</sub></td>
+ <td align="right"><i>α</i><sub>ES</sub>、<i>α</i><sub>EP</sub></td>
  <td  align="center">——</td>
- <td  align="left">构件换算截面面积、净截面面积；</td>
+ <td  align="left">普通钢筋弹性模量、预应力钢筋弹性模量与混凝土弹性模量的比值；</td>
  </tr>
  <tr>
- <td align="right"><i>A</i><sub>cor</sub></td>
+ <td align="right"><i>β</i><sub>cor</sub></td>
  <td  align="center">——</td>
- <td  align="left">钢筋网、螺旋筋或箍筋范围以内的混凝土核心面积；</td>
+ <td  align="left">箱形截面抗扭承载力计算时有效壁厚折减系数；</td>
  </tr> 
  <tr>
- <td align="right"><i>A</i><sub>cr</sub></td>
+ <td align="right"><i>β</i><sub>α</sub></td>
  <td  align="center">——</td>
- <td  align="left">裂截面换算截面面积；</td>
+ <td  align="left">配置间接钢筋时局部承压承载力提高系数；</td>
  </tr>  
  <tr>
- <td align="right"><i>A</i><sub>l</sub>、<i>A</i><sub>ln</sub></td>
+ <td align="right"><i>β</i><sub>t</sub></td>
  <td  align="center">——</td>
- <td  align="left">混凝土局部受压面积、局部受压净面积；</td>
+ <td  align="left">剪扭构件混凝土抗扭承载力降低系数；</td>
  </tr>
  <tr>
- <td align="right"><i>A</i><sub>p</sub>、<i>A</i><sub>p</sub><sup>'</sup></td>
+ <td align="right"><i>γ</i></td>
  <td  align="center">——</td>
- <td  align="left">构件受拉区、受压区纵向预应力钢筋的截面面积；</td>
+ <td  align="left">受拉区混凝土塑性影响系数；</td>
  </tr>
  <tr>
- <td align="right"><i>A</i><sub>S</sub></td>
+ <td align="right"><i>γ</i><sub>0</sub></td>
  <td  align="center">——</td>
- <td  align="left">构件受拉区纵向普通钢筋的截面面积，或圆形截面构件全部纵向普通钢筋的截面面积；</td>
+ <td  align="left">桥涵结构的重要性系数；</td>
  </tr>  
  <tr>
- <td align="right"><i>A</i><sub>S</sub><sup>'</sup></td>
+ <td align="right"><i>η</i></td>
  <td  align="center">——</td>
- <td  align="left">构件受压区纵向普通钢筋的截面面积；</td>
+ <td  align="left">偏心受压构件轴向力偏心距增大系数；</td>
  </tr>
  <tr>
- <td align="right"><i>A</i><sub>sb</sub>、<i>A</i><sub>pb</sub></td>
+ <td align="right"><i>η</i><sub>0</sub></td>
  <td  align="center">——</td>
- <td  align="left">同一弯起平面内普通弯起钢筋、预应力弯起钢筋的截面面积；</td>
+ <td  align="left">构件挠度长期增长系数；</td>
  </tr>
  <tr>
- <td align="right"><i>A</i><sub>SV</sub></td>
+ <td align="right"><i>ρ</i></td>
  <td  align="center">——</td>
- <td  align="left">同截面内箍筋各肢的总截面面积；</td>
+ <td  align="left">纵向受拉钢筋配筋率或纵向钢筋配筋率；</td>
  </tr> 
  <tr>
- <td align="right"><i>B</i></td>
+ <td align="right"><i>ρ</i><sub>SV</sub></td>
  <td  align="center">——</td>
- <td  align="left">开裂构件等效截面的抗弯刚度；</td>
+ <td  align="left">箍筋配筋率；</td>
  </tr> 
  <tr>
- <td align="right"><i>B</i><sub>0</sub></td>
+ <td align="right"><i>ρ</i><sub>te</sub></td>
  <td  align="center">——</td>
- <td  align="left">全截面换算截面的抗弯刚度；</td>
+ <td  align="left">纵向受拉钢筋的有效配筋率；(新增)</td>
  </tr> 
  <tr>
- <td align="right"><i>B</i><sub>cr</sub></td>
+ <td align="right"><i>φ</i></td>
  <td  align="center">——</td>
- <td  align="left">开裂截面换算截面的抗弯刚度；</td>
+ <td  align="left">轴心受压构件稳定系数。</td>
  </tr> 
- <tr>
- <td align="right"><i>I</i></td>
- <td  align="center">——</td>
- <td  align="left">毛截面惯性矩；</td>
- </tr> 
- <tr>
- <td align="right"><i>I</i><sub>0</sub>、<i>I</i><sub>n</sub></td>
- <td  align="center">——</td>
- <td  align="left">换算截面、净截面的惯性矩；</td>
- </tr> 
- <tr>
- <td align="right"><i>I</i><sub>cr</sub></td>
- <td  align="center">——</td>
- <td  align="left">开裂截面换算截面惯性矩；</td>
- </tr> 
- <tr>
- <td align="right"><i>S</i><sub>0</sub>、<i>S</i><sub>n</sub></td>
- <td  align="center">——</td>
- <td  align="left">换算截面、净截面计算纤维以上(或以下)部分面积对截面重心轴的面积矩；</td>
- </tr>
- <tr>
- <td align="right"><i>W</i></td>
- <td  align="center">——</td>
- <td  align="left">毛截面受拉边缘的弹性抵抗矩；</td>
- </tr>
- <tr>
- <td align="right"><i>W</i><sub>0</sub>、<i>W</i><sub>n</sub></td>
- <td  align="center">——</td>
- <td  align="left">换算截面、净截面受拉边缘的弹性抵抗矩；</td>
- </tr>
- <tr>
- <td align="right"><i>α</i><sub>0</sub>、<i>α</i><sup>'</sup></td>
- <td  align="center">——</td>
- <td  align="left">构件受拉区、受压区普通钢筋和预应力钢筋合力点至截面近边的距离；</td>
- </tr>
- <tr>
- <td align="right"><i>α</i><sub>s</sub>、<i>α</i><sub>p</sub></td>
- <td  align="center">——</td>
- <td  align="left">构件受拉区普通钢筋合力点、预应力钢筋合力点至受拉区边缘的距离；</td>
- </tr>
- <tr>
- <td align="right"><i>α</i><sub>s</sub><sup>'</sup>、<i>α</i><sub>p</sub><sup>'</sup></td>
- <td  align="center">——</td>
- <td  align="left">构件受压区普通钢筋合力点、预应力钢筋合力点至受压区边缘的距离；</td>
- </tr>
- <tr>
- <td align="right"><i>b</i></td>
- <td  align="center">——</td>
- <td  align="left">矩形截面宽度，T形或I形截面腹板宽度；</td>
- </tr>
- <tr>
- <td align="right"><i>b</i><sub>f</sub>、<i>b</i><sub>f</sub><sup>'</sup></td>
- <td  align="center">——</td>
- <td  align="left">T 形或I形截面受拉区、受压区的(有效)翼缘宽度；</td>
- </tr>
- <tr>
- <td align="right"><i>h</i><sub>f</sub>、<i>h</i><sub>f</sub><sup>'</sup></td>
- <td  align="center">——</td>
- <td  align="left">T 形或I形截面受拉区、受压区的翼缘厚度；</td>
- </tr>
- <tr>
- <td align="right"><i>c</i></td>
- <td  align="center">——</td>
- <td  align="left">混凝土保护层厚度；</td>
- </tr>
- <tr>
- <td align="right"><i>d</i></td>
- <td  align="center">——</td>
- <td  align="left">钢筋公称直径；</td>
- </tr>
- <tr>
- <td align="right"><i>e</i><sub>f</sub>、<i>e</i><sub>f</sub><sup>'</sup></td>
- <td  align="center">——</td>
- <td  align="left">轴向力作用点至受拉区纵向钢筋合力点、受压区纵向钢筋合力点的距离；</td>
- </tr>
- <tr>
- <td align="right"><i>e</i><sub>0</sub></td>
- <td  align="center">——</td>
- <td  align="left">轴向力对截面重心轴的偏心距；</td>
- </tr>
- <tr>
- <td align="right"><i>e</i><sub>s</sub>、<i>e</i><sub>p</sub></td>
- <td  align="center">——</td>
- <td  align="left">轴向力作用点至受拉区纵向普通钢筋合力点、预应力钢筋合力点的距离；</td>
- </tr>
- <tr>
- <td align="right"><i>e</i><sub>s</sub><sup>'</sup>、<i>e</i><sub>p</sub><sup>'</sup></td>
- <td  align="center">——</td>
- <td  align="left">轴向力作用点至受压区纵向普通钢筋合力点、预应力钢筋合力点的距离；</td>
- </tr>
- <tr>
- <td align="right"><i>e</i><sub>p0</sub>、<i>e</i><sub>pn</sub></td>
- <td  align="center">——</td>
- <td  align="left">预应力钢筋与普通钢筋的合力对换算截面、净截面重心轴的偏心距；</td>
- </tr>
- <tr>
- <td align="right"><i>l</i></td>
- <td  align="center">——</td>
- <td  align="left">受弯构件的计算跨径或受压构件节点间的长度；</td>
- </tr>
- <tr>
- <td align="right"><i>l</i><sub>0</sub></td>
- <td  align="center">——</td>
- <td  align="left">受压构件的计算长度；</td>
- </tr>
- <tr>
- <td align="right"><i>l</i><sub>n</sub></td>
- <td  align="center">——</td>
- <td  align="left">受弯构件的净跨径；</td>
- </tr>
- <tr>
- <td align="right"><i>r</i></td>
- <td  align="center">——</td>
- <td  align="left">圆形截面半径；</td>
- </tr>
- <tr>
- <td align="right"><i>S</i><sub>V</sub>、<i>S</i><sub>P</sub></td>
- <td  align="center">——</td>
- <td  align="left">箍筋、竖向预应力钢筋的间距；</td>
- </tr>
- <tr>
- <td align="right"><i>y</i><sub>n</sub>、<i>y</i><sub>0</sub></td>
- <td  align="center">——</td>
- <td  align="left">构件换算截面重心、净截面重心至截面计算纤维处的距离；</td>
- </tr>
- <tr>
- <td align="right"><i>y</i><sub>p</sub>、<i>y</i><sub>p</sub><sup>'</sup></td>
- <td  align="center">——</td>
- <td  align="left">构件受拉区、受压区预应力钢筋合力点至换算截面重心轴的距离；</td>
- </tr>
- <tr>
- <td align="right"><i>y</i><sub>pn</sub>、<i>y</i><sub>pn</sub><sup>'</sup></td>
- <td  align="center">——</td>
- <td  align="left">构件受拉区、受压区预应力钢筋合力点至净截面重心轴的距离；</td>
- </tr>
- <tr>
- <td align="right"><i>y</i><sub>s</sub>、<i>y</i><sub>s</sub><sup>'</sup></td>
- <td  align="center">——</td>
- <td  align="left">构件受拉区、受压区普通钢筋重心至换算截面重心轴的距离；</td>
- </tr>
- <tr>
- <td align="right"><i>y</i><sub>sn</sub>、<i>y</i><sub>sn</sub><sup>'</sup></td>
- <td  align="center">——</td>
- <td  align="left">构件受拉区、受压区普通钢筋重心至净截面重心轴的距离；</td>
- </tr>
- <tr>
- <td align="right"><i>x</i></td>
- <td  align="center">——</td>
- <td  align="left">截面受压区高度；</td>
- </tr>
- <tr>
- <td align="right"><i>z</i></td>
- <td  align="center">——</td>
- <td  align="left">内力臂，即纵向受拉钢筋合力点至混凝土受压区合力之间的距离。</td>
- </tr>
  </table>
 	</body>
  <p></p>

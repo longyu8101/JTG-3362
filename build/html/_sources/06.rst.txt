@@ -1,27 +1,27 @@
-6 拱式桥上部结构构件技术状况评定
+6  持久状况正常使用极限状态计算
 ============================================
 
 .. raw:: html
 
-  <h2 id="test111">6 拱式桥上部结构构件技术状况评定</h2>
+  <h2 id="test111">6  持久状况正常使用极限状态计算</h2>
 
 
-6.1 圬工拱桥
+6.1 一般规定
 --------------------
 
 .. raw:: html
 
- <p style="text-align:justify"><a href="#id6.1.1"> 6.1.1</a> <span id="id6.1.1"> 主拱圈评定指标及分级评定标准：</span></p>
+ <p style="text-align:justify"><a href="#id6.1.1"> 6.1.1</a> <span id="id6.1.1"> 公路桥涵的持久状况设计应按正常使用极限状态的要求，采用作用频遇组合、作用准永久组合或作用频遇组合并考虑作用长期效应的影响，对构件的抗裂、裂缝宽度和挠度进行验算，并使各项计算值不超过本规范规定的各相应限值。在上述各种组合中，汽车荷载不计冲击作用。</span></p>
+ <p style="text-align:justify"><a href="#id6.1.2"> 6.1.2</a> <span id="id6.1.2"> 预应力混凝土构件可根据桥梁使用和所处环境的要求，进行下列构件设计：</span></p>
  <ol>
- <li>主拱圈变形评定标准见<a href="#B6.1.1-1">表6.1.1-1</a>。</li>
- <li>主拱圈裂缝评定标准见<a href="#B6.1.1-2">表6.1.1-2</a>。</li>
- <li>灰缝松散脱落评定标准见<a href="#B6.1.1-3">表6.1.1-3</a>。</li>
- <li>渗水评定标准见<a href="#B6.1.1-4">表6.1.1-4</a>。</li>
- <li>砌块断裂、脱落评定标准见<a href="#B6.1.1-5">表6.1.1-5</a>。</li>
- <li>风化评定标准见<a href="#B6.1.1-6">表6.1.1-6</a>。</li>
- <li>拱脚位移评定标准见<a href="#B6.1.1-7">表6.1.1-7</a>。</li>
+ <li>全预应力混凝土构件。此类构件在作用频遇组合下控制的正截面受拉边缘不允许出现拉应力。</li>
+ <li>部分预应力混凝土构件。此类构件在作用频遇组合下控制的正截面受拉边缘可出现拉应力：当拉应力不超过规定限值时，为A类预应力混凝土构件；当拉应力超过规定限值时，为B类预应力混凝土构件。</li>
  </ol>
- <style>
+ <p style="text-align:justify"><a href="#id6.1.3"> 6.1.3</a> <span id="id6.1.3">箱型截面的混凝土桥梁宜按<a href="#B6.1.3">表6.1.3</a>进行抗裂、裂缝宽度验算。 (新增)</span></p>
+
+.. raw:: html
+
+      <style>
      #biaoge {
          border: 2px solid black;
          border-collapse: collapse;
@@ -34,2818 +34,1603 @@
          padding-left:5px;
          padding-right:5px;
          border: 1px solid black;
-         vertical-align: middle;
+         
       }
       #eqzs {
          border: 0px;
-         vertical-align: top;
       }
       #dhbg {
         vertical-align: middle;
       }
      </style>
 
- <table id="biaoge" style="font-family:times new roman">
+		<table id="biaoge" style="font-family:times new roman">
 
-     <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="B6.1.1-1">表6.1.1-1 主拱圈变形</b></caption>	
+         <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="B4.5.2">表4.5.2 外观劣化度分级标准</b></caption>	
               
 		    <tr>
-		      <td  align="center" width=60px rowspan="2" id="dhbg">标度</td>
-		      <td  align="center" width=840px>评定指标</td>
- 		    </tr> 
-        <tr> 
-         <!-- <td></td> -->       
-				 <td  align="center">定性描述</td>
-		    </tr>
-  		  <tr>
-		     <td align="center">1</td>
-		     <td align="left">完好</td>
-		    </tr> 
-  		  <tr>
-		     <td align="center">2</td>
-		     <td align="center">—</td>
-		    </tr>
-  		  <tr>
-		     <td align="center">3</td>
-		     <td align="left">主拱圈线形有轻微变形，或边拱有横移或外倾现象</td>
-		    </tr> 
-  		  <tr>
-		     <td align="center">4</td>
-		     <td align="left">主拱圈线形有较明显的变形，如拱顶变形、桥面竖向呈波形</td>
-		    </tr>
-  <tr>
-		     <td align="center">5</td>
-		     <td align="left">主拱圈严重变形，或拱顶挠度大于限值，严重影响桥梁结构安全</td>
-		    </tr>
-  		</table> 
-      <p> </p>
-
-    <table id="biaoge" style="font-family:times new roman">
-
-     <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="B6.1.1-2">表6.1.1-2 主拱圈裂缝</b></caption>	
-              
-		    <tr>
-		      <td  align="center" width=60px rowspan="2" id="dhbg">标度</td>
-		      <td  align="center"  colspan="2">评定指标</td>
+		      <td  align="center" rowspan="2"width="100px"id="dhbg" >部位</td>
+		      <td  align="center" colspan="3"id="dhbg" >验算要求</td>
+	        <!-- <td></td> -->
 				  <!-- <td></td> -->
 		    </tr>
-  		  <tr>
-		     <!-- <td></td> -->
-		      <td align="center" width=360px>定性描述</td>
-				  <td align="center" width=480px>定量描述</td>
-		    </tr>
-  		  <tr>
-		     <td align="center">1</td>
-		     <td align="left">完好</td>
-			   <td align="center">—</td>
-		    </tr> 
-  		  <tr>
-		     <td align="center">2</td>
-		     <td align="left">有少量轻微横向裂缝</td>
-			   <td align="left">横向裂缝缝长≤截面尺寸的1/8，缝宽≤0.1mm</td>
-		    </tr>
-  		  <tr>
-		     <td align="center">3</td>
-		     <td align="left">结合面开裂或有纵向、横向裂缝，缝宽未超限</td>
-			   <td align="left">纵向裂缝缝长≤截面尺寸的1/8，缝宽≤0.5mm，或横向裂缝缝长＞截面尺寸的1/8且≤截面尺寸的1/2，缝宽＞0.1mm且≤0.3mm</td>
-		     </tr> 
-  		   <tr>
-		     <td align="center">4</td>
-		     <td align="left">结合面开裂或有较严重纵向、横向裂缝，缝宽超限</td>
-			   <td align="left">纵向裂缝缝长＞截面尺寸的1/8,缝宽＞0.5mm，或横向裂缝缝长＞截面尺寸的1/2，缝宽＞0.3mm</td>
-		     </tr>
-         <tr>
-		     <td align="center">5</td>
-		     <td align="left">裂缝贯通截面或跨长，发生开合现象，或拱圈砌体严重断裂</td>
-			   <td align="left">缝宽＞2.0mm</td>
-		     </tr>  
-		</table> 
-    <p> </p> 
-        <table id="biaoge" style="font-family:times new roman">
-
-     <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="B6.1.1-3">表6.1.1-3 灰缝松散脱落</b></caption>	
-              
 		    <tr>
-		      <td  align="center" width=60px rowspan="2" id="dhbg">标度</td>
-		      <td  align="center"  colspan="2">评定指标</td>
+		      <!-- <td></td> -->
+		      <td  align="center" colspan="2"id="dhbg" >全预应力结构和A类预应力结构</td>
 				  <!-- <td></td> -->
+          <td align="center"id="dhbg" width="300px">B类预应力结构和钢筋混凝土结构</td>
 		    </tr>
-  		  <tr>
-		     <!-- <td></td> -->
-		      <td align="center" width=360px>定性描述</td>
-				  <td align="center" width=480px>定量描述</td>
-		    </tr>
-  		  <tr>
-		     <td align="center">1</td>
-		     <td align="left">完好</td>
-			   <td align="center">—</td>
-		    </tr> 
-  		  <tr>
-		     <td align="center">2</td>
-		     <td align="left">局部灰缝松散脱落</td>
-			   <td align="left">累计长度≤截面长度的10%，或单处长度≤1.0m</td>
-		    </tr>
-  		  <tr>
-		     <td align="center">3</td>
-		     <td align="left">较大范围灰缝松散脱落</td>
-			   <td align="left">累计长度＞截面长度的10%，或单处长度＞1.0m</td>
-		     </tr> 
-		</table> 
-    <p> </p> 
-
-     <table id="biaoge" style="font-family:times new roman">
-
-     <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="B6.1.1-4">表6.1.1-4 渗水</b></caption>	
-              
 		    <tr>
-		      <td  align="center" width=60px rowspan="2" id="dhbg">标度</td>
-		      <td  align="center" width=840px>评定指标</td>
- 		    </tr> 
-        <tr> 
-         <!-- <td></td> -->       
-				 <td  align="center">定性描述</td>
-		    </tr>
-  		  <tr>
-		     <td align="center">1</td>
-		     <td align="left">完好</td>
+		      <td  align="center" rowspan="3"id="dhbg" >顶板</td>
+		      <td  align="center" id="dhbg" >上缘的纵桥向正应力</td>
+				  <td  align="center" rowspan="7"id="dhbg" >满足<a href="https://jtg-3362.readthedocs.io/zh/latest/6.html#id4">第6.3节</a>规定</td>
+          <td  align="center" rowspan="7"id="dhbg" >按<a href="https://jtg-3362.readthedocs.io/zh/latest/6.html#id5">第6.4节</a>规定进行裂缝宽度验算</td>
 		    </tr> 
-  		  <tr>
-		     <td align="center">2</td>
-		     <td align="left">拱圈局部有明显渗水现象</td>
-		    </tr>
-  		  <tr>
-		     <td align="center">3</td>
-		     <td align="left">拱圈多处有明显渗水现象，渗水处伴有晶体析出现象，流膏处混凝土松散</td>
-		    </tr> 
-  		</table> 
-      <p> </p>
-
-    <table id="biaoge" style="font-family:times new roman">
-
-     <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="B6.1.1-5">表6.1.1-5 砌块断裂、脱落</b></caption>	
-              
 		    <tr>
-		      <td  align="center" width=60px rowspan="2" id="dhbg">标度</td>
-		      <td  align="center"  colspan="2">评定指标</td>
+		      <!-- <td></td> -->
+		      <td  align="center" id="dhbg" >上缘和下缘的横桥向正应力</td>
 				  <!-- <td></td> -->
-		    </tr>
-  		  <tr>
-		     <!-- <td></td> -->
-		      <td align="center" width=360px>定性描述</td>
-				  <td align="center" width=480px>定量描述</td>
-		    </tr>
-  		  <tr>
-		     <td align="center">1</td>
-		     <td align="left">完好</td>
-			   <td align="center">—</td>
-		    </tr> 
-  		  <tr>
-		     <td align="center">2</td>
-		     <td align="left">拱圈局部砌体小块断裂</td>
-			   <td align="left">断裂累计面积≤构件面积的1%，或单处面积≤0.5m²</td>
-		    </tr>
-  		  <tr>
-		     <td align="center">3</td>
-		     <td align="left">拱圈小范围砌体断裂，甚至脱落</td>
-			   <td align="left">断裂累计面积＞构件面积的1%且≤构件面积的10%，或单处面积＞0.5m²,或砌体脱落面积≤构件面积的3%</td>
-		     </tr> 
-  		   <tr>
-		     <td align="center">4</td>
-		     <td align="left">拱圈较大范围砌体断裂，脱落现象较多</td>
-			   <td align="left">断裂累计面积＞构件面积的10%，或砌体脱落面积＞构件面积3%且≤构件面积的5%</td>
-		     </tr>
-         <tr>
-		     <td align="center">5</td>
-		     <td align="left">拱圈大范围砌体断裂，脱落现象严重，严重影响桥梁结构安全</td>
-			   <td align="left">断裂累计面积＞构件面积的10%，或砌体脱落面积＞构件面积的5%</td>
-		     </tr>  
-		</table> 
-    <p> </p> 
-
-     <table id="biaoge" style="font-family:times new roman">
-
-     <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="B6.1.1-6">表6.1.1-6 风化</b></caption>	
-              
+          <!-- <td></td> -->
+		    </tr>         
 		    <tr>
-		      <td  align="center" width=60px rowspan="2" id="dhbg">标度</td>
-		      <td  align="center"  colspan="2">评定指标</td>
+		      <!-- <td></td> -->
+		      <td  align="center" id="dhbg" >面内的主应力</td>
 				  <!-- <td></td> -->
-		    </tr>
-  		  <tr>
-		     <!-- <td></td> -->
-		      <td align="center" width=360px>定性描述</td>
-				  <td align="center" width=480px>定量描述</td>
-		    </tr>
-  		  <tr>
-		     <td align="center">1</td>
-		     <td align="left">完好</td>
-			   <td align="center">—</td>
-		    </tr> 
-  		  <tr>
-		     <td align="center">2</td>
-		     <td align="left">部分位置有风化现象，造成砌体表面剥落</td>
-			   <td align="left">风化面积≤构件面积的20%，或表面剥落面积≤构件表面积的10%</td>
-		    </tr>
-  		  <tr>
-		     <td align="center">3</td>
-		     <td align="left">大范围存在风化现象，并造成砌体表面剥落</td>
-			   <td align="left">风化面积＞构件面积的20%，或表面剥落面积＞构件面积的10%</td>
-		     </tr> 
-		</table> 
-    <p> </p> 
-
-     <table id="biaoge" style="font-family:times new roman">
-
-     <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="B6.1.1-7">表6.1.1-7 拱脚位移</b></caption>	
-              
+          <!-- <td></td> -->
+		    </tr>  
 		    <tr>
-		      <td  align="center" width=60px rowspan="2" id="dhbg">标度</td>
-		      <td  align="center" width=840px>评定指标</td>
- 		    </tr> 
-        <tr> 
-         <!-- <td></td> -->       
-				 <td  align="center">定性描述</td>
-		    </tr>
-  		  <tr>
-		     <td align="center">1</td>
-		     <td align="left">完好</td>
+		      <td  align="center" rowspan="3"id="dhbg" >底板</td>
+		      <td  align="center" id="dhbg" >下缘的纵桥向正应力</td>
+				  <!-- <td></td> -->
+          <!-- <td></td> -->
 		    </tr> 
-  		  <tr>
-		     <td align="center">2</td>
-		     <td align="center">—</td>
-		    </tr>
-  		  <tr>
-		     <td align="center">3</td>
-		     <td align="center">—</td>
+		    <tr>
+		      <!-- <td></td> -->
+		      <td  align="center" id="dhbg" >上缘和下缘的横桥向正应力</td>
+				  <!-- <td></td> -->
+          <!-- <td></td> -->
+		    </tr>         
+		    <tr>
+		      <!-- <td></td> -->
+		      <td  align="center" id="dhbg" >面内的主应力</td>
+				  <!-- <td></td> -->
+          <!-- <td></td> -->
 		    </tr> 
-        <tr>
-		     <td align="center">4</td>
-		     <td align="left">拱脚出现水平、竖向位移和转角</td>
-		    </tr>
-  		  <tr>
-		     <td align="center">5</td>
-		     <td align="left">拱脚严重错台、位移，造成结构和桥面变形过大，严重影响桥梁结构安全</td>
-		    </tr>   
-  		</table> 
-      <p> </p>
+		    <tr>
+		      <td  align="center" id="dhbg" >腹板</td>
+		      <td  align="center" id="dhbg" >面内的主应力</td>
+				  <!-- <td></td> -->
+          <!-- <td></td> -->
+		    </tr> 
+		</table>
+ <p></p>
 
- <p style="text-align:justify"><a href="#id6.1.2"> 6.1.2</a> <span id="id6.1.2"> 拱上结构评定指标及分级评定标准：</span></p>
+ <p style="text-align:justify"><a href="#id6.1.4"> 6.1.4</a> <span id="id6.1.4">预应力混凝土构件中预应力钢筋的张拉控制应力值<i>σ</i><sub>con</sub>应符合下列规定：</span></p>
+
+
+ <p style="text-align:justify;text-indent:2em;" > 1 预应力钢丝、钢绞线的张拉控制应力值</p>
+
+$$ 体内预应力\\qquad \\qquad\\sigma _{\\mathrm{con}}\\leqslant 0.75f_{\\mathrm{pk}}\\tag{6.1.4-1}$$
+$$ 体外预应力\\qquad \\qquad\\sigma _{\\mathrm{con}}\\leqslant 0.70f_{\\mathrm{pk}}\\tag{6.1.4-2}$$
+
+
+.. raw:: html
+
+ <p style="text-align:justify;text-indent:2em;" > 2 预应力螺纹钢筋的张拉控制应力值</p>
+
+$$ \\sigma _{\\mathrm{con}}\\leqslant 0.85f_{\\mathrm{pk}}\\tag{6.1.4-3}$$
+
+
+.. raw:: html
+
+ <table border="0" style="font-family:times new roman" id="gongshi">
+ <tr>
+ <td width="50px" align='center' id="eqzs">式中:</td>
+ <td width="80px" align='right' id="eqzs"><i>f</i><sub>pk</sub></td>
+ <td width="40px" align='left' id="eqzs">——</td>
+ <td id="eqzs"> 预应力钢筋抗拉强度标准值，按<a href="https://jtg-3362.readthedocs.io/zh/latest/03.html#B3.2.2.2">表3.2.2-2</a>的规定采用。</td>
+ </tr>
+ </table>
+ <p></p> 
+
+ <p style="text-align:justify;text-indent:2em;" > 当对构件进行超张拉或计入锚圈口摩擦损失时，预应力钢筋最大控制应力值(千斤顶油泵上显示的值)可增加 0.05<i>f</i><sub>pk</sub>。</p>
+
+ <p style="text-align:justify"><a href="#id6.1.5"> 6.1.5</a> <span id="id6.1.5">计算预应力混凝土构件的弹性阶段应力时，构件截面性质可按下列规定采用：</span></p>
  <ol>
- <li>实腹拱的侧墙与主拱圈脱裂评定标准见<a href="#B6.1.2-1">表6.1.2-1</a>。</li>
- <li>实腹拱的侧墙变形、位移评定标准见<a href="#B6.1.2-2">表6.1.2-2</a>。</li>
- <li>实腹拱的拱上填料沉陷或开裂评定标准见<a href="#B6.1.2-3">表6.1.2-3</a>。</li>
- <li>空腹拱的腹拱或横向联结系变形、错位评定标准见<a href="#B6.1.2-4">表6.1.2-4</a>。</li>
- <li>立墙或立柱倾斜、开裂或脱落评定标准见<a href="#B6.1.2-5">表6.1.2-5</a>。</li>
- <li>拱上结构裂缝评定标准见<a href="#B6.1.2-6">表6.1.2-6</a>。</li>
- <li>拱上填料排水不畅评定标准见<a href="#B6.1.2-7">表6.1.2-7</a>。</li>
+ <li>先张法构件，采用换算截面。</li>
+ <li>后张法构件，当计算由作用和体外预应力引起的应力时，体内预应力管道压浆前采用净截面，体内预应力钢筋与混凝土粘结后采用换算截面；当计算由体内预应力引起的应力时，除指明者外采用净截面。</li>
+ <li>截面性质对计算应力或控制条件影响不大时，也可采用毛截面。</li>
  </ol>
-     <table id="biaoge" style="font-family:times new roman">
+ <p style="text-align:justify"><a href="#id6.1.6"> 6.1.6</a> <span id="id6.1.6">由预加力产生的混凝土法向应力及相应阶段预应力钢筋的应力，应按下列公式计算：</span></p>
 
-     <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="B6.1.2-1">表6.1.2-1 实腹拱的侧墙与主拱圈脱裂</b></caption>	
+ <p style="text-align:justify;text-indent:2em;" > 1 先张法预应力混凝土构件</p>
+ <p style="text-align:justify;text-indent:2em;" >由预加力产生的混凝土法向压应力<i>σ</i><sub>pc</sub>和拉应力<i>σ</i><sub>pt</sub></p>
+
+$$ {\\begin{matrix} \\sigma _{\\mathrm{pc} }\\\\ \\sigma _{\\mathrm{pt} }\\end{matrix}}=\\dfrac{N_{\\mathrm{p0} }}{A_{0}}\\pm \\dfrac{N_{\\mathrm{p0} }e_{\\mathrm{p0} }}{I_{0}}\\mathrm{y} _{0}\\tag{6.1.6-1}$$
+
+.. raw:: html
+
+ <p style="text-align:justify;text-indent:2em;" >预应力钢筋合力点处混凝土法向应力等于零时的预应力钢筋应力</p>
+
+$$\\left.\\begin{matrix} \\sigma _{\\mathrm{p0}}=\\sigma _{\\mathrm{con}}-\\sigma _{l}+\\sigma _{l4}\\\\ \\sigma ^{'}_{\\mathrm{p0}}=\\sigma ^{'}_{\\mathrm{con}}-\\sigma ^{'}_{l}+\\sigma ^{'}_{l4}\\end{matrix}\\right\\}\\tag{6.1.6-2}$$
+
+
+.. raw:: html
+
+ <p style="text-align:justify;text-indent:2em;" >相应阶段预应力钢筋的有效预应力</p>
+
+$$\\left.\\begin{matrix} \\sigma _{\\mathrm{pe}}=\\sigma _{\\mathrm{con}}-\\sigma _{l}\\\\ \\sigma ^{'}_{\\mathrm{pe}}=\\sigma ^{'}_{\\mathrm{con}}-\\sigma ^{'}_{l}\\end{matrix}\\right\\}\\tag{6.1.6-3}$$
+
+.. raw:: html
+
+ <p style="text-align:justify;text-indent:2em;" > 2 后张法体内预应力混凝土构件</p>
+ <p style="text-align:justify;text-indent:2em;" >由预加力产生的混凝土法向压应力<i>σ</i><sub>pc</sub>和拉应力<i>σ</i><sub>pt</sub></p>
+
+$$\\begin{matrix} \\sigma _{\\mathrm{pc}}\\\\ \\sigma _{\\mathrm{pt}}\\end{matrix}=\\dfrac{N_{\\mathrm{p}}}{A_{\\mathrm{N}}}\\pm \\dfrac{N_{\\mathrm{p}}e_{\\mathrm{pn}}}{I_{\\mathrm{n}}}\\mathrm{y} _{n}\\pm \\dfrac{M_{\\mathrm{p2}}}{I_{\\mathrm{n}}}\\mathrm{y} _{\\mathrm{n}} \\tag{6.1.6-4}$$
+
+.. raw:: html
+
+ <p style="text-align:justify;text-indent:2em;" >预应力钢筋合力点处混凝土法向应力等于零时的预应力钢筋应力</p>
+
+$$\\left.\\begin{matrix} \\sigma _{\\mathrm{p0}}=\\sigma _{\\mathrm{con}}-\\sigma _{l}+\\alpha _{\\mathrm{EP} }\\sigma _{\\mathrm{pc} }\\\\ \\sigma ^{'}_{\\mathrm{p0}}=\\sigma ^{'}_{\\mathrm{con}}-\\sigma ^{'}_{l}+\\alpha _{\\mathrm{EP} }\\sigma^{'}_{\\mathrm{pc} }\\end{matrix}\\right\\}\\tag{6.1.6-5}$$
+
+
+.. raw:: html
+
+ <p style="text-align:justify;text-indent:2em;" >相应阶段预应力钢筋的有效预应力</p>
+
+$$\\left.\\begin{matrix} \\sigma _{\\mathrm{pe}}=\\sigma _{\\mathrm{con}}-\\sigma _{l}\\\\ \\sigma ^{'}_{\\mathrm{pe}}=\\sigma ^{'}_{\\mathrm{con}}-\\sigma ^{'}_{l}\\end{matrix}\\right\\}\\tag{6.1.6-6}$$
+
+.. raw:: html
+
+ <p style="text-align:justify;text-indent:2em;" > 3 后张法体内和体外混合预应力混凝土构件(新增)</p>
+ <p style="text-align:justify;text-indent:2em;" >由预加力产生的混凝土法向压应力<i>σ</i><sub>pc</sub>和拉应力<i>σ</i><sub>pt</sub></p>
+
+$$\\begin{matrix} \\sigma _{\\mathrm{pc}}\\\\ \\sigma _{\\mathrm{pt}}\\end{matrix}=\\dfrac{N_{\\mathrm{p,ex}}}{A_{\\mathrm{ex}}}\\pm \\dfrac{N_{\\mathrm{p,ex}}e_{\\mathrm{p,ex}}}{I_{\\mathrm{ex}}}\\mathrm{y} _{ex}\\pm \\dfrac{M_{\\mathrm{p2,ex}}}{I_{\\mathrm{ex}}}\\mathrm{y} _{\\mathrm{ex}} \\tag{6.1.6-7}$$
+
+.. raw:: html
+
+ <p style="text-align:justify;text-indent:2em;" >相应阶段体内预应力钢筋的应力按公式(6.1.6-5)、(6.1.6-6)计算。</p>
+ <p style="text-align:justify;text-indent:2em;" >相应阶段体外预应力钢筋的有效预应力</p>
+
+
+$$\\left.\\begin{matrix} \\sigma _{\\mathrm{pe,ex}}=\\sigma _{\\mathrm{con}}-\\sigma _{l}\\\\ \\sigma ^{'}_{\\mathrm{pe,ex}}=\\sigma ^{'}_{\\mathrm{con}}-\\sigma ^{'}_{l}\\end{matrix}\\right\\}\\tag{6.1.6-8}$$
+
+.. raw:: html
+
+ <table border="0" style="font-family:times new roman" id="gongshi">
+ <tr>
+ <td width="50px" align='center' id="eqzs">式中:</td>
+ <td width="80px" align='right' id="eqzs"><i>A</i><sub>n</sub></td>
+ <td width="40px" align='left' id="eqzs">——</td>
+ <td id="eqzs"> 净截面面积，即为扣除管道等削弱部分后的混凝土全部截面面积与纵向普通钢筋截面面积换算成混凝土的截面面积之和；对由不同混凝土强度等级组成的截面，应按混凝土弹性模量比值换算成同一混凝土强度等级的截面面积；</td>
+ </tr>
+ <tr>
+ <td  align='center' id="eqzs"> </td>
+ <td  align='right' id="eqzs"><i>A</i><sub>0</sub></td>
+ <td  align='left' id="eqzs">——</td>
+ <td id="eqzs"> 换算截面面积，包括净截面面积<i>A</i><sub>n</sub>和全部纵向体内预应力钢筋截面面积换算成混凝土的截面面积；</td>
+ </tr>
+ <tr>
+ <td align='center' id="eqzs"> </td>
+ <td  align='right' id="eqzs"><i>A</i><sub>ex</sub></td>
+ <td  align='left' id="eqzs">——</td>
+ <td id="eqzs"> 后张法体内和体外混合预应力混凝土构件的截面面积，按<a href="#id6.1.5">第6.1.5条</a>的规定，考虑管道压浆的影响；</td>
+ </tr>
+ <tr>
+ <td align='right' id="eqzs" colspan="2"><i>N</i><sub>p0</sub>、<i>N</i><sub>p</sub></td>
+  <!-- <td></td> -->
+ <td  align='left' id="eqzs">——</td>
+ <td id="eqzs"> 先张法构件、后张法构件的体内预应力钢筋和普通钢筋的合力，按公式(6.1.7-1)、(6.1.7-3)计算；</td>
+ </tr>
+ <tr>
+ <td align='center' id="eqzs"> </td>
+ <td  align='right' id="eqzs"><i>N</i><sub>p,ex</sub></td>
+ <td  align='left' id="eqzs">——</td>
+ <td id="eqzs"> 后张法体内和体外混合预应力混凝土构件的体内预应力钢筋、体外预应力钢筋和普通钢筋的合力，按公式(6.1.7-5)计算；</td>
+ </tr>
+ <tr>
+ <td align='right' id="eqzs" colspan="2"><i>I</i><sub>0</sub>、<i>I</i><sub>n</sub></td>
+  <!-- <td></td> -->
+ <td  align='left' id="eqzs">——</td>
+ <td id="eqzs"> 换算截面惯性矩、净截面惯性矩；</td>
+ </tr>
+ <tr>
+ <td align='center' id="eqzs"> </td>
+ <td  align='right' id="eqzs"><i>I</i><sub>ex</sub></td>
+ <td  align='left' id="eqzs">——</td>
+ <td id="eqzs"> 后张法体内和体外混合预应力混凝土构件的截面惯性矩，按<a href="#id6.1.5">第6.1.5条</a>的规定，考虑管道压浆的影响；</td>
+ </tr>
+ <tr>
+ <td align='right' id="eqzs" colspan="2"><i>e</i><sub>p0</sub>、<i>e</i><sub>pn</sub></td>
+  <!-- <td></td> -->
+ <td  align='left' id="eqzs">——</td>
+ <td id="eqzs"> 换算截面重心、净截面重心至体内预应力钢筋和普通钢筋合力点的距离，按公式(6.1.7-2)、(6.1.7-4)计算；</td>
+ </tr>
+ <tr>
+ <td align='right' id="eqzs" colspan="2"><i>e</i><sub>p,ex</sub></td>
+  <!-- <td></td> -->
+ <td  align='left' id="eqzs">——</td>
+ <td id="eqzs"> 后张法体内和体外混合预应力混凝土构件的截面重心至体内预应力钢筋、体外预应力钢筋和普通钢筋合力点的距离，按公式(6.1.7-6)计算；</td>
+ </tr>
+ <tr>
+ <td align='right' id="eqzs" colspan="2"><i>Y</i><sub>0</sub>、<i>y</i><sub>n</sub></td>
+  <!-- <td></td> -->
+ <td  align='left' id="eqzs">——</td>
+ <td id="eqzs"> 换算截面重心、净截面重心至计算纤维处的距离；</td>
+ </tr>
+ <tr>
+ <td align='right' id="eqzs" colspan="2"><i>Y</i><sub>ex</sub></td>
+  <!-- <td></td> -->
+ <td  align='left' id="eqzs">——</td>
+ <td id="eqzs"> 后张法体内和体外混合预应力混凝土构件的截面重心至计算纤维处距离；</td>
+ </tr>
+ <tr>
+ <td align='right' id="eqzs" colspan="2"><i>σ</i><sub>con</sub>、<i>σ'</i><sub>con</sub></td>
+  <!-- <td></td> -->
+ <td  align='left' id="eqzs">——</td>
+ <td id="eqzs"> 受拉区、受压区预应力钢筋的张拉控制应力，按第6.1.4条的规定确定；</td>
+ </tr>
+ <tr>
+ <td align='right' id="eqzs" colspan="2"><i>σ</i><sub>l</sub>、<i>σ'</i><sub>l</sub></td>
+  <!-- <td></td> -->
+ <td  align='left' id="eqzs">——</td>
+ <td id="eqzs"> 受拉区、受压区相应阶段的预应力损失值，按第6.2.2 条至第6.2.7条规定计算；使用阶段时为全部预应力损失值；</td>
+ </tr>
+ <tr>
+ <td align='right' id="eqzs" colspan="2"><i>σ</i><sub>l4</sub>、<i>σ'</i><sub>l4</sub></td>
+  <!-- <td></td> -->
+ <td  align='left' id="eqzs">——</td>
+ <td id="eqzs"> 受拉区、受压区由混凝土弹性压缩引起的预应力损失值，按公式(6.2.5-2)计算；</td>
+ </tr>
+ <tr>
+ <td align='right' id="eqzs" colspan="2"><i>α</i><sub>EP</sub></td>
+  <!-- <td></td> -->
+ <td  align='left' id="eqzs">——</td>
+ <td id="eqzs"> 预应力钢筋弹性模量<i>E</i><sub>p</sub>与混凝土弹性模量<i>E</i><sub>c</sub>的比值，<i>E</i><sub>p</sub>和<i>E</i><sub>c</sub>分别按<a href="https://jtg-3362.readthedocs.io/zh/latest/03.html#B3.2.4">表3.2.4</a>和<a href="https://jtg-3362.readthedocs.io/zh/latest/03.html#B3.1.5">表3.1.5</a>采用；</td>
+ </tr>
+ <tr>
+ <td align='right' id="eqzs" colspan="2"><i>M</i><sub>p2</sub>、<i>M</i><sub>p2，ex</sub></td>
+  <!-- <td></td> -->
+ <td  align='left' id="eqzs">——</td>
+ <td id="eqzs"> 由预加力<i>N</i><sub>p</sub>、<i>N</i><sub>p,ex</sub>在预应力混凝土连续梁等超静定结构中产生的次弯矩。</td>
+ </tr>
+ </table>
+  <p style="text-indent:2em;" ><font size="2">注：1.在公式(6.1.6-1)、(6.1.6-4)、(6.1.6-7)中，右边第二、第三项与第一项的应力方向相同时取正号，相反时取负号，正号为压，负号为拉。<br/>
+  &emsp;&emsp; &emsp;&emsp; &emsp;&nbsp;2.公式(6.1.6-5)中的<i>σ</i><sub>pc</sub>、<i>σ'</i><sub>pc</sub>系由<i>N</i><sub>p</sub>产生的受拉区、受压区预应力钢筋重心处的混凝土法向应力，压应力以正值代入，拉应力以负值代入。<br/>
+  &emsp;&emsp; &emsp;&emsp; &emsp;&nbsp;3.采用公式(6.1.6-5)计算后张法体内和体外混合预应力构件的<i>σ</i><sub>p0</sub>、<i>σ'</i><sub>p0</sub>时，<i>σ</i><sub>pc</sub>、<i>σ'</i><sub>pc</sub>系由<i>N</i><sub>p,ex</sub>。产生的受拉区、受压区预应力钢筋重心处的混凝土法向应力，按公式(6.1.6-7)计算，压应力以正值代入，拉应力以负值代入。</font></p>
+
+
+ <p style="text-align:justify"><a href="#id6.1.7"> 6.1.7</a> <span id="id6.1.7">预应力钢筋和普通钢筋的合力及合力偏心距应按下列公式计算：</span></p>
+
+ <div align="center"><img id="fig6.1.7" src="./_static/fig/6.1.7.png" alt="Picture" width="500px"></div>
+  <p style="color: dimgray;text-align: center;">图 6.1.7 预应力钢筋和普通钢筋合力及其偏心距</br>1-换算截面重心轴； 2-净截面重心轴</p>
+  <script type="text/javascript">var viewer = new Viewer(document.getElementById('fig6.1.7'));</script>
+
+ <p style="text-align:justify;text-indent:2em;" >先张法预应力混凝土构件(如<a href="#fig6.1.7">图 6.1.7a</a>)</p>
+
+$$N_{\\mathrm{p0}}=\\sigma _{\\mathrm{p0}}A_{0}+\\sigma^{'}_{\\mathrm{p0}}A^{'}_{0}-\\sigma _{\\mathrm{l6} }A_{s}-\\sigma^{'}_{\\mathrm{l6} }A^{'}_{s}\\tag{6.1.7-1}$$
+
+$$e_{\\mathrm{p0}}=\\dfrac{\\sigma _{\\mathrm{p0}}A_{\\mathrm{p}}\\mathrm{y_{p}} -\\sigma^{'}_{\\mathrm{p0}}A^{'}_{\\mathrm{p}}\\mathrm{y^{'}_{p}} -\\sigma _{\\mathrm{l6} }A_{\\mathrm{s}}\\mathrm{y}_{\\mathrm{s}}+\\sigma^{'}_{\\mathrm{l6}}A^{'}_{\\mathrm{s} }\\mathrm{y}^{'}_{\\mathrm{s}}}{N_{\\mathrm{p0}}}\\tag{6.1.7-2}$$
+
+.. raw:: html
+
+ <p style="text-align:justify;text-indent:2em;" >后张法体内预应力混凝土构件(如<a href="#fig6.1.7">图 6.1.7b</a>)</p>
+
+$$N_{\\mathrm{p}}=\\sigma _{\\mathrm{pe}}A_{\\mathrm{p}}+\\sigma^{'}_{\\mathrm{pe}}A^{'}_{\\mathrm{p}}-\\sigma _{\\mathrm{l6} }A_{\\mathrm{s}}-\\sigma^{'}_{\\mathrm{l6}}A^{'}_{\\mathrm{s} }\\tag{6.1.7-3}$$
+
+$$e_{\\mathrm{pn}}=\\dfrac{\\sigma _{\\mathrm{pe}}A_{\\mathrm{p}}\\mathrm{y_{pn}} -\\sigma^{'}_{\\mathrm{pe}}A^{'}_{\\mathrm{p}}\\mathrm{y^{'}_{pn}} -\\sigma _{\\mathrm{l6} }A_{\\mathrm{s}}\\mathrm{y}_{\\mathrm{sn}}+\\sigma^{'}_{\\mathrm{l6}}A^{'}_{\\mathrm{s} }\\mathrm{y}^{'}_{\\mathrm{sn}}}{N_{\\mathrm{p}}}\\tag{6.1.7-4}$$
+
+.. raw:: html
+
+ <p style="text-align:justify;text-indent:2em;" >后张法体内和体外混合预应力混凝土构件(新增)</p>
+
+$$\\small{N_{\\mathrm{p,ex}}=\\sigma _{\\mathrm{pe}}A_{\\mathrm{p} }+\\sigma^{'}_{\\mathrm{pe}}A^{'}_{\\mathrm{p}}+\\sigma_{\\mathrm{pe,ex}}A_{\\mathrm{p,ex}}+\\sigma^{'}_{\\mathrm{pe,ex}}A^{'}_{\\mathrm{p,ex}}-\\sigma _{\\mathrm{l6} }A_{\\mathrm{s} }-\\sigma^{'}_{\\mathrm{l6} }A^{'}_{\\mathrm{s} }}\\tag{6.1.7-5}$$
+
+$$\\scriptsize{e_{\\mathrm{p,ex}}=\\dfrac{\\sigma _{\\mathrm{pe}}A_{\\mathrm{p}}\\mathrm{y_{p}} -\\sigma^{'}_{\\mathrm{pe}}A^{'}_{\\mathrm{p}}\\mathrm{y^{'}_{p}} +\\sigma_{\\mathrm{pe,ex}}A_{\\mathrm{p,ex}}\\mathrm{y_{p,ex}}-\\sigma^{'}_{\\mathrm{pe,ex}}A^{'}_{\\mathrm{p,ex}}\\mathrm{y^{'}_{p,ex}}-\\sigma _{\\mathrm{l6} }A_{\\mathrm{s}}\\mathrm{y}_{\\mathrm{s}}+\\sigma^{'}_{\\mathrm{l6}}A^{'}_{\\mathrm{s} }\\mathrm{y}^{'}_{\\mathrm{s}}}{N_{\\mathrm{p,ex}}}}\\tag{6.1.7-6}$$
+
+.. raw:: html
+
+
+ <table border="0" style="font-family:times new roman" id="gongshi">
+ <tr>
+ <td width="50px" align='center' id="eqzs">式中:</td>
+ <td width="80px" align='right' id="eqzs"><i>σ</i><sub>p0</sub>、<i>σ '</i><sub>p0</sub></td>
+ <td width="40px" align='left' id="eqzs">——</td>
+ <td id="eqzs"> —受拉区、受压区预应力钢筋合力点处混凝土法向应力等于零时的预应力钢筋应力，按第6.1.6条公式计算；</td>
+ </tr>
+ <tr>
+ <td align='right' id="eqzs" colspan="2"><i>σ</i><sub>pe</sub>、<i>σ '</i><sub>pe</sub></td>
+  <!-- <td></td> -->
+ <td  align='left' id="eqzs">——</td>
+ <td id="eqzs"> 受拉区、受压区体内预应力钢筋的有效预应力，按第6.1.6条公式计算；</td>
+ </tr>
+ <tr>
+ <td align='right' id="eqzs" colspan="2"><i>σ</i><sub>pe,ex</sub>、<i>σ '</i><sub>pe,ex</sub></td>
+  <!-- <td></td> -->
+ <td  align='left' id="eqzs">——</td>
+ <td id="eqzs"> 受拉区、受压区体外预应力钢筋的有效预应力，按第6.1.6条公式计算；</td>
+ </tr>
+ <tr>
+ <td align='right' id="eqzs" colspan="2"><i>A</i><sub>p</sub>、<i>A '</i><sub>p</sub></td>
+  <!-- <td></td> -->
+ <td  align='left' id="eqzs">——</td>
+ <td id="eqzs"> 受拉区、受压区体内预应力钢筋的截面面积；</td>
+ </tr>
+ <tr>
+ <td align='right' id="eqzs" colspan="2"><i>A</i><sub>p,ex</sub>、<i>A '</i><sub>p，ex</sub></td>
+  <!-- <td></td> -->
+ <td  align='left' id="eqzs">——</td>
+ <td id="eqzs"> 受拉区、受压区体外预应力钢筋的截面面积；</td>
+ </tr>
+ <tr>
+ <td align='right' id="eqzs" colspan="2"><i>A</i><sub>s</sub>、<i>A '</i><sub>s</sub></td>
+  <!-- <td></td> -->
+ <td  align='left' id="eqzs">——</td>
+ <td id="eqzs"> 受拉区、受压区普通钢筋的截面面积；</td>
+ </tr>
+ <tr>
+ <td align='right' id="eqzs" colspan="2"><i>Y</i><sub>p</sub>、<i>Y '</i><sub>p</sub></td>
+  <!-- <td></td> -->
+ <td  align='left' id="eqzs">——</td>
+ <td id="eqzs"> 受拉区、受压区预应力钢筋合力点至换算截面重心轴的距离；</td>
+ </tr>
+ <tr>
+ <td align='right' id="eqzs" colspan="2"><i>Y</i><sub>s</sub>、<i>Y '</i><sub>s</sub></td>
+  <!-- <td></td> -->
+ <td  align='left' id="eqzs">——</td>
+ <td id="eqzs"> 受拉区、受压区普通钢筋重心至换算截面重心轴的距离；</td>
+ </tr>
+ <tr>
+ <td align='right' id="eqzs" colspan="2"><i>Y</i><sub>pn</sub>、<i>Y '</i><sub>pn</sub></td>
+  <!-- <td></td> -->
+ <td  align='left' id="eqzs">——</td>
+ <td id="eqzs"> 受拉区、受压区体内预应力钢筋合力点至净截面重心轴的距离；</td>
+ </tr>
+ <tr>
+ <td align='right' id="eqzs" colspan="2"><i>Y</i><sub>sn</sub>、<i>Y '</i><sub>sn</sub></td>
+  <!-- <td></td> -->
+ <td  align='left' id="eqzs">——</td>
+ <td id="eqzs"> 受拉区、受压区普通钢筋重心至净截面重心轴的距离；</td>
+ </tr>
+ <tr>
+ <td align='right' id="eqzs" colspan="2"><i>Y</i><sub>p,ex</sub>、<i>Y '</i><sub>p,ex</sub></td>
+  <!-- <td></td> -->
+ <td  align='left' id="eqzs">——</td>
+ <td id="eqzs"> 受拉区、受压区体外预应力钢筋重心至后张法体内体外混合预应力混凝土构件截面重心轴的距离；</td>
+ </tr>
+ <tr>
+ <td align='right' id="eqzs" colspan="2"><i>σ</i><sub><i>l</i>6</sub>、<i>σ '</i><sub><i>l</i>6</sub></td>
+  <!-- <td></td> -->
+ <td  align='left' id="eqzs">——</td>
+ <td id="eqzs"> 由预加力<i>N</i><sub>p</sub>、<i>N</i><sub>p,ex</sub>受拉区、受压区预应力钢筋在各自合力点处由混凝土收缩和徐变引起的预应力损失值，按第6.2.7条的规定计算。</td>
+ </tr>
+ </table>
+  <p style="text-indent:2em;" ><font size="2">注：1.当公式(6.1.7-1)至公式(6.1.7-4)中的<i>A '</i><sub>p</sub>=0时，应取式中<i>σ '</i><sub>l6</sub>=0。<br/>
+  &emsp;&emsp; &emsp;&emsp; &emsp;&nbsp;2.当公式(6.1.7-5)、(6.1.7-6)中的<i>A '</i><sub>p</sub>=<i>A '</i><sub>p,ex</sub>=0时，应取式中<i>σ '</i><sub>l6</sub>=0。<br/>
+  &emsp;&emsp; &emsp;&emsp; &emsp;&nbsp;3.公式(6.1.7-6)是按照管道压浆后的换算截面考虑的；当体内预应力钢筋的管道未压浆时，按净截面计算，公式中的<i>y</i><sub>p</sub>、<i>y '</i><sub>p</sub>、<i>y</i><sub>s</sub>、<i>y '</i><sub>s</sub>:应取 <i>y</i><sub>pn</sub>、<i>y '</i><sub>pn</sub>、<i>y</i><sub>sn</sub>、<i>y '</i><sub>sn</sub>。</font></p>
+
+ <p style="text-align:justify"><a href="#id6.1.8"> 6.1.8</a> <span id="id6.1.8">对先张法预应力混凝土构件端部区段进行正截面、斜截面抗裂验算时，预应力传递长度<i>l</i><sub>tr</sub>范围内预应力钢筋的实际应力值，在构件端部取为零，在预应力传递长度末端取有效预应力值<i>σ</i><sub>pe</sub>,两点之间按直线变化取值(<a href="#fig6.1.8">图 6.1.8</a>)。预应力钢筋的预应力传递长度应按<a href="#B6.1.8">表6.1.8</a>采用。</span></p>
+
+ <div align="center"><img id="fig6.1.8" src="./_static/fig/6.1.8.png" alt="Picture" width="500px"></div>
+  <p style="color: dimgray;text-align: center;">图 6.1.8 预应力钢筋传递长度内有效应力值</p>
+  <script type="text/javascript">var viewer = new Viewer(document.getElementById('fig6.1.8'));</script>
+
+
+.. raw:: html
+
+      <style>
+     #biaoge {
+         border: 2px solid black;
+         border-collapse: collapse;
+         margin-bottom:1px;
+        
+      }
+      th, td {
+         padding-top: 5px;
+         padding-bottom:5px;
+         padding-left:5px;
+         padding-right:5px;
+         border: 1px solid black;
+         
+      }
+      #eqzs {
+         border: 0px;
+      }
+      #dhbg {
+        vertical-align: middle;
+      }
+     </style>
+
+		<table id="biaoge" style="font-family:times new roman">
+
+         <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="B6.1.8">表6.1.8 预应力钢筋的预应力传递长度<i>l</i><sub>tr</sub>(mm)(修订)</b></caption>	
               
 		    <tr>
-		      <td  align="center" width=60px rowspan="2" id="dhbg">标度</td>
-		      <td  align="center" width=840px>评定指标</td>
- 		    </tr> 
-        <tr> 
-         <!-- <td></td> -->       
-				 <td  align="center">定性描述</td>
+		    <td  align="center" rowspan="2" width="400px">预应力钢筋种类</td>
+		   	<td  align="center" colspan="4">混凝土强度等级</td>
+        <!-- <td></td> -->
+		    <!-- <td></td> -->
+				<!-- <td></td> -->
 		    </tr>
-  		  <tr>
-		     <td align="center">1</td>
-		     <td align="left">完好</td>
-		    </tr> 
-  		  <tr>
-		     <td align="center">2</td>
-		     <td align="left">个别位置出现脱裂，缝宽较小且不连续</td>
-		    </tr>
-  		  <tr>
-		     <td align="center">3</td>
-		     <td align="left">侧墙与主拱圈间较大范围出现断裂、脱开，且断裂脱开连续</td>
-		    </tr> 
-        <tr>
-		     <td align="center">4</td>
-		     <td align="left">侧墙与主拱圈间大范围出现断裂、脱开，且断裂脱开连续，造成桥面变形</td>
-		    </tr>
-  		  <tr>
-		     <td align="center">5</td>
-		     <td align="left">侧墙与主拱圈间严重脱裂，造成桥面板严重塌落或结构和桥面变形过大，严重影响结构安全</td>
-		    </tr>   
-  		</table> 
-      <p> </p>
-
-      <table id="biaoge" style="font-family:times new roman">
-
-     <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="B6.1.2-2">表6.1.2-2 实腹拱的侧墙变形、位移</b></caption>	
-              
 		    <tr>
-		      <td  align="center" width=60px rowspan="2" id="dhbg">标度</td>
-		      <td  align="center" width=840px>评定指标</td>
- 		    </tr> 
-        <tr> 
-         <!-- <td></td> -->       
-				 <td  align="center">定性描述</td>
+		    <!-- <td></td> -->
+		    <td align="center"  width="125px"id="dhbg" >C40</td>
+				<td align="center"  width="125px"id="dhbg" >C45</td>
+        <td align="center"  width="125px"id="dhbg" >C50</td>
+        <td align="center"  width="125px"id="dhbg" >≥C55</td>
 		    </tr>
-  		  <tr>
-		     <td align="center">1</td>
-		     <td align="left">完好</td>
-		    </tr> 
-  		  <tr>
-		     <td align="center">2</td>
-		     <td align="center">—</td>
-		    </tr>
-  		  <tr>
-		     <td align="center">3</td>
-		     <td align="left">侧墙出现鼓肚现象</td>
-		    </tr> 
-        <tr>
-		     <td align="center">4</td>
-		     <td align="left">侧墙出现倾斜、外移等变形现象，填料或桥面出现沉陷</td>
-		    </tr>
-  		  <tr>
-		     <td align="center">5</td>
-		     <td align="left">侧墙产生严重倾斜、外移、鼓肚等现象，导致桥面出现严重塌陷或沉降，不能正常行车</td>
-		    </tr>   
-  		</table> 
-      <p> </p>
-
-     <table id="biaoge" style="font-family:times new roman">
-
-     <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="B6.1.2-3">表6.1.2-3 实腹拱的拱上填料沉陷或开裂</b></caption>	
-              
 		    <tr>
-		      <td  align="center" width=60px rowspan="2" id="dhbg">标度</td>
-		      <td  align="center" width=840px>评定指标</td>
- 		    </tr> 
-        <tr> 
-         <!-- <td></td> -->       
-				 <td  align="center">定性描述</td>
+		    <td  align="center"  id="dhbg" >1×7钢绞线，<i>σ</i><sub>pe</sub>=1000 MPa</td>
+		    <td  align="center"  id="dhbg" >67<i>d</i></td>
+				<td  align="center"  id="dhbg" >64<i>d</i></td>
+        <td  align="center"  id="dhbg" >60<i>d</i></td>
+        <td  align="center"  id="dhbg" >58<i>d</i></td>
 		    </tr>
-  		  <tr>
-		     <td align="center">1</td>
-		     <td align="left">完好</td>
-		    </tr> 
-  		  <tr>
-		     <td align="center">2</td>
-		     <td align="left">拱上填料出现轻微沉陷或开裂</td>
-		    </tr>
-  		  <tr>
-		     <td align="center">3</td>
-		     <td align="left">拱上填料出现明显沉陷或开裂，但变形不影响正常行车</td>
-		    </tr> 
-        <tr>
-		     <td align="center">4</td>
-		     <td align="left">拱上填料出现较大范围沉陷或开裂，导致桥面出现塌陷或沉降</td>
-		    </tr>
-  		</table> 
-      <p> </p>
-
-      <table id="biaoge" style="font-family:times new roman">
-
-     <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="B6.1.2-4">表6.1.2-4 实腹拱的腹拱或横向联结系变形、错位</b></caption>	
-              
 		    <tr>
-		      <td  align="center" width=60px rowspan="2" id="dhbg">标度</td>
-		      <td  align="center" width=840px>评定指标</td>
- 		    </tr> 
-        <tr> 
-         <!-- <td></td> -->       
-				 <td  align="center">定性描述</td>
-		    </tr>
-  		  <tr>
-		     <td align="center">1</td>
-		     <td align="left">完好</td>
-		    </tr> 
-  		  <tr>
-		     <td align="center">2</td>
-		     <td align="center">—</td>
-		    </tr>
-  		  <tr>
-		     <td align="center">3</td>
-		     <td align="left">个别腹拱或横向联结系出现变形、错位，但不影响行车</td>
-		    </tr> 
-        <tr>
-		     <td align="center">4</td>
-		     <td align="left">较多腹拱或横向联结系出现变形、错位，影响正常行车</td>
-		    </tr>
-  		  <tr>
-		     <td align="center">5</td>
-		     <td align="left">腹拱或横向联结系产生严重变形、错位，导致桥面出现严重塌陷或沉降，变形过大，不能正常行车</td>
-		    </tr>   
-  		</table> 
-      <p> </p>
-     <table id="biaoge" style="font-family:times new roman">
-
-     <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="B6.1.2-5">表6.1.2-5 立墙或立柱倾斜、开裂或脱落</b></caption>	
-              
-		    <tr>
-		      <td  align="center" width=60px rowspan="2" id="dhbg">标度</td>
-		      <td  align="center" width=840px>评定指标</td>
- 		    </tr> 
-        <tr> 
-         <!-- <td></td> -->       
-				 <td  align="center">定性描述</td>
-		    </tr>
-  		  <tr>
-		     <td align="center">1</td>
-		     <td align="left">完好</td>
-		    </tr> 
-  		  <tr>
-		     <td align="center">2</td>
-		     <td align="center">—</td>
-		    </tr>
-  		  <tr>
-		     <td align="center">3</td>
-		     <td align="left">个别立墙或立柱出现倾斜，开裂甚至脱落</td>
-		    </tr> 
-        <tr>
-		     <td align="center">4</td>
-		     <td align="left">较多立墙或立柱出现倾斜，或大范围出现开裂、脱落，影响正常行车</td>
-		    </tr>
-  		  <tr>
-		     <td align="center">5</td>
-		     <td align="left">立墙或立柱产生严重倾斜，或出现严重开裂、脱落，导致桥面出现严重塌陷或沉降，变形过大，不能正常行车</td>
-		    </tr>   
-  		</table> 
-      <p> </p>
-
-     <table id="biaoge" style="font-family:times new roman">
-
-     <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="B6.1.2-6">表6.1.2-6 拱上结构裂缝</b></caption>	
-              
-		    <tr>
-		      <td  align="center" width=60px rowspan="2" id="dhbg">标度</td>
-		      <td  align="center"  colspan="2">评定指标</td>
-				  <!-- <td></td> -->
-		    </tr>
-  		  <tr>
-		     <!-- <td></td> -->
-		      <td align="center" width=360px>定性描述</td>
-				  <td align="center" width=480px>定量描述</td>
-		    </tr>
-  		  <tr>
-		     <td align="center">1</td>
-		     <td align="left">完好</td>
-			   <td align="center">—</td>
-		    </tr> 
-  		  <tr>
-		     <td align="center" rowspan="4" id="dhbg">2</td>
-		     <td align="left">拱上立柱（立墙）上下端水平裂缝：少量裂缝，缝宽未超限</td>
-			   <td align="left">拱上立柱（立墙）上下端水平裂缝：缝长≤立柱直径或立墙截面长的1/8</td>
-		    </tr>
-  		  <tr>
-		    <!-- <td></td> -->
-		     <td align="left">盖梁和横系梁裂缝：少量裂缝，缝宽未超限</td>
-			   <td align="left">盖梁和横系梁裂缝：缝长≤截面尺寸的1/3</td>
-		    </tr>   
-  		  <tr>
-		    <!-- <td></td> -->
-		     <td align="left">腹拱拱顶、拱脚径向裂缝：少量裂缝，缝宽未超限</td>
-			   <td align="left">腹拱拱顶、拱脚径向裂缝：缝长≤截面尺寸的1/3</td>
-		    </tr>
-  		  <tr>
-		    <!-- <td></td> -->
-		     <td align="left">梁板跨中竖向裂缝：少量裂缝，缝宽未超限</td>
-			   <td align="left">梁板跨中竖向裂缝：缝长≤截面尺寸的1/3</td>
-		    </tr>                     
-  		  <tr>
-		     <td align="center"rowspan="4" id="dhbg">3</td>
-		     <td align="left">拱上立柱（立墙）上下端水平裂缝：较多裂缝，缝宽未超限</td>
-			   <td align="left">拱上立柱（立墙）上下端水平裂缝：缝长＞立柱直径或立墙截面长的1/8且≤立柱直径或立墙截面长的1/2</td>
-		     </tr> 
-  		  <tr>
-		    <!-- <td></td> -->
-		     <td align="left">盖梁和横系梁裂缝：较多裂缝，缝宽未超限</td>
-			   <td align="left">盖梁和横系梁裂缝：缝长＞截面尺寸的1/3且≤截面尺寸的1/2，间距≥20cm</td>
-		    </tr>   
-  		  <tr>
-		    <!-- <td></td> -->
-		     <td align="left">腹拱拱顶、拱脚径向裂缝：较多裂缝，缝宽未超限</td>
-			   <td align="left">腹拱拱顶、拱脚径向裂缝：缝长＞截面尺寸的1/3且≤截面尺寸的2/3</td>
-		    </tr>
-  		  <tr>
-		    <!-- <td></td> -->
-		     <td align="left">梁板跨中竖向裂缝：较多裂缝，缝宽未超限</td>
-			   <td align="left">梁板跨中竖向裂缝：缝长＞截面尺寸的1/3且≤截面尺寸的1/2，间距≥20cm</td>
-		    </tr> 
-  		  <tr>
-		     <td align="center"rowspan="4" id="dhbg">4</td>
-		     <td align="left">拱上立柱（立墙）上下端水平裂缝：有大量裂缝，部分缝宽超限</td>
-			   <td align="left">拱上立柱（立墙）上下端水平裂缝：缝长＞立柱直径或立墙截面长的1/2</td>
-		     </tr> 
-  		  <tr>
-		    <!-- <td></td> -->
-		     <td align="left">盖梁和横系梁裂缝：有大量裂缝，部分缝宽超限</td>
-			   <td align="left">盖梁和横系梁裂缝：缝长＞截面尺寸的1/2，间距＜20cm</td>
-		    </tr>   
-  		  <tr>
-		    <!-- <td></td> -->
-		     <td align="left">腹拱拱顶、拱脚径向裂缝：有大量裂缝，部分缝宽超限</td>
-			   <td align="left">腹拱拱顶、拱脚径向裂缝：缝长＞截面尺寸的2/3</td>
-		    </tr>
-  		  <tr>
-		    <!-- <td></td> -->
-		     <td align="left">梁板跨中竖向裂缝：有大量裂缝，部分缝宽超限</td>
-			   <td align="left">梁板跨中竖向裂缝：缝长＞截面尺寸的1/2，间距＜20cm</td>
-		    </tr>                    
-		</table> 
-    <p> </p> 
+		    <td  align="center"  id="dhbg" >螺旋肋钢丝，<i>σ</i><sub>pe</sub>=1000 MPa</td>
+		    <td  align="center"  id="dhbg" >58<i>d</i></td>
+				<td  align="center"  id="dhbg" >56<i>d</i></td>
+        <td  align="center"  id="dhbg" >53<i>d</i></td>
+        <td  align="center"  id="dhbg" >51<i>d</i></td>
+		    </tr>        
+		</table>
+   <p style="text-indent:2em;" ><font size="2">注：1.预应力传递长度应根据预应力钢筋放松时混凝土立方体抗压强度<i>f '</i><sub>cu</sub>确定，当<i>f '</i><sub>cu</sub>在表列混凝土强度等级之间时，预应力传递长度按直线内插取用。<br>
+  &emsp;&emsp; &emsp;&emsp; &emsp;&nbsp;2.当预应力钢筋的有效预应力值<i>σ</i><sub>pe</sub>与表值不同时，其预应力传递长度应根据表值按比例增减。<br/>
+  &emsp;&emsp; &emsp;&emsp; &emsp;&nbsp;3.当采用骤然放松预应力钢筋的施工工艺时，<i>l</i><sub>tr</sub>应从离构件末端0.25<i>l</i><sub>tr</sub>处开始计算。<br/>
+  &emsp;&emsp; &emsp;&emsp; &emsp;&nbsp;4.<i>d</i>为预应力钢筋的公称直径。</font></p>
 
 
-    <table id="biaoge" style="font-family:times new roman">
-
-     <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="B6.1.2-7">表6.1.2-7 拱上填料排水不畅</b></caption>	
-              
-		    <tr>
-		      <td  align="center" width=60px rowspan="2" id="dhbg">标度</td>
-		      <td  align="center" width=840px>评定指标</td>
- 		    </tr> 
-        <tr> 
-         <!-- <td></td> -->       
-				 <td  align="center">定性描述</td>
-		    </tr>
-  		  <tr>
-		     <td align="center">1</td>
-		     <td align="left">完好</td>
-		    </tr> 
-  		  <tr>
-		     <td align="center">2</td>
-		     <td align="left">排水不畅，导致侧墙出现渗水</td>
-		    </tr>
-  		  <tr>
-		     <td align="center">3</td>
-		     <td align="left">排水不畅，填土聚积水分，导致侧墙出现轻微鼓肚</td>
-		    </tr> 
-        <tr>
-		     <td align="center">4</td>
-		     <td align="left">排水不畅，填土聚积大量水分，导致侧墙出现渗水甚至变形</td>
-		    </tr>
-  		</table> 
-      <p> </p>
- 
-6.2 钢筋混凝土拱桥
+6.2 钢筋预应力损失
 ------------------------
  
 .. raw:: html
 
- <p style="text-align:justify"><a href="#id6.2.1"> 6.2.1</a> <span id="id6.2.1"> 板拱桥、肋拱桥和箱拱桥主拱圈评定指标及分级评定标准：</span></p>
-   <ol>
- <li>主拱圈变形评定标准见<a href="#B6.2.1-1">表6.2.1-1</a>。</li>
- <li>主拱圈裂缝评定标准见<a href="#B6.2.1-2">表6.2.1-2</a>。</li>
- <li>渗水评定标准见表<a href="#B6.2.1-3">6.2.1-3</a>。</li>
- <li>拱铰功能受损评定标准见<a href="#B6.2.1-4">表6.2.1-4</a>。</li>
- <li>拱脚位移评定标准见<a href="#B6.2.1-5">表6.2.1-5</a>。</li>
- <li>蜂窝、麻面评定标准见<a href="https://jtg-h21.readthedocs.io/zh/latest/05.html#B5.1.1-1">表5.1.1-1</a>。</li>
- <li>剥落、掉角评定标准见<a href="https://jtg-h21.readthedocs.io/zh/latest/05.html#B5.1.1-2">表5.1.1-2</a>。</li>
- <li>空洞、孔洞评定标准见<a href="https://jtg-h21.readthedocs.io/zh/latest/05.html#B5.1.1-3">表5.1.1-3</a>。</li>
- <li>混凝土保护层厚度评定标准见<a href="https://jtg-h21.readthedocs.io/zh/latest/05.html#B5.1.1-4">表5.1.1-4</a>。</li>
- <li>钢筋锈蚀评定标准见<a href="https://jtg-h21.readthedocs.io/zh/latest/05.html#B5.1.1-5">表5.1.1-5</a>。</li>
- <li>混凝上碳化评定标准见<a href="https://jtg-h21.readthedocs.io/zh/latest/05.html#B5.1.1-6">表5.1.1-6</a>。</li>
- <li>混凝土强度评定标准见<a href="https://jtg-h21.readthedocs.io/zh/latest/05.html#B5.1.1-7">表5.1.1-7</a>。</li>
- </ol>
+ <p style="text-align:justify"><a href="#id6.2.1"> 6.2.1</a> <span id="id6.2.1"> 在正常使用极限状态计算中，预应力混凝土构件应考虑由下列因素引起的预应力损失：</span></p>
+
+ <p style="text-align:justify;text-indent:2em;" > 预应力钢筋与管道壁之间的摩擦 &emsp;&emsp; <math xmlns="http://www.w3.org/1998/Math/MathML" ><msub><mi>σ</mi><mrow><mi>l</mi><mn>1</mn></mrow></msub></math></p>
+ <p style="text-align:justify;text-indent:2em;" > 锚具变形、钢筋回缩和接缝压缩 &emsp;&emsp; <math xmlns="http://www.w3.org/1998/Math/MathML" ><msub><mi>σ</mi><mrow><mi>l</mi><mn>2</mn></mrow></msub></math></p>
+ <p style="text-align:justify;text-indent:2em;" > 预应力钢筋与台座之间的温差 &emsp;&emsp;&emsp;<math xmlns="http://www.w3.org/1998/Math/MathML" ><msub><mi>σ</mi><mrow><mi>l</mi><mn>3</mn></mrow></msub></math></p>
+ <p style="text-align:justify;text-indent:2em;" > 混凝土的弹性压缩 &emsp; &emsp;&emsp;&emsp;&emsp; &emsp;&emsp;&emsp;&emsp;<math xmlns="http://www.w3.org/1998/Math/MathML" ><msub><mi>σ</mi><mrow><mi>l</mi><mn>4</mn></mrow></msub></math></p>
+ <p style="text-align:justify;text-indent:2em;" > 预应力钢筋的应力松弛&emsp; &emsp; &emsp;&emsp; &emsp;&emsp;<math xmlns="http://www.w3.org/1998/Math/MathML" ><msub><mi>σ</mi><mrow><mi>l</mi><mn>5</mn></mrow></msub></math></p>
+ <p style="text-align:justify;text-indent:2em;" > 混凝土的收缩和徐变&emsp; &emsp; &emsp;&emsp; &emsp;&emsp;&emsp;&nbsp;<math xmlns="http://www.w3.org/1998/Math/MathML" ><msub><mi>σ</mi><mrow><mi>l</mi><mn>6</mn></mrow></msub></math></p>
+ <p style="text-align:justify;text-indent:2em;" > 此外，尚应考虑预应力钢筋与锚圈口之间的摩擦、台座的弹性变形等因素引起的其他预应力损失。</p>
+ <p style="text-align:justify;text-indent:2em;" > 预应力损失值宜根据实测数据确定，当无可靠实测数据时，可按本节的规定计算。</p>
+
+ <p style="text-align:justify"><a href="#id6.2.2"> 6.2.2</a> <span id="id6.2.2"> 预应力钢筋与管道壁之间摩擦引起的预应力损失，可按下式计算：</span></p>
+
+$$\\sigma _{l1}=\\sigma _{\\mathrm{con}}[1-e^{-(\\mu \\theta+\\mathrm{kx} )}]\\tag{6.2.2}$$
+
+.. raw:: html
+
+
+ <table border="0" style="font-family:times new roman" id="gongshi">
+ <tr>
+ <td width="50px" align='center' id="eqzs">式中:</td>
+ <td width="30px" align='right' id="eqzs"><i>σ</i><sub>con</sub></td>
+ <td width="40px" align='left' id="eqzs">——</td>
+ <td id="eqzs"> 预应力钢筋锚下的张拉控制应力值；</td>
+ </tr>
+ <tr>
+ <td align='right' id="eqzs" > </td>
+ <td  align='right' id="eqzs"><i>μ</i></td>
+ <td  align='left' id="eqzs">——</td>
+ <td id="eqzs">预应力钢筋与管道壁的摩擦系数，按表6.2.2采用；</td>
+ </tr>
+ <tr>
+ <td align='right' id="eqzs" > </td>
+ <td  align='right' id="eqzs"><i>θ</i></td>
+ <td  align='left' id="eqzs">——</td>
+ <td id="eqzs"> 从张拉端至计算截面曲线管道部分切线的夹角之和(rad);</td>
+ </tr>
+ <tr>
+ <td align='right' id="eqzs" > </td>
+ <td  align='right' id="eqzs"><i>k</i></td>
+ <td  align='left' id="eqzs">——</td>
+ <td id="eqzs"> 管道每米局部偏差对摩擦的影响系数，按<a href="#B6.2.2">表6.2.2</a>采用；</td>
+ </tr>
+  <tr>
+ <td align='right' id="eqzs" > </td>
+ <td  align='right' id="eqzs"><i>x</i></td>
+ <td  align='left' id="eqzs">——</td>
+ <td id="eqzs">从张拉端至计算截面的管道长度，可近似地取该段管道在构件纵轴上的投影长度(m)。</td>
+ </tr>
+ </table>
+ <p></p>
+
+		<table id="biaoge" style="font-family:times new roman">
+
+         <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="B6.2.2">表6.2.2 系数<i>k</i>和<i>μ</i>值</b></caption>	
+              
+		    <tr>
+		    <td  align="center" rowspan="2" width="100px">预应力钢筋种类</td>
+		   	<td  align="center" rowspan="2" width="200px">管道种类</td>
+        <td  align="center" rowspan="2" width="100px"><i>k</i></td>
+		    <td  align="center" colspan="2" ><i>μ</i></td>
+				<!-- <td></td> -->
+		    </tr>
+		    <tr>
+		    <!-- <td></td> -->
+		    <!-- <td></td> -->
+				<!-- <td></td> -->
+        <td align="center"  width="300px"id="dhbg" >钢绞线、钢丝束</td>
+        <td align="center"  width="200px"id="dhbg" >预应力螺纹钢筋</td>
+		    </tr>
+		    <tr>
+		    <td  align="center"  id="dhbg" rowspan="5" >体内预应力钢筋</td>
+		    <td  align="center"  id="dhbg" >预埋金属波纹管</td>
+				<td  align="center"  id="dhbg" >0.0015</td>
+        <td  align="center"  id="dhbg" >0.20~0.25</td>
+        <td  align="center"  id="dhbg" >50.50</td>
+		    </tr>
+		    <tr>
+		    <!-- <td></td> -->
+		    <td  align="center"  id="dhbg" >预埋塑料波纹管</td>
+				<td  align="center"  id="dhbg" >0.0015</td>
+        <td  align="center"  id="dhbg" >0.15~0.20</td>
+        <td  align="center"  id="dhbg" >—</td>
+		    </tr>	
+		    <tr>
+		    <!-- <td></td> -->
+		    <td  align="center"  id="dhbg" >预埋铁皮管</td>
+				<td  align="center"  id="dhbg" >0.0030</td>
+        <td  align="center"  id="dhbg" >0.35</td>
+        <td  align="center"  id="dhbg" >0.40</td>
+		    </tr>	
+		    <tr>
+		    <!-- <td></td> -->
+		    <td  align="center"  id="dhbg" >预埋钢管</td>
+				<td  align="center"  id="dhbg" >0.0010</td>
+        <td  align="center"  id="dhbg" >0.25</td>
+        <td  align="center"  id="dhbg" >—</td>
+		    </tr>	
+		    <tr>
+		    <!-- <td></td> -->
+		    <td  align="center"  id="dhbg" >抽芯成型</td>
+				<td  align="center"  id="dhbg" >0.0015</td>
+        <td  align="center"  id="dhbg" >0.55</td>
+        <td  align="center"  id="dhbg" >0.60</td>
+		    </tr>	
+		    <tr>
+		    <td  align="center"  id="dhbg" rowspan="2" >体外预应力钢筋</td>
+		    <td  align="center"  id="dhbg" >钢管</td>
+				<td  align="center"  id="dhbg" >0</td>
+        <td  align="center"  id="dhbg" >0.12~0.30（0.08~0.10）</td>
+        <td  align="center"  id="dhbg" >—</td>
+		    </tr>
+		    <tr>
+		    <!-- <td></td> -->
+		    <td  align="center"  id="dhbg" >高密度聚乙烯管</td>
+				<td  align="center"  id="dhbg" >0</td>
+        <td  align="center"  id="dhbg" >0.12~0.15</td>
+        <td  align="center"  id="dhbg" >—</td>
+		    </tr>	        
+		</table>
+   <p> <font size="2">注：体外预应力钢绞线与管道壁之间摩擦引起的预应力损失仅计转向装置和锚固装置管道段，系数<i>k</i>和<i>μ</i>宜根据实测数据确定，当无可靠实测数据时，系数<i>k</i>和<i>μ</i>按照<a href="#B6.2.2">表6.2.2</a>取值。对于系数<i>μ</i>，无粘结钢绞线取括号内数值，光面钢绞线取括号外数值。</font></p>
+
+
+
+ <p style="text-align:justify"><a href="#id6.2.3"> 6.2.3</a> <span id="id6.2.3"> 锚具变形、钢筋回缩和接缝压缩引起的预应力损失，可按下列规定计算：</span></p>
+ <p style="text-align:justify;text-indent:2em;" > 1 预应力直线钢筋</p>
+
+$$\\sigma _{l1}=\\dfrac{\\sum \\Delta l}{l}E_{\\mathrm{p}}\\tag{6.2.3}$$
+
+.. raw:: html
+
+ <table border="0" style="font-family:times new roman" id="gongshi">
+ <tr>
+ <td width="50px" align='center' id="eqzs">式中:</td>
+ <td width="30px" align='right' id="eqzs"><i>Δl</i></td>
+ <td width="40px" align='left' id="eqzs">——</td>
+ <td id="eqzs"> 张拉端锚具变形、钢筋回缩和接缝压缩值，按<a href="#B6.2.3">表6.2.3</a>采用；</td>
+ </tr>
+ <tr>
+ <td align='right' id="eqzs" > </td>
+ <td  align='right' id="eqzs"><i>l</i></td>
+ <td  align='left' id="eqzs">——</td>
+ <td id="eqzs">张拉端至锚固端之间的距离。</td>
+ </tr>
+
+ </table>
  
-    <table id="biaoge" style="font-family:times new roman">
+ <p style="text-align:justify;text-indent:2em;" > 2 预应力曲线钢筋参照<a href="https://jtg-3362.readthedocs.io/zh/latest/FLG.html">附录G</a>计算。</p>
 
-     <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="B6.2.1-1">表6.2.1-1 主拱圈变形</b></caption>	
+		<table id="biaoge" style="font-family:times new roman">
+
+         <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="B6.2.3">表6.2.3 锚具变形、钢筋回缩和接缝压缩值</b></caption>	
               
 		    <tr>
-		      <td  align="center" width=60px rowspan="2" id="dhbg">标度</td>
-		      <td  align="center" width=840px>评定指标</td>
- 		    </tr> 
-        <tr> 
-         <!-- <td></td> -->       
-				 <td  align="center">定性描述</td>
+		    <td  align="center" colspan="2" id="dhbg">锚具、接缝类型</td>
+        <!-- <td></td> -->
+		   	<td  align="center"  width="150px" id="dhbg"><i>Δl</i>(mm)</td>
+        <td  align="center"  width="300px" id="dhbg">锚具、接缝类型</td>
+		    <td  align="center"  width="150px" id="dhbg"><i>Δl</i>(mm)</td>
 		    </tr>
-  		  <tr>
-		     <td align="center">1</td>
-		     <td align="left">完好</td>
-		    </tr> 
-  		  <tr>
-		     <td align="center">2</td>
-		     <td align="center">—</td>
-		    </tr>
-  		  <tr>
-		     <td align="center">3</td>
-		     <td align="left">有轻微变形，或边拱有横移或外倾现象</td>
-		    </tr> 
-        <tr>
-		     <td align="center">4</td>
-		     <td align="left">拱圈存在明显的永久变形，拱顶下挠在限值内，桥面竖向呈波形</td>
+		    <tr>
+		    <td  align="center" colspan="2" id="dhbg">钢丝束的钢制锥形锚具</td>
+        <!-- <td></td> -->
+		   	<td  align="center" id="dhbg">6</td>
+        <td  align="center" id="dhbg">镦头锚具</td>
+		    <td  align="center"id="dhbg">1</td>
 		    </tr>
         <tr>
-		     <td align="center">5</td>
-		     <td align="left">拱圈严重变形，拱顶挠度大于限值，受压构件有严重的横向扭曲变形，严重影响结构安全</td>
+		    <td  align="center" id="dhbg"width="150px" rowspan="2">夹片式锚具</td>
+        <td  align="center" id="dhbg"width="150px">有顶压时</td>
+		   	<td  align="center" id="dhbg">4</td>
+        <td  align="center" id="dhbg">每块后加垫板的缝隙</td>
+		    <td  align="center"id="dhbg">2</td>
+		    </tr>
+        <tr>
+		    <!-- <td></td> -->
+        <td  align="center" id="dhbg">无顶压时</td>
+		   	<td  align="center" id="dhbg">6</td>
+        <td  align="center" id="dhbg">水泥砂浆接缝</td>
+		    <td  align="center"id="dhbg">1</td>
+		    </tr>
+        <tr>
+		    <td  align="center" id="dhbg"colspan="2">带螺帽锚具的螺帽缝隙</td>
+        <!-- <td></td> -->
+		   	<td  align="center" id="dhbg">1~3</td>
+        <td  align="center" id="dhbg">环氧树脂砂浆接缝</td>
+		    <td  align="center"id="dhbg">1</td>
 		    </tr>        
-  		</table> 
-      <p> </p>
+		</table>
+   <p><font size="2">注：带螺帽锚具采用一次张拉锚固时，<i>Δl</i>宜取 2~3 mm,采用二次张拉锚固时，<i>Δl</i>可取1mm。</font></p>
 
- <table id="biaoge" style="font-family:times new roman">
+ <p style="text-align:justify"><a href="#id6.2.4"> 6.2.4</a> <span id="id6.2.4"> 预应力钢筋与台座之间温差引起的预应力损失<i>σ</i><sub>l3</sub>(MPa)可按下式计算：</span></p>
 
-     <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="B6.2.1-2">表6.2.1-2 主拱圈裂缝</b></caption>	
+
+$$\\sigma _{l3}=2(t_{1}-t_{2})\\tag{6.2.4}$$
+
+.. raw:: html
+
+ <table border="0" style="font-family:times new roman" id="gongshi">
+ <tr>
+ <td width="50px" align='center' id="eqzs">式中:</td>
+ <td width="30px" align='right' id="eqzs"><i>t</i><sub>2</sub></td>
+ <td width="40px" align='left' id="eqzs">——</td>
+ <td id="eqzs"> 混凝土加热养护时，受拉钢筋的最高温度(℃);</td>
+ </tr>
+ <tr>
+ <td align='right' id="eqzs" > </td>
+ <td  align='right' id="eqzs"><i>t</i><sub>1</sub></td>
+ <td  align='left' id="eqzs">——</td>
+ <td id="eqzs">—张拉钢筋时，制造场地的温度(℃)。</td>
+ </tr>
+ </table>
+ <p style="text-indent:2em;" ><font size="2">注：为了减少温差引起的预应力损失，可采用分阶段的养护措施。</font></p>
+
+ <p style="text-align:justify"><a href="#id6.2.5"> 6.2.5</a> <span id="id6.2.5"> 混凝土弹性压缩引起的预应力损失可按下列规定计算：</span></p>
+
+ <p style="text-align:justify;text-indent:2em;" > 1 后张法预应力混凝土构件，当采用分批张拉时，完成张拉的预应力钢筋由后批张拉的预应力钢筋所产生的混凝土弹性压缩引起的预应力损失，可按下式计算：</p>
+
+$$\\sigma _{l4}=\\alpha _{\\mathrm{EP}}\\sum\\Delta\\sigma _{\\mathrm{pc}}\\tag{6.2.5-1}$$
+
+.. raw:: html
+
+ <table border="0" style="font-family:times new roman" id="gongshi">
+ <tr>
+ <td width="50px" align='center' id="eqzs">式中:</td>
+ <td width="30px" align='right' id="eqzs"><i>Δσ</i><sub>pc</sub></td>
+ <td width="40px" align='left' id="eqzs">——</td>
+ <td id="eqzs"> 在计算截面完成张拉的预应力钢筋重心处，由后批张拉预应力钢筋产生的混凝土法向应力；</td>
+ </tr>
+ <tr>
+ <td align='right' id="eqzs" > </td>
+ <td  align='right' id="eqzs"><i>α</i><sub>EP</sub></td>
+ <td  align='left' id="eqzs">——</td>
+ <td id="eqzs">预应力钢筋弹性模量与混凝土弹性模量的比值。</td>
+ </tr>
+ </table>
+ <p></p>
+
+ <p style="text-align:justify;text-indent:2em;" > 2 先张法预应力混凝土构件，放松钢筋时由混凝土弹性压缩引起的预应力损失，可按下式计算：</p>
+
+$$\\sigma _{l4}=\\alpha _{\\mathrm{EP}}\\sigma _{\\mathrm{pc}}\\tag{6.2.5-2}$$
+
+.. raw:: html
+
+ <table border="0" style="font-family:times new roman" id="gongshi">
+ <tr>
+ <td width="50px" align='center' id="eqzs">式中:</td>
+ <td width="30px" align='right' id="eqzs"><i>σ</i><sub>pc</sub></td>
+ <td width="40px" align='left' id="eqzs">——</td>
+ <td id="eqzs"> 在计算截面钢筋重心处，由全部钢筋预加力产生的混凝土法向应力。</td>
+ </tr>
+ 
+ </table>
+  <p style="text-align:justify;" >注：后张法预应力混凝土构件，由混凝土弹性压缩引起的预应力损失的简化计算方法列于<a href="https://jtg-3362.readthedocs.io/zh/latest/FLH.html">附录H</a>。</p>
+
+ 
+ <p style="text-align:justify"><a href="#id6.2.6"> 6.2.6</a> <span id="id6.2.6"> 预应力钢筋松弛引起的预应力损失，可按下列规定计算：</span></p>
+
+ <p style="text-align:justify;text-indent:2em;" > 1 预应力钢丝、钢绞线</p>
+
+$$\\sigma _{l5}=\\Psi \\cdot \\xi\\left(0.52\\dfrac{\\sigma _{\\mathrm{pe}}}{f_{\\mathrm{pk}}}-0.26\\right)\\sigma _{\\mathrm{pe}}\\tag{6.2.6-1}$$
+
+.. raw:: html
+
+ <table border="0" style="font-family:times new roman" id="gongshi">
+ <tr>
+ <td width="50px" align='center' id="eqzs">式中:</td>
+ <td width="30px" align='right' id="eqzs"><i>Ψ</i></td>
+ <td width="40px" align='left' id="eqzs">——</td>
+ <td id="eqzs"> 张拉系数，一次张拉时，<i>Ψ</i>=1.0;超张拉时，<i>Ψ</i>=0.9;</td>
+ </tr>
+ <tr>
+ <td align='right' id="eqzs" > </td>
+ <td  align='right' id="eqzs"><i>ζ</i></td>
+ <td  align='left' id="eqzs">——</td>
+ <td id="eqzs">钢筋松弛系数，I级松弛(普通松弛),<i>ζ</i>=1.0;Ⅱ级松弛(低松弛),<i>ζ</i>=0.3;</td>
+ </tr>
+ <tr>
+ <td align='right' id="eqzs" > </td>
+ <td  align='right' id="eqzs"><i>σ</i><sub>pe</sub></td>
+ <td  align='left' id="eqzs">——</td>
+ <td id="eqzs">传力锚固时的预应力钢筋应力，对后张法构件，<i>σ</i><sub>pe</sub>=<i>σ</i><sub>con</sub>-<i>σ</i><sub><i>l</i>1</sub>-<i>σ</i><sub><i>l</i>2</sub>-<i>σ</i><sub><i>l</i>4</sub>;对先张法构件，<i>σ</i><sub>pe</sub>=<i>σ</i><sub>con</sub>-<i>σ</i><sub><i>l</i>2</sub>。</td>
+ </tr>
+ </table>
+ <p></p>
+
+ <p style="text-align:justify;text-indent:2em;" > 2 先张法预应力混凝土构件，放松钢筋时由混凝土弹性压缩引起的预应力损失，可按下式计算：</p>
+
+$$一次张拉\\hspace{3cm}\\sigma _{l5}=0.05\\sigma _{\\mathrm{con}}\\tag{6.2.6-2}$$
+$$超张拉\\hspace{3.5cm}\\sigma _{l5}=0.035\\sigma _{\\mathrm{con}}\\tag{6.2.6-3}$$
+
+.. raw:: html
+
+ <p style="text-indent:2em;" ><font size="2">注：当取超张拉的应力松弛损失值时，张拉程序应符合我国有关规范要求。<br>
+  &emsp;&emsp; &emsp;&emsp; &emsp;&nbsp;2.预应力钢丝、钢绞线当需分阶段计算应力松弛损失时，可按<a href="https://jtg-3362.readthedocs.io/zh/latest/FLC.html">附录C</a>取用。</font></p>
+  
+ <p style="text-align:justify"><a href="#id6.2.7"> 6.2.7</a> <span id="id6.2.7"> 混凝土收缩、徐变引起的预应力损失，可按下列公式计算：</span></p>
+
+$$\\sigma _{l6}(t)=\\dfrac{0.9[E_{\\mathrm{p} }\\varepsilon _{\\mathrm{cs}}(t,t_{0})+\\alpha _{\\mathrm{EP}}\\sigma _{\\mathrm{pc}}\\phi(t,t_{0})]}{1+15\\rho\\rho_{\\mathrm{ps} }}\\tag{6.2.7-1}$$
+$$\\sigma^{'}_{l6}(t)=\\dfrac{0.9[E_{\\mathrm{p} }\\varepsilon _{\\mathrm{cs}}(t,t_{0})+\\alpha _{\\mathrm{EP}}\\sigma^{'}_{\\mathrm{pc}}\\phi(t,t_{0})]}{1+15\\rho^{'}\\rho^{'}_{\\mathrm{ps} }}\\tag{6.2.7-2}$$ 
+$$\\rho=\\dfrac{A_{\\mathrm{p} }+A_{\\mathrm{s}}}{A},\\rho^{'}=\\dfrac{A{'}_{\\mathrm{p} }+A{'}_{\\mathrm{s}}}{A}\\tag{6.2.7-3}$$
+$$\\rho_{\\mathrm{ps}}=1+\\dfrac{e^{2}_{\\mathrm{ps}}}{i^{2}},\\rho^{'}_{\\mathrm{ps}}=1+\\dfrac{e^{'2}_{\\mathrm{ps}}}{i^{2}}\\tag{6.2.7-4}$$ 
+$$e_{\\mathrm{ps}}=\\dfrac{A_{\\mathrm{p}}e_{\\mathrm{p}}+A_{\\mathrm{s}}e_{\\mathrm{s}}}{A_{\\mathrm{p}}+A_{\\mathrm{s}}},e^{'}_{\\mathrm{ps}}=\\dfrac{A{'}_{\\mathrm{p}}e{'}_{\\mathrm{p}}+A{'}_{\\mathrm{s}}e{'}_{\\mathrm{s}}}{A{'}_{\\mathrm{p}}+A{'}_{\\mathrm{s}}}\\tag{6.2.7-5}$$ 
+
+
+.. raw:: html
+
+ <table border="0" style="font-family:times new roman" id="gongshi">
+ <tr>
+ <td width="50px" align='center' id="eqzs">式中:</td>
+ <td width="100px" align='right' id="eqzs"><i>σ</i><sub><i>l</i>6</sub>、<i>σ '</i><sub><i>l</i>6</sub>(t)</td>
+ <td width="40px" align='left' id="eqzs">——</td>
+ <td id="eqzs">构件受拉区、受压区全部纵向钢筋截面重心处由混凝土收缩、徐变引起的预应力损失； </td>
+ </tr>
+ <tr>
+ <td align='right' id="eqzs" > </td>
+ <td  align='right' id="eqzs"><i>σ</i><sub>pc</sub>、<i>σ '</i><sub>pc</sub></td>
+ <td  align='left' id="eqzs">——</td>
+ <td id="eqzs">构件受拉区、受压区全部纵向钢筋截面重心处由预应力产生的混凝土法向压应力，应按<a href="#id6.1.6">第6.1.6条</a>和<a href="#id6.1.7">第6.1.7条</a>规定计算。此时，预应力损失值仅考虑预应力钢筋锚固时(第一批)的损失，普通钢筋应力<i>σ</i><sub><i>l</i>6</sub>、<i>σ '</i><sub><i>l</i>6</sub>应取为零；<i>σ</i><sub>pc</sub>、<i>σ '</i><sub>pc</sub>值不得大于传力锚固时混凝土立方体抗压强度<i>f '</i><sub>pc</sub>的0.5倍；当<i>σ '</i><sub>pc</sub>为拉应力时，应取为零。计算<i>σ</i><sub>pc</sub>、<i>σ '</i><sub>pc</sub>时，可根据构件制作情况考虑自重的影响；</td>
+ </tr>
+ <tr>
+ <td align='right' id="eqzs" > </td>
+ <td  align='right' id="eqzs"><i>E</i><sub>p</sub></td>
+ <td  align='left' id="eqzs">——</td>
+ <td id="eqzs">预应力钢筋的弹性模量；</td>
+ </tr>
+ <tr>
+ <td align='right' id="eqzs" > </td>
+ <td  align='right' id="eqzs"><i>α</i><sub>EP</sub></td>
+ <td  align='left' id="eqzs">——</td>
+ <td id="eqzs">预应力钢筋弹性模量与混凝土弹性模量的比值；</td>
+ </tr>
+ <tr>
+ <td align='right' id="eqzs" > </td>
+ <td  align='right' id="eqzs"><i>ρ</i>、<i>ρ ’</i></td>
+ <td  align='left' id="eqzs">——</td>
+ <td id="eqzs">构件受拉区、受压区全部纵向钢筋配筋率；</td>
+ </tr>
+ <tr>
+ <td align='right' id="eqzs" > </td>
+ <td  align='right' id="eqzs"><i>A</i></td>
+ <td  align='left' id="eqzs">——</td>
+ <td id="eqzs">构件截面面积，对先张法构件，<i>A</i>=<i>A</i><sub>0</sub>;对后张法构件，<i>A</i>=<i>A</i><sub>n</sub>;</td>
+ </tr>
+ <tr>
+ <td align='right' id="eqzs" > </td>
+ <td  align='right' id="eqzs"><i>i</i></td>
+ <td  align='left' id="eqzs">——</td>
+ <td id="eqzs">截面回转半径，<i>i</i>²=<i>I</i>/<i>A</i>,先张法构件取<i>I</i>=<i>I</i><sub>0</sub>,<i>A</i>=<i>A</i><sub>0</sub>;后张法构件取<i>I</i>=<i>I</i><sub>n</sub>,<i>A</i>=<i>A</i><sub>n</sub>;</td>
+ </tr>
+ <tr>
+ <td align='right' id="eqzs" > </td>
+ <td  align='right' id="eqzs"><i>e</i><sub>p</sub>、<i>e '</i><sub>p</sub></td>
+ <td  align='left' id="eqzs">——</td>
+ <td id="eqzs">构件受拉区、受压区预应力钢筋截面重心至构件截面重心的距离；</td>
+ </tr>
+ <tr>
+ <td align='right' id="eqzs" > </td>
+ <td  align='right' id="eqzs"><i>e</i><sub>s</sub>、<i>e '</i><sub>s</sub></td>
+ <td  align='left' id="eqzs">——</td>
+ <td id="eqzs">构件受拉区、受压区纵向普通钢筋截面重心至构件截面重心距离；</td>
+ </tr>
+ <tr>
+ <td align='right' id="eqzs" > </td>
+ <td  align='right' id="eqzs"><i>e</i><sub>ps</sub>、<i>e '</i><sub>ps</sub></td>
+ <td  align='left' id="eqzs">——</td>
+ <td id="eqzs">构件受拉区、受压区预应力钢筋和普通钢筋截面重心至构件截面重心轴的距离；</td>
+ </tr> 
+ <tr>
+ <td align='right' id="eqzs" > </td>
+ <td  align='right' id="eqzs"><i>ε</i><sub>cs</sub>(t,t<sub>0</sub>)</td>
+ <td  align='left' id="eqzs">——</td>
+ <td id="eqzs">预应力钢筋传力锚固龄期为<i>t</i><sub>0</sub>,计算考虑的龄期为<i>t</i>时的混凝土收缩应变，按<a href="https://jtg-3362.readthedocs.io/zh/latest/FLC.html">附录C</a>计算；</td>
+ </tr>
+ <tr>
+ <td align='right' id="eqzs" > </td>
+ <td  align='right' id="eqzs"><i>φ</i><sub>cs</sub>(<i>t</i>,<i>t</i><sub>0</sub>)</td>
+ <td  align='left' id="eqzs">——</td>
+ <td id="eqzs">加载龄期为<i>t</i><sub>0</sub>,计算考虑的龄期为<i>t</i>时的徐变系数，按<a href="https://jtg-3362.readthedocs.io/zh/latest/FLC.html">附录C</a>计算。</td>
+ </tr>
+ </table>
+ <p></p>
+
+ <p style="text-align:justify"><a href="#id6.2.8"> 6.2.8</a> <span id="id6.2.8"> 预应力混凝土构件各阶段的预应力损失值可按<a href="#B6.2.8">表6.2.8</a>的规定进行组合。</span></p>
+ 
+		<table id="biaoge" style="font-family:times new roman">
+
+         <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="B6.2.8">表6.2.8 各阶段预应力损失值的组合</b></caption>	
               
 		    <tr>
-		      <td  align="center" width=60px rowspan="2" id="dhbg">标度</td>
-		      <td  align="center"  colspan="2">评定指标</td>
-				  <!-- <td></td> -->
+		    <td  align="center" rowspan="2"  width="350px"id="dhbg">预应力损失值的组合</td>
+		   	<td  align="center" rowspan="2"  width="200px" id="dhbg">先张法构件</td>
+        <td  align="center" rowspan="2"  width="150px" id="dhbg">后张法体内预应力混凝土构件</td>
+		    <td  align="center" colspan="2" id="dhbg">后张法体内体外混合预应力混凝土构件</td>
+        <!-- <td></td> -->
 		    </tr>
-  		  <tr>
-		     <!-- <td></td> -->
-		      <td align="center" width=360px>定性描述</td>
-				  <td align="center" width=480px>定量描述</td>
+		    <tr>
+		    <!-- <td></td> -->
+        <!-- <td></td> -->
+		   	<!-- <td></td> -->
+        <td  align="center" width="100px"id="dhbg">体内预应力钢筋</td>
+		    <td  align="center" width="100px"id="dhbg">体外预应力钢筋</td>
 		    </tr>
-  		  <tr>
-		     <td align="center">1</td>
-		     <td align="left">完好，无裂缝</td>
-			   <td align="center">—</td>
-		    </tr> 
-  		  <tr>
-		     <td align="center">2</td>
-		     <td align="left">有少量轻微横向裂缝</td>
-			   <td align="left">横向裂缝缝长≤截面尺寸的1/8，缝宽≤0.1mm</td>
+        <tr>
+		    <td  align="center" id="dhbg" >传力锚固时的损失(第一批)<math xmlns="http://www.w3.org/1998/Math/MathML" ><msub><mi>σ</mi><mrow><mi>l</mi><mrow><mi mathvariant="normal">I</mi></mrow></mrow></msub></math></td>
+        <td  align="center" id="dhbg" ><math xmlns="http://www.w3.org/1998/Math/MathML" ><msub><mi>σ</mi><mrow><mi>l</mi><mn>2</mn></mrow></msub><mo>+</mo><msub><mi>σ</mi><mrow><mi>l</mi><mn>3</mn></mrow></msub><mo>+</mo><msub><mi>σ</mi><mrow><mi>l</mi><mn>4</mn></mrow></msub><mo>+</mo><mn>0.5</mn><msub><mi>σ</mi><mrow><mi>l</mi><mn>5</mn></mrow></msub></math></td>
+		   	<td  align="center" id="dhbg"colspan="3"><math xmlns="http://www.w3.org/1998/Math/MathML" ><msub><mi>σ</mi><mrow><mi>l</mi><mn>1</mn></mrow></msub><mo>+</mo><msub><mi>σ</mi><mrow><mi>l</mi><mn>2</mn></mrow></msub><mo>+</mo><msub><mi>σ</mi><mrow><mi>l</mi><mn>4</mn></mrow></msub></math></td>
+        <!-- <td></td> -->
+		   	<!-- <td></td> -->
 		    </tr>
-  		  <tr>
-		     <td align="center">3</td>
-		     <td align="left">结合面开裂或有纵向、横向裂缝，缝宽未超限</td>
-			   <td align="left">纵向裂缝缝长≤截面尺寸的1/8，缝宽≤0.5cm,或横向裂缝缝长＞截面尺寸的1/8且≤截面尺寸的1/2，缝宽＞0.1mm且≤0.3mm</td>
-		     </tr> 
-  		   <tr>
-		     <td align="center">4</td>
-		     <td align="left">结合面开裂或有较严重纵向、横向裂缝，缝宽超限</td>
-			   <td align="left">纵向裂缝缝长＞截面尺寸的1/8，缝宽＞0.5mm,或横向裂缝缝长＞截面尺寸的1/2，缝宽＞0.3mm</td>
-		     </tr>
          <tr>
-		     <td align="center">5</td>
-		     <td align="left">裂缝贯通截面或跨长，发生开合现象，甚至主拱圈发生明显变形</td>
-			   <td align="left">缝宽＞2.0mm</td>
-		     </tr>  
-		</table> 
-    <p> </p> 
-
-    <table id="biaoge" style="font-family:times new roman">
-
-     <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="B6.2.1-3">表6.2.1-3 渗水</b></caption>	
-              
-		    <tr>
-		      <td  align="center" width=60px rowspan="2" id="dhbg">标度</td>
-		      <td  align="center" width=840px>评定指标</td>
- 		    </tr> 
-        <tr> 
-         <!-- <td></td> -->       
-				 <td  align="center">定性描述</td>
-		    </tr>
-  		  <tr>
-		     <td align="center">1</td>
-		     <td align="left">完好</td>
-		    </tr> 
-  		  <tr>
-		     <td align="center">2</td>
-		     <td align="left">有轻微渗水现象</td>
-		    </tr>
-  		  <tr>
-		     <td align="center">3</td>
-		     <td align="left">拱圈局部有明显渗水现象</td>
-		    </tr> 
-        <tr>
-		     <td align="center">4</td>
-		     <td align="left">拱圈多处有明显渗水现象，渗水处伴有晶体析出或锈蚀现象，流膏处混凝土松散</td>
-		    </tr>
-  		</table> 
-      <p> </p>
-
-    <table id="biaoge" style="font-family:times new roman">
-
-     <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="B6.2.1-4">表6.2.1-4 拱铰功能受损</b></caption>	
-              
-		    <tr>
-		      <td  align="center" width=60px rowspan="2" id="dhbg">标度</td>
-		      <td  align="center" width=840px>评定指标</td>
- 		    </tr> 
-        <tr> 
-         <!-- <td></td> -->       
-				 <td  align="center">定性描述</td>
-		    </tr>
-  		  <tr>
-		     <td align="center">1</td>
-		     <td align="left">完好</td>
-		    </tr> 
-  		  <tr>
-		     <td align="center">2</td>
-		     <td align="center">—</td>
-		    </tr>
-  		  <tr>
-		     <td align="center">3</td>
-		     <td align="left">拱铰部分受损，但功能尚存</td>
-		    </tr> 
-        <tr>
-		     <td align="center">4</td>
-		     <td align="left">拱铰受损较严重，有错位、拉开现象，甚至部分压裂，部分丧失功能</td>
-		    </tr>
-        <tr>
-		     <td align="center">5</td>
-		     <td align="left">拱铰严重受损，有错位、拉开现象，混凝土压裂或功能丧失，拱圈出现严重变形</td>
-		    </tr>        
-  		</table> 
-      <p> </p>
-
-    <table id="biaoge" style="font-family:times new roman">
-
-     <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="B6.2.1-5">表6.2.1-5 拱脚位移</b></caption>	
-              
-		    <tr>
-		      <td  align="center" width=60px rowspan="2" id="dhbg">标度</td>
-		      <td  align="center" width=840px>评定指标</td>
- 		    </tr> 
-        <tr> 
-         <!-- <td></td> -->       
-				 <td  align="center">定性描述</td>
-		    </tr>
-  		  <tr>
-		     <td align="center">1</td>
-		     <td align="left">完好</td>
-		    </tr> 
-  		  <tr>
-		     <td align="center">2</td>
-		     <td align="center">—</td>
-		    </tr>
-  		  <tr>
-		     <td align="center">3</td>
-		     <td align="center">—</td>
-		    </tr> 
-        <tr>
-		     <td align="center">4</td>
-		     <td align="left">拱脚出现水平、竖向位移和转角，位移小于限值</td>
-		    </tr>
-        <tr>
-		     <td align="center">5</td>
-		     <td align="left">拱脚不稳定，出现严重错台、位移或转角，造成结构和桥面变形过大，严重影响结构安全</td>
-		    </tr>
-  		</table> 
-      <p> </p>
-
-
-
- <p style="text-align:justify"><a href="#id6.2.2"> 6.2.2</a> <span id="id6.2.2"> 板拱桥、肋拱桥和箱拱桥拱上结构评定指标及分级评定标准：</span></p>
- <ol>
- <li>实腹拱的侧墙与主拱圈间脱裂评定标准见<a href="#B6.2.2-1">表6.2.2-1</a>。</li>
- <li>侧墙变形评定标准见<a href="#B6.2.2-2">表6.2.2-2</a>。</li>
- <li>拱上填料沉陷或开裂评定标准见<a href="#B6.2.2-3">表6.2.2-3</a>。</li>
- <li>空腹拱的腹拱、横向联结系变形、错位评定标准见<a href="#B6.2.2-4">表6.2.2-4</a>。</li>
- <li>立墙或立柱倾斜评定标准见<a href="#B6.2.2-5">表6.2.2-5</a>。</li>
- <li>表面缺陷评定标准见<a href="#B6.2.2-6">表6.2.2-6</a>。</li>
- <li>拱上结构裂缝评定标准见<a href="#B6.2.2-7">表6.2.2-7</a>。</li>
- <li>拱上填料排水不畅评定标准见<a href="#B6.2.2-8">表6.1.2-8</a>。</li>
- </ol>
-
-     <table id="biaoge" style="font-family:times new roman">
-
-     <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="B6.2.2-1">表6.2.2-1 实腹拱的侧墙与主拱圈脱裂</b></caption>	
-              
-		    <tr>
-		      <td  align="center" width=60px rowspan="2" id="dhbg">标度</td>
-		      <td  align="center" width=840px>评定指标</td>
- 		    </tr> 
-        <tr> 
-         <!-- <td></td> -->       
-				 <td  align="center">定性描述</td>
-		    </tr>
-  		  <tr>
-		     <td align="center">1</td>
-		     <td align="left">完好</td>
-		    </tr> 
-  		  <tr>
-		     <td align="center">2</td>
-		     <td align="left">个别位置出现脱裂，缝宽较小且不连续</td>
-		    </tr>
-  		  <tr>
-		     <td align="center">3</td>
-		     <td align="left">侧墙与主拱圈间较大范围出现断裂、脱开，且断裂脱开连续</td>
-		    </tr> 
-        <tr>
-		     <td align="center">4</td>
-		     <td align="left">侧墙与主拱圈间大范围出现断裂、脱开，且断裂脱开连续，结构出现变形</td>
-		    </tr>
-  		  <tr>
-		     <td align="center">5</td>
-		     <td align="left">侧墙与主拱圈间严重脱裂，造成桥面板严重塌落，结构或桥面变形过大</td>
-		    </tr>   
-  		</table> 
-      <p> </p>
-
-      <table id="biaoge" style="font-family:times new roman">
-
-     <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="B6.2.2-2">表6.2.2-2 侧墙变形</b></caption>	
-              
-		    <tr>
-		      <td  align="center" width=60px rowspan="2" id="dhbg">标度</td>
-		      <td  align="center" width=840px>评定指标</td>
- 		    </tr> 
-        <tr> 
-         <!-- <td></td> -->       
-				 <td  align="center">定性描述</td>
-		    </tr>
-  		  <tr>
-		     <td align="center">1</td>
-		     <td align="left">完好</td>
-		    </tr> 
-  		  <tr>
-		     <td align="center">2</td>
-		     <td align="center">—</td>
-		    </tr>
-  		  <tr>
-		     <td align="center">3</td>
-		     <td align="left">侧墙出现鼓肚现象</td>
-		    </tr> 
-        <tr>
-		     <td align="center">4</td>
-		     <td align="left">侧墙出现倾斜、外移等变形现象，填料出现轻微沉陷</td>
-		    </tr>
-  		  <tr>
-		     <td align="center">5</td>
-		     <td align="left">侧墙产生严重倾斜、外移、鼓肚等现象，导致桥面出现塌陷或沉降，变形大于限值或不能正常行车</td>
-		    </tr>   
-  		</table> 
-      <p> </p>
-
-     <table id="biaoge" style="font-family:times new roman">
-
-     <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="B6.1.2-3">表6.2.2-3 拱上填料沉陷或开裂</b></caption>	
-              
-		    <tr>
-		      <td  align="center" width=60px rowspan="2" id="dhbg">标度</td>
-		      <td  align="center" width=840px>评定指标</td>
- 		    </tr> 
-        <tr> 
-         <!-- <td></td> -->       
-				 <td  align="center">定性描述</td>
-		    </tr>
-  		  <tr>
-		     <td align="center">1</td>
-		     <td align="left">完好</td>
-		    </tr> 
-  		  <tr>
-		     <td align="center">2</td>
-		     <td align="left">拱上填料出现轻微沉陷或开裂</td>
-		    </tr>
-  		  <tr>
-		     <td align="center">3</td>
-		     <td align="left">拱上填料出现明显沉陷或开裂，但变形不影响正常行车</td>
-		    </tr> 
-        <tr>
-		     <td align="center">4</td>
-		     <td align="left">拱上填料出现严重沉陷或开裂，导致桥面出现塌陷或沉降，变形过大，不能正常行车</td>
-		    </tr>
-  		</table> 
-      <p> </p>
-
-      <table id="biaoge" style="font-family:times new roman">
-
-     <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="B6.2.2-4">表6.2.2-4 空腹拱腹拱、横向联结系变形、错位</b></caption>	
-              
-		    <tr>
-		      <td  align="center" width=60px rowspan="2" id="dhbg">标度</td>
-		      <td  align="center" width=840px>评定指标</td>
- 		    </tr> 
-        <tr> 
-         <!-- <td></td> -->       
-				 <td  align="center">定性描述</td>
-		    </tr>
-  		  <tr>
-		     <td align="center">1</td>
-		     <td align="left">完好</td>
-		    </tr> 
-  		  <tr>
-		     <td align="center">2</td>
-		     <td align="center">—</td>
-		    </tr>
-  		  <tr>
-		     <td align="center">3</td>
-		     <td align="left">个别腹拱或横向联结系出现变形、错位，但不影响行车</td>
-		    </tr> 
-        <tr>
-		     <td align="center">4</td>
-		     <td align="left">较多腹拱或横向联结系出现变形、错位，影响正常行车</td>
-		    </tr>
-  		  <tr>
-		     <td align="center">5</td>
-		     <td align="left">腹拱或横向联结系产生严重变形、错位，导致桥面出现严重塌陷或沉降，变形过大，不能正常行车，造成安全隐患</td>
-		    </tr>   
-  		</table> 
-      <p> </p>
-     <table id="biaoge" style="font-family:times new roman">
-
-     <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="B6.2.2-5">表6.2.2-5 立墙或立柱倾斜</b></caption>	
-              
-		    <tr>
-		      <td  align="center" width=60px rowspan="2" id="dhbg">标度</td>
-		      <td  align="center" width=840px>评定指标</td>
- 		    </tr> 
-        <tr> 
-         <!-- <td></td> -->       
-				 <td  align="center">定性描述</td>
-		    </tr>
-  		  <tr>
-		     <td align="center">1</td>
-		     <td align="left">完好</td>
-		    </tr> 
-  		  <tr>
-		     <td align="center">2</td>
-		     <td align="center">—</td>
-		    </tr>
-  		  <tr>
-		     <td align="center">3</td>
-		     <td align="left">个别立墙或立柱出现轻微倾斜</td>
-		    </tr> 
-        <tr>
-		     <td align="center">4</td>
-		     <td align="left">较多立墙或立柱出现倾斜，影响正常行车</td>
-		    </tr>
-  		  <tr>
-		     <td align="center">5</td>
-		     <td align="left">立墙或立柱产生严重倾斜，桥面出现严重塌陷或沉降，变形过大，不能正常行车</td>
-		    </tr>   
-  		</table> 
-      <p> </p>
-
- <table id="biaoge" style="font-family:times new roman">
-
-     <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="B6.2.2-6">表6.2.2-6 表面缺陷</b></caption>	
-              
-		    <tr>
-		      <td  align="center" width=60px rowspan="2" id="dhbg">标度</td>
-		      <td  align="center"  colspan="2">评定指标</td>
-				  <!-- <td></td> -->
-		    </tr>
-  		  <tr>
-		     <!-- <td></td> -->
-		      <td align="center" width=360px>定性描述</td>
-				  <td align="center" width=480px>定量描述</td>
-		    </tr>
-  		  <tr>
-		     <td align="center">1</td>
-		     <td align="left">完好，无裂缝</td>
-			   <td align="center">—</td>
-		    </tr> 
-  		  <tr>
-		     <td align="center">2</td>
-		     <td align="left">出现蜂窝麻面、剥落、掉角、空洞、孔洞、碳化、腐蚀等现象</td>
-			   <td align="left">累计面积≤构件面积的10%，单处面积≤1.0m²</td>
-		    </tr>
-  		  <tr>
-		     <td align="center">3</td>
-		     <td align="left">较大面积出现蜂窝麻面、剥落、掉角、空洞、孔洞等现象；或部分位置出现碳化，局部碳化深度大于混凝土保护层厚度；或混凝土受到腐蚀、冻融，钢筋出现锈蚀或混凝土胀裂</td>
-			   <td align="left">累计面积＞构件面积的10%且≤构件面积的20%，单处面积＞1.0m²</td>
-		     </tr> 
-  		   <tr>
-		     <td align="center">4</td>
-		     <td align="left">大面积出现严重空洞、孔洞、剥落、掉角现象；或大部分位置碳化，碳化深度大于混凝土保护层厚度，混凝土表面胶凝料大量松散粉化；或构件腐蚀、冻融，钢筋大量锈蚀或混凝土胀裂</td>
-			   <td align="left">累计面积＞构件面积的20%，单处面积＞1.0m²</td>
-		     </tr>
-		</table> 
-    <p> </p> 
-
-     <table id="biaoge" style="font-family:times new roman">
-
-     <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="B6.2.2-7">表6.2.2-7 拱上结构裂缝</b></caption>	
-              
-		    <tr>
-		      <td  align="center" width=60px rowspan="2" id="dhbg">标度</td>
-		      <td  align="center"  colspan="2">评定指标</td>
-				  <!-- <td></td> -->
-		    </tr>
-  		  <tr>
-		     <!-- <td></td> -->
-		      <td align="center" width=360px>定性描述</td>
-				  <td align="center" width=480px>定量描述</td>
-		    </tr>
-  		  <tr>
-		     <td align="center">1</td>
-		     <td align="left">完好</td>
-			   <td align="left">—</td>
-		    </tr> 
-  		  <tr>
-		     <td align="center" rowspan="4" id="dhbg">2</td>
-		     <td align="left">拱上立柱（立墙）上下端水平裂缝；少量裂缝，缝宽未超限</td>
-			   <td align="left">拱上立柱（立墙）上下端水平裂缝：缝长≤立柱直径或立墙截面长的1/8</td>
-		    </tr>
-  		  <tr>
-		    <!-- <td></td> -->
-		     <td align="left">盖梁和横系梁裂缝：有少量裂缝，缝宽未超限</td>
-			   <td align="left">盖梁和横系梁裂缝：缝长≤截面尺寸的1/3</td>
-		    </tr>   
-  		  <tr>
-		    <!-- <td></td> -->
-		     <td align="left">腹拱拱顶，拱脚径向裂缝：出现裂缝，缝宽未超限</td>
-			   <td align="left">腹拱拱顶，拱脚径向裂缝：缝长≤截面尺寸的1/3</td>
-		    </tr>
-  		  <tr>
-		    <!-- <td></td> -->
-		     <td align="left">梁板跨中竖向裂缝：少量裂缝，缝宽未超限</td>
-			   <td align="left">梁板跨中竖向裂缝：缝长≤截面尺寸的1/3</td>
-		    </tr>                     
-  		  <tr>
-		     <td align="center"rowspan="4" id="dhbg">3</td>
-		     <td align="left">拱上立柱（立墙）上下端水平裂缝；较多裂缝，缝宽未超限</td>
-			   <td align="left">拱上立柱（立墙）上下端水平裂缝：缝长＞立柱直径或立墙截面长的1/8且≤立柱直径或立墙截面长的1/2</td>
-		     </tr> 
-  		  <tr>
-		    <!-- <td></td> -->
-		     <td align="left">盖梁和横系梁裂缝：较多裂缝，缝宽未超限</td>
-			   <td align="left">盖梁和横系梁裂缝：缝长＞截面尺寸的1/3且≤截面尺寸的1/2，间距≥20cm</td>
-		    </tr>   
-  		  <tr>
-		    <!-- <td></td> -->
-		     <td align="left">腹拱拱顶，拱脚径向裂缝：较多裂缝，缝宽未超限</td>
-			   <td align="left">腹拱拱顶、拱脚径向裂缝：缝长＞截面尺寸的1/3且≤截面尺寸的2/3</td>
-		    </tr>
-  		  <tr>
-		    <!-- <td></td> -->
-		     <td align="left">梁板跨中竖向裂缝：较多裂缝，缝宽未超限</td>
-			   <td align="left">梁板跨中竖向裂缝：缝长＞截面尺寸的1/2且≤截面尺寸的2/3，间距≥20cm</td>
-		    </tr> 
-  		  <tr>
-		     <td align="center"rowspan="4" id="dhbg">4</td>
-		     <td align="left">拱上立柱（立墙）上下端水平裂缝；大量裂缝，缝宽超限</td>
-			   <td align="left">拱上立柱（立墙）上下端水平裂缝：缝长＞立柱直径或立墙截面长的1/2</td>
-		     </tr> 
-  		  <tr>
-		    <!-- <td></td> -->
-		     <td align="left">盖梁和横系梁裂缝：大量裂缝，缝宽超限</td>
-			   <td align="left">盖梁和横系梁裂缝：缝长＞截面尺寸的1/2，间距＜20cm</td>
-		    </tr>   
-  		  <tr>
-		    <!-- <td></td> -->
-		     <td align="left">腹拱拱顶，拱脚径向裂缝：大量裂缝，缝宽未超限</td>
-			   <td align="left">腹拱拱顶、拱脚径向裂缝：缝长＞截面尺寸的2/3</td>
-		    </tr>
-  		  <tr>
-		    <!-- <td></td> -->
-		     <td align="left">梁板跨中竖向裂缝：大量裂缝，缝宽超限</td>
-			   <td align="left">梁板跨中竖向裂缝：缝长＞截面尺寸的2/3，间距＜20cm</td>
-		    </tr>                    
-		</table> 
-    <p> </p> 
-
-
-    <table id="biaoge" style="font-family:times new roman">
-
-     <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="B6.2.2-8">表6.2.2-8 拱上填料排水不畅</b></caption>	
-              
-		    <tr>
-		      <td  align="center" width=60px rowspan="2" id="dhbg">标度</td>
-		      <td  align="center" width=840px>评定指标</td>
- 		    </tr> 
-        <tr> 
-         <!-- <td></td> -->       
-				 <td  align="center">定性描述</td>
-		    </tr>
-  		  <tr>
-		     <td align="center">1</td>
-		     <td align="left">完好</td>
-		    </tr> 
-  		  <tr>
-		     <td align="center">2</td>
-		     <td align="left">排水不畅，导致侧墙出现渗水</td>
-		    </tr>
-  		  <tr>
-		     <td align="center">3</td>
-		     <td align="left">排水不畅，填土聚积水分，导致侧墙出现轻微鼓肚</td>
-		    </tr> 
-        <tr>
-		     <td align="center">4</td>
-		     <td align="left">排水不畅，填土聚积大量水份，导致侧墙出现大量渗水，侧墙出现鼓肚、松动</td>
-		    </tr>
-  		</table> 
-      <p> </p>
- 
- <p style="text-align:justify"><a href="#id6.2.3"> 6.2.3</a> <span id="id6.2.3"> 双曲拱桥主拱圈评定指标及分级评定标准：</span></p>
- <ol>
- <li>主拱同、横向联结系变形评定标准见<a href="#B6.2.3-1">表6.2.3-1</a>。</li>
- <li>渗水评定标准见<a href="#B6.2.3-2">表6.2.3-2</a>。</li>
- <li>主拱回裂缝评定标准见<a href="#B6.2.3-3">表6.2.3-3</a>。</li>
- <li>拱脚位移评定标准见<a href="#B6.2.1-5">表6.2.1-5</a>。</li>
- <li>蜂窝、麻面评定标准见<a href="https://jtg-h21.readthedocs.io/zh/latest/05.html#B5.1.1-1">表5.1.1-1</a>。</li>
- <li>剥落、掉角评定标准见<a href="https://jtg-h21.readthedocs.io/zh/latest/05.html#B5.1.1-2">表5.1.1-2</a>。</li>
- <li>空洞、孔洞评定标准见<a href="https://jtg-h21.readthedocs.io/zh/latest/05.html#B5.1.1-3">表5.1.1-3</a>。</li>
- </ol>
-
-     <table id="biaoge" style="font-family:times new roman">
-
-     <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="B6.2.3-1">表6.2.3-1 主拱圈、横向联结系变形</b></caption>	
-              
-		    <tr>
-		      <td  align="center" width=60px rowspan="2" id="dhbg">标度</td>
-		      <td  align="center" width=840px>评定指标</td>
- 		    </tr> 
-        <tr> 
-         <!-- <td></td> -->       
-				 <td  align="center">定性描述</td>
-		    </tr>
-  		  <tr>
-		     <td align="center">1</td>
-		     <td align="left">完好</td>
-		    </tr> 
-  		  <tr>
-		     <td align="center">2</td>
-		     <td align="left">主拱圈无明显变形，或个别横向联结系轻微松动、开裂，或横向联结系出现轻微扭曲变形，拱肋各肋间变形趋于一致</td>
-		    </tr>
-  		  <tr>
-		     <td align="center">3</td>
-		     <td align="left">边拱肋有轻微横移或外倾，或少部分横向联结拉杆松动、开裂，横向联结系出现明显变形，但强度足够，拱肋变形比较均匀</td>
-		    </tr> 
-        <tr>
-		     <td align="center">4</td>
-		     <td align="left">拱圈存在明显的变形，拱顶下挠，变形过大，桥面竖向呈波形，或横向联结系出现明显永久变形，产生损坏，横向稳定性弱，拱波出现较严重的纵向裂缝且裂缝大于限值</td>
-		    </tr>
-        <tr>
-		     <td align="center">5</td>
-		     <td align="left">拱圈出现严重异常变形、开裂、拱顶下沉，变形过大；或受压构件有严重的横向扭曲变形；或横向联结系强度严重不足甚至没有设置，横向联结系产生严重损坏，横向稳定性严重不足，拱肋横桥向变形非常不均匀，拱波出现贯通纵向裂缝且裂缝大于限值，大量横向联结拉杆松动、断裂导致拱肋严重变形，不能正常行车</td>
-		    </tr>        
-  		</table> 
-      <p> </p>
-
-     <table id="biaoge" style="font-family:times new roman">
-
-     <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="B6.2.3-2">表6.2.3-2 渗水</b></caption>	
-              
-		    <tr>
-		      <td  align="center" width=60px rowspan="2" id="dhbg">标度</td>
-		      <td  align="center" width=840px>评定指标</td>
- 		    </tr> 
-        <tr> 
-         <!-- <td></td> -->       
-				 <td  align="center">定性描述</td>
-		    </tr>
-  		  <tr>
-		     <td align="center">1</td>
-		     <td align="left">完好</td>
-		    </tr> 
-  		  <tr>
-		     <td align="center">2</td>
-		     <td align="left">有轻微渗水现象</td>
-		    </tr>
-  		  <tr>
-		     <td align="center">3</td>
-		     <td align="left">局部拱圈有明显渗水现象</td>
-		    </tr> 
-        <tr>
-		     <td align="center">4</td>
-		     <td align="left">多处拱圈有明显渗水现象，渗水处伴有晶体析出或锈蚀现象，流膏处混凝土松散</td>
-		    </tr>
-  		</table> 
-      <p> </p>
-
-      <table id="biaoge" style="font-family:times new roman">
-
-     <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="B6.2.3-3">表6.2.3-3 主拱圈裂缝</b></caption>	
-              
-		    <tr>
-		      <td  align="center" width=60px rowspan="2" id="dhbg">标度</td>
-		      <td  align="center"  colspan="2">评定指标</td>
-				  <!-- <td></td> -->
-		    </tr>
-  		  <tr>
-		     <!-- <td></td> -->
-		      <td align="center" width=360px>定性描述</td>
-				  <td align="center" width=480px>定量描述</td>
-		    </tr>
-  		  <tr>
-		     <td align="center">1</td>
-		     <td align="left">完好，无裂缝</td>
-			   <td align="center">—</td>
-		    </tr> 
-  		  <tr>
-		     <td align="center" rowspan="5" id="dhbg">2</td>
-		     <td align="left">横向裂缝：有少量裂缝，缝宽未超限</td>
-			   <td align="left">横向裂缝：缝长≤截面尺寸的1/3</td>
-		    </tr>
-  		  <tr>
-		    <!-- <td></td> -->
-		     <td align="left">拱波和拱肋结合部位的纵向裂缝：出现开裂，缝宽未超限</td>
-			   <td align="left">拱波和拱肋结合部位的纵向裂缝：缝长≤截面尺寸的1/3</td>
-		    </tr>   
-  		  <tr>
-		    <!-- <td></td> -->
-		     <td align="left">跨中截面助波接合面的环向裂缝：出现少量开裂，缝宽未超限</td>
-			   <td align="left">跨中截面肋波接合面的环向裂缝：缝长≤截面尺寸的1/3</td>
-		    </tr>
-  		  <tr>
-		    <!-- <td></td> -->
-		     <td align="left">拱波纵向裂缝：结合面开裂或有纵向裂缝，缝宽未超限</td>
-			   <td align="left">拱波纵向裂缝：缝长≤结合面长度或跨长的1/8</td>
-		    </tr>  
-   		  <tr>
-		    <!-- <td></td> -->
-		     <td align="left">横向联结系构件裂缝：有少量裂缝，缝宽未超限</td>
-			   <td align="left">横向联结系构件裂缝：缝长≤截面尺寸的1/3</td>
-		    </tr>                          
-  		  <tr>
-		     <td align="center"rowspan="5" id="dhbg">3</td>
-		     <td align="left">横向裂缝：较多裂缝，缝宽未超限</td>
-			   <td align="left">横向裂缝：缝长＞截面尺寸的1/3且≤截面尺寸的2/3，间距≥30cm</td>
-		     </tr> 
-  		  <tr>
-		    <!-- <td></td> -->
-		     <td align="left">拱波和拱肋结合部位的纵向裂缝：结合部出现较多纵向裂缝</td>
-			   <td align="left">拱波和拱肋结合部位的纵向裂缝：缝长＞截面尺寸的1/3且≤截面尺寸的2/3，缝宽≤0.2cm</td>
-		    </tr>   
-  		  <tr>
-		    <!-- <td></td> -->
-		     <td align="left">跨中截面肋波接合面的环向裂缝：出现较多环向裂缝，缝宽未超限</td>
-			   <td align="left">跨中截面肋波接合面的环向裂缝：缝长＞截面尺寸的1/3且≤截面尺寸的1/2</td>
-		    </tr>
-  		  <tr>
-		    <!-- <td></td> -->
-		     <td align="left">拱波纵向裂缝：较多纵向裂缝</td>
-			   <td align="left">拱波纵向裂缝：缝长＞结合面长度或跨长的1/8且≤结合面长度或跨长的1/2，缝宽≤0.5cm</td>
-		    </tr> 
-  		  <tr>
-		    <!-- <td></td> -->
-		     <td align="left">横向联结系构件裂缝：有较多裂缝，缝宽未超限</td>
-			   <td align="left">横向联结系构件裂缝：缝长＞截面尺寸的1/3且≤截面尺寸的2/3，间距≥20cm</td>
-		    </tr>        
-  		  <tr>
-		     <td align="center"rowspan="5" id="dhbg">4</td>
-		     <td align="left">横向裂缝：重点部位缝宽超限</td>
-			   <td align="left">横向裂缝：缝长＞截面尺寸的2/3，间距＜30cm</td>
-		     </tr> 
-  		  <tr>
-		    <!-- <td></td> -->
-		     <td align="left">拱波和拱肋结合部位的纵向裂缝：接合部出现大量裂缝</td>
-			   <td align="left">拱波和拱肋结合部位的纵向裂缝：缝长＞截面尺寸的2/3，部分缝＞0.2mm</td>
-		    </tr>   
-  		  <tr>
-		    <!-- <td></td> -->
-		     <td align="left">跨中截面肋波接合面的环向裂缝：出现大量环向裂缝，缝宽超限</td>
-			   <td align="left">跨中截面肋波接合面的环向裂缝：缝长＞截面尺寸的1/2</td>
-		    </tr>
-  		  <tr>
-		    <!-- <td></td> -->
-		     <td align="left">拱波纵向裂缝：出现大量纵向裂缝</td>
-			   <td align="left">拱波纵向裂缝：缝长＞结合面长或跨长的1/2，缝宽＞0.5mm</td>
-		    </tr> 
-  		  <tr>
-		    <!-- <td></td> -->
-		     <td align="left">横向联结系构件裂缝：大量裂缝，缝宽超限</td>
-			   <td align="left">横向联结系构件裂缝：缝长＞截面尺寸的2/3，间距＜20cm</td>
-		    </tr>
-   		  <tr>
-		     <td align="center" id="dhbg">5</td>
-		     <td align="left">控制截面出现大量结构性裂缝，裂缝大多贯通，且缝宽超限，主梁出现变形</td>
-			   <td align="left">—</td>
-		     </tr>                                    
-		</table> 
-    <p> </p>
-
- <p style="text-align:justify"><a href="#id6.2.4"> 6.2.4</a> <span id="id6.2.4"> 双曲拱桥拱上结构评定指标及分级评定标准依照板拱桥、肋拱桥、箱拱桥拱上结构相关规定：</span></p>
- <p style="text-align:justify"><a href="#id6.2.5"> 6.2.5</a> <span id="id6.2.5"> 刚架拱桥的刚架拱片以及微弯板评定指标及分级评定标准：</span></p>
- <ol>
- <li>跨中挠度评定标准见<a href="#B6.2.5-1">表6.2.5-1</a>。</li>
- <li>横系梁与拱片联结松动、开裂评定标准见<a href="#B6.2.5-2">表6.2.5-2</a>。</li>
- <li>微弯板穿孔、塌陷、露筋评定标准见<a href="#B6.2.5-3">表6.2.5-3</a>。</li>
- <li>裂缝评定标准见<a href="#B6.2.5-4">表6.2.5-4</a>。</li>
- <li>拱脚位移评定标准见<a href="#B6.2.5-5">表6.2.1-5</a>。</li>
- <li>蜂窝、麻面评定标准见<a href="https://jtg-h21.readthedocs.io/zh/latest/05.html#B5.1.1-1">表5.1.1-1</a>。</li>
- <li>剥落、掉角评定标准见<a href="https://jtg-h21.readthedocs.io/zh/latest/05.html#B5.1.1-2">表5.1.1-2</a>。</li>
- <li>空洞、孔洞评定标准见<a href="https://jtg-h21.readthedocs.io/zh/latest/05.html#B5.1.1-3">表5.1.1-3</a>。</li>
- </ol>
-
- <table id="biaoge" style="font-family:times new roman">
-
-     <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="B6.2.5-1">表6.2.5-1 跨中挠度</b></caption>	
-              
-		    <tr>
-		      <td  align="center" width=60px rowspan="2" id="dhbg">标度</td>
-		      <td  align="center"  colspan="2">评定指标</td>
-				  <!-- <td></td> -->
-		    </tr>
-  		  <tr>
-		     <!-- <td></td> -->
-		      <td align="center" width=360px>定性描述</td>
-				  <td align="center" width=480px>定量描述</td>
-		    </tr>
-  		  <tr>
-		     <td align="center">1</td>
-		     <td align="left">完好</td>
-			   <td align="center">—</td>
-		    </tr> 
-  		  <tr>
-		     <td align="center">2</td>
-		     <td align="center">—</td>
-			   <td align="center">—</td>
-		    </tr>
-  		  <tr>
-		     <td align="center">3</td>
-		     <td align="left">跨中下挠，拱轴线偏离</td>
-			   <td align="left">跨中最大挠度≤计算跨径的1/1000</td>
-		     </tr> 
-  		   <tr>
-		     <td align="center">4</td>
-		     <td align="left">下挠较严重，拱轴线偏离</td>
-			   <td align="left">跨中最大挠度且＞计算跨径的1/1000且≤计算跨径的1/800</td>
-		     </tr>
-   		   <tr>
-		     <td align="center">5</td>
-		     <td align="left">下挠严重，拱圈严重变形、开裂，拱轴线严重偏离，变形随时间发展迅速，影响结构安全</td>
-			   <td align="left">跨中最大挠度＞计算跨径的1/800</td>
-		     </tr>        
-		</table> 
-    <p> </p> 
-
-     <table id="biaoge" style="font-family:times new roman">
-
-     <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="B6.2.5-2">表6.2.5-2 横系梁与拱片联结松动、开裂</b></caption>	
-              
-		    <tr>
-		      <td  align="center" width=60px rowspan="2" id="dhbg">标度</td>
-		      <td  align="center" width=840px>评定指标</td>
- 		    </tr> 
-        <tr> 
-         <!-- <td></td> -->       
-				 <td  align="center">定性描述</td>
-		    </tr>
-  		  <tr>
-		     <td align="center">1</td>
-		     <td align="left">完好</td>
-		    </tr> 
-  		  <tr>
-		     <td align="center">2</td>
-		     <td align="left">个别横系梁与拱片联结松动、开裂</td>
-		    </tr>
-  		  <tr>
-		     <td align="center">3</td>
-		     <td align="left">横系梁与拱片联结松动、开裂，个别横系梁出现竖向开裂</td>
-		    </tr> 
-        <tr>
-		     <td align="center">4</td>
-		     <td align="left">横系梁与拱片联结松动、开裂导致拱片变形、位移大于限值，同时横系梁出现脱落现象。</td>
-		    </tr>
-        <tr>
-		     <td align="center">5</td>
-		     <td align="left">横系梁与拱片联结严重松动、开裂，拱片出现严重变形，位移，甚至导致桥面严重塌陷或沉降</td>
-		    </tr>        
-  		</table> 
-      <p> </p>
-
-     <table id="biaoge" style="font-family:times new roman">
-
-     <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="B6.2.5-3">表6.2.5-3 微弯板穿孔、塌陷、露筋</b></caption>	
-              
-		    <tr>
-		      <td  align="center" width=60px rowspan="2" id="dhbg">标度</td>
-		      <td  align="center" width=840px>评定指标</td>
- 		    </tr> 
-        <tr> 
-         <!-- <td></td> -->       
-				 <td  align="center">定性描述</td>
-		    </tr>
-  		  <tr>
-		     <td align="center">1</td>
-		     <td align="left">完好</td>
-		    </tr> 
-  		  <tr>
-		     <td align="center">2</td>
-		     <td align="left">微弯板出现极个别露筋、穿孔</td>
-		    </tr>
-  		  <tr>
-		     <td align="center">3</td>
-		     <td align="left">微弯板出现较多露筋、穿孔现象</td>
-		    </tr> 
-        <tr>
-		     <td align="center">4</td>
-		     <td align="left">微弯板出现大量露筋、穿孔，出现少量塌陷现象</td>
-		    </tr>
-        <tr>
-		     <td align="center">5</td>
-		     <td align="left">微弯板严重塌陷，不能正常行车并造成严重安全隐患</td>
-		    </tr>        
-  		</table> 
-      <p> </p>
-
-      <table id="biaoge" style="font-family:times new roman">
-
-     <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="B6.2.5-4">表6.2.5-4 裂缝</b></caption>	
-              
-		    <tr>
-		      <td  align="center" width=60px rowspan="2" id="dhbg">标度</td>
-		      <td  align="center"  colspan="2">评定指标</td>
-				  <!-- <td></td> -->
-		    </tr>
-  		  <tr>
-		     <!-- <td></td> -->
-		      <td align="center" width=360px>定性描述</td>
-				  <td align="center" width=480px>定量描述</td>
-		    </tr>
-  		  <tr>
-		     <td align="center">1</td>
-		     <td align="left">完好，无裂缝</td>
-			   <td align="center">—</td>
-		    </tr> 
-  		  <tr>
-		     <td align="center" rowspan="4" id="dhbg">2</td>
-		     <td align="left">竖向裂缝：有少量裂缝，缝宽未超限</td>
-			   <td align="left">竖向裂缝：缝长≤截面尺寸的1/3</td>
-		    </tr>
-  		  <tr>
-		    <!-- <td></td> -->
-		     <td align="left">微弯板或肋腋板纵向开裂：出现开裂，缝宽未超限</td>
-			   <td align="left">微弯板或肋腋板纵向开裂：缝长≤截面尺寸的1/8</td>
-		    </tr>   
-  		  <tr>
-		    <!-- <td></td> -->
-		     <td align="left">横向裂缝：有少量裂缝，缝宽未超限</td>
-			   <td align="left">横向裂缝：缝长≤截面尺寸的1/3</td>
-		    </tr>
-  		  <tr>
-		    <!-- <td></td> -->
-		     <td align="left">实腹段、拱腿斜裂缝：有少量裂缝，缝宽未超限</td>
-			   <td align="left">实腹段、拱腿斜裂缝：缝长≤截面尺寸的1/3</td>
-		    </tr>  
-  		  <tr>
-		     <td align="center"rowspan="4" id="dhbg">3</td>
-		     <td align="left">竖向裂缝：较多裂缝，缝宽未超限</td>
-			   <td align="left">竖向裂缝：缝长＞截面尺寸的1/3且≤截面尺寸的1/2，间距≥30cm</td>
-		     </tr> 
-  		  <tr>
-		    <!-- <td></td> -->
-		     <td align="left">微弯板或肋腋板纵向开裂：结合部出现较多纵向裂缝，缝宽未超限</td>
-			   <td align="left">微弯板或肋腋板纵向开裂：长度＞截面尺寸的1/8且≤截面尺寸的1/3</td>
-		    </tr>   
-  		  <tr>
-		    <!-- <td></td> -->
-		     <td align="left">横向裂缝：有少量裂缝，缝宽未超限</td>
-			   <td align="left">横向裂缝：缝长＞截面尺寸的1/3且≤截面尺寸的2/3，间距≥20cm</td>
-		    </tr>
-  		  <tr>
-		    <!-- <td></td> -->
-		     <td align="left">实腹段、拱腿斜裂缝：较多裂缝，缝宽未超限</td>
-			   <td align="left">实腹段、拱腿斜裂缝：缝长＞截面尺寸的1/3且≤截面尺寸的1/2</td>
-		    </tr> 
-  		  <tr>
-		     <td align="center"rowspan="4" id="dhbg">4</td>
-		     <td align="left">竖向裂缝：大量裂缝，缝宽超限</td>
-			   <td align="left">竖向裂缝：缝长＞截面尺寸的1/2，间距＜30cm</td>
-		     </tr> 
-  		  <tr>
-		    <!-- <td></td> -->
-		     <td align="left">微弯板或肋腋板纵向开裂：接合部出现大量裂缝，缝宽超限</td>
-			   <td align="left">微弯板或肋腋板纵向开裂：缝长＞截面尺寸的1/3</td>
-		    </tr>
-  		  <tr>
-		    <!-- <td></td> -->
-		     <td align="left">横向裂缝：大量裂缝，缝宽超限值</td>
-			   <td align="left">横向裂缝：缝长＞截面尺寸的2/3，间距＜20cm</td>
-		    </tr> 
-  		  <tr>
-		    <!-- <td></td> -->
-		     <td align="left">实腹段、拱腿斜裂缝：缝宽超限值</td>
-			   <td align="left">实腹段、拱腿斜裂缝：缝长＞截面尺寸的1/2</td>
-		    </tr>
-   		  <tr>
-		     <td align="center" id="dhbg">5</td>
-		     <td align="left">控制截面出现大量结构性裂缝，裂缝大多贯通，且缝宽超限，主梁出现变形</td>
-			   <td align="left">缝宽＞1.0mm,间距＜10cm</td>
-		     </tr>                                    
-		</table> 
-    <p> </p>
-
-
- <p style="text-align:justify"><a href="#id6.2.6"> 6.2.6</a> <span id="id6.2.6"> 刚架拱桥横向联结系评定指标及分级评定标准：</span></p>
-  <ol>
- <li>混凝土压碎评定标准见<a href="#B6.2.6-1">表6.2.6-1</a>。</li>
- <li>连接部钢板锈蚀、断裂评定标准见<a href="#B6.2.6-2">表6.2.6-2</a>。</li>
- <li>裂缝评定标准见<a href="#B6.2.6-3">表6.2.6-3</a>。</li>
- <li>变形评定标准见<a href="#B6.2.6-4">表6.2.6-4</a>。</li>
- <li>蜂窝、麻面评定标准见<a href="https://jtg-h21.readthedocs.io/zh/latest/05.html#B5.1.1-1">表5.1.1-1</a>。</li>
- <li>剥落、掉角评定标准见<a href="https://jtg-h21.readthedocs.io/zh/latest/05.html#B5.1.1-2">表5.1.1-2</a>。</li>
- <li>空洞、孔洞评定标准见<a href="https://jtg-h21.readthedocs.io/zh/latest/05.html#B5.1.1-3">表5.1.1-3</a>。</li>
- </ol>
-
-   <table id="biaoge" style="font-family:times new roman">
-
-     <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="B6.2.6-1">表6.2.6-1 混凝土压碎</b></caption>	
-              
-		    <tr>
-		      <td  align="center" width=60px rowspan="2" id="dhbg">标度</td>
-		      <td  align="center" width=840px>评定指标</td>
- 		    </tr> 
-        <tr> 
-         <!-- <td></td> -->       
-				 <td  align="center">定性描述</td>
-		    </tr>
-  		  <tr>
-		     <td align="center">1</td>
-		     <td align="left">完好</td>
-		    </tr> 
-  		  <tr>
-		     <td align="center">2</td>
-		     <td align="left">混凝土局部裂缝、剥离、掉角</td>
-		    </tr>
-  		  <tr>
-		     <td align="center">3</td>
-		     <td align="left">混凝土出现酥裂</td>
-		    </tr> 
-        <tr>
-		     <td align="center">4</td>
-		     <td align="left">混凝土部分压碎，非关键杆件有失稳隐患</td>
-		    </tr>
-        <tr>
-		     <td align="center">5</td>
-		     <td align="left">关键部位混凝土压碎或杆件失稳，造成桥面板严重塌陷</td>
-		    </tr>        
-  		</table> 
-      <p> </p>
-
-   <table id="biaoge" style="font-family:times new roman">
-
-     <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="B6.2.6-2">表6.2.6-2 连接部钢板锈蚀、断裂</b></caption>	
-              
-		    <tr>
-		      <td  align="center" width=60px rowspan="2" id="dhbg">标度</td>
-		      <td  align="center" width=840px>评定指标</td>
- 		    </tr> 
-        <tr> 
-         <!-- <td></td> -->       
-				 <td  align="center">定性描述</td>
-		    </tr>
-  		  <tr>
-		     <td align="center">1</td>
-		     <td align="left">完好</td>
-		    </tr> 
-  		  <tr>
-		     <td align="center">2</td>
-		     <td align="left">基本完好，极少量钢板锈蚀，无断裂现象</td>
-		    </tr>
-  		  <tr>
-		     <td align="center">3</td>
-		     <td align="left">较多钢板锈蚀，少部分钢板出现穿孔或断裂</td>
-		    </tr> 
-        <tr>
-		     <td align="center">4</td>
-		     <td align="left">大量钢板出现锈蚀、断裂，造成主拱变形</td>
-		    </tr>
-        <tr>
-		     <td align="center">5</td>
-		     <td align="left">大量钢板严重锈蚀、断裂、造成主拱严重变形并产生破坏、影响结构安全</td>
-		    </tr>        
-  		</table> 
-      <p> </p>
-
- <table id="biaoge" style="font-family:times new roman">
-
-     <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="B6.2.6-3">表6.2.6-3 裂缝</b></caption>	
-              
-		    <tr>
-		      <td  align="center" width=60px rowspan="2" id="dhbg">标度</td>
-		      <td  align="center"  colspan="2">评定指标</td>
-				  <!-- <td></td> -->
-		    </tr>
-  		  <tr>
-		     <!-- <td></td> -->
-		      <td align="center" width=360px>定性描述</td>
-				  <td align="center" width=480px>定量描述</td>
-		    </tr>
-  		  <tr>
-		     <td align="center">1</td>
-		     <td align="left">无裂缝</td>
-			   <td align="center">—</td>
-		    </tr> 
-  		  <tr>
-		     <td align="center">2</td>
-		     <td align="left">较少裂缝，缝宽未超限</td>
-			   <td align="left">缝长≤截面尺寸的1/3，间距＞30cm</td>
-		    </tr>
-  		  <tr>
-		     <td align="center">3</td>
-		     <td align="left">较多裂缝，缝宽未超限</td>
-			   <td align="left">缝长＞截面尺寸的1/3且≤截面尺寸的2/3，间距≥20cm</td>
-		     </tr> 
-  		   <tr>
-		     <td align="center">4</td>
-		     <td align="left">大量裂缝，缝宽超限，部分贯通</td>
-			   <td align="left">缝长＞截面尺寸的2/3，间距＜20cm</td>
-		     </tr>
-		</table> 
-    <p> </p> 
-
-   <table id="biaoge" style="font-family:times new roman">
-
-     <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="B6.2.6-4">表6.2.6-4 变形</b></caption>	
-              
-		    <tr>
-		      <td  align="center" width=60px rowspan="2" id="dhbg">标度</td>
-		      <td  align="center" width=840px>评定指标</td>
- 		    </tr> 
-        <tr> 
-         <!-- <td></td> -->       
-				 <td  align="center">定性描述</td>
-		    </tr>
-  		  <tr>
-		     <td align="center">1</td>
-		     <td align="left">完好</td>
-		    </tr> 
-  		  <tr>
-		     <td align="center">2</td>
-		     <td align="center">—</td>
-		    </tr>
-  		  <tr>
-		     <td align="center">3</td>
-		     <td align="left">轻微变形，变形小于限值</td>
-		    </tr> 
-        <tr>
-		     <td align="center">4</td>
-		     <td align="left">明显永久变形，变形过大，造成拱片出现裂缝</td>
-		    </tr>
-        <tr>
-		     <td align="center">5</td>
-		     <td align="left">明显变形异常，拱片变形过大，产生严重损坏，或者造成桥面板严重塌落</td>
-		    </tr>        
-  		</table> 
-      <p> </p>
-
- <p style="text-align:justify"><a href="#id6.2.7"> 6.2.7</a> <span id="id6.2.7"> 桁架拱桥的桁架拱片及微弯板的评定指标及分级评定标准：</span></p>
-  <ol>
- <li>构件变形评定标准见<a href="#B6.2.7-1">表6.2.7-1</a>。</li>
- <li>拱片连接处混凝土断裂评定标准见<a href="#B6.2.7-2">表6.2.7-2</a>。</li>
- <li>上弦杆缺陷评定标准见<a href="#B6.2.7-3">表6.2.7-3</a>。</li>
- <li>裂缝评定标准见<a href="#B6.2.7-4">表6.2.7-4</a>。</li>
- <li>微弯板穿孔、塌陷、露筋评定标准见<a href="#B6.2.5-3">表6.2.5-3</a>。</li>
- <li>拱脚位移评定标准见<a href="#B6.2.1-5">表6.2.1-5</a>。</li>
- <li>蜂窝、麻面评定标准见<a href="https://jtg-h21.readthedocs.io/zh/latest/05.html#B5.1.1-1">表5.1.1-1</a>。</li>
- <li>剥落、掉角评定标准见<a href="https://jtg-h21.readthedocs.io/zh/latest/05.html#B5.1.1-2">表5.1.1-2</a>。</li>
- <li>空洞、孔洞评定标准见<a href="https://jtg-h21.readthedocs.io/zh/latest/05.html#B5.1.1-3">表5.1.1-3</a>。</li>
- </ol>
-   <table id="biaoge" style="font-family:times new roman">
-
-     <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="B6.2.7-1">表6.2.7-1 构件变形</b></caption>	
-              
-		    <tr>
-		      <td  align="center" width=60px rowspan="2" id="dhbg">标度</td>
-		      <td  align="center" width=840px>评定指标</td>
- 		    </tr> 
-        <tr> 
-         <!-- <td></td> -->       
-				 <td  align="center">定性描述</td>
-		    </tr>
-  		  <tr>
-		     <td align="center">1</td>
-		     <td align="left">完好</td>
-		    </tr> 
-  		  <tr>
-		     <td align="center">2</td>
-		     <td align="center">—</td>
-		    </tr>
-  		  <tr>
-		     <td align="center">3</td>
-		     <td align="left">个别次要构件出现弯曲变形，行车稍感振动或摇晃</td>
-		    </tr> 
-        <tr>
-		     <td align="center">4</td>
-		     <td align="left">个别主要构件出现异常弯曲变形，行车振动或摇晃明显或有异常音</td>
-		    </tr>
-        <tr>
-		     <td align="center">5</td>
-		     <td align="left">较多主要构件出现严重变形或开裂，显著影响承载力，结构振动或摇晃显著，有不正常移动</td>
-		    </tr>        
-  		</table> 
-      <p> </p>
-
-   <table id="biaoge" style="font-family:times new roman">
-
-     <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="B6.2.7-2">表6.2.7-2 拱片连接处混凝土断裂</b></caption>	
-              
-		    <tr>
-		      <td  align="center" width=60px rowspan="2" id="dhbg">标度</td>
-		      <td  align="center" width=840px>评定指标</td>
- 		    </tr> 
-        <tr> 
-         <!-- <td></td> -->       
-				 <td  align="center">定性描述</td>
-		    </tr>
-  		  <tr>
-		     <td align="center">1</td>
-		     <td align="left">完好</td>
-		    </tr> 
-  		  <tr>
-		     <td align="center">2</td>
-		     <td align="center">—</td>
-		    </tr>
-  		  <tr>
-		     <td align="center">3</td>
-		     <td align="left">少量拱片连接处混凝土出现轻微碎裂</td>
-		    </tr> 
-        <tr>
-		     <td align="center">4</td>
-		     <td align="left">大量拱片连接处混凝土出现大面积碎裂</td>
-		    </tr>
-        <tr>
-		     <td align="center">5</td>
-		     <td align="left">大量拱片连接处混凝土出现完全碎裂，拱圈严重变形，显著影响承载力</td>
-		    </tr>        
-  		</table> 
-      <p> </p>
-
-   <table id="biaoge" style="font-family:times new roman">
-
-     <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="B6.2.7-3">表6.2.7-3 上弦杆缺陷</b></caption>	
-              
-		    <tr>
-		      <td  align="center" width=60px rowspan="2" id="dhbg">标度</td>
-		      <td  align="center" width=840px>评定指标</td>
- 		    </tr> 
-        <tr> 
-         <!-- <td></td> -->       
-				 <td  align="center">定性描述</td>
-		    </tr>
-  		  <tr>
-		     <td align="center">1</td>
-		     <td align="left">完好</td>
-		    </tr> 
-  		  <tr>
-		     <td align="center">2</td>
-		     <td align="left">个别上弦杆出现拉裂现象</td>
-		    </tr>
-  		  <tr>
-		     <td align="center">3</td>
-		     <td align="left">部分位置上弦杆与行车道板出现脱空现象</td>
-		    </tr> 
-        <tr>
-		     <td align="center">4</td>
-		     <td align="left">较多位置上弦杆与行车道板脱空，拱圈或桥面板有变形现象</td>
-		    </tr>
-        <tr>
-		     <td align="center">5</td>
-		     <td align="left">几乎所有位置上弦杆与行车道板脱空，拱圈或桥面板严重变形，甚至桥面板出现严重塌陷</td>
-		    </tr>        
-  		</table> 
-      <p> </p>
-
-      <table id="biaoge" style="font-family:times new roman">
-
-     <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="B6.2.7-4">表6.2.7-4 裂缝</b></caption>	
-              
-		    <tr>
-		      <td  align="center" width=60px rowspan="2" id="dhbg">标度</td>
-		      <td  align="center"  colspan="2">评定指标</td>
-				  <!-- <td></td> -->
-		    </tr>
-  		  <tr>
-		     <!-- <td></td> -->
-		      <td align="center" width=360px>定性描述</td>
-				  <td align="center" width=480px>定量描述</td>
-		    </tr>
-  		  <tr>
-		     <td align="center">1</td>
-		     <td align="left">完好，无裂缝</td>
-			   <td align="center">—</td>
-		    </tr> 
-  		  <tr>
-		     <td align="center" rowspan="5" id="dhbg">2</td>
-		     <td align="left">竖向裂缝：有少量裂缝，缝宽未超限</td>
-			   <td align="left">竖向裂缝：缝长≤截面尺寸的1/3</td>
-		    </tr>
-  		  <tr>
-		    <!-- <td></td> -->
-		     <td align="left">纵向开裂：有少量开裂，缝宽未超限</td>
-			   <td align="left">纵向开裂：缝长≤截面尺寸的1/3</td>
-		    </tr>   
-  		  <tr>
-		    <!-- <td></td> -->
-		     <td align="left">连接处裂缝：有少量杆件连接处出现开裂，缝宽未超限</td>
-			   <td align="left">连接处裂缝：缝长≤截面尺寸的1/3</td>
-		    </tr>
-  		  <tr>
-		    <!-- <td></td> -->
-		     <td align="left">横向裂缝：有少量裂缝，缝宽未超限</td>
-			   <td align="left">横向裂缝：缝长≤截面尺寸的1/3</td>
-		    </tr> 
-  		  <tr>
-		    <!-- <td></td> -->
-		     <td align="left">实腹段斜裂缝：有少量裂缝，缝宽未超限</td>
-			   <td align="left">实腹段斜裂缝：缝长≤截面尺寸的1/3</td>
-		    </tr>          
-  		  <tr>
-		     <td align="center"rowspan="5" id="dhbg">3</td>
-		     <td align="left">竖向裂缝：较多裂缝，缝宽未超限</td>
-			   <td align="left">竖向裂缝：缝长＞截面尺寸的1/3且≤截面尺寸的1/2，间距≥30cm</td>
-		     </tr> 
-  		  <tr>
-		    <!-- <td></td> -->
-		     <td align="left">纵向开裂：结合部出现较多纵向裂缝，缝宽未超限</td>
-			   <td align="left">纵向开裂：缝长＞截面尺寸的1/3且≤截面尺寸的2/3</td>
-		    </tr>   
-  		  <tr>
-		    <!-- <td></td> -->
-		     <td align="left">连接处裂缝：有少量杆件连接处出现开裂，缝宽未超限</td>
-			   <td align="left">连接处裂缝：缝长＞截面尺寸的1/3且≤截面尺寸的1/2</td>
-		    </tr>
-  		  <tr>
-		    <!-- <td></td> -->
-		     <td align="left">横向裂缝：较多裂缝，缝宽未超限</td>
-			   <td align="left">横向裂缝：缝长＞截面尺寸的1/2且≤截面尺寸的2/3，间距≥20cm</td>
-		    </tr> 
-   		  <tr>
-		    <!-- <td></td> -->
-		     <td align="left">实腹段斜裂缝：较多裂缝，缝宽未超限</td>
-			   <td align="left">实腹段斜裂缝：缝长＞截面尺寸的1/3且≤截面尺寸的1/2</td>
-		    </tr>        
-  		  <tr>
-		     <td align="center"rowspan="5" id="dhbg">4</td>
-		     <td align="left">竖向裂缝：大量裂缝，缝宽超限</td>
-			   <td align="left">竖向裂缝：缝长＞截面尺寸的1/2，间距＜30cm</td>
-		     </tr> 
-  		  <tr>
-		    <!-- <td></td> -->
-		     <td align="left">纵向开裂：结合部出现大量裂缝，缝宽超限</td>
-			   <td align="left">纵向开裂：缝长＞截面尺寸的2/3</td>
-		    </tr>
-  		  <tr>
-		    <!-- <td></td> -->
-		     <td align="left">连接处裂缝：有大量杆件连接处出现开裂，缝宽超限</td>
-			   <td align="left">连接处裂缝：缝长＞截面尺寸的1/2</td>
-		    </tr> 
-  		  <tr>
-		    <!-- <td></td> -->
-		     <td align="left">横向裂缝：大量裂缝，缝宽超限</td>
-			   <td align="left">横向裂缝：缝长＞截面尺寸的2/3，间距＜20cm</td>
-		    </tr>
-   		  <tr>
-		    <!-- <td></td> -->
-		     <td align="left">实腹段斜裂缝：大量裂缝，缝宽超限</td>
-			   <td align="left">实腹段斜裂缝：缝长＞截面尺寸的1/2</td>
-		    </tr>       
-   		  <tr>
-		     <td align="center" id="dhbg">5</td>
-		     <td align="left">控制截面出现大量结构性裂缝，裂缝大多贯通，且缝宽超限，主梁出现变形</td>
-			   <td align="left">缝宽＞1.0mm，间距＜10cm</td>
-		     </tr>
-		</table> 
-    <p> </p>
-
-
-
- <p style="text-align:justify"><a href="#id6.2.8"> 6.2.8</a> <span id="id6.2.8"> 桁架拱桥的横向联结系评定指标及分级评定标准：</span></p>
-  <ol>
- <li>变形评定标准见<a href="#B6.2.8-1">表6.2.8-1</a>。</li>
- <li>裂缝评定标准见<a href="#B6.2.8-2">表6.2.8-2</a>。</li>
- <li>混凝土压碎评定标准见<a href="#B6.2.6-1">表6.2.6-1</a>。</li>
- <li>蜂窝、麻面评定标准见<a href="https://jtg-h21.readthedocs.io/zh/latest/05.html#B5.1.1-1">表5.1.1-1</a>。</li>
- <li>剥落、掉角评定标准见<a href="https://jtg-h21.readthedocs.io/zh/latest/05.html#B5.1.1-2">表5.1.1-2</a>。</li>
- <li>空洞、孔洞评定标准见<a href="https://jtg-h21.readthedocs.io/zh/latest/05.html#B5.1.1-3">表5.1.1-3</a>。</li>
- </ol>
-
-   <table id="biaoge" style="font-family:times new roman">
-
-     <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="B6.2.8-1">表6.2.8-1 变形</b></caption>	
-              
-		    <tr>
-		      <td  align="center" width=60px rowspan="2" id="dhbg">标度</td>
-		      <td  align="center" width=840px>评定指标</td>
- 		    </tr> 
-        <tr> 
-         <!-- <td></td> -->       
-				 <td  align="center">定性描述</td>
-		    </tr>
-  		  <tr>
-		     <td align="center">1</td>
-		     <td align="left">完好</td>
-		    </tr> 
-  		  <tr>
-		     <td align="center">2</td>
-		     <td align="center">—</td>
-		    </tr>
-  		  <tr>
-		     <td align="center">3</td>
-		     <td align="left">出现轻微变形现象，变形小于限值</td>
-		    </tr> 
-        <tr>
-		     <td align="center">4</td>
-		     <td align="left">明显永久变形，变形过大，造成桁架拱片产生较严重破坏</td>
+		    <td  align="center" id="dhbg" >传力锚固时的损失(第二批)<math xmlns="http://www.w3.org/1998/Math/MathML" ><msub><mi>σ</mi><mrow><mi>l</mi><mrow><mi mathvariant="normal">II</mi></mrow></mrow></msub></math></td>
+        <td  align="center" id="dhbg" ><math xmlns="http://www.w3.org/1998/Math/MathML" ><mn>0.5</mn><msub><mi>σ</mi><mrow><mi>l</mi><mn>5</mn></mrow></msub><mo>+</mo><msub><mi>σ</mi><mrow><mi>l</mi><mn>6</mn></mrow></msub></math></td>
+		   	<td  align="center" id="dhbg"colspan="3"><math xmlns="http://www.w3.org/1998/Math/MathML" ><msub><mi>σ</mi><mrow><mi>l</mi><mn>5</mn></mrow></msub><mo>+</mo><msub><mi>σ</mi><mrow><mi>l</mi><mn>6</mn></mrow></msub></math></td>
+        <!-- <td></td> -->
+		   	<!-- <td></td> -->
 		    </tr>
-        <tr>
-		     <td align="center">5</td>
-		     <td align="left">明显变形异常，桁架拱片变形过大，拱片失稳，产生严重损坏，或者造成桥面板严重塌落</td>
-		    </tr>        
-  		</table> 
-      <p> </p>
-
- <table id="biaoge" style="font-family:times new roman">
-
-     <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="B6.2.8-2">表6.2.8-2 裂缝</b></caption>	
-              
-		    <tr>
-		      <td  align="center" width=60px rowspan="2" id="dhbg">标度</td>
-		      <td  align="center"  colspan="2">评定指标</td>
-				  <!-- <td></td> -->
-		    </tr>
-  		  <tr>
-		     <!-- <td></td> -->
-		      <td align="center" width=360px>定性描述</td>
-				  <td align="center" width=480px>定量描述</td>
-		    </tr>
-  		  <tr>
-		     <td align="center">1</td>
-		     <td align="left">完好</td>
-			   <td align="center">—</td>
-		    </tr> 
-  		  <tr>
-		     <td align="center">2</td>
-		     <td align="left">有少量裂缝，缝宽未超限</td>
-			   <td align="left">缝长≤截面尺寸的1/3，间距＞30cm</td>
-		    </tr>
-  		  <tr>
-		     <td align="center">3</td>
-		     <td align="left">裂缝较多，缝宽未超限</td>
-			   <td align="left">缝长＞截面尺寸的1/3且≤截面尺寸的2/3，间距＞20cm</td>
-		     </tr> 
-  		   <tr>
-		     <td align="center">4</td>
-		     <td align="left">有大量裂缝且缝宽超限</td>
-			   <td align="left">缝长＞截面尺寸的2/3，间距＜20cm</td>
-		     </tr>
-		</table> 
-    <p> </p> 
-
- <p style="text-align:justify"><a href="#id6.2.9"> 6.2.9</a> <span id="id6.2.9"> 拱式桥桥面板评定指标及分级评定标准依照梁式桥上部结构构件相关规定。</span></p>    
+		</table>
+ <p></p>
 
 
-6.3 港——混凝土组合拱桥
+6.3 抗裂验算
 ---------------------------
 
 .. raw:: html
 
- <p style="text-align:justify"><a href="#id6.3.1"> 6.3.1</a> <span id="id6.3.1"> 拱肋、横向联结系评定指标及分级评定标准：</span></p>
- <ol>
- <li>涂层缺陷评定标准见<a href="#B6.3.1-1">表6.3.1-1</a>。</li>
- <li>焊缝开裂评定标准见<a href="#B6.3.1-2">表6.3.1-2</a>。</li>
- <li>混凝土裂缝评定标准见<a href="#B6.3.1-3">表6.3.1-3</a>。</li>
- <li>构件扭曲变形、局部损伤评定标准见<a href="#B6.3.1-4">表6.3.1-4</a>。</li>
- <li>构件腐蚀、生锈评定标准见<a href="#B6.3.1-5">表6.3.1-5</a>。</li>
- <li>管内混凝土填充不密实或脱空评定标准见<a href="#B6.3.1-6">表6.3.1-6</a>。</li>
- <li>主拱圈挠度评定标准见<a href="#B6.3.1-7">表6.3.1-7</a>。</li>
- <li>拱肋位移评定标准见<a href="#B6.3.1-8">表6.3.1-8</a>。</li>
- <li>蜂窝、麻面评定标准见<a href="https://jtg-h21.readthedocs.io/zh/latest/05.html#B5.1.1-1">表5.1.1-1</a>。</li>
- <li>剥落、掉角评定标准见<a href="https://jtg-h21.readthedocs.io/zh/latest/05.html#B5.1.1-2">表5.1.1-2</a>。</li>
- <li>空洞、孔洞评定标准见<a href="https://jtg-h21.readthedocs.io/zh/latest/05.html#B5.1.1-3">表5.1.1-3</a>。</li>
- <li>混凝土保护层厚度评定标准见<a href="https://jtg-h21.readthedocs.io/zh/latest/05.html#B5.1.1-4">表5.1.1-4</a>。</li>
- <li>钢筋锈蚀评定标准见<a href="https://jtg-h21.readthedocs.io/zh/latest/05.html#B5.1.1-5">表5.1.1-5</a>。</li>
- <li>混凝土碳化评定标准见<a href="https://jtg-h21.readthedocs.io/zh/latest/05.html#B5.1.1-6">表5.1.1-6</a>。</li>
- </ol>
+ <p style="text-align:justify"><a href="#id6.3.1"> 6.3.1</a> <span id="id6.3.1"> 预应力混凝土受弯构件应按下列规定进行正截面和斜截面抗裂验算：</span></p>
+ <p style="text-align:justify;text-indent:2em;" >1 正截面混凝土拉应力应符合下列要求：</p>
+ <p style="text-align:justify;text-indent:2em;" >1)全预应力混凝土构件</p>
 
- <table id="biaoge" style="font-family:times new roman">
+$$预制构件\\hspace{5.5cm} \\sigma _{\\mathrm{st}}-0.85\\sigma  _{\\mathrm{pc}}\\leqslant 0\\tag{6.3.1-1}$$ 
+$$分段浇筑或砂浆接缝的纵向分块构件\\quad \\sigma _{\\mathrm{st}}-0.80\\sigma  _{\\mathrm{pc}}\\leqslant 0\\tag{6.3.1-2}$$ 
 
-     <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="B6.3.1-1">表6.3.1-1 涂层缺陷</b></caption>	
-              
-		    <tr>
-		      <td  align="center" width=60px rowspan="2" id="dhbg">标度</td>
-		      <td  align="center"  colspan="2">评定指标</td>
-				  <!-- <td></td> -->
-		    </tr>
-  		  <tr>
-		     <!-- <td></td> -->
-		      <td align="center" width=360px>定性描述</td>
-				  <td align="center" width=480px>定量描述</td>
-		    </tr>
-  		  <tr>
-		     <td align="center">1</td>
-		     <td align="left">完好</td>
-			   <td align="center">—</td>
-		    </tr> 
-  		  <tr>
-		     <td align="center">2</td>
-		     <td align="left">涂层有轻微损坏、裂纹、起皮或剥落</td>
-			   <td align="left">累计面积≤构件面积的10%，单处面积≤1.0m²</td>
-		    </tr>
-  		  <tr>
-		     <td align="center">3</td>
-		     <td align="left">较大范围涂层有损坏、裂纹、起皮或剥落</td>
-			   <td align="left">累计面积＞构件面积的10%且≤构件面积的20%，单处面积＞1.0m²</td>
-		     </tr> 
-  		   <tr>
-		     <td align="center">4</td>
-		     <td align="left">大范围涂层有损坏、裂纹、起皮或剥落</td>
-			   <td align="left">累计面积＞构件面积的20%，单处面积＞1.0m²</td>
-		     </tr>
-		</table> 
-    <p> </p> 
 
-   <table id="biaoge" style="font-family:times new roman">
+.. raw:: html
 
-     <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="B6.3.1-2">表6.3.1-2 焊缝开裂</b></caption>	
-              
-		    <tr>
-		      <td  align="center" width=60px rowspan="2" id="dhbg">标度</td>
-		      <td  align="center" width=840px>评定指标</td>
- 		    </tr> 
-        <tr> 
-         <!-- <td></td> -->       
-				 <td  align="center">定性描述</td>
-		    </tr>
-  		  <tr>
-		     <td align="center">1</td>
-		     <td align="left">完好</td>
-		    </tr> 
-  		  <tr>
-		     <td align="center">2</td>
-		     <td align="left">焊缝部位涂层有少量裂纹，但符合相关规范要求</td>
-		    </tr>
-  		  <tr>
-		     <td align="center">3</td>
-		     <td align="left">较多焊缝存在裂缝，且不符合相关规范要求</td>
-		    </tr> 
-        <tr>
-		     <td align="center">4</td>
-		     <td align="left">大量焊缝存在裂缝，且不符合相关规范要求</td>
-		    </tr>
-  		</table> 
-      <p> </p>
+ <p style="text-align:justify;text-indent:2em;" >2)A类预应力混凝土构件</p>
 
- <table id="biaoge" style="font-family:times new roman">
+$$\\sigma _{\\mathrm{st}}-\\sigma  _{\\mathrm{pc}}\\leqslant 0.7f_{\\mathrm{tk} }\\tag{6.3.1-3}$$ 
+$$\\sigma _{l\\mathrm{t}}-\\sigma  _{\\mathrm{pc}}\\leqslant 0\\tag{6.3.1-4}$$ 
 
-     <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="B6.3.1-3">表6.3.1-3 混凝土裂缝</b></caption>	
-              
-		    <tr>
-		      <td  align="center" width=60px rowspan="2" id="dhbg">标度</td>
-		      <td  align="center"  colspan="2">评定指标</td>
-				  <!-- <td></td> -->
-		    </tr>
-  		  <tr>
-		     <!-- <td></td> -->
-		      <td align="center" width=360px>定性描述</td>
-				  <td align="center" width=480px>定量描述</td>
-		    </tr>
-  		  <tr>
-		     <td align="center">1</td>
-		     <td align="left">完好</td>
-			   <td align="center">—</td>
-		    </tr> 
-  		  <tr>
-		     <td align="center">2</td>
-		     <td align="left">局部出现网状裂纹，或有少量裂缝，缝宽未超限</td>
-			   <td align="left">网状裂纹累计面积≤构件面积的20%，单处面积≤1.0m²，或裂缝缝长≤截面尺寸的1/3</td>
-		    </tr>
-  		  <tr>
-		     <td align="center">3</td>
-		     <td align="left">大面积出现网状裂纹，或有较多裂缝，缝宽未超限</td>
-			   <td align="left">网状裂纹累计面积＞构件面积的20%，单处面积＞1.0m²，或裂缝缝长＞截面尺寸的1/3且≤截面尺寸的1/2，间距＜20cm</td>
-		     </tr> 
-  		   <tr>
-		     <td align="center">4</td>
-		     <td align="left">有大量裂缝，大多贯通且重点部位缝宽超限</td>
-			   <td align="left">缝长＞截面尺寸的1/2，间距＜20cm</td>
-		     </tr>
-		</table> 
-    <p> </p> 
 
-   <table id="biaoge" style="font-family:times new roman">
+.. raw:: html
 
-     <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="B6.3.1-4">表6.3.1-4 构件扭曲变形、局部损伤</b></caption>	
-              
-		    <tr>
-		      <td  align="center" width=60px rowspan="2" id="dhbg">标度</td>
-		      <td  align="center" width=840px>评定指标</td>
- 		    </tr> 
-        <tr> 
-         <!-- <td></td> -->       
-				 <td  align="center">定性描述</td>
-		    </tr>
-  		  <tr>
-		     <td align="center">1</td>
-		     <td align="left">完好</td>
-		    </tr> 
-  		  <tr>
-		     <td align="center">2</td>
-		     <td align="center">—</td>
-		    </tr>
-  		  <tr>
-		     <td align="center">3</td>
-		     <td align="left">构件存在轻微扭曲现象，横向联结件出现松动</td>
-		    </tr> 
-        <tr>
-		     <td align="center">4</td>
-		     <td align="left">构件存在明显的永久变形，桥面线形变化明显，行车振动或摇晃明显或有异常音，变形过大</td>
-		    </tr>
-        <tr>
-		     <td align="center">5</td>
-		     <td align="left">构件存在明显的永久变形，桥面线形变化明显，结构振动或摇晃显著，有不正常移动，变形过大，严重影响结构安全</td>
-		    </tr>        
-  		</table> 
-      <p> </p>
+ <p style="text-align:justify;text-indent:2em;" >3)B类预应力混凝土受弯构件在结构自重作用下控制截面受拉边缘不得消压。</p>
+ <p style="text-align:justify;text-indent:2em;" >2 斜截面混凝土主拉应力op应符合下列要求：</p>
+ <p style="text-align:justify;text-indent:2em;" >1)全预应力混凝土构件</p>
 
- <table id="biaoge" style="font-family:times new roman">
+$$预制构件\\hspace{4.7cm}\\sigma _{\\mathrm{tp}}\\leqslant 0.6f _{\\mathrm{tk}}\\tag{6.3.1-5}$$ 
+$$现场浇筑(包括预制拼装)构件\\qquad \\sigma _{\\mathrm{tp}}\\leqslant 0.4f _{\\mathrm{tk}}\\tag{6.3.1-6}$$ 
 
-     <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="B6.3.1-5">表6.3.1-5 构件腐蚀、生锈</b></caption>	
-              
-		    <tr>
-		      <td  align="center" width=60px rowspan="2" id="dhbg">标度</td>
-		      <td  align="center"  colspan="2">评定指标</td>
-				  <!-- <td></td> -->
-		    </tr>
-  		  <tr>
-		     <!-- <td></td> -->
-		      <td align="center" width=360px>定性描述</td>
-				  <td align="center" width=480px>定量描述</td>
-		    </tr>
-  		  <tr>
-		     <td align="center">1</td>
-		     <td align="left">完好</td>
-			   <td align="center">—</td>
-		    </tr> 
-  		  <tr>
-		     <td align="center">2</td>
-		     <td align="left">构件表面有少量油脂和污垢，且没有附着不牢的氧化皮、铁锈和油漆层</td>
-			   <td align="left">锈蚀累计面积≤构件面积的5%</td>
-		    </tr>
-  		  <tr>
-		     <td align="center">3</td>
-		     <td align="left">构件表面发生锈蚀，并且部分氧化皮或油漆层已经剥落或者可以刮除，部位出现锈蚀成洞现象</td>
-			   <td align="left">锈蚀累计面积＞构件面积的5%且≤构件面积的10%，或锈蚀孔洞≤2个，孔洞直径≤杆件宽度的15%（或≤30mm）</td>
-		     </tr> 
-  		   <tr>
-		     <td align="center">4</td>
-		     <td align="left">构件表面存在严重点蚀现象，氧化皮或油漆层因锈蚀而全面剥离，较多部位被锈蚀成洞，影响结构安全</td>
-			   <td align="left">锈蚀累计面积＞构件面积的10%,或锈蚀孔洞＞2个，孔洞直径＞杆件宽度的15%（或＞30mm）</td>
-		     </tr>
-		</table> 
-    <p> </p> 
 
-   <table id="biaoge" style="font-family:times new roman">
+.. raw:: html
 
-     <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="B6.3.1-6">表6.3.1-6 管内混凝土填充不实或脱空</b></caption>	
-              
-		    <tr>
-		      <td  align="center" width=60px rowspan="2" id="dhbg">标度</td>
-		      <td  align="center" width=840px>评定指标</td>
- 		    </tr> 
-        <tr> 
-         <!-- <td></td> -->       
-				 <td  align="center">定性描述</td>
-		    </tr>
-  		  <tr>
-		     <td align="center">1</td>
-		     <td align="left">完好</td>
-		    </tr> 
-  		  <tr>
-		     <td align="center">2</td>
-		     <td align="left">管内混凝土存在数量极少的脱空现象</td>
-		    </tr>
-  		  <tr>
-		     <td align="center">3</td>
-		     <td align="left">管内混凝土存在少部分脱空现象</td>
-		    </tr> 
-        <tr>
-		     <td align="center">4</td>
-		     <td align="left">管内混凝土存在较多脱空现象</td>
-		    </tr>       
-  		</table> 
-      <p> </p>
+ <p style="text-align:justify;text-indent:2em;" >2)A类和B类预应力混凝土构件</p> 
 
- <table id="biaoge" style="font-family:times new roman">
+$$预制构件\\hspace{4.7cm}\\sigma _{\\mathrm{tp}}\\leqslant 0.7f _{\\mathrm{tk}}\\tag{6.3.1-7}$$ 
+$$现场浇筑(包括预制拼装)构件\\qquad\\sigma _{\\mathrm{tp}}\\leqslant 0.5f _{\\mathrm{tk}}\\tag{6.3.1-8}$$ 
 
-     <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="B6.3.1-7">表6.3.1-7 主拱圈挠度</b></caption>	
-              
-		    <tr>
-		      <td  align="center" width=60px rowspan="2" id="dhbg">标度</td>
-		      <td  align="center"  colspan="2">评定指标</td>
-				  <!-- <td></td> -->
-		    </tr>
-  		  <tr>
-		     <!-- <td></td> -->
-		      <td align="center" width=360px>定性描述</td>
-				  <td align="center" width=480px>定量描述</td>
-		    </tr>
-  		  <tr>
-		     <td align="center">1</td>
-		     <td align="left">完好</td>
-			   <td align="center">—</td>
-		    </tr> 
-  		  <tr>
-		     <td align="center">2</td>
-			   <td align="center">—</td>
-			   <td align="center">—</td>
-		    </tr>
-  		  <tr>
-		     <td align="center">3</td>
-		     <td align="left">挠度小于限值</td>
-			   <td align="left">跨中最大挠度≤计算跨径的1/1000</td>
-		     </tr> 
-  		   <tr>
-		     <td align="center">4</td>
-		     <td align="left">挠度大于限值</td>
-			   <td align="left">跨中最大挠度＞计算跨径的1/1000且≤计算跨径的1/800</td>
-		     </tr>
-  		   <tr>
-		     <td align="center">5</td>
-		     <td align="left">挠度严重大于限值，显著影响承载力，有不正常移动，或造成梁板出现严重病害，影响行车安全</td>
-			   <td align="left">跨中最大挠度＞计算跨径的1/800</td>
-		     </tr>
-		</table> 
-    <p> </p> 
 
-   <table id="biaoge" style="font-family:times new roman">
+.. raw:: html
 
-     <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="B6.3.1-8">表6.3.1-8 拱肋位移</b></caption>	
-              
-		    <tr>
-		      <td  align="center" width=60px rowspan="2" id="dhbg">标度</td>
-		      <td  align="center" width=840px>评定指标</td>
- 		    </tr> 
-        <tr> 
-         <!-- <td></td> -->       
-				 <td  align="center">定性描述</td>
-		    </tr>
-  		  <tr>
-		     <td align="center">1</td>
-		     <td align="left">完好</td>
-		    </tr> 
-  		  <tr>
-		     <td align="center">2</td>
-		     <td align="center">—</td>
-		    </tr>
-  		  <tr>
-		     <td align="center">3</td>
-		     <td align="center">—</td>
-		    </tr> 
-        <tr>
-		     <td align="center">4</td>
-		     <td align="left">拱肋沿顺桥向或横桥向出现异常位移变形，行车振动或摇晃明显或有异常音</td>
-		    </tr>
-        <tr>
-		     <td align="center">5</td>
-		     <td align="left">拱肋沿顺桥向或横桥向出现严重的位移变形，存在失稳现象，桥面线形、纵向位移伸缩量出现显著异常，结构振动或摇晃显著</td>
-		    </tr>        
-  		</table> 
-      <p> </p>      
-
- <p style="text-align:justify"><a href="#id6.3.2"> 6.3.2</a> <span id="id6.3.2"> 立柱评定指标及分级评定标准：</span></p>
- <ol>
- <li>混凝土裂缝评定标准见<a href="#B6.3.2-1">表6.3.2-1</a>。</li>
- <li>涂层缺陷评定标准见<a href="#B6.3.1-1">表6.3.1-1</a>。</li>
- <li>焊缝开裂评定标准见<a href="#B6.3.1-2">表6.3.1-2</a>。</li>
- <li>构件扭曲变形、局部损伤评定标准见<a href="#B6.3.1-4">表6.3.1-4</a>。</li>
- <li>构件腐蚀、生锈评定标准见<a href="#B6.3.1-5">表6.3.1-5</a>。</li>
- <li>管内混凝土填充不密实或脱空评定标准见<a href="#B6.3.1-6">表6.3.1-6</a>。</li>
- <li>蜂窝、麻面评定标准见<a href="https://jtg-h21.readthedocs.io/zh/latest/05.html#B5.1.1-1">表5.1.1-1</a>。</li>
- <li>剥落、掉角评定标准见<a href="https://jtg-h21.readthedocs.io/zh/latest/05.html#B5.1.1-2">表5.1.1-2</a>。</li>
- <li>空洞、孔洞评定标准见<a href="https://jtg-h21.readthedocs.io/zh/latest/05.html#B5.1.1-3">表5.1.1-3</a>。</li>
- <li>钢筋锈蚀评定标准见<a href="https://jtg-h21.readthedocs.io/zh/latest/05.html#B5.1.1-5">表5.1.1-5</a>。</li>
- </ol>
+ <table border="0" style="font-family:times new roman" id="gongshi">
+ <tr>
+ <td width="50px" align='center' id="eqzs">式中:</td>
+ <td width="100px" align='right' id="eqzs"><i>σ</i><sub>st</sub></td>
+ <td width="40px" align='left' id="eqzs">——</td>
+ <td id="eqzs">在作用频遇组合下构件抗裂验算截面边缘混凝土的法向拉应力，按公式(6.3.2-1)计算；</td>
+ </tr>
+ <tr>
+ <td align='right' id="eqzs" > </td>
+ <td  align='right' id="eqzs"><i>σ</i><sub>tl</sub></td>
+ <td  align='left' id="eqzs">——</td>
+ <td id="eqzs">在作用准永久组合下构件抗裂验算截面边缘混凝土的法向拉应力，按公式(6.3.2-2)计算；</td>
+ </tr>
+ <tr>
+ <td align='right' id="eqzs" > </td>
+ <td  align='right' id="eqzs"><i>σ</i><sub>pc</sub></td>
+ <td  align='left' id="eqzs">——</td>
+ <td id="eqzs">扣除全部预应力损失后的预加力在构件抗裂验算边缘产生的混凝土预压应力，按<a href="#id6.1.6">第6.1.6条</a>规定计算；</td>
+ </tr>
+ <tr>
+ <td align='right' id="eqzs" > </td>
+ <td  align='right' id="eqzs"><i>σ</i><sub>tp</sub></td>
+ <td  align='left' id="eqzs">——</td>
+ <td id="eqzs">由作用频遇组合和预加力产生的混凝土主拉应力，按<a href="#id6.3.3">第6.3.3条</a>规定计算；</td>
+ </tr>
+ <tr>
+ <td align='right' id="eqzs" > </td>
+ <td  align='right' id="eqzs"><i>f</i><sub>tk</sub></td>
+ <td  align='left' id="eqzs">——</td>
+ <td id="eqzs">混凝土的抗拉强度标准值，按<a href="https://jtg-3362.readthedocs.io/zh/latest/03.html#B3.1.3">表3.1.3</a>采用。</td>
+ </tr>
  
- <table id="biaoge" style="font-family:times new roman">
+ </table>
+ <p></p>
 
-     <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="B6.3.2-1">表6.3.2-1 混凝土裂缝</b></caption>	
-              
-		    <tr>
-		      <td  align="center" width=60px rowspan="2" id="dhbg">标度</td>
-		      <td  align="center"  colspan="2">评定指标</td>
-				  <!-- <td></td> -->
-		    </tr>
-  		  <tr>
-		     <!-- <td></td> -->
-		      <td align="center" width=360px>定性描述</td>
-				  <td align="center" width=480px>定量描述</td>
-		    </tr>
-  		  <tr>
-		     <td align="center">1</td>
-		     <td align="left">完好</td>
-			   <td align="center">—</td>
-		    </tr> 
-  		  <tr>
-		     <td align="center">2</td>
-			   <td align="left">局部出现网状裂纹，或有少量裂缝，缝宽未超限</td>
-			   <td align="left">网状裂纹累计面积≤构件面积的20%，单处面积≤1.0m²，或裂缝缝长≤截面尺寸的1/2，间距＞30cm</td>
-		    </tr>
-  		  <tr>
-		     <td align="center">3</td>
-		     <td align="left">大面积出现网状裂纹，或有较多裂缝，缝宽未超限</td>
-			   <td align="left">网状裂纹累计面积＞构件面积的20%，单处面积＞1.0m²，或裂缝缝长＞截面尺寸的1/2且≤截面尺寸的2/3，间距≥20cm</td>
-		     </tr> 
-  		   <tr>
-		     <td align="center">4</td>
-		     <td align="left">有大量裂缝，大多贯通且重点部位缝宽超限</td>
-			   <td align="left">缝长＞截面尺寸的2/3，间距＜20cm</td>
-		     </tr>
-		</table> 
-    <p> </p> 
-
- <p style="text-align:justify"><a href="#id6.3.3"> 6.3.3</a> <span id="id6.3.3"> 吊杆评定指标及分级评定标准：</span></p>
- <ol>
- <li>渗水（吊杆两端的锚固部位、锚头、横梁锚固构造、吊杆套管、减振器等）评定标准见<a href="#B6.3.3-1">表6.3.3-1</a>。</li>
- <li>锈蚀（错头、螺栓、钢管护套等）评定标准见<a href="#B6.3.3-2">表6.3.3-2</a>。</li>
- <li>错头损坏评定标准见<a href="#B6.3.3-3">表6.3.3-3</a>。</li>
- <li>橡胶老化变质（吊杆端部及减振器）评定标准见<a href="#B6.3.3-4">表6.3.3-4</a>。</li>
- <li>防护套损坏（吊杆端部出口处钢管护套以及钢管护套与PE护套连接处）评定标准见<a href="#B6.3.3-5">表6.3.3-5</a>。</li>
- <li>吊杆的防护层破坏评定标准见<a href="#B6.3.3-6">表6.3.3-6</a>。</li>
- <li>断丝评定标准见<a href="#B6.3.3-7">表6.3.3-7</a>。</li>
- <li>蜂窝、麻面评定标准见<a href="https://jtg-h21.readthedocs.io/zh/latest/05.html#B5.1.1-1">表5.1.1-1</a>。</li>
- <li>剥落、掉角评定标准见<a href="https://jtg-h21.readthedocs.io/zh/latest/05.html#B5.1.1-2">表5.1.1-2</a>。</li>
- <li>空洞、孔洞评定标准见<a href="https://jtg-h21.readthedocs.io/zh/latest/05.html#B5.1.1-3">表5.1.1-3</a>。</li>
- </ol>
-
-  <table id="biaoge" style="font-family:times new roman">
-
-     <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="B6.3.3-1">表6.3.3-1 渗水</b></caption>	
-              
-		    <tr>
-		      <td  align="center" width=60px rowspan="2" id="dhbg">标度</td>
-		      <td  align="center" width=840px>评定指标</td>
- 		    </tr> 
-        <tr> 
-         <!-- <td></td> -->       
-				 <td  align="center">定性描述</td>
-		    </tr>
-  		  <tr>
-		     <td align="center">1</td>
-		     <td align="left">完好</td>
-		    </tr> 
-  		  <tr>
-		     <td align="center">2</td>
-		     <td align="left">有轻微渗水现象</td>
-		    </tr>
-  		  <tr>
-		     <td align="center">3</td>
-		     <td align="left">个别构件防水渗透装置损坏，有明显渗水现象，并有锈蚀</td>
-		    </tr> 
-        <tr>
-		     <td align="center">4</td>
-		     <td align="left">构件防水渗透装置损坏，多处构件有明显渗水现象并伴有较严重锈蚀现象</td>
-		    </tr>       
-  		</table> 
-      <p> </p>
-
- <table id="biaoge" style="font-family:times new roman">
-
-     <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="B6.3.3-2">表6.3.3-2 锈蚀</b></caption>	
-              
-		    <tr>
-		      <td  align="center" width=60px rowspan="2" id="dhbg">标度</td>
-		      <td  align="center"  colspan="2">评定指标</td>
-				  <!-- <td></td> -->
-		    </tr>
-  		  <tr>
-		     <!-- <td></td> -->
-		      <td align="center" width=360px>定性描述</td>
-				  <td align="center" width=480px>定量描述</td>
-		    </tr>
-  		  <tr>
-		     <td align="center">1</td>
-		     <td align="left">完好</td>
-			   <td align="center">—</td>
-		    </tr> 
-  		  <tr>
-		     <td align="center">2</td>
-			   <td align="left">构件表面有少量油脂和污垢，且没有附着不牢的氧化皮、铁锈和油漆层</td>
-			   <td align="left">锈蚀累计面积≤构件面积的3%</td>
-		    </tr>
-  		  <tr>
-		     <td align="center">3</td>
-		     <td align="left">构件表面发生锈蚀，且部分氧化皮或油漆层已经剥落</td>
-			   <td align="left">锈蚀累计面积＞构件面积的3%且≤构件面积的10%</td>
-		     </tr> 
-  		   <tr>
-		     <td align="center">4</td>
-		     <td align="left">构件表面有大量点蚀现象，氧化皮或油漆层因锈蚀而部分剥落或者可以刮除，出现锈蚀成洞现象</td>
-			   <td align="left">锈蚀累计面积＞构件面积的10%，有2个以内的锈蚀孔洞</td>
-		     </tr>
-  		   <tr>
-		     <td align="center">5</td>
-		     <td align="left">构件表面有严重点蚀现象，氧化皮或油漆层因锈蚀而全面剥离，较多部位被锈蚀成洞，影响结构安全</td>
-			   <td align="left">锈蚀累计面积＞构件面积的10%，有2个以上的锈蚀孔洞</td>
-		     </tr>
-		</table> 
-    <p> </p> 
-
-   <table id="biaoge" style="font-family:times new roman">
-
-     <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="B6.3.3-3">表6.3.3-3 锚头损坏</b></caption>	
-              
-		    <tr>
-		      <td  align="center" width=60px rowspan="2" id="dhbg">标度</td>
-		      <td  align="center" width=840px>评定指标</td>
- 		    </tr> 
-        <tr> 
-         <!-- <td></td> -->       
-				 <td  align="center">定性描述</td>
-		    </tr>
-  		  <tr>
-		     <td align="center">1</td>
-		     <td align="left">完好</td>
-		    </tr> 
-  		  <tr>
-		     <td align="center">2</td>
-		     <td align="left">个别锚头出现轻微破损现象</td>
-		    </tr>
-  		  <tr>
-		     <td align="center">3</td>
-		     <td align="left">个别锚头出现破损、松动现象</td>
-		    </tr> 
-        <tr>
-		     <td align="center">4</td>
-		     <td align="left">多数锚头出现破损、松动或裂缝现象</td>
-		    </tr>        
-  		</table> 
-      <p> </p>      
-  <table id="biaoge" style="font-family:times new roman">
-
-     <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="B6.3.3-4">表6.3.3-4 橡胶老化变质</b></caption>	
-              
-		    <tr>
-		      <td  align="center" width=60px rowspan="2" id="dhbg">标度</td>
-		      <td  align="center" width=840px>评定指标</td>
- 		    </tr> 
-        <tr> 
-         <!-- <td></td> -->       
-				 <td  align="center">定性描述</td>
-		    </tr>
-  		  <tr>
-		     <td align="center">1</td>
-		     <td align="left">完好</td>
-		    </tr> 
-  		  <tr>
-		     <td align="center">2</td>
-		     <td align="left">吊索端部及减振器部位橡胶轻微老化，表面有脏污，或减振措施有极个别处表面轻微损坏</td>
-		    </tr>
-  		  <tr>
-		     <td align="center">3</td>
-		     <td align="left">吊索端部及减振器部位橡胶老化变形，或减振措施较多处出现松动或损坏</td>
-		    </tr> 
-        <tr>
-		     <td align="center">4</td>
-		     <td align="left">吊索端部及减振器部位橡胶老化变形，并有破裂渗水现象，或减振措施出现大量损坏，失去效用</td>
-		    </tr>       
-  		</table> 
-      <p> </p>
-
- <table id="biaoge" style="font-family:times new roman">
-
-     <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="B6.3.3-5">表6.3.3-5 防护套损坏</b></caption>	
-              
-		    <tr>
-		      <td  align="center" width=60px rowspan="2" id="dhbg">标度</td>
-		      <td  align="center"  colspan="2">评定指标</td>
-				  <!-- <td></td> -->
-		    </tr>
-  		  <tr>
-		     <!-- <td></td> -->
-		      <td align="center" width=360px>定性描述</td>
-				  <td align="center" width=480px>定量描述</td>
-		    </tr>
-  		  <tr>
-		     <td align="center">1</td>
-		     <td align="left">完好</td>
-			   <td align="center">—</td>
-		    </tr> 
-  		  <tr>
-		     <td align="center">2</td>
-			   <td align="left">个别防护套以及连接处有轻微松动现象，或防护套油漆变色、轻微损坏、裂纹、起皮、剥落</td>
-			   <td align="left">防护套油漆失效面积≤构件面积的10%</td>
-		    </tr>
-  		  <tr>
-		     <td align="center">3</td>
-		     <td align="left">较多防护套以及连接处有松动或套管顶未密封，或防护套较大范围涂层有较严重损坏、裂纹、起皮、剥落</td>
-			   <td align="left">防护套油漆累计失效面积＞构件面积的10%且≤构件面积的20%</td>
-		     </tr> 
-  		   <tr>
-		     <td align="center">4</td>
-		     <td align="left">大量防护套以及连接处有松动或套管顶未密封，造成渗水现象，或防护套大范围涂层有严重损坏、裂纹、起皮、剥落</td>
-			   <td align="left">防护套油漆累计失效面积＞构件面积的20%</td>
-		     </tr>
-		</table> 
-    <p> </p> 
-
-   <table id="biaoge" style="font-family:times new roman">
-
-     <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="B6.3.3-6">表6.3.3-6 吊杆的防护层破坏</b></caption>	
-              
-		    <tr>
-		      <td  align="center" width=60px rowspan="2" id="dhbg">标度</td>
-		      <td  align="center" width=840px>评定指标</td>
- 		    </tr> 
-        <tr> 
-         <!-- <td></td> -->       
-				 <td  align="center">定性描述</td>
-		    </tr>
-  		  <tr>
-		     <td align="center">1</td>
-		     <td align="left">完好</td>
-		    </tr> 
-  		  <tr>
-		     <td align="center">2</td>
-		     <td align="left">个别吊杆防护层存在轻微老化或破损现象</td>
-		    </tr>
-  		  <tr>
-		     <td align="center">3</td>
-		     <td align="left">较多吊杆防护层存在老化、破损、裂纹现象</td>
-		    </tr> 
-        <tr>
-		     <td align="center">4</td>
-		     <td align="left">大量吊杆防护层严重老化、破损、裂纹、积水，造成吊杆锈蚀严重</td>
-		    </tr>      
-  		</table> 
-      <p> </p>      
-
-   <table id="biaoge" style="font-family:times new roman">
-
-     <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="B6.3.3-7">表6.3.3-7 断丝</b></caption>	
-              
-		    <tr>
-		      <td  align="center" width=60px rowspan="2" id="dhbg">标度</td>
-		      <td  align="center" width=840px>评定指标</td>
- 		    </tr> 
-        <tr> 
-         <!-- <td></td> -->       
-				 <td  align="center">定性描述</td>
-		    </tr>
-  		  <tr>
-		     <td align="center">1</td>
-		     <td align="left">完好</td>
-		    </tr> 
-  		  <tr>
-		     <td align="center">2</td>
-		     <td align="left">极个别吊杆钢丝有少量疲劳现象，无断裂情况，满足设计要求</td>
-		    </tr>
-  		  <tr>
-		     <td align="center">3</td>
-		     <td align="left">个别吊杆有钢丝锈蚀、损坏现象，无断裂现象</td>
-		    </tr> 
-        <tr>
-		     <td align="center">4</td>
-		     <td align="left">部分吊杆钢丝锈蚀或损坏较严重，个别有断裂现象</td>
-		    </tr>
-        <tr>
-		     <td align="center">5</td>
-		     <td align="left">部分吊杆钢丝严重锈蚀、断裂或损坏，或造成梁体严重变形</td>
-		    </tr>        
-  		</table> 
-      <p> </p>  
-
-
- <p style="text-align:justify"><a href="#id6.3.4"> 6.3.4</a> <span id="id6.3.4"> 系杆及防护板评定指标及分级评定标准：</span></p>
- <ol>
- <li>锈蚀（锚头、防护罩、钢箱）评定标准见<a href="#B6.3.4-1">表6.3.4-1</a>。</li>
- <li>系杆外部涂层脱落评定标准见<a href="#B6.3.4-2">表6.3.4-2</a>。</li>
- <li>系杆连接松动评定标准见<a href="#B6.3.4-3">表6.3.4-3</a>。</li>
- <li>错头、防护套损坏评定标准见<a href="#B6.3.4-4">表6.3.4-4</a>。</li>
- <li>断丝评定标准见<a href="#B6.3.4-5">表6.3.4-5</a>。</li>
- <li>混凝土裂缝（混凝土防护板、系杆锚固区等）评定标准见<a href="#B6.3.4-6">表6.3.4-6</a>。</li>
- <li>蜂窝、麻面评定标准见<a href="https://jtg-h21.readthedocs.io/zh/latest/05.html#B5.1.1-1">表5.1.1-1</a>。</li>
- <li>剥落、掉角评定标准见<a href="https://jtg-h21.readthedocs.io/zh/latest/05.html#B5.1.1-2">表5.1.1-2</a>。</li>
- <li>空洞、孔洞评定标准见<a href="https://jtg-h21.readthedocs.io/zh/latest/05.html#B5.1.1-3">表5.1.1-3</a>。</li>
- </ol>
-
-  <table id="biaoge" style="font-family:times new roman">
-
-     <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="B6.3.4-1">表6.3.4-1 锈蚀</b></caption>	
-              
-		    <tr>
-		      <td  align="center" width=60px rowspan="2" id="dhbg">标度</td>
-		      <td  align="center" width=840px>评定指标</td>
- 		    </tr> 
-        <tr> 
-         <!-- <td></td> -->       
-				 <td  align="center">定性描述</td>
-		    </tr>
-  		  <tr>
-		     <td align="center">1</td>
-		     <td align="left">完好</td>
-		    </tr> 
-  		  <tr>
-		     <td align="center">2</td>
-		     <td align="left">防锈油脂轻微渗漏，但没有继续渗漏迹象，或表面有少量油脂和污垢，但没有附着不牢的氧化皮、铁锈和油漆层</td>
-		    </tr>
-  		  <tr>
-		     <td align="center">3</td>
-		     <td align="left">防锈油脂渗漏，渗漏数量较多，或渗漏速度较快，表面发生锈蚀，氧化皮或油漆层因锈蚀而部分剥落或者可以刮除</td>
-		    </tr> 
-        <tr>
-		     <td align="center">4</td>
-		     <td align="left">防锈油脂基本已经漏完，失去效用；表面有严重点蚀现象，氧化皮或油漆层因锈蚀而全面剥离，影响构件安全</td>
-		    </tr>       
-  		</table> 
-      <p> </p>
-
- <table id="biaoge" style="font-family:times new roman">
-
-     <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="B6.3.4-2">表6.3.4-2 系杆外部涂层脱落</b></caption>	
-              
-		    <tr>
-		      <td  align="center" width=60px rowspan="2" id="dhbg">标度</td>
-		      <td  align="center"  colspan="2">评定指标</td>
-				  <!-- <td></td> -->
-		    </tr>
-  		  <tr>
-		     <!-- <td></td> -->
-		      <td align="center" width=360px>定性描述</td>
-				  <td align="center" width=480px>定量描述</td>
-		    </tr>
-  		  <tr>
-		     <td align="center">1</td>
-		     <td align="left">完好</td>
-			   <td align="center">—</td>
-		    </tr> 
-  		  <tr>
-		     <td align="center">2</td>
-			   <td align="left">油漆变色、轻微损坏、裂纹、起皮或剥落</td>
-			   <td align="left">累计失效面积≤构件面积的10%</td>
-		    </tr>
-  		  <tr>
-		     <td align="center">3</td>
-		     <td align="left">较大范围涂层有损坏、裂纹、起皮或剥落</td>
-			   <td align="left">累计失效面积＞构件面积的10%且≤构件面积的20%</td>
-		     </tr> 
-  		   <tr>
-		     <td align="center">4</td>
-		     <td align="left">大范围涂层有损坏、裂纹、起皮或剥落</td>
-			   <td align="left">累计失效面积＞构件面积的20%</td>
-		     </tr>
-		</table> 
-    <p> </p> 
-
-   <table id="biaoge" style="font-family:times new roman">
-
-     <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="B6.3.4-3">表6.3.4-3 系杆连接松动</b></caption>	
-              
-		    <tr>
-		      <td  align="center" width=60px rowspan="2" id="dhbg">标度</td>
-		      <td  align="center" width=840px>评定指标</td>
- 		    </tr> 
-        <tr> 
-         <!-- <td></td> -->       
-				 <td  align="center">定性描述</td>
-		    </tr>
-  		  <tr>
-		     <td align="center">1</td>
-		     <td align="left">完好</td>
-		    </tr> 
-  		  <tr>
-		     <td align="center">2</td>
-		     <td align="center">—</td>
-		    </tr>
-  		  <tr>
-		     <td align="center">3</td>
-		     <td align="left">系杆连接处明显轻微松动，但不影响使用功能</td>
-		    </tr> 
-        <tr>
-		     <td align="center">4</td>
-		     <td align="left">系杆连接处明显松动，存在安全隐患</td>
-		    </tr>      
-  		</table> 
-      <p> </p>      
-
-   <table id="biaoge" style="font-family:times new roman">
-
-     <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="B6.3.4-4">表6.3.4-4 锚头、防护套损坏</b></caption>	
-              
-		    <tr>
-		      <td  align="center" width=60px rowspan="2" id="dhbg">标度</td>
-		      <td  align="center" width=840px>评定指标</td>
- 		    </tr> 
-        <tr> 
-         <!-- <td></td> -->       
-				 <td  align="center">定性描述</td>
-		    </tr>
-  		  <tr>
-		     <td align="center">1</td>
-		     <td align="left">完好</td>
-		    </tr> 
-  		  <tr>
-		     <td align="center">2</td>
-		     <td align="left">个别防护套轻微老化或破损</td>
-		    </tr>
-  		  <tr>
-		     <td align="center">3</td>
-		     <td align="left">个别防护套老化、破损、裂纹；锚头存在老化、破损、裂纹现象</td>
-		    </tr> 
-        <tr>
-		     <td align="center">4</td>
-		     <td align="left">部分防护套老化、破损、裂纹或积水，造成局部渗水或锈蚀；锚头存在老化、破损、裂纹现象，造成局部渗水或锈蚀</td>
-		    </tr>       
-  		</table> 
-      <p> </p>  
-
- <table id="biaoge" style="font-family:times new roman">
-
-     <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="B6.3.4-5">表6.3.4-5 断丝</b></caption>	
-              
-		    <tr>
-		      <td  align="center" width=60px rowspan="2" id="dhbg">标度</td>
-		      <td  align="center" width=840px>评定指标</td>
- 		    </tr> 
-        <tr> 
-         <!-- <td></td> -->       
-				 <td  align="center">定性描述</td>
-		    </tr>
-  		  <tr>
-		     <td align="center">1</td>
-		     <td align="left">完好</td>
-		    </tr> 
-  		  <tr>
-		     <td align="center">2</td>
-		     <td align="left">极个别吊杆钢丝有少量锈蚀现象，无断裂情况</td>
-		    </tr>
-  		  <tr>
-		     <td align="center">3</td>
-		     <td align="left">个别吊杆钢丝有锈蚀、损坏现象，无断裂现象</td>
-		    </tr> 
-        <tr>
-		     <td align="center">4</td>
-		     <td align="left">部分吊杆钢丝有疲劳、锈蚀现象，个别有断裂，已经不满足设计要求</td>
-		    </tr>  
-        <tr>
-		     <td align="center">5</td>
-		     <td align="left">部分吊杆钢丝严重锈蚀，断裂或损坏，梁体出现严重变形，造成安全隐患</td>
-		    </tr>             
-  		</table> 
-      <p> </p>
-
- <table id="biaoge" style="font-family:times new roman">
-
-     <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="B6.3.4-6">表6.3.4-6 混凝土裂缝</b></caption>	
-              
-		    <tr>
-		      <td  align="center" width=60px rowspan="2" id="dhbg">标度</td>
-		      <td  align="center"  colspan="2">评定指标</td>
-				  <!-- <td></td> -->
-		    </tr>
-  		  <tr>
-		     <!-- <td></td> -->
-		      <td align="center" width=360px>定性描述</td>
-				  <td align="center" width=480px>定量描述</td>
-		    </tr>
-  		  <tr>
-		     <td align="center">1</td>
-		     <td align="left">完好</td>
-			   <td align="center">—</td>
-		    </tr> 
-  		  <tr>
-		     <td align="center">2</td>
-			   <td align="left">局部出现网状裂纹，或混凝土构件出现有少量细裂缝或环形细裂缝，缝宽未超限</td>
-			   <td align="left">网状裂纹累计面积≤构件面积的20%，单处面积≤1.0m²,或混凝土构件裂缝缝长≤截面尺寸的1/3，间距＞30cm</td>
-		    </tr>
-  		  <tr>
-		     <td align="center">3</td>
-		     <td align="left">大面积出现网状裂纹，或混凝土构件出现较多细裂缝或环形细裂缝，缝宽未超限</td>
-			   <td align="left">网状裂纹累计面积＞构件面积的20%，单处面积＞1.0m²，或混凝土构件裂缝缝长＞截面尺寸的1/3且≤截面尺寸的1/2，间距＜30cm</td>
-		     </tr> 
-  		   <tr>
-		     <td align="center">4</td>
-		     <td align="left">混凝土构件有大量细裂缝或环形裂缝，重点部位缝宽超限</td>
-			   <td align="left">缝长＞截面尺寸的1/2，间距＜20cm</td>
-		     </tr>
-		</table> 
-    <p> </p> 
-
- <p style="text-align:justify"><a href="#id6.3.5"> 6.3.5</a> <span id="id6.3.5"> 桥面板（梁）评定指标及分级评定标准依照梁式桥上部结构构件相关规定。</span></p>
-
+ <p style="text-align:justify"><a href="#id6.3.2"> 6.3.2</a> <span id="id6.3.2"> 在受弯构件的抗裂验算截面边缘，混凝土的法向拉应力应按下列公式计算：</span></p>
  
-6.4 钢拱桥
+$$ \\tag{6.3.2-1}$$ 
+$$ \\tag{6.3.2-2}$$ 
+
+
+.. raw:: html
+
+ <table border="0" style="font-family:times new roman" id="gongshi">
+ <tr>
+ <td width="50px" align='center' id="eqzs">式中:</td>
+ <td width="100px" align='right' id="eqzs"><i>M</i><sub>s</sub></td>
+ <td width="40px" align='left' id="eqzs">——</td>
+ <td id="eqzs">按作用频遇组合计算的弯矩值；</td>
+ </tr>
+ <tr>
+ <td align='right' id="eqzs" > </td>
+ <td  align='right' id="eqzs"><i>M</i><sub>l</sub></td>
+ <td  align='left' id="eqzs">——</td>
+ <td id="eqzs">结构自重和直接施加于结构上的汽车荷载、人群荷载、风荷载按作用准永久组合计算的弯矩值。</td>
+ </tr>
+  </table>
+ <p>后张法构件在计算预施应力阶段由构件自重产生的拉应力时，公式(6.3.2-1)、(6.3.2-2)中的<i>W</i><sub>0</sub>可改用<i>W</i><sub>n</sub>,<i>W</i><sub>n</sub>为构件净截面抗裂验算边缘的弹性抵抗矩。</p> 
+ <p style="text-align:justify"><a href="#id6.3.3"> 6.3.3</a> <span id="id6.3.3"> 预应力混凝土受弯构件由作用频遇组合和预加力产生的混凝土主拉应力<i>σ</i><sub>tp</sub>和主压应力<i>σ</i><sub>cp</sub>,应按下列公式计算：</span></p> 
+
+$$\\begin{matrix}\\sigma _{\\mathrm{tp}}\\\\\\sigma _{\\mathrm{cp}}\\end{matrix}=\\dfrac{\\sigma _{\\mathrm{cx}}+\\sigma _{\\mathrm{cy}}}{2}\\mp\\sqrt{\\left ( \\dfrac{\\sigma _{\\mathrm{cx}}-\\sigma _{\\mathrm{cy}}}{2} \\right )^{2}+\\tau ^{2} }\\tag{6.3.3-1}$$ 
+$$\\sigma _{\\mathrm{cx}}=\\sigma _{\\mathrm{pc}}+\\dfrac{M_{\\mathrm{s}}\\mathrm{y}_{0}}{I_{0}}\\tag{6.3.3-2}$$ 
+$$\\sigma _{\\mathrm{cy}}=\\sigma _{\\mathrm{cy,pv}}+\\sigma _{\\mathrm{cy,ph}}+\\sigma _{\\mathrm{cy,t}}+\\sigma _{\\mathrm{cy},l}\\tag{6.3.3-3}$$ 
+$$\\sigma _{\\mathrm{cy,pv}}=0.6\\dfrac{n\\sigma ^{'}_{\\mathrm{pe} }A_{\\mathrm{pv}}}{bs_{\\mathrm{p}}}\\tag{6.3.3-4}$$ 
+$$\\tau=\\dfrac{V_{\\mathrm{s}}S_{0}}{bI_{0}}-\\dfrac{\\sum\\sigma ^{''}_{\\mathrm{pe}}A_{\\mathrm{pb}}\\sin\\theta _{\\mathrm{p}}\\cdot S_{\\mathrm{n} }}{bI_{\\mathrm{n}}}\\tag{6.3.3-5}$$ 
+
+
+.. raw:: html
+
+ <table border="0" style="font-family:times new roman" id="gongshi">
+ <tr>
+ <td width="70px" align='center' id="eqzs">式中:</td>
+ <td width="120px" align='right' id="eqzs"><i>σ</i><sub>cx</sub></td>
+ <td width="40px" align='left' id="eqzs">——</td>
+ <td id="eqzs">在计算主应力点，由预加力和按作用频遇组合计算的弯矩<i>M</i><sub>s</sub>产生的混凝土法向应力；</td>
+ </tr>
+ <tr>
+ <td align='right' id="eqzs" > </td>
+ <td  align='right' id="eqzs"><i>σ</i><sub>cy</sub></td>
+ <td  align='left' id="eqzs">——</td>
+ <td id="eqzs">混凝土竖向压应力；</td>
+ </tr>
+ <tr>
+ <td align='right' id="eqzs" colspan="2"> <i>σ</i><sub>cy,pv</sub>、<i>σ</i><sub>cy,ph</sub>、<i>σ</i><sub>cy,t</sub>、<i>σ</i><sub>cy,l</sub></td>
+ <!-- <td></td> -->
+ <td  align='left' id="eqzs">——</td>
+ <td id="eqzs">由竖向预应力钢筋的预加力、横向预应力钢筋的预加力、横向温度梯度和汽车荷载产生的混凝土竖向压应力频遇值；</td>
+ </tr>
+ <tr>
+ <td align='right' id="eqzs" > </td>
+ <td  align='right' id="eqzs"><i>τ</i></td>
+ <td  align='left' id="eqzs">——</td>
+ <td id="eqzs">在计算主应力点，由预应力弯起钢筋的预加力和按作用频遇组合计算的剪力<i>V</i><sub>s</sub>产生的混凝土剪应力；当计算截面作用有扭矩时，尚应计入由扭矩引起的剪应力；</td>
+ </tr>
+ <tr>
+ <td align='right' id="eqzs" > </td>
+ <td  align='right' id="eqzs"><i>σ</i><sub>pc</sub></td>
+ <td  align='left' id="eqzs">——</td>
+ <td id="eqzs">在计算主应力点，由扣除全部预应力损失后的纵向预加力产生的混凝土法向预压应力，按公式(6.1.6-1)或(6.1.6-4)计算；</td>
+ </tr>
+ <tr>
+ <td align='right' id="eqzs" > </td>
+ <td  align='right' id="eqzs"><i>y</i><sub>0</sub></td>
+ <td  align='left' id="eqzs">——</td>
+ <td id="eqzs">换算截面重心轴至计算主应力点的距离；</td>
+ </tr> 
+ <tr>
+ <td align='right' id="eqzs" > </td>
+ <td  align='right' id="eqzs"><i>n</i></td>
+ <td  align='left' id="eqzs">——</td>
+ <td id="eqzs">在同一截面上竖向预应力钢筋的肢数；</td>
+ </tr> 
+ <tr>
+ <td align='right' id="eqzs" > </td>
+ <td  align='right' id="eqzs"><i>σ'</i><sub>pe</sub>、<i>σ''</i><sub>pe</sub></td>
+ <td  align='left' id="eqzs">——</td>
+ <td id="eqzs">竖向预应力钢筋、纵向预应力弯起钢筋扣除全部预应力损失后的有效预应力；</td>
+ </tr> 
+ <tr>
+ <td align='right' id="eqzs" > </td>
+ <td  align='right' id="eqzs"><i>A</i><sub>pv</sub></td>
+ <td  align='left' id="eqzs">——</td>
+ <td id="eqzs">单肢竖向预应力钢筋的截面面积；</td>
+ </tr> 
+ <tr>
+ <td align='right' id="eqzs" > </td>
+ <td  align='right' id="eqzs"><i>S</i><sub>p</sub></td>
+ <td  align='left' id="eqzs">——</td>
+ <td id="eqzs">竖向预应力钢筋的间距；</td>
+ </tr> 
+ <tr>
+ <td align='right' id="eqzs" > </td>
+ <td  align='right' id="eqzs"><i>b</i></td>
+ <td  align='left' id="eqzs">——</td>
+ <td id="eqzs">计算主应力点处构件腹板的宽度；</td>
+ </tr> 
+ <tr>
+ <td align='right' id="eqzs" > </td>
+ <td  align='right' id="eqzs"><i>A</i><sub>pb</sub></td>
+ <td  align='left' id="eqzs">——</td>
+ <td id="eqzs">计算截面上同一弯起平面内预应力弯起钢筋的截面面积；</td>
+ </tr> 
+ <tr>
+ <td align='right' id="eqzs" > </td>
+ <td  align='right' id="eqzs"><i>S</i><sub>0</sub>、<i>S</i><sub>n</sub></td>
+ <td  align='left' id="eqzs">——</td>
+ <td id="eqzs">计算主应力点以上(或以下)部分换算截面面积对换算截面重心轴、净截面面积对净截面重心轴的面积矩； </td>
+ </tr> 
+ <tr>
+ <td align='right' id="eqzs" > </td>
+ <td  align='right' id="eqzs"><i>θ</i><sub>p</sub></td>
+ <td  align='left' id="eqzs">——</td>
+ <td id="eqzs">计算截面上预应力弯起钢筋的切线与构件纵轴线的夹角。 </td>
+ </tr>         
+ </table>
+ <p>注：公式(6.3.3-1)、(6.3.3-2)中的<math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mi>σ</mi><mrow><mrow><mi mathvariant="normal">c</mi><mi mathvariant="normal">x</mi></mrow></mrow></msub><mo>、</mo><msub><mi>σ</mi><mrow><mrow><mi mathvariant="normal">c</mi><mi mathvariant="normal">y</mi></mrow></mrow></msub><mo>、</mo><msub><mi>σ</mi><mrow><mrow><mi mathvariant="normal">p</mi><mi mathvariant="normal">c</mi></mrow></mrow></msub><mo>和</mo><mstyle displaystyle="true" scriptlevel="0"><mfrac><mrow><msub><mi>M</mi><mrow><mrow><mi mathvariant="normal">s</mi></mrow></mrow></msub><msub><mrow><mi mathvariant="normal">y</mi></mrow><mrow><mn>0</mn></mrow></msub></mrow><msub><mi>I</mi><mrow><mn>0</mn></mrow></msub></mfrac></mstyle></math>,为压应力时以正号代入，为拉应力时以负号代入。</p>
+
+6.4 裂缝宽度验算
 ---------------------------
 
 .. raw:: html
 
- <p style="text-align:justify"><a href="#id6.4.1"> 6.4.1</a> <span id="id6.3.1"> 钢拱桥评定指标及分级评定标准</span></p>
-  <ol>
- <li>涂层劣化评定标准见<a href="https://jtg-h21.readthedocs.io/zh/latest/05.html#B5.2.1-1">表5.2.1-1</a>。</li>
- <li>锈蚀评定标准见<a href="https://jtg-h21.readthedocs.io/zh/latest/05.html#B5.2.1-2">表5.2.1-2</a>。</li>
- <li>焊缝开裂评定标准见<a href="https://jtg-h21.readthedocs.io/zh/latest/05.html#B5.2.1-3">表5.2.1-3</a>。</li>
- <li>铆钉（螺栓）损失评定标准见<a href="https://jtg-h21.readthedocs.io/zh/latest/05.html#B5.2.1-4">表5.2.1-4</a>。</li>
- <li>构件裂缝评定标准见<a href="https://jtg-h21.readthedocs.io/zh/latest/05.html#B5.2.1-5">表5.2.1-5</a>。</li>
- <li>跨中挠度评定标准见<a href="https://jtg-h21.readthedocs.io/zh/latest/05.html#B5.2.1-6">表5.2.1-6</a>。</li>
- <li>构件变形评定标准见<a href="https://jtg-h21.readthedocs.io/zh/latest/05.html#B5.2.1-7">表5.2.1-7</a>。</li>
- <li>结构变位评定标准见<a href="https://jtg-h21.readthedocs.io/zh/latest/05.html#B5.2.1-8">表5.2.1-8</a>。</li>
- <li>拱脚位移评定标准见<a href="#B6.4.1-1">表6.4.1-1</a>。</li>
- </ol>
+ <p style="text-align:justify"><a href="#id6.4.1"> 6.4.1</a> <span id="id6.4.1"> 钢筋混凝土和 B类预应力混凝土构件应按作用频遇组合并考虑长期效应的影响验算裂缝宽度。</span></p>
+ <p style="text-align:justify"><a href="#id6.4.2"> 6.4.2</a> <span id="id6.4.2"> 各类环境中，钢筋混凝土和B类预应力混凝土构件的最大裂缝宽度计算值不应超过<a href="#B6.4.2">表6.4.2</a>规定的限值</span></p>
 
-   <table id="biaoge" style="font-family:times new roman">
+.. raw:: html
 
-     <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="B6.4.1-1">表6.4.1-1 拱脚位移</b></caption>	
+      <style>
+     #biaoge {
+         border: 2px solid black;
+         border-collapse: collapse;
+         margin-bottom:1px;
+        
+      }
+      th, td {
+         padding-top: 5px;
+         padding-bottom:5px;
+         padding-left:5px;
+         padding-right:5px;
+         border: 1px solid black;
+         
+      }
+      #eqzs {
+         border: 0px;
+      }
+      #dhbg {
+        vertical-align: middle;
+      }
+     </style>
+
+		<table id="biaoge" style="font-family:times new roman">
+
+         <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="B6.4.2">表6.4.2 最大裂缝宽度限值</b></caption>	
               
-		    <tr>
-		      <td  align="center" width=60px rowspan="2" id="dhbg">标度</td>
-		      <td  align="center" width=840px>评定指标</td>
- 		    </tr> 
-        <tr> 
-         <!-- <td></td> -->       
-				 <td  align="center">定性描述</td>
-		    </tr>
-  		  <tr>
-		     <td align="center">1</td>
-		     <td align="left">完好</td>
-		    </tr> 
-  		  <tr>
-		     <td align="center">2</td>
-		     <td align="center">—</td>
-		    </tr>
-  		  <tr>
-		     <td align="center">3</td>
-		     <td align="center">—</td>
-		    </tr> 
-        <tr>
-		     <td align="center">4</td>
-		     <td align="left">拱脚出现滑动、位移，导致桥面线形或拱线形异常</td>
-		    </tr>
-        <tr>
-		     <td align="center">5</td>
-		     <td align="left">拱脚不稳定，出现严重错台、滑动，位移现象，造成拱顶挠度大于限值或拱圈严重变形，桥面线形或拱线形明显异常</td>
-		    </tr>        
-  		</table> 
-      <p> </p>
+		 <tr>
+		 <td  align="center" rowspan="2" id="dhbg" width="300px">环境类别</td>
+		 <td  align="center" colspan="2">最大裂缝宽度限值(mm)</td>
+         <!-- <td></td> -->
+		 </tr>
+		 <tr>
+		  <!-- <td></td> -->
+		 <td align="center" id="dhbg" width="300px">钢筋混凝土构件、采用预应力螺纹钢筋的B类预应力混凝土构件</td>
+         <td align="center" id="dhbg" width="300px">采用钢丝或钢绞线的B类预应力混凝土构件</td>
+		 </tr>
+		 <tr>
+		 <td align="center" id="dhbg" >I类—一般环境</td>
+		 <td align="center" id="dhbg" >0.20</td>
+         <td align="center" id="dhbg" >0.10</td>
+		 </tr>	
+		 <tr>
+		 <td align="center" id="dhbg" >Ⅱ类—冻融环境</td>
+		 <td align="center" id="dhbg" >0.20</td>
+         <td align="center" id="dhbg" >0.10</td>
+		 </tr>	
+		 <tr>
+		 <td align="center" id="dhbg" >Ⅲ类—近海或海洋氯化物环境</td>
+		 <td align="center" id="dhbg" >0.15</td>
+         <td align="center" id="dhbg" >0.10</td>
+		 </tr>	
+		 <tr>
+		 <td align="center" id="dhbg" >IV类—除冰盐等其他氯化物环境</td>
+		 <td align="center" id="dhbg" >0.15</td>
+         <td align="center" id="dhbg" >0.10</td>
+		 </tr>	
+		 <tr>
+		 <td align="center" id="dhbg" >V类—盐结晶环境</td>
+		 <td align="center" id="dhbg" >0.10</td>
+         <td align="center" id="dhbg" >禁止使用</td>
+		 </tr>	
+		 <tr>
+		 <td align="center" id="dhbg" >VI类—化学腐蚀环境</td>
+		 <td align="center" id="dhbg" >0.15</td>
+         <td align="center" id="dhbg" >0.10</td>
+		 </tr>	
+		 <tr>
+		 <td align="center" id="dhbg" >VII类—磨蚀环境</td>
+		 <td align="center" id="dhbg" >0.20</td>
+         <td align="center" id="dhbg" >0.10</td>
+		 </tr>	
+		</table>
+ <p></p>
+
+ <p style="text-align:justify"><a href="#id6.4.3"> 6.4.3</a> <span id="id6.4.3"> 钢筋混凝土构件和 B类预应力混凝土受弯构件，其最大裂缝宽度<i>W</i><sub>cr</sub>(mm)可按下式计算：(修编)</span></p> 
+
+$$W_{\\mathrm{cr}}=C_{1}C_{2}C_{3}\\dfrac{\\sigma _{\\mathrm{ss}}}{E_{\\mathrm{s}}}\\left ( \\dfrac{c+d}{0.30+1.4\\rho_{\\mathrm{te} }} \\right ) \\tag{6.4.3}$$ 
+
+
+.. raw:: html
+
+ <table border="0" style="font-family:times new roman" id="gongshi">
+ <tr>
+ <td width="70px" align='center' id="eqzs">式中:</td>
+ <td width="120px" align='right' id="eqzs"><i>C</i><sub>1</sub></td>
+ <td width="40px" align='left' id="eqzs">——</td>
+ <td id="eqzs">钢筋表面形状系数，对光面钢筋，<i>C</i><sub>1</sub>=1.40;对带肋钢筋，<i>C</i><sub>1</sub>=1.00;对环氧树脂涂层带肋钢筋，<i>C</i><sub>1</sub>=1.15;</td>
+ </tr>
+ <tr>
+ <td align='right' id="eqzs" > </td>
+ <td  align='right' id="eqzs"><i>C</i><sub>2</sub></td>
+ <td  align='left' id="eqzs">——</td>
+ <td id="eqzs">长期效应影响系数，<math xmlns="http://www.w3.org/1998/Math/MathML" ><msub><mi>C</mi><mrow><mn>2</mn></mrow></msub><mo>=</mo><mn>1</mn><mo>+</mo><mn>0.5</mn><mstyle displaystyle="true" scriptlevel="0"><mfrac><msub><mi>M</mi><mrow><mi>l</mi></mrow></msub><msub><mi>M</mi><mrow><mrow><mi mathvariant="normal">s</mi></mrow></mrow></msub></mfrac></mstyle></math>,其中<i>M</i><sub>l</sub>和<i>M</i><sub>s</sub>分别为按本规范<a href="#id6.3.2">第6.3.2条</a>的作用准永久组合和作用频遇组合计算的弯矩设计值(或轴力设计值);</td>
+ </tr>
+ <tr>
+ <td align='right' id="eqzs" colspan="2"><i>C</i><sub>3</sub></td>
+ <!-- <td></td> -->
+ <td  align='left' id="eqzs">——</td>
+ <td id="eqzs">与构件受力性质有关的系数，当为钢筋混凝土板式受弯构件时，<i>C</i><sub>3</sub>=1.15,其他受弯构件<i>C</i><sub>3</sub>=1.0,轴心受拉构件<i>C</i><sub>3</sub>=1.2,偏心受拉构件<i>C</i><sub>3</sub>=1.1,圆形截面偏心受压构件<i>C</i><sub>3</sub>=0.75,其他截面偏心受压构件<i>C</i><sub>3</sub>=0.9;</td>
+ </tr>
+ <tr>
+ <td align='right' id="eqzs" > </td>
+ <td  align='right' id="eqzs"><i>σ</i><sub>ss</sub></td>
+ <td  align='left' id="eqzs">——</td>
+ <td id="eqzs">钢筋应力，按本规范<a href="#id6.4.4">第6.4.4条</a>计算；</td>
+ </tr>
+ <tr>
+ <td align='right' id="eqzs" > </td>
+ <td  align='right' id="eqzs"><i>c</i></td>
+ <td  align='left' id="eqzs">——</td>
+ <td id="eqzs">最外排纵向受拉钢筋的混凝土保护层厚度(mm),当<i>c</i>>50 mm时，取 50m m;</td>
+ </tr>
+ <tr>
+ <td align='right' id="eqzs" > </td>
+ <td  align='right' id="eqzs"><i>d</i></td>
+ <td  align='left' id="eqzs">——</td>
+ <td id="eqzs">纵向受拉钢筋直径(mm);当用不同直径的钢筋时，<i>d</i>改用换算直径<i>d</i><sub>e</sub>,<math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mi>d</mi><mrow><mrow><mi mathvariant="normal">e</mi></mrow></mrow></msub><mo>=</mo><mstyle displaystyle="true" scriptlevel="0"><mfrac><mrow><mo data-mjx-texclass="OP">∑</mo><msub><mi>n</mi><mrow><mrow><mi mathvariant="normal">i</mi></mrow></mrow></msub><msubsup><mi>d</mi><mrow><mrow><mi mathvariant="normal">i</mi></mrow></mrow><mn>2</mn></msubsup></mrow><mrow><mo data-mjx-texclass="OP">∑</mo><msub><mi>n</mi><mrow><mrow><mi mathvariant="normal">i</mi></mrow></mrow></msub><msub><mi>d</mi><mrow><mrow><mi mathvariant="normal">i</mi></mrow></mrow></msub></mrow></mfrac></mstyle></math>,式中<i>n</i><sub>i</sub>为受拉区第<i>i</i>种钢筋的根数，<i>d</i><sub>i</sub>为受拉区第<i>i</i>种钢筋的直径，按<a href="#B6.4.3">表6.4.3</a>取值；对于9.3.11条的焊接钢筋骨架，公式(6.4.3-1)中的<i>d</i>或<i>d</i><sub>e</sub>应乘以1.3 系数；</td>
+ </tr> 
+ <tr>
+ <td align='right' id="eqzs" > </td>
+ <td  align='right' id="eqzs"><i>ρ</i><sub>te</sub></td>
+ <td  align='left' id="eqzs">——</td>
+ <td id="eqzs">纵向受拉钢筋的有效配筋率，按本规范<a href="#id6.4.5">第6.4.5条</a>计算，当<i>ρ</i><sub>te</sub>>0.1时，取<i>ρ</i><sub>te</sub>=0.1;当<i>ρ</i><sub>te</sub> <0.01时，取<i>ρ</i><sub>te</sub>=0.01。</td>
+ </tr> 
+ </table>
+ <p></p>
+ 		<table id="biaoge" style="font-family:times new roman">
+
+         <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="B6.4.3">表6.4.3 受拉区钢筋直径<i>d</i><sub>i</sub></b></caption>	
+              
+		 <tr>
+		 <td  align="center"id="dhbg" width="180px">受拉区钢筋种类</td>
+		 <td  align="center"id="dhbg" width="180px">单根普通钢筋</td>
+         <td  align="center"id="dhbg" width="180px">普通钢筋的束筋</td>
+		 <td  align="center"id="dhbg" width="180px">钢绞线束</td>
+		 <td  align="center"id="dhbg" width="180px">钢丝束</td> 
+		 </tr>
+		 <tr>
+		 <td align="center" id="dhbg" ><i>d</i><sub>i</sub>取值</td>
+		 <td align="center" id="dhbg" >公称直径<i>d</i></td>
+         <td align="center" id="dhbg" >等代直径<i>d</i><sub>se</sub></td>
+		 <td align="center" id="dhbg" colspan="2">等代直径<i>d</i><sub>pe</sub></td>
+          <!-- <td></td> -->		 
+		 </tr>	
+		</table>
+ <p style="text-indent:2em;" ><font size="2">注：1.<math xmlns="http://www.w3.org/1998/Math/MathML" ><msub><mi>d</mi><mrow><mrow><mi mathvariant="normal">s</mi><mi mathvariant="normal">e</mi></mrow></mrow></msub><mo>=</mo><msqrt><mi>n</mi></msqrt><mi>d</mi></math>，<i>n</i>为组成束筋的普通钢筋根数，<i>d</i>为单根普通钢筋公称直径。<br>
+  &emsp;&emsp; &emsp;&emsp; &emsp;&nbsp;2.<i>n</i><math xmlns="http://www.w3.org/1998/Math/MathML" ><msub><mi>d</mi><mrow><mrow><mi mathvariant="normal">p</mi><mi mathvariant="normal">e</mi></mrow></mrow></msub><mo>=</mo><msqrt><mi>n</mi></msqrt><msub><mi>d</mi><mrow><mrow><mi mathvariant="normal">p</mi></mrow></mrow></msub></math>，<i>n</i>为钢丝束中钢丝根数或钢绞线束中钢绞线根数，<i>d</i><sub>p</sub>为单根钢丝或钢绞线公称直径。</font></p>
+ <p style="text-align:justify;text-indent:2em;" >当矩形、T形和I形截面偏心受压构件满足<math xmlns="http://www.w3.org/1998/Math/MathML" ><msub><mi>e</mi><mrow><mn>0</mn></mrow></msub><mrow><mo>/</mo></mrow><mi>h</mi><mo>⩽</mo><mn>0.55</mn></math>,或圆形截面偏心受压构件满足<math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mi>e</mi><mrow><mn>0</mn></mrow></msub><mrow><mo>/</mo></mrow><mi>r</mi><mo>⩽</mo><mn>0.55</mn></math>时，可不进行裂缝宽度验算。</p>
+ <p style="text-align:justify"><a href="#id6.4.4"> 6.4.4</a> <span id="id6.4.4"> 由作用频遇组合引起的开裂截面纵向受拉钢筋的应力<i>σ</i><sub>ss</sub>可按下列公式计算：(修编)</span></p> 
+
+ <p style="text-align:justify;text-indent:2em;" > 1 矩形、T形和I形截面的钢筋混凝土构件</p>
+
+$$ 轴心受拉构件\\hspace{4.5cm} \\sigma _{\\mathrm{ss} }=\\dfrac{N_{\\mathrm{s} }}{A_{\\mathrm{s} }}\\tag{6.4.4-1}$$ 
+$$ 受弯构件 \\hspace{4cm}\\sigma _{\\mathrm{ss} }=\\dfrac{M_{\\mathrm{s} }}{0.87A_{\\mathrm{s}}h_{0}}\\tag{6.4.4-2}$$ 
+$$ 偏心受拉构件 \\hspace{2.6cm}\\sigma _{\\mathrm{ss} }=\\dfrac{N_{\\mathrm{s}}e^{'}_{\\mathrm{s} }}{A_{\\mathrm{s}}(h_{0}-\\alpha ^{'}_{\\mathrm{s}})}\\tag{6.4.4-3}$$ 
+$$ 偏心受压构件 \\hspace{3cm}\\sigma _{\\mathrm{ss} }=\\dfrac{N_{\\mathrm{s}}(e_{\\mathrm{s} }-z)}{A_{\\mathrm{s}}z}\\tag{6.4.4-4}$$ 
+$$ z=\\left [ 0.87-0.12(1-\\gamma ^{'}_{\\mathrm{f} })\\left ( \\dfrac{h_{0}}{e_{s}} \\right )^{2}\\right ]h_{0} \\tag{6.4.4-5}$$ 
+$$ e_{\\mathrm{s} }=\\eta_{\\mathrm{s} }e_{0}+\\mathrm{y} _{\\mathrm{s} }\\tag{6.4.4-6}$$ 
+$$ \\gamma^{'}_{\\mathrm{f}}=\\dfrac{(b^{'}_{\\mathrm{f}}-b)h^{'}_{\\mathrm{f}}}{bh_{0}}\\tag{6.4.4-7}$$ 
+$$ \\eta_{\\mathrm{s}}=1+\\dfrac{1}{4000e_{0}/h_{0}}\\left ( \\dfrac{l_{0}}{h} \\right )^{2} \\tag{6.4.4-8}$$ 
+
+
+.. raw:: html
+
+ <table border="0" style="font-family:times new roman" id="gongshi">
+ <tr>
+ <td width="70px" align='center' id="eqzs">式中:</td>
+ <td width="120px" align='right' id="eqzs"><i>A</i><sub>s</sub></td>
+ <td width="40px" align='left' id="eqzs">——</td>
+ <td id="eqzs">受拉区纵向钢筋截面面积：轴心受拉构件取全部纵向钢筋截面面积；受弯、偏心受拉及大偏心受压构件取受拉区纵向钢筋截面面积或受拉较大一侧的钢筋截面面积；</td>
+ </tr>
+ <tr>
+ <td align='right' id="eqzs" > </td>
+ <td  align='right' id="eqzs"><i>e'</i><sub>s</sub></td>
+ <td  align='left' id="eqzs">——</td>
+ <td id="eqzs">轴向拉力作用点至受压区或受拉较小边纵向钢筋合力点的距离；</td>
+ </tr>
+ <tr>
+ <td align='right' id="eqzs" > </td>
+ <td  align='right' id="eqzs"><i>e</i><sub>s</sub></td>
+ <td  align='left' id="eqzs">——</td>
+ <td id="eqzs">轴向压力作用点至纵向受拉钢筋合力点的距离；</td>
+ </tr> 
+ <tr>
+ <td align='right' id="eqzs" > </td>
+ <td  align='right' id="eqzs"><i>z</i></td>
+ <td  align='left' id="eqzs">——</td>
+ <td id="eqzs">纵向受拉钢筋合力点至截面受压区合力点的距离，且不大于0.87<i>h</i><sub>0</sub>;</td>
+ </tr>
+ <tr>
+ <td align='right' id="eqzs" > </td>
+ <td  align='right' id="eqzs"><i>η</i><sub>s</sub></td>
+ <td  align='left' id="eqzs">——</td>
+ <td id="eqzs">轴向压力的正常使用极限状态偏心距增大系数，当<i>l</i><sub>0</sub>/<i>h</i>≤14时，取 <i>η</i><sub>s</sub>=1.0;</td>
+ </tr>
+ <tr>
+ <td align='right' id="eqzs" > </td>
+ <td  align='right' id="eqzs"><i>y</i><sub>s</sub></td>
+ <td  align='left' id="eqzs">——</td>
+ <td id="eqzs">截面重心至纵向受拉钢筋合力点的距离；</td>
+ </tr> 
+ <tr>
+ <td align='right' id="eqzs" > </td>
+ <td  align='right' id="eqzs"><i>γ '</i><sub>f</sub></td>
+ <td  align='left' id="eqzs">——</td>
+ <td id="eqzs">受压翼缘截面面积与腹板有效截面面积的比值；</td>
+ </tr> 
+ <tr>
+ <td align='right' id="eqzs" > </td>
+ <td  align='right' id="eqzs"><i>b '</i><sub>f</sub>、<i>h '</i><sub>f</sub></td>
+ <td  align='left' id="eqzs">——</td>
+ <td id="eqzs">压区翼缘的宽度、厚度，在公式(6.4.4-7)中，当<i>h '</i><sub>f</sub>>0.2<i>h</i><sub>0</sub>时，取 <i>h '</i><sub>f</sub>=0.2<i>h</i><sub>0</sub>;</td>
+ </tr>
+ <tr>
+ <td align='right' id="eqzs" > </td>
+ <td  align='right' id="eqzs"><i>N</i><sub>s</sub>、<i>M</i><sub>s</sub></td>
+ <td  align='left' id="eqzs">——</td>
+ <td id="eqzs">按作用频遇组合计算的轴向力值、弯矩值。</td>
+ </tr>    
+ </table>
+ <p></p>
+
+ <p style="text-align:justify;text-indent:2em;" > 2 圆形截面的钢筋混凝土偏心受压构件</p>
+
+$$ \\sigma _{\\mathrm{ss} }=\\dfrac{0.6\\left ( \\dfrac{\\eta_{\\mathrm{s}}e_{0}}{r} \\right )^{3} }{\\left ( 0.45+0.26\\dfrac{r_{\\mathrm{s} }}{r} \\right )\\left ( \\dfrac{\\eta_{\\mathrm{s} }e_{0}}{r}+0.2 \\right )^{2}}\\dfrac{N_{\\mathrm{s}}}{A_{\\mathrm{s}}}\\tag{6.4.4-9}$$ 
+$$ \\eta_{\\mathrm{s}}=1+\\dfrac{1}{4000\\dfrac{e_{0}}{2r-\\alpha _{\\mathrm{s}}}}\\left ( \\dfrac{l_{0}}{2r} \\right )^{2} \\tag{6.4.4-10}$$ 
+
+
+.. raw:: html
+
+ <table border="0" style="font-family:times new roman" id="gongshi">
+ <tr>
+ <td width="70px" align='center' id="eqzs">式中:</td>
+ <td width="50px" align='right' id="eqzs"><i>A</i><sub>s</sub></td>
+ <td width="40px" align='left' id="eqzs">——</td>
+ <td id="eqzs">受全部纵向钢筋截面面积；</td>
+ </tr>
+ <tr>
+ <td align='right' id="eqzs" > </td>
+ <td  align='right' id="eqzs"><i>N</i><sub>s</sub></td>
+ <td  align='left' id="eqzs">——</td>
+ <td id="eqzs">按作用频遇组合计算的轴向力值；</td>
+ </tr>
+ <tr>
+ <td align='right' id="eqzs" > </td>
+ <td  align='right' id="eqzs"><i>r</i><sub>s</sub></td>
+ <td  align='left' id="eqzs">——</td>
+ <td id="eqzs">纵向钢筋重心所在圆周的半径;</td>
+ </tr>
+ <tr>
+ <td align='right' id="eqzs" > </td>
+ <td  align='right' id="eqzs"><i>r</i></td>
+ <td  align='left' id="eqzs">——</td>
+ <td id="eqzs">圆形截面的半径；</td>
+ </tr>
+ <tr>
+ <td align='right' id="eqzs" > </td>
+ <td  align='right' id="eqzs"><i>e</i><sub>0</sub></td>
+ <td  align='left' id="eqzs">——</td>
+ <td id="eqzs">构件初始偏心距；</td>
+ </tr> 
+ <tr>
+ <td align='right' id="eqzs" > </td>
+ <td  align='right' id="eqzs"><i>α</i><sub>s</sub></td>
+ <td  align='left' id="eqzs">——</td>
+ <td id="eqzs">单根钢筋中心到构件边缘的距离；</td>
+ </tr> 
+ <tr>
+ <td align='right' id="eqzs" > </td>
+ <td  align='right' id="eqzs"><i>η</i><sub>s</sub></td>
+ <td  align='left' id="eqzs">——</td>
+ <td id="eqzs"> 轴向压力的正常使用极限状态偏心距增大系数，当<math xmlns="http://www.w3.org/1998/Math/MathML" ><mstyle displaystyle="true" scriptlevel="0"><mfrac><msub><mi>l</mi><mrow><mn>0</mn></mrow></msub><mrow><mn>2</mn><mi>r</mi></mrow></mfrac></mstyle><mo>⩽</mo><mn>14.0</mn></math>时，取<i>η</i><sub>s</sub>=1.0。</td>
+ </tr>
+ </table>
+ <p></p>
+
+
+ <p style="text-align:justify;text-indent:2em;" >3 B类预应力混凝土受弯构件</p>
+
+$$ \\sigma _{\\mathrm{ss} }=\\dfrac{M_{\\mathrm{s}}\\pm M_{\\mathrm{p2}}-N_{\\mathrm{p0}}(z-e_{\\mathrm{p} })}{(A_{\\mathrm{p}}+A_{\\mathrm{s}})z}\\tag{6.4.4-11}$$ 
+$$ e=e_{\\mathrm{p} }+\\dfrac{M_{\\mathrm{s} }\\pm M_{\\mathrm{p2} }}{N_{\\mathrm{p0}}}\\tag{6.4.4-12}$$ 
+
+
+.. raw:: html
+
+ <table border="0" style="font-family:times new roman" id="gongshi">
+ <tr>
+ <td width="70px" align='center' id="eqzs">式中:</td>
+ <td width="50px" align='right' id="eqzs"><i>z</i></td>
+ <td width="40px" align='left' id="eqzs">——</td>
+ <td id="eqzs">受拉区纵向普通钢筋和预应力钢筋合力点至截面受压区合力点的距离，按公式(6.4.4-5)计算，但式中的<i>e</i><sub>s</sub>以公式(6.4.4-12)的<i>e</i>代入；</td>
+ </tr>
+ <tr>
+ <td align='right' id="eqzs" > </td>
+ <td  align='right' id="eqzs"><i>e</i><sub>p</sub></td>
+ <td  align='left' id="eqzs">——</td>
+ <td id="eqzs">混凝土法向应力等于零时纵向预应力钢筋和普通钢筋的合力Npo的作用点至受拉区纵向预应力钢筋和普通钢筋合力点的距离；</td>
+ </tr> 
+ <tr>
+ <td align='right' id="eqzs" > </td>
+ <td  align='right' id="eqzs"><i>N</i><sub>p0</sub></td>
+ <td  align='left' id="eqzs">——</td>
+ <td id="eqzs">混凝土法向应力等于零时预应力钢筋和普通钢筋的合力，先张法构件和后张法构件均按公式(6.1.7-1)计算，该式中的<i>σ</i><sub>p0</sub>和<i>σ '</i><sub>p0</sub>,先张法构件按公式(6.1.6-2)计算；后张法构件按公式(6.1.6-5)计算；</td>
+ </tr> 
+ <tr>
+ <td align='right' id="eqzs" > </td>
+ <td  align='right' id="eqzs"><i>M</i><sub>p2</sub></td>
+ <td  align='left' id="eqzs">——</td>
+ <td id="eqzs"> 由预加力<i>N</i><sub>p</sub>在后张法预应力混凝土连续梁等超静定结构中产生的次弯矩。</td>
+ </tr>
+ </table>
+
+ <p>注：在公式(6.4.4-11)、(6.4.4-12)中，当Mp?与M,的作用方向相同时，取正号；相反时，取负号。</p>
+
+
+ <p style="text-align:justify"><a href="#id6.4.5"> 6.4.5</a> <span id="id6.4.5"> 纵向受拉钢筋的有效配筋率<i>ρ</i><sub>te</sub>按下列公式计算：</span></p> 
+
+ <p style="text-align:justify;text-indent:2em;" >1 矩形、T形和I形截面构件</p>
+
+$$ \\rho=\\dfrac{A_{\\mathrm{s} }}{A_{\\mathrm{te} }}\\tag{6.4.5-1}$$ 
+
+
+.. raw:: html
+
+ <table border="0" style="font-family:times new roman" id="gongshi">
+ <tr>
+ <td width="70px" align='center' id="eqzs">式中:</td>
+ <td width="50px" align='right' id="eqzs"><i>A</i><sub>s</sub></td>
+ <td width="40px" align='left' id="eqzs">——</td>
+ <td id="eqzs">受拉区纵向钢筋截面面积：轴心受拉构件取全部纵向钢筋截面面积；受弯、偏心受拉及大偏心受压构件取受拉区纵向钢筋截面面积或受拉较大一侧的钢筋截面面积；</td>
+ </tr>
+ <tr>
+ <td align='right' id="eqzs" > </td>
+ <td  align='right' id="eqzs"><i>A</i><sub>te</sub></td>
+ <td  align='left' id="eqzs">——</td>
+ <td id="eqzs">有效受拉混凝土截面面积：轴心受拉构件取构件截面面积；受弯、偏心受拉、偏心受压构件取2<i>α</i><sub>s</sub><i>b</i>,<i>α</i><sub>s</sub>为受拉钢筋重心至受拉区边缘的距离，对矩形截面，<i>b</i>为截面宽度，对翼缘位于受拉区的T形、I形截面，<i>b</i>为受拉区有效翼缘宽度。</td>
+ </tr> 
+
+ </table>
+ <p> </p>
+
+ <p style="text-align:justify;text-indent:2em;" >2 圆形截面构件</p>
+
+$$\\rho_{\\mathrm{te}} =\\dfrac{\\beta A_{\\mathrm{s} }}{\\pi(r^{2}-r^{2}_{1})}\\tag{6.4.5-2}$$ 
+$$r_{1}=r-2\\alpha _{\\mathrm{s} }\\tag{6.4.5-3}$$ 
+$$\\beta=(0.4+2.5\\rho)\\left [ 1+0.353\\left ( \\dfrac{\\eta_{\\mathrm{s} }e_{0}}{r} \\right )^{-2}  \\right ] \\tag{6.4.5-4}$$ 
+$$\\rho=\\dfrac{A_{\\mathrm{s} }}{\\pi r^{2}}\\tag{6.4.5-5}$$ 
+
+.. raw:: html
+
+ <table border="0" style="font-family:times new roman" id="gongshi">
+ <tr>
+ <td width="70px" align='center' id="eqzs">式中:</td>
+ <td width="50px" align='right' id="eqzs"><i>β</i></td>
+ <td width="40px" align='left' id="eqzs">——</td>
+ <td id="eqzs">构件纵向受拉钢筋对裂缝贡献的系数；</td>
+ </tr>
+ <tr>
+ <td align='right' id="eqzs" > </td>
+ <td  align='right' id="eqzs"><i>A</i><sub>s</sub></td>
+ <td  align='left' id="eqzs">——</td>
+ <td id="eqzs">全部纵向钢筋截面面积；</td>
+ </tr> 
+ <tr>
+ <td align='right' id="eqzs" > </td>
+ <td  align='right' id="eqzs"><i>r</i><sub>1</sub></td>
+ <td  align='left' id="eqzs">——</td>
+ <td id="eqzs">圆形截面半径与单根钢筋中心到构件边缘2倍距离的差值；</td>
+ </tr>
+ <tr>
+ <td align='right' id="eqzs" > </td>
+ <td  align='right' id="eqzs"><i>ρ</i></td>
+ <td  align='left' id="eqzs">——</td>
+ <td id="eqzs">纵向钢筋配筋率。</td>
+ </tr>   
+ </table>
+ <p> </p>
+
+
+
+6.5 挠度验算
+-----------------------------
+
+.. raw:: html
+
+ <p style="text-align:justify"><a href="#id6.5.1"> 6.5.1</a> <span id="id6.5.1"> 钢筋混凝土和预应力混凝土受弯构件的挠度可根据给定的构件刚度用结构力学的方法计算。</span></p> 
+ <p style="text-align:justify"><a href="#id6.5.2"> 6.5.2</a> 受弯构件的刚度可按下式计算：<span id="id6.5.2">  </span></p>
+ <p style="text-align:justify;text-indent:2em;" >1 钢筋混凝土构件</p>
+
+$$M_{\\mathrm{s} }\\geqslant M_{\\mathrm{cr}}时\\hspace{1cm}B=\\dfrac{B_{0}}{\\left ( \\dfrac{M_{\\mathrm{cr}}}{M_{\\mathrm{s}}} \\right )^{2}+\\left [ 1- \\left ( \\dfrac{M_{\\mathrm{cr}}}{M_{\\mathrm{s}}} \\right )^{2}\\right ]\\dfrac{B_{0}}{B_{\\mathrm{cr} }}}\\tag{6.5.2-1}$$ 
+$$M_{\\mathrm{s} }< M_{\\mathrm{cr}}时\\hspace{4cm}B=B_{0}\\hspace{4cm}\\tag{6.5.2-2}$$ 
+$$ M_{\\mathrm{cr}}=\\gamma f_{\\mathrm{tk} }W_{0}\\tag{6.5.2-3}$$ 
+
+.. raw:: html
+
+ <table border="0" style="font-family:times new roman" id="gongshi">
+ <tr>
+ <td width="70px" align='center' id="eqzs">式中:</td>
+ <td width="50px" align='right' id="eqzs"><i>B</i></td>
+ <td width="40px" align='left' id="eqzs">——</td>
+ <td id="eqzs">开裂构件等效截面的抗弯刚度；</td>
+ </tr>
+ <tr>
+ <td align='right' id="eqzs" > </td>
+ <td  align='right' id="eqzs"><i>B</i><sub>0</sub></td>
+ <td  align='left' id="eqzs">——</td>
+ <td id="eqzs">全截面的抗弯刚度，<i>B</i><sub>0</sub>=0.95<i>E</i><sub>c</sub><i>I</i><sub>0</sub>;</td>
+ </tr> 
+ <tr>
+ <td align='right' id="eqzs" > </td>
+ <td  align='right' id="eqzs"><i>B</i><sub>cr</sub></td>
+ <td  align='left' id="eqzs">——</td>
+ <td id="eqzs">开裂截面的抗弯刚度，<i>B</i><sub>cr</sub>=<i>E</i><sub>c</sub><i>I</i><sub>cr</sub>;</td>
+ </tr> 
+ <tr>
+ <td align='right' id="eqzs" > </td>
+ <td  align='right' id="eqzs"><i>M</i><sub>s</sub></td>
+ <td  align='left' id="eqzs">——</td>
+ <td id="eqzs"> 按作用频遇组合计算的弯矩值；</td>
+ </tr>
+ <tr>
+ <td align='right' id="eqzs" > </td>
+ <td  align='right' id="eqzs"><i>M</i><sub>cr</sub></td>
+ <td  align='left' id="eqzs">——</td>
+ <td id="eqzs"> 开裂弯矩；</td>
+ </tr> 
+ <tr>
+ <td align='right' id="eqzs" > </td>
+ <td  align='right' id="eqzs"><i>γ</i></td>
+ <td  align='left' id="eqzs">——</td>
+ <td id="eqzs"> 构件受拉区混凝土塑性影响系数，按公式(6.5.2-8)计算；</td>
+ </tr> 
+ <tr>
+ <td align='right' id="eqzs" > </td>
+ <td  align='right' id="eqzs"><i>I</i><sub>0</sub></td>
+ <td  align='left' id="eqzs">——</td>
+ <td id="eqzs"> 全截面换算截面惯性矩；</td>
+ </tr> 
+ <tr>
+ <td align='right' id="eqzs" > </td>
+ <td  align='right' id="eqzs"><i>I</i><sub>cr</sub></td>
+ <td  align='left' id="eqzs">——</td>
+ <td id="eqzs"> 开裂截面换算截面惯性矩；</td>
+ </tr>
+ <tr>
+ <td align='right' id="eqzs" > </td>
+ <td  align='right' id="eqzs"><i>f</i><sub>tk</sub></td>
+ <td  align='left' id="eqzs">——</td>
+ <td id="eqzs"> 混凝土轴心抗拉强度标准值。</td>
+ </tr>
+ </table>
+ <p> </p>
+
+ <p style="text-align:justify;text-indent:2em;" >2 预应力混凝土构件</p>
+ <p style="text-align:justify;text-indent:2em;" >1)全预应力混凝土和A类预应力混凝土构件</p>
+ 
+$$B_{0}=0.95E_{\\mathrm{c} }I_{0}\\tag{6.5.2-4}$$ 
+
+.. raw:: html
+
+ <p style="text-align:justify;text-indent:2em;" >2)允许开裂的B类预应力混凝土构件</p>
+
+$$ 在开裂弯矩 M_{\\mathrm{cr}}作用下\\hspace{2.8cm}B_{0}=0.95E_{\\mathrm{c} }I_{0}\\tag{6.5.2-5}$$ 
+$$ 在(M_{\\mathrm{s}}-M_{\\mathrm{cr}})作用下\\hspace{3.5cm}B_{rc}=E_{\\mathrm{c} }I_{\\mathrm{cr} }\\tag{6.5.2-6}$$ 
+
+.. raw:: html
+	
+ <p style="text-align:justify;text-indent:2em;" >开裂弯矩Mer按下式计算：</p>    
+ 
+$$M_{\\mathrm{cr}}=(\\sigma_{\\mathrm{pc}}+\\gamma f_{\\mathrm{tk}})W_{0}\\tag{6.5.2-7}$$ 
+$$\\gamma=\\dfrac{2S_{0}}{W_{0}}\\tag{6.5.2-8}$$ 
+
+.. raw:: html
+
+ <table border="0" style="font-family:times new roman" id="gongshi">
+ <tr>
+ <td width="70px" align='center' id="eqzs">式中:</td>
+ <td width="50px" align='right' id="eqzs"><i>S</i><sub>0</sub></td>
+ <td width="40px" align='left' id="eqzs">——</td>
+ <td id="eqzs">开裂构件等效截面的抗弯刚度；</td>
+ </tr>
+ <tr>
+ <td align='right' id="eqzs" > </td>
+ <td  align='right' id="eqzs"><i>B</i><sub>0</sub></td>
+ <td  align='left' id="eqzs">——</td>
+ <td id="eqzs">全截面换算截面重心轴以上(或以下)部分面积对重心轴的面积矩；</td>
+ </tr> 
+ <tr>
+ <td align='right' id="eqzs" > </td>
+ <td  align='right' id="eqzs"><i>σ</i><sub>pc</sub></td>
+ <td  align='left' id="eqzs">——</td>
+ <td id="eqzs">扣除全部预应力损失预应力钢筋和普通钢筋合力<i>N</i><sub>p0</sub>在构件抗裂边缘产生的混凝土预压应力，先张法构件和后张法构件均按公式(6.1.6-1)计算，但后张法构件采用净截面；该式中的<i>N</i><sub>p0</sub>与<a href="#id6.4.4">第6.4.4条</a>同样办理；</td>
+ </tr> 
+ <tr>
+ <td align='right' id="eqzs" > </td>
+ <td  align='right' id="eqzs"><i>W</i><sub>0</sub></td>
+ <td  align='left' id="eqzs">——</td>
+ <td id="eqzs"> 换算截面抗裂边缘的弹性抵抗矩。</td>
+ </tr>
+ </table>
+ <p> </p> 
+ 
+ <p style="text-align:justify"><a href="#id6.5.3"> 6.5.3</a> <span id="id6.5.3"> 受弯构件在使用阶段的挠度应考虑长期效应的影响，即按荷载频遇组合和第 6.5.2 条规定的刚度计算的挠度值，乘以挠度长期增长系数<i>θθ</i><sub>。挠度长期增长系数可按下列规定取用：</span></p>
+ <p style="text-align:justify;text-indent:2em;" > 当采用C40以下混凝土时，<i>η</i><sub>0</sub>=1.60;</p>
+ <p style="text-align:justify;text-indent:2em;" > 当采用C40~C80 混凝土时，<i>η</i><sub>0</sub>=1.45~1.35,中间强度等级可按直线内插法取值。</p>
+ <p style="text-align:justify;text-indent:2em;" > 钢筋混凝土和预应力混凝土受弯构件按上述计算的长期挠度值，由汽车荷载(不计冲击力)和人群荷载频遇组合在梁式桥主梁产生的最大挠度不应超过计算跨径的 1/600;在梁式桥主梁悬臂端产生的最大挠度不应超过悬臂长度的1/300。</p>
+ <p style="text-align:justify"><a href="#id6.5.4"> 6.5.4</a> <span id="id6.5.4"> 预应力混凝土受弯构件由预加力引起的反拱值，可用结构力学方法按刚度<i>E</i><sub><i>c</i></sub><i>I</i><sub><i>0</i></sub>进行计算，并乘以长期增长系数。计算使用阶段预加力反拱值时，预应力钢筋的预加力应扣除全部预应力损失，长期增长系数取用2.0。</span></p>
+ <p style="text-align:justify"><a href="#id6.5.5"> 6.5.5</a> <span id="id6.5.5"> 受弯构件的预拱度可按下列规定设置：</span></p>
+ <p style="text-align:justify;text-indent:2em;" > 1 钢筋混凝土受弯构件</p>
+ <p style="text-align:justify;text-indent:2em;" > 1)当由荷载频遇组合并考虑长期效应影响产生的长期挠度不超过计算跨径的 1/1600时，可不设预拱度；</p>
+ <p style="text-align:justify;text-indent:2em;" > 2)当不符合上述规定时应设预拱度，且其值可按结构自重和 1/2 可变荷载频遇值计算的长期挠度值之和采用。</p>
+ <p style="text-align:justify;text-indent:2em;" > 2 预应力混凝土受弯构件</p>
+ <p style="text-align:justify;text-indent:2em;" > 1)当预加应力产生的长期反拱值大于按荷载频遇组合计算的长期挠度时，可不设预拱度；</p>
+ <p style="text-align:justify;text-indent:2em;" > 2)当预加应力的长期反拱值小于按荷载频遇组合计算的长期挠度时应设预拱度，其值应按该项荷载的挠度值与预加应力长期反拱值之差采用。</p>
+ <p style="text-align:justify;text-indent:2em;" > 对自重相对于活载较小的预应力混凝土受弯构件，应考虑预加应力反拱值过大可能造成的不利影响，必要时采取反预拱或设计和施工上的其他措施，避免桥面隆起直至开裂破坏。</p>
+ <p style="text-align:justify"><a href="#id6.5.6"> 6.5.6</a> <span id="id6.5.6"> 预应力混凝土受弯构件需计算施工阶段的变形，宜采用有限元方法计算，应根据各施工阶段结构各单元加载龄期 <i>t</i><sub>0<i>i</i></sub> 和计算龄期 <i>t</i><sub><i>i</i></sub> ,按<a href="https://jtg-3362.readthedocs.io/zh/latest/FLC.html">附录C</a>计算各阶段结构收缩、徐变变形增量并累加得到各个阶段结构各个部位的变形值。</span></p>
+
+:math:`\ `

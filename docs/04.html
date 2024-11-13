@@ -4,7 +4,7 @@
   <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>4 桥梁技术状况评定 &mdash; 公路钢筋混凝土及预应力混凝土桥涵设计规范 JTG 3362-2018</title>
+  <title>4 结构设计基本规定 &mdash; 公路钢筋混凝土及预应力混凝土桥涵设计规范 JTG 3362-2018</title>
       <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
       <link rel="stylesheet" href="_static/css/custom.css" type="text/css" />
       <link rel="stylesheet" href="_static/css/custom.css" type="text/css" />
@@ -23,8 +23,8 @@
     <script src="_static/js/theme.js"></script>
     <link rel="index" title="索引" href="genindex.html" />
     <link rel="search" title="搜索" href="search.html" />
-    <link rel="next" title="5 梁式桥上部结构构件技术状况评定" href="05.html" />
-    <link rel="prev" title="3 评定方法及等级分类" href="03.html" /> 
+    <link rel="next" title="5 持久状况承载能力极限状态计算" href="05.html" />
+    <link rel="prev" title="3 材料" href="03.html" /> 
 </head>
 
 <body class="wy-body-for-nav"> 
@@ -44,37 +44,53 @@
         </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="导航菜单">
               <p class="caption" role="heading"><span class="caption-text">目次</span></p>
 <ul class="current">
-<li class="toctree-l1"><a class="reference internal" href="gg.html">中华人民共和国交通运输部公告</a></li>
 <li class="toctree-l1"><a class="reference internal" href="qy.html">前言</a></li>
 <li class="toctree-l1"><a class="reference internal" href="01.html">1 总则</a></li>
 <li class="toctree-l1"><a class="reference internal" href="02.html">2 术语和符号</a></li>
-<li class="toctree-l1"><a class="reference internal" href="03.html">3 评定方法及等级分类</a></li>
-<li class="toctree-l1 current"><a class="current reference internal" href="#">4 桥梁技术状况评定</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="#id2">4.1 桥梁技术状况评定计算</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#id3">4.2 各结构形式桥梁部件分类及权重指</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#id4">4.3 5类桥梁技术状况单项控制指标</a></li>
+<li class="toctree-l1"><a class="reference internal" href="03.html">3 材料</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">4 结构设计基本规定</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#id2">4.1  一般规定(新增)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id3">4.2  板的计算</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id4">4.3 梁的计算</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id5">4.4 拱的计算</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id6">4.5 拱的计算</a></li>
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="05.html">5 梁式桥上部结构构件技术状况评定</a></li>
-<li class="toctree-l1"><a class="reference internal" href="06.html">6 拱式桥上部结构构件技术状况评定</a></li>
-<li class="toctree-l1"><a class="reference internal" href="07.html">7 悬索桥主要构建技术评定状况</a></li>
-<li class="toctree-l1"><a class="reference internal" href="08.html">8 斜拉桥主要构件评定技术状况评定</a></li>
-<li class="toctree-l1"><a class="reference internal" href="09.html">9 桥梁下部结构构件技术状况评定</a></li>
-<li class="toctree-l1"><a class="reference internal" href="10.html">10 桥面系构件技术状况评定</a></li>
-<li class="toctree-l1"><a class="reference internal" href="FLA.html">附录A 桥梁检查评定记录表</a></li>
-<li class="toctree-l1"><a class="reference internal" href="ycsm.html">本标准用此说明</a></li>
+<li class="toctree-l1"><a class="reference internal" href="05.html">5 持久状况承载能力极限状态计算</a></li>
+<li class="toctree-l1"><a class="reference internal" href="06.html">6  持久状况正常使用极限状态计算</a></li>
+<li class="toctree-l1"><a class="reference internal" href="07.html">7  持久状况和短暂状况构件的应力计算</a></li>
+<li class="toctree-l1"><a class="reference internal" href="08.html">8  构件计算的规定</a></li>
+<li class="toctree-l1"><a class="reference internal" href="09.html">9  构造规定</a></li>
+<li class="toctree-l1"><a class="reference internal" href="FLA.html">附录A 桥梁结构的实用精细化分析模型 (新增)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="FLB.html">附录B 拉压杆模型分析方法 (新增)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="FLC.html">附录C 混凝土收缩应变和徐变系数计算及钢筋松弛损失中间值与终极值的比值</a></li>
+<li class="toctree-l1"><a class="reference internal" href="FLD.html">附录D 温差作用效应计算公式</a></li>
+<li class="toctree-l1"><a class="reference internal" href="FLE.html">附录E 受压构件计算长度的简化计算公式 (新增)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="FLF.html">附录F 沿周边均匀配置纵向钢筋的圆形截面钢筋混凝土偏心受压构件正截面抗压承载力计算(新增)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="FLG.html">附录G 预应力曲线钢筋由锚具变形、钢筋回缩和接缝压缩引起的考虑反向摩擦后的预应力损失简化计算</a></li>
+<li class="toctree-l1"><a class="reference internal" href="FLH.html">附录H 后张法预应力混凝土构件弹性压缩损失的简化计算</a></li>
+<li class="toctree-l1"><a class="reference internal" href="FLJ.html">附录J 允许开裂的B类预应力混凝土受弯构件受压区高度计算</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ycsm.html">本规范用词用语说明</a></li>
 </ul>
 <p class="caption" role="heading"><span class="caption-text">条文说明</span></p>
 <ul>
 <li class="toctree-l1"><a class="reference internal" href="twsm/t01.html">1 总则</a></li>
-<li class="toctree-l1"><a class="reference internal" href="twsm/t03.html">3 评定方法及等级分类</a></li>
-<li class="toctree-l1"><a class="reference internal" href="twsm/t04.html">4 桥梁技术状况评定</a></li>
-<li class="toctree-l1"><a class="reference internal" href="twsm/t05.html">5 梁式桥上部结构构件技术状况评定</a></li>
-<li class="toctree-l1"><a class="reference internal" href="twsm/t06.html">6 拱式桥上部结构构件技术状况评定</a></li>
-<li class="toctree-l1"><a class="reference internal" href="twsm/t07.html">7 悬索桥主要构建技术评定状况</a></li>
-<li class="toctree-l1"><a class="reference internal" href="twsm/t08.html">8 斜拉桥主要构件评定技术状况评定</a></li>
-<li class="toctree-l1"><a class="reference internal" href="twsm/t09.html">9 桥梁下部结构构件技术状况评定</a></li>
-<li class="toctree-l1"><a class="reference internal" href="twsm/t10.html">10 桥面系构件技术状况评定</a></li>
+<li class="toctree-l1"><a class="reference internal" href="twsm/t02.html">2 术语和符号</a></li>
+<li class="toctree-l1"><a class="reference internal" href="twsm/t03.html">3 材料</a></li>
+<li class="toctree-l1"><a class="reference internal" href="twsm/t04.html">4 结构设计基本规定</a></li>
+<li class="toctree-l1"><a class="reference internal" href="twsm/t05.html">5 持久状况承载能力极限状态计算</a></li>
+<li class="toctree-l1"><a class="reference internal" href="twsm/t06.html">6  持久状况正常使用极限状态计算</a></li>
+<li class="toctree-l1"><a class="reference internal" href="twsm/t07.html">7  持久状况和短暂状况构件的应力计算</a></li>
+<li class="toctree-l1"><a class="reference internal" href="twsm/t08.html">8  构件计算的规定</a></li>
+<li class="toctree-l1"><a class="reference internal" href="twsm/t09.html">9  构造规定</a></li>
+<li class="toctree-l1"><a class="reference internal" href="twsm/tFLA.html">附录A 桥梁结构的实用精细化分析模型 (新增)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="twsm/tFLB.html">附录B 拉压杆模型分析方法 (新增)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="twsm/tFLC.html">附录C 混凝土收缩应变和徐变系数计算及钢筋松弛损失中间值与终极值的比值</a></li>
+<li class="toctree-l1"><a class="reference internal" href="twsm/tFLD.html">附录D 温差作用效应计算公式</a></li>
+<li class="toctree-l1"><a class="reference internal" href="twsm/tFLE.html">附录E 受压构件计算长度的简化计算公式 (新增)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="twsm/tFLF.html">附录F 沿周边均匀配置纵向钢筋的圆形截面钢筋混凝土偏心受压构件正截面抗压承载力计算(新增)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="twsm/tFLG.html">附录G 预应力曲线钢筋由锚具变形、钢筋回缩和接缝压缩引起的考虑反向摩擦后的预应力损失简化计算</a></li>
+<li class="toctree-l1"><a class="reference internal" href="twsm/tFLJ.html">附录J 允许开裂的B类预应力混凝土受弯构件受压区高度计算</a></li>
 </ul>
 
         </div>
@@ -91,7 +107,7 @@
           <div role="navigation" aria-label="页面导航">
   <ul class="wy-breadcrumbs">
       <li><a href="index.html" class="icon icon-home"></a></li>
-      <li class="breadcrumb-item active">4 桥梁技术状况评定</li>
+      <li class="breadcrumb-item active">4 结构设计基本规定</li>
       <li class="wy-breadcrumbs-aside">
             <a href="_sources/04.rst.txt" rel="nofollow"> 查看页面源码</a>
       </li>
@@ -102,66 +118,252 @@
            <div itemprop="articleBody">
              
   <section id="id1">
-<h1>4 桥梁技术状况评定<a class="headerlink" href="#id1" title="此标题的永久链接"></a></h1>
-<h2 id="test111">4 桥梁技术状况评定</h2><section id="id2">
-<h2>4.1 桥梁技术状况评定计算<a class="headerlink" href="#id2" title="此标题的永久链接"></a></h2>
-<p style="text-align:justify"><a href="#id4.1.1"> 4.1.1</a> <span id="id4.1.1"> 桥梁构件的技术状况评分，按式(4.1.1)计算。</span></p><p>$$\mathrm{PMCI}_{l}(\mathrm{BMCI}_{l} 或 \mathrm{DMCI}_{l})=100-\sum^{k}_{x=1}U_{x}\tag{4.1.1}$$</p>
-<p style="text-align:justify;text-indent:2em;">当 x=1 时</p><p>$$U_{1}=\mathrm{DP}_{i1}$$</p>
-<p style="text-align:justify;text-indent:2em;">当 x≥2 时</p><p>$$U_{x}=\dfrac{\mathrm{DP}_{ij}}{100\times \sqrt{x}}\times (100-\sum^{x-1}_{y=1}U_{y})\qquad (其中j=x)$$</p>
-<p style="text-align:justify;text-indent:2em;font-family:times new roman">当 DP<sub><i>ij</i></sub>=100 时</p><p>$$\mathrm{PMCI}_{l}(\mathrm{BMCI}_{l} 或 \mathrm{DMCI}_{l})=0$$</p>
+<h1>4 结构设计基本规定<a class="headerlink" href="#id1" title="此标题的永久链接"></a></h1>
+<h2 id="test111">4 结构设计基本规定</h2><section id="id2">
+<h2>4.1  一般规定(新增)<a class="headerlink" href="#id2" title="此标题的永久链接"></a></h2>
+<p style="text-align:justify"><a href="#id4.1.1"> 4.1.1</a> <span id="id4.1.1">  公路钢筋混凝土及预应力混凝土桥涵应进行以下两类极限状态设计：</span></p>
+
+<ol>
+<li>承载能力极限状态：对应于结构及其构件达到最大承载能力或出现不适于继续承载的变形或变位的状态。</li>
+<li>正常使用极限状态：对应于结构及其构件达到正常使用的某项限值的状态。</li>
+</ol>
+
+<p style="text-align:justify"><a href="#id4.1.2"> 4.1.2</a> <span id="id4.1.2">  混凝土桥涵结构设计应包含下列内容：</span></p>
+
+<ol>
+<li> 结构方案设计。</li>
+<li> 结构及构件的构造设计。</li>
+<li> 作用及作用效应分析。</li>
+<li> 结构及构件的极限状态验算。</li>
+<li> 结构及构件满足特殊要求的专项设计。</li>
+</ol>
+
+<p style="text-align:justify"><a href="#id4.1.3"> 4.1.3</a> <span id="id4.1.3">  跨径不大于50 m的桥梁宜采用标准化跨径。</span></p>
+<p style="text-align:justify"><a href="#id4.1.4"> 4.1.4</a> <span id="id4.1.4">  钢筋混凝土梁桥跨径宜满足下列要求：</span></p>
+<ol>
+<li> 装配式钢筋混凝土板桥的跨径不大于10 m。</li>
+<li> 整体现浇钢筋混凝土板桥，简支时跨径不大于10m,连续时跨径不大于16 m。</li>
+<li> 装配式钢筋混凝土T梁桥的跨径不大于16 m。</li>
+<li> 整体现浇箱形截面梁桥，简支时跨径不大于20 m,连续时跨径不大于25 m。</li>
+</ol>
+<p style="text-align:justify"><a href="#id4.1.5"> 4.1.5</a> <span id="id4.1.5"> 预应力混凝土梁桥跨径宜满足下列要求：</span></p>
+
+<ol>
+<li>装配式预应力混凝土空心板桥的跨径不大于20 m。</li>
+<li>整体现浇预应力混凝土板桥，简支时跨径不大于20 m,连续时跨径不大于25 m。</li>
+<li> 装配式预应力混凝土T梁桥的跨径不大于50 m。</li>
+<li>装配式预应力混凝土组合箱梁桥的跨径不大于40 m。</li>
+</ol>
+<p style="text-align:justify"><a href="#id4.1.6"> 4.1.6</a> <span id="id4.1.6"> 跨径大于100 m 桥梁的混凝土主梁宜按全预应力混凝土构件设计。</span></p>
+<p style="text-align:justify"><a href="#id4.1.7"> 4.1.7</a> <span id="id4.1.7"> 作用效应计算宜采用弹性理论，并应满足下列要求：</span></p>
+<ol>
+<li>结构构件成桥状态的内力根据设计施工方案逐阶段计算累加确定。</li>
+<li>结构构件成桥状态的应力根据设计施工方案，采用相应的净截面或换算截面逐阶段计算累加确定。</li>
+<li>汽车荷载的作用效应计入汽车荷载的偏载效应，偏载效应可采用精细化有限元模型计算，或根据可靠的工程经验确定。</li>
+<li>弯、宽、斜及变宽或分岔等复杂混凝土桥梁结构可采用实体有限元或附录A的实用精细化分析模型计算。</li>
+</ol>
+<p style="text-align:justify"><a href="#id4.1.8"> 4.1.8</a> <span id="id4.1.8"> 持久状况下，梁桥不应发生结构体系改变，并应同时满足下列规定：</span></p>
+<ol>
+<li>在作用基本组合下，单向受压支座始终保持受压状态。</li>
+<li>按作用标准值进行组合时(按本规范第7.1.1条取用),整体式截面简支梁和连续梁的作用效应应符合下式要求：</li>
+</ol><p>$$\frac{\sum S_{\mathrm{bk,i} }}{\sum S_{\mathrm{sk,i} }} \ge k_{\mathrm{qf} }\tag{4.1.8}$$</p>
 <table border="0" style="font-family:times new roman" id="gongshi">
 <tr>
 <td width="60px" align='right' id="eqzs" >式中:</td>
-<td width="70px" align='right'  id="eqzs" >PMCI<sub><i>l</i></sub></td>
+<td width="70px" align='right'  id="eqzs" ><i>k</i><sub>qf</sub></td>
  <td width="40px" align='center' id="eqzs">——</td>
 <td  id="eqzs" align='left'> 上部结构第<i>i</i>类部件l构件的得分，值域为0~100分；</td>
 </tr>
 <tr>
 <td id="eqzs"> </td>
-<td id="eqzs" align='right'>BMCI<sub><i>l</i></sub></td>
+<td id="eqzs" align='right'>Σ<i>S</i><sub>bk,i</sub></td>
 <td id="eqzs">——</td>
-<td id="eqzs">下部结构第<i>i</i>类部件l构件的得分，值域为0~100分；</td>
+<td id="eqzs">使上部结构稳定的效应设计值；</td>
  </tr>
 <tr>
 <td id="eqzs"> </td>
-<td id="eqzs" align='right'>DMCI<sub><i>l</i></sub></td>
+<td id="eqzs" align='right'>Σ<i>S</i><sub>sk,i</sub></td>
 <td id="eqzs">——</td>
-<td id="eqzs"> 桥面系第<i>i</i>类部件l构件的得分，值域为0~100分；</td>
+<td id="eqzs"> 使上部结构失稳的效应设计值。</td>
+</tr>
+ </table>
+<p> </p>
+<p style="text-align:justify"><a href="#id4.1.9"> 4.1.9</a> <span id="id4.1.9"> 构件中的应力扰动区可按照拉压杆模型(见附录B)、实体有限元模型或特殊受力情形的简化公式进行计算。</span></p>
+<p style="text-align:justify"><a href="#id4.1.10"> 4.1.10</a> <span id="id4.1.10"> 公路桥梁混凝土结构宜根据需要提出使用阶段的检测、监测、维修或更换要求，并设置相应的通道、空间或装置。</span></p></section>
+<section id="id3">
+<h2>4.2  板的计算<a class="headerlink" href="#id3" title="此标题的永久链接"></a></h2>
+<p style="text-align:justify"><a href="#id4.2.1"> 4.2.1</a> <span id="id4.2.1"> 四边支承的板，当长边长度与短边长度之比等于或大于2时，可按短边计算跨径的单向板计算；否则，应按双向板计算。</span></p>
+<p style="text-align:justify"><a href="#id4.2.2"> 4.2.2</a> <span id="id4.2.2"> 简支板的计算跨径应为两支承中心之间的距离。与梁肋整体连接的板，计算弯矩时其计算跨径可取为两肋间的净距加板厚，但不大于两肋中心之间的距离。此时，弯矩可按以下简化方法计算：</span></p>
+<ol>
+<li>支点弯矩</li>
+</ol><p>$$M=-0.7M_{0}\tag{4.2.2-1}$$</p>
+<ol start="2">
+<li>跨中弯矩</li>
+</ol>
+<p style="text-align:justify;text-indent:2em;" > 1) 板厚与梁肋高度比等于或大于1/4时</p><p>$$M=+0.7M_{0}\tag{4.2.2-2}$$</p>
+<p style="text-align:justify;text-indent:2em;" > 2)板厚与梁肋高度比小于1/4时</p><p>$$M=+0.5M_{0}\tag{4.2.2-3}$$</p>
+<table border="0" style="font-family:times new roman" id="gongshi">
+<tr>
+<td width="50px" align='center' id="eqzs">式中:</td>
+<td width="30px" align='left' id="eqzs"><i>M</i><sub>0</sub></td>
+<td width="40px" align='left' id="eqzs">——</td>
+<td id="eqzs">与计算跨径相同的简支板跨中弯矩。</td>
+</tr>
+</table>
+<p></p>
+<p style="text-align:justify;text-indent:2em;" > 与梁肋整体连接的板，计算剪力时其计算跨径可取两肋间净距，剪力按该计算跨径的简支板计算。</p>
+<p style="text-align:justify"><a href="#id4.2.3"> 4.2.3</a> <span id="id4.2.3"> 整体单向板计算时，通过车轮传递到板上的荷载分布宽度宜按下列规定计算：</span></p>
+<ol>
+<li>平行于板的跨径方向的荷载分布宽度</li>
+</ol><p>$$b=b_{1}+2h\tag{4.2.3-1}$$</p>
+<ol start="2">
+<li>垂直于板的跨径方向的荷载分布宽度</li>
+</ol>
+<p style="text-align:justify;text-indent:2em;" > 1)单个车轮在板的跨径中部时</p><p>$$a=(a_1+2h)+\dfrac{l}{3}\geqslant\frac{2}{3}l\tag{4.2.3-2}$$</p>
+<p style="text-align:justify;text-indent:2em;" > 2)多个相同车轮在板的跨径中部时，当各单个车轮按<a href="#ideq4.2.3.2">公式(4.2.3-2)</a><span id="ideq4.2.3.2">计算的荷载分布宽度有重叠时</p><p>$$a=(a_{1}+2h)+d+\dfrac{2}{3}l+d\tag{4.2.3-3}$$</p>
+<p style="text-align:justify;text-indent:2em;" > 3) 车轮在板的支承处时</p><p>$$a=(a_{1}+2h)+t\tag{4.2.3-4}$$</p>
+<p style="text-align:justify;text-indent:2em;" > 4) 车轮在板的支承附近，距支点的距离为<i>x</i>时</p><p>$$a=(a_{1}+2h)+t+2x\tag{4.2.3-5}$$</p>
+<p style="text-align:justify;text-indent:2em;" > 但不大于车轮在板的跨径中部的分布宽度；</p>
+<p style="text-align:justify;text-indent:2em;" > 5) 按本款算得的所有分布宽度，当大于板全宽时取板全宽；</p>
+<p style="text-align:justify;text-indent:2em;" > 6) 彼此不相连的预制板，车轮在板内分布宽度不大于预制板宽度。</p>
+
+<table border="0" style="font-family:times new roman" id="gongshi">
+<tr>
+<td width="50px" align='center' id="eqzs">式中:</td>
+<td width="60px" align='right' id="eqzs"><i>l</i></td>
+<td width="40px" align='left' id="eqzs">——</td>
+<td id="eqzs">板的计算跨径；</td>
 </tr>
 <tr>
 <td id="eqzs"> </td>
-<td id="eqzs" align='right'><i>k</i></td>
+<td id="eqzs" align='right'><i>h</i></td>
 <td id="eqzs">——</td>
-<td id="eqzs">第<i>i</i>类部件l构件出现扣分的指标的种类数；</td>
+<td id="eqzs">铺装层厚度；</td>
 </tr>
- <tr>
+<tr>
 <td id="eqzs"> </td>
-<td id="eqzs" align='right'><i>U、x、y</i></td>
+<td id="eqzs" align='right'><i>t</i></td>
 <td id="eqzs">——</td>
-<td id="eqzs">引入的变量；</td>
+<td id="eqzs">板的跨中厚度；</td>
 </tr>
- <tr>
+<tr>
 <td id="eqzs"> </td>
-<td id="eqzs" align='right'><i>i</i></td>
+<td id="eqzs" align='right'><i>d</i></td>
 <td id="eqzs">——</td>
-<td id="eqzs">部件类别，例如<i>i</i>表示上部承重构件、支座、桥墩等；</td>
+<td id="eqzs">多个车轮时外轮之间的中距；</td>
 </tr>
- <tr>
+<tr>
 <td id="eqzs"> </td>
-<td id="eqzs" align='right'><i>j</i></td>
+<td id="eqzs" align='right'><i>a</i><sub>1</sub>、<i>a</i><sub>2</sub></td>
 <td id="eqzs">——</td>
-<td id="eqzs">第<i>i</i>类部件l构件的第<i>j</i>类检测指标；</td>
-</tr>
- <tr>
-<td id="eqzs"> </td>
-<td id="eqzs" align='right'>DP<sub><i>ij</i></sub></td>
-<td id="eqzs">——</td>
-<td id="eqzs">第<i>i</i>类部件l构件的第<i>j</i>类检测指标的扣分值，根据构件各种检测指标扣分制进行计算，扣分值按<a href="#B4.1.1">表4.1.1</a>规定取值。</td>
+<td id="eqzs">垂直于板跨和平行于板跨方向的车轮着地尺寸。</td>
 </tr>
 </table>
-<p> </p>
+<p></p>
 
-<style>
+<p style="text-align:justify"><a href="#id4.2.4"> 4.2.4</a> <span id="id4.2.4"> 当支承轴线的垂直线与桥纵轴线的夹角即斜交角不大于15°时，整体式斜板桥的斜交板可按正交板计算；当 <i>l</i>/<i>b</i>≤1.3 时，其计算跨径取两支承轴线间的垂直距离；当<i>l</i>/<i>b</i> >1.3时，其计算跨径取斜跨径长度；以上1为斜跨径，<i>b</i>为垂直于桥纵轴线的板宽。</span></p>
+<p style="text-align:justify;text-indent:2em;" > 装配式铰接斜板桥的预制板块，可按宽为两板边间的垂直距离、计算跨径为斜跨径的正交板计算。</p>
+<p style="text-align:justify"><a href="#id4.2.5"> 4.2.5</a> <span id="id4.2.5">当<i>l</i><sub>c</sub>≤2.5m时，悬臂板垂直于其跨径方向的车轮荷载分布宽度可按下列规定计算：</span></p><p>$$a=(a_{1}+2h)+2l_{\mathrm{c}}\tag{4.2.5}$$</p>
+ <table border="0" style="font-family:times new roman" id="gongshi">
+<tr>
+<td width="50px" align='center' id="eqzs">式中:</td>
+<td width="30px" align='right' id="eqzs"><i>α</i></td>
+<td width="40px" align='left' id="eqzs">——</td>
+<td id="eqzs">垂直于悬臂板跨径的车轮荷载分布宽度；</td>
+</tr>
+<tr>
+<td id="eqzs"> </td>
+<td id="eqzs" align='right'><i>α</i><sub>1</sub></td>
+<td id="eqzs">——</td>
+<td id="eqzs">垂直于悬臂板跨径的车轮着地尺寸；</td>
+</tr>
+<tr>
+<td id="eqzs"> </td>
+<td id="eqzs" align='right'><i>l</i><sub>c</sub></td>
+<td id="eqzs">——</td>
+<td id="eqzs">平行于悬臂板跨径的车轮着地尺寸的外缘，通过铺装层45°分布线的外边线至腹板外边缘的距离(图4.2.5);</td>
+</tr>
+<tr>
+<td id="eqzs"> </td>
+<td id="eqzs" align='right'><i>h</i></td>
+<td id="eqzs">——</td>
+<td id="eqzs">铺装层厚度。</td>
+</tr>
+</table>
+<p></p>
+
+ <div align="center"><img id="fig4.2.5"src="./_static/fig/4.2.5.png" alt="Picture" width="300px"></div>
+ <p style="color: dimgray;text-align: center;">图 4.2.5 车轮荷载在悬臂板上的分布<br/>1-桥面铺装；2-腹板；3-悬臂板</p>
+ <script type="text/javascript">var viewer = new Viewer(document.getElementById('fig4.2.5'));</script>
+
+ <div align="center"><img id="fig4.2.65" src="./_static/fig/4.2.6.png" alt="Picture" width="300px"></div>
+ <p style="color: dimgray;text-align: center;">图 4.2.6 承托处板的计算高度</p>
+ <script type="text/javascript">var viewer = new Viewer(document.getElementById('fig4.2.6'));</script>
+
+<p style="text-align:justify"><a href="#id4.2.6"> 4.2.6</a> <span id="id4.2.6"> 与梁肋整体连接且具有承托的板(<a href="#fig4.2.6">图4.2.6</a>),当进行承托内或肋内板的截面验算时，板的计算高度可按下式计算：</span></p><p>$$h_{\mathrm{e}}=h^{'}_{\mathrm{f}}+s\cdot \tan \alpha \tag{4.2.6}$$</p>
+ <table border="0" style="font-family:times new roman" id="gongshi">
+<tr>
+<td width="50px" align='center' id="eqzs">式中:</td>
+<td width="30px" align='right' id="eqzs"><i>h</i><sub>e</sub></td>
+<td width="40px" align='left' id="eqzs">——</td>
+<td id="eqzs">自承托起点至肋中心线之间板的任一验算截面的计算高度；</td>
+</tr>
+<tr>
+<td id="eqzs"> </td>
+<td id="eqzs" align='right'><i>h '</i><sub>f</sub></td>
+<td id="eqzs">——</td>
+<td id="eqzs">不计承托时板的厚度；</td>
+</tr>
+<tr>
+<td id="eqzs"> </td>
+<td id="eqzs" align='right'><i>s</i></td>
+<td id="eqzs">——</td>
+<td id="eqzs">自承托起点至肋中心线之间的任一验算截面的水平距离；</td>
+</tr>
+<tr>
+<td id="eqzs"> </td>
+<td id="eqzs" align='right'><i>α</i></td>
+<td id="eqzs">——</td>
+<td id="eqzs">承托下缘与悬臂板底面夹角，当 tanα>1/3时，取1/3。</td>
+</tr>
+</table>
+<p></p></section>
+<section id="id4">
+<h2>4.3 梁的计算<a class="headerlink" href="#id4" title="此标题的永久链接"></a></h2>
+<p style="text-align:justify"><a href="#id4.3.1"> 4.3.1</a> <span id="id4.3.1"> 分析超静定结构的作用效应时，构件的抗弯刚度应按下列规定取用：</span></p>
+<p style="text-align:justify;text-indent:2em;" >允许开裂构件&emsp;&emsp;&emsp;&emsp;&emsp;<math xmlns="http://www.w3.org/1998/Math/MathML" ><mn>0.8</mn><msub><mi>E</mi><mrow><mi>c</mi></mrow></msub><mi>I</mi></math></p>
+<p style="text-align:justify;text-indent:2em;" >不允许开裂构件&emsp;&emsp;&emsp;&emsp;<math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mi>E</mi><mrow><mi>c</mi></mrow></msub><mi>I</mi></math></p></p>
+<p style="text-align:justify;text-indent:2em;" >其中I为毛截面惯性矩。</p>
+<p style="text-align:justify"><a href="#id4.3.2"> 4.3.2</a> <span id="id4.3.2"> 在计算截面承载力和应力时，T 形、I 形及箱形截面梁的受压翼缘应取有效宽度。</span></p>
+<p style="text-align:justify"><a href="#id4.3.3"> 4.3.3</a> <span id="id4.3.3"> T形、I形截面梁受压翼缘的有效宽度<i>b'</i><sub>f</sub>应按下列规定采用：</span></p>
+
+ <ol>
+<li> 内梁取下列三者中的最小值：</li>
+</ol>
+<p style="text-align:justify;text-indent:2em;" >对于简支梁，取计算跨径的1/3。对于连续梁，各中间跨正弯矩区段，取该计算跨径的0.2倍；边跨正弯矩区段，取该跨计算跨径的0.27倍；各中间支点负弯矩区段，取该支点相邻两计算跨径之和的0.07倍；</p>
+<p style="text-align:justify;text-indent:2em;" >相邻两梁的平均间距；</p>
+<p style="text-align:justify;text-indent:2em;" >(b+2bn+12hr),此处，b为梁腹板宽度，bn为承托长度，hr为受压区翼缘悬出板的厚度。当hn/bh<1/3时，上式bn应以3h代替，此处m为承托根部厚度。</p>
+<ol start="2">
+<li> 外梁取相邻内梁翼缘有效宽度的一半，加上腹板宽度的 1/2,再加上外侧悬臂板平均厚度的6倍或外侧悬臂板实际宽度两者中的较小者。</li>
+</ol>
+
+
+<p style="text-align:justify"><a href="#id4.3.4"> 4.3.4</a> <span id="id4.3.4"> 分析超静定结构的作用效应时，构件的抗弯刚度应按下列规定取用：</span></p>
+<ol>
+<li> 简支梁和连续梁各跨中部梁段，悬臂梁中间跨的中部梁段</li>
+</ol><p>$$b_{\mathrm{mi}}=\rho fb_{\mathrm{i}} \tag{4.3.4-1}$$
+$$\rho f=-6.44(b_{\mathrm{i}}/l_{\mathrm{i}})^{4}+10.10(b_{\mathrm{i}}/l_{\mathrm{i}})^{3}-3.56(b_{\mathrm{i}}/l_{\mathrm{i}})^{2}-1.44(b_{\mathrm{i}}/l_{\mathrm{i}})^{4}+1.08\tag{4.3.4-2}$$</p>
+<ol start="2">
+<li> 简支梁支点，连续梁边支点及中间支点，悬臂梁悬臂段</li>
+</ol><p>$$b_{\mathrm{mi}}=\rho sb_{\mathrm{i}}\tag{4.3.4-3}$$
+$$\rho s=21.86(b_{\mathrm{i}}/l_{\mathrm{i}})^{4}-38.01(b_{\mathrm{i}}/l_{\mathrm{i}})^{3}-+24.57(b_{\mathrm{i}}/l_{\mathrm{i}})^{2}-7.67(b_{\mathrm{i}}/l_{\mathrm{i}})^{4}+1.27\tag{4.3.4-3}$$</p>
+<p style="text-align:justify;text-indent:2em;" > 当梁高<i>h</i>≥<i>b</i><sub>i</sub>/0.3时，翼缘有效宽度应采用翼缘实际宽度。</p>
+
+ <div align="center"><img id="fig4.3.4" src="./_static/fig/4.3.4.png" alt="Picture" width="300px"></div>
+ <p style="color: dimgray;text-align: center;">图 4.3.4  箱形截面梁翼缘有效宽度</p>
+ <script type="text/javascript">var viewer = new Viewer(document.getElementById('fig4.3.4'));</script>
+
+     <style>
     #biaoge {
         border: 2px solid black;
         border-collapse: collapse;
@@ -174,1114 +376,346 @@
         padding-left:5px;
         padding-right:5px;
         border: 1px solid black;
-        vertical-align: middle;
+
      }
      #eqzs {
         border: 0px;
-        vertical-align: top;
      }
      #dhbg {
        vertical-align: middle;
      }
     </style>
 
-               <table id="biaoge" style="font-family:times new roman">
-
-        <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="B4.1.1">表4.1.1 构件各检测指标扣分值</b></caption>
-
-                   <tr>
-                     <td  align="center" width=300px rowspan="2" id="dhbg">检测指标所能达<br>到的最高等级类别</td>
-                     <td  align="center"  colspan="5">指标类别</td>
-                                 <!-- <td></td> -->
-         <!-- <td></td> -->
-         <!-- <td></td> -->
-         <!-- <td></td> -->
-                   </tr>
-                   <tr>
-                    <!-- <td></td> -->
-                     <td align="center" width=160px>1类</td>
-                                 <td align="center" width=160px>2类</td>
-         <td align="center" width=160px>3类</td>
-         <td align="center" width=160px>4类</td>
-         <td align="center" width=160px>5类</td>
-                   </tr>
-                   <tr>
-                    <td align="center" >3类</td>
-                    <td align="center" >0</td>
-                        <td align="center" >20</td>
-            <td align="center" >35</td>
-            <td align="center" >—</td>
-            <td align="center" >—</td>
-                   </tr>
-                   <tr>
-                    <td align="center" >4类</td>
-                    <td align="center" >0</td>
-                        <td align="center" >25</td>
-            <td align="center" >40</td>
-            <td align="center" >50</td>
-            <td align="center" >—</td>
-                   </tr>
-                   <tr>
-                    <td align="center" >5类</td>
-                    <td align="center" >0</td>
-                        <td align="center" >35</td>
-            <td align="center" >45</td>
-            <td align="center" >60</td>
-            <td align="center" >100</td>
-                   </tr>
-               </table>
-  <p></p>
-
-<p style="text-align:justify"><a href="#id4.1.1"> 4.1.1</a> <span id="id4.1.1"> 桥梁部件的技术状况评分，按式(4.1.2)计算。</span></p><p>$$\mathrm{PCCI}_{i}=(\overline{\mathrm{PMCI}}-(100-\mathrm{PMCI}_{\mathrm{min}})/t\tag{4.1.2}$$</p>
-<p>或 <span class="math notranslate nohighlight">\(\qquad\qquad\qquad\qquad\quad\ \,\mathrm{BCCI}_{i}=(\overline{\mathrm{BMCI}}-(100-\mathrm{BMCI}_{\mathrm{min}})/t\)</span></p>
-<p>或 <span class="math notranslate nohighlight">\(\qquad\qquad\qquad\qquad\quad\ \,\mathrm{DCCI}_{i}=(\overline{\mathrm{DMCI}}-(100-\mathrm{DMCI}_{\mathrm{min}})/t\)</span></p>
- <table border="0" style="font-family:times new roman" id="gongshi">
-<tr>
-<td width="50px" align='right' id="eqzs" >式中:</td>
-<td width="60px" align='right'  id="eqzs" >PCCI<sub><i>i</i></sub></td>
- <td width="40px" align='center' id="eqzs">——</td>
-<td  id="eqzs" align='left'> 上部结构第<i>i</i>类部件的得分，值域为0~100分；当上部结构中的主要部件某一构件评分值PMCI<sub>t</sub>在[0,60)区间时，其相应的部件评分值PCCI<sub>i</sub>=PMCI<sub>l</sub></td>
-</tr>
-<tr>
-<td id="eqzs"> </td>
-<td id="eqzs" align='right'style="text-decoration:overline">PMCI</td>
-<td id="eqzs">——</td>
-<td id="eqzs">上部结构第<i>i</i>类部件各构件的得分平均值，值域为0~100分；</td>
- </tr>
-<tr>
-<td id="eqzs"> </td>
-<td id="eqzs" align='right'>BCCI<sub><i>i</i></sub></td>
-<td id="eqzs">——</td>
-<td id="eqzs"> 下部结构第<i>i</i>类部件的得分，值域为0~100分；当下部结构中的主要部件某一构件评分值BMCI<sub>t</sub>在[0,60)区间时，其相应的部件评分值BCCI<sub>i</sub>=BMCI<sub>l</sub></td>
-</tr>
-<tr>
-<td id="eqzs"> </td>
-<td id="eqzs" align='right' style="text-decoration:overline">BMCI</td>
-<td id="eqzs">——</td>
-<td id="eqzs">下部结构第<i>i</i>类部件各构件的得分平均值，值域为0~100分；</td>
-</tr>
- <tr>
-<td id="eqzs"> </td>
-<td id="eqzs" align='right'>DCCI<sub><i>i</i></sub></td>
-<td id="eqzs">——</td>
-<td id="eqzs">桥面系第<i>i</i>类部件的得分，值域为0~100分；</td>
-</tr>
- <tr>
-<td id="eqzs"> </td>
-<td id="eqzs" align='right'style="text-decoration:overline">DMCI</td>
-<td id="eqzs">——</td>
-<td id="eqzs">桥面系第<i>i</i>类部件各构件的得分平均值，值域为0~100分；</td>
-</tr>
- <tr>
-<td id="eqzs"> </td>
-<td id="eqzs" align='right'>PCCI<sub>min</sub></td>
-<td id="eqzs">——</td>
-<td id="eqzs">上部结构第<i>i</i>类部件中分值最低的构件得分值；</td>
-</tr>
- <tr>
-<td id="eqzs"> </td>
-<td id="eqzs" align='right'>BCCI<sub>min</sub></td>
-<td id="eqzs">——</td>
-<td id="eqzs">下部结构第<i>i</i>类部件中分值最低的构件得分值；</td>
-</tr>
- <tr>
-<td id="eqzs"> </td>
-<td id="eqzs" align='right'>DCCI<sub>min</sub></td>
-<td id="eqzs">——</td>
-<td id="eqzs">桥面系第<i>i</i>类部件分值最低的构件得分值；</td>
-</tr>
- <tr>
-<td id="eqzs"> </td>
-<td id="eqzs" align='right'><i>t</i></td>
-<td id="eqzs">——</td>
-<td id="eqzs">随构件的数量而变的系数，见<a href="#B4.1.2">表4.1.2</a>。</td>
-</tr>
-</table>
-<p> </p>
-
 <table id="biaoge" style="font-family:times new roman">
 
-        <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="B4.1.2">表4.1.2 <i>t</i> 值</b></caption>
+        <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="B4.3.4">表4.3.4 <i>ρ</i><sub>s</sub>、<i>ρ</i><sub>f</sub>的应用位置和理论跨径<i>l</i><sub>i</sub></b></caption>
 
                    <tr>
-                     <td  align="center" width=225px ><i>n</i>（构件数）</td>
-                     <td  align="center" width=225px ><i>t</i></td>
-                     <td  align="center" width=225px ><i>n</i>（构件数）</td>
-                     <td  align="center" width=225px ><i>t</i></td>
+                       <td  align="center" id="dhbg"colspan="3">结构体系</td>
+                       <!-- <td></td> -->
+           <!-- <td></td> -->
+                                 <td  align="center" id="dhbg"width="300px">理论跨径<i>l</i><sub>i</sub></td>
                    </tr>
-                 <tr  align="center" >
-                     <td >1</td>
-                     <td>∞</td>
-                                 <td>20</td>
-         <td>6.6</td>
-           </tr>
-       <tr  align="center" >
-                    <td>2</td>
-                    <td>10</td>
-                                <td>21</td>
-        <td>6.48</td>
-           </tr>
-       <tr  align="center" >
-                    <td>3</td>
-                    <td>9.7</td>
-                                <td>22</td>
-        <td>6.36</td>
-           </tr>
-       <tr  align="center" >
-                    <td>4</td>
-                    <td>9.5</td>
-                                <td>23</td>
-        <td>6.24</td>
-           </tr>
-       <tr  align="center" >
-                    <td>5</td>
-                    <td>9.2</td>
-                                <td>24</td>
-        <td>6.12</td>
-           </tr>
-       <tr  align="center" >
-                    <td>6</td>
-                    <td>8.9</td>
-                                <td>25</td>
-        <td>6.00</td>
-           </tr>
-       <tr  align="center" >
-                    <td>7</td>
-                    <td>8.7</td>
-                                <td>26</td>
-        <td>5.88</td>
-           </tr>
-                 <tr  align="center" >
-                     <td>8</td>
-                     <td>8.5</td>
-                                 <td>27</td>
-         <td>.76</td>
-           </tr>
-       <tr  align="center" >
-                    <td>9</td>
-                    <td>8.3</td>
-                                <td>28</td>
-        <td>5.64</td>
-           </tr>
-       <tr  align="center" >
-                    <td>10</td>
-                    <td>8.1</td>
-                                <td>29</td>
-        <td>5.52</td>
-           </tr>
-       <tr  align="center" >
-                    <td>11</td>
-                    <td>7.9</td>
-                                <td>30</td>
-        <td>5.40</td>
-           </tr>
-       <tr  align="center" >
-                    <td>12</td>
-                    <td>7.7</td>
-                                <td>40</td>
-        <td>4.90</td>
-           </tr>
-       <tr  align="center" >
-                    <td>13</td>
-                    <td>7.5</td>
-                                <td>50</td>
-        <td>4.40</td>
-           </tr>
-       <tr  align="center" >
-                    <td>14</td>
-                    <td>7.3</td>
-                                <td>60</td>
-        <td>4.00</td>
-           </tr>
-        <tr  align="center" >
-                    <td>15</td>
-                    <td>7.2</td>
-                                <td>70</td>
-        <td>3.60</td>
-           </tr>
-       <tr  align="center" >
-                    <td>16</td>
-                    <td>7.08</td>
-                                <td>80</td>
-        <td>3.2</td>
-           </tr>
-       <tr  align="center" >
-                    <td>17</td>
-                    <td>6.96</td>
-                                <td>90</td>
-        <td>2.80</td>
-           </tr>
-       <tr  align="center" >
-                    <td>18</td>
-                    <td>6.84</td>
-                                <td>100</td>
-        <td>2.50</td>
-           </tr>
-       <tr  align="center" >
-                    <td>19</td>
-                    <td>6.72</td>
-                                <td>≥200</td>
-        <td>2.30</td>
-           </tr>
+                   <tr>
+                       <td align="center"  id="dhbg" colspan="2">简<br/>支<br/>梁</td>
+                       <!-- <td></td> -->
+                                   <td align="center" id="dhbg" width="400px"><img  src="./_static/fig/06.png" alt="Picture3" width="200px"></td>
+           <td align="center" id="dhbg"><i>l</i><sub>i</sub>=<i>l</i></td>
+                   </tr>
+                   <tr>
+                       <td align="center" rowspan="2" id="dhbg" width="50px">连<br/>续<br/>梁</td>
+                       <td align="center"  id="dhbg" width="50px">边<br/>跨</td>
+                                   <td align="center" id="dhbg" ><img  src="./_static/fig/07.png" alt="Picture3" width="200px"></td>
+           <td align="center" id="dhbg">边支点或跨中部分梁段<i>l</i><sub>i</sub>=0.8<i>l</i></td>
+                   </tr>
+          <tr>
+                       <!-- <td></td> -->
+                       <td align="center"  id="dhbg" >中<br/>间<br/>跨</td>
+                                   <td align="center" id="dhbg" ><img  src="./_static/fig/08.png" alt="Picture3" width="200px"></td>
+           <td align="center" id="dhbg">跨中部分梁段<i>l</i><sub>i</sub>=0.6<i>l</i>，中间支点<i>l</i><sub>i</sub>取0.2倍两相邻跨径之和。</td>
+                    </tr>
+          <tr>
+                       <td align="center"  id="dhbg" colspan="2">悬<br/>臂<br/>梁</td>
+                       <!-- <td></td> -->
+                                   <td align="center" id="dhbg" ><img  src="./_static/fig/09.png" alt="Picture3" width="150px"></td>
+           <td align="center" id="dhbg"><i>l</i><sub>i</sub>=1.5<i>l</i></td>
+                    </tr>
                </table>
-  <p style="text-indent:2em;" ><font size="2">注：1.<i>n</i> 为第 <i>i</i> 类部件的构件总数。<br>
- &emsp;&emsp; &emsp;&emsp; &emsp;&nbsp;2.表中未列出的 <i>t</i> 值采用内插法计算。</font></p>
+ <p style="text-indent:2em;" ><font size="2">注：1.<i>α</i>为与所求的翼缘有效宽度<i>b</i><sub>mi</sub>相应的翼缘实际宽度<i>b</i><sub>i</sub>;,但<i>α</i>不应大于0.25<i>l</i>。<br/>
+ &emsp;&emsp; &emsp;&emsp; &emsp;&nbsp;2.<i>l</i> 为梁的计算跨径。<br/>
+ &emsp;&emsp; &emsp;&emsp; &emsp;&nbsp;3.<i>c</i>=0.1<i>l</i>。<br/>
+ &emsp;&emsp; &emsp;&emsp; &emsp;&nbsp;4.在长度<i>α</i>或<i>c</i>的梁段内，有效宽度可用直线插入法在<i>ρ</i><sub>s</sub><i>b</i><sub>i</sub>与<i>ρ</i><sub>f</sub><i>b</i><sub>i</sub>之间求取。</font></p>
 
-<p style="text-align:justify"><a href="#id4.1.3"> 4.1.3</a> <span id="id4.1.3"> 桥梁上部结构、下部结构、桥面系的技术状况评分，按式(4.1.3)计算。</span></p><p>$$\mathrm{SPCI}(\mathrm{SBCI} 或 \mathrm{DBCI})=\sum^{m}_{i=1}\mathrm{PCCI}_{i}(\mathrm{BCCI}_{i} 或 \mathrm{DCCI}_{i}) \times W_{i}\tag{4.1.3}$$</p>
- <table border="0" style="font-family:times new roman" id="gongshi">
+
+
+
+
+<p style="text-align:justify"><a href="#id4.3.5"> 4.3.5</a> <span id="id4.3.5"> 计算连续梁中间支承处的负弯矩时，可考虑支座宽度对弯矩折减的影响；折减后的弯矩按下列公式计算(<a href="#fig4.3.5">图4.3.5</a>);但折减后的弯矩不得小于未经折减弯矩的0.9倍。</span></p><p>$$M_{\mathrm{e}}=M-M^{'} \tag{4.3.5-1}$$
+$$M^{'}=\dfrac{1}{8}q\alpha^{2}\tag{4.3.5-2}$$</p>
+<table border="0" style="font-family:times new roman" id="gongshi">
 <tr>
-<td width="50px" align='right' id="eqzs" >式中:</td>
-<td width="60px" align='right'  id="eqzs" >SPCI</td>
- <td width="40px" align='center' id="eqzs">——</td>
-<td  id="eqzs" align='left'>桥梁上部结构技术状况评分，值域为0~100分；</td>
+<td width="50px" align='center' id="eqzs">式中:</td>
+<td width="50px" align='right' id="eqzs"><i>M</i><sub>e</sub></td>
+<td width="40px" align='left' id="eqzs">——</td>
+<td id="eqzs">折减后的支点负弯矩；</td>
 </tr>
 <tr>
 <td id="eqzs"> </td>
-<td id="eqzs" align='right'>SBCI</td>
+<td id="eqzs" align='right'><i>M</i></td>
 <td id="eqzs">——</td>
-<td id="eqzs">桥梁下部结构技术状况评分，值域为0~100分；</td>
- </tr>
-<tr>
-<td id="eqzs"> </td>
-<td id="eqzs" align='right'>BDCI</td>
-<td id="eqzs">——</td>
-<td id="eqzs">桥面系技术状况评分，值域为0~100分；</td>
- </tr>
-<tr>
-<td id="eqzs"> </td>
-<td id="eqzs" align='right'><i>m</i></td>
-<td id="eqzs">——</td>
-<td id="eqzs">上部结构（下部结构或桥面系）的部件种类数；</td>
- </tr>
-<tr>
-<td id="eqzs"> </td>
-<td id="eqzs" align='right'><i>W</i><sub>i</sub></td>
-<td id="eqzs">——</td>
-<td id="eqzs">第<i>i</i>类部件的权重，按<a href="#B4.2.1">表4.2.1、<a href="#B4.2.2-1">表4.2.2-1 ~ <a href="#B4.2.2-3">表4.2.2-3、<a href="#B4.2.3">表4.2.3、<a href="#B4.2.4">表4.2.4</a>规定取值；对于桥梁中未设置的部件，应根据此部件的隶属关系，将其权重值分配给各既有部件，分配原则按照各既有部件权重在全部既有部件权重中所占比例进行分配。</td>
- </tr>
-</table>
-
-<p style="text-align:justify"><a href="#id4.1.4"> 4.1.4</a> <span id="id4.1.4"> 桥梁总体的技术状况评分，按式(4.1.4)计算。</span></p><p>$$D_{r}=\mathrm{BDCI}\times W_{D}+\mathrm{SPCI}\times W_{SP}+\mathrm{SBCI}\times W_{SB}\tag{4.1.4}$$</p>
- <table border="0" style="font-family:times new roman" id="gongshi">
-<tr>
-<td width="50px" align='right' id="eqzs" >式中:</td>
-<td width="40px" align='right'  id="eqzs" ><i>D</i><sub>r</sub></td>
- <td width="40px" align='center' id="eqzs">——</td>
-<td  id="eqzs" align='left'> 桥梁总体技术状况评分，值域为0~100分；</td>
+<td id="eqzs">按理论公式或方法计算的支点负弯矩；</td>
 </tr>
 <tr>
 <td id="eqzs"> </td>
-<td id="eqzs" align='right'><i>W</i><sub>D</sub></td>
+<td id="eqzs" align='right'><i>M '</i></td>
 <td id="eqzs">——</td>
-<td id="eqzs">桥面系在全桥中的权重，按<a href="#B4.2.5">表4.2.5</a>规定取值；</td>
- </tr>
+<td id="eqzs">折减弯矩；</td>
+</tr>
 <tr>
 <td id="eqzs"> </td>
-<td id="eqzs" align='right'<i>W</i><sub>SP</sub></td>
+<td id="eqzs" align='right'><i>q</i></td>
 <td id="eqzs">——</td>
-<td id="eqzs">上部结构在全桥中的权重，按<a href="#B4.2.5">表4.2.5</a>规定取值；</td>
- </tr>
+<td id="eqzs">梁的支点反力R在支座两侧向上按45°分布于梁截面重心轴G-G的荷载强度，<i>q</i>=<i>R</i>/<i>α</i>;</td>
+</tr>
 <tr>
 <td id="eqzs"> </td>
-<td id="eqzs" align='right'><i>W</i><sub>SB</sub></td>
+<td id="eqzs" align='right'><i>α</i></td>
 <td id="eqzs">——</td>
-<td id="eqzs">下部结构在全桥中的权重，按<a href="#B4.2.5">表4.2.5</a>规定取值；</td>
- </tr>
+<td id="eqzs">梁支点反力在支座两侧向上按45°扩散交于重心轴G-G的长度(圆形支座可换算为边长等于0.8倍直径的方形支座)。</td>
+</tr>
 </table>
 <p></p>
-<p style="text-align:justify"><a href="#id4.1.5"> 4.1.5</a> <span id="id4.1.5"> 桥梁技术状况分类界限宜按<a href="#B4.1.5">表4.1.5 </a>规定执行。</span></p>
 
-               <table id="biaoge" style="font-family:times new roman">
 
-        <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="B4.1.5">表4.1.5 桥梁技术状况分类界限表</b></caption>
+
+ <div align="center"><img id="fig4.3.5" src="./_static/fig/4.3.5.png" alt="Picture" width="400px"></div>
+ <p style="color: dimgray;text-align: center;">图 4.3.5  中间支承处折减弯矩计算图</p>
+ <script type="text/javascript">var viewer = new Viewer(document.getElementById('fig4.3.5'));</script>
+
+
+<p style="text-align:justify"><a href="#id4.3.6"> 4.3.6</a> <span id="id4.3.6"> 变高度或支点设有承托的等高度连续梁，计算作用效应时应考虑截面惯性矩的变化；支点截面惯性矩与跨径中点截面惯性矩之比等于或小于2时，可不考虑其影响。</span></p>
+<p style="text-align:justify"><a href="#id4.3.7"> 4.3.7</a> <span id="id4.3.7"> 当连续梁中间支承处设有横隔梁时，支承处梁的计算截面可采用横隔梁侧面的连续梁截面。</span></p>
+<p style="text-align:justify"><a href="#id4.3.8"> 4.3.8</a> <span id="id4.3.8"> 计算连续梁或其他超静定结构的作用效应时，应根据情况考虑温度、混凝土收缩和徐变、基础不均匀沉降等作用影响。对于预应力混凝土连续梁等超静定结构，尚应考虑预加力引起的次效应。</span></p>
+<p style="text-align:justify"><a href="#id4.3.9"> 4.3.9</a> <span id="id4.3.9"> 计算混凝土徐变时，可假定徐变与混凝土应力呈线性关系。当缺乏符合当地实际条件的数据和计算方法时，混凝土徐变系数可按<a href="https://jtg-3362.readthedocs.io/zh/latest/FLC.html">附录C</a>计算。</span></p>
+<p style="text-align:justify;text-indent:2em;" > 混凝土的收缩应变可按<a href="https://jtg-3362.readthedocs.io/zh/latest/FLC.html">附录C</a>计算。</p>
+
+<p style="text-align:justify"><a href="#id4.3.10"> 4.3.10</a> <span id="id4.3.10"> 由于日照正温差和降温反温差引起的梁截面应力，可按<a href="https://jtg-3362.readthedocs.io/zh/latest/FLD.html">附录D</a>计算。竖向日照温差梯度曲线可按现行《公路桥涵设计通用规范》(JTG D60)取用。</span></p></section>
+<section id="id5">
+<h2>4.4 拱的计算<a class="headerlink" href="#id5" title="此标题的永久链接"></a></h2>
+<p style="text-align:justify"><a href="#id4.4.1"> 4.4.1</a> <span id="id4.4.1">拱的计算可不考虑拱上建筑与主拱圈的联合作用；当考虑拱上建筑与主拱圈的联合作用时，拱上建筑结构的构造应符合计算的预设条件。本节有关拱的计算规定，均适用于主拱圈裸拱受力而不考虑其与拱上建筑的联合作用。</span></p>
+<p style="text-align:justify;text-indent:2em;" > 当采用车道荷载计算拱的正弯矩时，各截面的折减系数宜按<a href="#B54.4.1">表4.4.1</a>取用</p>
+
+
+ <table id="biaoge" style="font-family:times new roman">
+
+        <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="B4.4.1">表4.4.1 正弯矩折减系数</b></caption>
 
                    <tr>
-                     <td  align="center" width=300px rowspan="2" id="dhbg">技术状况评分</td>
-                     <td  align="center"  colspan="5">技术状况等级<i>D</i><sub>j</sub></td>
-                                 <!-- <td></td> -->
+                     <td  align="center" id="dhbg" rowspan="2"width="225px">截面</td>
+                     <td  align="center" colspan="3">跨径 <i>L</i><sub>m</sub></td>
          <!-- <td></td> -->
-         <!-- <td></td> -->
-         <!-- <td></td> -->
+                     <!-- <td></td> -->
                    </tr>
                    <tr>
                      <!-- <td></td> -->
-                     <td align="center" width=160px>1类</td>
-                                 <td align="center" width=160px>2类</td>
-         <td align="center" width=160px>3类</td>
-         <td align="center" width=160px>4类</td>
-         <td align="center" width=160px>5类</td>
+                     <td align="center"  id="dhbg"  width="225px" ><i>L</i>≤60</td>
+                                 <td align="center"  id="dhbg"  width="225px" >60<<i>L</i><100</td>
+         <td align="center" id="dhbg"  width="225px" ><i>L</i>≥100</td>
                    </tr>
                    <tr>
-                      <td align="center" width=160px><i>D</i><sub>r</sub><br>(SPCI、SBCI、BDCI)</td>
-                     <td align="center" >[95,100]</td>
-                                 <td align="center" >[80,95)</td>
-         <td align="center" >[60,80)</td>
-         <td align="center" >[40,60)</td>
-         <td align="center" >[0,40)</td>
+                     <td align="center"  id="dhbg" >拱顶、1/4拱跨</td>
+                     <td align="center"  id="dhbg" ><0.7</td>
+                                 <td align="center"  id="dhbg">直线内插</td>
+         <td align="center"  id="dhbg">1.0</td>
+                   </tr>
+                   <tr>
+                     <td align="center"  id="dhbg" >拱脚</td>
+                     <td align="center"  id="dhbg" >0.9</td>
+                                 <td align="center"  id="dhbg">直线内插</td>
+         <td align="center"  id="dhbg"><1.0</td>
+                   </tr>
+                   <tr>
+                     <td align="center"  id="dhbg" >其他截面</td>
+                     <td align="center"  id="dhbg" colspan="3">直线内插</td>
+                                 <!-- <td></td> -->
+         <!-- <td></td> -->
                    </tr>
                </table>
-  <p></p>
+<p></p>
 
-<p style="text-align:justify"><a href="#id4.1.6"> 4.1.6</a> <span id="id4.1.6"> 在桥梁技术状况评定时，当满足4.3节中规定的任一情况时，桥梁中技术技术状况应评为5类。</span></p>
-<p style="text-align:justify"><a href="#id4.1.7"> 4.1.7</a> <span id="id4.1.7"> 当上部结构和下部结构技术状况等级为3类、桥面系技术状况等级为4类，且桥梁总体技术状况评分为40≤<i>D</i><sub>r</sub> < 60时，桥梁总体技术状况等级应评定为3类。</span></p>
-<p style="text-align:justify"><a href="#id4.1.8"> 4.1.8</a> <span id="id4.1.8"> 全桥总体技术状况等级评定时，当主要部件评分达到4类或5类且影响桥梁安全时，可按照桥梁主要部件最差的缺损状况评定。</span></p></section>
-<section id="id3">
-<h2>4.2 各结构形式桥梁部件分类及权重指<a class="headerlink" href="#id3" title="此标题的永久链接"></a></h2>
-<p style="text-align:justify"><a href="#id4.2.1"> 4.2.1</a> <span id="id4.2.1"> 梁式桥各部件权重值宜按<a href="#B4.2.1">表4.2.1</a>的规定取值。</span></p>
+<p style="text-align:justify"><a href="#id4.4.2"> 4.4.2</a> <span id="id4.4.2">拱桥设计应优选拱轴线，使拱在作用组合下，轴向力的偏心距较小。对大跨径拱桥，如某些截面的结构自重压力线与拱轴线偏离过大，或在结构重力及其所引起的弹性压缩和温度下降、混凝土收缩等作用下轴向力偏心距较大时，应作适当调整，且应考虑拱轴线偏离结构重力压力线引起的偏离弯矩。</span></p>
+<p style="text-align:justify"><a href="#id4.4.3"> 4.4.3</a> <span id="id4.4.3">拱上建筑为立柱排架式墩的箱形截面板拱，应考虑活载的横向不均匀分布。拱上建筑为墙式墩的板拱，当活载横桥向布置不超过拱圈以外时，活载可按均匀分布于拱圈全宽计算。</span></p>
+<p style="text-align:justify"><a href="#id4.4.4"> 4.4.4</a> <span id="id4.4.4">上承式肋式拱桥活载可通过拱上排架墩的盖梁和立柱分配于拱肋。</span></p>
+<p style="text-align:justify"><a href="#id4.4.5"> 4.4.5</a> <span id="id4.4.5">拱上建筑横桥向排架的盖梁可参照<a href="https://jtg-3362.readthedocs.io/zh/latest/8.html#id5">第8.4节</a>计算。</span></p>
+<p style="text-align:justify"><a href="#id4.4.6"> 4.4.6</a> <span id="id4.4.6">拱桥在施工阶段或成拱过程中，应验算各阶段的截面强度和拱的稳定性。</span></p>
+<p style="text-align:justify"><a href="#id4.4.7"> 4.4.7</a> <span id="id4.4.7">拱圈应按本规范<a href="https://jtg-3362.readthedocs.io/zh/latest/5.html#id5.3.1">第5.3.1条</a>验算拱的平面内纵向稳定。此时，拱的轴向力设计值<i>N</i><sub>d</sub>可按下式计算：</span></p><p>$$N_{\mathrm{d}}=H_{\mathrm{d}}/\cosφm \tag{4.4.7}$$</p>
+<table border="0" style="font-family:times new roman" id="gongshi">
+<tr>
+<td width="50px" align='center' id="eqzs">式中:</td>
+<td width="50px" align='right' id="eqzs"><i>H</i><sub>d</sub></td>
+<td width="40px" align='left' id="eqzs">——</td>
+<td id="eqzs">拱的水平推力设计值；</td>
+</tr>
+<tr>
+<td id="eqzs"> </td>
+<td id="eqzs"><i>φm</i></td>
+<td id="eqzs">——</td>
+<td id="eqzs">拱顶与拱脚连线与水平线的夹角。</td>
+</tr>
+</table>
+<p></p>
+
+<p style="text-align:justify;text-indent:2em;" >在施工阶段，拱的平面内纵向稳定验算时的构件自重效应分项系数应取1.2,施工时附加的其他荷载效应分项系数应取1.4;在使用阶段，拱的平面内纵向稳定验算的作用效应的分项系数，按《公路桥涵设计通用规范》(JTG D60)取用。</p>
+<p style="text-align:justify;text-indent:2em;" >计算平面内纵向稳定时，拱圈的计算长度可按下列规定采用：<br/>&emsp;&emsp;&nbsp;三铰拱0.58<i>L</i><sub>α</sub>;<br/>&emsp;&emsp;&nbsp;双铰拱0.54<i>L</i><sub>α</sub>;<br/>&emsp;&emsp;&nbsp;无铰拱0.36<i>L</i><sub>α</sub>;<br/>&emsp;&emsp;&nbsp;<i>L</i><sub>α</sub>为拱轴线长度。</p>
+<p style="text-align:justify"><a href="#id4.4.8"> 4.4.8</a> <span id="id4.4.8">当板拱的宽度小于计算跨径的 1/20 时，应验算拱圈的横向稳定。计算以横系梁联结的肋拱横向稳定时，可将其视为长度等于拱轴线长度的平面桁架，根据其支承条件，按受压组合构件确定其计算长度和长细比。拱的平均轴向力可按<a href="#ideq4.4.7">公式(4.4.7)</a><span id="ideq4.4.7">计算。</span></p>
+<p style="text-align:justify"><a href="#id4.4.9"> 4.4.9</a> <span id="id4.4.9">计算风力或离心力引起的拱脚截面的荷载效应时，可按以下假定近似计算：</span></p>
+<ol>
+<li>拱圈视作两端固定的水平直梁，其跨径等于拱的计算跨径，全梁平均承受风力或离心力，计算梁端弯矩<i>M</i><sub>1</sub>。</li>
+<li>拱圈视作下端固定的竖向悬臂梁，其跨径等于拱的计算矢高，悬臂梁平均承受1/2拱跨风力，在梁的自由端承受1/2拱跨的离心力，计算固定端弯矩<i>M</i><sub>2</sub>。</li>
+<li>拱的弯矩M为上述两项弯矩在垂直于曲线平面的拱脚截面上的投影之和：</li>
+</ol><p>$$M=M_{1}\cosφ+M_{2}\sinφ \tag{4.4.9}$$</p>
+<table border="0" style="font-family:times new roman" id="gongshi">
+<tr>
+<td width="50px" align='center' id="eqzs">式中:</td>
+<td width="50px" align='right' id="eqzs"><i>φ</i></td>
+<td width="40px" align='left' id="eqzs">——</td>
+<td id="eqzs">拱脚处拱轴线的切线与跨径的夹角。</td>
+</tr>
+</table>
+<p></p>
+<p style="text-align:justify"><a href="#id4.4.10"> 4.4.10</a> <span id="id4.4.10"> 大跨径拱桥应验算拱顶、拱跨3/8、拱跨1/4和拱脚四个截面；对于中、小跨径拱桥，拱跨 1/4 截面可不验算；特大跨径拱桥，除上述四个截面外，视截面配筋情况，还应选择相应的控制截面进行验算。截面承载力应按本规范<a href="https://jtg-3362.readthedocs.io/zh/latest/5.html#id4">第5.3节</a>的规定进行验算，其构件的计算长度可按本规范<a href="#id4.4.7">第4.4.7条</a>规定采用。</span></p>
+<p style="text-align:justify"><a href="#id4.4.11"> 4.4.11</a> <span id="id4.4.11"> 多跨无铰拱桥应按连拱计算。当桥墩抗推刚度与主拱抗推刚度之比大于37时，可按单跨拱桥计算。</span></p>
+<p style="text-align:justify"><a href="#id4.4.12"> 4.4.12</a> <span id="id4.4.12"> 桁架拱可采用双铰拱支承体系。桁架拱的节点按固接考虑；当按简化计算时，可将节点按铰接计算，但其下弦截面强度，应留有不小于20%余量</span></p>
+<p style="text-align:justify;text-indent:2em;" > 桁架拱的结构自重可按全跨均布计算，由桁架拱拱片承受；但如采用下弦杆合龙后再拼装其他杆件的施工方法时，下弦杆应承受合龙前的全部结构自重。桥面板可考虑与上弦杆共同承受桥上活荷载。</p>
+<p style="text-align:justify;text-indent:2em;" > 上弦杆及与上弦杆在节点处相连的腹杆(竖杆和斜杆),应考虑桥面上局部荷载引起的弯矩。</p>
+<p style="text-align:justify;text-indent:2em;" > 桁架拱应考虑活载的横向分布。</p>
+<p style="text-align:justify;text-indent:2em;" > 桁架拱的拱轴线宜采用与结构自重压力线接近的曲线，如采用拱轴系数<i>m</i>值较小的悬链线或二次抛物线。</p>
+<p style="text-align:justify"><a href="#id4.4.13"> 4.4.13</a> <span id="id4.4.13"> 刚架拱在上弦杆两端应设置活动支座。桥面板可与刚架拱片联合作用承受桥上活荷载。</span></p>
+<p style="text-align:justify;text-indent:2em;" > 刚架拱应考虑活载的横向分布。</p>
+<p style="text-align:justify"><a href="#id4.4.14"> 4.4.14</a> <span id="id4.4.14"> 系杆拱当其拱肋截面的抗弯刚度与系杆截面的抗弯刚度的比值小于 1/100 时，拱肋可视为仅承受轴向压力的柔性拱肋；当拱肋截面的抗弯刚度与系杆截面的抗弯刚度的比值大于 100 时，系杆可视为仅承受轴向拉力的系杆。上述杆件的节点均可视为铰接。</span></p>
+<p style="text-align:justify;text-indent:2em;" > 系杆拱当拱肋截面的抗弯刚度与系杆截面的抗弯刚度比值为1/100至100时，系杆与拱肋应视为刚性连接，此时荷载引起的弯矩在系杆和拱肋之间应按抗弯刚度分配。</p></section>
+<section id="id6">
+<h2>4.5 拱的计算<a class="headerlink" href="#id6" title="此标题的永久链接"></a></h2>
+<p style="text-align:justify"><a href="#id4.5.1"> 4.5.1</a> <span id="id4.5.1">公路桥涵混凝土结构及构件的设计使用年限应符合现行《公路工程技术标准》(JTG B01)的规定。</span></p>
+<p style="text-align:justify"><a href="#id4.5.2"> 4.5.2</a> <span id="id4.5.2">公路桥涵混凝土结构及构件应根据其表面直接接触的环境按<a href="#B4.5.2">表4.5.2</a>的规定确定所处环境类别。</span></p>
 
   <table id="biaoge" style="font-family:times new roman">
 
-        <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="B4.2.1">表4.2.1 梁式桥各部件权重值</b></caption>
+        <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="B4.5.2">表4.5.2 公路桥涵混凝土结构及构件所处环境类别划分</b></caption>
 
                    <tr>
-                     <td  align="center" width=150px >部位</td>
-                     <td  align="center" width=150px >类别<i>i</i></td>
-                                 <td  align="center" width=400px >评价部位</td>
-         <td  align="center" width=200px >权重</td>
+                     <td  align="center" id="dhbg" width="300px">环境类别</td>
+         <td  align="center" id="dhbg" width="600px">条件</td>
                    </tr>
-                 <tr>
-                     <td align="center" rowspan="3">上部结构</td>
-                                 <td align="center" width=160px>1</td>
-         <td align="center" width=160px>上部承重构件（主梁、挂梁）</td>
-         <td align="center" width=160px>0.70</td>
-                   </tr>
-                 <tr>
-                     <!-- <td></td> -->
-                                 <td align="center" width=160px>2</td>
-         <td align="center" width=160px>上部一般构件（湿接缝、横隔板等）</td>
-         <td align="center" width=160px>0.18</td>
-                   </tr>
-       <tr>
-                     <!-- <td></td> -->
-                                 <td align="center" width=160px>3</td>
-         <td align="center" width=160px>支座</td>
-         <td align="center" width=160px>0.12</td>
-                   </tr>
-       <tr>
-                     <td align="center" rowspan="7">下部结构</td>
-                                 <td align="center" width=160px>4</td>
-         <td align="center" width=160px>翼墙、耳墙</td>
-         <td align="center" width=160px>0.02</td>
-                   </tr>
-                 <tr>
-                     <!-- <td></td> -->
-                                 <td align="center" width=160px>5</td>
-         <td align="center" width=160px>锥坡、护坡</td>
-         <td align="center" width=160px>0.01</td>
-                   </tr>
-       <tr>
-                     <!-- <td></td> -->
-                                 <td align="center" width=160px>6</td>
-         <td align="center" width=160px>桥墩</td>
-         <td align="center" width=160px>0.30</td>
-                   </tr>
-       <tr>
-                     <!-- <td></td> -->
-                                 <td align="center" width=160px>7</td>
-         <td align="center" width=160px>桥台</td>
-         <td align="center" width=160px>0.30</td>
-                   </tr>
-                 <tr>
-                     <!-- <td></td> -->
-                                 <td align="center" width=160px>8</td>
-         <td align="center" width=160px>墩台基础</td>
-         <td align="center" width=160px>0.28</td>
-                   </tr>
-       <tr>
-                     <!-- <td></td> -->
-                                 <td align="center" width=160px>9</td>
-         <td align="center" width=160px>河床</td>
-         <td align="center" width=160px>0.07</td>
-                   </tr>
-       <tr>
-                     <!-- <td></td> -->
-                                 <td align="center" width=160px>10</td>
-         <td align="center" width=160px>调治构造物</td>
-         <td align="center" width=160px>0.20</td>
-                   </tr>
-       <tr>
-                     <td align="center" rowspan="6">桥面系</td>
-                                 <td align="center" width=160px>11</td>
-         <td align="center" width=160px>桥面铺装</td>
-         <td align="center" width=160px>0.40</td>
-                   </tr>
-                 <tr>
-                     <!-- <td></td> -->
-                                 <td align="center" width=160px>12</td>
-         <td align="center" width=160px>伸缩缝装置</td>
-         <td align="center" width=160px>0.25</td>
-                   </tr>
-       <tr>
-                     <!-- <td></td> -->
-                                 <td align="center" width=160px>13</td>
-         <td align="center" width=160px>人行道</td>
-         <td align="center" width=160px>0.10</td>
-                   </tr>
-       <tr>
-                     <!-- <td></td> -->
-                                 <td align="center" width=160px>14</td>
-         <td align="center" width=160px>栏杆、护栏</td>
-         <td align="center" width=160px>0.10</td>
-                   </tr>
-                 <tr>
-                     <!-- <td></td> -->
-                                 <td align="center" width=160px>15</td>
-         <td align="center" width=160px>排水系统</td>
-         <td align="center" width=160px>0.10</td>
-                   </tr>
-       <tr>
-                     <!-- <td></td> -->
-                                 <td align="center" width=160px>16</td>
-         <td align="center" width=160px>照明、标志</td>
-         <td align="center" width=160px>0.05</td>
-                   </tr>
-               </table>
-  <p></p>
-
-
-<p style="text-align:justify"><a href="#id4.2.2"> 4.2.2</a> <span id="id4.2.2"> 拱式桥各部件权重值宜按<a href="#B4.2.2-1">表4.2.2-1 ~ <a href="#B4.2.2-3">表4.2.2-3</a>的规定取值。</span></p>
-
- <table id="biaoge" style="font-family:times new roman">
-
-        <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="B4.2.2-1">表4.2.2-1 板拱桥、肋拱桥、箱形拱桥、双曲拱桥各部件权重值</b></caption>
-
                    <tr>
-                     <td  align="center" width=150px >部位</td>
-                     <td  align="center" width=150px >类别<i>i</i></td>
-                                 <td  align="center" width=400px >评价部位</td>
-         <td  align="center" width=200px >权重</td>
+         <td align="center" id="dhbg" >I类-一般环境</td>
+         <td align="center" id="dhbg" >仅受混凝土碳化影响的环境</td>
                    </tr>
-                 <tr>
-                     <td align="center" rowspan="3">上部结构</td>
-                                 <td align="center" width=160px>1</td>
-         <td align="center" width=160px>主拱圈</td>
-         <td align="center" width=160px>0.70</td>
-                   </tr>
-                 <tr>
-                     <!-- <td></td> -->
-                                 <td align="center" width=160px>2</td>
-         <td align="center" width=160px>拱上结构</td>
-         <td align="center" width=160px>0.20</td>
-                   </tr>
-       <tr>
-                     <!-- <td></td> -->
-                                 <td align="center" width=160px>3</td>
-         <td align="center" width=160px>桥面板</td>
-         <td align="center" width=160px>0.10</td>
-                   </tr>
-       <tr>
-                     <td align="center" rowspan="7">下部结构</td>
-                                 <td align="center" width=160px>4</td>
-         <td align="center" width=160px>翼墙、耳墙</td>
-         <td align="center" width=160px>0.02</td>
-                   </tr>
-                 <tr>
-                     <!-- <td></td> -->
-                                 <td align="center" width=160px>5</td>
-         <td align="center" width=160px>锥坡、护坡</td>
-         <td align="center" width=160px>0.01</td>
-                   </tr>
-       <tr>
-                     <!-- <td></td> -->
-                                 <td align="center" width=160px>6</td>
-         <td align="center" width=160px>桥墩</td>
-         <td align="center" width=160px>0.30</td>
-                   </tr>
-       <tr>
-                     <!-- <td></td> -->
-                                 <td align="center" width=160px>7</td>
-         <td align="center" width=160px>桥台</td>
-         <td align="center" width=160px>0.30</td>
-                   </tr>
-                 <tr>
-                     <!-- <td></td> -->
-                                 <td align="center" width=160px>8</td>
-         <td align="center" width=160px>墩台基础</td>
-         <td align="center" width=160px>0.28</td>
-                   </tr>
-       <tr>
-                     <!-- <td></td> -->
-                                 <td align="center" width=160px>9</td>
-         <td align="center" width=160px>河床</td>
-         <td align="center" width=160px>0.07</td>
-                   </tr>
-       <tr>
-                     <!-- <td></td> -->
-                                 <td align="center" width=160px>10</td>
-         <td align="center" width=160px>调治构造物</td>
-         <td align="center" width=160px>0.02</td>
-                   </tr>
-       <tr>
-                     <td align="center" rowspan="6">桥面系</td>
-                                 <td align="center" width=160px>11</td>
-         <td align="center" width=160px>桥面铺装</td>
-         <td align="center" width=160px>0.40</td>
-                   </tr>
-                 <tr>
-                     <!-- <td></td> -->
-                                 <td align="center" width=160px>12</td>
-         <td align="center" width=160px>伸缩缝装置</td>
-         <td align="center" width=160px>0.25</td>
-                   </tr>
-       <tr>
-                     <!-- <td></td> -->
-                                 <td align="center" width=160px>13</td>
-         <td align="center" width=160px>人行道</td>
-         <td align="center" width=160px>0.10</td>
-                   </tr>
-       <tr>
-                     <!-- <td></td> -->
-                                 <td align="center" width=160px>14</td>
-         <td align="center" width=160px>栏杆、护栏</td>
-         <td align="center" width=160px>0.10</td>
-                   </tr>
-                 <tr>
-                     <!-- <td></td> -->
-                                 <td align="center" width=160px>15</td>
-         <td align="center" width=160px>排水系统</td>
-         <td align="center" width=160px>0.10</td>
-                   </tr>
-       <tr>
-                     <!-- <td></td> -->
-                                 <td align="center" width=160px>16</td>
-         <td align="center" width=160px>照明、标志</td>
-         <td align="center" width=160px>0.05</td>
-                   </tr>
-               </table>
-  <p></p>
-
-    <table id="biaoge" style="font-family:times new roman">
-
-        <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="B4.2.2-2">表4.2.2-2 刚架拱桥、桁架拱桥各部件权重值</b></caption>
-
                    <tr>
-                     <td  align="center" width=150px >部位</td>
-                     <td  align="center" width=150px >类别<i>i</i></td>
-                                 <td  align="center" width=400px >评价部位</td>
-         <td  align="center" width=200px >权重</td>
+         <td align="center" id="dhbg" >Ⅱ类-冻融环境</td>
+         <td align="center" id="dhbg" >受反复冻融影响的环境</td>
                    </tr>
-                 <tr>
-                     <td align="center" rowspan="3">上部结构</td>
-                                 <td align="center" width=160px>1</td>
-         <td align="center" width=160px>刚架拱片（桁架拱片）</td>
-         <td align="center" width=160px>0.50</td>
-                   </tr>
-                 <tr>
-                     <!-- <td></td> -->
-                                 <td align="center" width=160px>2</td>
-         <td align="center" width=160px>横向联结线</td>
-         <td align="center" width=160px>0.0.25/td>
-                   </tr>
-       <tr>
-                     <!-- <td></td> -->
-                                 <td align="center" width=160px>3</td>
-         <td align="center" width=160px>桥面板</td>
-         <td align="center" width=160px>0.25</td>
-                   </tr>
-       <tr>
-                     <td align="center" rowspan="7">下部结构</td>
-                                 <td align="center" width=160px>4</td>
-         <td align="center" width=160px>翼墙、耳墙</td>
-         <td align="center" width=160px>0.0.02</td>
-                   </tr>
-                 <tr>
-                     <!-- <td></td> -->
-                                 <td align="center" width=160px>5</td>
-         <td align="center" width=160px>锥坡、护坡</td>
-         <td align="center" width=160px>0.10</td>
-                   </tr>
-       <tr>
-                     <!-- <td></td> -->
-                                 <td align="center" width=160px>6</td>
-         <td align="center" width=160px>桥墩</td>
-         <td align="center" width=160px>0.30</td>
-                   </tr>
-       <tr>
-                     <!-- <td></td> -->
-                                 <td align="center" width=160px>7</td>
-         <td align="center" width=160px>桥台</td>
-         <td align="center" width=160px>0.30</td>
-                   </tr>
-                 <tr>
-                     <!-- <td></td> -->
-                                 <td align="center" width=160px>8</td>
-         <td align="center" width=160px>墩台基础</td>
-         <td align="center" width=160px>0.28</td>
-                   </tr>
-       <tr>
-                     <!-- <td></td> -->
-                                 <td align="center" width=160px>9</td>
-         <td align="center" width=160px>河床</td>
-         <td align="center" width=160px>0.07</td>
-                   </tr>
-       <tr>
-                     <!-- <td></td> -->
-                                 <td align="center" width=160px>10</td>
-         <td align="center" width=160px>调治构造物</td>
-         <td align="center" width=160px>0.02</td>
-                   </tr>
-       <tr>
-                     <td align="center" rowspan="6">桥面系</td>
-                                 <td align="center" width=160px>11</td>
-         <td align="center" width=160px>桥面铺装</td>
-         <td align="center" width=160px>0.40</td>
-                   </tr>
-                 <tr>
-                     <!-- <td></td> -->
-                                 <td align="center" width=160px>12</td>
-         <td align="center" width=160px>伸缩缝装置</td>
-         <td align="center" width=160px>0.25</td>
-                   </tr>
-       <tr>
-                     <!-- <td></td> -->
-                                 <td align="center" width=160px>13</td>
-         <td align="center" width=160px>人行道</td>
-         <td align="center" width=160px>0.10</td>
-                   </tr>
-       <tr>
-                     <!-- <td></td> -->
-                                 <td align="center" width=160px>14</td>
-         <td align="center" width=160px>栏杆、护栏</td>
-         <td align="center" width=160px>0.10</td>
-                   </tr>
-                 <tr>
-                     <!-- <td></td> -->
-                                 <td align="center" width=160px>15</td>
-         <td align="center" width=160px>排水系统</td>
-         <td align="center" width=160px>0.10</td>
-                   </tr>
-       <tr>
-                     <!-- <td></td> -->
-                                 <td align="center" width=160px>16</td>
-         <td align="center" width=160px>照明、标志</td>
-         <td align="center" width=160px>0.05</td>
-                   </tr>
-               </table>
-  <p></p>
-
-    <table id="biaoge" style="font-family:times new roman">
-
-        <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="B4.2.2-3">表4.2.2-3 钢—混凝土组合拱桥各部件权重值</b></caption>
-
                    <tr>
-                     <td  align="center" width=150px >部位</td>
-                     <td  align="center" width=150px >类别<i>i</i></td>
-                         <td  align="center" width=400px >评价部位</td>
-         <td  align="center" width=200px >权重</td>
+         <td align="center" id="dhbg" >Ⅲ类-近海或海洋氯化物环境</td>
+         <td align="center" id="dhbg" >受海洋环境下氯盐影响的环境境</td>
                    </tr>
-                 <tr>
-                     <td align="center" rowspan="7">上部结构</td>
-                        <td align="center" >1</td>
-            <td align="center" >拱肋</td>
-            <td align="center" >0.28</td>
-                   </tr>
-                 <tr>
-                     <!-- <td></td> -->
-                        <td align="center" >2</td>
-            <td align="center" >横向联结系</td>
-            <td align="center" >0.05</td>
-                   </tr>
-       <tr>
-                     <!-- <td></td> -->
-                        <td align="center">3</td>
-            <td align="center" >立柱</td>
-            <td align="center" >0.13</td>
-                   </tr>
-       <tr>
-                     <!-- <td></td> -->
-                        <td align="center">4</td>
-            <td align="center">吊杆</td>
-            <td align="center" >0.13</td>
-                   </tr>
-                 <tr>
-                     <!-- <td></td> -->
-                        <td align="center"  >5</td>
-            <td align="center" >系杆（含锚具）</td>
-            <td align="center" >0.28</td>
-                   </tr>
-       <tr>
-                     <!-- <td></td> -->
-                        <td align="center" >6</td>
-            <td align="center" >桥面板（梁）</td>
-            <td align="center" >0.08</td>
-                   </tr>
-        <tr>
-                     <!-- <td></td> -->
-                        <td align="center" >7</td>
-            <td align="center" >支座</td>
-            <td align="center" >0.05</td>
-                   </tr>
-        <tr>
-                    <td align="center" rowspan="7">下部结构</td>
-                        <td align="center">8</td>
-            <td align="center">翼墙、耳墙</td>
-            <td align="center">0.02</td>
-                   </tr>
-                 <tr>
-                     <!-- <td></td> -->
-                        <td align="center">9</td>
-            <td align="center">锥坡、护坡</td>
-            <td align="center">0.10</td>
-                   </tr>
-        <tr>
-                     <!-- <td></td> -->
-                        <td align="center" >10</td>
-            <td align="center" >桥墩</td>
-            <td align="center" >0.30</td>
-                   </tr>
-        <tr>
-                     <!-- <td></td> -->
-                        <td align="center">11</td>
-            <td align="center">桥台</td>
-            <td align="center">0.30</td>
-                   </tr>
-        <tr>
-                    <!-- <td></td> -->
-                        <td align="center">12</td>
-            <td align="center">墩台基础</td>
-            <td align="center">0.28</td>
-                   </tr>
-        <tr>
-                     <!-- <td></td> -->
-                        <td align="center">13</td>
-            <td align="center" >河床</td>
-             <td align="center" >0.07</td>
-                   </tr>
-        <tr>
-                    <!-- <td></td> -->
-                        <td align="center">14</td>
-            <td align="center">调治构造物</td>
-            <td align="center" >0.02</td>
-                   </tr>
-         <tr>
-                     <td align="center" rowspan="6">桥面系</td>
-                        <td align="center">15</td>
-            <td align="center">桥面铺装</td>
-            <td align="center">0.40</td>
-                   </tr>
-                 <tr>
-                    <!-- <td></td> -->
-                        <td align="center"  >16</td>
-            <td align="center"  >伸缩缝装置</td>
-            <td align="center" >0.25</td>
-                   </tr>
-       <tr>
-                     <!-- <td></td> -->
-                        <td align="center"  >17</td>
-            <td align="center"  >人行道</td>
-            <td align="center"  >0.10</td>
-                   </tr>
-       <tr>
-                     <!-- <td></td> -->
-                        <td align="center"  >18</td>
-            <td align="center"  >栏杆、护栏</td>
-            <td align="center"  >0.10</td>
-                   </tr>
-                 <tr>
-                     <!-- <td></td> -->
-                                 <td align="center"  >19</td>
-         <td align="center"  >排水系统</td>
-         <td align="center"  >0.10</td>
-                   </tr>
-       <tr>
-                    <!-- <td></td> -->
-                        <td align="center" width=160px>20</td>
-            <td align="center" width=160px>照明、标志</td>
-            <td align="center" width=160px>0.05</td>
-                   </tr>
-               </table>
-  <p></p>
-
-
-
-
-<p style="text-align:justify"><a href="#id4.2.3"> 4.2.3</a> <span id="id4.2.3"> 悬索桥各部件权重值宜按<a href="#B4.2.3">表4.2.3</a>的规定取值。</span></p>
- <table id="biaoge" style="font-family:times new roman">
-
-        <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="B4.2.3">表4.2.3 悬索桥各部件权重值</b></caption>
-
                    <tr>
-                     <td  align="center" width=150px >部位</td>
-                     <td  align="center" width=150px >类别<i>i</i></td>
-                                 <td  align="center" width=400px >评价部位</td>
-         <td  align="center" width=200px >权重</td>
+         <td align="center" id="dhbg" >IV类-除冰盐等其他氯化物环境</td>
+         <td align="center" id="dhbg" >受除冰盐等氯盐影响的环境</td>
                    </tr>
-                 <tr>
-                     <td align="center" rowspan="8">上部结构</td>
-                                 <td align="center" width=160px>1</td>
-         <td align="center" width=160px>加劲梁</td>
-         <td align="center" width=160px>0.15</td>
-                   </tr>
-                 <tr>
-                     <!-- <td></td> -->
-                                 <td align="center" width=160px>2</td>
-         <td align="center" width=160px>索塔</td>
-         <td align="center" width=160px>0.20</td>
-                   </tr>
-       <tr>
-                     <!-- <td></td> -->
-                                 <td align="center" width=160px>3</td>
-         <td align="center" width=160px>支座</td>
-         <td align="center" width=160px>0.05</td>
-                   </tr>
-       <tr>
-                     <!-- <td></td> -->
-                                 <td align="center" width=160px>4</td>
-         <td align="center" width=160px>主鞍</td>
-         <td align="center" width=160px>0.04</td>
-                   </tr>
-                 <tr>
-                     <!-- <td></td> -->
-                                 <td align="center" width=160px>5</td>
-         <td align="center" width=160px>主缆</td>
-         <td align="center" width=160px>0.25</td>
-                   </tr>
-       <tr>
-                     <!-- <td></td> -->
-                                 <td align="center" width=160px>6</td>
-         <td align="center" width=160px>索夹</td>
-         <td align="center" width=160px>0.04</td>
-                   </tr>
-       <tr>
-                     <!-- <td></td> -->
-                                 <td align="center" width=160px>7</td>
-         <td align="center" width=160px>吊索及钢护筒</td>
-         <td align="center" width=160px>0.17</td>
-                   </tr>
-       <tr>
-                     <!-- <td></td> -->
-                                 <td align="center" width=160px>8</td>
-         <td align="center" width=160px>锚杆</td>
-         <td align="center" width=160px>0.10</td>
-                   </tr>
-       <tr>
-                     <td align="center" rowspan="5">下部结构</td>
-                        <td align="center" width=160px>9</td>
-            <td align="center" width=160px>锚碇</td>
-            <td align="center" width=160px>0.40</td>
-                   </tr>
-                 <tr>
-                     <!-- <td></td> -->
-                                 <td align="center" width=160px>10</td>
-         <td align="center" width=160px>索塔基础</td>
-         <td align="center" width=160px>0.30</td>
-                   </tr>
-       <tr>
-                     <!-- <td></td> -->
-                                 <td align="center" width=160px>11</td>
-         <td align="center" width=160px>散索鞍</td>
-         <td align="center" width=160px>0.15</td>
-                   </tr>
-       <tr>
-                     <!-- <td></td> -->
-                                 <td align="center" width=160px>12</td>
-         <td align="center" width=160px>河床</td>
-         <td align="center" width=160px>0.10</td>
-                   </tr>
-                 <tr>
-                     <!-- <td></td> -->
-                        <td align="center" width=160px>13</td>
-            <td align="center" width=160px>调治构造物</td>
-            <td align="center" width=160px>0.05</td>
-                   </tr>
-       <tr>
-                     <td align="center" rowspan="6">桥面系</td>
-                                 <td align="center" width=160px>14</td>
-         <td align="center" width=160px>桥面铺装</td>
-         <td align="center" width=160px>0.40</td>
-                   </tr>
-                 <tr>
-                     <!-- <td></td> -->
-                        <td align="center" width=160px>15</td>
-            <td align="center" width=160px>伸缩缝装置</td>
-             <td align="center" width=160px>0.25</td>
-                   </tr>
-       <tr>
-                     <!-- <td></td> -->
-                        <td align="center" width=160px>16</td>
-            <td align="center" width=160px>人行道</td>
-            <td align="center" width=160px>0.10</td>
-                   </tr>
-       <tr>
-                     <!-- <td></td> -->
-                        <td align="center" width=160px>17</td>
-            <td align="center" width=160px>栏杆、护栏</td>
-            <td align="center" width=160px>0.10</td>
-                   </tr>
-                 <tr>
-                     <!-- <td></td> -->
-                                 <td align="center" width=160px>18</td>
-         <td align="center" width=160px>排水系统</td>
-         <td align="center" width=160px>0.10</td>
-                   </tr>
-       <tr>
-                     <!-- <td></td> -->
-                                 <td align="center" width=160px>19</td>
-         <td align="center" width=160px>照明、标志</td>
-         <td align="center" width=160px>0.05</td>
-                   </tr>
-               </table>
-  <p></p>
-
-<p style="text-align:justify"><a href="#id4.2.4"> 4.2.4</a> <span id="id4.2.4"> 斜拉桥各部件权重值宜按<a href="#B4.2.4">表4.2.4</a>的规定取值。</span></p>
-
-<table id="biaoge" style="font-family:times new roman">
-
-        <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="B4.2.4">表4.2.4 斜拉桥各部件权重值</b></caption>
-
                    <tr>
-                     <td  align="center" width=150px >部位</td>
-                     <td  align="center" width=150px >类别<i>i</i></td>
-                                 <td  align="center" width=400px >评价部位</td>
-         <td  align="center" width=200px >权重</td>
+         <td align="center" id="dhbg" >V类-盐结晶环境</td>
+         <td align="center" id="dhbg" >受混凝土孔隙中硫酸盐结晶膨胀影响的环境</td>
                    </tr>
-                 <tr>
-                     <td align="center" rowspan="4">上部结构</td>
-                                 <td align="center" width=160px>1</td>
-         <td align="center" width=160px>斜拉索系统（斜拉索、锚具、拉索护套、减震装置等）</td>
-         <td align="center" width=160px>0.40</td>
+                   <tr>
+         <td align="center" id="dhbg" >VI类-化学腐蚀环境</td>
+         <td align="center" id="dhbg" >受酸碱性较强的化学物质侵蚀的环境</td>
                    </tr>
-                 <tr>
-                     <!-- <td></td> -->
-                                 <td align="center" width=160px>2</td>
-         <td align="center" width=160px>主梁</td>
-         <td align="center" width=160px>0.25</td>
-                   </tr>
-       <tr>
-                     <!-- <td></td> -->
-                                 <td align="center" width=160px>3</td>
-         <td align="center" width=160px>索塔</td>
-         <td align="center" width=160px>0.25</td>
-                   </tr>
-       <tr>
-                     <!-- <td></td> -->
-                                 <td align="center" width=160px>4</td>
-         <td align="center" width=160px>支座</td>
-         <td align="center" width=160px>0.10</td>
-                   </tr>
-       <tr>
-                     <td align="center" rowspan="7">下部结构</td>
-                                 <td align="center" width=160px>5</td>
-         <td align="center" width=160px>翼墙、耳墙</td>
-         <td align="center" width=160px>0.02</td>
-                   </tr>
-                 <tr>
-                     <!-- <td></td> -->
-                                 <td align="center" width=160px>6</td>
-         <td align="center" width=160px>锥坡、护坡</td>
-         <td align="center" width=160px>0.01</td>
-                   </tr>
-       <tr>
-                     <!-- <td></td> -->
-                                 <td align="center" width=160px>7</td>
-         <td align="center" width=160px>桥墩</td>
-         <td align="center" width=160px>0.30</td>
-                   </tr>
-       <tr>
-                     <!-- <td></td> -->
-                                 <td align="center" width=160px>8</td>
-         <td align="center" width=160px>桥台</td>
-         <td align="center" width=160px>0.30</td>
-                   </tr>
-                 <tr>
-                     <!-- <td></td> -->
-                                 <td align="center" width=160px>9</td>
-         <td align="center" width=160px>墩台基础</td>
-         <td align="center" width=160px>0.28</td>
-                   </tr>
-       <tr>
-                     <!-- <td></td> -->
-                                 <td align="center" width=160px>10</td>
-         <td align="center" width=160px>河床</td>
-         <td align="center" width=160px>0.02</td>
-                   </tr>
-       <tr>
-                     <!-- <td></td> -->
-                                 <td align="center" width=160px>11</td>
-         <td align="center" width=160px>调治构造物</td>
-         <td align="center" width=160px>0.40</td>
-                   </tr>
-       <tr>
-                     <td align="center" rowspan="6">桥面系</td>
-                                 <td align="center" width=160px>12</td>
-         <td align="center" width=160px>桥面铺装</td>
-         <td align="center" width=160px>0.40</td>
-                   </tr>
-                 <tr>
-                     <!-- <td></td> -->
-                                 <td align="center" width=160px>13</td>
-         <td align="center" width=160px>伸缩缝装置</td>
-         <td align="center" width=160px>0.25</td>
-                   </tr>
-       <tr>
-                     <!-- <td></td> -->
-                                 <td align="center" width=160px>14</td>
-         <td align="center" width=160px>人行道</td>
-         <td align="center" width=160px>0.10</td>
-                   </tr>
-       <tr>
-                     <!-- <td></td> -->
-                                 <td align="center" width=160px>15</td>
-         <td align="center" width=160px>栏杆、护栏</td>
-         <td align="center" width=160px>0.10</td>
-                   </tr>
-                 <tr>
-                     <!-- <td></td> -->
-                                 <td align="center" width=160px>16</td>
-         <td align="center" width=160px>排水系统</td>
-         <td align="center" width=160px>0.10</td>
-                   </tr>
-       <tr>
-                     <!-- <td></td> -->
-                                 <td align="center" width=160px>17</td>
-         <td align="center" width=160px>照明、标志</td>
-         <td align="center" width=160px>0.05</td>
+                   <tr>
+         <td align="center" id="dhbg" >VII类-磨蚀环境</td>
+         <td align="center" id="dhbg" >受风、水流或水中夹杂物的摩擦、切削、冲击等作用的环境</td>
                    </tr>
                </table>
-  <p></p>
+<p></p>
 
-<p style="text-align:justify"><a href="#id4.2.5"> 4.2.5</a> <span id="id4.2.5"> 桥梁结构组成权重值宜按<a href="#B4.2.5">表4.2.5</a>的规定取值。</span></p>
+
+<p style="text-align:justify"><a href="#id4.5.3"> 4.5.3</a> <span id="id4.5.3">各类环境下混凝土强度等级最低要求应符合<a href="#B4.5.3">表4.5.3</a>的规定。</span></p>
 
    <table id="biaoge" style="font-family:times new roman">
 
-        <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="B4.2.5">表4.2.5 桥梁结构组成权重值</b></caption>
+        <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="B4.5.2">表4.5.2 公路桥涵混凝土结构及构件所处环境类别划分</b></caption>
 
                    <tr>
-                     <td  align="center" width=450px >桥梁部位</td>
-                     <td  align="center" width=450px >权重</td>
+                     <td  align="center" id="dhbg" width="300px">构件类别</td>
+         <td  align="center" id="dhbg" colspan="2">梁、板、塔、拱圈、涵洞上部</td>
+         <!-- <td></td> -->
+        <td  align="center" id="dhbg" colspan="2">墩台身、涵洞下部</td>
+         <!-- <td></td> -->
+        <td  align="center" id="dhbg" colspan="2">承台、基础</td>
+         <!-- <td></td> -->
                    </tr>
-                <tr>
-                     <td align="center" >上部结构</td>
-                                 <td align="center" >0.40</td>
+                   <tr>
+         <td align="center" id="dhbg" >设计使用年限</td>
+         <td align="center" id="dhbg" width="50px">100年</td>
+         <td align="center" id="dhbg" width="80px">50年、30年</td>
+         <td align="center" id="dhbg" width="50px">100年</td>
+         <td align="center" id="dhbg" width="80px">50年、30年</td>
+         <td align="center" id="dhbg" width="50px">100年</td>
+         <td align="center" id="dhbg" width="80px">50年、30年</td>
                    </tr>
-                <tr>
-                     <td align="center" >下部结构</td>
-                                 <td align="center" >0.40</td>
+                   <tr>
+         <td align="center" id="dhbg" >I类-一般环境</td>
+         <td align="center" id="dhbg" >C35</td>
+         <td align="center" id="dhbg" >C30</td>
+         <td align="center" id="dhbg" >C30</td>
+         <td align="center" id="dhbg" >C25</td>
+         <td align="center" id="dhbg" >C25</td>
+         <td align="center" id="dhbg" >C25</td>
                    </tr>
-                <tr>
-                     <td align="center" >桥面系</td>
-                                 <td align="center" >0.20</td>
+                   <tr>
+         <td align="center" id="dhbg" >II类-冻融环境</td>
+         <td align="center" id="dhbg" >C40</td>
+         <td align="center" id="dhbg" >C35</td>
+         <td align="center" id="dhbg" >C35</td>
+         <td align="center" id="dhbg" >C30</td>
+         <td align="center" id="dhbg" >C30</td>
+         <td align="center" id="dhbg" >C25</td>
+                   </tr>
+                   <tr>
+         <td align="center" id="dhbg" >Ⅲ类-近海或海洋氯化物环境</td>
+         <td align="center" id="dhbg" >C40</td>
+         <td align="center" id="dhbg" >C35</td>
+         <td align="center" id="dhbg" >C35</td>
+         <td align="center" id="dhbg" >C30</td>
+         <td align="center" id="dhbg" >C30</td>
+         <td align="center" id="dhbg" >C25</td>
+                   </tr>
+                   <tr>
+         <td align="center" id="dhbg" >IV类-除冰盐等其他氯化物环境</td>
+         <td align="center" id="dhbg" >C40</td>
+         <td align="center" id="dhbg" >C35</td>
+         <td align="center" id="dhbg" >C35</td>
+         <td align="center" id="dhbg" >C30</td>
+         <td align="center" id="dhbg" >C30</td>
+         <td align="center" id="dhbg" >C25</td>
+                   </tr>
+                   <tr>
+         <td align="center" id="dhbg" >v类-盐结晶环境</td>
+         <td align="center" id="dhbg" >C40</td>
+         <td align="center" id="dhbg" >C35</td>
+         <td align="center" id="dhbg" >C35</td>
+         <td align="center" id="dhbg" >C30</td>
+         <td align="center" id="dhbg" >C30</td>
+         <td align="center" id="dhbg" >C25</td>
+                   </tr>
+                   <tr>
+         <td align="center" id="dhbg" >VI类-化学腐蚀环境</td>
+         <td align="center" id="dhbg" >C40</td>
+         <td align="center" id="dhbg" >C35</td>
+         <td align="center" id="dhbg" >C35</td>
+         <td align="center" id="dhbg" >C30</td>
+         <td align="center" id="dhbg" >C30</td>
+         <td align="center" id="dhbg" >C25</td>
+                   </tr>
+                   <tr>
+         <td align="center" id="dhbg" >VII类-磨蚀环境</td>
+         <td align="center" id="dhbg" >C40</td>
+         <td align="center" id="dhbg" >C35</td>
+         <td align="center" id="dhbg" >C35</td>
+         <td align="center" id="dhbg" >C30</td>
+         <td align="center" id="dhbg" >C30</td>
+         <td align="center" id="dhbg" >C25</td>
                    </tr>
                </table>
-  <p></p></section>
-<section id="id4">
-<h2>4.3 5类桥梁技术状况单项控制指标<a class="headerlink" href="#id4" title="此标题的永久链接"></a></h2>
-<p style="text-align:justify"><a href="#id4.3.1"> 4.3.1</a> <span id="id4.3.1"> 在桥梁技术状况评价中，有下列情况之一时，整座桥应评为5类桥：</span> </p>
+<p></p>
+
+<p style="text-align:justify"><a href="#id4.5.4"> 4.5.4</a> <span id="id4.5.4">公路桥涵混凝土结构及构件应采取下列耐久性技术措施：</span></p>
 <ol>
-<li>上部结构有落梁；或有梁、板断裂现象。</li>
-<li>梁式桥上部承重构件控制截面出现全截面开裂；或组合结构上部承重构件结合面开裂贯通，造成截面组合作用严重降低。</li>
-<li>梁式桥上部承重构件有严重的异常位移，存在失稳现象。</li>
-<li>结构出现明显的永久变形，变形大于规范值。</li>
-<li>关键部位混凝土出现压碎或杆件失稳倾向；或桥面板出现严重塌陷。</li>
-<li>拱式桥拱脚严重错台、位移，造成拱顶挠度大于限值；或拱圈严重变形。</li>
-<li>圬工拱桥拱圈大范围砌体断裂，脱落现象严重。</li>
-<li>腹拱、侧墙、立墙或立柱产生破坏造成桥面板严重塌落。</li>
-<li>系杆或吊杆出现严重锈蚀或断裂现象。</li>
-<li>悬索桥主缆或多根吊索出现严重锈蚀、断丝。</li>
-<li>斜拉桥拉索钢丝出现严重锈蚀、断丝，主梁出现严重变形。</li>
-<li>扩大基础冲刷深度大于设计值，冲空面积达20%以上。</li>
-<li>桥墩（桥台或基础）不稳定，出现严重滑动、下沉、位移、倾斜等现象。</li>
-<li>悬索桥、斜拉桥索塔基础出现严重沉降或位移；或悬索桥锚碇有水平位移或沉降。</li>
+<li>钢筋的混凝土保护层厚度满足本规范<a href="https://jtg-3362.readthedocs.io/zh/latest/9.html#id9.1.1">第9.1.1条</a>的要求。</li>
+<li>预应力混凝土结构中的预应力体系根据具体情况采用相应的多重防护措施。</li>
+<li>有抗渗要求的混凝土结构，混凝土的抗渗等级符合有关标准的要求。</li>
+<li>严寒和寒冷地区的潮湿环境中，混凝土应满足抗冻要求，混凝土抗冻等级符合有关标准的要求。</li>
+<li>桥涵结构形式、结构构造有利于排水、通风，避免水气凝聚和有害物质积聚。</li>
 </ol><p><span class="math notranslate nohighlight">\(\ \)</span></p>
 </section>
 </section>
@@ -1290,8 +724,8 @@
            </div>
           </div>
           <footer><div class="rst-footer-buttons" role="navigation" aria-label="页脚">
-        <a href="03.html" class="btn btn-neutral float-left" title="3 评定方法及等级分类" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> 上一页</a>
-        <a href="05.html" class="btn btn-neutral float-right" title="5 梁式桥上部结构构件技术状况评定" accesskey="n" rel="next">下一页 <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="03.html" class="btn btn-neutral float-left" title="3 材料" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> 上一页</a>
+        <a href="05.html" class="btn btn-neutral float-right" title="5 持久状况承载能力极限状态计算" accesskey="n" rel="next">下一页 <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
     </div>
 
   <hr/>

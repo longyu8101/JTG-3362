@@ -1,32 +1,252 @@
-5 梁式桥上部结构构件技术状况评定
+5 持久状况承载能力极限状态计算
 ======================================
 
 .. raw:: html
 
-  <h2 id="test111">5 梁式桥上部结构构件技术状况评定</h2>
+  <h2 id="test111">5 持久状况承载能力极限状态计算</h2>
 
 
-5.1 混凝土梁式桥
+5.1  一般规定
 --------------------------------
 
 .. raw:: html
 
- <p style="text-align:justify"><a href="#id5.1.1"> 5.1.1</a> <span id="id5.1.1">钢筋混凝土或预应力混凝土梁式桥上部承重构件和上部一般构件评定指标积分及评定标准：</span></p>
+ <p style="text-align:justify"><a href="#id5.1.1"> 5.1.1</a> <span id="id5.1.1"> 公路桥涵的持久状况设计应按承载能力极限状态的要求，对构件进行承载力及稳定计算，必要时尚应对结构进行倾覆和滑移的验算。</span></p>
+ <p style="text-align:justify"><a href="#id5.1.2"> 5.1.2</a> <span id="id5.1.2"> 当采用内力的形式表达时，桥涵构件的承载能力极限状态计算应采用下列表达式：</span></p>
+
+$$\\gamma _0S\\leqslant R \\tag{5.1.2-1}$$
+
+$$R=R(f_{\\mathrm{d}},a_{\\mathrm{d}}) \\tag{5.1.2-2}$$
+
+.. raw:: html
+
+ <table border="0" style="font-family:times new roman" id="gongshi">
+ <tr>
+ <td width="50px" align='center' id="eqzs">式中:</td>
+ <td width="40px" align='right' id="eqzs"><i>γ</i><sub>0</sub></td>
+ <td width="40px" align='left' id="eqzs">——</td>
+ <td id="eqzs">桥涵结构重要性系数，按桥涵结构设计安全等级，一级、二级、三级分别取用 1.1、1.0、0.9,桥涵结构设计安全等级应符合现行《公路桥涵设计通用规范》(JTG D60)的规定；</td>
+ </tr>
+ <tr>
+ <td id="eqzs"> </td>
+ <td id="eqzs" align='right'><i>S</i></td>
+ <td id="eqzs">——</td>
+ <td id="eqzs">作用组合(其中汽车荷载应计入冲击作用)的效应设计值：按照现行《公路桥涵设计通用规范》(JTG D60)的规定，对持久设计状况应按照作用基本组合计算；</td>
+ </tr>
+ <tr>
+ <td id="eqzs"> </td>
+ <td id="eqzs" align='right'><i>R</i></td>
+ <td id="eqzs">——</td>
+ <td id="eqzs">构件承载力设计值；</td>
+ </tr>
+ <tr>
+ <td id="eqzs"> </td>
+ <td id="eqzs" align='right'><i>R</i>(·)</td>
+ <td id="eqzs">——</td>
+ <td id="eqzs">构件承载力函数；</td>
+ </tr>
+ <tr>
+ <td id="eqzs"> </td>
+ <td id="eqzs" align='right'><i>f</i><sub>d</sub></td>
+ <td id="eqzs">——</td>
+ <td id="eqzs">材料强度设计值；</td>
+ </tr>
+ <tr>
+ <td id="eqzs"> </td>
+ <td id="eqzs" align='right'><i>α</i><sub>d</sub></td>
+ <td id="eqzs">——</td>
+ <td id="eqzs">几何参数设计值，当无可靠数据时，可采用几何参数标准值<i>α</i><sub>k</sub>,即设计文件规定值。</td>
+ </tr>
+ </table>
+ <p></p>
+
+ <p style="text-align:justify"><a href="#id5.1.3"> 5.1.3</a> <span id="id5.1.3"> 构件正截面承载力应按下列基本假定计算： (新增)</span></p>
  <ol>
- <li>蜂窝、麻面评定标准见<a href="#B5.1.1-1">表5.1.1-1</a>。</li>
- <li>剥落、掉角评定标准见<a href="#B5.1.1-2">表5.1.1-2</a>。</li>
- <li>空洞、孔洞评定标准见<a href="#B5.1.1-3">表5.1.1-3</a>。</li>
- <li>混凝土保护层厚度评定标准见<a href="#B5.1.1-4">表5.1.1-4</a>。</li>
- <li>钢筋锈蚀评定标准见<a href="#B5.1.1-5">表5.1.1-5</a>。</li>
- <li>混凝土碳化评定标准见<a href="#B5.1.1-6">表5.1.1-6</a>。</li>
- <li>混凝土强度评定标准见<a href="#B5.1.1-7">表5.1.1-7</a>。</li>
- <li>跨中挠度评定标准见<a href="#B5.1.1-8">表5.1.1-8</a>。</li>
- <li>结构变位评定标准见<a href="#B5.1.1-9">表5.1.1-9</a>。</li>
- <li>预应力构件损伤（锚头、钢绞线、齿板等）评定标准见<a href="#B5.1.1-10">表5.1.1-10</a>。</li>
- <li>简支梁（板）桥、刚架桥裂缝评定标准见<a href="#B5.1.1-11">表5.1.1-11</a>。</li>
- <li>连续梁桥、连续刚构桥、悬臂梁桥、T形刚构桥裂缝评定标准见<a href="#B5.1.1-12">表5.1.1-12</a>。</li>
+ <li> 构件弯曲后，其截面仍保持平面。 </li>
+ <li> 截面受拉混凝土的抗拉强度不予考虑。</li>
+ <li> 纵向体内钢筋的应力等于钢筋应变与其弹性模量的乘积，但其值应符合下列要求：</li>
  </ol>
-  <style>
+
+$$-f^{'}_{\\mathrm{sd} }\\leqslant \\sigma _{\\mathrm{si} }\\leqslant f_{\\mathrm{sd} } \\tag{5.1.3-1}$$
+$$-(f^{'}_{\\mathrm{pd}}-\\sigma _{\\mathrm{p0i}})\\leqslant\\sigma _{\\mathrm{pi}} \\leqslant f_{\\mathrm{pd}}\\tag{5.1.3-1}$$
+
+
+.. raw:: html
+
+ <table border="0" style="font-family:times new roman" id="gongshi">
+ <tr>
+ <td width="50px" align='center' id="eqzs">式中:</td>
+ <td width="70px" align='right' id="eqzs"><i>σ</i><sub>si</sub>、<i>σ</i><sub>pi</sub></td>
+ <td width="40px" align='left' id="eqzs">——</td>
+ <td id="eqzs">第i层纵向普通钢筋、预应力钢筋的应力，按公式(5.1.5-1)、(5.1.5-2)计算，正值表示拉应力、负值表示压应力；</td>
+ </tr>
+ <tr>
+ <td id="eqzs"> </td>
+ <td id="eqzs" align='right'><i>f</i><sub>sd</sub>、<i>f '</i><sub>sd</sub></td>
+ <td id="eqzs">——</td>
+ <td id="eqzs">向普通钢筋的抗拉强度设计值和抗压强度设计值，按<a href="https://jtg-3362.readthedocs.io/zh/latest/03.html#B3.2.3.1">表3.2.3-1</a>采用；</td>
+ </tr>
+ <tr>
+ <td id="eqzs"> </td>
+ <td id="eqzs" align='right'><i>f</i><sub>pd</sub>、<i>f '</i><sub>pd</sub></td>
+ <td id="eqzs">——</td>
+ <td id="eqzs">向预应力钢筋的抗拉强度设计值和抗压强度设计值，按<a href="https://jtg-3362.readthedocs.io/zh/latest/03.html#B3.2.3.2">表3.2.3-2</a>采用；</td>
+ </tr>
+ <tr>
+ <td id="eqzs"> </td>
+ <td id="eqzs" align='right'><i>σ</i><sub>p0i</sub></td>
+ <td id="eqzs">——</td>
+ <td id="eqzs">第i层纵向预应力钢筋截面重心处混凝土法向应力等于零时，预应力钢筋中的应力，按<a href="https://jtg-3362.readthedocs.io/zh/latest/6.html#id6.1.6">第6.1.6条</a>条计算。</td>
+ </tr>
+ </table>
+ <p></p>
+
+
+ <p style="text-align:justify"><a href="#id5.1.4"> 5.1.4</a> <span id="id5.1.4"> 受弯和偏心受力构件正截面受压区混凝土压应力计算应符合下列规定：(新增)</span></p>
+  <ol>
+ <li> 正截面受压区混凝土的压应力图形简化为等效的矩形应力图。</li>
+ <li> 矩形应力图高度与实际受压区高度的比值<i>β</i>,按<a href="#B5.1.4">表5.1.4</a>取用。</li>
+ <li> 矩形应力图的压力强度取混凝土的轴心抗压强度设计值fd。</li>
+ </ol>
+ 
+  		<table id="biaoge" style="font-family:times new roman">
+
+         <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="B5.1.4">表5.1.4 系数<i>β</i>值</b></caption>	
+              
+		    <tr>
+		      <td  align="center" width=200px  id="dhbg">混凝土强度等级</td>
+		      <td  align="center" width=100px  id="dhbg">C50及以下</td>
+			  <td  align="center" width=100px  id="dhbg">C55</td>
+			  <td  align="center" width=100px  id="dhbg">C60</td>
+			  <td  align="center" width=100px  id="dhbg">C65</td>
+			  <td  align="center" width=100px  id="dhbg">C70</td>
+			  <td  align="center" width=100px  id="dhbg">C75</td>  
+			  <td  align="center" width=100px  id="dhbg">C80</td>   
+		    </tr>
+  		   <tr>
+		     <td align="center" id="dhbg"><i>β</i></td>
+			 <td align="center" id="dhbg">0.80</td>
+		     <td align="center" id="dhbg">0.79</td>
+			 <td align="center" id="dhbg">0.78</td>
+			 <td align="center" id="dhbg">0.77</td>	
+			 <td align="center" id="dhbg">0.76</td>
+			 <td align="center" id="dhbg">0.75</td>
+			 <td align="center" id="dhbg">0.74</td>	 		 
+		    </tr> 
+ 
+  		</table> 
+ <p></p>
+
+
+ <p style="text-align:justify"><a href="#id5.1.5"> 5.1.5</a> <span id="id5.1.5"> 纵向体内钢筋的应力应按下列规定确定： (新增)</span></p>
+ <p style="text-align:justify;text-indent:2em;" > 对普通钢筋</p>
+
+$$\\sigma _{\\mathrm{si}}=\\varepsilon _{\\mathrm{cu}}E_{\\mathrm{s}}\\left (  \\dfrac{\\beta h_{\\mathrm{0i} }}{x}-1\\right ) \\tag{5.1.5-1}$$
+
+.. raw:: html
+
+ <p style="text-align:justify;text-indent:2em;" > 对预应力钢筋</p>
+
+$$\\sigma _{\\mathrm{pi}}=\\varepsilon _{\\mathrm{cu}}E_{\\mathrm{p}}\\left (  \\dfrac{\\beta h_{\\mathrm{0i} }}{x}-1\\right )+\\sigma _{\\mathrm{p0i}} \\tag{5.1.5-2}$$
+
+
+.. raw:: html
+
+ <table border="0" style="font-family:times new roman" id="gongshi">
+ <tr>
+ <td width="50px" align='center' id="eqzs">式中:</td>
+ <td width="60px" align='right' id="eqzs"><i>x</i></td>
+ <td width="40px" align='left' id="eqzs">——</td>
+ <td id="eqzs">截面受压区矩形应力图的高度；</td>
+ </tr>
+ <tr>
+ <td id="eqzs"> </td>
+ <td id="eqzs" align='right'><i>f</i><sub>0i</sub></td>
+ <td id="eqzs">——</td>
+ <td id="eqzs">第i层纵向钢筋截面重心至截面受压边缘(偏压构件取受压较大边)的距离；</td>
+ </tr>
+ <tr>
+ <td id="eqzs"> </td>
+ <td id="eqzs" align='right'><i>E</i><sub>s</sub>、<i>E</i><sub>p</sub></td>
+ <td id="eqzs">——</td>
+ <td id="eqzs">普通钢筋、预应力钢筋的弹性模量；</td>
+ </tr>
+ <tr>
+ <td id="eqzs"> </td>
+ <td id="eqzs" align='right'><i>β</i></td>
+ <td id="eqzs">——</td>
+ <td id="eqzs">截面受压区矩形应力图高度与实际受压区高度的比值，按<a href="#B5.1.4">表5.1.4</a>取用；</td>
+ </tr>
+ <tr>
+ <td id="eqzs"> </td>
+ <td id="eqzs" align='right'><i>ε</i><sub>cu</sub></td>
+ <td id="eqzs">——</td>
+ <td id="eqzs">截面非均匀受压时混凝土的极限压应变，当混凝土强度等级为C50 及以下时，取<i>ε</i><sub>cu</sub>=0.0033;当混凝土强度等级为C80时，取<i>ε</i><sub>cu</sub>=0.003;中间强度等级用直线插入求得。</td>
+ </tr>
+ </table>
+ <p></p>
+
+ <p style="text-align:justify;text-indent:2em;" > 按公式(5.1.5-1)、(5.1.5-2)计算的纵向体内钢筋应力应符合<a href="#id5.1.3">第5.1.3条</a>第3款的规定。</p>
+
+ <p style="text-align:justify"><a href="#id5.1.6"> 5.1.6</a> <span id="id5.1.6"> 计算先张法预应力混凝土构件端部锚固区的正截面和斜截面抗弯承载力时，锚固区内预应力钢筋的抗拉强度设计值，在锚固起点处取为零，在锚固终点处取为<i>f</i><sub>pd</sub>,两点之间按直线内插法取值。预应力钢筋的锚固长度<i>l</i><sub>α</sub>应按<a href="#B5.1.6">表5.1.6</a>采用。</span></p> 
+
+  		<table id="biaoge" style="font-family:times new roman">
+
+         <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="B5.1.6">表5.1.6 预应力钢筋锚固长度<i>l</i><sub>α</sub>(mm)(修订)</b></caption>	
+ 		    <tr>
+		      <td  align="center" width=300px rowspan="2" id="dhbg">预应力钢筋种类</td>
+			  <td  align="center" colspan="6">混凝土强度等级</td>
+			 <!-- <td></td> -->
+			 <!-- <td></td> -->
+			 <!-- <td></td> -->
+			 <!-- <td></td> -->
+			 <!-- <td></td> -->  
+		    </tr>             
+		    <tr>
+		     <!-- <td></td> -->
+			  <td  align="center" width=100px  id="dhbg">C40</td>
+			  <td  align="center" width=100px  id="dhbg">C45</td>
+			  <td  align="center" width=100px  id="dhbg">C50</td>
+			  <td  align="center" width=100px  id="dhbg">C55</td>
+			  <td  align="center" width=100px  id="dhbg">C60</td>  
+			  <td  align="center" width=100px  id="dhbg">≥C65</td>   
+		    </tr>
+  		   <tr>
+			 <td align="center" id="dhbg">1×7钢绞线，<i>f</i><sub>pd</sub>=1260 MPa</td>
+		     <td align="center" id="dhbg">130d</td>
+			 <td align="center" id="dhbg">125d</td>
+			 <td align="center" id="dhbg">120d</td>	
+			 <td align="center" id="dhbg">115d</td>
+			 <td align="center" id="dhbg">110d</td>
+			 <td align="center" id="dhbg">105d</td>	 		 
+		    </tr> 
+  		   <tr>
+			 <td align="center" id="dhbg">螺旋肋钢丝，<i>f</i><sub>pd</sub>=1260 MPa</td>
+		     <td align="center" id="dhbg">95d</td>
+			 <td align="center" id="dhbg">90d</td>
+			 <td align="center" id="dhbg">85d</td>	
+			 <td align="center" id="dhbg">83d</td>
+			 <td align="center" id="dhbg">80d</td>
+			 <td align="center" id="dhbg">80d</td>	 		 
+		    </tr> 
+  		</table> 
+   <p style="text-indent:2em;" ><font size="2">注：1.当采用骤然放松预应力钢筋的施工工艺时，锚固长度应从离构件末端0.25<i>l</i><sub>tr</sub>处开始，<i>l</i><sub>tr</sub>为预应力钢筋的预应力传递长度，按表6.1.8采用。<br/>
+    &emsp;&emsp; &emsp;&emsp; &emsp;&nbsp;2.当预应力钢筋的抗拉强度设计值<i>f</i><sub>pd</sub>与表值不同时，其锚固长度应根据表值按强度比例增减。<br/>
+    &emsp;&emsp; &emsp;&emsp; &emsp;&nbsp;3.<i>d</i>为预应力钢筋的公称直径。</font></p>
+
+
+
+
+5.2 受弯构件
+------------------------
+
+.. raw:: html
+
+ <p style="text-align:justify"><a href="#id5.2.1"> 5.2.1</a> <span id="id5.2.1">受弯构件的正截面相对界限受压区高度ζ<i>ζ</i><sub>b</sub>应按<a href="#B5.2.1">表5.2.1</a>采用。</span></p>
+
+.. raw:: html
+
+      <style>
      #biaoge {
          border: 2px solid black;
          border-collapse: collapse;
@@ -39,11 +259,853 @@
          padding-left:5px;
          padding-right:5px;
          border: 1px solid black;
-         vertical-align: middle;
+         
       }
       #eqzs {
          border: 0px;
-         vertical-align: top;
+      }
+      #dhbg {
+        vertical-align: middle;
+      }
+     </style>
+
+ 		<table id="biaoge" style="font-family:times new roman">
+
+         <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="B5.2.1">表5.2.1 相对界限受压区高度<i>ζ</i><sub>b</sub>(修订)</b></caption>	
+              
+		    <tr>
+		      <td  align="center" width=300px rowspan="2" id="dhbg">钢 筋 种 类</td>
+		      <td  align="center"  colspan="4" id="dhbg">混凝土强度等级</td>
+			  <!-- <td></td> -->
+			  <!-- <td></td> -->
+			  <!-- <td></td> -->
+		    </tr>
+  		   <tr>
+		     <!-- <td></td> -->
+		     <td align="center" width=150px id="dhbg">C50及以下</td>
+			 <td align="center" width=150px id="dhbg">C55、C60</td>
+			 <td align="center" width=150px id="dhbg">C565、C70</td>
+			 <td align="center" width=150px id="dhbg">C75、C80</td>
+		    </tr>
+  		   <tr>
+		     <td align="center" id="dhbg">HPB300</td>
+			 <td align="center" id="dhbg">0.58</td>
+		     <td align="center" id="dhbg">0.56</td>
+			 <td align="center" id="dhbg">0.54</td>
+			 <td align="center" id="dhbg">—</td>			 
+		    </tr> 
+   		   <tr>
+		     <td align="center" id="dhbg">HRB400、HRBF400、RRB400</td>
+			 <td align="center" id="dhbg">0.53</td>
+		     <td align="center" id="dhbg">0.51</td>
+			 <td align="center" id="dhbg">0.49</td>
+			 <td align="center" id="dhbg">—</td>			 
+		    </tr> 
+   		   <tr>
+		     <td align="center" id="dhbg">HRB500</td>
+			 <td align="center" id="dhbg">0.49</td>
+		     <td align="center" id="dhbg">0.47</td>
+			 <td align="center" id="dhbg">0.46</td>
+			 <td align="center" id="dhbg">—</td>			 
+		    </tr> 
+   		   <tr>
+		     <td align="center" id="dhbg">钢绞线、钢丝</td>
+			 <td align="center" id="dhbg">0.40</td>
+		     <td align="center" id="dhbg">0.38</td>
+			 <td align="center" id="dhbg">0.36</td>
+			 <td align="center" id="dhbg">0.35</td>			 
+		    </tr> 
+   		   <tr>
+		     <td align="center" id="dhbg">预应力螺纹钢筋</td>
+			 <td align="center" id="dhbg">0.40</td>
+		     <td align="center" id="dhbg">0.38</td>
+			 <td align="center" id="dhbg">0.36</td>
+			 <td align="center" id="dhbg">—</td>			 
+		    </tr> 
+  		</table> 
+       <p style="text-indent:2em;" ><font size="2">注：1.截面受拉区内配置不同种类钢筋的受弯构件，其<math xmlns="http://www.w3.org/1998/Math/MathML" ><msub><mi>ξ</mi><mi>b</mi></msub></math>值应选用相应于各种钢筋的较小者。<br/>
+  &emsp;&emsp; &emsp;&emsp; &emsp;&nbsp;2.<math xmlns="http://www.w3.org/1998/Math/MathML" ><msub><mi>ξ</mi><mi>b</mi></msub><mo>=</mo><msub><mi>x</mi><mi>b</mi></msub><mrow><mo>/</mo></mrow><msub><mi>h</mi><mn>0</mn></msub><mo>,</mo><msub><mi>x</mi><mi>b</mi></msub></math>为纵向受拉钢筋和受压区混凝土同时达到各自强度设计值时的受压区矩形应力图高度。</font></p>
+
+ <p style="text-align:justify"><a href="#id5.2.2"> 5.2.2</a> <span id="id5.2.2">仅采用纵向体内钢筋的矩形截面或翼缘位于受拉边的T形截面受弯构件，其正截面抗弯承载力计算应符合下列规定(<a href="#fig5.2.2">图 5.2.2</a>):</span></p>
+
+ <div align="center"><img id="fig5.2.2" src="./_static/fig/5.2.2.png" alt="Picture" width="400px"></div>
+  <p style="color: dimgray;text-align: center;">图 5.2.2 2 矩形截面受弯构件正截面承载力计算</p>
+  <script type="text/javascript">var viewer = new Viewer(document.getElementById('fig5.2.2'));</script>
+
+$$\\gamma _{0}M_{\\mathrm{d} }\\leqslant f_{\\mathrm{cd} }bx(h_{0}-\\dfrac{x}{2})+f^{'}_{sd}A^{'}_{s}(h_{0}-a^{'}_{s})+(f^{'}_{\\mathrm{pd}}-\\sigma ^{'}_{p0})A^{'}_{\\mathrm{p}}(h_{0}-a^{'}_{p})\tag{5.2.2-1}$$
+
+.. raw:: html
+
+ <p style="text-align:justify;text-indent:2em;" > 混凝土受压区高度x应按下式计算：</p>
+
+$$f_{\\mathrm{sd}}A_{\\mathrm{s}}+f_{\\mathrm{pd}}A_{\\mathrm{p}}=f_{\\mathrm{cd}}bx+f^{'}_{\\mathrm{sd}}A_{\\mathrm{s}}+(f^{'}_{\\mathrm{pd}}-\\sigma ^{'}_{\\mathrm{p0}})A^{'}_{\\mathrm{p}}\\tag{5.2.2-2}$$
+
+.. raw:: html
+	
+ <p style="text-align:justify;text-indent:2em;" > 截面受压区高度应符合下列要求：</p>
+
+$$x\\leqslant \\xi_{\\mathrm{b}}h_{0}\\tag{5.2.2-3}$$
+
+.. raw:: html
+	
+ <p style="text-align:justify;text-indent:2em;" > 当受压区配有纵向普通钢筋和预应力钢筋，且预应力钢筋受压即<math xmlns="http://www.w3.org/1998/Math/MathML" ><mo stretchy="false">(</mo><msubsup><mi>f</mi><mrow><mrow><mi mathvariant="normal">p</mi><mi mathvariant="normal">d</mi></mrow></mrow><mrow><msup><mi></mi><mo>′</mo></msup></mrow></msubsup><mo>−</mo><msubsup><mi>σ</mi><mrow><mrow><mi mathvariant="normal">p</mi><mn>0</mn></mrow></mrow><mrow><msup><mi></mi><mo>′</mo></msup></mrow></msubsup><mo stretchy="false">)</mo></math>为正时</p>
+
+$$x\\geqslant 2 \\alpha^{'}\\tag{5.2.2-4}$$
+
+.. raw:: html
+	
+ <p style="text-align:justify;text-indent:2em;" > 当受压区仅配纵向普通钢筋，或配有普通钢筋和预应力钢筋且预应力钢筋受拉即<math xmlns="http://www.w3.org/1998/Math/MathML" ><mo stretchy="false">(</mo><msubsup><mi>f</mi><mrow><mrow><mi mathvariant="normal">p</mi><mi mathvariant="normal">d</mi></mrow></mrow><mrow><msup><mi></mi><mo>′</mo></msup></mrow></msubsup><mo>−</mo><msubsup><mi>σ</mi><mrow><mrow><mi mathvariant="normal">p</mi><mn>0</mn></mrow></mrow><mrow><msup><mi></mi><mo>′</mo></msup></mrow></msubsup><mo stretchy="false">)</mo></math>为负时</p>
+
+$$x\\geqslant 2 \\alpha^{'}_{\\mathrm{s}}\\tag{5.2.2-5}$$
+
+.. raw:: html
+
+ <table border="0" style="font-family:times new roman" id="gongshi">
+ <tr>
+ <td width="50px" align='center' id="eqzs">式中:</td>
+ <td width="80px" align='right' id="eqzs"><i>γ</i><sub>0</sub></td>
+ <td width="40px" align='left' id="eqzs">——</td>
+ <td id="eqzs">桥涵结构重要性系数，按第5.1.2条的规定采用；</td>
+ </tr>
+ <tr>
+ <td id="eqzs"> </td>
+ <td id="eqzs" align='right'><i>M</i><sub>d</sub></td>
+ <td id="eqzs">——</td>
+ <td id="eqzs">弯矩设计值，按第5.1.2条的规定计算；</td>
+ </tr>
+ <tr>
+ <td id="eqzs"> </td>
+ <td id="eqzs" align='right'><i>f</i><sub>cd</sub></td>
+ <td id="eqzs">——</td>
+ <td id="eqzs">凝土轴心抗压强度设计值，按表3.1.4采用；</td>
+ </tr>
+ <tr>
+ <td id="eqzs"> </td>
+ <td id="eqzs" align='right'><i>f</i><sub>sd</sub>、<i>f '</i><sub>sd</sub></td>
+ <td id="eqzs">——</td>
+ <td id="eqzs">向普通钢筋抗拉强度设计值和抗压强度设计值，按表3.2.3-1采用；</td>
+ </tr>
+ <tr>
+ <td id="eqzs"> </td>
+ <td id="eqzs" align='right'><i>f</i><sub>pd</sub>、<i>f '</i><sub>pd</sub></td>
+ <td id="eqzs">——</td>
+ <td id="eqzs">预应力钢筋抗拉强度设计值和抗压强度设计值，按表3.2.3-2采用；</td>
+ </tr>
+ <tr>
+ <td id="eqzs"> </td>
+ <td id="eqzs" align='right'><i>A</i><sub>s</sub>、<i>A '</i><sub>s</sub></td>
+ <td id="eqzs">——</td>
+ <td id="eqzs">受拉区、受压区纵向普通钢筋截面面积；</td>
+ </tr>
+ <tr>
+ <td id="eqzs"> </td>
+ <td id="eqzs" align='right'><i>A</i><sub>p</sub>、<i>A '</i><sub>p</sub></td>
+ <td id="eqzs">——</td>
+ <td id="eqzs">受拉区、受压区纵向预应力钢筋截面面积；</td>
+ </tr>
+ <tr>
+ <td id="eqzs"> </td>
+ <td id="eqzs" align='right'><i>b</i></td>
+ <td id="eqzs">——</td>
+ <td id="eqzs">矩形截面宽度或T形截面腹板宽度；</td>
+ </tr>
+ <tr>
+ <td id="eqzs"> </td>
+ <td id="eqzs" align='right'><i>h</i><sub>0</sub></td>
+ <td id="eqzs">——</td>
+ <td id="eqzs">截面有效高度，<i>h</i><sub>0</sub>=<i>h</i>-<i>α</i>,此处h为截面全高；</td>
+ </tr>
+ <tr>
+ <td id="eqzs"> </td>
+ <td id="eqzs" align='right'><i>α</i>、<i>α '</i></td>
+ <td id="eqzs">——</td>
+ <td id="eqzs">受拉区、受压区普通钢筋和预应力钢筋的合力点至受拉区边缘、受压区边缘的距离；</td>
+ </tr>
+ <tr>
+ <td id="eqzs"> </td>
+ <td id="eqzs" align='right'><i>α '</i><sub>s</sub>、<i>α '</i><sub>p</sub></td>
+ <td id="eqzs">——</td>
+ <td id="eqzs">受压区普通钢筋合力点、预应力钢筋合力点至受压区边缘的距离；</td>
+ </tr>
+  <tr>
+ <td id="eqzs"> </td>
+ <td id="eqzs" align='right'><i>σ '</i><sub>p0</sub></td>
+ <td id="eqzs">——</td>
+ <td id="eqzs">压区预应力钢筋合力点处混凝土法向应力等于零时预应力钢筋的应力，先张法构件按公式(6.1.6-2)计算；后张法构件按公式(6.1.6-5)计算。</td>
+ </tr>
+ </table>
+ <p></p>
+
+ <p style="text-align:justify"><a href="#id5.2.3"> 5.2.3</a> <span id="id5.2.3"> 仅采用纵向体内钢筋的翼缘位于受压区的T形或I形截面受弯构件，其正截面抗弯承载力应按下列规定计算：</span></p>
+ <p style="text-align:justify;text-indent:2em;" >1  当符合下列条件时</p>
+
+$$f_{\\mathrm{sd}}A_{\\mathrm{s}}+f_{\\mathrm{pd}}A_{\\mathrm{p}}\\leqslant f_{\\mathrm{cd}}b^{'}_{\\mathrm{f}}h^{'}_{\\mathrm{f}}+f^{'}_{\\mathrm{sd}}A^{'}_{\\mathrm{s}}+(f^{'}_{\\mathrm{pd}}-\\sigma ^{'}_{\\mathrm{p0}})A^{'}_{\\mathrm{p}}\\tag{5.2.3-1}$$
+
+.. raw:: html
+	
+ <p style="text-align:justify;text-indent:2em;" > 应以宽度为b'的矩形截面<a href="#fig5.2.3">[图5.2.3a）]</a>,按第(5.2.2)条公式计算。</p>
+ <div align="center"><img id="fig5.2.3" src="./_static/fig/5.2.3.png" alt="Picture" width="600px"></div>
+  <p style="color: dimgray;text-align: center;">图 5.2.3 T形截面受弯构件正截面承载力计算(截面内力作用方向与图5.2.2相同)</p>
+  <script type="text/javascript">var viewer = new Viewer(document.getElementById('fig5.2.3'));</script>
+
+ <p style="text-align:justify;text-indent:2em;" >2  当不符合公式(5.2.3-1)的条件时，应按下列规定计算<a href="#fig5.2.3">[图5.2.3b)]</a>:</p>
+
+$$\\scriptsize {\\gamma _{0}M_{\\mathrm{d}}\\leqslant f_{\\mathrm{cd}}\\left [ bx(h_{0}-\\dfrac{x}{2})+(b^{'}_{f}-b)h^{'}_{\\mathrm{f} } (h_{0}-\\dfrac{h^{'}_{\\mathrm{f} }}{2})\\right ] +f^{'}_{\\mathrm{sd}}A^{'}_{\\mathrm{s}}(h_{0}-\\alpha ^{'}_{\\mathrm{s}})+(f^{'}_{\\mathrm{pd}}-\\sigma ^{'}_{\\mathrm{p0}})A ^{'}_{\\mathrm{p}}(h_{0}-\\alpha  ^{'}_{\\mathrm{p}}) }\\tag{5.2.3-2}$$
+
+.. raw:: html
+
+ <p style="text-align:justify;text-indent:2em;" > 受压区高度x应按下列公式计算，并应符合公式(5.2.2-3)及(5.2.2-4)或(5.2.2-5)要求。</p>
+
+$$f_{\\mathrm{sd}}A_{\\mathrm{s}}+f_{\\mathrm{pd}}A_{\\mathrm{p}}= f_{\\mathrm{cd}}[b_{\\mathrm{x}}+(b^{'}_{\\mathrm{f}}-b)h^{'}_{\\mathrm{f}}]+f^{'}_{\\mathrm{sd}}A^{'}_{\\mathrm{s}}+(f^{'}_{\\mathrm{pd}}-\\sigma ^{'}_{\\mathrm{p0}})A^{'}_{\\mathrm{p}}\\tag{5.2.3-3}$$
+
+.. raw:: html
+
+ <table border="0" style="font-family:times new roman" id="gongshi">
+ <tr>
+ <td width="50px" align='center' id="eqzs">式中:</td>
+ <td width="30px" align='right' id="eqzs"><i>h '</i><sub>f</sub></td>
+ <td width="40px" align='left' id="eqzs">——</td>
+ <td id="eqzs">T形或I形截面受压翼缘厚度；</td>
+ </tr>
+ <tr>
+ <td id="eqzs"> </td>
+ <td id="eqzs" align='right'><i>b '</i><sub>f</sub></td>
+ <td id="eqzs">——</td>
+ <td id="eqzs">T形或I形截面受压翼缘有效宽度，按第4.3.3条的规定采用。</td>
+ </tr>
+ </table>
+ <p></p>
+ <p style="text-align:justify;text-indent:2em;" > 仅采用纵向体内钢筋的箱形截面受弯构件的正截面抗弯承载力可参照本条计算。</p>
+
+
+ <p style="text-align:justify"><a href="#id5.2.4"> 5.2.4</a> <span id="id5.2.4">当计算中考虑受压区纵向钢筋但不符合公式(5.2.2-4)或(5.2.2-5)条件时，仅采用纵向体内钢筋的受弯构件正截面抗弯承载力的计算应符合下列规定(图5.2.2):</span></p>
+ 
+ <p style="text-align:justify;text-indent:2em;" >1 当受压区配有纵向普通钢筋和预应力钢筋，且预应力钢筋受压时</p>
+
+$$\\gamma_{0}M_{\\mathrm{d}}\\leqslant f_{\\mathrm{pd} }A_{\\mathrm{p} }(h-a_{\\mathrm{p} }-a^{'})+ f_{\\mathrm{sd} }A_{\\mathrm{s} }(h-a_{\\mathrm{s} }-a^{'})\\tag{5.2.4-1}$$
+
+.. raw:: html
+
+ <p style="text-align:justify;text-indent:2em;" >2 当受压区仅配纵向普通钢筋，或配有普通钢筋和预应力钢筋且预应力钢筋受拉时</p> 
+
+$$\\small {\\gamma_{0}M_{\\mathrm{d}}\\leqslant f_{\\mathrm{pd} }A_{\\mathrm{p} }(h-a_{\\mathrm{p} }-a^{'})+ f_{\\mathrm{sd} }A_{\\mathrm{s} }(h-a_{\\mathrm{s} }-a^{'}_{\\mathrm{s}})-(f^{'}_{\\mathrm{pd}}-\\sigma ^{'}_{\\mathrm{p0}})A^{'}_{\\mathrm{p}}(\\alpha ^{'}_{\\mathrm{p}}-\\alpha ^{'}_{\\mathrm{s}})}\\tag{5.2.4-2}$$
+
+.. raw:: html
+
+ <table border="0" style="font-family:times new roman" id="gongshi">
+ <tr>
+ <td width="50px" align='center' id="eqzs">式中:</td>
+ <td width="50px" align='right' id="eqzs"><i>α</i><sub>s</sub>、<i>α</i><sub>p</sub></td>
+ <td width="40px" align='left' id="eqzs">——</td>
+ <td id="eqzs">受拉区普通钢筋合力点、预应力钢筋合力点至受拉区边缘的距离。</td>
+ </tr>
+  </table>
+ <p></p> 
+ 
+ <p style="text-align:justify"><a href="#id5.2.5"> 5.2.5</a> <span id="id5.2.5">采用纵向体外预应力钢筋的 T 形截面受弯构件，其正截面抗弯承载力计算应符合(新增): 下列规定(<a href="#fig5.2.5">图 5.2.5</a>)</span></p>
+
+ <div align="center"><img id="fig5.2.5" src="./_static/fig/5.2.5.png" alt="Picture" width="800px"></div>
+  <p style="color: dimgray;text-align: center;">图 5.2.5 配置体外预应力的T形截面受弯构件正截面承载力计算<br/>a——受拉区的普通钢筋、体内预应力钢筋和体外预应力钢筋的合力点至受拉区边缘的距离</p>
+  <script type="text/javascript">var viewer = new Viewer(document.getElementById('fig5.2.5'));</script>
+ 
+ <p style="text-align:justify;text-indent:2em;" >1 翼缘位于受拉区</p>
+
+$$\\small{\\gamma_{0}M_{\\mathrm{d}}\\leqslant f_{\\mathrm{cd}}bx(h_{0}-\\dfrac{x}{2})+ f^{'}_{\\mathrm{sd}}A^{'}_{\\mathrm{s}}(h_{0}-a^{'}_{\\mathrm{s}})+(f^{'}_{\\mathrm{pd}}-\\sigma ^{'}_{\\mathrm{p0}})A^{'}_{\\mathrm{p}}(h_{0}-\\alpha ^{'}_{\\mathrm{p}})}\\tag{5.2.5-1}$$
+
+$$f_{\\mathrm{sd}}A_{\\mathrm{s}}+f_{\\mathrm{pd}}A_{\\mathrm{p}}+\\sigma _{\\mathrm{pe,ex}}A_{\\mathrm{ex}}=f_{\\mathrm{cd}}bx+f^{'}_{\\mathrm{sd}}A^{'}_{\\mathrm{s}}+(f^{'}_{\\mathrm{pd}}-\\sigma ^{'}_{\\mathrm{p0}})A^{'}_{\\mathrm{p}}\\tag{5.2.5-2}$$
+
+.. raw:: html
+
+ <table border="0" style="font-family:times new roman" id="gongshi">
+ <tr>
+ <td width="50px" align='center' id="eqzs">式中:</td>
+ <td width="50px" align='right' id="eqzs"><i>σ</i><sub>pe.ex</sub></td>
+ <td width="40px" align='left' id="eqzs">——</td>
+ <td id="eqzs">使用阶段体外预应力钢筋扣除预应力损失后的有效应力，按第6.1.6条计算；</td>
+ </tr>
+ <tr>
+ <td align='center' id="eqzs">式中:</td>
+ <td align='right' id="eqzs"><i>A</i><sub>ex</sub></td>
+ <td align='left' id="eqzs">——</td>
+ <td id="eqzs">体外预应力钢筋的截面面积。</td>
+ </tr> 
+  </table>
+ <p></p>  
+ <p style="text-align:justify;text-indent:2em;" >2 翼缘位于受压区</p>
+ <p style="text-align:justify;text-indent:2em;" >1)当<math xmlns="http://www.w3.org/1998/Math/MathML" ><msub><mi>f</mi><mrow><mrow><mi mathvariant="normal">s</mi><mi mathvariant="normal">d</mi></mrow></mrow></msub><msub><mi>A</mi><mrow><mrow><mi mathvariant="normal">s</mi></mrow></mrow></msub><mo>+</mo><msub><mi>f</mi><mrow><mrow><mi mathvariant="normal">p</mi><mi mathvariant="normal">d</mi></mrow></mrow></msub><msub><mi>A</mi><mrow><mrow><mi mathvariant="normal">p</mi></mrow></mrow></msub><mo>+</mo><msub><mi>σ</mi><mrow><mrow><mi mathvariant="normal">p</mi><mi mathvariant="normal">e</mi><mo>,</mo><mi mathvariant="normal">e</mi><mi mathvariant="normal">x</mi></mrow></mrow></msub><msub><mi>A</mi><mrow><mrow><mi mathvariant="normal">e</mi><mi mathvariant="normal">x</mi></mrow></mrow></msub><mo>⩽</mo><msub><mi>f</mi><mrow><mrow><mi mathvariant="normal">c</mi><mi mathvariant="normal">d</mi></mrow></mrow></msub><msubsup><mi>b</mi><mrow><mrow><mi mathvariant="normal">f</mi></mrow></mrow><mrow><msup><mi></mi><mo>′</mo></msup></mrow></msubsup><msubsup><mi>h</mi><mrow><mrow><mi mathvariant="normal">f</mi></mrow></mrow><mrow><msup><mi></mi><mo>′</mo></msup></mrow></msubsup><mo>+</mo><msubsup><mi>f</mi><mrow><mrow><mi mathvariant="normal">s</mi><mi mathvariant="normal">d</mi></mrow></mrow><mrow><msup><mi></mi><mo>′</mo></msup></mrow></msubsup><msubsup><mi>A</mi><mrow><mrow><mi mathvariant="normal">s</mi></mrow></mrow><mrow><msup><mi></mi><mo>′</mo></msup></mrow></msubsup><mo>+</mo><mo stretchy="false">(</mo><msubsup><mi>f</mi><mrow><mrow><mi mathvariant="normal">p</mi><mi mathvariant="normal">d</mi></mrow></mrow><mrow><msup><mi></mi><mo>′</mo></msup></mrow></msubsup><mo>−</mo><msubsup><mi>σ</mi><mrow><mrow><mi mathvariant="normal">p</mi><mn>0</mn></mrow></mrow><mrow><msup><mi></mi><mo>′</mo></msup></mrow></msubsup><mo stretchy="false">)</mo><msubsup><mi>A</mi><mrow><mrow><mi mathvariant="normal">p</mi></mrow></mrow><mrow><msup><mi></mi><mo>′</mo></msup></mrow></msubsup></math>时</p>
+
+$$\\small {\\gamma _{0}M_{\\mathrm{\\mathrm{d}}}\\leqslant f_{\\mathrm{cd}}b^{'}_{\\mathrm{f}}x(h_{0}-\\dfrac{x}{2})+f^{'}_{\\mathrm{sd}}A^{'}_{\\mathrm{s}}(h_{0}-\\alpha ^{'}_{\\mathrm{s} })+(f^{'}_{\\mathrm{pd}}-\\sigma ^{'}_{\\mathrm{p0}})A^{'}_{\\mathrm{p}}(h_{0}-\\alpha ^{'}_{\\mathrm{p} })}\\tag{5.2.5-3}$$
+
+$$f_{\\mathrm{sd}}A_{\\mathrm{s}}+f_{\\mathrm{pd}}A_{\\mathrm{p}}+\\sigma _{\\mathrm{pe,ex}}A_{\\mathrm{ex}}= f_{\\mathrm{cd}}b^{'}_{\\mathrm{f}}x+f^{'}_{\\mathrm{sd}}A^{'}_{\\mathrm{s}}+(f^{'}_{\\mathrm{pd}}-\\sigma ^{'}_{\\mathrm{p0}})A^{'}_{\\mathrm{p}}\\tag{5.2.5-4}$$
+
+.. raw:: html
+
+ <table border="0" style="font-family:times new roman" id="gongshi">
+ <tr>
+ <td width="50px" align='center' id="eqzs">式中:</td>
+ <td width="50px" align='right' id="eqzs"><i>h '</i><sub>f</sub></td>
+ <td width="40px" align='left' id="eqzs">——</td>
+ <td id="eqzs">T形截面受压翼缘厚度；</td>
+ </tr>
+ <tr>
+ <td align='center' id="eqzs"> </td>
+ <td align='right' id="eqzs"><i>b '</i><sub>f</sub></td>
+ <td align='left' id="eqzs">——</td>
+ <td id="eqzs">T形截面受压翼缘有效宽度，按第4.3.3条的规定采用。</td>
+ </tr> 
+  </table>
+ <p></p>  
+ <p style="text-align:justify;text-indent:2em;" >2)当<math xmlns="http://www.w3.org/1998/Math/MathML" ><msub><mi>f</mi><mrow><mrow><mi mathvariant="normal">s</mi><mi mathvariant="normal">d</mi></mrow></mrow></msub><msub><mi>A</mi><mrow><mrow><mi mathvariant="normal">s</mi></mrow></mrow></msub><mo>+</mo><msub><mi>f</mi><mrow><mrow><mi mathvariant="normal">p</mi><mi mathvariant="normal">d</mi></mrow></mrow></msub><msub><mi>A</mi><mrow><mrow><mi mathvariant="normal">p</mi></mrow></mrow></msub><mo>+</mo><msub><mi>σ</mi><mrow><mrow><mi mathvariant="normal">p</mi><mi mathvariant="normal">e</mi><mo>,</mo><mi mathvariant="normal">e</mi><mi mathvariant="normal">x</mi></mrow></mrow></msub><msub><mi>A</mi><mrow><mrow><mi mathvariant="normal">e</mi><mi mathvariant="normal">x</mi></mrow></mrow></msub><mo>＞</mo><msub><mi>f</mi><mrow><mrow><mi mathvariant="normal">c</mi><mi mathvariant="normal">d</mi></mrow></mrow></msub><msubsup><mi>b</mi><mrow><mrow><mi mathvariant="normal">f</mi></mrow></mrow><mrow><msup><mi></mi><mo>′</mo></msup></mrow></msubsup><msubsup><mi>h</mi><mrow><mrow><mi mathvariant="normal">f</mi></mrow></mrow><mrow><msup><mi></mi><mo>′</mo></msup></mrow></msubsup><mo>+</mo><msubsup><mi>f</mi><mrow><mrow><mi mathvariant="normal">s</mi><mi mathvariant="normal">d</mi></mrow></mrow><mrow><msup><mi></mi><mo>′</mo></msup></mrow></msubsup><msubsup><mi>A</mi><mrow><mrow><mi mathvariant="normal">s</mi></mrow></mrow><mrow><msup><mi></mi><mo>′</mo></msup></mrow></msubsup><mo>+</mo><mo stretchy="false">(</mo><msubsup><mi>f</mi><mrow><mrow><mi mathvariant="normal">p</mi><mi mathvariant="normal">d</mi></mrow></mrow><mrow><msup><mi></mi><mo>′</mo></msup></mrow></msubsup><mo>−</mo><msubsup><mi>σ</mi><mrow><mrow><mi mathvariant="normal">p</mi><mn>0</mn></mrow></mrow><mrow><msup><mi></mi><mo>′</mo></msup></mrow></msubsup><mo stretchy="false">)</mo><msubsup><mi>A</mi><mrow><mrow><mi mathvariant="normal">p</mi></mrow></mrow><mrow><msup><mi></mi><mo>′</mo></msup></mrow></msubsup></math>时</p>
+
+$$\\scriptsize{\\gamma _{0}M_{\\mathrm{\\mathrm{d}}}\\leqslant f_{\\mathrm{cd}}\\left [ bx(h_{0}-\\dfrac{x}{2})+(b^{'}_{\\mathrm{f}}-b)h^{'}_{\\mathrm{f}}(h_{0}-\\dfrac{h^{'}_{\\mathrm{f}}}{2}) \\right ] +f^{'}_{\\mathrm{sd}}A^{'}_{\\mathrm{s}}(h_{0}-\\alpha ^{'}_{\\mathrm{s} })+(f^{'}_{\\mathrm{pd}}-\\sigma ^{'}_{\\mathrm{p0}})A^{'}_{\\mathrm{p}}(h_{0}-\\alpha ^{'}_{\\mathrm{p} })}\\tag{5.2.5-5}$$
+
+$$\\small {f_{\\mathrm{sd}}A_{\\mathrm{s}}+f_{\\mathrm{pd}}A_{\\mathrm{p}}+\\sigma _{\\mathrm{pe,ex}}A_{\\mathrm{ex}}=f_{\\mathrm{cd}}[bx+(b^{'}_{\\mathrm{f}}-b)h^{'}_{\\mathrm{f}}]+f^{'}_{\\mathrm{sd}}A^{'}_{\\mathrm{s}}+(f^{'}_{\\mathrm{pd}}-\\sigma ^{'}_{\\mathrm{p0}})A ^{'}_{\\mathrm{p}}}\\tag{5.2.5-6}$$
+
+.. raw:: html
+ <p style="text-align:justify;text-indent:2em;" >采用公式(5.2.5-2)、或(5.2.5-4)、或(5.2.5-6)计算的受压区高度x应符合公式(5.2.5-3)、(5.2.5-4)或(5.2.5-5)要求。</p>
+ <p style="text-align:justify;text-indent:2em;" >采用纵向体外预应力钢筋的箱形截面受弯构件的正截面抗弯承载力可参照本条计算。</p>
+  
+ 
+ <p style="text-align:justify"><a href="#id5.2.6"> 5.2.6</a> <span id="id5.2.6"> 当计算中考虑受压区纵向钢筋但不符合公式(5.2.5-4)或(5.2.5-5)的条件时，采用纵向体外预应力钢筋的受弯构件，其正截面抗弯承载力的计算应符合下列规定(<a href="#fig5.2.5">图 5.2.5</a>):(新增)</span></p>
+
+ <p style="text-align:justify;text-indent:2em;" >1 当受压区配有纵向普通钢筋和体内预应力钢筋，且体内预应力钢筋受压时</p>
+
+$${\\scriptsize \\gamma_{0}M_{\\mathrm{d}}\\leqslant f_{\\mathrm{pd}}A_{\\mathrm{p}}(h-\\alpha _{\\mathrm{p}}-\\alpha ^{'})+ f_{\\mathrm{sd}}A_{\\mathrm{s}}(h-\\alpha _{\\mathrm{s}}-\\alpha ^{'})+ \\sigma _{\\mathrm{pe,ex}}A_{\\mathrm{ex}}(h-\\alpha _{\\mathrm{p,ex}}-\\alpha ^{'})} \\tag{5.2.6-1}$$
+
+.. raw:: html
+
+ <p style="text-align:justify;text-indent:2em;" >2 当受压区仅配纵向普通钢筋，或配有普通钢筋和体内预应力钢筋且体内预应力钢筋受拉时</p>
+
+$${\\scriptsize \\gamma_{0}M_{\\mathrm{d}}\\leqslant f_{\\mathrm{pd}}A_{\\mathrm{p}}(h-\\alpha _{\\mathrm{p}}-\\alpha ^{'})+ f_{\\mathrm{sd}}A_{\\mathrm{s}}(h-\\alpha _{\\mathrm{s}}-\\alpha ^{'})+ \\sigma _{\\mathrm{pe,ex}}A_{\\mathrm{ex}}(h-\\alpha _{\\mathrm{p,ex}}-\\alpha ^{'}_{\\mathrm{s}})-(f^{'}_{\\mathrm{pd}}-\\sigma ^{'}_{\\mathrm{p0}})A^{'}_{\\mathrm{p}}(\\alpha ^{'}_{\\mathrm{p}}-\\alpha ^{'}_{\\mathrm{s}}) }\\tag{5.2.6-2}$$
+
+.. raw:: html
+ <table border="0" style="font-family:times new roman" id="gongshi">
+ <tr>
+ <td width="50px" align='center' id="eqzs">式中:</td>
+ <td width="50px" align='right' id="eqzs"><i>a</i><sub>p,ex</sub></td>
+ <td width="40px" align='left' id="eqzs">——</td>
+ <td id="eqzs">体外预应力钢筋合力点至受拉区边缘的距离。</td>
+ </tr>
+
+ </table>
+ <p></p>  
+
+ <p style="text-align:justify"><a href="#id5.2.7"> 5.2.7</a> <span id="id5.2.7"> 受弯构件在进行正截面抗弯承载力计算时，如不满足公式(5.2.2-3)的条件，可不考虑按正常使用极限状态计算可能增加的纵向受拉钢筋和按构造要求配置的纵向钢筋。</span></p>
+ <p style="text-align:justify"><a href="#id5.2.8"> 5.2.8</a> <span id="id5.2.8"> 计算受弯构件斜截面抗剪承载力时，其计算位置应按下列规定采用：</span></p>
+ <dl>
+ <dt>1 简支梁和连续梁近边支点梁段</dt> 
+ <dd>1)距支座中心 h/2 处截面(图5.2.8a)截面1-1];</dd> 
+ <dd>2)受拉区弯起钢筋弯起点处截面(图5.2.8a)截面2-2、3-3];</dd> 
+ <dd>3)锚于受拉区的纵向钢筋开始不受力处截面(图5.2.8a)截面4-4];</dd> 
+ <dd>4)箍筋数量或间距改变处截面(图5.2.8a)截面5-5];</dd> 
+ <dd>5)构件腹板宽度变化处截面。</dd> 
+ <dt>2 连续梁和悬臂梁近中间支点梁段</dt> 
+ <dd>1)支点横隔梁边缘处截面(图5.2.8b)截面6-6];</dd> 
+ <dd>2)变高度梁高度突变处截面(图5.2.8b)截面7-7];</dd> 
+ <dd>3)参照简支梁的要求，需要进行验算的截面。</dd> 
+
+ </dl>
+.. raw:: html
+
+ <div align="center"><img id="fig5.2.8" src="./_static/fig/5.2.8.png" alt="Picture" width="800px"></div>
+  <p style="color: dimgray;text-align: center;">图 5.2.8 斜截面抗剪承载力验算位置示意</p>
+  <script type="text/javascript">var viewer = new Viewer(document.getElementById('fig5.2.8'));</script>
+
+
+
+ <p style="text-align:justify"><a href="#id5.2.9"> 5.2.9</a> <span id="id5.2.9"> 矩形、T形和I形截面的受弯构件，当配置竖向预应力钢筋、箍筋和弯起钢筋时，其斜截面抗剪承载力计算应符合下列规定(<a href="#fig5.2.9">图 5.2.9</a>):</span></p>
+
+$$\\gamma_{0}V_{d}\\leqslant V_{\\mathrm{cs}}+V_{\\mathrm{cb}}+V_{\\mathrm{pb}}+V_{\\mathrm{pb,ex}}\\tag{5.2.9-1}$$
+$$\\small{V_{\\mathrm{cs}}=0.45\\times 10^{-3}\\alpha _{1}\\alpha _{2}\\alpha _{3}bh_{0}\\sqrt{(2+0.6P)\\sqrt{f_{\\mathrm{cu,k}}}(\\rho_{\\mathrm{sv}}f_{\\mathrm{sv}}+0.6\\rho_{\\mathrm{pv}}f_{\\mathrm{pv}})}}\\tag{5.2.9-2}$$
+$$V_{\\mathrm{sb}}=0.75\\times 10^{-3}f_{\\mathrm{sd}}\\sum A_{\\mathrm{sb}}\\sin\\theta _{\\mathrm{s}}\\tag{5.2.9-3}$$
+$$V_{\\mathrm{pb}}=0.75\\times 10^{-3}f_{\\mathrm{pd}}\\sum A_{\\mathrm{pb}}\\sin\\theta _{\\mathrm{p}}\\tag{5.2.9-4}$$
+$$V_{\\mathrm{pb,ex}}=0.75\\times 10^{-3}\\sum \\sigma _{\\mathrm{pe,ex}}A_{\\mathrm{ex}}\\sin\\theta _{\\mathrm{ex}}\\tag{5.2.9-5}$$
+
+.. raw:: html
+
+
+ <div align="center"><img id="fig5.2.9" src="./_static/fig/5.2.9.png" alt="Picture" width="800px"></div>
+  <p style="color: dimgray;text-align: center;">图 5.2.9 斜截面抗剪承载力验算</p>
+  <script type="text/javascript">var viewer = new Viewer(document.getElementById('fig5.2.9'));</script>
+
+ <table border="0" style="font-family:times new roman" id="gongshi">
+ <tr>
+ <td width="50px" align='center' id="eqzs">式中:</td>
+ <td width="50px" align='right' id="eqzs"><i>V</i><sub>d</sub></td>
+ <td width="40px" align='left' id="eqzs">——</td>
+ <td id="eqzs">力设计值(kN),按斜截面剪压区对应正截面处取值；</td>
+ </tr>
+ <tr>
+ <td align='center' id="eqzs"> </td>
+ <td align='right' id="eqzs"><i>V</i><sub>cs</sub></td>
+ <td align='left' id="eqzs">——</td>
+ <td id="eqzs">斜截面内混凝土和箍筋共同的抗剪承载力设计值(kN);</td>
+ </tr> 
+ <tr>
+ <td align='center' id="eqzs"> </td>
+ <td align='right' id="eqzs"><i>V</i><sub>sb</sub></td>
+ <td align='left' id="eqzs">——</td>
+ <td id="eqzs">与斜截面相交的普通弯起钢筋抗剪承载力设计值(kN);</td>
+ </tr> 
+ <tr>
+ <td align='center' id="eqzs"> </td>
+ <td align='right' id="eqzs"><i>V</i><sub>pb</sub></td>
+ <td align='left' id="eqzs">——</td>
+ <td id="eqzs">与斜截面相交的体内预应力弯起钢筋抗剪承载力设计值(kN);</td>
+ </tr>
+ <tr>
+ <td align='center' id="eqzs"> </td>
+ <td align='right' id="eqzs"><i>V</i><sub>pb,ex</sub></td>
+ <td align='left' id="eqzs">——</td>
+ <td id="eqzs">与斜截面相交的体外预应力弯起钢筋抗剪承载力设计值(kN);</td>
+ </tr> 
+ <tr>
+ <td align='center' id="eqzs"> </td>
+ <td align='right' id="eqzs"><i>α</i><sub>1</sub></td>
+ <td align='left' id="eqzs">——</td>
+ <td id="eqzs">异号弯矩影响系数，计算简支梁和连续梁近边支点梁段的抗剪承载力时，<i>α</i><sub>1</sub>=1.0;计算连续梁和悬臂梁近中间支点梁段的抗剪承载力时，<i>α</i><sub>1</sub>=0.9;</td>
+ </tr>
+ <tr>
+ <td align='center' id="eqzs"> </td>
+ <td align='right' id="eqzs"><i>α</i><sub>2</sub></td>
+ <td align='left' id="eqzs">——</td>
+ <td id="eqzs">预应力提高系数，对钢筋混凝土受弯构件，<i>α</i><sub>2</sub>=1.0;对预应力混凝土受弯构件，<i>α</i><sub>2</sub>=1.25,但当由钢筋合力引起的截面弯矩与外弯矩的方向相同时，或允许出现裂缝的预应力混凝土受弯构件，取<i>α</i><sub>2</sub>=1.0;</td>
+ </tr>
+ <tr>
+ <td align='center' id="eqzs"> </td>
+ <td align='right' id="eqzs"><i>α</i><sub>3</sub></td>
+ <td align='left' id="eqzs">——</td>
+ <td id="eqzs">受压翼缘的影响系数，对矩形截面，取 <i>α</i><sub>3</sub>=1.0;对T形和I形截面，取<i>α</i><sub>3</sub>=1.1;</td>
+ </tr>
+ <tr>
+ <td align='center' id="eqzs"> </td>
+ <td align='right' id="eqzs"><i>b</i></td>
+ <td align='left' id="eqzs">——</td>
+ <td id="eqzs">斜截面剪压区对应正截面处，矩形截面宽度(mm),或T形和I形截面腹板宽度(mm);</td>
+ </tr>
+ <tr>
+ <td align='center' id="eqzs"> </td>
+ <td align='right' id="eqzs"><i>h</i><sub>0</sub></td>
+ <td align='left' id="eqzs">——</td>
+ <td id="eqzs">截面的有效高度(mm),取斜截面剪压区对应正截面处、自纵向受拉钢筋合力点至受压边缘的距离；</td>
+ </tr>
+ <tr>
+ <td align='center' id="eqzs"> </td>
+ <td align='right' id="eqzs"><i>P</i></td>
+ <td align='left' id="eqzs">——</td>
+ <td id="eqzs">斜截面内纵向受拉钢筋的配筋百分率，<i>P</i>=100<i>ρ</i>, <i>ρ</i=(<i>A</i><sub>p</sub>+<i>A</i><sub>s</sub>)/<i>bh</i><sub>0</sub>,当<i>P</i>>2.5时，取<i>P</i>=2.5;</td>
+ </tr>
+ <tr>
+ <td align='center' id="eqzs"> </td>
+ <td align='right' id="eqzs"><i>f</i><sub>cu,k</sub></td>
+ <td align='left' id="eqzs">——</td>
+ <td id="eqzs">边长为150 mm的混凝土立方体抗压强度标准值(MPa);</td>
+ </tr>
+ <tr>
+ <td align='right' id="eqzs" colspan="2"><i>ρ</i><sub>sv</sub>、<i>ρ</i><sub>pv</sub> </td>
+ <!-- <td></td> -->
+ <td align='left' id="eqzs">——</td>
+ <td id="eqzs">斜截面内箍筋、竖向预应力钢筋配筋率，<i>ρ</i><sub>sv</sub>=<i>A</i><sub>sv</sub>/<i>S</i><sub>v</sub>b,<i>ρ</i><sub>pv</sub>=<i>A</i><sub>pv</sub>/<i>S</i><sub>p</sub>b;</td>
+ </tr>
+ <tr>
+ <td align='right' id="eqzs" colspan="2"><i>f</i><sub>sv</sub>、<i>f</i><sub>pv</sub> </td>
+ <!-- <td></td> -->
+ <td align='left' id="eqzs">——</td>
+ <td id="eqzs">箍筋、竖向预应力钢筋的抗拉强度设计值(MPa),按<a href="https://jtg-3362.readthedocs.io/zh/latest/03.html#B3.2.3.1">表3.2.3-1</a>、<a href="https://jtg-3362.readthedocs.io/zh/latest/03.html#B3.2.3.2">3.2.3-2</a>采用；</td>
+ </tr>
+ <tr>
+ <td align='right' id="eqzs" colspan="2"><i>A</i><sub>sv</sub>、<i>A</i><sub>pv</sub> </td>
+ <!-- <td></td> -->
+ <td align='left' id="eqzs">——</td>
+ <td id="eqzs">斜截面内配置在同一截面的箍筋、竖向预应力钢筋的总截面面积(mm²);</td>
+ </tr>
+ <tr>
+ <td align='right' id="eqzs" colspan="2"><i>S</i><sub>v</sub>、<i>S</i><sub>p</sub> </td>
+ <!-- <td></td> -->
+ <td align='left' id="eqzs">——</td>
+ <td id="eqzs">截面内箍筋、竖向预应力钢筋的间距(mm);</td>
+ </tr>
+ <tr>
+ <td align='right' id="eqzs" colspan="2"><i>σ</i><sub>pe,ex</sub></td>
+ <!-- <td></td> -->
+ <td align='left' id="eqzs">——</td>
+ <td id="eqzs">使用阶段体外预应力钢筋扣除预应力损失后的有效应力(MPa),按第6.1.6条计算；</td>
+ </tr>
+ <tr>
+ <td align='right' id="eqzs" colspan="2"><i>A</i><sub>sb</sub>、<i>A</i><sub>pb</sub>、<i>A</i><sub>ex</sub></td>
+ <!-- <td></td> -->
+ <td align='left' id="eqzs">——</td>
+ <td id="eqzs">斜截面内在同一弯起平面的普通弯起钢筋、体内预应力弯起钢筋和体外预应力弯起钢筋的截面面积(mm²);</td>
+ </tr>
+ <tr>
+ <td align='right' id="eqzs" colspan="2"><i>θ</i><sub>s</sub>、<i>θ</i><sub>p</sub>、<i>θ</i><sub>ex</sub></td>
+ <!-- <td></td> -->
+ <td align='left' id="eqzs">——</td>
+ <td id="eqzs">普通弯起钢筋、体内预应力弯起钢筋和体外预应力弯起钢筋的切线与水平线的夹角，按斜截面剪压区对应正截面处取值。</td>
+ </tr>
+ </table>
+ <p></p> 
+
+ <p style="text-align:justify;text-indent:2em;" > 箱形截面受弯构件的斜截面抗剪承载力可参照本条规定计算。</p>
+ <p style="text-align:justify"><a href="#id5.2.10"> 5.2.10</a> <span id="id5.2.10">进行斜截面承载力验算时，斜截面水平投影长度C(<a href="#fig5.2.9">图 5.2.9</a>)应按下式计算：</span></p>
+ 
+$$C=0.6mh_{0}\\tag{5.2.10}$$
+
+.. raw:: html
+
+ <table border="0" style="font-family:times new roman" id="gongshi">
+ <tr>
+ <td width="50px" align='center' id="eqzs">式中:</td>
+ <td width="50px" align='right' id="eqzs"><i>m</i></td>
+ <td width="40px" align='left' id="eqzs">——</td>
+ <td id="eqzs">广义剪跨比，按斜截面剪压区对应正截面的<i>M</i><sub>d</sub>和<i>V</i><sub>d</sub>计算，<i>m</i>=<i>M</i><sub>d</sub>/<i>V</i><sub>d</sub><i>h</i><sub>0</sub>,当m>3.0时取<i>m</i>=3.0;</td>
+ </tr>
+ <tr>
+ <td align='center' id="eqzs"> </td>
+ <td align='right' id="eqzs"><i>h</i><sub>0</sub></td>
+ <td align='left' id="eqzs">——</td>
+ <td id="eqzs">截面的有效高度，取斜截面剪压区对应正截面处、自纵向受拉钢筋合力点至受压边缘的距离；</td>
+ </tr> 
+ <tr>
+ <td align='center' id="eqzs"> </td>
+ <td align='right' id="eqzs"><i>M</i><sub>d</sub></td>
+ <td align='left' id="eqzs">——</td>
+ <td id="eqzs">与本规范<a href="#id5.2.9">第5.2.9条</a><i>V</i><sub>d</sub>对应的弯矩设计值。</td>
+ </tr> 
+ </table>
+ <p></p>  
+ 
+ <p style="text-align:justify"><a href="#id5.2.11"> 5.2.11</a> <span id="id5.2.11">矩形、T形和I形截面的受弯构件，其抗剪截面应符合下列要求：</span></p>
+
+$$\\gamma_{0}V_{\\mathrm{d}}\\leqslant0.51\\times 10^{-3}\\sqrt{f_{\\mathrm{td}}}bh_{0}\\tag{5.2.11}$$
+
+.. raw:: html
+
+ <table border="0" style="font-family:times new roman" id="gongshi">
+ <tr>
+ <td width="50px" align='center' id="eqzs">式中:</td>
+ <td width="50px" align='right' id="eqzs"><i>V</i><sub>d</sub></td>
+ <td width="40px" align='left' id="eqzs">——</td>
+ <td id="eqzs">剪力设计值(kN),按验算斜截面的最不利值</td>
+ </tr>
+ <tr>
+ <td align='center' id="eqzs"> </td>
+ <td align='right' id="eqzs"><i>f</i><sub>cu,k</sub></td>
+ <td align='left' id="eqzs">——</td>
+ <td id="eqzs">边长为150 mm的混凝土立方体抗压强度标准值(MPa);</td>
+ </tr> 
+ <tr>
+ <td align='center' id="eqzs"> </td>
+ <td align='right' id="eqzs"><i>b</i></td>
+ <td align='left' id="eqzs">——</td>
+ <td id="eqzs">矩形截面宽度(mm)或T形和I形截面腹板宽度(mm),取斜截面所在范围内的最小值；</td>
+ </tr> 
+ <tr>
+ <td align='center' id="eqzs"> </td>
+ <td align='right' id="eqzs"><i>h</i><sub>0</sub></td>
+ <td align='left' id="eqzs">——</td>
+ <td id="eqzs">自纵向受拉钢筋合力点至受压边缘的距离(mm),取斜截面所在范围内截面有效高度的最小值。</td>
+ </tr>  
+  </table>
+ <p></p> 
+ <p style="text-align:justify;text-indent:2em;" > 对变高度(承托)连续梁，除验算近边支点梁段的截面尺寸外，尚应验算截面急剧变化处的截面尺寸。</p>
+ <p style="text-align:justify"><a href="#id5.2.12"> 5.2.12</a> <span id="id5.2.12">矩形、T 形和I形截面的受弯构件，当符合下列条件时，可不进行斜截面抗剪承载力的验算，仅需按第9.3.12条构造要求配置箍筋。</span></p>
+
+$$\\gamma_{0}V_{\\mathrm{d}}\\leqslant0.50\\times 10^{-3}\\alpha_{2}f_{\\mathrm{td}}bh_{0}\\tag{5.2.12}$$
+
+.. raw:: html
+
+ <table border="0" style="font-family:times new roman" id="gongshi">
+ <tr>
+ <td width="50px" align='center' id="eqzs">式中:</td>
+ <td width="50px" align='right' id="eqzs"><i>f</i><sub>td</sub></td>
+ <td width="40px" align='left' id="eqzs">——</td>
+ <td id="eqzs">混凝土抗拉强度设计值(MPa),按<a href="https://jtg-3362.readthedocs.io/zh/latest/03.html#B3.1.4">表3.1.4</a>的规定采用。</td>
+ </tr>
+  </table>
+ <p></p> 
+
+ <p style="text-align:justify;text-indent:2em;" > 对于不配置箍筋的板式受弯构件，公式(5.2.12)右边计算值可乘以1.25提高系数。<br/>注：<i>V</i><sub>d</sub>、b、<i>h</i><sub>0</sub>的单位及意义见第5.2.11条。</p>
+ <p style="text-align:justify"><a href="#id5.2.13"> 5.2.13</a> <span id="id5.2.13">钢筋混凝土矩形、T 形和I形截面受弯构件，当进行斜截面抗剪承载力配筋设计时，其箍筋和弯起钢筋应按下列规定进行计算和配置：</span></p>
+ <p style="text-align:justify;text-indent:2em;" > 1 绘出剪力设计值包络图，用作抗剪配筋设计的最不利剪力设计值应按以下规定取值：简支梁和连续梁近边支点梁段取离支点 h/2 处的剪力设计值<i>V '</i><sub>d</sub>(<a href="#fig5.2.13">图 5.2.13 a</a>)];等高度连续梁和悬臂梁近中间支点梁段取支点上横隔梁边缘处的剪力设计值<i>V '</i><sub>d</sub>(<a href="#fig5.2.13">图 5.2.13b</a>)];变高度(承托)连续梁和悬臂梁近中间支点梁段取变高度梁段与等高度梁段交接处的剪力设计值<i>V</i><sub>d</sub><sup>0</sup>[<a href="#fig5.2.13">图 5.2.13c</a>)]。<i>V '</i><sub>d</sub>或<i>V</i><sub>d</sub><sup>0</sup>中应按不少于60%混凝土和箍筋共同承担，不超过40%弯起钢筋承担，并且用水平线将剪力设计值包络图分割为两部分。</p>
+ <p style="text-align:justify;text-indent:2em;" > 2 预先选定箍筋种类和直径，可按下式计算箍筋间距<i>S</i><sub>v</sub> (mm):</p>
+
+$$S_{\\mathrm{v} }=\\dfrac{0.2\\times10^{-6}\\alpha^{2}_{1}\\alpha^{2}_{3}(2+0.6p)\\sqrt{f_{\\mathrm{cu,k}}}A_{\\mathrm{sv}}f_{\\mathrm{sv}}bh_{0}^{2}}{(\\xi\\gamma _{0}V_{\\mathrm{d}})^{2}}\\tag{5.2.13-1}$$
+
+.. raw:: html
+
+ <table border="0" style="font-family:times new roman" id="gongshi">
+ <tr>
+ <td width="50px" align='center' id="eqzs">式中:</td>
+ <td width="50px" align='right' id="eqzs"><i>V</i><sub>d</sub></td>
+ <td width="40px" align='left' id="eqzs">——</td>
+ <td id="eqzs">用于抗剪配筋设计的最不利剪力设计值(kN),计算简支梁、连续梁近边支点梁段和等高度连续梁、悬臂梁近中间支点梁段的箍筋间距时，令 <i>V</i><sub>d</sub>=<i>V '</i><sub>d</sub>(<a href="#fig5.2.13">图 5.2.13a</a>)、<a href="#fig5.2.13">b</a>)];计算变高度(承托)的连续梁和悬臂梁近中间支点梁段的箍筋间距时，令Va=V (<a href="#fig5.2.13">图 5.2.13c</a>)];</td>
+ </tr>
+ <tr>
+ <td align='center' id="eqzs"> </td>
+ <td align='right' id="eqzs"><i>ζ</i></td>
+ <td align='left' id="eqzs">——</td>
+ <td id="eqzs">用于抗剪配筋设计的最不利剪力设计值分配于混凝土和箍筋共同承担的分配系数，取ξ≥0.6；</td>
+ </tr> 
+  <tr>
+ <td align='center' id="eqzs"> </td>
+ <td align='right' id="eqzs"><i>h</i><sub>0</sub></td>
+ <td align='left' id="eqzs">——</td>
+ <td id="eqzs">用于抗剪配筋设计的最不利剪力截面的有效高度(mm);</td>
+ </tr> 
+ <tr>
+ <td align='center' id="eqzs"> </td>
+ <td align='right' id="eqzs"><i>b</i></td>
+ <td align='left' id="eqzs">——</td>
+ <td id="eqzs">用于抗剪配筋设计的最不利剪力截面的梁腹宽度 (mm),当梁的腹板厚度有变化时，取设计梁段最小腹板厚度；</td>
+ </tr> 
+  <tr>
+ <td align='center' id="eqzs"> </td>
+ <td align='right' id="eqzs"><i>A</i><sub>s</sub></td>
+ <td align='left' id="eqzs">——</td>
+ <td id="eqzs">配置在同一截面内箍筋总截面面积(mm²)。</td>
+ </tr>  
+  </table>
+ <p></p> 
+
+ <p style="text-align:justify;text-indent:2em;" > 3 计算第一排弯起钢筋<i>A</i><sub>sb1</sub>时，对于简支梁和连续梁近边支点梁段，取用距支点中心h/2 处由弯起钢筋承担的那部分剪力<i>V</i><sub>sb1</sub>[<a href="#fig5.2.13">图 5.2.13a</a>)];对于等高度连续梁和悬臂梁近中间支点梁段，取用支点上横隔梁边缘处由弯起钢筋承担的那部分剪力<i>V</i><sub>sb1</sub>[<a href="#fig5.2.13">图 5.2.13b</a>)];对于变高度(承托)的连续梁和悬臂梁近中间支点的变高度梁段，取用第一排弯起钢筋下面弯点处由弯起钢筋承担的那部分剪力<i>V</i><sub>sb1</sub>[<a href="#fig5.2.13">图 5.2.13c</a>)]。</p>
+
+ <div align="center"><img id="fig5.2.13" src="./_static/fig/5.2.13.png" alt="Picture" width="800px"></div>
+  <p style="color: dimgray;text-align: center;">图 5.2.13 斜截面抗剪承载力配筋设计计算</p>
+  <script type="text/javascript">var viewer = new Viewer(document.getElementById('fig5.2.13'));</script>
+
+.. raw:: html
+
+ <table border="0" style="font-family:times new roman" id="gongshi">
+ <tr>
+ <td width="50px" align='center' id="eqzs">图中:</td>
+ <td width="100px" align='right' id="eqzs"><i>V</i><sub>d</sub><sup>0</sup></td>
+ <td width="40px" align='left' id="eqzs">——</td>
+ <td id="eqzs">由作用引起的最不利剪力设计值；</td>
+ </tr>
+ <tr>
+ <td align='center' id="eqzs"> </td>
+ <td align='right' id="eqzs"><i>V '</i><sub>d</sub></td>
+ <td align='left' id="eqzs">——</td>
+ <td id="eqzs">用于配筋设计的最不利剪力设计值，对简支梁和连续梁近边支点梁段，取距支点中心 h/2处的量值；对等高度连续梁和悬臂梁近中间支点梁段，取支点上横隔梁边缘处的量值；</td>
+ </tr> 
+  <tr>
+ <td align='center' id="eqzs"> </td>
+ <td align='right' id="eqzs"><i>V</i><sub>2</sub><sup><i>l</i>/2</sup></td>
+ <td align='left' id="eqzs">——</td>
+ <td id="eqzs">跨中截面剪力设计值；</td>
+ </tr> 
+ <tr>
+ <td align='center' id="eqzs"> </td>
+ <td align='right' id="eqzs"><i>V '</i><sub>cs</sub></td>
+ <td align='left' id="eqzs">——</td>
+ <td id="eqzs">由混凝土和箍筋共同承担的总剪力设计值(图中阴影部分);</td>
+ </tr> 
+  <tr>
+ <td align='center' id="eqzs"> </td>
+ <td align='right' id="eqzs"><i>V '</i><sub>sb</sub></td>
+ <td align='left' id="eqzs">——</td>
+ <td id="eqzs">由弯起钢筋承担的总剪力设计值；</td>
+ </tr>  
+ <tr>
+ <td align='right' id="eqzs" colspan="2"> <i>V</i><sub>sb1</sub>、<i>V</i><sub>sb2</sub>、<i>V</i><sub>sb3</sub></td>
+ <!-- <td></td> -->
+ <td align='left' id="eqzs">——</td>
+ <td id="eqzs">—简支梁、等高度连续梁和悬臂梁、变高度(承托)的连续梁和悬臂梁的变高度梁段，由弯起钢筋承担的剪力设计值；</td>
+ </tr>
+  <tr>
+ <td align='center' id="eqzs"> </td>
+ <td align='right' id="eqzs"><i>V</i><sub>sbf</sub></td>
+ <td align='left' id="eqzs">——</td>
+ <td id="eqzs">变高度(承托)的连续梁和悬臂梁的变高段与等高段交接处，由弯起钢筋承担的剪力设计值；</td>
+ </tr>  
+ <tr>
+ <td align='right' id="eqzs" colspan="2"> <i>V '</i><sub>sb1</sub>、<i>V '</i><sub>sb2</sub>、<i>V '</i><sub>sb3</sub></td>
+ <!-- <td></td> -->
+ <td align='left' id="eqzs">——</td>
+ <td id="eqzs">变高度(承托)的连续梁和悬臂梁的等高度梁段，由弯起钢筋承担的剪力设计值；</td>
+ </tr>
+  <tr>
+ <td align='right' id="eqzs" colspan="2"> <i>A</i><sub>sb1</sub>、<i>A</i><sub>sb2</sub>、<i>A</i><sub>sb3</sub></td>
+ <!-- <td></td> -->
+ <td align='left' id="eqzs">——</td>
+ <td id="eqzs">简支梁、等高度连续梁和悬臂梁、变高度(承托)的连续梁和悬臂梁的变高度梁段，从支点算起的第一、第二、第i排弯起钢筋截面面积；</td>
+ </tr>
+ <tr>
+ <td align='center' id="eqzs"> </td>
+ <td align='right' id="eqzs"><i>A</i><sub>sbf</sub></td>
+ <td align='left' id="eqzs">——</td>
+ <td id="eqzs">变高度(承托)的连续梁和悬臂梁中跨越变高度与等高度交接处的弯起钢筋截面面积；</td>
+ </tr> 
+  <tr>
+ <td align='right' id="eqzs" colspan="2"> <i>A '</i><sub>sb1</sub>、<i>A '</i><sub>sb2</sub>、<i>A '</i><sub>sb3</sub></td>
+ <!-- <td></td> -->
+ <td align='left' id="eqzs">——</td>
+ <td id="eqzs">变高度(承托)的连续梁和悬臂梁的等高度梁段，从变高段与等高段交接处算起的第一、第二、第i排弯起钢筋截面面积；</td>
+ </tr> 
+ <tr>
+ <td align='center' id="eqzs"> </td>
+ <td align='right' id="eqzs"><i>h</i></td>
+ <td align='left' id="eqzs">——</td>
+ <td id="eqzs">等高度梁的梁高；</td>
+ </tr>
+ <tr>
+ <td align='center' id="eqzs"> </td>
+ <td align='right' id="eqzs"><i>l</i></td>
+ <td align='left' id="eqzs">——</td>
+ <td id="eqzs">梁的计算跨径；</td>
+ </tr>
+ <tr>
+ <td align='center' id="eqzs"> </td>
+ <td align='right' id="eqzs"><i>α</i></td>
+ <td align='left' id="eqzs">——</td>
+ <td id="eqzs">变高度梁段下缘线与水平线夹角。</td>
+ </tr>
+
+  </table>
+ <p></p> 
+ <p style="text-align:justify;text-indent:2em;" > 4 计算第一排弯起钢筋以后的每一排弯起钢筋 <i>A</i><sub>sb2</sub>...<i>A</i><sub>sbi</sub>时，对于简支梁、连续梁近边支点梁段和等高度连续梁与悬臂梁近中间支点梁段，取用前一排弯起钢筋下面弯点处由弯起钢筋承担的那部分剪力<i>V</i><sub>sb2</sub>...<i>V</i><sub>sbi</sub>[<a href="#fig5.2.13">图 5.2.13a</a>)、<a href="#fig5.2.13">b</a>)];对于变高度(承托)的连续梁和悬臂梁近中间支点的变高度梁段，取用各该排弯起钢筋下面弯点处由弯起钢筋承担的那部分剪力<i>V</i><sub>sb2</sub>...<i>V</i><sub>sbi</sub>[<a href="#fig5.2.13">图 5.2.13c</a>)];</p>
+ <p style="text-align:justify;text-indent:2em;" > 5 计算变高度（承托）的连续梁和悬臂梁跨越变高段与等高段交接处的弯起钢筋 <i>A</i><sub>sbf</sub>时，取用交接截面剪力峰值由弯起钢筋承担的那部分剪力 <i>V</i><sub>sbf</sub> [<a href="#fig5.2.13">图 5.2.13c</a>）]；计算等高度梁段各排弯起钢筋<i>A '</i><sub>sb1</sub>、<i>A '</i><sub>sb2</sub>、<i>A '</i><sub>sbi</sub>  时， 取用各该排弯起钢筋上面弯点处由弯起钢筋承担的那部分剪力<i>V '</i><sub>sb1</sub>、<i>V '</i><sub>sb2</sub>、<i>V '</i><sub>sbi</sub>[<a href="#fig5.2.13">图 5.2.13c</a>）]。</p>
+ <p style="text-align:justify;text-indent:2em;" > 6 每排弯起钢筋的截面面积按下列公式计算：</p>
+
+$$A_{\\mathrm{sb} }=\\dfrac{\\gamma _{0}V_{\\mathrm{sb} }}{0.75\\times^{-3}f_{\\mathrm{sd} }\\sin\\theta _{\\mathrm{s} }}\\tag{5.2.13-2}$$
+
+.. raw:: html
+
+ <table border="0" style="font-family:times new roman" id="gongshi">
+ <tr>
+ <td width="50px" align='center' id="eqzs">式中:</td>
+ <td width="50px" align='right' id="eqzs"><i>A</i><sub>sb</sub></td>
+ <td width="40px" align='left' id="eqzs">——</td>
+ <td id="eqzs">每排弯起钢筋的总截面面积(mm²),即为<a href="#fig5.2.13">图 5.2.13</a> 中的 <i>A</i><sub>sb1</sub> 、<i>A</i><sub>sb2</sub> 、<i>A</i><sub>sbi</sub> 或<i>A '</i><sub>sb1</sub> 、<i>A '</i><sub>sbi</sub> 或<i>A</i><sub>sbf</sub> ;</td>
+ </tr>
+ <tr>
+ <td align='center' id="eqzs"> </td>
+ <td align='right' id="eqzs"><i>V</i><sub>sb</sub></td>
+ <td align='left' id="eqzs">——</td>
+ <td id="eqzs">由每排弯起钢筋承担的剪力设计值(kN),即为<a href="#fig5.2.13">图 5.2.13</a>中的 <i>V</i><sub>sb1</sub> 、<i>V</i><sub>sb2</sub> 、<i>V</i><sub>sbi</sub> 或<i>V '</i><sub>sb1</sub> 、<i>V '</i><sub>sb2</sub> 、<i>V '</i><sub>sbi</sub> 或<i>V</i><sub>sbf</sub> 。</td>
+ </tr> 
+  </table>
+ <p>注：<i>f</i><sub>cu,k</sub>、<i>f</i><sub>sv</sub>、<i>f</i><sub>sd</sub>以MPa为单位。</p> 
+
+
+
+ <p style="text-align:justify"><a href="#id5.2.14"> 5.2.14</a> <span id="id5.2.14">矩形、T 形和I形截面的受弯构件，其斜截面抗弯承载力应按下列规定进行验算(参见<a href="#fig5.2.9">图 5.2.9</a>):</span></p>
+
+$$\\small{\\gamma _{0}M_{\\mathrm{d}}\\leqslant f_{\\mathrm{sd}}A_{\\mathrm{s}}Z_{\\mathrm{s}}+f_{\\mathrm{pd}}A_{\\mathrm{p}}Z_{\\mathrm{p}}+\\sum f_{\\mathrm{sd}}A_{\\mathrm{sb}}Z_{\\mathrm{sb}}+\\sum f_{\\mathrm{pd}}A_{\\mathrm{pb}}Z_{\\mathrm{pb}}+\\sum f_{\\mathrm{sv}}A_{\\mathrm{sv}}Z_{\\mathrm{sv}}}\\tag{5.2.14-1}$$
+
+.. raw:: html
+
+
+ <p style="text-align:justify;text-indent:2em;" > 此时，最不利的斜截面水平投影长度按下列公式试算确定：</p>
+
+
+$$\\gamma _{0}V_{\\mathrm{d}}=\\sum f_{\\mathrm{sd}}A_{\\mathrm{sd} }\\sin\\theta _{\\mathrm{s}}+\\sum f_{\\mathrm{pd}}A_{\\mathrm{pd} }\\sin\\theta _{\\mathrm{p}}+\\sum f_{\\mathrm{sv}}A_{\\mathrm{sv} }\\tag{5.2.14-2}$$
+
+.. raw:: html
+
+ <table border="0" style="font-family:times new roman" id="gongshi">
+ <tr>
+ <td width="50px" align='center' id="eqzs">式中:</td>
+ <td width="50px" align='right' id="eqzs"><i>M</i><sub>d</sub></td>
+ <td width="40px" align='left' id="eqzs">——</td>
+ <td id="eqzs">矩设计值，按斜截面剪压区对应正截面处取值；</td>
+ </tr>
+ <tr>
+ <td align='center' id="eqzs"> </td>
+ <td align='right' id="eqzs"><i>V</i><sub>d</sub></td>
+ <td align='left' id="eqzs">——</td>
+ <td id="eqzs">与弯矩设计值<i>M</i><sub>d</sub>对应的剪力设计值；</td>
+ </tr> 
+  <tr>
+ <td align='center' id="eqzs"> </td>
+ <td align='right' id="eqzs"><i>Z</i><sub>s</sub>、<i>Z</i><sub>p</sub></td>
+ <td align='left' id="eqzs">——</td>
+ <td id="eqzs">纵向普通受拉钢筋合力点、纵向预应力受拉钢筋合力点至受压区中心点O的距离；</td>
+ </tr> 
+  <tr>
+ <td align='center' id="eqzs"> </td>
+ <td align='right' id="eqzs"><i>Z</i><sub>sb</sub>、<i>Z</i><sub>pb</sub></td>
+ <td align='left' id="eqzs">——</td>
+ <td id="eqzs">与斜截面相交的同一弯起平面内普通弯起钢筋合力点、预应力弯起钢筋合力点至受压区中心点O的距离；</td>
+ </tr> 
+  <tr>
+ <td align='center' id="eqzs"> </td>
+ <td align='right' id="eqzs"><i>Z</i><sub>sv</sub></td>
+ <td align='left' id="eqzs">——</td>
+ <td id="eqzs">与斜截面相交的同一平面内箍筋合力点至斜截面受压端的水平距离。</td>
+ </tr> 
+  </table>
+ <p></p> 
+
+ <p style="text-align:justify;text-indent:2em;" > 斜截面受压端受压区高度x,按斜截面内所有的力对构件纵向轴投影之和为零的平衡条件求得。</p>
+ <p style="text-align:justify;text-indent:2em;" > 受弯构件的纵向钢筋和箍筋，当符合第9.1.4条、第9.3.8条至第9.3.12条的要求时，可不进行斜截面抗弯承载力计算</p>
+
+
+5.3 受压构件
+------------------------
+
+.. raw:: html
+
+ <p style="text-align:justify"><a href="#id5.3.1"> 5.3.1</a> <span id="id5.3.1">钢筋混凝土轴心受压构件，当配有箍筋(或螺旋筋或在纵向钢筋上焊有横向钢筋)时(<a href="#fig5.3.1">图 5.3.1</a>),其正截面抗压承载力应符合下列规定：</span></p>
+
+$$\\gamma _{0}N_{\\mathrm{d}}\\leqslant 0.9\\varphi (f_{\\mathrm{cd}}A+f^{'}_{\\mathrm{sd}}A^{'}_{\\mathrm{s} })\\tag{5.3.1}$$
+
+.. raw:: html
+
+ <table border="0" style="font-family:times new roman" id="gongshi">
+ <tr>
+ <td width="50px" align='center' id="eqzs">式中:</td>
+ <td width="50px" align='right' id="eqzs"><i>N</i><sub>d</sub></td>
+ <td width="40px" align='left' id="eqzs">——</td>
+ <td id="eqzs">轴向力设计值；</td>
+ </tr>
+ <tr>
+ <td align='center' id="eqzs"> </td>
+ <td align='right' id="eqzs"><i>φ</i></td>
+ <td align='left' id="eqzs">——</td>
+ <td id="eqzs">轴压构件稳定系数，按<a href="#B5.3.1">表5.3.1</a>采用；</td>
+ </tr> 
+  <tr>
+ <td align='center' id="eqzs"> </td>
+ <td align='right' id="eqzs"><i>A</i></td>
+ <td align='left' id="eqzs">——</td>
+ <td id="eqzs">构件毛截面面积，当纵向钢筋配筋率大于3%时，<i>A</i>应改用<i>A</i><sub>n</sub>=<i>A</i>-<i>A '</i><sub>s</sub>;</td>
+ </tr> 
+  <tr>
+ <td align='center' id="eqzs"> </td>
+ <td align='right' id="eqzs"><i>A '</i><sub>s</sub></td>
+ <td align='left' id="eqzs">——</td>
+ <td id="eqzs">全部纵向钢筋的截面面积。</td>
+ </tr> 
+ </table>
+ <p></p> 
+
+
+  <div align="center"><img id="fig5.3.1" src="./_static/fig/5.3.1.png" alt="Picture" width="70px"></div>
+  <p style="color: dimgray;text-align: center;">图 5.3.1 配有箍筋的钢筋混凝土轴心受压构件</p>
+  <script type="text/javascript">var viewer = new Viewer(document.getElementById('fig5.3.1'));</script>
+
+
+.. raw:: html
+
+      <style>
+     #biaoge {
+         border: 2px solid black;
+         border-collapse: collapse;
+         margin-bottom:1px;
+        
+      }
+      th, td {
+         padding-top: 5px;
+         padding-bottom:5px;
+         padding-left:5px;
+         padding-right:5px;
+         border: 1px solid black;
+         
+      }
+      #eqzs {
+         border: 0px;
       }
       #dhbg {
         vertical-align: middle;
@@ -52,1392 +1114,1323 @@
 
 		<table id="biaoge" style="font-family:times new roman">
 
-         <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="B5.1.1-1">表5.1.1-1 蜂窝、麻面</b></caption>	
+         <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="B5.3.1">表5.3.1 钢筋混凝土轴心受压构件的稳定系数</b></caption>	
               
 		    <tr>
-		      <td  align="center" width=60px rowspan="2" id="dhbg">标度</td>
-		      <td  align="center"  colspan="2">评定指标</td>
-				  <!-- <td></td> -->
+		     <td  align="center" id="dhbg" width="75px"><i>l</i><sub>0</sub>/<i>b</i></td>
+		     <td  align="center" id="dhbg" width="75px">≤8</td>
+		     <td  align="center" id="dhbg" width="75px">10</td>
+		     <td  align="center" id="dhbg" width="75px">12</td>
+		     <td  align="center" id="dhbg" width="75px">14</td>
+		     <td  align="center" id="dhbg" width="75px">16</td>
+		     <td  align="center" id="dhbg" width="75px">18</td>
+		     <td  align="center" id="dhbg" width="75px">20</td>
+		     <td  align="center" id="dhbg" width="75px">22</td>
+		     <td  align="center" id="dhbg" width="75px">24</td>
+		     <td  align="center" id="dhbg" width="75px">26</td>
+		     <td  align="center" id="dhbg" width="75px">28</td>
 		    </tr>
-  		  <tr>
-		     <!-- <td></td> -->
-		      <td align="center" width=360px>定性描述</td>
-				  <td align="center" width=480px>定量描述</td>
-		    </tr>
-  		  <tr>
-		     <td align="center">1</td>
-		     <td align="left">完好，无蜂窝麻面</td>
-			  <td align="center">—</td>
-		    </tr> 
-  		  <tr>
-		     <td align="center">2</td>
-		     <td align="left">较大面积蜂窝麻面</td>
-			  <td align="left">累计面积≤构件面积的50%</td>
-		    </tr>
-  		  <tr>
-		     <td align="center">3</td>
-		     <td align="left">大面积蜂窝麻面</td>
-			  <td align="left">累计面积>构件面积的50%</td>
-		    </tr>                 
-  		</table>  
-     <p> </p>
- 		<table id="biaoge" style="font-family:times new roman">
-
-         <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="B5.1.1-2">表5.1.1-2 剥落、掉角</b></caption>	
-              
 		    <tr>
-		      <td  align="center" width=60px rowspan="2" id="dhbg">标度</td>
-		      <td  align="center"  colspan="2">评定指标</td>
-				  <!-- <td></td> -->
+		     <td align="center" id="dhbg"><i>l</i><sub>0</sub>/2<i>r</i></td>
+             <td align="center" id="dhbg">≤7</td>
+             <td align="center" id="dhbg">8.5</td>
+             <td align="center" id="dhbg">10.5</td>
+		     <td align="center" id="dhbg">12</td>
+             <td align="center" id="dhbg">14</td>
+             <td align="center" id="dhbg">15.5</td>
+             <td align="center" id="dhbg">17</td>
+		     <td align="center" id="dhbg">19</td>
+             <td align="center" id="dhbg">21</td>
+             <td align="center" id="dhbg">22.5</td>
+             <td align="center" id="dhbg">24</td>
 		    </tr>
-  		  <tr>
-		     <!-- <td></td> -->
-		      <td align="center" width=360px>定性描述</td>
-				  <td align="center" width=480px>定量描述</td>
-		    </tr>
-  		  <tr>
-		     <td align="center">1</td>
-		     <td align="left">完好，无剥落、掉角</td>
-			  <td align="center">—</td>
-		    </tr> 
-  		  <tr>
-		     <td align="center">2</td>
-		     <td align="left">局部混凝土剥落或掉角</td>
-			  <td align="left">累计面积≤构件面积的5%，或单处面积≤0.5 m<sup>2</sup></td>
-		    </tr>
-  		  <tr>
-		     <td align="center">3</td>
-		     <td align="left">较大范围混凝土剥落或掉角</td>
-			  <td align="left">累计面积＞构件面积的5%且＜构件面积的10%，或单处面积＞0.5 m<sup>2</sup>且＜1.0 m<sup>2</sup></td>
-		    </tr> 
-  		  <tr>
-		     <td align="center">4</td>
-		     <td align="left">大范围混凝土剥落或掉角</td>
-			  <td align="left">累计面积≥构件面积的10%，或单处面积≥1.0 m<sup>2</sup></td>
-		    </tr>                         
-  		</table> 
-      <p> </p>
-
- 		<table id="biaoge" style="font-family:times new roman">
-
-         <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="B5.1.1-3">表5.1.1-3 空洞、孔洞</b></caption>	
-              
 		    <tr>
-		      <td  align="center" width=60px rowspan="2" id="dhbg">标度</td>
-		      <td  align="center"  colspan="2">评定指标</td>
-				  <!-- <td></td> -->
+		     <td align="center" id="dhbg"><i>l</i><sub>0</sub>/<i>i</i></td>
+             <td align="center" id="dhbg">≤28</td>
+             <td align="center" id="dhbg">35</td>
+             <td align="center" id="dhbg">42</td>
+		     <td align="center" id="dhbg">48</td>
+             <td align="center" id="dhbg">55</td>
+             <td align="center" id="dhbg">62</td>
+             <td align="center" id="dhbg">69</td>
+		     <td align="center" id="dhbg">76</td>
+             <td align="center" id="dhbg">83</td>
+             <td align="center" id="dhbg">90</td>
+             <td align="center" id="dhbg">97</td>
 		    </tr>
-  		  <tr>
-		     <!-- <td></td> -->
-		      <td align="center" width=360px>定性描述</td>
-				  <td align="center" width=480px>定量描述</td>
-		    </tr>
-  		  <tr>
-		     <td align="center">1</td>
-		     <td align="left">完好，无空洞、孔洞</td>
-			  <td align="center">—</td>
-		    </tr> 
-  		  <tr>
-		     <td align="center">2</td>
-		     <td align="left">局部混凝土空洞、孔洞</td>
-			  <td align="left">累计面积≤构件面积的5%，或单处面积≤0.5 m<sup>2</sup></td>
-		    </tr>
-  		  <tr>
-		     <td align="center">3</td>
-		     <td align="left">较大范围混凝土空洞、孔洞</td>
-			  <td align="left">累计面积＞构件面积的5%且＜构件面积的10%，或单处面积＞0.5 m<sup>2</sup>且 < 1.0 m<sup>2</sup></td>
-		    </tr> 
-  		  <tr>
-		     <td align="center">4</td>
-		     <td align="left">大范围混凝土空洞、孔洞</td>
-			  <td align="left">累计面积≥构件面积的10%，或单处面积≥1.0 m<sup>2</sup></td>
-		    </tr>                         
-  		</table> 
-      <p> </p>
-
-  		<table id="biaoge" style="font-family:times new roman">
-
-         <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="B5.1.1-4">表5.1.1-4 混凝土保护层厚度</b></caption>	
-              
 		    <tr>
-		      <td  align="center" width=60px rowspan="2" id="dhbg">标度</td>
-		      <td  align="center" width=840px>评定指标</td>
- 		    </tr> 
-        <tr> 
-         <!-- <td></td> -->       
-				 <td  align="center">定性描述</td>
+		     <td align="center" id="dhbg"><i>φ</i></td>
+             <td align="center" id="dhbg">1.0</td>
+             <td align="center" id="dhbg">0.98</td>
+             <td align="center" id="dhbg">0.95</td>
+		     <td align="center" id="dhbg">0.92</td>
+             <td align="center" id="dhbg">0.87</td>
+             <td align="center" id="dhbg">0.81</td>
+             <td align="center" id="dhbg">0.75</td>
+		     <td align="center" id="dhbg">0.70</td>
+             <td align="center" id="dhbg">0.65</td>
+             <td align="center" id="dhbg">0.60</td>
+             <td align="center" id="dhbg">0.56</td>
 		    </tr>
-  		  <tr>
-		     <td align="center">1</td>
-		     <td align="left">完好</td>
-		    </tr> 
-  		  <tr>
-		     <td align="center">2</td>
-		     <td align="left">承重构件混凝土保护层厚度符合要求，对钢筋耐久性有轻度影响</td>
-		    </tr>
-  		  <tr>
-		     <td align="center">3</td>
-		     <td align="left">承重构件混凝土保护层厚度不足，对钢筋耐久性有较大影响，造成钢筋锈蚀</td>
-		    </tr> 
-  		  <tr>
-		     <td align="center">4</td>
-		     <td align="left">承重构件混凝土保护层厚度严重不足，对钢筋耐久性有很大影响，钢筋失去碱性保护，发生较严重锈蚀</td>
-		    </tr>                         
-  		</table> 
-      <p> </p>     
-
-
- 		<table id="biaoge" style="font-family:times new roman">
-
-         <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="B5.1.1-5">表5.1.1-5 钢筋锈蚀</b></caption>	
-              
 		    <tr>
-		      <td  align="center" width=60px rowspan="2" id="dhbg">标度</td>
-		      <td  align="center"  colspan="2">评定指标</td>
-				  <!-- <td></td> -->
+		     <td align="center" id="dhbg"><i>l</i><sub>0</sub>/<i>b</i></td>
+             <td align="center" id="dhbg">30</td>
+             <td align="center" id="dhbg">32</td>
+             <td align="center" id="dhbg">34</td>
+		     <td align="center" id="dhbg">36</td>
+             <td align="center" id="dhbg">38</td>
+             <td align="center" id="dhbg">40</td>
+             <td align="center" id="dhbg">42</td>
+		     <td align="center" id="dhbg">44</td>
+             <td align="center" id="dhbg">46</td>
+             <td align="center" id="dhbg">48</td>
+             <td align="center" id="dhbg">50</td>
 		    </tr>
-  		  <tr>
-		     <!-- <td></td> -->
-		      <td align="center" width=360px>定性描述</td>
-				  <td align="center" width=480px>定量描述</td>
-		    </tr>
-  		  <tr>
-		     <td align="center">1</td>
-		     <td align="left">完好</td>
-			  <td align="left">承重构件钢筋锈蚀电位水平为0 ~ - 200mV，或电阻率> 20000 Ω·cm</td>
-		    </tr> 
-  		  <tr>
-		     <td align="center">2</td>
-		     <td align="left">承重构件有轻微锈蚀现象</td>
-			  <td align="left">承重构件钢筋锈蚀电位水平为- 200 ~ - 300mV，或电阻率15000 ~ 20000 Ω·cm</td>
-		    </tr>
-  		  <tr>
-		     <td align="center">3</td>
-		     <td align="left">承重构件钢筋发生锈蚀，混凝土表面有沿钢筋的裂缝或混凝土表面有锈迹</td>
-			  <td align="left">承重构件钢筋锈蚀电位水平为- 300 ~ - 400mV，或电阻率10000 ~ 15000 Ω·cm</td>
-		    </tr> 
-  		  <tr>
-		     <td align="center">4</td>
-		     <td align="left">承重构件钢筋锈蚀引起混凝土剥落，钢筋裸露。表面膨胀性锈层显著</td>
-			  <td align="left">承重构件钢筋锈蚀电位水平为- 400 ~ - 500mV，或电阻率5000 ~ 10000 Ω·cm</td>
-		    </tr> 
-        <tr>
-		     <td align="center">5</td>
-		     <td align="left">承重构件大量钢筋锈蚀引起混凝土剥落，部分钢筋屈服或锈断，混凝土表面严重开裂，影响结构安全</td>
-			  <td align="left">承重构件钢筋锈蚀电位水平为＜-500mV，或电阻率< 5000 Ω·cm</td>
-		    </tr>                          
-  		</table> 
-      <p> </p>
-
-  		<table id="biaoge" style="font-family:times new roman">
-
-         <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="B5.1.1-6">表5.1.1-6 混凝土碳化</b></caption>	
-              
 		    <tr>
-		      <td  align="center" width=60px rowspan="2" id="dhbg">标度</td>
-		      <td  align="center" width=840px>评定指标</td>
- 		    </tr> 
-        <tr> 
-         <!-- <td></td> -->       
-				 <td  align="center">定性描述</td>
+		     <td align="center" id="dhbg"><i>l</i><sub>0</sub>/2<i>r</i></td>
+             <td align="center" id="dhbg">26</td>
+             <td align="center" id="dhbg">28</td>
+             <td align="center" id="dhbg">29.5</td>
+		     <td align="center" id="dhbg">31</td>
+             <td align="center" id="dhbg">33</td>
+             <td align="center" id="dhbg">34.5</td>
+             <td align="center" id="dhbg">36.5</td>
+		     <td align="center" id="dhbg">38</td>
+             <td align="center" id="dhbg">40</td>
+             <td align="center" id="dhbg">41.5</td>
+             <td align="center" id="dhbg">43</td>
 		    </tr>
-  		  <tr>
-		     <td align="center">1</td>
-		     <td align="left">完好</td>
-		    </tr> 
-  		  <tr>
-		     <td align="center">2</td>
-		     <td align="left">承重构件有少量碳化现象，且所有碳化深度均小于混凝土保护层厚度</td>
-		    </tr>
-  		  <tr>
-		     <td align="center">3</td>
-		     <td align="left">承重构件的主要受力部位部分位置出现碳化现象，局部碳化深度大于混凝土保护层厚度，混凝土表面少量胶凝料松散粉化</td>
-		    </tr> 
-  		  <tr>
-		     <td align="center">4</td>
-		     <td align="left">承重构件的主要受力部位全部测点碳化且碳化深度大于混凝土保护层厚度，混凝土表面胶凝料大量松散粉化</td>
-		    </tr>                         
-  		</table> 
-      <p> </p> 
-
- 		<table id="biaoge" style="font-family:times new roman">
-
-         <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="B5.1.1-7">表5.1.1-7 混凝土强度</b></caption>	
-              
 		    <tr>
-		      <td  align="center" width=60px rowspan="2" id="dhbg">标度</td>
-		      <td  align="center"  colspan="2">评定指标</td>
-				  <!-- <td></td> -->
+		     <td align="center" id="dhbg"><i>l</i><sub>0</sub>/<i>i</i></td>
+             <td align="center" id="dhbg">104</td>
+             <td align="center" id="dhbg">111</td>
+             <td align="center" id="dhbg">118</td>
+		     <td align="center" id="dhbg">125</td>
+             <td align="center" id="dhbg">132</td>
+             <td align="center" id="dhbg">139</td>
+             <td align="center" id="dhbg">145</td>
+		     <td align="center" id="dhbg">153</td>
+             <td align="center" id="dhbg">160</td>
+             <td align="center" id="dhbg">167</td>
+             <td align="center" id="dhbg">174</td>
 		    </tr>
-  		  <tr>
-		     <!-- <td></td> -->
-		      <td align="center" width=360px>定性描述</td>
-				  <td align="center" width=480px>定量描述</td>
-		    </tr>
-  		  <tr>
-		     <td align="center">1</td>
-		     <td align="left">称重混凝土强度处于良好状态</td>
-			  <td align="left">承重构件混凝土推定强度均质系数<i>K</i><sub>bt</sub>≥0.95，平均强度均质系数<i>K</i><sub>bm</sub>≥1.00</td>
-		    </tr> 
-  		  <tr>
-		     <td align="center">2</td>
-		     <td align="left">承重构件混凝土强度处于较好状态</td>
-			  <td align="left">承重构件混凝土推定强度均质系数0.95＞<i>K</i><sub>bt</sub>≥0.90，平均强度均质系数<i>K</i><sub>bm</sub>≥0.95</td>
-		    </tr>
-  		  <tr>
-		     <td align="center">3</td>
-		     <td align="left">承重构件混凝土强度处于较差状态，造成承重构件出现缺损现象</td>
-			  <td align="left">承重构件混凝土推定强度均质系数0.90＞<i>K</i><sub>bt</sub>≥0.80，平均强度均质系数<i>K</i><sub>bm</sub>≥0.90</td>
-		    </tr> 
-  		  <tr>
-		     <td align="center">4</td>
-		     <td align="left">承重构件混凝土强度处于很差状态，造成承重构件出现较严重缺损或变形现象</td>
-			  <td align="left">承重构件混凝土推定强度均质系数0.80＞<i>K</i><sub>bt</sub>≥0.70，平均强度均质系数<i>K</i><sub>bm</sub>≥0.85</td>
-		    </tr> 
-        <tr>
-		     <td align="center">5</td>
-		     <td align="left">承重构件混凝土强度处于非常差状态，造成承重构件有严重的变形、位移、失稳等现象，显著影响承载力和行车安全</td>
-			  <td align="left">承重构件混凝土推定强度均质系数<i>K</i><sub>bt</sub>＜ 0.70，平均强度均质系数<i>K</i><sub>bm</sub>< 0.85</td>
-		    </tr>                          
-  		</table> 
-      <p> </p>
-
- 		<table id="biaoge" style="font-family:times new roman">
-
-         <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="B5.1.1-8">表5.1.1-8 跨中挠度</b></caption>	
-              
 		    <tr>
-		      <td  align="center" width=60px rowspan="2" id="dhbg">标度</td>
-		      <td  align="center"  colspan="2">评定指标</td>
-				  <!-- <td></td> -->
+		     <td align="center" id="dhbg"><i>φ</i></td>
+             <td align="center" id="dhbg">0.52</td>
+             <td align="center" id="dhbg">0.48</td>
+             <td align="center" id="dhbg">0.44</td>
+		     <td align="center" id="dhbg">0.40</td>
+             <td align="center" id="dhbg">0.36</td>
+             <td align="center" id="dhbg">0.32</td>
+             <td align="center" id="dhbg">0.29</td>
+		     <td align="center" id="dhbg">0.26</td>
+             <td align="center" id="dhbg">0.23</td>
+             <td align="center" id="dhbg">0.21</td>
+             <td align="center" id="dhbg">0.19</td>
 		    </tr>
-  		  <tr>
-		     <!-- <td></td> -->
-		      <td align="center" width=360px>定性描述</td>
-				  <td align="center" width=480px>定量描述</td>
-		    </tr>
-  		  <tr>
-		     <td align="center">1</td>
-		     <td align="left">完好</td>
-			  <td align="center">—</td>
-		    </tr> 
-  		  <tr>
-		     <td align="center">2</td>
-		     <td align="left">较好，梁体无明显变形</td>
-			  <td align="center">—</td>
-		    </tr>
-  		  <tr>
-		     <td align="center">3</td>
-		     <td align="left">出现明显下挠，挠度小于限值，或个别构件出现弯曲变形，行车稍感震动或摇晃</td>
-			  <td align="left">跨中最大挠度≤计算跨径的1/1000；<br>悬臂端最大挠度≤悬臂长度的1/500</td>
-		    </tr> 
-  		  <tr>
-		     <td align="center">4</td>
-		     <td align="left">出现显著下挠，挠度接近限值，或构件存在明显的永久变形，变形小于或等于规范值，梁板出现较严重病害</td>
-			  <td align="left">跨中最大挠度＞计算跨径的1/1000且≤计算跨径的1/600；<br>悬臂端最大挠度＞悬臂长度的1/500且≤悬臂长度的1/300</td>
-		    </tr> 
-        <tr>
-		     <td align="center">5</td>
-		     <td align="left">挠度或其他变形大于限值，造成结构出现明显的永久变形，梁板出现严重病害，显著影响承载能力和行车安全</td>
-			  <td align="left">跨中最大挠度＞计算跨径的1/600；<br>悬臂端最大挠度＞悬臂长度的1/300</td>
-		    </tr>                          
-  		</table> 
-      <p> </p>
-
-  		<table id="biaoge" style="font-family:times new roman">
-
-         <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="B5.1.1-9">表5.1.1-9 结构变位</b></caption>	
-              
-		    <tr>
-		      <td  align="center" width=60px rowspan="2" id="dhbg">标度</td>
-		      <td  align="center" width=840px>评定指标</td>
- 		    </tr> 
-        <tr> 
-         <!-- <td></td> -->       
-				 <td  align="center">定性描述</td>
-		    </tr>
-  		  <tr>
-		     <td align="center">1</td>
-		     <td align="left">完好</td>
-		    </tr> 
-  		  <tr>
-		     <td align="center">2</td>
-		     <td align="left">较好，结果无明显位移</td>
-		    </tr>
-  		  <tr>
-		     <td align="center">3</td>
-		     <td align="left">横向联结件松动，纵向接缝开裂较大</td>
-		    </tr> 
-  		  <tr>
-		     <td align="center">4</td>
-		     <td align="left">边梁有横移或外倾现象，行车振动或摇晃明显，有异常音</td>
-		    </tr>
-        <tr>
-		     <td align="center">5</td>
-		     <td align="left">构件有严重的横向位移，存在失稳现象，结构振动或摇晃显著</td>
-		    </tr>                           
-  		</table> 
-      <p> </p>
-
-  		<table id="biaoge" style="font-family:times new roman">
-
-         <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="B5.1.1-10">表5.1.1-10 预应力构件损伤</b></caption>	
-              
-		    <tr>
-		      <td  align="center" width=60px rowspan="2" id="dhbg">标度</td>
-		      <td  align="center" width=840px>评定指标</td>
- 		    </tr> 
-        <tr> 
-         <!-- <td></td> -->       
-				 <td  align="center">定性描述</td>
-		    </tr>
-  		  <tr>
-		     <td align="center">1</td>
-		     <td align="left">完好</td>
-		    </tr> 
-  		  <tr>
-		     <td align="center">2</td>
-		     <td align="left">锚头、钢铰线等无明显缺陷</td>
-		    </tr>
-  		  <tr>
-		     <td align="center">3</td>
-		     <td align="left">钢铰线祼露出现极个别断丝现象，或锚头出现开裂等现象，或齿板位置外出现部分裂缝，裂缝未超限</td>
-		    </tr> 
-  		  <tr>
-		     <td align="center">4</td>
-		     <td align="left">部分钢铰线断裂或失效，或锚头开裂较严重但未完成失效，或齿板位置处裂缝严重，裂缝超限</td>
-		    </tr>
-        <tr>
-		     <td align="center">5</td>
-		     <td align="left">预应力钢铰线大量断裂，预应力损耗严重，或锚头损坏失效，梁板出现严重变形</td>
-		    </tr>                           
-  		</table> 
-      <p> </p>
-
-       		<table id="biaoge" style="font-family:times new roman">
-
-         <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="B5.1.1-11">表5.1.1-11 简支梁（板）桥、刚架桥裂缝</b></caption>	
-              
-		    <tr>
-		      <td  align="center" width=60px rowspan="2" id="dhbg">标度</td>
-		      <td  align="center"  colspan="2">评定指标</td>
-				  <!-- <td></td> -->
-		    </tr>
-  		  <tr>
-		     <!-- <td></td> -->
-		      <td align="center" width=360px>定性描述</td>
-				  <td align="center" width=480px>定量描述</td>
-		    </tr>
-  		  <tr>
-		     <td align="center">1</td>
-		     <td align="left">完好</td>
-			  <td align="center">—</td>
-		    </tr> 
-  		  <tr>
-		     <td align="center">2</td>
-		     <td align="left">局部出现网状裂缝，或主梁出现少量轻微裂缝，缝宽未超限</td>
-			  <td align="left">网状裂缝累计面积≤构件面积的20%，单处面积≤1.0m²，或主梁裂缝缝长≤截面尺寸的1/3</td>
-		    </tr>
-  		  <tr>
-		     <td align="center">3</td>
-		     <td align="left">出现大面积网状裂缝，或主梁出现较多横向裂缝（钢筋混凝土梁、板），或顺主筋方向出现纵向裂缝，或出现斜裂缝、水平裂缝、竖向裂缝等，缝宽未超限</td>
-			  <td align="left">网状裂缝累计面积＞构件面积的20%，单处面积＞1.0m²，或主梁裂缝缝长＞截面尺寸的1/3且≤截面尺寸的2/3</td>
-		    </tr> 
-  		  <tr>
-		     <td align="center">4</td>
-		     <td align="left">主梁控制截面出现较多横向裂缝（钢筋混凝土梁、板），或顺主筋方向出现严重纵向裂缝并伴有钢筋锈蚀等，或出现斜裂缝、水平裂缝、竖向裂缝等，裂缝缝宽超限</td>
-			  <td align="left">主梁裂缝缝长>截面尺寸的2/3，间距< 20cm</td>
-		    </tr> 
-        <tr>
-		     <td align="center">5</td>
-		     <td align="left">主梁控制截面出现大量结构性裂缝，裂缝大多贯通，且缝宽超限，主梁出现变形</td>
-			  <td align="left">主梁裂缝缝宽＞1.0mm,间距≤10cm</td>
-		    </tr>                          
-  		</table> 
-      <p> </p>
-
- 		<table id="biaoge" style="font-family:times new roman">
-
-         <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="B5.1.1-12">表5.1.1-12 连续梁桥、连续刚构桥、悬臂梁桥和T形刚构桥裂缝</b></caption>	
-              
-		    <tr>
-		      <td  align="center" width=60px rowspan="2" id="dhbg">标度</td>
-		      <td  align="center"  colspan="2">评定指标</td>
-				  <!-- <td></td> -->
-		    </tr>
-  		  <tr>
-		     <!-- <td></td> -->
-		      <td align="center" width=360px>定性描述</td>
-				  <td align="center" width=480px>定量描述</td>
-		    </tr>
-  		  <tr>
-		     <td align="center">1</td>
-		     <td align="left">无裂缝</td>
-			  <td align="center">—</td>
-		    </tr> 
-  		  <tr>
-		     <td align="center">2</td>
-		     <td align="left">局部出现网状裂缝，或主梁出现少量轻微裂缝，缝宽未超限</td>
-			  <td align="left">网状裂缝累计面积≤构件面积的20%，单处面积≤1.0m²，或主梁裂缝缝长≤截面尺寸的1/3</td>
-		    </tr>
-  		  <tr>
-		     <td align="center">3</td>
-		     <td align="left">出现大面积网状裂缝，或主梁出现较多横向裂缝（钢筋混凝土梁），或顺主筋方向出现纵向裂缝，或出现斜裂缝、水平裂缝、竖向裂缝等，缝宽未超限</td>
-			  <td align="left">网状裂缝累计面积＞构件面积的20%，单处面积＞1.0m²，或主梁裂缝缝长＞截面尺寸的1/3且≤截面尺寸的1/2</td>
-		    </tr> 
-  		  <tr>
-		     <td align="center">4</td>
-		     <td align="left">主梁控制截面出现较多横向裂缝（钢筋混凝土梁），或顺主筋方向出现严重纵向裂缝并伴有钢筋锈蚀等，或出现斜裂缝、水平裂缝、竖向裂缝等，裂缝缝宽超限</td>
-			  <td align="left">主梁裂缝缝长＞截面尺寸的1/2，间距＜30cm</td>
-		    </tr> 
-        <tr>
-		     <td align="center">5</td>
-		     <td align="left">主梁控制截面出现大量结构性裂缝，裂缝大多贯通，且缝宽超限，主梁出现变形</td>
-			  <td align="left">主梁裂缝缝宽＞1.0mm,间距＜20cm</td>
-		    </tr>                          
-  		</table> 
-      <p> </p>
+		</table>
+ <p></p>
 
 
-5.2 钢梁桥
+   <p style="text-indent:2em;" ><font size="2">注：表中<i>l</i><sub>0</sub>为构件计算长度，按附录E的规定取值；<i>b</i>为矩形截面的短边尺寸；<i>r</i>为圆形截面的半径；<i>i</i>为截面最小回转半径。</font></p>
+ 
+
+
+ <p style="text-align:justify"><a href="#id5.3.2"> 5.3.2</a> <span id="id5.3.2">构件长细比<i>l</i><sub>0</sub>/<i>i</i>≤48的钢筋混凝土轴心受压构件，当配置螺旋式或焊接环式间接钢筋(<a href="#fig5.3.2">图 5.3.2</a>),且间接钢筋的换算截面面积<i>A</i><sub>so</sub>不小于全部纵向钢筋截面面积的25%间距不大于 80 mm或 <i>d</i><sub>cor</sub>/5时，其正截面抗压承载力应符合下列规定：</span></p>
+
+  <div align="center"><img id="fig5.3.2" src="./_static/fig/5.3.2.png" alt="Picture" width="500px"></div>
+  <p style="color: dimgray;text-align: center;">图 5.3.2  配置螺旋式间接钢筋的钢筋混凝土轴心受压构件</p>
+  <script type="text/javascript">var viewer = new Viewer(document.getElementById('fig5.3.2'));</script>
+
+
+$$\\gamma _{0}N_{\\mathrm{d}}\\leqslant 0.9(f_{\\mathrm{cd}}A_{\\mathrm{cor}}+f^{'}_{\\mathrm{sd}}A^{'}_{\\mathrm{s}}+kf_{\\mathrm{sd}}A_{\\mathrm{so}})\\tag{5.3.2-1}$$
+
+$$A_{\\mathrm{so}}=\\dfrac{\\pi d_{\\mathrm{cor}}A_{\\mathrm{so1}}}{S}\\tag{5.3.2-2}$$
+
+.. raw:: html
+
+ <table border="0" style="font-family:times new roman" id="gongshi">
+ <tr>
+ <td width="50px" align='center' id="eqzs">式中:</td>
+ <td width="50px" align='right' id="eqzs"><i>A</i><sub>cor</sub></td>
+ <td width="40px" align='left' id="eqzs">——</td>
+ <td id="eqzs">构件核心截面面积；</td>
+ </tr>
+ <tr>
+ <td align='center' id="eqzs"> </td>
+ <td align='right' id="eqzs"><i>A</i><sub>so</sub></td>
+ <td align='left' id="eqzs">——</td>
+ <td id="eqzs">间接钢筋的换算截面面积；</td>
+ </tr> 
+  <tr>
+ <td align='center' id="eqzs"> </td>
+ <td align='right' id="eqzs"><i>d</i><sub>cor</sub></td>
+ <td align='left' id="eqzs">——</td>
+ <td id="eqzs">构件核心截面的直径；</td>
+ </tr> 
+  <tr>
+ <td align='center' id="eqzs"> </td>
+ <td align='right' id="eqzs"><i>k</i></td>
+ <td align='left' id="eqzs">——</td>
+ <td id="eqzs">间接钢筋影响系数，混凝土强度等级 C50及以下时，取 <i>k</i>=2.0;C50~C80取 <i>k</i>=2.0~1.7,中间值直线插入取用；</td>
+ </tr> 
+ <tr>
+ <td align='center' id="eqzs"> </td>
+ <td align='right' id="eqzs"><i>A</i><sub>so1</sub></td>
+ <td align='left' id="eqzs">——</td>
+ <td id="eqzs">单根间接钢筋的截面面积；</td>
+ </tr> 
+ <tr>
+ <td align='center' id="eqzs"> </td>
+ <td align='right' id="eqzs"><i>S</i></td>
+ <td align='left' id="eqzs">——</td>
+ <td id="eqzs">沿构件轴线方向间接钢筋的螺距或间距。</td>
+ </tr>  
+ </table>
+ <p></p>   
+ <p style="text-align:justify;text-indent:2em;" > 当间接钢筋的换算截面面积、间距及构件长细比不符合本条要求，或按公式(5.3.2-1)算得的抗压承载力小于按公式(5.3.1)算得的抗压承载力时，不应考虑间接钢筋的套箍作用，正截面抗压承载力应按第5.3.1条的规定计算。</p>
+ <p style="text-align:justify;text-indent:2em;" > 按公式(5.3.2-1)计算的抗压承载力设计值不应大于按公式(5.3.1)计算的抗压承载力设计值的1.5倍。</p>
+
+ <p style="text-align:justify"><a href="#id5.3.3"> 5.3.3</a> <span id="id5.3.3">偏心受压构件应以相对界限受压区高度<i>ζ</i><sub>b</sub>作为判别大小偏心受压的条件，<i>ζ</i><sub>b</sub>应按以下规定确定：</span></p>
+ <ol>
+ <li>钢筋混凝土偏心受压构件，其<i>ζ</i><sub>b</sub>值可按<a href="#B5.2.1">表5.2.1</a>取用；</li>
+ <li>预应力混凝土偏心受压构件，其<i>ζ</i><sub>b</sub>值按下列公式计算:</li>
+ </ol>
+ <p style="text-align:justify;text-indent:2em;" > 1)对预应力螺纹钢筋</p>
+
+$$\\xi_{\\mathrm{b}}=\\dfrac{\\beta}{1+\\dfrac{f_{\\mathrm{pd}}-\\sigma _{\\mathrm{p0}}}{E_{\\mathrm{p}}\\varepsilon_{\\mathrm{cu}}}}\\tag{5.3.3-1}$$
+
+.. raw:: html 
+
+ <p style="text-align:justify;text-indent:2em;" > 2)对钢丝和钢绞线</p>
+
+$$\\xi_{\\mathrm{b}}=\\dfrac{\\beta}{1+\\dfrac{0.002}{\\varepsilon_{\\mathrm{cu}}}+\\dfrac{f_{\\mathrm{pd}}-\\sigma _{\\mathrm{p0}}}{E_{\\mathrm{p}}\\varepsilon_{\\mathrm{cu}}}}\\tag{5.3.3-2}$$
+
+.. raw:: html
+
+ <table border="0" style="font-family:times new roman" id="gongshi">
+ <tr>
+ <td width="50px" align='center' id="eqzs">式中:</td>
+ <td width="50px" align='right' id="eqzs"><i>β</i></td>
+ <td width="40px" align='left' id="eqzs">——</td>
+ <td id="eqzs">面受压区矩形应力图高度与实际受压区高度的比值，按<a href="#B5.1.4">表5.1.4</a>取用；</td>
+ </tr>
+ <tr>
+ <td align='center' id="eqzs"> </td>
+ <td align='right' id="eqzs"><i>σ</i><sub>p0</sub></td>
+ <td align='left' id="eqzs">——</td>
+ <td id="eqzs">截面受拉区纵向预应力钢筋合力点处混凝土法向应力等于零时，预应力钢筋中的应力，按公式(6.1.6-2)或公式(6.1.6-5)计算；</td>
+ </tr> 
+  <tr>
+ <td align='center' id="eqzs"> </td>
+ <td align='right' id="eqzs"><i>ε</i><sub>cu</sub></td>
+ <td align='left' id="eqzs">——</td>
+ <td id="eqzs">截面非均匀受压时混凝土的极限压应变，当混凝土强度等级为C50及以下时，取<i>ε</i><sub>cu</sub>=0.0033;当混凝土强度等级为C80时，取<i>ε</i><sub>cu</sub>=0.003;中间强度等级用直线插入求得；</td>
+ </tr> 
+  <tr>
+ <td align='center' id="eqzs"> </td>
+ <td align='right' id="eqzs"><i>f</i><sub>pd</sub></td>
+ <td align='left' id="eqzs">——</td>
+ <td id="eqzs">纵向预应力钢筋的抗拉强度设计值；</td>
+ </tr> 
+ <tr>
+ <td align='center' id="eqzs"> </td>
+ <td align='right' id="eqzs"><i>E</i><sub>p</sub></td>
+ <td align='left' id="eqzs">——</td>
+ <td id="eqzs">预应力钢筋的弹性模量。</td>
+ </tr> 
+ </table>
+ <p></p>  
+
+ <p style="text-align:justify"><a href="#id5.3.4"> 5.3.4</a> <span id="id5.3.4">矩形截面偏心受压构件的正截面抗压承载力应符合下列规定(<a href="#fig5.3.4">图 5.3.4</a>):</span></p>
+
+$$\\gamma_{0}N_{\\mathrm{d}}\\leqslant f_{\\mathrm{cd}}bx+f^{'}_{\\mathrm{sd}}A^{'}_{\\mathrm{s}}+(f^{'}_{\\mathrm{pd}}-\\sigma ^{'}_{\\mathrm{p0}})A^{'}_{\\mathrm{p}}-\\sigma_{\\mathrm{s}}A_{\\mathrm{s}}-\\sigma_{\\mathrm{p}}A_{\\mathrm{p}}\\tag{5.3.4-1}$$
+$$\\small{\\gamma_{0}N_{\\mathrm{d}}e\\leqslant f_{\\mathrm{cd}}bx(h_{0}-\\dfrac{x}{2})+f^{'}_{\\mathrm{sd}}A^{'}_{\\mathrm{s}}(h_{0}-\\alpha ^{'}_{\\mathrm{s}})+(f^{'}_{\\mathrm{pd}}-\\sigma ^{'}_{\\mathrm{p0}})A^{'}_{\\mathrm{p}}(h_{0}-\\alpha ^{'}_{\\mathrm{p}})}\\tag{5.3.4-2}$$
+$$e=\\eta e_{0}+\\dfrac{h}{2}-\\alpha \\tag{5.3.4-3}$$
+
+.. raw:: html
+
+
+  <div align="center"><img id="fig5.3.4" src="./_static/fig/5.3.4.png" alt="Picture" width="500px"></div>
+  <p style="color: dimgray;text-align: center;">图 5.3.4  矩形截面偏心受压构件正截面抗压承载力计算</p>
+  <script type="text/javascript">var viewer = new Viewer(document.getElementById('fig5.3.4'));</script>
+
+ <table border="0" style="font-family:times new roman" id="gongshi">
+ <tr>
+ <td width="50px" align='center' id="eqzs">式中:</td>
+ <td width="50px" align='right' id="eqzs"><i>e</i></td>
+ <td width="40px" align='left' id="eqzs">——</td>
+ <td id="eqzs">轴向力作用点至截面受拉边或受压较小边纵向钢筋<i>A</i><sub>s</sub>和<i>A</i><sub>p</sub>合力点的距离；</td>
+ </tr>
+ <tr>
+ <td align='center' id="eqzs"> </td>
+ <td align='right' id="eqzs"><i>e</i><sub>0</sub></td>
+ <td align='left' id="eqzs">——</td>
+ <td id="eqzs">轴向力对截面重心轴的偏心距，<i>e</i><sub>0</sub>=<i>M</i><sub>d</sub>/<i>N</i><sub>d</sub>;</td>
+ </tr> 
+  <tr>
+ <td align='center' id="eqzs"> </td>
+ <td align='right' id="eqzs"><i>M</i><sub>d</sub></td>
+ <td align='left' id="eqzs">——</td>
+ <td id="eqzs">相应于轴向力的弯矩设计值；</td>
+ </tr> 
+  <tr>
+ <td align='center' id="eqzs"> </td>
+ <td align='right' id="eqzs"><i>h</i><sub>0</sub></td>
+ <td align='left' id="eqzs">——</td>
+ <td id="eqzs">截面受压较大边边缘至受拉边或受压较小边纵向钢筋合力点的距离，<i>h</i><sub>0</sub>=<i>h</i>-<i>α</i>;</td>
+ </tr> 
+ <tr>
+ <td align='center' id="eqzs"> </td>
+ <td align='right' id="eqzs"><i>η</i></td>
+ <td align='left' id="eqzs">——</td>
+ <td id="eqzs">偏心受压构件轴向力偏心距增大系数，按<a href="https://jtg-3362.readthedocs.io/zh/latest/5.html#id5.3.9">第5.3.9条</a>的规定计算。</td>
+ </tr> 
+ </table>
+ <p></p>  
+ <p style="text-align:justify;text-indent:2em;" > 截面受拉边或受压较小边纵向钢筋的应力<i>σ</i><sub>s</sub>和<i>σ</i><sub>p</sub>应按下列情况采用：</p>
+ <p style="text-align:justify;text-indent:2em;" > 当<i>ξ</i>≤<i>ξ</i><sub>b</sub>点时为大偏心受压构件，取 <i>σ</i><sub>s</sub>=<i>f</i><sub>sd</sub>,<i>σ</i><sub>p</sub>=<i>f</i><sub>pd</sub>,此处，相对受压区高度<i>ξ</i>=<i>x</i>/<i>h</i><sub>0</sub>;</p>
+ <p style="text-align:justify;text-indent:2em;" > 当<i>ξ</i>>5时为小偏心受压构件，<i>σ</i><sub>s</sub>和<i>σ</i><sub>p</sub>按<a href="https://jtg-3362.readthedocs.io/zh/latest/5.html#id5.1.5">第5.1.5条</a>的规定计算。</p>
+ <p style="text-align:justify;text-indent:2em;" > 在承载力计算中，若考虑截面受压较大边的纵向受压钢筋时，受压区高度应符合公式(5.2.2-4)、(5.2.2-5)的要求。</p>   
+ <p style="text-align:justify;text-indent:2em;" > 对小偏心受压构件，当轴向力作用在纵向钢筋<i>A '</i><sub>s</sub>和<i>A '</i><sub>p</sub>合力点与<i>A '</i><sub>s</sub>和<i>A '</i><sub>p</sub>合力点之间时，抗压承载力计算尚应符合下列规定：</p> 
+
+$${\\small \\gamma_{0}N_{\\mathrm{d}}e^{'}\\leqslant f_{\\mathrm{cd}}bh(h^{'}_{0}-\\dfrac{h}{2})+f^{'}_{\\mathrm{sd}}A_{\\mathrm{s}}(h^{'}_{0}-\\alpha_{\\mathrm{s}})+(f^{'}_{\\mathrm{pd}}-\\sigma_{\\mathrm{p0}})A_{\\mathrm{p}}(h^{'}_{0}-\\alpha_{\\mathrm{p}})} \\tag{5.3.4-4}$$
+
+$$e^{'}=\\dfrac{h}{2}-e_{0}-\\alpha ^{'}\\tag{5.3.4-5}$$
+
+.. raw:: html
+
+ <table border="0" style="font-family:times new roman" id="gongshi">
+ <tr>
+ <td width="50px" align='center' id="eqzs">式中:</td>
+ <td width="50px" align='right' id="eqzs"><i>e '</i></td>
+ <td width="40px" align='left' id="eqzs">——</td>
+ <td id="eqzs">轴向力作用点至截面受压较大边纵向钢筋<i>A '</i><sub>s</sub>和<i>A '</i><sub>p</sub>合力点的距离,计算时偏心距<i>e</i><sub>0</sub>可不考虑增大系数<i>η</i>;</td>
+ </tr>
+ <tr>
+ <td align='center' id="eqzs"> </td>
+ <td align='right' id="eqzs"><i>h '</i><sub>0</sub></td>
+ <td align='left' id="eqzs">——</td>
+ <td id="eqzs">截面受压较小边边缘至受压较大边纵向钢筋合力点的距离，<i>h '</i><sub>0</sub>=<i>h </i>-<i>α'</i>。</td>
+ </tr> 
+  </table>
+ <p></p>  
+ <p style="text-align:justify;text-indent:2em;" > 矩形截面对称配筋的钢筋混凝土小偏心受压构件，其钢筋截面面积也可按下列公式计算：</p> 
+
+$$A_{\\mathrm{s}}=A^{'}_{\\mathrm{s}}=\\dfrac{\\gamma _{0}N_{\\mathrm{d}}e-\\xi(1-0.5\\xi)f_{\\mathrm{cd} }bh^{2}_{0}}{f^{'}_{\\mathrm{sd}}(h_{0}-\\alpha _{\\mathrm{s}})}\\tag{5.3.4-6}$$
+
+.. raw:: html
+
+ <p style="text-align:justify;text-indent:2em;" > 式中相对受压区高度ξ可按下列公式计算：</p> 
+
+$$\\xi=\\dfrac{\\gamma _{0}N_{\\mathrm{d}}-\\xi_{\\mathrm{b} }f_{\\mathrm{cd} }bh_{0}}{\\dfrac{\\gamma _{0}N_{\\mathrm{d}}e-0.43f_{\\mathrm{cd} }bh^{2}_{0}}{(\\beta-\\xi_{\\mathrm{b} })(h_{0}-\\alpha^{'}_{\\mathrm{s}})}+f_{\\mathrm{cd} }bh_{0}}+\\xi_{\\mathrm{b} }\\tag{5.3.4-7}$$
+
+.. raw:: html
+
+ <p style="text-align:justify;text-indent:2em;" > 注：小偏心受压构件当计算的截面受压区高度<i>x</i> > <i>h</i>时，计算构件承载力取<i>h</i>,但计算钢筋应力<i>σ</i><sub>s</sub>和<i>σ</i><sub>p</sub>时仍用计算所得的<i>x</i>。</p> 
+
+
+ <p style="text-align:justify"><a href="#id5.3.5"> 5.3.5</a> <span id="id5.3.5">翼缘位于截面受压较大边的T形截面或I形截面偏心受压构件，其正截面抗压承载力应按下列规定计算：</span></p>
+
+ <ol>
+  <li>当受压区高度<i>x</i>≤<i>h '</i><sub>f</sub>时，应按宽度为<i>b '</i><sub>f</sub>的矩形截面计算；</li>
+  <li>当受压区高度<i>x</i> > <i>h</i>时，则应按下列公式计算(<a href="#fig5.3.5">图 5.3.5</a>):</li>
+ </ol>
+  
+  <div align="center"><img id="fig5.3.5" src="./_static/fig/5.3.5.png" alt="Picture" width="500px"></div>
+  <p style="color: dimgray;text-align: center;">图 5.3.5  T形截面偏心受压构件正截面抗压承载力计算</p>
+  <script type="text/javascript">var viewer = new Viewer(document.getElementById('fig5.3.5'));</script>
+
+$${\\scriptsize \\gamma _{0}N_{\\mathrm{d}}e\\leqslant f_{\\mathrm{cd}}[bx+(b^{'}_{\\mathrm{f}}-b)h^{'}_{\\mathrm{f}}]+f^{'}_{\\mathrm{sd}}A^{'}_{\\mathrm{s}}+(f^{'}_{\\mathrm{pd}}-\\sigma ^{'}_{\\mathrm{p0}})A^{'}_{\\mathrm{p}}-\\sigma _{\\mathrm{s}}A _{\\mathrm{s}}-\\sigma _{\\mathrm{p}}A _{\\mathrm{p}}} \\tag{5.3.5-1}$$
+
+$${\\scriptsize \\gamma _{0}N_{\\mathrm{d}}e\\leqslant f_{\\mathrm{cd}}\\left[bx(h_{0}-\\dfrac{x}{2})+(b^{'}_{\\mathrm{f}}-b)h^{'}_{\\mathrm{f}}(h_{0}-\\dfrac{h^{'}_{\\mathrm{f} }}{2})\\right ]+f^{'}_{\\mathrm{sd}}A^{'}_{\\mathrm{s}}(h_{0}-\\alpha ^{'}_{\\mathrm{s}})+(f^{'}_{\\mathrm{pd}}-\\sigma ^{'}_{\\mathrm{p0}})A^{'}_{\\mathrm{p}}(h_{0}-\\alpha ^{'}_{\\mathrm{p}})} \\tag{5.3.5-2}$$
+
+.. raw:: html
+
+ <p style="text-align:justify;text-indent:2em;" > 截面受拉边或受压较小边纵向钢筋的应力<i>σ</i><sub>s</sub>和<i>σ</i><sub>p</sub>的确定，以及考虑截面受压较大边受压钢筋时，受压区高度<i>x</i>应符合的条件，均应按<a href="https://jtg-3362.readthedocs.io/zh/latest/5.html#id5.3.4">第5.3.4条</a>的规定办理。</p> 
+ <p style="text-align:justify;text-indent:2em;" > 翼缘位于截面受拉边或受压较小边的T形截面和I形截面构件，当<i>x</i>><i>h</i>-<i>h</i><sub>f</sub>时，其正截面抗压承载力计算应考虑翼缘受压部分的作用。</p> 
+ <p style="text-align:justify;text-indent:2em;" > 对翼缘位于截面受压较大边的T形截面小偏心受压构件，当轴向力作用在纵向钢筋<i>A '</i><sub>s</sub>和<i>A '</i><sub>p</sub>合力点与<i>A</i><sub>s</sub>和<i>A</i><sub>p</sub>合力点之间时，尚应按下列规定进行计算：</p> 
+
+$${\\scriptsize \\gamma _{0}N_{\\mathrm{d}}e^{'}\\leqslant f_{\\mathrm{cd}}\\left[bh(h^{'}_{0}-\\dfrac{h}{2})+(b^{'}_{\\mathrm{f}}-b)h^{'}_{\\mathrm{f}}(\\dfrac{h^{'}_{\\mathrm{f}}}{2}-\\alpha ^{'})\\right ]+f^{'}_{\\mathrm{sd}}A^{'}_{\\mathrm{s}}(h ^{'}_{0}-\\alpha_{\\mathrm{s}})+(f^{'}_{\\mathrm{pd}}-\\sigma_{\\mathrm{p0}})A_{\\mathrm{p}}(h^{'}_{0}-\\alpha_{\\mathrm{p}})} \\tag{5.3.5-3}$$
+
+.. raw:: html
+
+ <p style="text-align:justify;text-indent:2em;" > 对翼缘位于截面受压较小边的T形截面小偏心受压构件，尚应按下列规定计算：</p> 
+
+$${\\scriptsize \\gamma _{0}N_{\\mathrm{d}}e^{'}\\leqslant f_{\\mathrm{cd}}\\left[bh(h^{'}_{0}-\\dfrac{h}{2})+(b_{\\mathrm{f}}-b)h_{\\mathrm{f}}(h^{'}_{0}-\\dfrac{h_{f}}{2})\\right ]+f^{'}_{\\mathrm{sd}}A_{\\mathrm{s}}(h ^{'}_{0}-\\alpha_{\\mathrm{s}})+(f^{'}_{\\mathrm{pd}}-\\sigma_{\\mathrm{p0}})A_{\\mathrm{p}}(h^{'}_{0}-\\alpha_{\\mathrm{p}})} \\tag{5.3.5-4}$$
+
+.. raw:: html
+
+ <table border="0" style="font-family:times new roman" id="gongshi">
+ <tr>
+ <td width="50px" align='center' id="eqzs">式中:</td>
+ <td width="50px" align='right' id="eqzs"><i>b</i><sub>f</sub></td>
+ <td width="40px" align='left' id="eqzs">——</td>
+ <td id="eqzs">位于截面受压较小边的翼缘宽度；</td>
+ </tr>
+ <tr>
+ <td align='center' id="eqzs"> </td>
+ <td align='right' id="eqzs"><i>h</i><sub>f</sub></td>
+ <td align='left' id="eqzs">——</td>
+ <td id="eqzs">位于截面受压较小边的翼缘厚度。</td>
+ </tr> 
+  </table>
+ <p></p> 
+
+
+ <p style="text-align:justify"><a href="#id5.3.6"> 5.3.6</a> <span id="id5.3.6">在偏心受压构件正截面抗压承载力计算中，当考虑截面受压较大边的纵向受压钢筋，但受压区高度又不符合公式(5.2.2-4)或(5.2.2-5)的要求时，其正截面抗压承载力可按公式(5.2.4-1)、(5.2.4-2)计算，此时，上述公式中的<i>M</i><sub>d</sub>应分别以<i>N</i><sub>d</sub><i>e '</i>、<i>N</i><sub>d</sub><i>e '</i><sub>s</sub>代替，计算时应考虑偏心距增大系数<i>η</i>。</span></p>
+
+ <p style="text-align:justify"><a href="#id5.3.7"> 5.3.7</a> <span id="id5.3.7">沿截面腹部均匀配置纵向普通钢筋且每排不少于4根的矩形、T形和I形截面钢筋混凝土偏心受压构件(<a href="#fig5.3.7">图 5.3.7</a>),其正截面抗压承载力的计算应符合下列规定：</span></p>
+
+
+$${\\small \\gamma _{0}N_{\\mathrm{d}}e\\leqslant f_{\\mathrm{cd}}\\left [ \\xi bh_{0}+(b^{'}_{\\mathrm{f}}-b)h^{'}_{\\mathrm{f}}\\right ] +f^{'}_{\\mathrm{sd}}A^{'}_{\\mathrm{s}}-\\sigma _{\\mathrm{s} }A_{\\mathrm{s} }+N_{\\mathrm{sw}}} \\tag{5.3.7-1}$$
+
+$${\\small \\gamma _{0}N_{\\mathrm{d}}e\\leqslant f_{\\mathrm{cd}}\\left [ \\xi(1-0.5\\xi)bh^{2}_{0}+(b^{'}_{\\mathrm{f}}-b)h^{'}_{\\mathrm{f}}(h_{0}-\\dfrac{h^{'}_{\\mathrm{f}}}{2})\\right ] +f^{'}_{\\mathrm{sd}}A^{'}_{\\mathrm{s}}(h_{0}-\\alpha ^{'}_{s})+M_{\\mathrm{sw} }} \\tag{5.3.7-2}$$
+
+$$N_{\\mathrm{sw}}=\\left (1+\\dfrac{\\xi-\\beta}{0.5\\beta \\omega} \\right )f_{\\mathrm{sw}}A_{\\mathrm{sw}}\\tag{5.3.7-3}$$
+
+$$M_{\\mathrm{sw}}=\\left [ 0.5-\\left ( \\dfrac{\\xi-\\beta}{\\beta \\omega} \\right ) ^{2} \\right ] f_{\\mathrm{sw}}A_{\\mathrm{sw}}h_{\\mathrm{sw}}\\tag{5.3.7-4}$$
+
+.. raw:: html
+
+  <div align="center"><img id="fig5.3.7" src="./_static/fig/5.3.7.png" alt="Picture" width="200px"></div>
+  <p style="color: dimgray;text-align: center;">图 5.3.7 沿截面腹部均匀配筋的I形截面偏心受压构件正截面抗压承载力计算</p>
+  <script type="text/javascript">var viewer = new Viewer(document.getElementById('fig5.3.7'));</script>
+ <table border="0" style="font-family:times new roman" id="gongshi">
+ <tr>
+ <td width="50px" align='center' id="eqzs">式中:</td>
+ <td width="50px" align='right' id="eqzs"><i>A</i><sub>sw</sub></td>
+ <td width="40px" align='left' id="eqzs">——</td>
+ <td id="eqzs">沿截面腹部均匀配置的全部纵向钢筋截面面积；</td>
+ </tr>
+ <tr>
+ <td align='center' id="eqzs"> </td>
+ <td align='right' id="eqzs"><i>f</i><sub>sw</sub></td>
+ <td align='left' id="eqzs">——</td>
+ <td id="eqzs">沿截面腹部均匀配置的纵向钢筋强度设计值；</td>
+ </tr> 
+ <tr>
+ <td align='center' id="eqzs"> </td>
+ <td align='right' id="eqzs"><i>N</i><sub>sw</sub></td>
+ <td align='left' id="eqzs">——</td>
+ <td id="eqzs">沿截面腹部均匀配置的纵向钢筋所承担的轴向力，当<math xmlns="http://www.w3.org/1998/Math/MathML" ><mi>ξ</mi><mo>=</mo><mstyle displaystyle="true" scriptlevel="0"><mfrac><mi>x</mi><msub><mi>h</mi><mrow><mn>0</mn></mrow></msub></mfrac></mstyle><mo>&gt;</mo><mi>β</mi></math>时，取<i>N</i><sub>sw</sub>=<i>f</i><sub>sw</sub><i>A</i><sub>sw</sub>;</td>
+ </tr> 
+ <tr>
+ <td align='center' id="eqzs"> </td>
+ <td align='right' id="eqzs"><i>M</i><sub>sw</sub></td>
+ <td align='left' id="eqzs">——</td>
+ <td id="eqzs">沿截面腹部均匀配置的纵向钢筋的内力对截面受拉边或受压较小边纵向钢筋<i>A</i><sub>s</sub>重心的力矩，当<i>ξ</i>><i>β</i>时，取<i>M</i><sub>sw</sub>=0.5<i>f</i><sub>sw</sub><i>A</i><sub>sw</sub><i>h</i><sub>sw</sub>;</td>
+ </tr> 
+ <tr>
+ <td align='center' id="eqzs"> </td>
+ <td align='right' id="eqzs"><i>h</i><sub>sw</sub></td>
+ <td align='left' id="eqzs">——</td>
+ <td id="eqzs">沿截面腹部均匀配置的纵向钢筋区段的高度，取 <i>h</i><sub>sw</sub>=<i>h</i><sub>0</sub>-<i>a '</i><sub>s</sub>;</td>
+ </tr> 
+ <tr>
+ <td align='center' id="eqzs"> </td>
+ <td align='right' id="eqzs"><i>ω</i></td>
+ <td align='left' id="eqzs">——</td>
+ <td id="eqzs">沿截面腹部均匀配筋区段的高度与截面有效高度的比值，<i>ω</i>=<i>h</i><sub>sw</sub>/<i>h</i><sub>0</sub>。</td>
+ </tr> 
+  </table>
+ <p></p> 
+
+ <p style="text-align:justify;text-indent:2em;" > 在公式(5.3.7-1)中，截面受拉边或受压较小边的钢筋应力<i>σ</i><sub>s</sub>,当<i>ξ</i>≤<i>ξ</i><sub>b</sub>时，取<i>σ</i><sub>s</sub>=<i>f</i><sub>sd</sub>;当<i>ξ</i>><i>ξ</i><sub>b</sub>时，按公式(5.1.5-1)计算。</p>
+ <p style="text-align:justify;text-indent:2em;" > 在计算中当考虑截面受压较大边的受压钢筋<i>A '</i><sub>s</sub>时，受压区高度应符合<i>X</i>≥2<i>α '</i><sub>s</sub>的要求；当不符合时，正截面抗压承载力的计算应符合下列规定：</p>
+
+$$\\gamma _{0}N_{\\mathrm{d} }e^{'}\\leqslant f_{\\mathrm{sd} }A_{\\mathrm{s} }(h_{0}-\\alpha ^{'}_{\\mathrm{s} })M^{'}_{\\mathrm{sw}}\\tag{5.3.7-5}$$
+
+$$M^{'}_{\\mathrm{sw}}=0.5f_{\\mathrm{sw}}A_{\\mathrm{sw}}h_{\\mathrm{sw}}\\tag{5.3.7-6}$$
+
+.. raw:: html
+
+ <p style="text-align:justify;text-indent:2em;" > 对T形和I形截面的偏心受压构件，当<i>x</i>≤<i>h '</i><sub>f</sub>时，应按宽度为<i>b '</i><sub>f</sub>的矩形截面计算。对I形截面，当<i>x</i>><i>hx</i>-<i>h</i><sub>f</sub>时，应考虑位于受压较小边翼缘受压部分的作用。</p>
+ <p style="text-align:justify;text-indent:2em;" > 注：当计算的<i>ξ</i>><i>h</i>/<i>h</i><sub>0</sub>时，本条各式中的<i>ξ</i>均取<i>ξ</i>=<i>h</i>/<i>h</i><sub>0</sub>;但计算钢筋<i>A</i><sub>s</sub>的应力时，仍采用计算所得的<i>ξ</i>。</p>
+
+ <p style="text-align:justify"><a href="#id5.3.8"> 5.3.8</a> <span id="id5.3.8">沿周边均匀配置纵向钢筋的圆形截面钢筋混凝土偏心受压构件(<a href="#fig5.3.8">图 5.3.8</a>),其正截面抗压承载力计算应符合下列规定：</span></p>
+
+  <div align="center"><img id="fig5.3.8" src="./_static/fig/5.3.8.png" alt="Picture" width="200px"></div>
+  <p style="color: dimgray;text-align: center;">图 5.3.8 沿周边均匀配筋的圆形截面</p>
+  <script type="text/javascript">var viewer = new Viewer(document.getElementById('fig5.3.8'));</script>
+
+$$ \\tag{5.3.8-1}$$
+
+$$ \\tag{5.3.8-2}$$
+
+$$ \\tag{5.3.8-3}$$
+
+.. raw:: html
+
+ <table border="0" style="font-family:times new roman" id="gongshi">
+ <tr>
+ <td width="50px" align='center' id="eqzs">式中:</td>
+ <td width="50px" align='right' id="eqzs"><i>A</i></td>
+ <td width="40px" align='left' id="eqzs">——</td>
+ <td id="eqzs">圆形截面面积；</td>
+ </tr>
+ <tr>
+ <td align='center' id="eqzs"> </td>
+ <td align='right' id="eqzs"><i>A</i><sub>s</sub></td>
+ <td align='left' id="eqzs">——</td>
+ <td id="eqzs">全部纵向普通钢筋截面面积；</td>
+ </tr> 
+ <tr>
+ <td align='right' id="eqzs" colspan="2"><i>N</i><sub>ud</sub>、<i>M</i><sub>ud</sub> </td>
+  <!-- <td></td> -->
+ <td align='left' id="eqzs">——</td>
+ <td id="eqzs">正截面抗压、抗弯承载力设计值；</td>
+ </tr> 
+ <tr>
+ <td align='center' id="eqzs"> </td>
+ <td align='right' id="eqzs"><i>r</i></td>
+ <td align='left' id="eqzs">——</td>
+ <td id="eqzs">圆形截面的半径；</td>
+ </tr> 
+ <tr>
+ <td align='center' id="eqzs"> </td>
+ <td align='right' id="eqzs"><i>r</i><sub>s</sub></td>
+ <td align='left' id="eqzs">——</td>
+ <td id="eqzs">纵向普通钢筋重心所在圆周的半径；</td>
+ </tr> 
+ <tr>
+ <td align='center' id="eqzs"> </td>
+ <td align='right' id="eqzs"><i>e</i><sub>0</sub></td>
+ <td align='left' id="eqzs">——</td>
+ <td id="eqzs">向力对截面重心的偏心距；</td>
+ </tr>  
+ <tr>
+ <td align='center' id="eqzs"> </td>
+ <td align='right' id="eqzs"><i>α</i></td>
+ <td align='left' id="eqzs">——</td>
+ <td id="eqzs">沿对应于受压区混凝土截面面积的圆心角(rad)与2π的比值；</td>
+ </tr> 
+ <tr>
+ <td align='center' id="eqzs"> </td>
+ <td align='right' id="eqzs"><i>α</i><sub>t</sub></td>
+ <td align='left' id="eqzs">——</td>
+ <td id="eqzs">纵向受拉普通钢筋截面面积与全部纵向普通钢筋截面面积的比值，当<i>α</i>大于0.625时，取<i>α</i><sub>t</sub>为0。</td>
+ </tr>  
+  </table>
+ <p></p> 
+
+
+ <p style="text-align:justify;text-indent:2em;" > 注：本条适用于截面内纵向普通钢筋数量不少于8根的情况。</p>
+ <p style="text-align:justify;text-indent:2em;" > 当混凝土强度等级在 C30～C50、纵向钢筋配筋率在 0.5%~4%间时，沿周边均匀配置纵向钢筋的圆形截面钢筋混凝土偏心受压构件正截面抗压承载力可按<a href="https://jtg-3362.readthedocs.io/zh/latest/FLF.html">附录F</a>确定。</p>
+ <p style="text-align:justify"><a href="#id5.3.9"> 5.3.9</a> <span id="id5.3.9"> 对长细比 <i>l</i><sub>0</sub>/<i>i</i> >17.5的构件，应考虑偏心受压构件的轴向力承载能力极限状态偏心距增大系数 <i>η</i>。矩形、T 形、I形和圆形截面偏心受压构件的承载能力极限状态偏心距增大系数可按下列公式计算：</span></p>
+
+$$\\eta=1+\\dfrac{1}{1300e_{0}/h_{0}}\\left ( \\dfrac{l_{0}}{h} \\right ) ^{2}\\xi_{1}\\xi_{2}\\tag{5.3.9-1}$$
+
+$$\\xi_{1}=0.2+2.7\\dfrac{e_{0}}{h_{0}}\\leqslant 1.0\\tag{5.3.9-2}$$
+
+$$\\xi_{2}=1.15-0.01\\dfrac{l_{0}}{h}\\leqslant 1.0\\tag{5.3.9-3}$$
+
+.. raw:: html
+
+ <table border="0" style="font-family:times new roman" id="gongshi">
+ <tr>
+ <td width="50px" align='center' id="eqzs">式中:</td>
+ <td width="50px" align='right' id="eqzs"><i>l</i><sub>0</sub></td>
+ <td width="40px" align='left' id="eqzs">——</td>
+ <td id="eqzs">构件的计算长度，按<a href="https://jtg-3362.readthedocs.io/zh/latest/FLE.html">附录E</a>确定；</td>
+ </tr>
+ <tr>
+ <td align='center' id="eqzs"> </td>
+ <td align='right' id="eqzs"><i>e</i><sub>0</sub></td>
+ <td align='left' id="eqzs">——</td>
+ <td id="eqzs">轴向力对截面重心轴的偏心矩，不小于20 mm和偏压方向截面最大尺寸的1/30两者之间的较大值；</td>
+ </tr> 
+ <tr>
+ <td align='center' id="eqzs"> </td>
+ <td align='right' id="eqzs"><i>h</i><sub>0</sub></td>
+ <td align='left' id="eqzs">——</td>
+ <td id="eqzs">截面有效高度，对圆形截面取 <i>h</i><sub>0</sub>=<i>r</i>+<i>r</i><sub>s</sub>;</td>
+ </tr> 
+ <tr>
+ <td align='center' id="eqzs"> </td>
+ <td align='right' id="eqzs"><i>h</i></td>
+ <td align='left' id="eqzs">——</td>
+ <td id="eqzs">截面高度，对圆形截面取 <i>h</i>=2<i>r</i>;</td>
+ </tr> 
+ <tr>
+ <td align='center' id="eqzs"> </td>
+ <td align='right' id="eqzs"><i>ζ</i><sub>1</sub></td>
+ <td align='left' id="eqzs">——</td>
+ <td id="eqzs">—荷载偏心率对截面曲率的影响系数；</td>
+ </tr> 
+ <tr>
+ <td align='center' id="eqzs"> </td>
+ <td align='right' id="eqzs"><i>ζ</i><sub>2</sub></td>
+ <td align='left' id="eqzs">——</td>
+ <td id="eqzs">构件长细比对截面曲率的影响系数。</td>
+ </tr> 
+  </table>
+ <p></p> 
+ <p style="text-align:justify"><a href="#id5.3.10"> 5.3.10</a> <span id="id5.3.10"> 矩形、T形和I形截面偏心受压构件除应计算弯矩作用平面抗压承载力外，尚应按轴心受压构件验算垂直于弯矩作用平面的抗压承载力，此时不考虑弯矩的作用，但应考虑稳定系数<i>φ</i>的影响。</span></p>
+ <p style="text-align:justify"><a href="#id5.3.11"> 5.3.11</a> <span id="id5.3.11"> 截面具有两个互相垂直对称轴的钢筋混凝土双向偏心受压构件(<a href="#fig5.3.11">图 5.3.11</a>),其正截面抗压承载力可按下列规定计算：</span></p>
+
+$$\\gamma _{0}N_{\\mathrm{d}}\\leqslant \\dfrac{1}{\\dfrac{1}{N_{\\mathrm{ux}}}+\\dfrac{1}{N_{\\mathrm{uy}}}-\\dfrac{1}{N_{\\mathrm{u0}}}}\\tag{5.3.11}$$
+
+.. raw:: html
+
+  <div align="center"><img id="fig5.3.11" src="./_static/fig/5.3.11.png" alt="Picture" width="300px"></div>
+  <p style="color: dimgray;text-align: center;">图 5.3.11 钢筋混凝土双向偏心受压构件<br/>1-轴向力作用点</p>
+  <script type="text/javascript">var viewer = new Viewer(document.getElementById('fig5.3.11'));</script>
+
+ <table border="0" style="font-family:times new roman" id="gongshi">
+ <tr>
+ <td width="50px" align='center' id="eqzs">式中:</td>
+ <td width="50px" align='right' id="eqzs"><i>N</i><sub>u0</sub></td>
+ <td width="40px" align='left' id="eqzs">——</td>
+ <td id="eqzs">构件截面轴心抗压承载力设计值，按公式(5.3.1)计算，式中取等号，以<i>N</i><sub>u0</sub>代替 <i>γ</i><sub>0</sub><i>N</i><sub>d</sub>,计入全部纵向钢筋但不考虑稳定系数<i>φ</i>;</td>
+ </tr>
+ <tr>
+ <td align='center' id="eqzs"> </td>
+ <td align='right' id="eqzs"><i>N</i><sub>ux</sub></td>
+ <td align='left' id="eqzs">——</td>
+ <td id="eqzs">按轴向力作用于<i>x</i>轴、并考虑相应的偏心距<i>η</i><sub>x</sub><i>e</i><sub>ox</sub>后，计入全部纵向钢筋计算的构件偏心抗压承载力设计值，此处<i>η</i><sub>x</sub>按<a href="https://jtg-3362.readthedocs.io/zh/latest/5.html#id5.3.9">第5.3.9条</a>规定计算；当纵向钢筋配置在截面上下两边时，<i>N</i><sub>ux</sub>可按<a href="https://jtg-3362.readthedocs.io/zh/latest/5.html#id5.3.4">第5.3.4条</a>或<a href="https://jtg-3362.readthedocs.io/zh/latest/5.html#id5.3.5">第5.3.5条</a>的规定计算；当纵向钢筋沿截面腹部均匀配置时，<i>N</i><sub>ux</sub>可按第5.3.7条规定计算；在上述计算中，公式均取等号，以<i>N</i><sub>ux</sub>代替 <i>γ</i><sub>0</sub><i>N</i><sub>d</sub>;</td>
+ </tr> 
+ <tr>
+ <td align='center' id="eqzs"> </td>
+ <td align='right' id="eqzs"><i>N</i><sub>uy</sub></td>
+ <td align='left' id="eqzs">——</td>
+ <td id="eqzs">按轴向力作用于<i>y</i>轴，并考虑相应的偏心距<i>η</i><sub>y</sub><i>e</i><sub>oy</sub>后，计入全部纵向钢筋计算的构件偏心抗压承载力设计值，此处<i>η</i><sub>y</sub>按<a href="https://jtg-3362.readthedocs.io/zh/latest/5.html#id5.3.9">第5.3.9条</a>规定计算；<i>N</i><sub>uy</sub>的计算所考虑的方法和计算公式与<i>N</i><sub>ux</sub>相同。</td>
+ </tr> 
+ </table>
+ <p></p> 
+
+
+5.4 受拉构件
 ------------------------
 
 .. raw:: html
 
- <p style="text-align:justify"><a href="#id5.2.1"> 5.2.1</a> <span id="id5.2.1">钢梁桥上部结构构件评定指标及分级评定标准：</span></p>
- <ol>
- <li>涂层劣化评定标准见<a href="#B5.2.1-1">表5.2.1-1</a>。</li>
- <li>锈蚀评定标准见<a href="#B5.2.1-2">表5.2.1-2</a>。</li>
- <li>焊缝开裂评定标准见<a href="#B5.2.1-3">表5.2.1-3</a>。</li>
- <li>铆钉（螺栓）损失评定标准见<a href="#B5.2.1-4">表5.2.1-4</a>。</li>
- <li>构件裂缝评定标准见<a href="#B5.2.1-5">表5.2.1-5</a>。</li>
- <li>跨中挠度评定标准见<a href="#B5.2.1-6">表5.2.1-6</a>。</li>
- <li>构件变形评定标准见<a href="#B5.2.1-7">表5.2.1-7</a>。</li>
- <li>结构变位评定标准见<a href="#B5.2.1-8">表5.2.1-8</a>。</li>
- </ol>
+ <p style="text-align:justify"><a href="#id5.4.1"> 5.4.1</a> <span id="id5.4.1">轴心受拉构件的正截面抗拉承载力计算应符合下列规定：</span></p>
 
- 		<table id="biaoge" style="font-family:times new roman">
-
-         <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="B5.2.1-1">表5.2.1-1 涂层劣化</b></caption>	
-              
-		    <tr>
-		      <td  align="center" width=60px rowspan="2" id="dhbg">标度</td>
-		      <td  align="center"  colspan="2">评定指标</td>
-				  <!-- <td></td> -->
-		    </tr>
-  		  <tr>
-		     <!-- <td></td> -->
-		      <td align="center" width=360px>定性描述</td>
-				  <td align="center" width=480px>定量描述</td>
-		    </tr>
-  		  <tr>
-		     <td align="center">1</td>
-		     <td align="left">完好</td>
-			  <td align="center">—</td>
-		    </tr> 
-  		  <tr>
-		     <td align="center">2</td>
-		     <td align="left">涂层个别位置出现流痕、气泡、白化、漆膜发黏、针孔、起皱或皱纹、表面粉化、变色起皮、脱落等缺陷</td>
-			  <td align="left">累计面积≤构件面积的10%</td>
-		    </tr>
-  		  <tr>
-		     <td align="center">3</td>
-		     <td align="left">涂层出现较严重流痕、气泡、白化、漆膜发黏、针孔、起皱或皱纹、表面粉化、变色起皮、脱落等缺陷</td>
-			  <td align="left">累计面积＞构件面积的10%且≤构件面积的50%</td>
-		    </tr> 
-  		  <tr>
-		     <td align="center">4</td>
-		     <td align="left">涂层出现严重流痕、气泡、白化、漆膜发黏、针孔、起皱或皱纹、表面粉化、变色起皮、脱落等缺陷</td>
-			  <td align="left">累计面积＞构件面积的50%</td>
-		    </tr> 
-  		</table> 
-      <p> </p>
-
- 		<table id="biaoge" style="font-family:times new roman">
-
-         <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="B5.2.1-2">表5.2.1-2 锈蚀</b></caption>	
-              
-		    <tr>
-		      <td  align="center" width=60px rowspan="2" id="dhbg">标度</td>
-		      <td  align="center"  colspan="2">评定指标</td>
-				  <!-- <td></td> -->
-		    </tr>
-  		  <tr>
-		     <!-- <td></td> -->
-		      <td align="center" width=360px>定性描述</td>
-				  <td align="center" width=480px>定量描述</td>
-		    </tr>
-  		  <tr>
-		     <td align="center">1</td>
-		     <td align="left">完好</td>
-			  <td align="center">—</td>
-		    </tr> 
-  		  <tr>
-		     <td align="center">2</td>
-		     <td align="left">构件表面发生轻微锈蚀，部分氧化皮或油漆层出现剥落</td>
-			  <td align="left">锈蚀累计面积≤构件面积的5%</td>
-		    </tr>
-  		  <tr>
-		     <td align="center">3</td>
-		     <td align="left">构件表面较多点蚀现象，氧化皮，油漆层因锈蚀而部分剥落或可以刮除，重要部位有锈蚀成洞现象</td>
-			  <td align="left">锈蚀累计面积＞构件面积的5%且≤构件面积的15%，或锈蚀孔洞≤3个，工字梁孔洞直径≤30mm，板梁≤50mm，且边缘完好；桁梁孔洞直径≤30mm，且≤杆件宽度的15%</td>
-		    </tr> 
-  		  <tr>
-		     <td align="center">4</td>
-		     <td align="left">构件表面有大量点蚀现象，氧化皮，油漆层因锈蚀而全面剥离，重要部位被锈蚀成洞</td>
-			  <td align="left">锈蚀累计面积＞构件面积的15%，或锈蚀孔洞＞3个，工字梁孔洞直径＞30mm，板梁＞50mm，且边缘完好；桁梁孔洞直径＞30mm，或＞杆件宽度的15%</td>
-		    </tr> 
-  		</table> 
-      <p> </p>
-
-		<table id="biaoge" style="font-family:times new roman">
-
-         <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="B5.2.1-3">表5.2.1-3 焊缝开裂</b></caption>	
-              
-		    <tr>
-		      <td  align="center" width=60px rowspan="2" id="dhbg">标度</td>
-		      <td  align="center"  colspan="2">评定指标</td>
-				  <!-- <td></td> -->
-		    </tr>
-  		  <tr>
-		     <!-- <td></td> -->
-		      <td align="center" width=360px>定性描述</td>
-				  <td align="center" width=480px>定量描述</td>
-		    </tr>
-  		  <tr>
-		     <td align="center">1</td>
-		     <td align="left">完好</td>
-			  <td align="center">—</td>
-		    </tr> 
-  		  <tr>
-		     <td align="center">2</td>
-		     <td align="left">焊缝部位涂层有少量裂纹</td>
-			  <td align="center">—</td>
-		    </tr>
-  		  <tr>
-		     <td align="center">3</td>
-		     <td align="left">焊缝部位涂层有大量裂纹，受拉翼缘边焊缝存在裂缝，其他部位焊缝无裂缝</td>
-			  <td align="left">主梁、纵横梁受拉翼缘边焊缝开裂长度≤5mm</td>
-		    </tr> 
-  		  <tr>
-		     <td align="center">4</td>
-		     <td align="left">主要构件焊缝出现较多裂缝，构件出现变形</td>
-			  <td align="left">主梁、纵横梁受拉翼缘边焊缝开裂长度＞5mm且≤10mm，其他位置焊缝开裂长度≤5mm</td>
-		    </tr> 
-   		  <tr>
-		     <td align="center">5</td>
-		     <td align="left">主要构件焊缝存在大量裂缝甚至完全开裂，主要构件存在明显的变形，变形大于规范值</td>
-			  <td align="left">主梁、纵横梁受拉翼缘边焊缝开裂长度＞10mm，其他位置焊缝开裂长度＞5mm</td>
-		    </tr>       
-  		</table> 
-      <p> </p>
-
-		<table id="biaoge" style="font-family:times new roman">
-
-      <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="B5.2.1-4">表5.2.1-4 铆钉（螺栓）损失</b></caption>	
-              
-		    <tr>
-		      <td  align="center" width=60px rowspan="2" id="dhbg">标度</td>
-		      <td  align="center"  colspan="2">评定指标</td>
-				  <!-- <td></td> -->
-		    </tr>
-  		  <tr>
-		     <!-- <td></td> -->
-		      <td align="center" width=360px>定性描述</td>
-				  <td align="center" width=480px>定量描述</td>
-		    </tr>
-  		  <tr>
-		     <td align="center">1</td>
-		     <td align="left">完好</td>
-			  <td align="center">—</td>
-		    </tr> 
-  		  <tr>
-		     <td align="center">2</td>
-		     <td align="left">铆钉（螺栓）少量损坏、松动或丢失，造成联结部位铆钉（螺栓）失效</td>
-			  <td align="left">损坏、失效数量≤总量的1%</td>
-		    </tr>
-  		  <tr>
-		     <td align="center">3</td>
-		     <td align="left">铆钉（螺栓）有较多损坏、松动或丢失，造成联结部位铆钉（螺栓）失效</td>
-			  <td align="left">损坏、失效数量＞总量的1%且≤总量的10%</td>
-		    </tr> 
-  		  <tr>
-		     <td align="center">4</td>
-		     <td align="left">主要构件铆钉（螺栓）有较多损坏、松动或丢失，造成联结部位铆钉（螺栓）失效，构件出现明显变形</td>
-			  <td align="left">损坏、失效数量＞总量的10%且≤总量的30%</td>
-		    </tr> 
-   		  <tr>
-		     <td align="center">5</td>
-		     <td align="left">主要构件铆钉（螺栓）有大量损坏、松动或丢失，造成联结部位铆钉（螺栓）失效，主要构件存在明显的永久变形，变形大于规范值</td>
-			  <td align="left">损坏、失效数量＞总量的30%</td>
-		    </tr>       
-  		</table> 
-      <p> </p>
-
-      <table id="biaoge" style="font-family:times new roman">
-
-         <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="B5.2.1-5">表5.2.1-5 构件裂缝</b></caption>	
-              
-		    <tr>
-		      <td  align="center" width=60px rowspan="2" id="dhbg">标度</td>
-		      <td  align="center"  colspan="2">评定指标</td>
-				  <!-- <td></td> -->
-		    </tr>
-  		  <tr>
-		     <!-- <td></td> -->
-		      <td align="center" width=360px>定性描述</td>
-				  <td align="center" width=480px>定量描述</td>
-		    </tr>
-  		  <tr>
-		     <td align="center">1</td>
-		     <td align="left">完好</td>
-			  <td align="center">—</td>
-		    </tr> 
-  		  <tr>
-		     <td align="center">2</td>
-		     <td align="left">钢构件出现极少量细小裂纹</td>
-			  <td align="center">—</td>
-		    </tr>
-  		  <tr>
-		     <td align="center">3</td>
-		     <td align="left">主要构件出现较多裂缝，截面削弱，但不影响正常使用</td>
-			  <td align="left">主梁、纵横梁受拉翼缘边裂缝长度≤3mm，或受拉翼缘焊接盖板端部裂缝长度≤10mm，或桁梁端横梁与纵梁连接处下端以及腹杆接头处裂缝长度≤20mm</td>
-		    </tr> 
-  		  <tr>
-		     <td align="center">4</td>
-		     <td align="left">主要构件出现较多严重裂缝，截面削弱</td>
-			  <td align="left">主梁、纵横梁受拉翼缘边裂缝长度＞3mm且≤5mm，或受拉翼缘焊接盖板端部裂缝长度＞10mm且≤20mm，或桁梁端横梁与纵梁连接处下端以及腹杆接头处裂缝长度＞20mm且≤50mm</td>
-		    </tr> 
-   		  <tr>
-		     <td align="center">5</td>
-		     <td align="left">主要构件出现较多严重裂缝，截面削弱，主要构件存在明显的永久变形，变形大于限值</td>
-			  <td align="left">主梁、纵横梁受拉翼缘边裂缝长度＞5mm，或受拉翼缘焊接盖板端部裂缝长度＞20mm，或桁梁端横梁与纵梁连接处下端以及腹杆接头处裂缝长度＞50mm</td>
-		    </tr>       
-  		</table> 
-      <p> </p>
-
-      <table id="biaoge" style="font-family:times new roman">
-
-         <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="B5.2.1-6">表5.2.1-6 跨中挠度</b></caption>	
-              
-		    <tr>
-		      <td  align="center" width=60px rowspan="2" id="dhbg">标度</td>
-		      <td  align="center"  colspan="2">评定指标</td>
-				  <!-- <td></td> -->
-		    </tr>
-  		  <tr>
-		     <!-- <td></td> -->
-		      <td align="center" width=360px>定性描述</td>
-				  <td align="center" width=480px>定量描述</td>
-		    </tr>
-  		  <tr>
-		     <td align="center">1</td>
-		     <td align="left">完好</td>
-			  <td align="center">—</td>
-		    </tr> 
-  		  <tr>
-		     <td align="center">2</td>
-		     <td align="center">—</td>
-			  <td align="center">—</td>
-		    </tr>
-  		  <tr>
-		     <td align="center">3</td>
-		     <td align="left">挠度小于限值</td>
-			  <td align="left">简支或连续板梁跨中最大挠度≤计算跨径的1/800；或简支或连续桁架跨中最大挠度≤计算跨径的1/1000</td>
-		    </tr> 
-  		  <tr>
-		     <td align="center">4</td>
-		     <td align="left">主要构件挠度接近限值，裂缝状况较严重</td>
-			  <td align="left">简支或连续板梁跨中最大挠度＞计算跨径的1/800且≤计算跨径的1/600；或简支或连续桁架跨中最大挠度＞计算跨径的1/1000且≤计算跨径的1/800</td>
-		    </tr> 
-   		  <tr>
-		     <td align="center">5</td>
-		     <td align="left">主要构件挠度大于限值，存在明显的永久变形，裂缝状况严重，严重影响承载力，有不正常移动并影响结构安全</td>
-			  <td align="left">简支或连续板梁跨中最大挠度＞计算跨径的1/600；或简支或连续桁架跨中最大挠度＞计算跨径的1/800</td>
-		    </tr>       
-  		</table> 
-      <p> </p>
-
-      <table id="biaoge" style="font-family:times new roman">
-
-         <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="B5.2.1-7">表5.2.1-7 构件变形</b></caption>	
-              
-		    <tr>
-		      <td  align="center" width=60px rowspan="2" id="dhbg">标度</td>
-		      <td  align="center"  colspan="2">评定指标</td>
-				  <!-- <td></td> -->
-		    </tr>
-  		  <tr>
-		     <!-- <td></td> -->
-		      <td align="center" width=360px>定性描述</td>
-				  <td align="center" width=480px>定量描述</td>
-		    </tr>
-  		  <tr>
-		     <td align="center">1</td>
-		     <td align="left">完好</td>
-			  <td align="center">—</td>
-		    </tr> 
-  		  <tr>
-		     <td align="center">2</td>
-		     <td align="center">—</td>
-			  <td align="center">—</td>
-		    </tr>
-  		  <tr>
-		     <td align="center">3</td>
-		     <td align="left">个别次要构件出现异常变形，行车稍感振动或摇晃</td>
-			  <td align="left">构件竖向弯曲矢度≤跨度的1/1500；或板梁、纵梁、横梁及工字梁横向弯曲矢度≤自由长度1/8000且＜15mm；或桁梁的压力杆件弯曲矢度≤自由长度1/1500；或拉力杆件弯曲矢度≤杆件自由长度1/800，腹杆、连接杆件弯曲矢度≤杆件自由长度的1/500</td>
-		    </tr> 
-  		  <tr>
-		     <td align="center">4</td>
-		     <td align="left">个别主要承重构件出现异常变形，行车有明显振动或摇晃并伴有异常声音</td>
-			  <td align="left">构件竖向弯曲矢度＞跨度的1/1500且≤跨度的1/1000；或板梁、纵梁、横梁及工字梁横向弯曲矢度＞自由长度1/8000且≤自由长度1/5000，且＜20mm；或桁梁的压力杆件弯曲矢度＞自由长度1/1500且≤自由长度1/1000；或拉力杆件弯曲矢度＞杆件自由长度1/800且≤杆件自由长度1/500，腹杆、连接杆件弯曲矢度＞杆件自由长度的1/500且≤杆件自由长度的1/300</td>
-		    </tr> 
-   		  <tr>
-		     <td align="center">5</td>
-		     <td align="left">较多主要承重构件有异常变形，变形大于规范值，影响桥梁结构安全值</td>
-			  <td align="left">构件竖向弯曲矢度＞跨度的1/1000；或板梁、纵梁、横梁及工字梁横向弯曲矢度＞自由长度1/5000，且＞20mm；或桁梁的压力杆件弯曲矢度＞自由长度1/1000；或拉力杆件弯曲矢度＞杆件自由长度1/500，腹杆、连接杆件弯曲矢度＞杆件自由长度的1/300/</td>
-		    </tr>       
-  		</table> 
-      <p> </p>
-
-
-  		<table id="biaoge" style="font-family:times new roman">
-
-         <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="B5.2.1-8">表5.2.1-8 结构变位</b></caption>	
-              
-		    <tr>
-		      <td  align="center" width=60px rowspan="2" id="dhbg">标度</td>
-		      <td  align="center" width=840px>评定指标</td>
- 		    </tr> 
-        <tr> 
-         <!-- <td></td> -->       
-				 <td  align="center">定性描述</td>
-		    </tr>
-  		  <tr>
-		     <td align="center">1</td>
-		     <td align="left">完好</td>
-		    </tr> 
-  		  <tr>
-		     <td align="center">2</td>
-		     <td align="center">—</td>
-		    </tr>
-  		  <tr>
-		     <td align="center">3</td>
-		     <td align="left">横向联结件出现松动，纵向接缝开裂较大</td>
-		    </tr> 
-  		  <tr>
-		     <td align="center">4</td>
-		     <td align="left">主要构件存在明显的永久变形，变形小于或等于规范值，或桥面竖向呈波形</td>
-		    </tr>
-        <tr>
-		     <td align="center">5</td>
-		     <td align="left">主要构件存在明显的永久变形，变形大于规范值，结构振动或摇晃显著、有不正常移动</td>
-		    </tr>                           
-  		</table> 
-      <p> </p>
-
-5.3 支座
-----------------------------
+$$\\gamma _{0}N_{\\mathrm{d}}\\leqslant N_{\\mathrm{ud}}=f_{\\mathrm{sd}}A_{\\mathrm{s}}+f_{\\mathrm{pd}}A_{\\mathrm{p}}\\tag{5.4.1}$$
 
 .. raw:: html
 
- <p style="text-align:justify"><a href="#id5.3.1"> 5.3.1</a> <span id="id5.3.1">橡胶支座评定指标及分级评定标准：</span></p>
+ <table border="0" style="font-family:times new roman" id="gongshi">
+ <tr>
+ <td width="50px" align='center' id="eqzs">式中:</td>
+ <td width="50px" align='right' id="eqzs"><i>N</i><sub>ud</sub></td>
+ <td width="40px" align='left' id="eqzs">——</td>
+ <td id="eqzs">构件截面轴心抗拉承载力设计值；</td>
+ </tr>
+ <tr>
+ <td align='right' id="eqzs" colspan="2"> <i>A</i><sub>s</sub>、<i>A</i><sub>p</sub></td>
+ <!-- <td></td> -->
+ <td align='left' id="eqzs">——</td>
+ <td id="eqzs">普通钢筋、预应力钢筋的全部截面面积。</td>
+ </tr> 
+ </table>
+ <p></p> 
+
+ <p style="text-align:justify"><a href="#id5.4.2"> 5.4.2</a> <span id="id5.4.2">矩形截面偏心受拉构件的正截面抗拉承载力应按下列规定计算：</span></p>
+ <p style="text-align:justify;text-indent:2em;" > 1 对小偏心受拉构件，当轴向力作用在钢筋<i>A</i><sub>s</sub>和<i>A</i><sub>p</sub>合力点与<i>A '</i><sub>s</sub>和<i>A '</i><sub>p</sub>合力点之间时，按下列规定计算(<a href="#fig5.4.2">图 5.4.2a</a>)]:</p>
+
+  <div align="center"><img id="fig5.4.2" src="./_static/fig/5.4.2.png" alt="Picture" width="500px"></div>
+  <p style="color: dimgray;text-align: center;">图 5.4.2 矩形截面偏心受拉构件正截面抗拉承载力计算</p>
+  <script type="text/javascript">var viewer = new Viewer(document.getElementById('fig5.4.2'));</script>
+
+$$ \\gamma _{0}N_{\\mathrm{d}}e\\leqslant f_{\\mathrm{sd}}A^{'}_{\\mathrm{s}}(h_{0}-\\alpha ^{'}_{\\mathrm{s}})+f_{\\mathrm{pd}}A^{'}_{\\mathrm{p}}(h_{0}-\\alpha ^{'}_{\\mathrm{p} })\\tag{5.4.2-1}$$
+
+$$ \\gamma _{0}N_{\\mathrm{d}}e^{'}\\leqslant f_{\\mathrm{sd}}A_{\\mathrm{s}}(h^{'}_{0}-\\alpha_{\\mathrm{s}})+f_{\\mathrm{pd}}A_{\\mathrm{p}}(h^{'}_{0}-\\alpha_{\\mathrm{p} })\\tag{5.4.2-2}$$
+
+.. raw:: html
+
+ <p style="text-align:justify;text-indent:2em;" >2 对大偏心受拉构件，当轴向力不作用在钢筋<i>A</i><sub>s</sub>和<i>A</i><sub>p</sub>合力点与<i>A '</i><sub>s</sub>和<i>A '</i><sub>p</sub>合力点之间时，按下列规定计算(<a href="#fig5.4.2">图 5.4.2b</a>)]:</p>
+
+$$\\gamma _{0}N_{\\mathrm{d}}\\leqslant f_{\\mathrm{sd}}A_{\\mathrm{s}}+f_{\\mathrm{pd}}A_{\\mathrm{p}}-f^{'}_{\\mathrm{sd}}A^{'}_{\\mathrm{s}}-(f^{'}_{\\mathrm{pd}}-\\sigma ^{'}_{\\mathrm{p0}})A^{'}_{\\mathrm{p}}-f_{\\mathrm{cd}}bx\\tag{5.4.2-3}$$
+
+$$\\small{\\gamma _{0}N_{\\mathrm{d}}e\\leqslant f_{\\mathrm{cd}}bx(h_{0}-\\dfrac{x}{2})+f^{'}_{\\mathrm{sd} }A^{'}_{\\mathrm{s}}(h_{0}-\\alpha^{'}_{\\mathrm{s}})+(f^{'}_{\\mathrm{pd}}-\\sigma ^{'}_{\\mathrm{p0}})A^{'}_{\\mathrm{p}}(h_{0}-\\alpha^{'}_{\\mathrm{p}})}\\tag{5.4.2-4}$$
+
+.. raw:: html
+
+ <p style="text-align:justify;text-indent:2em;" >此时，截面受压区高度<i>x</i>应符合公式(5.2.2-3)的要求；当计算中考虑受压钢筋时，<i>x</i>尚应符合公式(5.2.2-4)或(5.2.2-5)的要求；当不符合时，则应按公式(5.2.4-1)、(5.2.4-2)计算，但式中Ma应分别以<i>N</i><sub>d</sub><i>e '</i>、<i>N</i><sub>d</sub><i>e '</i><sub>s</sub>代替。</p>
+
+ <p style="text-align:justify"><a href="#id5.4.3"> 5.4.3</a> <span id="id5.4.3">对称配筋的矩形截面钢筋混凝土双向偏心受拉构件，其正截面抗拉承载力应按下列规定计算： (新增)</span></p>
+
+$$ \\gamma _{0}N_{\\mathrm{d}}\\leqslant \\dfrac{1}{\\dfrac{1}{N_{\\mathrm{ud}}}+\\sqrt{\\left({\\dfrac{e_{{\\mathrm{0x} }}}{M_{\\mathrm{ux}}}}\\right)^{2}+\\left({\\dfrac{e_{{\\mathrm{0y} }}}{M_{\\mathrm{uy}}}}\\right)^{2}+}}\\tag{5.4.3}$$
+
+.. raw:: html
+
+ <table border="0" style="font-family:times new roman" id="gongshi">
+ <tr>
+ <td width="50px" align='center' id="eqzs">式中:</td>
+ <td width="50px" align='right' id="eqzs"><i>N</i><sub>ud</sub></td>
+ <td width="40px" align='left' id="eqzs">——</td>
+ <td id="eqzs">构件截面轴心抗拉承载力设计值，按公式(5.4.1)计算；</td>
+ </tr>
+ <tr>
+ <td align='right' id="eqzs" colspan="2"> <i>e</i><sub>0x</sub>、<i>e</i><sub>0y</sub></td>
+ <!-- <td></td> -->
+ <td align='left' id="eqzs">——</td>
+ <td id="eqzs">轴向拉力对通过截面重心的<i>y</i>轴、<i>x</i>轴的偏心距；</td>
+ </tr> 
+ <tr>
+ <td align='right' id="eqzs" colspan="2"> <i>M</i><sub>ux</sub>、<i>M</i><sub>uy</sub></td>
+ <!-- <td></td> -->
+ <td align='left' id="eqzs">——</td>
+ <td id="eqzs"><i>x</i>轴、<i>y</i>轴方向的正截面抗弯承载力设计值，按<a href="https://jtg-3362.readthedocs.io/zh/latest/5.html#id3">第5.2节</a>的规定计算。</td>
+ </tr> 
+ </table>
+ <p></p> 
+
+ <p style="text-align:justify"><a href="#id5.4.4"> 5.4.4</a> <span id="id5.4.4">沿周边均匀配置纵向钢筋的圆形截面钢筋混凝土偏心受拉构件，其正截面抗拉承载力应按下列规定计算： (新增)</span></p>
+
+$$\\gamma _{0}N_{\\mathrm{d}}\\leqslant \\dfrac{1}{\\dfrac{1}{N_{\\mathrm{ud}}}+\\dfrac{e_{{0}}}{M_{\\mathrm{ud}}}}\\tag{5.4.4}$$
+
+.. raw:: html
+
+ <table border="0" style="font-family:times new roman" id="gongshi">
+ <tr>
+ <td width="50px" align='center' id="eqzs">式中:</td>
+ <td width="50px" align='right' id="eqzs"><i>N</i><sub>ud</sub></td>
+ <td width="40px" align='left' id="eqzs">——</td>
+ <td id="eqzs">构件截面轴心抗拉承载力设计值，按公式(5.4.1)计算；</td>
+ </tr>
+ <tr>
+ <td  align='center' id="eqzs"> </td>
+ <td  align='right' id="eqzs"><i>e</i><sub>0</sub></td>
+ <td  align='left' id="eqzs">——</td>
+ <td  align='left'id="eqzs">轴向拉力对截面重心的偏心距；</td>
+ </tr>
+  <tr>
+ <td  align='center' id="eqzs"> </td>
+ <td  align='right' id="eqzs"><i>M</i><sub>ud</sub></td>
+ <td  align='left' id="eqzs">——</td>
+ <td  align='left'id="eqzs">正截面抗弯承载力设计值，取<i>N</i><sub>ud</sub>=0 按<a href="https://jtg-3362.readthedocs.io/zh/latest/5.html#id5.3.8">第5.3.8条</a>规定计算。</td>
+ </tr>
+ </table>
+ <p></p> 
+
+5.5 受扭构件
+------------------------
+
+.. raw:: html
+
+ <p style="text-align:justify"><a href="#id5.5.1"> 5.5.1</a> <span id="id5.5.1">矩形、箱壁厚满足<i>t</i><sub>2</sub>≥0.1b和<i>t</i><sub>1</sub>≥0.1h的箱形截面纯扭构件(<a href="#fig5.5.1">图 5.5.1</a>),其抗扭承载力应按下列规定计算：</span></p>
+
+  <div align="center"><img id="fig5.5.1" src="./_static/fig/5.5.1.png" alt="Picture" width="500px"></div>
+  <p style="color: dimgray;text-align: center;">图 5.5.1 矩形和箱形受扭构件截面</br>1-弯矩作用平面</p>
+  <script type="text/javascript">var viewer = new Viewer(document.getElementById('fig5.5.1'));</script>
+
+$$\\gamma _{0}T_{\\mathrm{d}}\\leqslant 0.35\\beta_{\\mathrm{a} }f_{\\mathrm{td} }W_{\\mathrm{t} }+1.2\\sqrt{{\\xi}} \\dfrac{f_{\\mathrm{sv} }A_{\\mathrm{sv1} }A_{\\mathrm{cor}}}{S_{\\mathrm{v} }}\\tag{5.5.1-1}$$
+
+$$\\xi =\\dfrac{f_{\\mathrm{sd} }A_{\\mathrm{st} }S_{\\mathrm{v}}}{f_{\\mathrm{sv} }A_{\\mathrm{sv1} }U_{\\mathrm{cor}}}\\tag{5.5.1-2}$$
+
+.. raw:: html
+
+ <p style="text-align:justify;text-indent:2em;" > 对钢筋混凝土构件，<i>ζ</i>值应符合0.6≤<i>ζ</i>≤1.7的要求，当<i>ζ</i>>1.7时，取<i>ζ</i>=1.7。</p>
+ <p style="text-align:justify;text-indent:2em;" > 对预应力混凝土构件，当<i>e</i><sub>p0</sub>≤<i>h</i>/6且<i>ζ</i>≥1.7时，应在公式(5.5.1-1)的右边增加预应力影响项<math xmlns="http://www.w3.org/1998/Math/MathML" ><mn>0.05</mn><mstyle displaystyle="true" scriptlevel="0"><mfrac><msub><mi>N</mi><mrow><mrow><mi mathvariant="normal">p</mi><mn>0</mn></mrow></mrow></msub><msub><mi>A</mi><mrow><mn>0</mn></mrow></msub></mfrac></mstyle><msub><mi>W</mi><mrow><mi>t</mi></mrow></msub></math>,并取<i>ζ</i>=1.7;当 <i>e</i><sub>p0</sub>><i>h</i>/6 或<i>ζ</i><1.7时，可不考虑预应力影响项，按钢筋混凝土构件计算。</p>
+
+ <table border="0" style="font-family:times new roman" id="gongshi">
+ <tr>
+ <td width="50px" align='center' id="eqzs">式中:</td>
+ <td width="50px" align='right' id="eqzs"><i>T</i><sub>d</sub></td>
+ <td width="40px" align='left' id="eqzs">——</td>
+ <td id="eqzs">矩设计值；</td>
+ </tr>
+ <tr>
+ <td  align='center' id="eqzs"> </td>
+ <td  align='right' id="eqzs"><i>ζ</i><sub>0</sub></td>
+ <td  align='left' id="eqzs">——</td>
+ <td  align='left'id="eqzs">纯扭构件纵向钢筋与箍筋的配筋强度比；</td>
+ </tr>
+ <tr>
+ <td  align='center' id="eqzs"> </td>
+ <td  align='right' id="eqzs"><i>β</i><sub>a</sub></td>
+ <td  align='left' id="eqzs">——</td>
+ <td  align='left'id="eqzs">箱形截面有效壁厚折减系数。当0.1<i>b</i>≤<i>t</i><sub>2</sub>≤0.25<i>b</i>或0.1<i>h</i>≤<i>t</i><sub>1</sub>≤0.25<i>h</i>时，取<math xmlns="http://www.w3.org/1998/Math/MathML" ><msub><mi>β</mi><mrow><mi>a</mi></mrow></msub><mo>=</mo><mn>4</mn><mstyle displaystyle="true" scriptlevel="0"><mfrac><msub><mi>t</mi><mrow><mn>2</mn></mrow></msub><mi>b</mi></mfrac></mstyle></math>或<math xmlns="http://www.w3.org/1998/Math/MathML" ><msub><mi>β</mi><mrow><mi>a</mi></mrow></msub><mo>=</mo><mn>4</mn><mstyle displaystyle="true" scriptlevel="0"><mfrac><msub><mi>t</mi><mrow><mn>1</mn></mrow></msub><mi>h</mi></mfrac></mstyle></math>方两者较小值；当<i>t</i><sub>2</sub>>0.25<i>b</i>和<i>t</i><sub>1</sub>>0.25<i>h</i>时，取<i>β</i><sub>a</sub>=1.0。对矩形截面，<i>β</i><sub>a</sub>=1.0;</td>
+ </tr>
+ <tr>
+ <td  align='center' id="eqzs"> </td>
+ <td  align='right' id="eqzs"><i>b</i></td>
+ <td  align='left' id="eqzs">——</td>
+ <td  align='left'id="eqzs">矩形截面或箱形截面宽度；</td>
+ </tr>
+ <tr>
+ <td  align='center' id="eqzs"> </td>
+ <td  align='right' id="eqzs"><i>h</i></td>
+ <td  align='left' id="eqzs">——</td>
+ <td  align='left'id="eqzs">矩形截面或箱形截面高度；</td>
+ </tr>
+ <tr>
+ <td  align='center' id="eqzs"> </td>
+ <td  align='right' id="eqzs"><i>t</i><sub>1</sub></td>
+ <td  align='left' id="eqzs">——</td>
+ <td  align='left'id="eqzs">箱形截面长边壁厚；</td>
+ </tr>
+ <tr>
+ <td  align='center' id="eqzs"> </td>
+ <td  align='right' id="eqzs"><i>t</i><sub>2</sub></td>
+ <td  align='left' id="eqzs">——</td>
+ <td  align='left'id="eqzs">箱形截面短边壁厚；</td>
+ </tr>
+ <tr>
+ <td  align='center' id="eqzs"> </td>
+ <td  align='right' id="eqzs"><i>f</i><sub>td</sub></td>
+ <td  align='left' id="eqzs">——</td>
+ <td  align='left'id="eqzs">混凝土轴心抗拉强度设计值；</td>
+ </tr>
+ <tr>
+ <td  align='center' id="eqzs"> </td>
+ <td  align='right' id="eqzs"><i>W</i><sub>t</sub></td>
+ <td  align='left' id="eqzs">——</td>
+ <td  align='left'id="eqzs">矩形截面或箱形截面受扭塑性抵抗矩，按<a href="https://jtg-3362.readthedocs.io/zh/latest/5.html#id5.5.2">第5.5.2条</a>的规定计算；</td>
+ </tr>
+ <tr>
+ <td  align='center' id="eqzs"> </td>
+ <td  align='right' id="eqzs"><i>A</i><sub>sv1</sub></td>
+ <td  align='left' id="eqzs">——</td>
+ <td  align='left'id="eqzs">纯扭计算中箍筋的单肢截面面积；</td>
+ </tr>
+ <tr>
+ <td  align='center' id="eqzs"> </td>
+ <td  align='right' id="eqzs"><i>f</i><sub>sv</sub></td>
+ <td  align='left' id="eqzs">——</td>
+ <td  align='left'id="eqzs">箍筋的抗拉强度设计值，按<a href="https://jtg-3362.readthedocs.io/zh/latest/03.html#B3.2.3.1">表3.2.3-1</a>采用；</td>
+ </tr>
+ <tr>
+ <td  align='center' id="eqzs"> </td>
+ <td  align='right' id="eqzs"><i>A</i><sub>st</sub></td>
+ <td  align='left' id="eqzs">——</td>
+ <td  align='left'id="eqzs">纯扭计算中沿截面周边对称配置的全部普通纵向钢筋截面面积；</td>
+ </tr>
+ <tr>
+ <td  align='center' id="eqzs"> </td>
+ <td  align='right' id="eqzs"><i>f</i><sub>sd</sub></td>
+ <td  align='left' id="eqzs">——</td>
+ <td  align='left'id="eqzs">纵向钢筋的抗拉强度设计值，按<a href="https://jtg-3362.readthedocs.io/zh/latest/03.html#B3.2.3.1">表3.2.3-1</a>采用；</td>
+ </tr>
+ <tr>
+ <td  align='center' id="eqzs"> </td>
+ <td  align='right' id="eqzs"><i>A</i><sub>cor</sub></td>
+ <td  align='left' id="eqzs">——</td>
+ <td  align='left'id="eqzs">由箍筋内表面包围的截面核芯面积，<i>A</i><sub>cor</sub>=<i>b</i><sub>cor</sub><i>h</i><sub>cor</sub>,此处，<i>b</i><sub>cor</sub>和 <i>h</i><sub>cor</sub>分别为核芯面积的短边边长和长边边长；</td>
+ </tr>
+ <tr>
+ <td  align='center' id="eqzs"> </td>
+ <td  align='right' id="eqzs"><i>U</i><sub>cor</sub></td>
+ <td  align='left' id="eqzs">——</td>
+ <td  align='left'id="eqzs">截面核芯面积的周长，<i>U</i><sub>cor</sub>=2(<i>b</i><sub>cor</sub>+<i>h</i><sub>cor</sub>);</td>
+ </tr>
+ <tr>
+ <td  align='center' id="eqzs"> </td>
+ <td  align='right' id="eqzs"><i>S</i><sub>v</sub></td>
+ <td  align='left' id="eqzs">——</td>
+ <td  align='left'id="eqzs">纯扭计算中箍筋的间距；</td>
+ </tr>
+ <tr>
+ <td  align='center' id="eqzs"> </td>
+ <td  align='right' id="eqzs"><i>e</i><sub>p0</sub></td>
+ <td  align='left' id="eqzs">——</td>
+ <td  align='left'id="eqzs">预应力钢筋和普通钢筋的合力对换算截面重心轴的偏心距，先张法和后张法预应力混凝土构件均按公式(6.1.7-2)计算，但公式中<i>σ</i><sub>p0</sub>、<i>σ '</i><sub>p0</sub>,先张法构件按公式(6.1.6-2)计算；后张法构件按公式(6.1.6-5)计算；</td>
+ </tr>
+ <tr>
+ <td  align='center' id="eqzs"> </td>
+ <td  align='right' id="eqzs"><i>N</i><sub>p0</sub></td>
+ <td  align='left' id="eqzs">——</td>
+ <td  align='left'id="eqzs">混凝土法向预应力等于零时预应力钢筋和普通钢筋的合力，先张法和后张法构件均按公式(6.1.7-1)计算，但式中的<i>σ</i><sub>p0</sub>、<i>σ '</i><sub>p0</sub>,先张法构件和后张法构件分别按公式(6.1.6-2)和公式(6.1.6-5)计算。当<i>N</i><sub>p0</sub>>0.3<i>f</i><sub>cd</sub><i>A</i><sub>0</sub>时，取 <i>N</i><sub>p0</sub>=0.3<i>f</i><sub>cd</sub><i>A</i><sub>0</sub>,此处，<i>A</i><sub>0</sub>为构件的换算截面面积。</td>
+ </tr>
+
+ </table>
+ <p></p> 
+ <p style="text-align:justify"><a href="#id5.5.2"> 5.5.2</a> <span id="id5.5.2">矩形和箱形截面受扭构件的截面受扭塑性抵抗矩，应按下列公式计算：</span></p>
+
+ <p style="text-align:justify;text-indent:2em;" > 矩形截面[<a href="#fig5.5.1">图 5.5.1a</a>]]</p>
+
+$$W_{t}=\\dfrac{b^{2}}{6}(3h-6)\\tag{5.5.2-1}$$
+
+.. raw:: html
+
+ <p style="text-align:justify;text-indent:2em;" > 箱形截面[<a href="#fig5.5.1">图 5.5.1b</a>]]</p>
+
+$$W_{t}=\\dfrac{b^{2}}{6}(3h-6)-\\dfrac{(b-2t_{1})^2}{6}[3(h-2t_{2})-(b-2t_{1})]\\tag{5.5.2-2}$$
+
+.. raw:: html
+
+ <p style="text-align:justify"><a href="#id5.5.3"> 5.5.3</a> <span id="id5.5.3">矩形和箱形截面承受弯、剪、扭的构件(<a href="#fig5.5.1">图 5.5.1</a>),其截面应符合下列公式要求：</span></p>
+
+$$\\dfrac{\\gamma _{0}V_{\\mathrm{d} }}{bh_{0}}+\\dfrac{\\gamma _{0}T_{\\mathrm{d} }}{W_{\\mathrm{t} }}\\leqslant f_{\\mathrm{cv} } \\tag{5.5.3-1}$$
+
+.. raw:: html
+
+ <p style="text-align:justify;text-indent:2em;" > 当符合下列条件时</p>
+
+$$\\dfrac{\\gamma _{0}V_{\\mathrm{d} }}{bh_{0}}+\\dfrac{\\gamma _{0}T_{\\mathrm{d} }}{W_{\\mathrm{t} }}\\leqslant 0.50\\alpha _{2}f_{\\mathrm{td} } \\tag{5.5.3-2}$$
+
+.. raw:: html
+
+ <p style="text-align:justify;text-indent:2em;" > 可不进行构件的抗扭承载力计算，仅需按<a href="https://jtg-3362.readthedocs.io/zh/latest/5.html#id9.3.13">第9.3.13条</a>规定配置构造钢筋。</p>
+
+ <table border="0" style="font-family:times new roman" id="gongshi">
+ <tr>
+ <td width="50px" align='center' id="eqzs">式中:</td>
+ <td width="50px" align='right' id="eqzs"><i>V</i><sub>d</sub></td>
+ <td width="40px" align='left' id="eqzs">——</td>
+ <td id="eqzs">剪力设计值(N);</td>
+ </tr>
+ <tr>
+ <td  align='center' id="eqzs"> </td>
+ <td  align='right' id="eqzs"><i>T</i><sub>d</sub></td>
+ <td  align='left' id="eqzs">——</td>
+ <td  align='left'id="eqzs">扭矩设计值(N·mm);</td>
+ </tr>
+ <tr>
+ <td  align='center' id="eqzs"> </td>
+ <td  align='right' id="eqzs"><i>f</i><sub>cv</sub></td>
+ <td  align='left' id="eqzs">——</td>
+ <td  align='left'id="eqzs">名义剪应力设计值(MPa),取<math xmlns="http://www.w3.org/1998/Math/MathML" ><msub><mi>f</mi><mrow><mrow><mi mathvariant="normal">c</mi><mi mathvariant="normal">v</mi></mrow></mrow></msub><mo>=</mo><mn>0.51</mn><msqrt><msub><mi>f</mi><mrow><mrow><mi mathvariant="normal">c</mi><mi mathvariant="normal">u</mi><mo>,</mo><mi mathvariant="normal">k</mi></mrow></mrow></msub></msqrt></math>;</td>
+ </tr>
+ <tr>
+ <td  align='center' id="eqzs"> </td>
+ <td  align='right' id="eqzs"><i>b</i><</td>
+ <td  align='left' id="eqzs">——</td>
+ <td  align='left'id="eqzs">垂直于弯矩作用平面的矩形截面宽度或箱形截面腹板总宽度(mm);</td>
+ </tr>
+ <tr>
+ <td  align='center' id="eqzs"> </td>
+ <td  align='right' id="eqzs"><i>h</i><sub>0</sub></td>
+ <td  align='left' id="eqzs">——</td>
+ <td  align='left'id="eqzs">平行于弯矩作用平面的矩形或箱形截面的有效高度(mm);</td>
+ </tr>
+ <tr>
+ <td  align='center' id="eqzs"> </td>
+ <td  align='right' id="eqzs"><i>W</i><sub>t</sub></td>
+ <td  align='left' id="eqzs">——</td>
+ <td  align='left'id="eqzs">截面受扭塑性抵抗矩(mm³)。</td>
+ </tr>
+ </table>
+ <p></p> 
+
+ <p style="text-align:justify;text-indent:2em;" > 公式(5.5.3-2)中的<i>α</i><sub>2</sub>见<a href="https://jtg-3362.readthedocs.io/zh/latest/5.html#id5.2.9">第5.2.9条</a>，当按<a href="https://jtg-3362.readthedocs.io/zh/latest/5.html#id5.5.1">第5.5.1条</a>规定可不考虑预应力影响时i>α</i><sub>2</sub>=1。</p>
+ <p style="text-align:justify"><a href="#id5.5.4"> 5.5.4</a> <span id="id5.5.4">矩形和箱形截面剪扭构件，其抗剪扭承载力应按下式计算：</span></p>
+
+ <p style="text-align:justify;text-indent:2em;" > 当符合下列条件时</p>
+
+$${\\small 抗剪承载力\\gamma _{0}V_{\\mathrm{d}}\\leqslant 1.5\\times 10^{-4}\\alpha _{1}\\alpha _{2}\\alpha _{3}(10-2\\beta_{\\mathrm{t}})bh_{0}\\sqrt{(2+0.6P)\\sqrt{f_{\\mathrm{cu,k}}}\\rho _{\\mathrm{sv}}f _{\\mathrm{sv}}}} \\tag{5.5.4-1}$$
+$$ {\\small 抗扭承载力\\qquad\\quad\\gamma _{0}T_{\\mathrm{d}}\\leqslant\\beta_{\\mathrm{t}}\\left(0.35\\beta_{\\mathrm{a}}f_{\\mathrm{td}}+0.05\\dfrac{N_{\\mathrm{p0}}}{A_{0}}\\right)W_{\\mathrm{t}}+1.2\\sqrt{\\xi}\\dfrac{f_{\\mathrm{sv}}A_{\\mathrm{sv1}}A_{\\mathrm{cor}}}{S_{\\mathrm{v}}}} \\tag{5.5.4-2}$$
+$$ \\beta_{t}=\\dfrac{1.5}{1+0.5\\dfrac{V_{\\mathrm{d}}W_{\\mathrm{t}}}{T_{\\mathrm{d}}bh_{0}}}\\tag{5.5.4-3}$$
+
+.. raw:: html
+
+
+ <table border="0" style="font-family:times new roman" id="gongshi">
+ <tr>
+ <td width="50px" align='center' id="eqzs">式中:</td>
+ <td width="50px" align='right' id="eqzs"><i>β</i><sub>t</sub></td>
+ <td width="40px" align='left' id="eqzs">——</td>
+ <td id="eqzs">剪扭构件混凝土抗扭承载力降低系数，当<i>β</i><sub>t</sub><0.5时，取<i>β</i><sub>t</sub>=0.5;当<i>β</i><sub>t</sub>>1.0时，取<i>β</i><sub>t</sub>=1.0;</td>
+ </tr>
+ <tr>
+ <td  align='center' id="eqzs"> </td>
+ <td  align='right' id="eqzs"><i>W</i><sub>t</sub></td>
+ <td  align='left' id="eqzs">——</td>
+ <td  align='left'id="eqzs">截面受扭塑性抵抗矩，当为箱形截面剪扭构件时，应以<i>β</i><sub>a</sub><i>W</i><sub>t</sub>代替；</td>
+ </tr>
+ <tr>
+ <td  align='center' id="eqzs"> </td>
+ <td  align='right' id="eqzs"><i>b</i></td>
+ <td  align='left' id="eqzs">——</td>
+ <td  align='left'id="eqzs">矩形截面宽度或箱形截面腹板总宽度。</td>
+ </tr>
+ </table>
+ <p></p> 
+ <p style="text-align:justify;text-indent:2em;" > 其他符号意义及单位参见<a href="#id5.2.9">第5.2.9条</a>和<a href="#id5.5.1">第5.5.1条</a>。</p>
+ <p style="text-align:justify;text-indent:2em;" > 当按<a href="#id5.5.1">第5.5.1条</a>规定可不考虑预应力影响时，公式(5.5.4-1)中的<i>a</i><sub>2</sub>=1,公式(5.5.4-2)中右边括弧内第2项等于零。</p>
+
+ <p style="text-align:justify"><a href="#id5.5.5"> 5.5.5</a> <span id="id5.5.5">T形、I形和带翼缘箱形截面的受扭构件，可将其截面划分为矩形截面进行抗扭承载力计算：</span></p>
+ <p style="text-align:justify;text-indent:2em;" > 1 腹板或矩形箱体、受压翼缘和受拉翼缘的扭矩设计值应按下列公式计算：</p>
+
+$$T_{\\mathrm{wd} }=\\dfrac{{W_{\\mathrm{tw}}}}{W_{\\mathrm{t}}}T_{\\mathrm{d} }\\tag{5.5.5-1}$$
+$$T^{'}_{\\mathrm{fd} }=\\dfrac{{W^{'}_{\\mathrm{tf}}}}{W_{\\mathrm{t}}}T_{\\mathrm{d} }\\tag{5.5.5-2}$$
+$$T_{\\mathrm{fd} }=\\dfrac{{W_{\\mathrm{tf}}}}{W_{\\mathrm{t}}}T_{\\mathrm{d} }\\tag{5.5.5-3}$$
+
+.. raw:: html
+
+ <table border="0" style="font-family:times new roman" id="gongshi">
+ <tr>
+ <td width="70px" align='center' id="eqzs">式中:</td>
+ <td width="50px" align='right' id="eqzs"><i>T</i><sub>d</sub></td>
+ <td width="40px" align='left' id="eqzs">——</td>
+ <td id="eqzs">T形、I形或带翼缘箱形截面构件承受的扭矩设计值；</td>
+ </tr>
+ <tr>
+ <td  align='center' id="eqzs"> </td>
+ <td  align='right' id="eqzs"><i>T</i><sub>wd</sub></td>
+ <td  align='left' id="eqzs">——</td>
+ <td  align='left'id="eqzs">分配给腹板或矩形箱体承受的扭矩设计值；</td>
+ </tr>
+ <tr>
+ <td  align='right' id="eqzs" colspan="2"> <i>T '</i><sub>fd</sub>、<i>T</i><sub>fd</sub></td>
+ <!-- <td></td> -->
+ <td  align='left' id="eqzs">——</td>
+ <td  align='left'id="eqzs">分配给受压翼缘、受拉翼缘承受的扭矩设计值；</td>
+ </tr>
+ <tr>
+ <td  align='right' id="eqzs" colspan="2"> <i>W</i><sub>tw</sub>、<i>W '</i><sub>tf</sub>、<i>W</i><sub>tf</sub></td>
+ <!-- <td></td> -->
+ <td  align='left' id="eqzs">——</td>
+ <td  align='left'id="eqzs">别为腹板或矩形箱体、受压翼缘、受拉翼缘受扭塑性抵抗矩；</td>
+ </tr>
+ <tr>
+ <td  align='center' id="eqzs"> </td>
+ <td  align='right' id="eqzs"><i>W</i><sub>t</sub></td>
+ <td  align='left' id="eqzs">——</td>
+ <td  align='left'id="eqzs">T形、I形或带翼缘箱形截面总的受扭塑性抵抗矩。</td>
+ </tr>
+ </table>
+ <p></p> 
+ <p style="text-align:justify;text-indent:2em;" > 2 各种截面的受扭塑性抵抗矩：</p>
+ <p style="text-align:justify;text-indent:2em;" > 1)腹板和矩形箱体的受扭塑性抵抗矩应按<a href="#id5.5.2">第5.5.2条</a>计算；</p>
+ <p style="text-align:justify;text-indent:2em;" > 2)受压翼缘的受扭塑性抵抗矩应按下列公式计算：</p>  
+
+$$W^{'}_{\\mathrm{tf} }=\\dfrac{{h^{'}_{\\mathrm{f}}}^{2}}{2}(b^{'}_{\\mathrm{f}}-b)\\tag{5.5.5-4}$$
+
+.. raw:: html
+
+ <p style="text-align:justify;text-indent:2em;" > 3)受拉翼缘的受扭塑性抵抗矩应按下列公式计算：</p>  
+
+$$W_{\\mathrm{tf} }=\\dfrac{h^{2}_{\\mathrm{f}}}{2}(b_{\\mathrm{f}}-b)\\tag{5.5.5-5}$$
+
+.. raw:: html
+
+ <table border="0" style="font-family:times new roman" id="gongshi">
+ <tr>
+ <td width="50px" align='center' id="eqzs">式中:</td>
+ <td width="80px" align='right' id="eqzs"><i>b'</i><sub>f</sub>、<i>h'</i><sub>f</sub></td>
+ <td width="40px" align='left' id="eqzs">——</td>
+ <td id="eqzs">T形、I形或带翼缘箱形截面受压翼缘的宽度和厚度(见<a href="#fig5.5.5">图 5.5.5</a>)，应符合 <br/><i>b'</i><sub>f</sub> ≤ <i>b</i>+6<i>h'</i><sub>f</sub>；</td>
+ </tr>
+ <tr>
+ <td  align='center' id="eqzs"> </td>
+ <td  align='right' id="eqzs"><i>b</i><sub>f</sub>、<i>h</i><sub>f</sub></td>
+ <td  align='left' id="eqzs">——</td>
+ <td  align='left'id="eqzs">I形截面受拉翼缘的宽度和厚度，应符合b<i>b</i><sub>f</sub> ≤ <i>b</i>+6<i>h</i><sub>f</sub> 。</td>
+ </tr>
+ </table>
+ <p></p> 
+
+  <div align="center"><img id="fig5.5.5" src="./_static/fig/5.5.5.png" alt="Picture" width="500px"></div>
+  <p style="color: dimgray;text-align: center;">图 5.5.5 T形和I形受扭构件截面</p>
+  <script type="text/javascript">var viewer = new Viewer(document.getElementById('fig5.5.5'));</script>
+
+ <p style="text-align:justify;text-indent:2em;" > 3 各种截面总的受扭塑性抵抗矩：</p>
+ <p style="text-align:justify;text-indent:2em;" > 1)T形和带翼缘箱形截面</p>
+
+$$ W_{\\mathrm{t} }=W_{\\mathrm{tw} }+W^{'}_{\\mathrm{tf} }\\tag{5.5.5-6}$$
+
+.. raw:: html
+
+ <p style="text-align:justify;text-indent:2em;" > 2)I形截面</p>
+
+$$W_{\\mathrm{t} }=W_{\\mathrm{tw} }+W^{'}_{\\mathrm{tf} }+W_{\\mathrm{tf} }\\tag{5.5.5-7}$$
+
+.. raw:: html
+
+ <p style="text-align:justify;text-indent:2em;" > 4 T形、I形截面的腹板和带翼缘箱形截面的矩形箱体作为剪扭构件，其承载力按<a href="#id5.5.4">第5.5.4条</a>的规定计算，公式中的<i>T</i><sub>d</sub>和<i>W</i><sub>t</sub>应以 <i>T</i><sub>wd</sub>和 <i>W</i><sub>tw</sub>代替；受压翼缘或受拉翼缘作为纯扭构件，其抗扭承载力应按<a href="#id5.5.1">第5.5.1条</a>规定计算，公式(5.5.1-1)中的<i>T</i><sub>d</sub>和<i>W</i><sub>t</sub>应以<i>T '</i><sub>fd</sub>和<i>W '</i><sub>tf</sub>或<i>T</i><sub>fd</sub>和<i>W</i><sub>tf</sub>代替。</p>
+ <p style="text-align:justify;text-indent:2em;" > 5 T形、I形和带翼缘箱形截面弯剪扭构件的截面应符合<a href="#id5.5.3">第5.5.3条</a>的规定。</p>
+ <p style="text-align:justify;text-indent:2em;" > 注：T形和I形截面受扭构件的腹板应符合b/h≥0.15的条件。此处，b和hw分别为腹板宽度和净高(见<a href="#fig5.5.5">图 5.5.5</a>)。</p> 
+
+ <p style="text-align:justify"><a href="#id5.5.6"> 5.5.6</a> <span id="id5.5.6">矩形、T形、I形和带翼缘箱形截面的弯剪扭构件，其纵向钢筋和箍筋应按下列规定计算，并分别进行配置：</span></p>
  <ol>
- <li>板式支座老化变质、开裂评定标准见<a href="#B5.3.1-1">表5.3.1-1</a>。</li>
- <li>板式支座缺陷评定标准见<a href="#B5.3.1-2">表5.3.1-2</a>。</li>
- <li>板式支座位置串动、脱空或剪切超限评定标准见<a href="#B5.3.1-3">表5.3.1-3</a>。</li>
- <li>盆式支座组件损坏评定标准见<a href="#B5.3.1-4">表5.3.1-4</a>。</li>
- <li>聚四氟乙烯滑板磨损评定标准见<a href="#B5.3.1-5">表5.3.1-5</a>。</li>
- <li>盆式支座位移、转角超限评定标准见<a href="#B5.3.1-6">表5.3.1-6</a>。</li>
+ <li>按受弯构件正截面抗弯承载力计算所需的钢筋截面面积配置纵向钢筋。</li>
+ <li>矩形截面、T形和I形截面的腹板、带翼缘箱形截面的矩形箱体，应按剪扭构件计算纵向钢筋和箍筋：</li>
  </ol>
- 
-       <table id="biaoge" style="font-family:times new roman">
-
-         <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="B5.3.1-1">表5.3.1-1 板式支座老化变质、开裂</b></caption>	
-              
-		    <tr>
-		      <td  align="center" width=60px rowspan="2" id="dhbg">标度</td>
-		      <td  align="center"  colspan="2">评定指标</td>
-				  <!-- <td></td> -->
-		    </tr>
-  		  <tr>
-		     <!-- <td></td> -->
-		      <td align="center" width=360px>定性描述</td>
-				  <td align="center" width=480px>定量描述</td>
-		    </tr>
-  		  <tr>
-		     <td align="center">1</td>
-		     <td align="left">完好</td>
-			  <td align="center">—</td>
-		    </tr> 
-  		  <tr>
-		     <td align="center">2</td>
-		     <td align="left">轻微老化，表面有脏污，出现裂缝</td>
-			  <td align="left">裂缝宽度≤1.0mm，裂缝长度＞相应边长10%</td>
-		    </tr>
-  		  <tr>
-		     <td align="center">3</td>
-		     <td align="left">橡胶支座老化变形，裂缝较严重</td>
-			  <td align="left">裂缝宽度＞1.0mm且≤2.0mm，裂缝长度＞相应边长25%</td>
-		    </tr> 
-  		  <tr>
-		     <td align="center">4</td>
-		     <td align="left">橡胶支座老化破裂，裂缝严重，且造成其他构件产生较严重病害</td>
-			  <td align="left">裂缝宽度＞2.0mm，裂缝长度＞相应边长25%</td>
-		    </tr> 
-   		  <tr>
-		     <td align="center">5</td>
-		     <td align="left">橡胶支座老化破裂，裂缝非常严重，已经失去正常支承功能，且使相关上下部结构受到异常约束，造成严重损坏，主梁出现严重变形。</td>
-			  <td align="left">裂缝宽度＞2.0mm，裂缝长度＞相应边长50%</td>
-		    </tr>       
-  		</table> 
-      <p> </p>
- 
-        <table id="biaoge" style="font-family:times new roman">
-
-         <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="B5.3.1-2">表5.3.1-2 板式支座缺陷</b></caption>	
-              
-		    <tr>
-		      <td  align="center" width=60px rowspan="2" id="dhbg">标度</td>
-		      <td  align="center"  colspan="2">评定指标</td>
-				  <!-- <td></td> -->
-		    </tr>
-  		  <tr>
-		     <!-- <td></td> -->
-		      <td align="center" width=360px>定性描述</td>
-				  <td align="center" width=480px>定量描述</td>
-		    </tr>
-  		  <tr>
-		     <td align="center">1</td>
-		     <td align="left">完好</td>
-			  <td align="center">—</td>
-		    </tr> 
-  		  <tr>
-		     <td align="center">2</td>
-		     <td align="left">有外鼓现象</td>
-			  <td align="left">沿支座一侧外鼓长度≤相应边长10%</td>
-		    </tr>
-  		  <tr>
-		     <td align="center">3</td>
-		     <td align="left">外鼓现象较严重，或钢板局部外露</td>
-			  <td align="left">沿支座一侧外鼓长度＞相应边长10%且≤相应边长25%，或钢板外露长度＞100mm</td>
-		    </tr> 
-  		  <tr>
-		     <td align="center">4</td>
-		     <td align="left">外鼓现象严重，或钢板大部分外露</td>
-			  <td align="left">沿支座一侧外鼓长度＞相应边长25%且，或钢板外露长度＞100mm</td>
-		    </tr> 
-  		</table> 
-      <p> </p>
-
-        <table id="biaoge" style="font-family:times new roman">
-
-         <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="B5.3.1-3">表5.3.1-3 板式支座位置串动、脱空或剪切超限</b></caption>	
-              
-		    <tr>
-		      <td  align="center" width=60px rowspan="2" id="dhbg">标度</td>
-		      <td  align="center"  colspan="2">评定指标</td>
-				  <!-- <td></td> -->
-		    </tr>
-  		  <tr>
-		     <!-- <td></td> -->
-		      <td align="center" width=360px>定性描述</td>
-				  <td align="center" width=480px>定量描述</td>
-		    </tr>
-  		  <tr>
-		     <td align="center">1</td>
-		     <td align="left">完好</td>
-			   <td align="center">—</td>
-		    </tr> 
-  		  <tr>
-		     <td align="center">2</td>
-		     <td align="left">支座出现剪切变形或位置略有偏移</td>
-			   <td align="center">—</td>
-		    </tr>
-  		  <tr>
-		     <td align="center">3</td>
-		     <td align="left">支座出现剪切变形或位置有较大偏移</td>
-			   <td align="left">剪切角度≤45°</td>
-		     </tr> 
-  		   <tr>
-		     <td align="center">4</td>
-		     <td align="left">支座串动较严重，或出现脱空现象，或出现严重变形</td>
-			   <td align="left">串动长度≤相应边长的25%，或剪切角度＞45°且≤60°</td>
-		     </tr> 
-        <tr>
-		     <td align="center" rowspan="2">5</td>
-		     <td align="left">串动严重并造成桥梁其他构件出现较严重病害</td>
-			   <td align="left">串动长度＞相应边长的25%</td>
-		    </tr> 
-         <tr>
-		     <!-- <td></td> -->
-		     <td align="left">支座错位、串动、变形严重，已经失去正常支承功能，造成相关上下部结构严重损坏，主梁出现严重变形</td>
-			   <td align="left">剪切角度＞60°</td>
-		    </tr>    
-  		</table> 
-      <p> </p>
-
-        <table id="biaoge" style="font-family:times new roman">
-
-         <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="B5.3.1-4">表5.3.1-4 盆式支座组件损坏</b></caption>	
-              
-		    <tr>
-		      <td  align="center" width=60px rowspan="2" id="dhbg">标度</td>
-		      <td  align="center"  colspan="2">评定指标</td>
-				  <!-- <td></td> -->
-		    </tr>
-  		  <tr>
-		     <!-- <td></td> -->
-		      <td align="center" width=360px>定性描述</td>
-				  <td align="center" width=480px>定量描述</td>
-		    </tr>
-  		  <tr>
-		     <td align="center">1</td>
-		     <td align="left">完好</td>
-			   <td align="center">—</td>
-		    </tr> 
-  		  <tr>
-		     <td align="center">2</td>
-		     <td align="left">盆底四周翘起，或钢盆出现较多锈蚀，或支座底板局部裂纹、掉角</td>
-			   <td align="center">—</td>
-		    </tr>
-  		  <tr>
-		     <td align="center">3</td>
-		     <td align="left">钢件非主要受力部位出现脱焊，或钢盆出现较多锈蚀并伴有剥落，或除盆底，盆环外其他部位开裂，或底板产生变形，混凝土酥裂，露筋、掉角</td>
-			   <td align="center">—</td>
-		     </tr> 
-  		   <tr>
-		     <td align="center">4</td>
-		     <td align="left">大量锚栓剪断，或底板变形，大部分压碎、剥离，造成相关上下部结构受到异常约束，损坏严重</td>
-			   <td align="left">锚栓剪断≤50%</td>
-		     </tr> 
-        <tr>
-		     <td align="center" rowspan="2">5</td>
-		     <td align="left">有大量的锚栓剪断或盆环开裂、脱焊，支座破损、缺失严重，已经失去正常支承功能，造成相关上下部结构严重损坏，主梁出现严重变形</td>
-			   <td align="left">锚栓剪断＞50%</td>
-		    </tr> 
- 		</table> 
-      <p> </p>
-
-        <table id="biaoge" style="font-family:times new roman">
-
-         <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="B5.3.1-5">表5.3.1-5 聚四氟乙烯滑板磨损</b></caption>	
-              
-		    <tr>
-		      <td  align="center" width=60px rowspan="2" id="dhbg">标度</td>
-		      <td  align="center"  colspan="2">评定指标</td>
-				  <!-- <td></td> -->
-		    </tr>
-  		  <tr>
-		     <!-- <td></td> -->
-		      <td align="center" width=360px>定性描述</td>
-				  <td align="center" width=480px>定量描述</td>
-		    </tr>
-  		  <tr>
-		     <td align="center">1</td>
-		     <td align="left">完好</td>
-			   <td align="center">—</td>
-		    </tr> 
-  		  <tr>
-		     <td align="center">2</td>
-		     <td align="left">磨损较少</td>
-			   <td align="left">聚四氟乙烯滑板外露高度≥0.5mm</td>
-		    </tr>
-  		  <tr>
-		     <td align="center">3</td>
-		     <td align="left">磨损较多</td>
-			   <td align="left">聚四氟乙烯滑板外露高度≥0.2mm且＜0.5mm</td>
-		     </tr> 
-  		   <tr>
-		     <td align="center">4</td>
-		     <td align="left">磨损严重，并造成其他构件出现病害</td>
-			   <td align="left">聚四氟乙烯滑板外露高度＜0.2mm</td>
-		     </tr> 
- 		</table> 
-      <p> </p>      
-
-        <table id="biaoge" style="font-family:times new roman">
-
-         <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="B5.3.1-6">表5.3.1-6 盆式支座位移、转角超限</b></caption>	
-              
-		    <tr>
-		      <td  align="center" width=60px rowspan="2" id="dhbg">标度</td>
-		      <td  align="center"  colspan="2">评定指标</td>
-				  <!-- <td></td> -->
-		    </tr>
-  		  <tr>
-		     <!-- <td></td> -->
-		      <td align="center" width=360px>定性描述</td>
-				  <td align="center" width=480px>定量描述</td>
-		    </tr>
-  		  <tr>
-		     <td align="center">1</td>
-		     <td align="left">完好</td>
-			   <td align="center">—</td>
-		    </tr> 
-  		  <tr>
-		     <td align="center">2</td>
-		     <td align="center">—</td>
-			   <td align="center">—</td>
-		    </tr>
-  		  <tr>
-		     <td align="center">3</td>
-		     <td align="left">有位移现象，或有较大转角，转角超出设计值</td>
-			   <td align="left">位移≤10mm，或转角≤设计转角20%</td>
-		     </tr> 
-  		   <tr>
-		     <td align="center">4</td>
-		     <td align="left">位移现象较明显，或有很大转角，转角远超出设计值</td>
-			   <td align="left">位移＞10mm，或转角＞设计转角20%</td>
-		     </tr> 
- 		</table> 
-      <p> </p>  
-
- <p style="text-align:justify"><a href="#id5.3.2"> 5.3.2</a> <span id="id5.3.2">钢支座评定指标及分级评定标准：</span></p>
-  <ol>
- <li>钢支座组件或功能缺陷评定标准见<a href="#B5.3.2-1">表5.3.2-1</a>。</li>
- <li>钢支座位移、转角超限评定标准见<a href="#B5.3.2-2">表5.3.2-2</a>。</li>
- <li>钢支座部件磨损、裂缝评定标准见<a href="#B5.3.2-3">表5.3.2-3</a>。</li>
+ <p style="text-align:justify;text-indent:2em;" > 1)按<a href="#id5.5.4">第5.5.4条</a>抗扭承载力计算所需的纵向钢筋截面面积，并沿周边均匀对称布置；</p> 
+ <p style="text-align:justify;text-indent:2em;" > 2)按<a href="#id5.5.4">第5.5.4条</a>抗剪承载力和抗扭承载力计算箍筋截面面积。</p> 
+ <ol start="3">
+ <li>T形、I形和带翼缘箱形截面的受压翼缘或受拉翼缘应按<a href="#id5.5.1">第5.5.1条</a>抗扭承载力计算所需纵向钢筋和箍筋截面面积，其中纵向钢筋应沿周边对称布置。</li>
  </ol>
 
-    <table id="biaoge" style="font-family:times new roman">
+5.6 受冲切构件
+------------------------
 
-     <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="B5.3.2-1">表5.3.2-1 钢支座组件或功能缺陷</b></caption>	
-              
-		    <tr>
-		      <td  align="center" width=60px rowspan="2" id="dhbg">标度</td>
-		      <td  align="center"  colspan="2">评定指标</td>
-				  <!-- <td></td> -->
-		    </tr>
-  		  <tr>
-		     <!-- <td></td> -->
-		      <td align="center" width=360px>定性描述</td>
-				  <td align="center" width=480px>定量描述</td>
-		    </tr>
-  		  <tr>
-		     <td align="center">1</td>
-		     <td align="left">完好</td>
-			   <td align="center">—</td>
-		    </tr> 
-  		  <tr>
-		     <td align="center">2</td>
-		     <td align="left">有锈蚀现象；或牙板咬死；或个别锚栓出现剪断现象；或底板与垫石没有密贴，出现较大缝隙</td>
-			   <td align="left">锚栓剪断数量≤5%；或底板与垫石间缝隙宽度≤2.0mm，深度＞50mm</td>
-		    </tr>
-  		  <tr>
-		     <td align="center">3</td>
-		     <td align="left">大部分有锈蚀现象，并有剥落，或非主要受力部件出现脱焊；或牙板折断，辊轴连杆螺丝剪断；或锚栓剪断数量较多，螺杆松动；或底板与垫石没有密贴，出现很大的缝隙，出现翻浆、积水</td>
-			   <td align="left">锚栓剪断数量＞5%且≤30%；或底板与垫石间缝隙宽度＞2.0mm，深度≥支座相应边长的25%</td>
-		     </tr> 
-  		   <tr>
-		     <td align="center">4</td>
-		     <td align="left">主要受力部件脱焊；或支座不能活动；或大量锚钉或锚栓剪断；或垫石出现严重裂损</td>
-			   <td align="left">锚钉或锚栓剪断数量＞30%</td>
-		     </tr> 
- 		</table> 
-      <p> </p>  
- 
-    <table id="biaoge" style="font-family:times new roman">
+.. raw:: html
 
-     <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="B5.3.2-2">表5.3.2-2 钢支座位移、转角超限</b></caption>	
-              
-		    <tr>
-		      <td  align="center" width=60px rowspan="2" id="dhbg">标度</td>
-		      <td  align="center"  colspan="2">评定指标</td>
-				  <!-- <td></td> -->
-		    </tr>
-  		  <tr>
-		     <!-- <td></td> -->
-		      <td align="center" width=360px>定性描述</td>
-				  <td align="center" width=480px>定量描述</td>
-		    </tr>
-  		  <tr>
-		     <td align="center">1</td>
-		     <td align="left">完好</td>
-			   <td align="center">—</td>
-		    </tr> 
-  		  <tr>
-		     <td align="center">2</td>
-		     <td align="center">—</td>
-			   <td align="center">—</td>
-		    </tr>
-  		  <tr>
-		     <td align="center">3</td>
-		     <td align="left">位移大于限值</td>
-			   <td align="left">纵向位移≤5mm，或横向位置≤2mm</td>
-		     </tr> 
-  		   <tr>
-		     <td align="center">4</td>
-		     <td align="left">位移大于限值严重，或倾斜度超标</td>
-			   <td align="left">纵向位移＞5mm，或横向位置＞2mm</td>
-		     </tr> 
- 		</table> 
-      <p> </p>  
+ <p style="text-align:justify"><a href="#id5.6.1"> 5.6.1</a> <span id="id5.6.1">在集中反力作用下不配置抗冲切钢筋的钢筋混凝土板，其抗冲切承载力可按下列公式计算(<a href="#fig5.6.1">图 5.6.1</a>):</span></p>
 
-    <table id="biaoge" style="font-family:times new roman">
+$$\\gamma_{0}F_{l\\mathrm{d}}\\leqslant (0.7\\beta_{\\mathrm{h} }f_{\\mathrm{td}}+0.15\\sigma_{\\mathrm{pc,m}})U_\\mathrm{m}h_{0}\\tag{5.6.1}$$
 
-     <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="B5.3.2-3">表5.3.2-3 钢支座部件磨损、裂缝</b></caption>	
-              
-		    <tr>
-		      <td  align="center" width=60px rowspan="2" id="dhbg">标度</td>
-		      <td  align="center"  colspan="2">评定指标</td>
-				  <!-- <td></td> -->
-		    </tr>
-  		  <tr>
-		     <!-- <td></td> -->
-		      <td align="center" width=360px>定性描述</td>
-				  <td align="center" width=480px>定量描述</td>
-		    </tr>
-  		  <tr>
-		     <td align="center">1</td>
-		     <td align="left">完好</td>
-			   <td align="center">—</td>
-		    </tr> 
-  		  <tr>
-		     <td align="center">2</td>
-		     <td align="left">钢部件磨损出现凹陷，或出现微裂缝</td>
-			   <td align="left">磨损凹陷≤1.0mm，或裂缝深度≤5.0mm</td>
-		    </tr>
-  		  <tr>
-		     <td align="center">3</td>
-		     <td align="left">钢部件磨损出现凹陷，或出现较大裂缝</td>
-			   <td align="left">磨损凹陷＞1.0mm且≤3.0mm，或裂缝深度＞5.0mm且≤10.0mm</td>
-		     </tr> 
-  		   <tr>
-		     <td align="center">4</td>
-		     <td align="left">钢部件磨损出现严重凹陷，或出现较严重裂缝</td>
-			   <td align="left">磨损凹陷＞3.0mm，或裂缝深度＞10.0mm</td>
-		     </tr> 
- 		</table> 
-      <p> </p>  
-   
- 
- <p style="text-align:justify"><a href="#id5.3.3"> 5.3.3</a> <span id="id5.3.3">混凝土摆式支座评定指标及分级评定标准：</span></p>
-  <ol>
- <li>混凝土缺损评定标准见<a href="#B5.3.3-1">表5.3.3-1</a>。</li>
- <li>活动支座滑动面不平整、生锈咬死评定标准见<a href="#B5.3.3-2">表5.3.3-2</a>。</li>
- <li>轴承有裂纹、切口或偏移评定标准见<a href="#B5.3.3-3">表5.3.3-3</a>。</li>
- </ol>
+.. raw:: html
 
-    <table id="biaoge" style="font-family:times new roman">
+ <table border="0" style="font-family:times new roman" id="gongshi">
+ <tr>
+ <td width="50px" align='center' id="eqzs">式中:</td>
+ <td width="50px" align='right' id="eqzs"><i>F</i><sub><i>l</i>d</sub></td>
+ <td width="40px" align='left' id="eqzs">——</td>
+ <td id="eqzs">最大集中反力设计值。当计算由墩柱支承的板的抗冲切承载力时，可取墩柱所承受的最大轴向力设计值减去柱顶冲切破坏锥体范围内的荷载设计值；</td>
+ </tr>
+ <tr>
+ <td  align='center' id="eqzs"> </td>
+ <td  align='right' id="eqzs"><i>σ</i><sub>pc,m</sub></td>
+ <td  align='left' id="eqzs">——</td>
+ <td  align='left'id="eqzs">设有预应力钢筋的板的截面上，由预加力引起的混凝土有效平均压应力，其值宜控制在1.0~3.5 MPa范围内；</td>
+ </tr>
+ <tr>
+ <td  align='center' id="eqzs"> </td>
+ <td  align='right' id="eqzs"><i>β</i><sub>h</sub></td>
+ <td  align='left' id="eqzs">——</td>
+ <td  align='left'id="eqzs">截面高度尺寸效应系数，当h≤300 mm时，取<i>β</i><sub>h</sub>=1.0;当<i>β</i>≥800 mm时，取<i>β</i><sub>h</sub>=0.85,其间按直线插入取值，此处，<i>h</i>为板的高度；</td>
+ </tr> 
+ <tr>
+ <td  align='center' id="eqzs"> </td>
+ <td  align='right' id="eqzs"><i>U</i><sub>m</sub></td>
+ <td  align='left' id="eqzs">——</td>
+ <td  align='left'id="eqzs">距集中反力作用面<i>h</i><sub>0</sub>/2处破坏锥体截面面积的周长，当墩柱为圆形截面时，可将其换算为边长等于0.8倍直径的方形截面墩柱再取<i>U</i><sub>m</sub>;</td>
+ </tr> 
+ <tr>
+ <td  align='center' id="eqzs"> </td>
+ <td  align='right' id="eqzs"><i>h</i><sub>0</sub></td>
+ <td  align='left' id="eqzs">——</td>
+ <td  align='left'id="eqzs">板的有效高度。</td>
+ </tr>   
+ </table>
+ <p></p> 
 
-     <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="B5.3.3-1">表5.3.3-1 混凝土缺损</b></caption>	
-              
-		    <tr>
-		      <td  align="center" width=60px rowspan="2" id="dhbg">标度</td>
-		      <td  align="center"  colspan="2">评定指标</td>
-				  <!-- <td></td> -->
-		    </tr>
-  		  <tr>
-		     <!-- <td></td> -->
-		      <td align="center" width=360px>定性描述</td>
-				  <td align="center" width=480px>定量描述</td>
-		    </tr>
-  		  <tr>
-		     <td align="center">1</td>
-		     <td align="left">完好</td>
-			   <td align="center">—</td>
-		    </tr> 
-  		  <tr>
-		     <td align="center">2</td>
-		     <td align="left">局部混凝土脱皮、露筋、裂纹、剥离、掉角</td>
-			   <td align="left">累计面积≤构件面积的5%</td>
-		    </tr>
-  		  <tr>
-		     <td align="center">3</td>
-		     <td align="left">较大范围混凝土脱皮、露筋、酥裂</td>
-			   <td align="left">累计面积＞构件面积的5%且≤构件面积的20%，或单处面积≤1.0m²</td>
-		     </tr> 
-  		   <tr>
-		     <td align="center">4</td>
-		     <td align="left">大范围混凝土脱皮、露筋、压碎</td>
-			   <td align="left">累计面积＞构件面积的20%</td>
-		     </tr> 
- 		</table> 
-      <p> </p>  
- 
-    <table id="biaoge" style="font-family:times new roman">
+  <div align="center"><img id="fig5.6.1" src="./_static/fig/5.6.1.png" alt="Picture" width="200px"></div>
+  <p style="color: dimgray;text-align: center;">图 5.6.1 板抗冲切承载力计算<br/>1-冲切破坏锥体的斜截面；2-距集中反力作用面 <i>h</i><sub>0</sub>/2处破坏锥体截面周长；<br/>3-冲切破坏锥体的底面线</p>
+  <script type="text/javascript">var viewer = new Viewer(document.getElementById('fig5.6.1'));</script>
 
-     <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="B5.3.3-2">表5.3.3-2 活动支座滑动面不平整、生锈咬死</b></caption>	
-              
-		    <tr>
-		      <td  align="center" width=60px rowspan="2" id="dhbg">标度</td>
-		      <td  align="center" width=840px>评定指标</td>
- 		    </tr> 
-        <tr> 
-         <!-- <td></td> -->       
-				 <td  align="center">定性描述</td>
-		    </tr>
-  		  <tr>
-		     <td align="center">1</td>
-		     <td align="left">完好</td>
-		    </tr> 
-  		  <tr>
-		     <td align="center">2</td>
-		     <td align="center">—</td>
-		    </tr>
-  		  <tr>
-		     <td align="center">3</td>
-		     <td align="left">滑动面不平整、出现生锈现象</td>
-		    </tr> 
-  		  <tr>
-		     <td align="center">4</td>
-		     <td align="left">滑动面不平整、生锈咬死，支座不活动</td>
-		    </tr>
-  		</table> 
-      <p> </p>
+ <p style="text-align:justify"><a href="#id5.6.2"> 5.6.2</a> <span id="id5.6.2">在集中反力作用下，当抗冲切承载力不满足公式(5.6.1)的要求且板厚受到限制时，可配置抗冲切钢筋，此时，受冲切截面应符合下列条件：</span></p>
 
-    <table id="biaoge" style="font-family:times new roman">
 
-     <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="B5.3.3-3">表5.3.3-3 轴承有裂纹、切口或偏移</b></caption>	
-              
-		    <tr>
-		      <td  align="center" width=60px rowspan="2" id="dhbg">标度</td>
-		      <td  align="center" width=840px>评定指标</td>
- 		    </tr> 
-        <tr> 
-         <!-- <td></td> -->       
-				 <td  align="center">定性描述</td>
-		    </tr>
-  		  <tr>
-		     <td align="center">1</td>
-		     <td align="left">完好</td>
-		    </tr> 
-  		  <tr>
-		     <td align="center">2</td>
-		     <td align="center">—</td>
-		    </tr>
-  		  <tr>
-		     <td align="center">3</td>
-		     <td align="left">轴承有裂纹、切口或偏移，影响了活动能力</td>
-		    </tr> 
-  		  <tr>
-		     <td align="center">4</td>
-		     <td align="left">轴承有裂纹、切口或偏移，失去了活动能力</td>
-		    </tr>
-  		</table> 
-      <p> </p>
+$$\\gamma_{0}F_{l\\mathrm{d}}\\leqslant1.05\\beta_{\\mathrm{h}}f_\\mathrm{td}U_\\mathrm{m}h_{0}\\tag{5.6.2-1}$$
 
- <p style="text-align:justify"><a href="#id5.3.4"> 5.3.4</a> <span id="id5.3.4">悬索桥等除具有一般支座外，还有特殊的横向支座和竖向支座。此类特殊支座主要评定指标及分级评定标准：</span></p>
- <ol>
- <li>螺纹、螺帽松动或锚螺杆剪切评定标准见<a href="#B5.3.4-1">表5.3.4-1</a>。</li>
- <li>上下作板（盆）锈蚀评定标准见<a href="#B5.3.4-2">表5.3.4-2</a>。</li>
- <li>纵横线扭转评定标准见<a href="#B5.3.4-3">表5.3.4-3</a>。</li>
- </ol>
+.. raw:: html
 
- 
-    <table id="biaoge" style="font-family:times new roman">
+ <p style="text-align:justify;text-indent:2em;" > 混凝土板配置抗冲切钢筋时的抗冲切承载力，可按下列规定计算：</p>
+ <p style="text-align:justify;text-indent:2em;" > 1 当配置箍筋时</p>
 
-     <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="B5.3.4-1">表5.3.4-1 螺纹、螺帽松动或锚螺杆剪切</b></caption>	
-              
-		    <tr>
-		      <td  align="center" width=60px rowspan="2" id="dhbg">标度</td>
-		      <td  align="center"  colspan="2">评定指标</td>
-				  <!-- <td></td> -->
-		    </tr>
-  		  <tr>
-		     <!-- <td></td> -->
-		      <td align="center" width=360px>定性描述</td>
-				  <td align="center" width=480px>定量描述</td>
-		    </tr>
-  		  <tr>
-		     <td align="center">1</td>
-		     <td align="left">完好</td>
-			   <td align="center">—</td>
-		    </tr> 
-  		  <tr>
-		     <td align="center">2</td>
-		     <td align="left">个别螺纹、螺帽轻微松动，或个别锚螺杆出现轻微剪切变形</td>
-			   <td align="center">—</td>
-		    </tr>
-  		  <tr>
-		     <td align="center">3</td>
-		     <td align="left">螺纹、螺帽出现松动，个别出现脱落，或锚螺杆出现剪切变形甚至剪断</td>
-			   <td align="left">螺纹、螺帽松动数量≤3%，或锚螺杆剪切变形数量≤10%</td>
-		     </tr> 
-  		   <tr>
-		     <td align="center">4</td>
-		     <td align="left">螺纹、螺帽出现松动、脱落甚至个别出现断裂、或锚螺杆出现剪切变形、剪断现象，并且造成相关上下部结构受到异常约束，出现损坏</td>
-			   <td align="left">螺纹、螺帽出现松动、脱落甚至断裂的数量＞3%且≤10%，或锚螺杆剪切变形数量＞10%且≤20%，锚螺杆剪断数量≤10%</td>
-		     </tr> 
-  		   <tr>
-		     <td align="center">5</td>
-		     <td align="left">螺纹、螺帽出现松动、脱落、断裂现象，或锚螺杆出现剪切变形、剪断现象，支座已经失去正常支承功能，并且造成相关上下部结构受到异常约束，严重损坏，主梁出现严重变形或挠度大于限值</td>
-			   <td align="left">螺纹、螺帽出现松动、脱落甚至断裂的数量＞10%，或锚螺杆剪切变形数量＞20%，锚螺杆剪断数量＞10%</td>
-		     </tr>          
- 		</table> 
-      <p> </p>  
- 
-    <table id="biaoge" style="font-family:times new roman">
+$$\\gamma_{0}F_{l\\mathrm{d}}\\leqslant(0.35\\beta_{\\mathrm{h}}f_{\\mathrm{td}}+0.15\\sigma _{\\mathrm{pc,m}})U_\\mathrm{m}h_{0}+0.75f_{\\mathrm{sv}}A_{\\mathrm{svu}}\\tag{5.6.2-2}$$
 
-     <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="B5.3.4-2">表5.3.4-2 上下座板（盆）锈蚀</b></caption>	
-              
-		    <tr>
-		      <td  align="center" width=60px rowspan="2" id="dhbg">标度</td>
-		      <td  align="center"  colspan="2">评定指标</td>
-				  <!-- <td></td> -->
-		    </tr>
-  		  <tr>
-		     <!-- <td></td> -->
-		      <td align="center" width=360px>定性描述</td>
-				  <td align="center" width=480px>定量描述</td>
-		    </tr>
-  		  <tr>
-		     <td align="center">1</td>
-		     <td align="left">完好</td>
-			   <td align="center">—</td>
-		    </tr> 
-  		  <tr>
-		     <td align="center">2</td>
-		     <td align="left">局部出现锈蚀</td>
-			   <td align="left">锈蚀面积≤5%</td>
-		    </tr>
-  		  <tr>
-		     <td align="center">3</td>
-		     <td align="left">出现锈蚀，个别位置有剥落</td>
-			   <td align="left">锈蚀面积＞5%且≤20%</td>
-		     </tr> 
-  		   <tr>
-		     <td align="center">4</td>
-		     <td align="left">出现锈蚀，大多数位置有剥落</td>
-			   <td align="left">锈蚀面积＞20%</td>
-		     </tr> 
-		</table> 
-    <p> </p>      
+.. raw:: html
+ <p style="text-align:justify;text-indent:2em;" > 2 当配置弯起钢筋时</p>  
 
-    <table id="biaoge" style="font-family:times new roman">
+$$\\gamma_{0}F_{l\\mathrm{d}}\\leqslant(0.35\\beta_{\\mathrm{h}}f_{\\mathrm{td}}+0.15\\sigma _{\\mathrm{pc,m}})U_\\mathrm{m}h_{0}+0.75f_{\\mathrm{sd}}A_{\\mathrm{sbu}}\\sin \\theta\\tag{5.6.2-3}$$
 
-     <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="B5.3.4-3">表5.3.4-3 纵横线扭转</b></caption>	
-              
-		    <tr>
-		      <td  align="center" width=60px rowspan="2" id="dhbg">标度</td>
-		      <td  align="center"  colspan="2">评定指标</td>
-				  <!-- <td></td> -->
-		    </tr>
-  		  <tr>
-		     <!-- <td></td> -->
-		      <td align="center" width=360px>定性描述</td>
-				  <td align="center" width=480px>定量描述</td>
-		    </tr>
-  		  <tr>
-		     <td align="center">1</td>
-		     <td align="left">完好</td>
-			   <td align="center">—</td>
-		    </tr> 
-  		  <tr>
-		     <td align="center">2</td>
-		     <td align="center">—</td>
-			   <td align="center">—</td>
-		    </tr>
-  		  <tr>
-		     <td align="center">3</td>
-		     <td align="left">纵横线发生轻微扭转</td>
-			   <td align="left">纵横线扭转≤1.0mm</td>
-		     </tr> 
-  		   <tr>
-		     <td align="center">4</td>
-		     <td align="left">纵横线发生较大扭转</td>
-			   <td align="left">纵横线扭转＞1.0mm</td>
-		     </tr> 
-		</table> 
-    <p> </p>      
+.. raw:: html
+
+ <table border="0" style="font-family:times new roman" id="gongshi">
+ <tr>
+ <td width="50px" align='center' id="eqzs">式中:</td>
+ <td width="50px" align='right' id="eqzs"><i>A</i><sub>svu</sub></td>
+ <td width="40px" align='left' id="eqzs">——</td>
+ <td id="eqzs">与冲切破坏锥体斜截面相交的全部箍筋截面面积；</td>
+ </tr>
+ <tr>
+ <td  align='center' id="eqzs"> </td>
+ <td  align='right' id="eqzs"><i>A</i><sub>sbu</sub></td>
+ <td  align='left' id="eqzs">——</td>
+ <td  align='left'id="eqzs">与冲切破坏锥体斜截面相交的全部弯起钢筋截面面积；</td>
+ </tr>
+ <tr>
+ <td  align='center' id="eqzs"> </td>
+ <td  align='right' id="eqzs"><i>f</i><sub>sv</sub></td>
+ <td  align='left' id="eqzs">——</td>
+ <td  align='left'id="eqzs">箍筋抗拉强度设计值；</td>
+ </tr> 
+ <tr>
+ <td  align='center' id="eqzs"> </td>
+ <td  align='right' id="eqzs"><i>f</i><sub>sd</sub></td>
+ <td  align='left' id="eqzs">——</td>
+ <td  align='left'id="eqzs">弯起钢筋抗拉强度设计值；</td>
+ </tr> 
+ <tr>
+ <td  align='center' id="eqzs"> </td>
+ <td  align='right' id="eqzs"><i>θ</i></td>
+ <td  align='left' id="eqzs">——</td>
+ <td  align='left'id="eqzs">弯起钢筋与板底面的夹角。</td>
+ </tr>   
+ </table>
+ <p></p> 
+
+ <p style="text-align:justify;text-indent:2em;" > 对配置抗冲切钢筋的冲切破坏锥体以外的截面，尚应按<a href="#id5.26.1">第5.6.1条</a>进行抗冲切承载力验算，此时，<i>U</i><sub>m</sub>应取冲切破坏锥体以外0.5<i>h</i><sub>0</sub>处的最不利周长。<br/>注：混凝土板中配置的抗冲切箍筋或弯起钢筋的构造应符合<a href="https://jtg-3362.readthedocs.io/zh/latest/9.html#id9.2.9">第9.2.9条</a>规定。</p>
+
+ <p style="text-align:justify"><a href="#id5.6.3"> 5.6.3</a> <span id="id5.6.3">矩形截面墩柱的扩大基础，在墩柱与基础交接处及基础变阶处的抗冲切承载力可按下列规定计算(<a href="#fig5.6.3">图 5.6.3</a>):</span></p>
+
+ <div align="center"><img id="fig5.6.3" src="./_static/fig/5.6.3.png" alt="Picture" width="500px"></div>
+  <p style="color: dimgray;text-align: center;">图 5.6.3 矩形扩大基础抗冲切承载力计算</br>1-冲切破坏锥体最不利一侧的斜截面；2-冲切破坏锥体的底面线</p>
+  <script type="text/javascript">var viewer = new Viewer(document.getElementById('fig5.6.3'));</script>
+
+$$\\gamma _{0}F_{l\\mathrm{d}}\\leqslant 0.7\\beta_{\\mathrm{h} }f_{\\mathrm{td} }b_{\\mathrm{m} }h_{0}\\tag{5.6.3-1}$$
+$$F_{l\\mathrm{d}}=p_{\\mathrm{s}}A\\tag{5.6.3-2}$$
+$$b_{\\mathrm{m} }=\\dfrac{b_{\\mathrm{t} }+b_{\\mathrm{b} }}{2}\\tag{5.6.3-3}$$
+
+.. raw:: html
+
+ <table border="0" style="font-family:times new roman" id="gongshi">
+ <tr>
+ <td width="50px" align='center' id="eqzs">式中:</td>
+ <td width="50px" align='right' id="eqzs"><i>b</i><sub>t</sub></td>
+ <td width="40px" align='left' id="eqzs">——</td>
+ <td id="eqzs"> 冲切破坏锥体最不利一侧斜截面的上边长：当计算墩柱与基础交接处的抗冲切承载力时，取墩柱宽度；当计算基础变阶处的抗冲切承载力时，取上阶宽度；</td>
+ </tr>
+ <tr>
+ <td  align='center' id="eqzs"> </td>
+ <td  align='right' id="eqzs"><i>b</i><sub>b</sub></td>
+ <td  align='left' id="eqzs">——</td>
+ <td  align='left'id="eqzs"> 冲切破坏锥体最不利一侧斜截面的下边长：当计算墩柱与基础交接处的抗冲切承载力时，取墩柱宽加两倍基础有效高度；当计算基础变阶处的抗冲切承载力时，取上阶宽加两倍该处以下基础的有效高度；</td>
+ </tr>
+ <tr>
+ <td  align='center' id="eqzs"> </td>
+ <td  align='right' id="eqzs"><i>h</i><sub>0</sub></td>
+ <td  align='left' id="eqzs">——</td>
+ <td  align='left'id="eqzs"> 冲切破坏锥体内基础的有效高度；</td>
+ </tr> 
+ <tr>
+ <td  align='center' id="eqzs"> </td>
+ <td  align='right' id="eqzs"><i>p</i><sub>s</sub></td>
+ <td  align='left' id="eqzs">——</td>
+ <td  align='left'id="eqzs">在荷载设计值作用下基底单位面积上的反力(可扣除基础自重及其上的土重),当受偏心荷载时可取最大的单位反力；</td>
+ </tr> 
+ <tr>
+ <td  align='center' id="eqzs"> </td>
+ <td  align='right' id="eqzs"><i>A</i></td>
+ <td  align='left' id="eqzs">——</td>
+ <td  align='left'id="eqzs">考虑冲切荷载时取用的多边形基底面积(<a href="#fig5.6.3">图 5.6.3</a>中的阴影面积 ABCDEF)。</td>
+ </tr>   
+ </table>
+ <p></p> 
+
+
+5.7 局部承压构件
+------------------------
+
+.. raw:: html
+
+ <p style="text-align:justify"><a href="#id5.7.1"> 5.7.1</a> <span id="id5.7.1">配置间接钢筋的混凝土构件，其局部受压区的截面尺寸应满足下列要求：</span></p>
+
+$$\\gamma _{0}F_{l\\mathrm{d} }\\leqslant1.3\\eta_{\\mathrm{s} }\\beta f_{\\mathrm{cd} }{A_{l\\mathrm{n}}}\\tag{5.7.1-1}$$
+$$ \\beta=\\sqrt{\\dfrac{A_{\\mathrm{b}}}{A_{l}}}\\tag{5.7.1-2}$$
+
+.. raw:: html
+
+ <table border="0" style="font-family:times new roman" id="gongshi">
+ <tr>
+ <td width="50px" align='center' id="eqzs">式中:</td>
+ <td width="50px" align='right' id="eqzs"><i>F</i><sub><i>l</i>d</sub></td>
+ <td width="40px" align='left' id="eqzs">——</td>
+ <td id="eqzs"> 局部受压面积上的局部压力设计值，对后张法构件的锚头局压区，应取1.2倍张拉时的最大压力；</td>
+ </tr>
+ <tr>
+ <td  align='center' id="eqzs"> </td>
+ <td  align='right' id="eqzs"><i>f</i><sub>cd</sub></td>
+ <td  align='left' id="eqzs">——</td>
+ <td  align='left'id="eqzs"> 混凝土轴心抗压强度设计值，对后张法预应力混凝土构件，应根据张拉时混凝土立方体抗压强度<i>f '</i><sub>cu</sub>值按<a href="https://jtg-3362.readthedocs.io/zh/latest/03.html#B3.1.4">表3.1.4</a>的规定以直线内插求得；</td>
+ </tr>
+ <tr>
+ <td  align='center' id="eqzs"> </td>
+ <td  align='right' id="eqzs"><i>η</i><sub>s</sub></td>
+ <td  align='left' id="eqzs">——</td>
+ <td  align='left'id="eqzs">混凝土局部承压修正系数，混凝土强度等级为C50 及以下，取<i>η</i><sub>s</sub>=1.0;混凝土强度等级为C50~C80取<i>η</i><sub>s</sub>=1.0~0.76,中间按直线插入取值；</td>
+ </tr> 
+ <tr>
+ <td  align='center' id="eqzs"> </td>
+ <td  align='right' id="eqzs"><i>β</i></td>
+ <td  align='left' id="eqzs">——</td>
+ <td  align='left'id="eqzs">混凝土局部承压强度提高系数；</td>
+ </tr> 
+ <tr>
+ <td  align='center' id="eqzs"> </td>
+ <td  align='right' id="eqzs"><i>A</i><sub>b</sub></td>
+ <td  align='left' id="eqzs">——</td>
+ <td  align='left'id="eqzs">局部受压时的计算底面积，可由计算底面积与局部受压面积按同心、对称原则确定；常用情况，可按<a href="#fig5.7.1">图 5.7.1</a> 确定；</td>
+ </tr> 
+ <tr>
+ <td  align='right' id="eqzs" colspan="2"> <i>A</i><sub><i>l</i>n</sub>、<i>A</i><sub><i>l</i></sub></td>
+ <!-- <td></td> -->
+ <td  align='left' id="eqzs">——</td>
+ <td  align='left'id="eqzs">混凝土局部受压面积，当局部受压面有孔洞时，<i>A</i><sub><i>l</i>n</sub>为扣除孔洞后的面积，<i>A</i><sub><i>l</i></sub>为不扣除孔洞的面积。当受压面设有钢垫板时，局部受压面积应计入在垫板中按 45°刚性角扩大的面积；对于具有喇叭管并与垫板连成整体的锚具，<i>A</i><sub><i>l</i>n</sub>可取垫板面积扣除喇叭管尾端内孔面积。 </td>
+ </tr>    
+ </table>
+ <p></p> 
+
+
+ <div align="center"><img id="fig5.7.1" src="./_static/fig/5.7.1.png" alt="Picture" width="500px"></div>
+  <p style="color: dimgray;text-align: center;">图 5.7.1 局部承压时计算底面积<i>A</i><sub>b</sub>示意</p>
+  <script type="text/javascript">var viewer = new Viewer(document.getElementById('fig5.7.1'));</script>
+
+ <p style="text-align:justify"><a href="#id5.7.2"> 5.7.2</a> <span id="id5.7.2"> 配置间接钢筋的局部受压构件(<a href="#fig5.7.2">图 5.7.2</a>),其局部抗压承载力应按下列规定计算：</span></p>
+
+$$\\gamma _{0}F_{l\\mathrm{d} }\\leqslant0.9(\\eta_{\\mathrm{s} }\\beta f_{\\mathrm{cd} }+k\\rho_{\\mathrm{v} }\\beta_{\\mathrm{cor} }f_{\\mathrm{sd} }){A_{l\\mathrm{n}}}\\tag{5.7.2-1}$$
+$$ \\beta_{\\mathrm{cor}}=\\sqrt{\\dfrac{A_{\\mathrm{cor}}}{A_{l}}}\\tag{5.7.2-2}$$
+
+.. raw:: html
+
+ <p style="text-align:justify;text-indent:2em;" > 间接钢筋体积配筋率(核心面积<i>A</i><sub>cor</sub>范围内单位混凝土体积所含间接钢筋的体积)按下列公式计算：</p>
+
+ <div align="center"><img id="fig5.7.2" src="./_static/fig/5.7.2.png" alt="Picture" width="500px"></div>
+  <p style="color: dimgray;text-align: center;">图 5.7.2 局部承压区域配筋示意</p>
+  <script type="text/javascript">var viewer = new Viewer(document.getElementById('fig5.7.2'));</script>
+
+$$ 方格网\\qquad \\qquad\\rho_{\\mathrm{v} }=\\dfrac{n_{1}A_{\\mathrm{s1} }l_{1}+n_{2}A_{\\mathrm{s2} }l_{2}}{A_{\\mathrm{cor} }S}\\tag{5.7.2-3}$$
+
+.. raw:: html
+
+ <p style="text-align:justify;text-indent:2em;" > 此时，在钢筋网两个方向的钢筋截面面积相差不应大于 50%。</p>
+
+$$螺旋筋\\qquad \\qquad\\qquad\\qquad\\quad\\\rho_{\\mathrm{v} }=\\dfrac{4A_{\\mathrm{ss1} }}{d_{\\mathrm{cor}}S}\\tag{5.7.2-4}$$
+
+
+.. raw:: html
+
+ <table border="0" style="font-family:times new roman" id="gongshi">
+ <tr>
+ <td width="50px" align='center' id="eqzs">式中:</td>
+ <td width="80px" align='right' id="eqzs"><i>β</i><sub>cor</sub></td>
+ <td width="40px" align='left' id="eqzs">——</td>
+ <td id="eqzs"> 配置间接钢筋时局部抗压承载力提高系数，当<i>A</i><sub>cor</sub>><i>A</i><sub>b</sub>时，应取<i>A</i><sub>cor</sub>=<i>A</i><sub>b</sub>;</td>
+ </tr>
+ <tr>
+ <td  align='center' id="eqzs"> </td>
+ <td  align='right' id="eqzs"><i>k</i></td>
+ <td  align='left' id="eqzs">——</td>
+ <td  align='left'id="eqzs"> 间接钢筋影响系数，按<a href="#id5.3.2">第5.3.2条</a>取用；</td>
+ </tr>
+ <tr>
+ <td  align='center' id="eqzs"> </td>
+ <td  align='right' id="eqzs"><i>A</i><sub>cor</sub></td>
+ <td  align='left' id="eqzs">——</td>
+ <td  align='left'id="eqzs"> 方格网或螺旋形间接钢筋内表面范围内的混凝土核芯面积，其形心应与<i>A</i><sub><i>l</i></sub>的形心相重合，计算时按同心、对称原则取值；</td>
+ </tr> 
+ <tr>
+ <td  align='center' id="eqzs"> </td>
+ <td  align='right' id="eqzs"><i>n</i><sub>1</sub>、<i>A</i><sub>s1</sub></td>
+ <td  align='left' id="eqzs">——</td>
+ <td  align='left'id="eqzs">方格网沿<i>l</i><sub>1</sub>方向的钢筋根数、单根钢筋的截面面积；</td>
+ </tr> 
+ <tr>
+ <td  align='center' id="eqzs"> </td>
+ <td  align='right' id="eqzs"><i>n</i><sub>2</sub>、<i>A</i><sub>s2</sub></td>
+ <td  align='left' id="eqzs">——</td>
+ <td  align='left'id="eqzs">方格网沿<i>l</i><sub>2</sub>方向的钢筋根数、单根钢筋的截面面积；</td>
+ </tr> 
+  <tr>
+ <td  align='center' id="eqzs"> </td>
+ <td  align='right' id="eqzs"><i>A</i><sub>ss1</sub></td>
+ <td  align='left' id="eqzs">——</td>
+ <td  align='left'id="eqzs">单根螺旋形间接钢筋的截面面积；</td>
+ </tr> 
+ <tr>
+ <td  align='center' id="eqzs"> </td>
+ <td  align='right' id="eqzs"><i>d</i><sub>cor</sub></td>
+ <td  align='left' id="eqzs">——</td>
+ <td  align='left'id="eqzs">螺旋形间接钢筋内表面范围内混凝土核芯面积的直径；</td>
+ </tr> 
+ <tr>
+ <td  align='center' id="eqzs"> </td>
+ <td  align='right' id="eqzs"><i>S</i></td>
+ <td  align='left' id="eqzs">——</td>
+ <td  align='left'id="eqzs">方格网或螺旋形间接钢筋的层距</td>
+ </tr> 
+ </table>
+ <p></p> 
+
+ <p style="text-align:justify;text-indent:2em;" > 注：方格网钢筋不应少于4层，螺旋形钢筋不应少于4圈；带喇叭管的锚具垫板，板下螺旋筋圈数的长度不应小于喇叭管长度。</p>
+
+
+:math:`\ `

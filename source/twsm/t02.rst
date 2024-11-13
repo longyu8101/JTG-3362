@@ -1,0 +1,28 @@
+2 术语和符号
+=================
+
+.. raw:: html
+
+  <h2 id="test111">2 术语和符号</h2>
+
+
+.. raw:: html
+
+
+ <p style="text-align:justify;text-indent:2em;" > 本章仅将本规范出现的、需要明确定义的术语列出，有关桥梁专业性的通用术语，大家都比较熟悉，没有编入。 </p>
+ <p style="text-align:justify;text-indent:2em;" > 本次修订删除了相关已经定义的常用术语，如原规范中有关可靠度、作用及作用组合等方面的术语；补充了本规范涉及的混凝土结构特有的专用术语，如应力扰动区、拉压杆模型、锚固长度、混凝土保护层厚度等。 </p>
+ <p style="text-align:justify;text-indent:2em;" > 术语的解释，其中有部分是国际公认的，如极限状态等；但大部分则是概括性的涵义，并非国际或国家公认的。术语的英文名称不是标准化名称，仅供引用时参考。 </p>
+ <p style="text-align:justify;text-indent:2em;" > 本章符号按有关材料性能、作用和作用效应、几何参数、计算系数及其他几部分列出，这些符号的主体符号是按现行国家标准的规定采用的；当现行国家标准无统一规定时，则按习惯采用。本规范应用的符号没有被全部列出，本章只列出一些主要的。 </p>
+
+.. raw:: html
+
+    <style>
+        #abc{
+            height:100px;
+            background-color: #f0ffff;
+        }
+    </style>
+ </head>
+ <body>
+    <div id="abc"></div>
+ </body>
