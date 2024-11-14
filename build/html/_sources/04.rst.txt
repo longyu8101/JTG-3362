@@ -525,9 +525,9 @@ $$M^{'}=\\dfrac{1}{8}q\\alpha^{2}\\tag{4.3.5-2}$$
  <p style="text-align:justify"><a href="#id4.4.2"> 4.4.2</a> <span id="id4.4.2">拱桥设计应优选拱轴线，使拱在作用组合下，轴向力的偏心距较小。对大跨径拱桥，如某些截面的结构自重压力线与拱轴线偏离过大，或在结构重力及其所引起的弹性压缩和温度下降、混凝土收缩等作用下轴向力偏心距较大时，应作适当调整，且应考虑拱轴线偏离结构重力压力线引起的偏离弯矩。</span></p>
  <p style="text-align:justify"><a href="#id4.4.3"> 4.4.3</a> <span id="id4.4.3">拱上建筑为立柱排架式墩的箱形截面板拱，应考虑活载的横向不均匀分布。拱上建筑为墙式墩的板拱，当活载横桥向布置不超过拱圈以外时，活载可按均匀分布于拱圈全宽计算。</span></p>
  <p style="text-align:justify"><a href="#id4.4.4"> 4.4.4</a> <span id="id4.4.4">上承式肋式拱桥活载可通过拱上排架墩的盖梁和立柱分配于拱肋。</span></p>
- <p style="text-align:justify"><a href="#id4.4.5"> 4.4.5</a> <span id="id4.4.5">拱上建筑横桥向排架的盖梁可参照<a href="https://jtg-3362.readthedocs.io/zh/latest/8.html#id5">第8.4节</a>计算。</span></p>
+ <p style="text-align:justify"><a href="#id4.4.5"> 4.4.5</a> <span id="id4.4.5">拱上建筑横桥向排架的盖梁可参照<a href="https://jtg-3362.readthedocs.io/zh/latest/08.html#id5">第8.4节</a>计算。</span></p>
  <p style="text-align:justify"><a href="#id4.4.6"> 4.4.6</a> <span id="id4.4.6">拱桥在施工阶段或成拱过程中，应验算各阶段的截面强度和拱的稳定性。</span></p>
- <p style="text-align:justify"><a href="#id4.4.7"> 4.4.7</a> <span id="id4.4.7">拱圈应按本规范<a href="https://jtg-3362.readthedocs.io/zh/latest/5.html#id5.3.1">第5.3.1条</a>验算拱的平面内纵向稳定。此时，拱的轴向力设计值<i>N</i><sub>d</sub>可按下式计算：</span></p>
+ <p style="text-align:justify"><a href="#id4.4.7"> 4.4.7</a> <span id="id4.4.7">拱圈应按本规范<a href="https://jtg-3362.readthedocs.io/zh/latest/05.html#id5.3.1">第5.3.1条</a>验算拱的平面内纵向稳定。此时，拱的轴向力设计值<i>N</i><sub>d</sub>可按下式计算：</span></p>
  
 $$N_{\\mathrm{d}}=H_{\\mathrm{d}}/\\cosφm \\tag{4.4.7}$$
 
@@ -574,7 +574,7 @@ $$M=M_{1}\\cosφ+M_{2}\\sinφ \\tag{4.4.9}$$
  </tr>
  </table>
  <p></p>
- <p style="text-align:justify"><a href="#id4.4.10"> 4.4.10</a> <span id="id4.4.10"> 大跨径拱桥应验算拱顶、拱跨3/8、拱跨1/4和拱脚四个截面；对于中、小跨径拱桥，拱跨 1/4 截面可不验算；特大跨径拱桥，除上述四个截面外，视截面配筋情况，还应选择相应的控制截面进行验算。截面承载力应按本规范<a href="https://jtg-3362.readthedocs.io/zh/latest/5.html#id4">第5.3节</a>的规定进行验算，其构件的计算长度可按本规范<a href="#id4.4.7">第4.4.7条</a>规定采用。</span></p>
+ <p style="text-align:justify"><a href="#id4.4.10"> 4.4.10</a> <span id="id4.4.10"> 大跨径拱桥应验算拱顶、拱跨3/8、拱跨1/4和拱脚四个截面；对于中、小跨径拱桥，拱跨 1/4 截面可不验算；特大跨径拱桥，除上述四个截面外，视截面配筋情况，还应选择相应的控制截面进行验算。截面承载力应按本规范<a href="https://jtg-3362.readthedocs.io/zh/latest/05.html#id4">第5.3节</a>的规定进行验算，其构件的计算长度可按本规范<a href="#id4.4.7">第4.4.7条</a>规定采用。</span></p>
  <p style="text-align:justify"><a href="#id4.4.11"> 4.4.11</a> <span id="id4.4.11"> 多跨无铰拱桥应按连拱计算。当桥墩抗推刚度与主拱抗推刚度之比大于37时，可按单跨拱桥计算。</span></p>
  <p style="text-align:justify"><a href="#id4.4.12"> 4.4.12</a> <span id="id4.4.12"> 桁架拱可采用双铰拱支承体系。桁架拱的节点按固接考虑；当按简化计算时，可将节点按铰接计算，但其下弦截面强度，应留有不小于20%余量</span></p>
  <p style="text-align:justify;text-indent:2em;" > 桁架拱的结构自重可按全跨均布计算，由桁架拱拱片承受；但如采用下弦杆合龙后再拼装其他杆件的施工方法时，下弦杆应承受合龙前的全部结构自重。桥面板可考虑与上弦杆共同承受桥上活荷载。</p>
@@ -726,7 +726,7 @@ $$M=M_{1}\\cosφ+M_{2}\\sinφ \\tag{4.4.9}$$
 
  <p style="text-align:justify"><a href="#id4.5.4"> 4.5.4</a> <span id="id4.5.4">公路桥涵混凝土结构及构件应采取下列耐久性技术措施：</span></p>
  <ol>
- <li>钢筋的混凝土保护层厚度满足本规范<a href="https://jtg-3362.readthedocs.io/zh/latest/9.html#id9.1.1">第9.1.1条</a>的要求。</li>
+ <li>钢筋的混凝土保护层厚度满足本规范<a href="https://jtg-3362.readthedocs.io/zh/latest/09.html#id9.1.1">第9.1.1条</a>的要求。</li>
  <li>预应力混凝土结构中的预应力体系根据具体情况采用相应的多重防护措施。</li>
  <li>有抗渗要求的混凝土结构，混凝土的抗渗等级符合有关标准的要求。</li>
  <li>严寒和寒冷地区的潮湿环境中，混凝土应满足抗冻要求，混凝土抗冻等级符合有关标准的要求。</li>

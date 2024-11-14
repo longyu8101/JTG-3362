@@ -10,7 +10,7 @@
 
 .. raw:: html
 
- <p style="text-align:justify"><a href="#id8.1.1"> 8.1.1</a> <span id="id8.1.1"> 组合式受弯构件的预制构件应按<a href="https://jtg-3362.readthedocs.io/zh/latest/7.html#id3">第7.2节</a>的规定进行施工阶段验算。</span></p>
+ <p style="text-align:justify"><a href="#id8.1.1"> 8.1.1</a> <span id="id8.1.1"> 组合式受弯构件的预制构件应按<a href="https://jtg-3362.readthedocs.io/zh/latest/07.html#id3">第7.2节</a>的规定进行施工阶段验算。</span></p>
  <p style="text-align:justify"><a href="#id8.1.2"> 8.1.2</a> <span id="id8.1.2"> 组合式受弯构件的作用效应应按下列两个阶段进行计算：</span></p>
 
  
@@ -19,7 +19,7 @@
  <li>第二阶段：现浇混凝土层达到强度标准值后，组合梁按整体计算，作用应计算组合构件自重、桥面系自重及使用阶段可变作用。</li>
  </ol>
  <p style="text-align:justify"><a href="#id8.1.3"> 8.1.3</a> <span id="id8.1.3"> 组合式受弯构件宜计算预制构件与现浇混凝土层间由混凝土龄期之差引起的混凝土收缩差效应。(修编)</span></p>
- <p style="text-align:justify"><a href="#id8.1.4"> 8.1.4</a> <span id="id8.1.4"> 组合式受弯构件及其预制构件应按<a href="https://jtg-3362.readthedocs.io/zh/latest/5.html#id3">第5.2节</a>的规定进行正截面抗弯承载力计算，其弯矩设计值应按下列规定采用：</span></p>
+ <p style="text-align:justify"><a href="#id8.1.4"> 8.1.4</a> <span id="id8.1.4"> 组合式受弯构件及其预制构件应按<a href="https://jtg-3362.readthedocs.io/zh/latest/05.html#id3">第5.2节</a>的规定进行正截面抗弯承载力计算，其弯矩设计值应按下列规定采用：</span></p>
 
  <p style="text-align:justify;text-indent:2em;" >对预制构件</p>
 
@@ -63,7 +63,7 @@ $$M_{\\mathrm{d}}=M_{1\\mathrm{Gd}}+M_{2\\mathrm{Gd}}+M_{2\\mathrm{Qd}}\\tag{8.1
  <p></p> 
  <p style="text-align:justify;text-indent:2em;" >对组合构件当现浇混凝土层的强度等级与预制构件强度等级不同时，混凝土强度等级应取现浇混凝土强度等级。</p>
 
- <p style="text-align:justify"><a href="#id8.1.5"> 8.1.5</a> <span id="id8.1.5"> 组合式受弯构件及其预制构件应按<a href="https://jtg-3362.readthedocs.io/zh/latest/5.html#id3">第5.2节</a>的规定分别计算斜截面抗剪、抗弯承载力，其中作用分项系数按<a href="#id8.1.4">第8.1.4条</a>取用，剪力设计值按下列规定采用：</span></p>
+ <p style="text-align:justify"><a href="#id8.1.5"> 8.1.5</a> <span id="id8.1.5"> 组合式受弯构件及其预制构件应按<a href="https://jtg-3362.readthedocs.io/zh/latest/05.html#id3">第5.2节</a>的规定分别计算斜截面抗剪、抗弯承载力，其中作用分项系数按<a href="#id8.1.4">第8.1.4条</a>取用，剪力设计值按下列规定采用：</span></p>
 
  <p style="text-align:justify;text-indent:2em;" >对预制构件</p>
 
@@ -107,18 +107,18 @@ $$V_{\\mathrm{d}}=V_{1\\mathrm{Gd}}+V_{2\\mathrm{Gd}}+V_{2\\mathrm{Qd}}\\tag{8.1
  <p></p> 
  <p style="text-align:justify;text-indent:2em;" >对组合构件，计算斜截面内混凝土和箍筋共同抗剪的承载力设计值 <i>V</i><sub>cs</sub>[公式(5.2.9-2)]时，如现浇混凝土层与预制构件的混凝土强度等级不同，应取两者较低者，但按公式计算的组合构件抗剪承载力设计值不应低于预制构件的抗剪承载力设计值；对预应力混凝土组合构件，取预应力提高系数<i>α</i><sub>2</sub>=1.0。</p>
 
- <p style="text-align:justify"><a href="#id8.1.6"> 8.1.6</a> <span id="id8.1.6">组合式受弯梁当符合<a href="https://jtg-3362.readthedocs.io/zh/latest/9.html#id9.3.16">第9.3.16条</a>和<a href="https://jtg-3362.readthedocs.io/zh/latest/9.html#id9.3.17">第9.3.17条</a>构造要求时，预制构件与现浇混凝土层之间结合面的抗剪承载力应满足下式要求：</span></p>
+ <p style="text-align:justify"><a href="#id8.1.6"> 8.1.6</a> <span id="id8.1.6">组合式受弯梁当符合<a href="https://jtg-3362.readthedocs.io/zh/latest/09.html#id9.3.16">第9.3.16条</a>和<a href="https://jtg-3362.readthedocs.io/zh/latest/09.html#id9.3.17">第9.3.17条</a>构造要求时，预制构件与现浇混凝土层之间结合面的抗剪承载力应满足下式要求：</span></p>
  <p style="text-align:justify"><a href="#id8.1.7"> 8.1.7</a> <span id="id8.1.7">组合式受弯构件，其结合面抗剪承载力应符合下式要求：(修编)</span></p>
- <p style="text-align:justify"><a href="#id8.1.8"> 8.1.8</a> <span id="id8.1.8">使用阶段要求不出现裂缝的预应力混凝土组合式受弯构件，其预制构件和组合构件应分别按<a href="https://jtg-3362.readthedocs.io/zh/latest/6.html#id6.1.1">第6.1.1条</a>、<a href="https://jtg-3362.readthedocs.io/zh/latest/6.html#id6.3.1">第6.3.1条</a>的规定进行正截面抗裂验算。对组合构件，<a href="https://jtg-3362.readthedocs.io/zh/latest/6.html#id6.3.1">第6.3.1条</a>有关公式中的<i>σ</i><sub>pc</sub>取预制构件抗裂边缘混凝土的预压应力，<i>f</i><sub>tk</sub>取预制构件混凝土的抗拉强度标准值。作用频遇组合和准永久组合下构件抗裂验算边缘混凝土的法向拉应力应按下列公式计算：</span></p>
- <p style="text-align:justify"><a href="#id8.1.9"> 8.1.9</a> <span id="id8.1.9">预应力混凝土组合式受弯构件，应按<a href="https://jtg-3362.readthedocs.io/zh/latest/6.html#id6.3.1">第6.3.1条</a>对全预应力混凝土构件、预应力混凝土 A 类构件的要求进行斜截面抗裂验算，混凝土主拉应力应考虑组合构件受力特点，按<a href="https://jtg-3362.readthedocs.io/zh/latest/6.html#id6.3.3">第6.3.3条</a>的规定计算。</span></p>
- <p style="text-align:justify"><a href="#id8.1.10"> 8.1.10</a> <span id="id8.1.10">钢筋混凝土组合构件应验算裂缝宽度。按作用频遇组合并考虑长期效应的影响计算的最大裂缝宽度不应超过<a href="https://jtg-3362.readthedocs.io/zh/latest/6.html#id6.4.2">第6.4.2条</a>规定的限值。</span></p>
+ <p style="text-align:justify"><a href="#id8.1.8"> 8.1.8</a> <span id="id8.1.8">使用阶段要求不出现裂缝的预应力混凝土组合式受弯构件，其预制构件和组合构件应分别按<a href="https://jtg-3362.readthedocs.io/zh/latest/06.html#id6.1.1">第6.1.1条</a>、<a href="https://jtg-3362.readthedocs.io/zh/latest/06.html#id6.3.1">第6.3.1条</a>的规定进行正截面抗裂验算。对组合构件，<a href="https://jtg-3362.readthedocs.io/zh/latest/6.html#id6.3.1">第6.3.1条</a>有关公式中的<i>σ</i><sub>pc</sub>取预制构件抗裂边缘混凝土的预压应力，<i>f</i><sub>tk</sub>取预制构件混凝土的抗拉强度标准值。作用频遇组合和准永久组合下构件抗裂验算边缘混凝土的法向拉应力应按下列公式计算：</span></p>
+ <p style="text-align:justify"><a href="#id8.1.9"> 8.1.9</a> <span id="id8.1.9">预应力混凝土组合式受弯构件，应按<a href="https://jtg-3362.readthedocs.io/zh/latest/06.html#id6.3.1">第6.3.1条</a>对全预应力混凝土构件、预应力混凝土 A 类构件的要求进行斜截面抗裂验算，混凝土主拉应力应考虑组合构件受力特点，按<a href="https://jtg-3362.readthedocs.io/zh/latest/06.html#id6.3.3">第6.3.3条</a>的规定计算。</span></p>
+ <p style="text-align:justify"><a href="#id8.1.10"> 8.1.10</a> <span id="id8.1.10">钢筋混凝土组合构件应验算裂缝宽度。按作用频遇组合并考虑长期效应的影响计算的最大裂缝宽度不应超过<a href="https://jtg-3362.readthedocs.io/zh/latest/06.html#id6.4.2">第6.4.2条</a>规定的限值。</span></p>
  <p style="text-align:justify"><a href="#id8.1.11"> 8.1.11</a> <span id="id8.1.11">钢筋混凝土组合式受弯构件作为整体构件，其最大裂缝宽度可按公式(6.4.3)计算，式中的长期效应影响系数<i>C</i><sub>2</sub>和钢筋应力<i>σ</i><sub>ss</sub>按下列公式计算：</span></p>
  <p style="text-align:justify"><a href="#id8.1.12"> 8.1.12</a> <span id="id8.1.12">组合式受弯构件在正常使用极限状态下的挠度，可根据给定的刚度用结构力学的方法计算。</span></p>
  <p style="text-align:justify"><a href="#id8.1.13"> 8.1.13</a> <span id="id8.1.13">在作用频遇组合下组合式受弯构件的刚度，可按下列规定计算：</span></p>
  <p style="text-align:justify"><a href="#id8.1.14"> 8.1.14</a> <span id="id8.1.14">组合式受弯构件的长期挠度，可在按<a href="#id8.1.13">第8.1.13条</a>刚度计算的挠度值基础上，乘以长期增长系数<i>η</i><sub>0</sub>求得：</span></p>
  <p style="text-align:justify"><a href="#id8.1.15"> 8.1.15</a> <span id="id8.1.15">预应力混凝土受弯组合构件由预加力引起的反拱值，可用结构力学方法按预制构件刚度<i>E</i><sub>c1</sub><i>i</i><sub>01</sub>计算；使用阶段预加力反拱值应将计算结果乘以长期增长系数1.75。在计算中，预应力钢筋的应力应扣除全部预应力损失。</span></p>
- <p style="text-align:justify"><a href="#id8.1.16"> 8.1.16</a> <span id="id8.1.16">组合式受弯构件的预制构件预拱度可按<a href="https://jtg-3362.readthedocs.io/zh/latest/6.html#id6.5.5">第6.5.5条</a>的规定设置。</span></p>
- <p style="text-align:justify"><a href="#id8.1.17"> 8.1.17</a> <span id="id8.1.17">预应力混凝土组合式受弯构件持久状况应力计算，应考虑组合结构的受力特点，按<a href="https://jtg-3362.readthedocs.io/zh/latest/7.html#id2">第7.1节</a>进行。</span></p>
+ <p style="text-align:justify"><a href="#id8.1.16"> 8.1.16</a> <span id="id8.1.16">组合式受弯构件的预制构件预拱度可按<a href="https://jtg-3362.readthedocs.io/zh/latest/06.html#id6.5.5">第6.5.5条</a>的规定设置。</span></p>
+ <p style="text-align:justify"><a href="#id8.1.17"> 8.1.17</a> <span id="id8.1.17">预应力混凝土组合式受弯构件持久状况应力计算，应考虑组合结构的受力特点，按<a href="https://jtg-3362.readthedocs.io/zh/latest/07.html#id2">第7.1节</a>进行。</span></p>
 
 
 8.2 后张预应力混凝土锚固区 (新增)
@@ -128,7 +128,7 @@ $$V_{\\mathrm{d}}=V_{1\\mathrm{Gd}}+V_{2\\mathrm{Gd}}+V_{2\\mathrm{Qd}}\\tag{8.1
 
  <p style="text-align:justify"><a href="#id8.2.1"> 8.2.1</a> <span id="id8.2.1"> 对于后张预应力混凝土构件，其预应力锚固区的承载力应满足下列要求：</span></p>
   <ol>
- <li>局部区的锚下抗压承载力应符合<a href="https://jtg-3362.readthedocs.io/zh/latest/5.html#id8">第5.7节</a>的规定。</li>
+ <li>局部区的锚下抗压承载力应符合<a href="https://jtg-3362.readthedocs.io/zh/latest/05.html#id8">第5.7节</a>的规定。</li>
  <li>体区各受拉部位的抗拉承载力应符合下式规定：</li>
  </ol>
  
@@ -153,7 +153,7 @@ $$\\gamma _{0}T_{(.),\\mathrm{d}}\\leqslant f_{\\mathrm{sd} }A_{\\mathrm{s} }\\t
  <td align='right' id="eqzs" > </td>
  <td  align='right' id="eqzs"><i>A</i><sub>s</sub></td>
  <td  align='left' id="eqzs">——</td>
- <td id="eqzs">拉杆中的普通钢筋面积，按<a href="https://jtg-3362.readthedocs.io/zh/latest/9.html#id9.4.18">第9.4.18条</a>和<a href="https://jtg-3362.readthedocs.io/zh/latest/6.html#id9.4.20">第9.4.20条</a>规定布置范围内的钢筋计算。</td>
+ <td id="eqzs">拉杆中的普通钢筋面积，按<a href="https://jtg-3362.readthedocs.io/zh/latest/09.html#id9.4.18">第9.4.18条</a>和<a href="https://jtg-3362.readthedocs.io/zh/latest/06.html#id9.4.20">第9.4.20条</a>规定布置范围内的钢筋计算。</td>
  </tr> 
  </table>
  <p>注：1.预应力锚固区的范围，对于端部锚固区，横向取梁端全截面，纵向取1.0至1.2倍的梁高或梁宽的较大值；对于三角齿块锚固区，横向取齿块宽度的3倍，纵向取齿块长度外加2倍壁板厚度。<br/>
@@ -431,7 +431,7 @@ $$T_{\\mathrm{R,d}}=P_{\\mathrm{d} }\\alpha \\tag{8.3.2-2}$$
  <p style="text-align:justify"><a href="#id8.4.1"> 8.4.1</a> <span id="id8.4.1"> 墩台盖梁与柱宜按刚架计算，盖梁的计算跨径宜取支承中心的距离。</span></p>
  <p style="text-align:justify"><a href="#id8.4.2"> 8.4.2</a> <span id="id8.4.2"> 盖梁应按下列规定进行结构设计： (修编)</span></p>
   <ol>
-  <li>当盖梁跨中部分的跨高比<i>l</i>/<i>h</i>>5.0时，按<a href="https://jtg-3362.readthedocs.io/zh/latest/5.html">第5章</a>~<a href="https://jtg-3362.readthedocs.io/zh/latest/7.html">第7章</a>钢筋混凝土一般构件计算；当盖梁跨中部分的跨高比为2.5< <i>l</i>/<i>h</i>≤5.0时，按<a href="#id8.4.3">第8.4.3条</a>条~<a href="#id8.4.5">第8.4.5条</a>条进行承载力验算。此处，<i>l</i>为盖梁的计算跨径，<i>h</i>为盖梁的高度。</li>
+  <li>当盖梁跨中部分的跨高比<i>l</i>/<i>h</i>>5.0时，按<a href="https://jtg-3362.readthedocs.io/zh/latest/05.html">第5章</a>~<a href="https://jtg-3362.readthedocs.io/zh/latest/07.html">第7章</a>钢筋混凝土一般构件计算；当盖梁跨中部分的跨高比为2.5< <i>l</i>/<i>h</i>≤5.0时，按<a href="#id8.4.3">第8.4.3条</a>条~<a href="#id8.4.5">第8.4.5条</a>条进行承载力验算。此处，<i>l</i>为盖梁的计算跨径，<i>h</i>为盖梁的高度。</li>
   <li>盖梁(墩帽)的悬臂部分，按<a href="#id8.4.6">第8.4.6条</a>和<a href="#id8.4.7">第8.4.7条</a>进行承载力验算。</li>
   </ol>
  <p style="text-align:justify"><a href="#id8.4.3"> 8.4.3</a> <span id="id8.4.3"> 钢筋混凝土盖梁的正截面抗弯承载力应满足下列公式要求：</span></p>
@@ -573,7 +573,7 @@ $$\\gamma _{0}V_{\\mathrm{d} }\\leqslant 0.5\\times 10^{-4}\\alpha _{1}\\left (1
 
  <p style="text-align:justify"><a href="#id8.4.6"> 8.4.6</a> <span id="id8.4.6"> 钢筋混凝土盖梁的悬臂部分承受竖向力作用时，应符合下列规定：</span></p>
   <ol>
-  <li>当竖向力作用点至柱边缘的水平距离(圆形截面柱可换算为边长等于0.8倍直径的方形截面柱)大于盖梁截面高度时，按<a href="https://jtg-3362.readthedocs.io/zh/latest/5.html">第5章</a>~<a href="https://jtg-3362.readthedocs.io/zh/latest/7.html">第7章</a>钢筋混凝土一般构件计算。</li>
+  <li>当竖向力作用点至柱边缘的水平距离(圆形截面柱可换算为边长等于0.8倍直径的方形截面柱)大于盖梁截面高度时，按<a href="https://jtg-3362.readthedocs.io/zh/latest/5.html">第5章</a>~<a href="https://jtg-3362.readthedocs.io/zh/latest/07.html">第7章</a>钢筋混凝土一般构件计算。</li>
   <li>当竖向力作用点至柱边缘的水平距离等于或小于盖梁截面高度时，可采用拉压杆模型按下列规定计算悬臂上缘拉杆的抗拉承载力(<a href="#fig8.4.6">图 8.4.6</a>):</li>
   </ol>
 
@@ -701,8 +701,8 @@ $$T_{\\mathrm{t,d} }=0.45F_{\\mathrm{d} }\\left ( \\dfrac{2S-b^{'}}{h} \\right )
  <p></p> 
 
 
- <p style="text-align:justify"><a href="#id8.4.8"> 8.4.8</a> <span id="id8.4.8"> 当盖梁跨中部分的跨高比为2.5< <i>l</i>/<i>h</i>≤5.0时，钢筋混凝土盖梁的最大裂缝宽度按<a href="https://jtg-3362.readthedocs.io/zh/latest/6.html#id6.4.3">第6.4.3条</a>的公式计算，但其中系数<i>C</i><sub>3</sub>取为<math xmlns="http://www.w3.org/1998/Math/MathML" d><mstyle displaystyle="true" scriptlevel="0"><mfrac><mn>1</mn><mn>3</mn></mfrac></mstyle><mrow data-mjx-texclass="INNER"><mo data-mjx-texclass="OPEN">(</mo><mstyle displaystyle="true" scriptlevel="0"><mfrac><mrow><mn>0.4</mn><mi>l</mi></mrow><mi>h</mi></mfrac></mstyle><mo>+</mo><mn>1</mn><mo data-mjx-texclass="CLOSE">)</mo></mrow></math>并不应超过<a href="https://jtg-3362.readthedocs.io/zh/latest/6.html#id6.4.2">第6.4.2条</a>的限值。</span></p>
- <p style="text-align:justify"><a href="#id8.4.9"> 8.4.9</a> <span id="id8.4.9">当盖梁跨中部分的跨高比 <i>l</i>/<i>h</i> >5.0时，钢筋混凝土盖梁宜按照本规范<a href="https://jtg-3362.readthedocs.io/zh/latest/6.html#id6">第6.5节</a>的规定进行挠度验算。</span></p>
+ <p style="text-align:justify"><a href="#id8.4.8"> 8.4.8</a> <span id="id8.4.8"> 当盖梁跨中部分的跨高比为2.5< <i>l</i>/<i>h</i>≤5.0时，钢筋混凝土盖梁的最大裂缝宽度按<a href="https://jtg-3362.readthedocs.io/zh/latest/06.html#id6.4.3">第6.4.3条</a>的公式计算，但其中系数<i>C</i><sub>3</sub>取为<math xmlns="http://www.w3.org/1998/Math/MathML" d><mstyle displaystyle="true" scriptlevel="0"><mfrac><mn>1</mn><mn>3</mn></mfrac></mstyle><mrow data-mjx-texclass="INNER"><mo data-mjx-texclass="OPEN">(</mo><mstyle displaystyle="true" scriptlevel="0"><mfrac><mrow><mn>0.4</mn><mi>l</mi></mrow><mi>h</mi></mfrac></mstyle><mo>+</mo><mn>1</mn><mo data-mjx-texclass="CLOSE">)</mo></mrow></math>并不应超过<a href="https://jtg-3362.readthedocs.io/zh/latest/6.html#id6.4.2">第6.4.2条</a>的限值。</span></p>
+ <p style="text-align:justify"><a href="#id8.4.9"> 8.4.9</a> <span id="id8.4.9">当盖梁跨中部分的跨高比 <i>l</i>/<i>h</i> >5.0时，钢筋混凝土盖梁宜按照本规范<a href="https://jtg-3362.readthedocs.io/zh/latest/06.html#id6">第6.5节</a>的规定进行挠度验算。</span></p>
   
 
 8.5 桩基承台
@@ -757,7 +757,7 @@ $$N_{\\mathrm{id} }=\\dfrac{F_{\\mathrm{d}}}{n}\\pm\\dfrac{M_{\\mathrm{xd} }\\ma
   <script type="text/javascript">var viewer = new Viewer(document.getElementById('fig8.45.1'));</script>
 
 
- <p style="text-align:justify"><a href="#id8.5.2"> 8.5.2</a> <span id="id8.5.2"> 当承台下面外排桩中心距墩台身边缘大于承台高度时，其正截面(垂直于x轴和y轴的竖向截面)抗弯承载力可作为悬臂梁按<a href="https://jtg-3362.readthedocs.io/zh/latest/5.html#id3">第5.2节</a>规定计算。</span></p>
+ <p style="text-align:justify"><a href="#id8.5.2"> 8.5.2</a> <span id="id8.5.2"> 当承台下面外排桩中心距墩台身边缘大于承台高度时，其正截面(垂直于x轴和y轴的竖向截面)抗弯承载力可作为悬臂梁按<a href="https://jtg-3362.readthedocs.io/zh/latest/05.html#id3">第5.2节</a>规定计算。</span></p>
  <ol>
  <li> 承台截面计算宽度</li>
  </ol>
@@ -989,7 +989,7 @@ $$\\gamma _{0}T_{\\mathrm{i,d} }\\leqslant f_{\\mathrm{sd} }A_{\\mathrm{s} }\\ta
  <p></p> 
 
 
- <p style="text-align:justify;text-indent:2em;" > 在垂直于拉杆的承台全宽内，拉杆钢筋应按<a href="https://jtg-3362.readthedocs.io/zh/latest/9.html#id9.6.10">第9.6.10条</a>第2款布置。在拉杆计算宽度<i>b</i><sub>s</sub>内的受拉钢筋的配筋率不应小于0.15%。</p>
+ <p style="text-align:justify;text-indent:2em;" > 在垂直于拉杆的承台全宽内，拉杆钢筋应按<a href="https://jtg-3362.readthedocs.io/zh/latest/09.html#id9.6.10">第9.6.10条</a>第2款布置。在拉杆计算宽度<i>b</i><sub>s</sub>内的受拉钢筋的配筋率不应小于0.15%。</p>
  <p style="text-align:justify"><a href="#id8.5.5"> 8.5.5</a> <span id="id8.5.5"> 承台应按下列规定进行冲切承载力验算：</span></p>
 
   <div align="center"><img id="fig8.5.5" src="./_static/fig/8.5.5.png" alt="Picture" width="300px"></div>
@@ -1132,7 +1132,7 @@ $$\\gamma _{0}F_{l\\mathrm{d}}\\leqslant 0.6f_{\\mathrm{td} }h_{0}[\\alpha ^{'}(
 
  <p style="text-align:justify;text-indent:2em;" >按上述各款计算时，圆形截面桩可换算为边长等于0.8倍圆桩直径的方形截面桩。<br/>注：当承台为变厚度时，公式(8.5.5-1)中的<i>h</i><sub>0</sub>取沿柱或墩台边缘垂直截面的承台有效高度；公式(8.5.5-4)、(8.5.5-7)中的<i>h</i><sub>0</sub>取承台边缘截面的有效高度。</p>
 
- <p style="text-align:justify"><a href="#id8.5.6"> 8.5.6</a> <span id="id8.5.6"> 承台在承受局部荷载的部位，应按<a href="https://jtg-3362.readthedocs.io/zh/latest/5.html#id8">第5.7节</a>进行局部承压承载力的验算。</span></p>
+ <p style="text-align:justify"><a href="#id8.5.6"> 8.5.6</a> <span id="id8.5.6"> 承台在承受局部荷载的部位，应按<a href="https://jtg-3362.readthedocs.io/zh/latest/05.html#id8">第5.7节</a>进行局部承压承载力的验算。</span></p>
 
   
 8.6 铰

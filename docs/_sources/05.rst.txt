@@ -96,7 +96,7 @@ $$-(f^{'}_{\\mathrm{pd}}-\\sigma _{\\mathrm{p0i}})\\leqslant\\sigma _{\\mathrm{p
  <td id="eqzs"> </td>
  <td id="eqzs" align='right'><i>σ</i><sub>p0i</sub></td>
  <td id="eqzs">——</td>
- <td id="eqzs">第i层纵向预应力钢筋截面重心处混凝土法向应力等于零时，预应力钢筋中的应力，按<a href="https://jtg-3362.readthedocs.io/zh/latest/6.html#id6.1.6">第6.1.6条</a>条计算。</td>
+ <td id="eqzs">第i层纵向预应力钢筋截面重心处混凝土法向应力等于零时，预应力钢筋中的应力，按<a href="https://jtg-3362.readthedocs.io/zh/latest/06.html#id6.1.6">第6.1.6条</a>条计算。</td>
  </tr>
  </table>
  <p></p>
@@ -1384,13 +1384,13 @@ $$e=\\eta e_{0}+\\dfrac{h}{2}-\\alpha \\tag{5.3.4-3}$$
  <td align='center' id="eqzs"> </td>
  <td align='right' id="eqzs"><i>η</i></td>
  <td align='left' id="eqzs">——</td>
- <td id="eqzs">偏心受压构件轴向力偏心距增大系数，按<a href="https://jtg-3362.readthedocs.io/zh/latest/5.html#id5.3.9">第5.3.9条</a>的规定计算。</td>
+ <td id="eqzs">偏心受压构件轴向力偏心距增大系数，按<a href="https://jtg-3362.readthedocs.io/zh/latest/05.html#id5.3.9">第5.3.9条</a>的规定计算。</td>
  </tr> 
  </table>
  <p></p>  
  <p style="text-align:justify;text-indent:2em;" > 截面受拉边或受压较小边纵向钢筋的应力<i>σ</i><sub>s</sub>和<i>σ</i><sub>p</sub>应按下列情况采用：</p>
  <p style="text-align:justify;text-indent:2em;" > 当<i>ξ</i>≤<i>ξ</i><sub>b</sub>点时为大偏心受压构件，取 <i>σ</i><sub>s</sub>=<i>f</i><sub>sd</sub>,<i>σ</i><sub>p</sub>=<i>f</i><sub>pd</sub>,此处，相对受压区高度<i>ξ</i>=<i>x</i>/<i>h</i><sub>0</sub>;</p>
- <p style="text-align:justify;text-indent:2em;" > 当<i>ξ</i>>5时为小偏心受压构件，<i>σ</i><sub>s</sub>和<i>σ</i><sub>p</sub>按<a href="https://jtg-3362.readthedocs.io/zh/latest/5.html#id5.1.5">第5.1.5条</a>的规定计算。</p>
+ <p style="text-align:justify;text-indent:2em;" > 当<i>ξ</i>>5时为小偏心受压构件，<i>σ</i><sub>s</sub>和<i>σ</i><sub>p</sub>按<a href="https://jtg-3362.readthedocs.io/zh/latest/05.html#id5.1.5">第5.1.5条</a>的规定计算。</p>
  <p style="text-align:justify;text-indent:2em;" > 在承载力计算中，若考虑截面受压较大边的纵向受压钢筋时，受压区高度应符合公式(5.2.2-4)、(5.2.2-5)的要求。</p>   
  <p style="text-align:justify;text-indent:2em;" > 对小偏心受压构件，当轴向力作用在纵向钢筋<i>A '</i><sub>s</sub>和<i>A '</i><sub>p</sub>合力点与<i>A '</i><sub>s</sub>和<i>A '</i><sub>p</sub>合力点之间时，抗压承载力计算尚应符合下列规定：</p> 
 
@@ -1447,7 +1447,7 @@ $${\\scriptsize \\gamma _{0}N_{\\mathrm{d}}e\\leqslant f_{\\mathrm{cd}}\\left[bx
 
 .. raw:: html
 
- <p style="text-align:justify;text-indent:2em;" > 截面受拉边或受压较小边纵向钢筋的应力<i>σ</i><sub>s</sub>和<i>σ</i><sub>p</sub>的确定，以及考虑截面受压较大边受压钢筋时，受压区高度<i>x</i>应符合的条件，均应按<a href="https://jtg-3362.readthedocs.io/zh/latest/5.html#id5.3.4">第5.3.4条</a>的规定办理。</p> 
+ <p style="text-align:justify;text-indent:2em;" > 截面受拉边或受压较小边纵向钢筋的应力<i>σ</i><sub>s</sub>和<i>σ</i><sub>p</sub>的确定，以及考虑截面受压较大边受压钢筋时，受压区高度<i>x</i>应符合的条件，均应按<a href="https://jtg-3362.readthedocs.io/zh/latest/05.html#id5.3.4">第5.3.4条</a>的规定办理。</p> 
  <p style="text-align:justify;text-indent:2em;" > 翼缘位于截面受拉边或受压较小边的T形截面和I形截面构件，当<i>x</i>><i>h</i>-<i>h</i><sub>f</sub>时，其正截面抗压承载力计算应考虑翼缘受压部分的作用。</p> 
  <p style="text-align:justify;text-indent:2em;" > 对翼缘位于截面受压较大边的T形截面小偏心受压构件，当轴向力作用在纵向钢筋<i>A '</i><sub>s</sub>和<i>A '</i><sub>p</sub>合力点与<i>A</i><sub>s</sub>和<i>A</i><sub>p</sub>合力点之间时，尚应按下列规定进行计算：</p> 
 
@@ -1688,13 +1688,13 @@ $$\\gamma _{0}N_{\\mathrm{d}}\\leqslant \\dfrac{1}{\\dfrac{1}{N_{\\mathrm{ux}}}+
  <td align='center' id="eqzs"> </td>
  <td align='right' id="eqzs"><i>N</i><sub>ux</sub></td>
  <td align='left' id="eqzs">——</td>
- <td id="eqzs">按轴向力作用于<i>x</i>轴、并考虑相应的偏心距<i>η</i><sub>x</sub><i>e</i><sub>ox</sub>后，计入全部纵向钢筋计算的构件偏心抗压承载力设计值，此处<i>η</i><sub>x</sub>按<a href="https://jtg-3362.readthedocs.io/zh/latest/5.html#id5.3.9">第5.3.9条</a>规定计算；当纵向钢筋配置在截面上下两边时，<i>N</i><sub>ux</sub>可按<a href="https://jtg-3362.readthedocs.io/zh/latest/5.html#id5.3.4">第5.3.4条</a>或<a href="https://jtg-3362.readthedocs.io/zh/latest/5.html#id5.3.5">第5.3.5条</a>的规定计算；当纵向钢筋沿截面腹部均匀配置时，<i>N</i><sub>ux</sub>可按第5.3.7条规定计算；在上述计算中，公式均取等号，以<i>N</i><sub>ux</sub>代替 <i>γ</i><sub>0</sub><i>N</i><sub>d</sub>;</td>
+ <td id="eqzs">按轴向力作用于<i>x</i>轴、并考虑相应的偏心距<i>η</i><sub>x</sub><i>e</i><sub>ox</sub>后，计入全部纵向钢筋计算的构件偏心抗压承载力设计值，此处<i>η</i><sub>x</sub>按<a href="https://jtg-3362.readthedocs.io/zh/latest/05.html#id5.3.9">第5.3.9条</a>规定计算；当纵向钢筋配置在截面上下两边时，<i>N</i><sub>ux</sub>可按<a href="https://jtg-3362.readthedocs.io/zh/latest/5.html#id5.3.4">第5.3.4条</a>或<a href="https://jtg-3362.readthedocs.io/zh/latest/5.html#id5.3.5">第5.3.5条</a>的规定计算；当纵向钢筋沿截面腹部均匀配置时，<i>N</i><sub>ux</sub>可按第5.3.7条规定计算；在上述计算中，公式均取等号，以<i>N</i><sub>ux</sub>代替 <i>γ</i><sub>0</sub><i>N</i><sub>d</sub>;</td>
  </tr> 
  <tr>
  <td align='center' id="eqzs"> </td>
  <td align='right' id="eqzs"><i>N</i><sub>uy</sub></td>
  <td align='left' id="eqzs">——</td>
- <td id="eqzs">按轴向力作用于<i>y</i>轴，并考虑相应的偏心距<i>η</i><sub>y</sub><i>e</i><sub>oy</sub>后，计入全部纵向钢筋计算的构件偏心抗压承载力设计值，此处<i>η</i><sub>y</sub>按<a href="https://jtg-3362.readthedocs.io/zh/latest/5.html#id5.3.9">第5.3.9条</a>规定计算；<i>N</i><sub>uy</sub>的计算所考虑的方法和计算公式与<i>N</i><sub>ux</sub>相同。</td>
+ <td id="eqzs">按轴向力作用于<i>y</i>轴，并考虑相应的偏心距<i>η</i><sub>y</sub><i>e</i><sub>oy</sub>后，计入全部纵向钢筋计算的构件偏心抗压承载力设计值，此处<i>η</i><sub>y</sub>按<a href="https://jtg-3362.readthedocs.io/zh/latest/05.html#id5.3.9">第5.3.9条</a>规定计算；<i>N</i><sub>uy</sub>的计算所考虑的方法和计算公式与<i>N</i><sub>ux</sub>相同。</td>
  </tr> 
  </table>
  <p></p> 
@@ -1773,7 +1773,7 @@ $$ \\gamma _{0}N_{\\mathrm{d}}\\leqslant \\dfrac{1}{\\dfrac{1}{N_{\\mathrm{ud}}}
  <td align='right' id="eqzs" colspan="2"> <i>M</i><sub>ux</sub>、<i>M</i><sub>uy</sub></td>
  <!-- <td></td> -->
  <td align='left' id="eqzs">——</td>
- <td id="eqzs"><i>x</i>轴、<i>y</i>轴方向的正截面抗弯承载力设计值，按<a href="https://jtg-3362.readthedocs.io/zh/latest/5.html#id3">第5.2节</a>的规定计算。</td>
+ <td id="eqzs"><i>x</i>轴、<i>y</i>轴方向的正截面抗弯承载力设计值，按<a href="https://jtg-3362.readthedocs.io/zh/latest/05.html#id3">第5.2节</a>的规定计算。</td>
  </tr> 
  </table>
  <p></p> 
@@ -1801,7 +1801,7 @@ $$\\gamma _{0}N_{\\mathrm{d}}\\leqslant \\dfrac{1}{\\dfrac{1}{N_{\\mathrm{ud}}}+
  <td  align='center' id="eqzs"> </td>
  <td  align='right' id="eqzs"><i>M</i><sub>ud</sub></td>
  <td  align='left' id="eqzs">——</td>
- <td  align='left'id="eqzs">正截面抗弯承载力设计值，取<i>N</i><sub>ud</sub>=0 按<a href="https://jtg-3362.readthedocs.io/zh/latest/5.html#id5.3.8">第5.3.8条</a>规定计算。</td>
+ <td  align='left'id="eqzs">正截面抗弯承载力设计值，取<i>N</i><sub>ud</sub>=0 按<a href="https://jtg-3362.readthedocs.io/zh/latest/05.html#id5.3.8">第5.3.8条</a>规定计算。</td>
  </tr>
  </table>
  <p></p> 
@@ -1879,7 +1879,7 @@ $$\\xi =\\dfrac{f_{\\mathrm{sd} }A_{\\mathrm{st} }S_{\\mathrm{v}}}{f_{\\mathrm{s
  <td  align='center' id="eqzs"> </td>
  <td  align='right' id="eqzs"><i>W</i><sub>t</sub></td>
  <td  align='left' id="eqzs">——</td>
- <td  align='left'id="eqzs">矩形截面或箱形截面受扭塑性抵抗矩，按<a href="https://jtg-3362.readthedocs.io/zh/latest/5.html#id5.5.2">第5.5.2条</a>的规定计算；</td>
+ <td  align='left'id="eqzs">矩形截面或箱形截面受扭塑性抵抗矩，按<a href="https://jtg-3362.readthedocs.io/zh/latest/05.html#id5.5.2">第5.5.2条</a>的规定计算；</td>
  </tr>
  <tr>
  <td  align='center' id="eqzs"> </td>
@@ -1964,7 +1964,7 @@ $$\\dfrac{\\gamma _{0}V_{\\mathrm{d} }}{bh_{0}}+\\dfrac{\\gamma _{0}T_{\\mathrm{
 
 .. raw:: html
 
- <p style="text-align:justify;text-indent:2em;" > 可不进行构件的抗扭承载力计算，仅需按<a href="https://jtg-3362.readthedocs.io/zh/latest/5.html#id9.3.13">第9.3.13条</a>规定配置构造钢筋。</p>
+ <p style="text-align:justify;text-indent:2em;" > 可不进行构件的抗扭承载力计算，仅需按<a href="https://jtg-3362.readthedocs.io/zh/latest/05.html#id9.3.13">第9.3.13条</a>规定配置构造钢筋。</p>
 
  <table border="0" style="font-family:times new roman" id="gongshi">
  <tr>
@@ -2006,7 +2006,7 @@ $$\\dfrac{\\gamma _{0}V_{\\mathrm{d} }}{bh_{0}}+\\dfrac{\\gamma _{0}T_{\\mathrm{
  </table>
  <p></p> 
 
- <p style="text-align:justify;text-indent:2em;" > 公式(5.5.3-2)中的<i>α</i><sub>2</sub>见<a href="https://jtg-3362.readthedocs.io/zh/latest/5.html#id5.2.9">第5.2.9条</a>，当按<a href="https://jtg-3362.readthedocs.io/zh/latest/5.html#id5.5.1">第5.5.1条</a>规定可不考虑预应力影响时i>α</i><sub>2</sub>=1。</p>
+ <p style="text-align:justify;text-indent:2em;" > 公式(5.5.3-2)中的<i>α</i><sub>2</sub>见<a href="https://jtg-3362.readthedocs.io/zh/latest/05.html#id5.2.9">第5.2.9条</a>，当按<a href="https://jtg-3362.readthedocs.io/zh/latest/05.html#id5.5.1">第5.5.1条</a>规定可不考虑预应力影响时i>α</i><sub>2</sub>=1。</p>
  <p style="text-align:justify"><a href="#id5.5.4"> 5.5.4</a> <span id="id5.5.4">矩形和箱形截面剪扭构件，其抗剪扭承载力应按下式计算：</span></p>
 
  <p style="text-align:justify;text-indent:2em;" > 当符合下列条件时</p>
