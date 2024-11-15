@@ -145,7 +145,6 @@ $$\\varepsilon _{1}=\\varepsilon _{\\mathrm{s}}+(\\varepsilon _{\\mathrm{s}}+0.0
  <td  align='left' id="eqzs">——</td>
  <td id="eqzs">拉杆方向钢筋的拉应变。当拉杆由普通钢筋组成时，按拉杆的作用组合内力设计值计算；若拉杆为预应力钢筋，在其周边混凝土未消压前取<math xmlns="http://www.w3.org/1998/Math/MathML" ><msub><mi>ε</mi><mrow><mrow><mi mathvariant="normal">s</mi></mrow></mrow></msub><mo>=</mo><mn>0.0</mn></math>，在消压之后取<math xmlns="http://www.w3.org/1998/Math/MathML" ><msub><mi>ε</mi><mrow><mrow><mi mathvariant="normal">s</mi></mrow></mrow></msub><mo>=</mo><mo stretchy="false">(</mo><msub><mi>f</mi><mrow><mrow><mi mathvariant="normal">p</mi><mi mathvariant="normal">d</mi></mrow></mrow></msub><mo>−</mo><msub><mi>f</mi><mrow><mrow><mi mathvariant="normal">p</mi><mi mathvariant="normal">e</mi></mrow></mrow></msub><mo stretchy="false">)</mo><mrow><mo>/</mo></mrow><msub><mi>E</mi><mrow><mrow><mi mathvariant="normal">p</mi></mrow></mrow></msub></math>。</td>
  </tr>
-
  </table>
  <p></p> 
 

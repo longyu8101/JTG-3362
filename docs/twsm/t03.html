@@ -19,6 +19,7 @@
         <script src="../_static/_sphinx_javascript_frameworks_compat.js"></script>
         <script src="../_static/doctools.js"></script>
         <script src="../_static/sphinx_highlight.js"></script>
+        <script async="async" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
     <script src="../_static/js/theme.js"></script>
     <link rel="index" title="索引" href="../genindex.html" />
     <link rel="search" title="搜索" href="../search.html" />
@@ -117,19 +118,86 @@
 <h1>3 材料<a class="headerlink" href="#id1" title="此标题的永久链接"></a></h1>
 <h2 id="test111">3 材料</h2><section id="id2">
 <h2>3.1 混凝土<a class="headerlink" href="#id2" title="此标题的永久链接"></a></h2>
-<p style="text-align:justify"><a href="#idt3.1.1"> 3.1.1</a> <span id="idt3.1.1"> 抗压强度标准值系指试件用标准方法制作，标准养护至28d(由于粉煤灰等矿物掺合料在水泥及混凝土中大量应用，可根据具体情况适当延长试验龄期),以标准试验方法测得的具有95??证率的抗压强度值(以MPa计)。本规范采用的混凝土标准试件尺寸和强度标准值取值原则与国际标准和《混凝土结构设计规范》(GB50010)一致。</span></p>
+<p style="text-align:justify"><a href="#idt3.1.1"> 3.1.1</a> <span id="idt3.1.1"> 抗压强度标准值系指试件用标准方法制作，标准养护至28d(由于粉煤灰等矿物掺合料在水泥及混凝土中大量应用，可根据具体情况适当延长试验龄期),以标准试验方法测得的具有95%证率的抗压强度值(以MPa计)。本规范采用的混凝土标准试件尺寸和强度标准值取值原则与国际标准和《混凝土结构设计规范》(GB50010)一致。</span></p>
+<p style="text-align:justify;text-indent:2em;" > 本条所提混凝土强度等级，就其意义相当于《桥规JTJ023-85》的混凝土标号，但两者有所不同，混凝土标号为边长200 mm的立方体试件、具有85%证率的抗压强度值；混凝土强度等级为边长150 mm的立方体试件、具有95%证率的抗压强度值。混凝土强度等级与混凝土标号的换算关系如下：</p>
+<p style="text-align:justify;text-indent:2em;" > 本规范的混凝土强度等级<math xmlns="http://www.w3.org/1998/Math/MathML" ><msub><mi>f</mi><mrow><mrow><mi mathvariant="normal">c</mi><mi mathvariant="normal">u</mi><mo>,</mo><mi mathvariant="normal">k</mi></mrow></mrow></msub></math>为</p><p>$$f_{\mathrm{cu,k}}=\mu_{\mathrm{f150}}-1.645\sigma _{\mathrm{f150}}=\mu_{\mathrm{f150}}(1-1.645\delta _{\mathrm{f150}})\tag{3-1}$$</p>
+<p style="text-align:justify;text-indent:2em;" > 式中<math xmlns="http://www.w3.org/1998/Math/MathML" ><msub><mi>μ</mi><mrow><mrow><mi mathvariant="normal">f150</mi></mrow></mrow></msub></math>、<math xmlns="http://www.w3.org/1998/Math/MathML" ><msub><mi>σ</mi><mrow><mrow><mi mathvariant="normal">f150</mi></mrow></mrow></msub></math>和<math xmlns="http://www.w3.org/1998/Math/MathML" ><msub><mi>δ</mi><mrow><mrow><mi mathvariant="normal">f150</mi></mrow></mrow></msub></math>为边长150 mm试件抗压强度的平均值、标准差和变异系数。《桥规JTJ023-85》的混凝土标号<math xmlns="http://www.w3.org/1998/Math/MathML" ><msup><mi>R</mi><mrow><mrow><mi mathvariant="normal">b</mi></mrow></mrow></msup></math>为</p><p>$$R^{\mathrm{b}}=\mu_{\mathrm{R200}}-\sigma _{\mathrm{R200}}=\mu_{\mathrm{R200}}(1-\delta _{\mathrm{R200}})\tag{3-2}$$</p>
+<p style="text-align:justify;text-indent:2em;" > 式中<math xmlns="http://www.w3.org/1998/Math/MathML" ><msub><mi>μ</mi><mrow><mrow><mi mathvariant="normal">R200</mi></mrow></mrow></msub></math>、<math xmlns="http://www.w3.org/1998/Math/MathML" ><msub><mi>σ</mi><mrow><mrow><mi mathvariant="normal">R200</mi></mrow></mrow></msub></math>和<math xmlns="http://www.w3.org/1998/Math/MathML" ><msub><mi>δ</mi><mrow><mrow><mi mathvariant="normal">R200</mi></mrow></mrow></msub></math>为边长200 mm 试件抗压强度的平均值、标准差和变异系数。</p><p>$$两者平均值关系\hspace{2cm}\mu_{\mathrm{R200}}=0.95\mu _{\mathrm{f150}}\tag{3-3}$$
+$$变异系数取\hspace{3cm}\delta _{\mathrm{R200}}=\delta _{\mathrm{f150}}=\delta_{\mathrm{f} }\tag{3-4}$$
+$$\begin{matrix}  &amp;\hspace{2cm} f_{\mathrm{cu,k}} &amp;=\mu_{150}(1-1.645\delta _{150})=\dfrac{\mu_{200}}{0.95} (1-1.645\delta _{150})\\ \hspace{-3cm}得到 &amp;  &amp; \\  &amp;  &amp;\hspace{-1.3cm} =\dfrac{1-1.645\delta _{150}}{0.95(1-\delta _{200})}R^{\mathrm{b} }=\dfrac{1-1.645\delta _{\mathrm{f} }}{0.95(1-\delta _{\mathrm{f} })}R^{\mathrm{b}}\end{matrix}\tag{3-5}$$</p>
+<p style="text-align:justify;text-indent:2em;" > 混凝土的变异系数<math xmlns="http://www.w3.org/1998/Math/MathML" ><msub><mi>δ</mi><mrow><mrow><mi mathvariant="normal">f</mi></mrow></mrow></msub></math>可按<a href="#Bt3.1">表3-1</a>采用。</p>
+    <style>
+    #biaoge {
+        border: 2px solid black;
+        border-collapse: collapse;
+        margin-bottom:1px;
+
+     }
+     th, td {
+        padding-top: 5px;
+        padding-bottom:5px;
+        padding-left:5px;
+        padding-right:5px;
+        border: 1px solid black;
+
+     }
+     #eqzs {
+        border: 0px;
+     }
+     #dhbg {
+       vertical-align: middle;
+     }
+    </style>
+
+               <table id="biaoge" style="font-family:times new roman">
+
+        <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="Bt3.1">表3-1 混凝土的变异系数</b></caption>
+
+                   <tr>
+                  <td  align="center" id="dhbg" width="100"><math xmlns="http://www.w3.org/1998/Math/MathML" ><msub><mi>f</mi><mrow><mrow><mi mathvariant="normal">c</mi><mi mathvariant="normal">u</mi><mo>,</mo><mi mathvariant="normal">k</mi></mrow></mrow></msub></math></td>
+                  <td  align="center" id="dhbg" width="100">C25</td>
+                        <td  align="center" id="dhbg" width="100">C30</td>
+                        <td  align="center" id="dhbg" width="100">C35</td>
+                        <td  align="center" id="dhbg" width="100">C40</td>
+                        <td  align="center" id="dhbg" width="100">C45</td>
+                        <td  align="center" id="dhbg" width="100">C50</td>
+                        <td  align="center" id="dhbg" width="100">C55</td>
+                        <td  align="center" id="dhbg" width="100">C60</td>
+                   </tr>
+                   <tr>
+                        <td  align="center" id="dhbg" ><math xmlns="http://www.w3.org/1998/Math/MathML" ><msub><mi>δ</mi><mrow><mrow><mi mathvariant="normal">f</mi></mrow></mrow></msub></math></td>
+                        <td  align="center" id="dhbg" >0.16</td>
+                        <td  align="center" id="dhbg" >0.14</td>
+                        <td  align="center" id="dhbg" >0.13</td>
+                        <td  align="center" id="dhbg" >0.12</td>
+                        <td  align="center" id="dhbg" >0.12</td>
+                        <td  align="center" id="dhbg" >0.11</td>
+                        <td  align="center" id="dhbg" >0.11</td>
+                        <td  align="center" id="dhbg" >0.10</td>
+                   </tr>
+               </table>
+<p></p>
 
 
-<p style="text-align:justify"><a href="#idt3.1.2"> 3.1.2</a> <span id="idt3.1.2"> 本条是对公路桥涵受力构件用混凝土强度等级下限的规定，作了以下变动：钢筋混凝土构件的混凝土强度等级下限均提高一级：钢筋混凝土构件的混凝土强度等级由“不应低于C20”改为“不低于C25”;当采用HRB400、HRB500、HRBF400、RRB400级钢筋时，由“不应低于C25”改为“不低于C30”。</span></p>
-
-
+<p style="text-align:justify"><a href="#idt3.1.2"> 3.1.2</a> <span id="idt3.1.2"> 本条是对公路桥涵受力构件用混凝土强度等级下限的规定，作了以下变动：钢筋混凝土构件的混凝土强度等级下限均提高一级：钢筋混凝土构件的混凝土强度等级由“不应低于C20”改为“不低于C25”；当采用HRB400、HRB500、HRBF400、RRB400级钢筋时，由“不应低于C25”改为“不低于C30”。</span></p>
+<p style="text-align:justify;text-indent:2em;" >预应力混凝土构件采用的预应力钢筋以钢绞线和钢丝为主，所以构件的混凝土强度等级取C40,与原规范相同。</p>
 <p style="text-align:justify"><a href="#idt3.1.3"> 3.1.3</a> <span id="idt3.1.3"> 本条给出了混凝土轴心强度的标准值，现说明如下：</span></p>
 
-<p style="text-align:justify"><a href="#idt3.1.4"> 3.1.4</a> <span id="idt3.1.4"> 构件混凝土轴心抗压强度设计值<i>f</i><sub>cd</sub>,由混凝土轴心抗压强度标准值除以混凝土材料分项系数<i>γ</i><sub>fc</sub>=1.45 获得。混凝土材料分项系数的取值，接近于按二级安全等级结构分析的脆性破坏构件目标可靠指标的要求。</span></p>
+
+
+
+<p style="text-align:justify"><a href="#idt3.1.4"> 3.1.4</a> <span id="idt3.1.4"> 构件混凝土轴心抗压强度设计值<math xmlns="http://www.w3.org/1998/Math/MathML" ><msub><mi>f</mi><mrow><mrow><mi mathvariant="normal">cd</mi></mrow></mrow></msub></math>，由混凝土轴心抗压强度标准值除以混凝土材料分项系数<math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mi>γ</mi><mrow><mrow><mi mathvariant="normal">f</mi><mi mathvariant="normal">c</mi></mrow></mrow></msub><mo>=</mo><mn>1.45</mn></math>获得。混凝土材料分项系数的取值，接近于按二级安全等级结构分析的脆性破坏构件目标可靠指标的要求。</span></p>
+
+<p style="text-align:justify;text-indent:2em;" >构件混凝土轴心抗拉强度设计值<math xmlns="http://www.w3.org/1998/Math/MathML" ><msub><mi>f</mi><mrow><mrow><mi mathvariant="normal">td</mi></mrow></mrow></msub></math>,在混凝土轴心抗拉强度标准值的基础上，除以与混凝土轴心抗压强度相同的材料分项系数。</p>
+<p style="text-align:justify;text-indent:2em;" >本次修订删除了原规范表注中受压构件尺寸效应的规定。该规定源于前苏联规范，最近俄罗斯规范已经取消该规定。</p>
+
 <p style="text-align:justify"><a href="#idt3.1.5"> 3.1.5</a> <span id="idt3.1.5"> 、<a href="#idt3.1.6"> 3.1.6</a> <span id="idt3.1.6"><b>混凝土的</b>弹性模量、剪切变形模量和泊松比同原规范的规定。混凝土弹性模量按下列公式计算得到：</span></p></section>
 <section id="id3">
 <h2>3.2 钢筋<a class="headerlink" href="#id3" title="此标题的永久链接"></a></h2>
-<p style="text-align:justify"><a href="#idt3.2.1"> 3.2.1</a> <span id="idt3.2.1"> 本条选用的钢筋品种主要来自最新颁布的国家标准，有以下几点说明：</span></p></section>
+<p style="text-align:justify"><a href="#idt3.2.1"> 3.2.1</a> <span id="idt3.2.1"> 本条选用的钢筋品种主要来自最新颁布的国家标准，有以下几点说明：</span></p>
+
+<p style="text-align:justify"><a href="#idt3.2.2"> 3.2.2</a> <span id="idt3.2.2"> 、<a href="#idt3.2.3"> 3.2.3</a> <span id="idt3.2.3">本规范钢筋强度指标的确定原则，具体说明如下：</span></p><p><span class="math notranslate nohighlight">\(\ \)</span></p>
+</section>
 </section>
 
 
