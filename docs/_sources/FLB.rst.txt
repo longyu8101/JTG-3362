@@ -149,15 +149,15 @@ $$\\varepsilon _{1}=\\varepsilon _{\\mathrm{s}}+(\\varepsilon _{\\mathrm{s}}+0.0
  <p></p> 
 
 
- <div align="center"><img id="figB.3.3.1" src="./_static/fig/B.3.3.1.png" alt="Picture" width="300px"></div>
+ <div align="center"><img id="figB.3.3.1" src="./_static/fig/B.3.3.1.png" alt="Picture" width="400px"></div>
  <p style="color: dimgray;text-align: center;">图 B.3.3-1 由钢筋锚固所形成的的压杆和CTT节点区</p>
  <script type="text/javascript">var viewer = new Viewer(document.getElementById('figB.3.3.1'));</script>
 
-  <div align="center"><img id="figB.3.3.2" src="./_static/fig/B.3.3.2.png" alt="Picture" width="150px"></div>
+  <div align="center"><img id="figB.3.3.2" src="./_static/fig/B.3.3.2.png" alt="Picture" width="250px"></div>
  <p style="color: dimgray;text-align: center;">图 B.3.3-2 由钢筋和支承约束形成的压杆和CCT节点区</p>
  <script type="text/javascript">var viewer = new Viewer(document.getElementById('figB.3.3.2'));</script>
 
-  <div align="center"><img id="figB.3.3.3" src="./_static/fig/B.3.3.3.png" alt="Picture" width="150px"></div>
+  <div align="center"><img id="figB.3.3.3" src="./_static/fig/B.3.3.3.png" alt="Picture" width="250px"></div>
  <p style="color: dimgray;text-align: center;">图 B.3.3-3 集中力下的压杆和CCC节点区</p>
  <script type="text/javascript">var viewer = new Viewer(document.getElementById('figB.3.3.3'));</script>
 

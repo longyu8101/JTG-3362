@@ -10,21 +10,53 @@ B.1  一般规定
 
 .. raw:: html
 
- <p style="text-align:justify"><a href="#idtB.1.1"> B.1.1</a> <span id="idtB.1.1">  </span></p>  
- <p style="text-align:justify"><a href="#idtB.1.2"> B.1.2</a> <span id="idtB.1.2">  </span></p>  
- 
+ <p style="text-align:justify"><a href="#idtB.1.1"> B.1.1</a> <span id="idtB.1.1"> 混凝土结构内部的力流扰动，主要来源于两种因素：一是集中力的作用( <a href="#figTB.1">图 B-1</a>),应力扰动区的范围取一倍梁高；二是截面几何尺寸的突变( <a href="#figTB.2">图 B-2</a>),应力扰动区的范围取毗邻区的梁高。</span></p>  
+
+
+
+ <div align="center"><img id="figTB.1" src="../_static/fig/TB.1.png" alt="Picture" width="350px"></div>
+  <p style="color: dimgray;text-align: center;">图 B-1 承受集中力作用的部位</p>
+  <script type="text/javascript">var viewer = new Viewer(document.getElementById('figTB.1'));</script>
+ <div align="center"><img id="figTB.2" src="../_static/fig/TB.2.png" alt="Picture" width="350px"></div>
+  <p style="color: dimgray;text-align: center;">图 B-2 几何形状突变的部位</p>
+  <script type="text/javascript">var viewer = new Viewer(document.getElementById('figTB.2'));</script>
+
+ <p style="text-align:justify"><a href="#idtB.1.2"> B.1.2</a> <span id="idtB.1.2"> 拉压杆模型是从混凝土结构连续体内抽象出的一种简化力流分析模型，由压杆、拉杆和节点组成，用以反映结构内部的传力路径。例如， <a href="#figTB.3">图 B-3</a>示出了一种深梁内集中力传递的拉压杆模型，以及一种端部锚固区内集中锚固力扩散的拉压杆模型。</span></p>  
+
+ <div align="center"><img id="figTB.3" src="../_static/fig/TB.3.png" alt="Picture" width="400px"></div>
+  <p style="color: dimgray;text-align: center;">图 B-3 拉压杆模型的基本组成</p>
+  <script type="text/javascript">var viewer = new Viewer(document.getElementById('figTB.3'));</script>
+
+ <p style="text-align:justify;text-indent:2em;" > 拉杆是受拉构件，一般由普通钢筋或预应力钢筋构成。压杆代表压力场的合力，压杆的形状根据压力扩散情况，可以是棱柱形、瓶形或者扇形。节点位于压杆、拉杆轴线与集中力的交汇处，是力流转向区域。根据节点区交汇杆件的类型，节点可分为CCT型(压-压-拉，由多根压杆与一根拉杆围成的节点区)、CCC型(压-压-压，仅由压杆围成的节点区)、CTT型(压-拉-拉，由1根压杆及2根或2根以上拉杆围成的节点区)和TTT型(拉-拉-拉，全部由拉杆围成的节点区)。根据节点区力流转向的明确程度，节点可分为集中节点(如图 B-1深梁中的节点)和弥散节点(如图 B-1端部锚固区内的中部节点)。集中节点处，一般至少有一个明确的边界力作用面；弥散节点代表一个力流转向区，其边界往往不明晰，在此处压杆和拉杆的交汇范围比较宽，一般无需进行节点承载力验算。</p>
+ <p style="text-align:justify;text-indent:2em;" > 在基于拉压杆模型的设计步骤中，“构建应力扰动区的拉压杆模型”是比较困难的一个环节。在理论上，可按<a href="https://jtg-3362.readthedocs.io/zh/latest/FLB.html#idB.2.2">第B.2.2条</a>中建议的方法构建拉压杆模型，例如，本规范给出了桥墩悬臂盖梁、墩帽和桩基承台等应力扰动区的拉压杆模型。但是，对于后张端部锚固区、三角齿块锚固区和支座处横隔梁等应力扰动区，构建拉压杆模型的工作量往往很大，且带有研究的性质。为此，本规范直接给出了这些应力扰动区的拉杆内力设计值计算公式，这样就可以免去构建拉压杆模型和求解模型这两个步骤。</p>
+
+
 B.2 构建方法
 ----------------------
 
 .. raw:: html
 
- <p style="text-align:justify"><a href="#idtB.2.1"> B.2.1</a> <span id="idtB.2.1">  </span></p>  
+ <p style="text-align:justify"><a href="#idtB.2.1"> B.2.1</a> <span id="idtB.2.1"> 拉压杆模型应满足以下两个必要条件：</span></p>  
+ <ol>
+ <li> 静力平衡条件，即模型中各节点满足平衡方程；</li>
+ <li> 材料屈服准则，即模型中各杆件和节点的应力小于材料屈服应力。</li>
+ </ol>
+ <p style="text-align:justify;text-indent:2em;" > 从理论上讲，拉压杆模型是一种塑性力学下限分析方法，会给出偏于保守的承载力估计。针对同一应力扰动区问题，可以有多种拉压杆模型的选择。</p>
+ <p style="text-align:justify;text-indent:2em;" > 然而，由于混凝土结构的特点，并不是任意的模型都是合适的。为避免结构中出现超出混凝土塑性变形能力的应力重分布，压杆和拉杆的位置和走向应反映混凝土结构内部的力流传递路径，这是拉压杆模型构建时应遵循的基本原则。以 <a href="#figTB.4">图 B-4</a> 所示深梁为例，拉杆、压杆的布置反映了主拉、主压应力的走向，拉杆、压杆的内力大小与关键截面弹性应力的合力一致。依据这样的构形进行结构配筋设计，并结合合理构造配筋，既可满足承载力需求，也能有效地控制正常使用阶段的裂缝宽度，减少结构在受力过程中的应力重分布。</p>
+ <div align="center"><img id="figTB.4" src="../_static/fig/TB.4.png" alt="Picture" width="250px"></div>
+  <p style="color: dimgray;text-align: center;">图 B-4 按结构弹性应力构建拉压杆模型</p>
+  <script type="text/javascript">var viewer = new Viewer(document.getElementById('figTB.4'));</script>
 
+ <p style="text-align:justify"><a href="#idtB.2.2"> B.2.2</a> <span id="idtB.2.4"> 尽管国际学术界对拉压杆模型的构形方法付出了巨大的努力，迄今仍没有普适性的简明方法。目前常用的方法有：荷载路径法、应力迹线法、力流线法、最小应变能准则、最大强度准则等，简介如下：</span></p>  
+ <ol>
+ <li> 荷载路径法是根据经验直接勾画出结构内部力流传递路径的方法，因此，需要设计者有良好的概念和工程经验，一般用于结构几何形体和荷载工况相对简单的情形。</li>
+ <li> 应力迹线法的思路是保证拉杆、压杆的走向与主要应力迹线指向一致，再通过对一些关键截面应力积分获得合力准确位置，即拉杆或压杆所在位置。</li>
+ <li> 力流线法是定量化的荷载路径法，通过给出力流线解析方程或算法，得到较为精确的压力传递力流线，借助压力线的横向分力求解横向拉力或劈裂力位置，进而形成完整的拉压杆模型构形。</li>
+ <li> 最小应变能法认为荷载在结构中引起的真实变形，总是使结构的应变能最小，对于由连续体离散化而来的拉压杆模型也应当满足最小应变能准则，基于这一原理的多种结构拓扑优化方法，也是获得拉压杆模型的途径之一。</li>
+ <li> 最大强度准则认为，拉压杆模型遵循塑性下限定理，在各种可能的拉压杆模型中，强度最大的模型最逼近真实的受力路径，运用这一准则可以确定模型构形中的关键参数。</li>   
+ </ol>
 
- <p style="text-align:justify"><a href="#idtB.2.2"> B.2.2</a> <span id="idtB.2.2">  </span></p>  
-
- 
- <p style="text-align:justify"><a href="#idtB.2.3"> B.2.3</a> <span id="idtB.2.3">  </span></p>   
+ <p style="text-align:justify"><a href="#idtB.2.3"> B.2.3</a> <span id="idtB.2.3"> 研究表明，随着拉杆与压杆之间夹角的减小，压杆的混凝土有效抗压强度快幅降低。当拉杆与压杆之间的夹角过小时(一般以25°为界限值),依据最大强度准则，这样的构形不能真实反映力流的传递路径，因而是不恰当的构形。</span></p>   
 
 
 B.3 验算内容
@@ -32,5 +64,164 @@ B.3 验算内容
 
 .. raw:: html
 
- <p style="text-align:justify"><a href="#idtB.3.1"> B.3.1</a> <span id="idtB.3.1">   </span></p>  
- <p style="text-align:justify"><a href="#idtB.3.2"> B.3.2</a> <span id="idtB.3.2"> ~ <a href="#idtB.3.4"> B.3.4</a> <span id="idtB.3.4">  </span></p>  
+ <p style="text-align:justify"><a href="#idtB.3.1"> B.3.1</a> <span id="idtB.3.1"> 本条给出了拉压杆模型的承载力验算内容，包括拉杆抗拉承载力验算和压杆抗压承载力验算。一般地，在确保支承面局部承压和钢筋可靠锚固的情形下，节点的承载力等同于与其交汇压杆的承载力，因而无需再进行节点承载力验算。</span></p>  
+ <p style="text-align:justify;text-indent:2em;" > 拉杆和压杆的轴向力设计值，可通过对所构建的拉压杆模型进行静力求解得出。例如，本规范给出了几种典型应力扰动区的拉压杆模型(如<a href="https://jtg-3362.readthedocs.io/zh/latest/08.html#id8.4.6">第8.4.6条</a>、<a href="https://jtg-3362.readthedocs.io/zh/latest/08.html#id8.4.7">第8.4.7条</a>和<a href="https://jtg-3362.readthedocs.io/zh/latest/08.html#id8.5.4">第8.5.4条</a>),在这些情形下，可以根据已确知的模型构形求算出拉杆和压杆的轴向力设计值。对于构建拉压杆模型比较困难的一些复杂应力扰动区，则可根据力流模型理论得到的解析公式(如<a href="https://jtg-3362.readthedocs.io/zh/latest/08.html#id8.2.2">第8.2.2条</a>、<a href="https://jtg-3362.readthedocs.io/zh/latest/08.html#id8.2.6">第8.2.6条</a>和<a href="https://jtg-3362.readthedocs.io/zh/latest/08.html#id8.3.2">第8.3.2条</a>),直接计算出拉杆的内力设计值。</p>
+ <p style="text-align:justify"><a href="#idtB.3.2"> B.3.2</a> <span id="idtB.3.2"> ~ <a href="#idtB.3.4"> B.3.4</a> <span id="idtB.3.4">  拉压杆模型中拉杆和压杆的承载力设计值计算方法，主要借鉴了《美国AASHTO LRFD规范》的相关规定，并按我国规范的材料指标进行了换算。</span></p>  
+ <p style="text-align:justify;text-indent:2em;" > 拉杆一般由普通钢筋或预应力钢筋构成，钢筋的锚固长度或锚固构造必须满足要求，以避免锚固失效情况的发生。压杆承载力由具有明确边界的压杆端面抗压承载力控制。对于一端为弥散节点的压杆，其边界往往不十分明晰，此处压杆范围比较宽，一般不控制设计。本规范给出了带有明确边界的两种典型压杆，即：1)由支承面和钢筋共同约束的压杆；2)支承面和相邻压杆共同约束的压杆。</p>
+ <p style="text-align:justify;text-indent:2em;" > 混凝土压杆的等效抗压强度设计值<math xmlns="http://www.w3.org/1998/Math/MathML" ><msub><mi>f</mi><mrow><mrow><mi mathvariant="normal">c</mi><mi mathvariant="normal">e</mi><mo>,</mo><mi mathvariant="normal">d</mi></mrow></mrow></msub></math>，主要考虑了垂直于压杆方向横向拉应变的影响进行折减。当验算的压杆端面相邻节点为CCC型时(<a href="https://jtg-3362.readthedocs.io/zh/latest/FLB.html#figB.3.3.3">图B.3.3-3</a>)],混凝土压杆的等效抗压强度设计值<math xmlns="http://www.w3.org/1998/Math/MathML" ><msub><mi>f</mi><mrow><mrow><mi mathvariant="normal">c</mi><mi mathvariant="normal">e</mi><mo>,</mo><mi mathvariant="normal">d</mi></mrow></mrow></msub></math>取为<math xmlns="http://www.w3.org/1998/Math/MathML" ><mn>0.85</mn><msub><mi>β</mi><mrow><mrow><mi mathvariant="normal">c</mi></mrow></mrow></msub><msub><mi>f</mi><mrow><mrow><mi mathvariant="normal">c</mi><mi mathvariant="normal">d</mi></mrow></mrow></msub></math>。</p>
+ <p style="text-align:justify;text-indent:2em;" > 在《美国AASHTO-LRFD规范》中，混凝土压杆的等效抗压强度设计值<math xmlns="http://www.w3.org/1998/Math/MathML" ><msub><mi>f</mi><mrow><mrow><mi mathvariant="normal">c</mi><mi mathvariant="normal">e</mi><mo>,</mo><mi mathvariant="normal">d</mi></mrow></mrow></msub></math>表达为：</p>  
+
+$$f_{\\mathrm{ce,d} }=\\dfrac{0.7f^{'}_{\\mathrm{c} }}{0.8+170\\varepsilon _{1}}\\leqslant 0.85\\times0.70f^{'}_{\\mathrm{c} }\\tag{B-1}$$ 
+$$\\varepsilon _{1}=\\varepsilon _{\\mathrm{s}}+(\\varepsilon _{\\mathrm{s}}+\\varepsilon _{\\mathrm{2}})\\cot^{2}\\alpha _{\\mathrm{s} }\\tag{B-2}$$ 
+$$\\varepsilon _{\\mathrm{s}}=\\dfrac{T_{\\mathrm{i,d}}}{A _{\\mathrm{s}}E _{\\mathrm{s}}}\\tag{B-3}$$ 
+
+
+.. raw:: html 
+
+ <table border="0" style="font-family:times new roman" id="gongshi">
+ <tr>
+ <td width="50px" align='center' id="eqzs">式中:</td>
+ <td width="30px" align='right' id="eqzs"><math xmlns="http://www.w3.org/1998/Math/MathML" ><msub><mi>f</mi><mrow><mrow><mi mathvariant="normal">u</mi></mrow></mrow></msub></math></td>
+ <td width="40px" align='left' id="eqzs">——</td>
+ <td id="eqzs"> 凝土压杆有效抗压强度设计值；</td>
+ </tr>
+ <tr>
+ <td  align='left' id="eqzs"> </td>
+  <td  align='right' id="eqzs"><math xmlns="http://www.w3.org/1998/Math/MathML" ><msubsup><mi>f</mi><mrow><mrow><mi mathvariant="normal">c</mi></mrow></mrow><mrow><msup><mi></mi><mo>′</mo></msup></mrow></msubsup></math></td>
+ <td  align='left' id="eqzs">——</td>
+ <td id="eqzs"><math xmlns="http://www.w3.org/1998/Math/MathML" ><mi>ϕ</mi><mn>150</mn><mtext>&nbsp;</mtext><mrow><mi mathvariant="normal">m</mi><mi mathvariant="normal">m</mi></mrow><mo>×</mo><mn>300</mn><mtext>&nbsp;</mtext><mrow><mi mathvariant="normal">m</mi><mi mathvariant="normal">m</mi></mrow></math>混凝土圆柱体 28d特征抗压强度；</td>
+ </tr>
+ <tr>
+ <td  align='left' id="eqzs"> </td>
+  <td  align='right' id="eqzs"><math xmlns="http://www.w3.org/1998/Math/MathML" ><msub><mi>ε</mi><mrow><mrow><mi mathvariant="normal">s</mi></mrow></mrow></msub></math></td>
+ <td  align='left' id="eqzs">——</td>
+ <td id="eqzs">拉杆钢筋拉伸应变；</td>
+ </tr>
+ <tr>
+ <td  align='left' id="eqzs"> </td>
+ <td  align='right' id="eqzs"><math xmlns="http://www.w3.org/1998/Math/MathML" ><msub><mi>α</mi><mrow><mrow><mi mathvariant="normal">s</mi></mrow></mrow></msub></math></td>
+ <td  align='left' id="eqzs">——</td>
+ <td id="eqzs">压杆压力作用线与拉杆拉力作用线的夹角；</td>
+ </tr>  
+ <tr>
+ <td  align='left' id="eqzs"> </td>
+  <td  align='right' id="eqzs"><math xmlns="http://www.w3.org/1998/Math/MathML" ><msub><mi>T</mi><mrow><mrow><mi mathvariant="normal">i,d</mi></mrow></mrow></msub></math></td>
+ <td  align='left' id="eqzs">——</td>
+ <td id="eqzs">与压杆相交的拉杆拉力：</td>
+ </tr>
+ <tr>
+ <td  align='left' id="eqzs"> </td>
+ <td  align='right' id="eqzs"><math xmlns="http://www.w3.org/1998/Math/MathML" ><msub><mi>A</mi><mrow><mrow><mi mathvariant="normal">s</mi></mrow></mrow></msub></math></td>
+ <td  align='left' id="eqzs">——</td>
+ <td id="eqzs">与压杆交的拉杆钢筋截面面积；</td>
+ </tr> 
+ <tr>
+ <td  align='left' id="eqzs"> </td>
+ <td  align='right' id="eqzs"><math xmlns="http://www.w3.org/1998/Math/MathML" ><msub><mi>E</mi><mrow><mrow><mi mathvariant="normal">s</mi></mrow></mrow></msub></math></td>
+ <td  align='left' id="eqzs">——</td>
+ <td id="eqzs">拉杆钢筋弹性模量；</td>
+ </tr>
+ <tr>
+ <td  align='left' id="eqzs"> </td>
+ <td  align='right' id="eqzs"><math xmlns="http://www.w3.org/1998/Math/MathML" ><msub><mi>ε</mi><mrow><mrow><mi mathvariant="normal">2</mi></mrow></mrow></msub></math></td>
+ <td  align='left' id="eqzs">——</td>
+ <td id="eqzs">压杆方向压缩应变，取0.002。</td>
+ </tr> 
+ </table>
+ <p></p>  
+ 
+ 
+ <p style="text-align:justify;text-indent:2em;" > 按照我国规范的材料指标，对式(B-1)换算如下：</p>
+ <p style="text-align:justify;text-indent:2em;" > 同一混凝土制成的边长150 mm立方体28d抗压强度标准值<math xmlns="http://www.w3.org/1998/Math/MathML" ><msub><mi>f</mi><mrow><mrow><mi mathvariant="normal">c</mi><mi mathvariant="normal">u</mi><mo>,</mo><mi mathvariant="normal">k</mi></mrow></mrow></msub></math>与<math xmlns="http://www.w3.org/1998/Math/MathML" ><mi>ϕ</mi><mn>150</mn><mtext>&nbsp;</mtext><mrow><mi mathvariant="normal">m</mi><mi mathvariant="normal">m</mi></mrow><mo>×</mo><mn>300</mn><mtext>&nbsp;</mtext><mrow><mi mathvariant="normal">m</mi><mi mathvariant="normal">m</mi></mrow></math>圆柱体28d特征抗压强度<math xmlns="http://www.w3.org/1998/Math/MathML" ><msubsup><mi>f</mi><mrow><mrow><mi mathvariant="normal">c</mi></mrow></mrow><mrow><msup><mi></mi><mo>′</mo></msup></mrow></msubsup></math>的关系约为</p>
+
+$$f^{'}_{\\mathrm{c} }=0.80f_{\\mathrm{cu,k} }\\tag{B-4}$$ 
+
+
+.. raw:: html 
+
+ <p style="text-align:justify;text-indent:2em;" > 在3.1节条文说明，混凝土棱柱体抗压强度标准值<math xmlns="http://www.w3.org/1998/Math/MathML" ><msub><mi>f</mi><mrow><mrow><mi mathvariant="normal">c</mi><mi mathvariant="normal">k</mi></mrow></mrow></msub></math>与立方体抗压强度标准值<math xmlns="http://www.w3.org/1998/Math/MathML" ><msub><mi>f</mi><mrow><mrow><mi mathvariant="normal">c</mi><mi mathvariant="normal">u</mi><mo>,</mo><mi mathvariant="normal">k</mi></mrow></mrow></msub></math>的关系为</p> 
+
+$$f_{\\mathrm{ck}}=0.88\\alpha f_{\\mathrm{cu,k}}\\tag{B-5}$$ 
+
+
+.. raw:: html 
+
+
+ <p style="text-align:justify;text-indent:2em;" > 式中<math xmlns="http://www.w3.org/1998/Math/MathML" ><mi>a</mi></math>按以往试验资料和《高强混凝土结构设计与施工指南》(以下简称《高强混凝土指南》)建议取值，C50及以下混凝土<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>a</mi><mo>=</mo><mn>0.76</mn></math>；C55~C80混凝土，<math xmlns="http://www.w3.org/1998/Math/MathML" ><mi>a</mi><mo>=</mo><mn>0.78</mn><mo>∼</mo><mn>0.82</mn></math>。另外，考虑C40以上混凝土具有脆性，取折减系数C40~C80为1.0~0.87,中间按直线插入。</p>
+ <p style="text-align:justify;text-indent:2em;" > 混凝土轴心抗压强度设计值<math xmlns="http://www.w3.org/1998/Math/MathML" ><msub><mi>f</mi><mrow><mrow><mi mathvariant="normal">c</mi><mi mathvariant="normal">d</mi></mrow></mrow></msub></math>与混凝土抗压强度标准值<math xmlns="http://www.w3.org/1998/Math/MathML" ><msub><mi>f</mi><mrow><mrow><mi mathvariant="normal">c</mi><mi mathvariant="normal">k</mi></mrow></mrow></msub></math>的关系为</p>
+
+
+$$f_{\\mathrm{cd}}=\\dfrac{f_{\\mathrm{ck}}}{1.45}\\tag{B-6}$$ 
+
+
+.. raw:: html 
+
+ <p style="text-align:justify;text-indent:2em;" > 综合公式(B-4)、公式(B-5)和公式(B-6),得到</p> 
+
+$$0.70f^{'}_{\\mathrm{c}}=\\beta_{\\mathrm{c}}f_{\\mathrm{cd}}\\tag{B-7}$$ 
+
+
+.. raw:: html 
+
+ <p style="text-align:justify;text-indent:2em;" > 将公式(B-7)代入公式(B-1),即得公式(B.3.3-2)。</p> 
+
+ <p style="text-align:justify;text-indent:2em;" > 参数<math xmlns="http://www.w3.org/1998/Math/MathML" ><msub><mi>β</mi><mrow><mrow><mi mathvariant="normal">c</mi></mrow></mrow></msub></math>与混凝土强度等级有关，不同混凝土强度等级对应的<math xmlns="http://www.w3.org/1998/Math/MathML" ><msub><mi>β</mi><mrow><mrow><mi mathvariant="normal">c</mi></mrow></mrow></msub></math>值如表B-1所示。</p>
+      <style>
+     #biaoge {
+         border: 2px solid black;
+         border-collapse: collapse;
+         margin-bottom:1px;
+        
+      }
+      th, td {
+         padding-top: 5px;
+         padding-bottom:5px;
+         padding-left:5px;
+         padding-right:5px;
+         border: 1px solid black;
+         
+      }
+      #eqzs {
+         border: 0px;
+      }
+      #dhbg {
+        vertical-align: middle;
+      }
+     </style>
+
+		<table id="biaoge" style="font-family:times new roman">
+
+         <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="BTB.1">表B-1 不同混凝土强度等级对应的<math xmlns="http://www.w3.org/1998/Math/MathML" ><msub><mi>β</mi><mrow><mrow><mi mathvariant="normal">c</mi></mrow></mrow></msub></math>值</b></caption>	
+              
+		    <tr>
+		     <td  align="center" id="dhbg"width="150px">混凝土强度</td>
+		     <td  align="center" id="dhbg"width="110px">C25~c40</td>
+         <td  align="center" id="dhbg"width="80px">C45</td>
+         <td  align="center" id="dhbg"width="80px">C50</td>
+         <td  align="center" id="dhbg"width="80px">C55</td>
+         <td  align="center" id="dhbg"width="80px">C60</td>
+         <td  align="center" id="dhbg"width="80px">C54</td>
+         <td  align="center" id="dhbg"width="80px">C70</td>
+         <td  align="center" id="dhbg"width="80px">C75</td>
+         <td  align="center" id="dhbg"width="80px">C80</td>
+		    </tr>
+		    <tr>
+		     <td align="center" id="dhbg"><math xmlns="http://www.w3.org/1998/Math/MathML" ><msub><mi>β</mi><mrow><mrow><mi mathvariant="normal">c</mi></mrow></mrow></msub></math></td>
+				 <td align="center" id="dhbg">1.29</td>
+		     <td align="center" id="dhbg">1.32</td>
+		     <td align="center" id="dhbg">1.33</td>
+		     <td align="center" id="dhbg">1.34</td>
+		     <td align="center" id="dhbg">1.34</td>
+		     <td align="center" id="dhbg">1.35</td>
+		     <td align="center" id="dhbg">1.36</td>          
+		     <td align="center" id="dhbg">1.36</td>  
+		     <td align="center" id="dhbg">1.37</td>                   
+		    </tr>
+		</table>
+ <p> </p>
+
+
+ <p style="text-align:justify;text-indent:2em;" > 为方便起见，适当归并上表中数值，对于C25~C50取1.30,C55~C80取1.35。</p>    
+
+
+:math:`\ `	
