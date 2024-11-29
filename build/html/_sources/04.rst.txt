@@ -238,7 +238,7 @@ $$a=(a_{1}+2h)+2l_{\\mathrm{c}}\\tag{4.2.5}$$
   <p style="color: dimgray;text-align: center;">图 4.2.5 车轮荷载在悬臂板上的分布<br/>1-桥面铺装；2-腹板；3-悬臂板</p>
   <script type="text/javascript">var viewer = new Viewer(document.getElementById('fig4.2.5'));</script> 
 
-  <div align="center"><img id="fig4.2.65" src="./_static/fig/4.2.6.png" alt="Picture" width="300px"></div>
+  <div align="center"><img id="fig4.2.6" src="./_static/fig/4.2.6.png" alt="Picture" width="300px"></div>
   <p style="color: dimgray;text-align: center;">图 4.2.6 承托处板的计算高度</p>
   <script type="text/javascript">var viewer = new Viewer(document.getElementById('fig4.2.6'));</script>  
  
@@ -292,7 +292,7 @@ $$h_{\\mathrm{e}}=h^{'}_{\\mathrm{f}}+s\\cdot \\tan \\alpha \\tag{4.2.6}$$
  </ol>
  <p style="text-align:justify;text-indent:2em;" >对于简支梁，取计算跨径的1/3。对于连续梁，各中间跨正弯矩区段，取该计算跨径的0.2倍；边跨正弯矩区段，取该跨计算跨径的0.27倍；各中间支点负弯矩区段，取该支点相邻两计算跨径之和的0.07倍；</p>
  <p style="text-align:justify;text-indent:2em;" >相邻两梁的平均间距；</p>
- <p style="text-align:justify;text-indent:2em;" >(b+2bn+12hr),此处，b为梁腹板宽度，bn为承托长度，hr为受压区翼缘悬出板的厚度。当hn/bh<1/3时，上式bn应以3h代替，此处m为承托根部厚度。</p>
+ <p style="text-align:justify;text-indent:2em;" >(b+2bn+12hr),此处，b为梁腹板宽度，bn为承托长度，hr为受压区翼缘悬出板的厚度。当hn/bh＜1/3时，上式bn应以3h代替，此处m为承托根部厚度。</p>
  <ol start="2">
  <li> 外梁取相邻内梁翼缘有效宽度的一半，加上腹板宽度的 1/2,再加上外侧悬臂板平均厚度的6倍或外侧悬臂板实际宽度两者中的较小者。</li>
  </ol>
@@ -482,7 +482,7 @@ $$M^{'}=\\dfrac{1}{8}q\\alpha^{2}\\tag{4.3.5-2}$$
 .. raw:: html
 
  <p style="text-align:justify"><a href="#id4.4.1"> 4.4.1</a> <span id="id4.4.1">拱的计算可不考虑拱上建筑与主拱圈的联合作用；当考虑拱上建筑与主拱圈的联合作用时，拱上建筑结构的构造应符合计算的预设条件。本节有关拱的计算规定，均适用于主拱圈裸拱受力而不考虑其与拱上建筑的联合作用。</span></p>
- <p style="text-align:justify;text-indent:2em;" > 当采用车道荷载计算拱的正弯矩时，各截面的折减系数宜按<a href="#B54.4.1">表4.4.1</a>取用</p> 
+ <p style="text-align:justify;text-indent:2em;" > 当采用车道荷载计算拱的正弯矩时，各截面的折减系数宜按<a href="#B4.4.1">表4.4.1</a>取用</p> 
 
 
   <table id="biaoge" style="font-family:times new roman">
@@ -638,7 +638,7 @@ $$M=M_{1}\\cosφ+M_{2}\\sinφ \\tag{4.4.9}$$
 
     <table id="biaoge" style="font-family:times new roman">
 
-         <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="B4.5.2">表4.5.2 公路桥涵混凝土结构及构件所处环境类别划分</b></caption>	
+         <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="B4.5.3">表4.5.3 混凝土强度等级最低要求</b></caption>	
               
 		    <tr>
 		      <td  align="center" id="dhbg" width="300px">构件类别</td>

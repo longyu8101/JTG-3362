@@ -27,7 +27,7 @@ $$R^{\\mathrm{b}}=\\mu_{\\mathrm{R200}}-\\sigma _{\\mathrm{R200}}=\\mu_{\\mathrm
 
 $$两者平均值关系\\hspace{2cm}\\mu_{\\mathrm{R200}}=0.95\\mu _{\\mathrm{f150}}\\tag{3-3}$$ 
 $$变异系数取\\hspace{3cm}\\delta _{\\mathrm{R200}}=\\delta _{\\mathrm{f150}}=\\delta_{\\mathrm{f} }\\tag{3-4}$$ 
-$$\\begin{matrix}  &\\hspace{2cm} f_{\\mathrm{cu,k}} &=\\mu_{150}(1-1.645\\delta _{150})=\\dfrac{\\mu_{200}}{0.95} (1-1.645\\delta _{150})\\\\ \\hspace{-3cm}得到 &  & \\\\  &  &\\hspace{-1.3cm} =\\dfrac{1-1.645\\delta _{150}}{0.95(1-\\delta _{200})}R^{\\mathrm{b} }=\\dfrac{1-1.645\\delta _{\\mathrm{f} }}{0.95(1-\\delta _{\\mathrm{f} })}R^{\\mathrm{b}}\\end{matrix}\\tag{3-5}$$ 
+$$\\small{\\begin{matrix}  &\\hspace{2cm} f_{\\mathrm{cu,k}} &=\\mu_{150}(1-1.645\\delta _{150})=\\dfrac{\\mu_{200}}{0.95} (1-1.645\\delta _{150})\\\\ \\hspace{-3cm}得到 &  & \\\\  &  &\\hspace{-1.3cm} =\\dfrac{1-1.645\\delta _{150}}{0.95(1-\\delta _{200})}R^{\\mathrm{b} }=\\dfrac{1-1.645\\delta _{\\mathrm{f} }}{0.95(1-\\delta _{\\mathrm{f} })}R^{\\mathrm{b}}\\end{matrix}}\\tag{3-5}$$ 
 
 .. raw:: html 
 
@@ -86,25 +86,225 @@ $$\\begin{matrix}  &\\hspace{2cm} f_{\\mathrm{cu,k}} &=\\mu_{150}(1-1.645\\delta
 
 
  <p style="text-align:justify"><a href="#idt3.1.2"> 3.1.2</a> <span id="idt3.1.2"> 本条是对公路桥涵受力构件用混凝土强度等级下限的规定，作了以下变动：钢筋混凝土构件的混凝土强度等级下限均提高一级：钢筋混凝土构件的混凝土强度等级由“不应低于C20”改为“不低于C25”；当采用HRB400、HRB500、HRBF400、RRB400级钢筋时，由“不应低于C25”改为“不低于C30”。</span></p>
- <p style="text-align:justify;text-indent:2em;" >预应力混凝土构件采用的预应力钢筋以钢绞线和钢丝为主，所以构件的混凝土强度等级取C40,与原规范相同。</p>
+ <p style="text-align:justify;text-indent:2em;" >预应力混凝土构件采用的预应力钢筋以钢绞线和钢丝为主，所以构件的混凝土强度等级取C40，与原规范相同。</p>
  <p style="text-align:justify"><a href="#idt3.1.3"> 3.1.3</a> <span id="idt3.1.3"> 本条给出了混凝土轴心强度的标准值，现说明如下：</span></p>
 
+ <p style="text-align:justify;text-indent:2em;" > 1 混凝土轴心抗压强度标准值</p>
+ <p style="text-align:justify;text-indent:2em;" > 混凝土轴心抗压强度按棱柱体抗压强度取值，棱柱体试件抗压强度<math xmlns="http://www.w3.org/1998/Math/MathML" ><msub><mi>f</mi><mrow><mrow><mi mathvariant="normal">c</mi><mo>,</mo><mi mathvariant="normal">s</mi></mrow></mrow></msub></math>与边长150 mm立方体试件抗压强度<math xmlns="http://www.w3.org/1998/Math/MathML" ><msub><mi>f</mi><mrow><mn>150</mn></mrow></msub></math>存在一定的关系，其平均值的关系为</p>
 
+$$\\mu_{\\mathrm{f_{c,s}} }=\\alpha \\mu_{\\mathrm{f} 150}\\tag{3-6}$$ 
 
+.. raw:: html  
+ 
+ <p style="text-align:justify;text-indent:2em;" > 式中α为棱柱体与立方体试件强度的比值。</p>
+ <p style="text-align:justify;text-indent:2em;" > 实际构件与试件的混凝土因品质、制作工艺、受荷情况和环境条件等不同，有一定差异，按《公路工程结构可靠性设计统一标准》条文说明建议，其抗压强度平均换算系数<math xmlns="http://www.w3.org/1998/Math/MathML" ><msub><mi>μ</mi><mrow><mrow><mi mathvariant="normal">Ω</mi><mn>0</mn></mrow></mrow></msub><mo>=</mo><mn>0.88</mn></math>，则构件混凝土棱柱体抗压强度<math xmlns="http://www.w3.org/1998/Math/MathML" ><msub><mi>f</mi><mrow><mrow><mi mathvariant="normal">c</mi></mrow></mrow></msub></math>的平均值为</p>
+
+$$\\mu_{\\mathrm{f_{c,s}} }=\\alpha \\mu_{\\mathrm{f} 150}\\tag{3-7}$$ 
+
+.. raw:: html   
+ 
+ 
+ <p style="text-align:justify;text-indent:2em;" > 根据公式(3-1)，并假定<math xmlns="http://www.w3.org/1998/Math/MathML" ><msub><mi>f</mi><mrow><mrow><mi mathvariant="normal">c</mi></mrow></mrow></msub></math>的变异系数<math xmlns="http://www.w3.org/1998/Math/MathML" ><msub><mi>δ</mi><mrow><mrow><mi mathvariant="normal">fc</mi></mrow></mrow></msub></math>。与立方体强度<math xmlns="http://www.w3.org/1998/Math/MathML" ><msub><mi>f</mi><mrow><mn>150</mn></mrow></msub></math>的变异系数相同，即<math xmlns="http://www.w3.org/1998/Math/MathML" ><msub><mi>δ</mi><mrow><mrow><mi mathvariant="normal">f</mi><mi mathvariant="normal">c</mi></mrow></mrow></msub><mo>=</mo><msub><mi>δ</mi><mrow><mrow><mi mathvariant="normal">f</mi></mrow><mn>150</mn></mrow></msub></math>，则混凝土轴心抗压强度标准值为</p>
+
+$${\\small \\begin{array}{l}f _{\\mathrm{ck} }&=\\mu_{\\mathrm{fc}}(1-1.645\\delta _{\\mathrm{fc}})=0.88\\alpha \\mu_{150}(1-1.645\\delta _{\\mathrm{f} 150})\\\\&=0.88\\alpha \\dfrac{f_{\\mathrm{cu,k}}}{(1-1.645\\delta _{\\mathrm{f} 150})}(1-1.645\\delta _{\\mathrm{f} 150})=0.88\\alpha f_{\\mathrm{cu,k} }\\end{array}} \\tag{3-8}$$ 
+
+.. raw:: html    
+ 
+ <p style="text-align:justify;text-indent:2em;" > 式中α按以往试验资料和《高强混凝土结构设计与施工指南》(以下简称《高强混凝土指南》)建议取值，C50及以下混凝土α=0.76；C55~C80混凝土，α= 0.78~0.82。考虑C40以上混凝土具脆性，C40~C80混凝土的折减系数取为1.00~0.87,中间按直线插入。本规范<a href="https://jtg-3362.readthedocs.io/zh/latest/03.html#B3.1.3">表3.1.3</a>中混凝土轴心抗压强度标准值就是按公式(3-8)计算，并乘以脆性折减系数得到的。</p>
+ <p style="text-align:justify;text-indent:2em;" > 2 混凝土轴心抗拉强度标准值</p>
+ <p style="text-align:justify;text-indent:2em;" > 根据试验数据分析，构件混凝土轴心抗拉强度与边长150 mm立方体试件抗压强度<math xmlns="http://www.w3.org/1998/Math/MathML" ><msub><mi>f</mi><mrow><mn>150</mn></mrow></msub></math>之间的平均值关系为</p>
+ 
+$$\\mu_{\\mathrm{ft} }=0.88\\times0.395{\\mu_{\\mathrm{f} 150}}^{0.55}\\tag{3-9}$$ 
+
+.. raw:: html  
+ 
+ <p style="text-align:justify;text-indent:2em;" > 构件混凝土轴心抗拉强度标准值(保证率为95%)为</p>
+
+$${\\small \\begin{array}{l}f_{\\mathrm{tk}}&=\\mu_{\\mathrm{ft}}(1-1.645\\delta _{\\mathrm{ft}})=0.88\\times0.395{\\mu_{\\mathrm{f} 150}}^{0.55}(1-1.645\\delta _{150})\\\\&=0.88\\times0.395\\left(\\dfrac{f_{\\mathrm{cu,k}}}{1-1.645\\delta _{150}}\\right)^{0.55}(1-1.645\\delta _{150})\\\\&=0.88\\times0.395{f_{\\mathrm{cu,k}}}^{0.55}(1-1.645\\delta _{150})^{0.45}\\end{array}} \\tag{3-10}$$ 
+
+.. raw:: html  
+ 
+
+ <p style="text-align:justify;text-indent:2em;" > 式中<math xmlns="http://www.w3.org/1998/Math/MathML" ><msub><mi>δ</mi><mrow><mrow><mi mathvariant="normal">f</mi></mrow><mn>150</mn></mrow></msub></math>按公式(3-4)计算、按<a href="#Bt3.1">表3-1</a>取值，混凝土强度等级大于C60的<math xmlns="http://www.w3.org/1998/Math/MathML" ><msub><mi>δ</mi><mrow><mrow><mi mathvariant="normal">f</mi></mrow><mn>150</mn></mrow></msub></math>均取为0.10。混凝土轴心抗拉强度标准值按公式(3-10)计算后，还应乘以与混凝土抗压强度相同的脆性折减系数，即可得本规范表3.1.3中的数值。</p>  
 
  <p style="text-align:justify"><a href="#idt3.1.4"> 3.1.4</a> <span id="idt3.1.4"> 构件混凝土轴心抗压强度设计值<math xmlns="http://www.w3.org/1998/Math/MathML" ><msub><mi>f</mi><mrow><mrow><mi mathvariant="normal">cd</mi></mrow></mrow></msub></math>，由混凝土轴心抗压强度标准值除以混凝土材料分项系数<math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mi>γ</mi><mrow><mrow><mi mathvariant="normal">f</mi><mi mathvariant="normal">c</mi></mrow></mrow></msub><mo>=</mo><mn>1.45</mn></math>获得。混凝土材料分项系数的取值，接近于按二级安全等级结构分析的脆性破坏构件目标可靠指标的要求。</span></p>
 
- <p style="text-align:justify;text-indent:2em;" >构件混凝土轴心抗拉强度设计值<math xmlns="http://www.w3.org/1998/Math/MathML" ><msub><mi>f</mi><mrow><mrow><mi mathvariant="normal">td</mi></mrow></mrow></msub></math>,在混凝土轴心抗拉强度标准值的基础上，除以与混凝土轴心抗压强度相同的材料分项系数。</p>
+ <p style="text-align:justify;text-indent:2em;" >构件混凝土轴心抗拉强度设计值<math xmlns="http://www.w3.org/1998/Math/MathML" ><msub><mi>f</mi><mrow><mrow><mi mathvariant="normal">td</mi></mrow></mrow></msub></math>，在混凝土轴心抗拉强度标准值的基础上，除以与混凝土轴心抗压强度相同的材料分项系数。</p>
  <p style="text-align:justify;text-indent:2em;" >本次修订删除了原规范表注中受压构件尺寸效应的规定。该规定源于前苏联规范，最近俄罗斯规范已经取消该规定。</p>
 
  <p style="text-align:justify"><a href="#idt3.1.5"> 3.1.5</a> <span id="idt3.1.5"> 、<a href="#idt3.1.6"> 3.1.6</a> <span id="idt3.1.6"><b>混凝土的</b>弹性模量、剪切变形模量和泊松比同原规范的规定。混凝土弹性模量按下列公式计算得到：</span></p>
+
+$$E_{c}=\\dfrac{10^{5}}{2.2+\\dfrac{34.74}{f_{\\mathrm{cu,k} }}}\\tag{3-11}$$ 
+
 
 3.2 钢筋
 ---------------------------------
 .. raw:: html
 
  <p style="text-align:justify"><a href="#idt3.2.1"> 3.2.1</a> <span id="idt3.2.1"> 本条选用的钢筋品种主要来自最新颁布的国家标准，有以下几点说明：</span></p>
+ <p style="text-align:justify;text-indent:2em;" >1普通钢筋：增加 500 MPa级的热轧带肋钢筋；推广400 MPa、500 MPa级高强热轧带肋钢筋作为纵向受力的主导钢筋，淘汰335 MPa热轧带肋钢筋的应用；用300 MPa级光圆钢筋取代235 MPa级光圆钢筋；引入了采用控温轧制工艺生产的HRBF系列细晶粒带肋钢筋。在过渡时期，235 MPa级光圆钢筋和335 MPa级带肋钢筋的设计值可仍按原规范取值。</p>
+ <p style="text-align:justify;text-indent:2em;" >HPB300为光圆钢筋强度等级牌号，摘自现行《钢筋混凝土用钢第1部分：热轧光圆钢筋》(GB1499.1),公称直径 d= 6~22 mm,以偶数 2 mm 递增； HRB400、HRB500为热轧带肋钢筋牌号，HRBF400 为细晶粒带肋钢筋牌号，均摘自现行《钢筋混凝土用钢第2部分：热轧带肋钢筋》(GB 1499.2)，公称直径 d=6~50 mm，其中 d=22 mm以下以2 mm递减，d=22 mm 以上为 25、28、32、36、40、50 mm；RRB400 为余热处理钢筋的强度等级牌号，摘自现行《钢筋混凝土用余热处理钢筋》(GB 13014)，公称直径 d=6~50 mm,尺寸进级情况与 HRB 相同。为了便于设计应用，现将上述钢筋的公称截面面积和公称质量列于<a href="#Bt3.2">表3-2</a>。</p>
+
+   <style>
+     #biaoge {
+         border: 2px solid black;
+         border-collapse: collapse;
+         margin-bottom:1px;
+        
+      }
+      th, td {
+         padding-top: 5px;
+         padding-bottom:5px;
+         padding-left:5px;
+         padding-right:5px;
+         border: 1px solid black;
+         
+      }
+      #eqzs {
+         border: 0px;
+      }
+      #dhbg {
+        vertical-align: middle;
+      }
+     </style>
+
+		<table id="biaoge" style="font-family:times new roman">
+
+         <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="Bt3.2">表3-2 外观劣化度分级标准</b></caption>	
+              
+		    <tr>
+		     <td  align="center" width="300px">公称直径(mm)</td>
+		     <td  align="center" width="300px">公称截面面积(mm²)</td>
+			 <td  align="center" width="300px">公称质量(kg/m)</td>
+		    </tr>
+		    <tr>
+		     <td align="center"  id="dhbg">6<br/>8<br/>10<br/>12<br/>14<br/>16<br/>18<br/>20<br/>22<br/>25<br/>28<br/>32<br/>36<br/>40<br/>50</td>
+		     <td align="center"  id="dhbg">28.27<br/>50.27<br/>78.54<br/>113.10<br/>153.90<br/>201.10<br/>254.50<br/>314.20<br/>380.10<br/>490.90<br/>615.80<br/>804.20<br/>1018.00<br/>1257.00<br/>1964.00</td>
+			 <td align="center"  id="dhbg">0.22<br/>0.395<br/>0.617<br/>0.888<br/>1.210<br/>1.580<br/>2.000<br/>2.470<br/>2.980<br/>3.850<br/>4.830<br/>6.310<br/>7.990<br/>9.870<br/>15.420</td>  
+		    </tr>
+		   
+		</table>
+   <p  > </p>
+ <p style="text-align:justify;text-indent:2em;" >本规范还提出了冷轧带肋钢筋，但规定仅用于按构造要求配置的钢筋网。该钢筋取自现行《冷轧带肋钢筋》(GB 13788)和《冷轧带肋钢筋混凝土结构技术规程》(JGJ 95)需要时可参照执行。</p>
+ <p style="text-align:justify;text-indent:2em;" >2 预应力钢筋：增补了高强、大直径钢绞线，列入了大直径的预应力螺纹钢筋，淘汰了锚固性能较差的刻痕钢丝。</p>
+ <p style="text-align:justify;text-indent:2em;" >作为预应力钢筋，本规范以采用钢绞线和钢丝为主，预应力螺纹钢筋仅用于中、小型构件或竖、横向钢筋。钢绞线取自现行《预应力混凝土用钢绞线》(GB/T 5224);预应力钢丝为消除应力的光面和螺旋肋钢丝，取自现行《预应力混凝土用钢丝》(GB/T 5223);预应力螺纹钢筋取自现行《预应力混凝土用螺纹钢筋》(GB/T 20065)。钢绞线、钢丝和预应力螺纹钢筋的公称截面面积和公称质量列于<a href="#Bt3.3">表3-3</a>。</p>
+	<table id="biaoge" style="font-family:times new roman">
+
+         <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="Bt3.3">表3-3 预应力钢筋公称截面面积和公称质量</b></caption>	
+              
+		    <tr>
+		     <td  align="center" colspan="3">公称直径(mm)</td>
+			 <!-- <td></td> -->
+			 <!-- <td></td> -->
+		     <td  align="center" width="200px">公称截面面积(mm²)</td>
+			 <td  align="center" width="200px">公称质量(kg/m)</td>
+		    </tr>
+		    <tr>
+		    <td align="center" rowspan="5" id="dhbg" width="200px">钢绞线</td>
+		    <td align="center" rowspan="5" id="dhbg" width="200px">1×7</td>
+			<td align="center" id="dhbg" width="100px">9.5</td> 
+			<td align="center" id="dhbg" >54.8</td>
+			<td align="center" id="dhbg" >0.432</td>		
+		    </tr>
+		    <tr>
+		    <!-- <td></td> -->
+		    <!-- <td></td> -->
+			<td align="center" id="dhbg" width="100px">12.7</td> 
+			<td align="center" id="dhbg" >98.7</td>
+			<td align="center" id="dhbg" >0.774</td>		
+		    </tr>	
+		    <tr>
+		    <!-- <td></td> -->
+		    <!-- <td></td> -->
+			<td align="center" id="dhbg" >15.2</td> 
+			<td align="center" id="dhbg" >139.0</td>
+			<td align="center" id="dhbg" >1.101</td>		
+		    </tr>
+		    <tr>
+		    <!-- <td></td> -->
+		    <!-- <td></td> -->
+			<td align="center" id="dhbg" >17.8</td> 
+			<td align="center" id="dhbg" >191.0</td>
+			<td align="center" id="dhbg" >1.500</td>		
+		    </tr>
+		    <tr>
+		    <!-- <td></td> -->
+		    <!-- <td></td> -->
+			<td align="center" id="dhbg" >21.6</td> 
+			<td align="center" id="dhbg" >285.0</td>
+			<td align="center" id="dhbg" >2.237</td>		
+		    </tr>
+            <tr>
+		    <td align="center" rowspan="3" id="dhbg" >钢丝</td>
+		    <td align="center"  id="dhbg" colspan="2">5</td>
+			<!-- <td></td> -->
+			<td align="center" id="dhbg" >19.63</td>
+			<td align="center" id="dhbg" >0.154</td>		
+		    </tr>		   
+		    <tr>
+		    <!-- <td></td> -->
+		     <td align="center"  id="dhbg" colspan="2">7</td>
+			<!-- <td></td> -->
+			<td align="center" id="dhbg" >38.48</td>
+			<td align="center" id="dhbg" >0.302</td>		
+		    </tr>
+		    <tr>
+		    <!-- <td></td> -->
+		    <td align="center" id="dhbg" colspan="2">9</td>
+			<!-- <td></td> -->
+			<td align="center" id="dhbg" >63.62</td>
+			<td align="center" id="dhbg" >0.499</td>		
+		    </tr>
+            <tr>
+		    <td align="center" rowspan="5" id="dhbg" >预应力螺纹钢筋</td>
+		    <td align="center" id="dhbg" colspan="2">18</td>
+			<!-- <td></td> -->
+			<td align="center" id="dhbg" >254.5</td>
+			<td align="center" id="dhbg" >2.11</td>		
+		    </tr>		   
+		    <tr>
+		    <!-- <td></td> -->
+		    <td align="center" id="dhbg" colspan="2">25</td>
+			<!-- <td></td> -->
+			<td align="center" id="dhbg" >490.9</td>
+			<td align="center" id="dhbg" >4.10</td>		
+		    </tr>
+		    <tr>
+		    <!-- <td></td> -->
+		    <td align="center" id="dhbg" colspan="2">32</td>
+			<!-- <td></td> -->
+			<td align="center" id="dhbg" >6804.2</td>
+			<td align="center" id="dhbg" >06.65</td>		
+		    </tr>
+		    <tr>
+		    <!-- <td></td> -->
+		    <td align="center" id="dhbg" colspan="2">40</td>
+			<!-- <td></td> -->
+			<td align="center" id="dhbg" >61256.5</td>
+			<td align="center" id="dhbg" >10.34</td>		
+		    </tr>
+		    <tr>
+		    <!-- <td></td> -->
+		    <td align="center" id="dhbg" colspan="2">50</td>
+			<!-- <td></td> -->
+			<td align="center" id="dhbg" >1963.5</td>
+			<td align="center" id="dhbg" >16.28</td>		
+		    </tr>						
+		</table>
+   <p  > </p>
 
  <p style="text-align:justify"><a href="#idt3.2.2"> 3.2.2</a> <span id="idt3.2.2"> 、<a href="#idt3.2.3"> 3.2.3</a> <span id="idt3.2.3">本规范钢筋强度指标的确定原则，具体说明如下：</span></p>
+ <p style="text-align:justify;text-indent:2em;" >1 普通钢筋抗拉强度标准值，取自现行国家标准的钢筋屈服点，具有不小于95%保证率。余热处理钢筋的屈服点，国家标准规定为440 MPa,这是交货屈服点，该钢筋经闪光对焊后接头强度有所下降，在实际工程应用中取强度等级为RRB400,其抗拉强度标准值为400 MPa。普通钢筋抗拉强度设计值由普通钢筋抗拉强度标准值除以钢筋材料分项系数<i>γ</i><sub>fs</sub>=1.2而得，以此确定的强度设计值，按轴心受拉构件分析的可靠指标超过了安全等级二级结构规定的延性破坏构件的目标可靠指标。</p>
+ <p style="text-align:justify;text-indent:2em;" >2 钢绞线和钢丝的抗拉强度标准值，取自现行国家标准规定的极限抗拉强度。按照最新国家标准的规定，钢绞线和钢丝的条件屈服点为其抗拉强度的0.85倍，考虑《桥规JTJ023-85》钢绞线和钢丝的安全系数在设计强度的基础上再取1.25,因此，本规范钢绞线和钢丝的抗拉强度设计值取为<math xmlns="http://www.w3.org/1998/Math/MathML" ><msub><mi>f</mi><mrow><mrow><mi mathvariant="normal">s</mi><mi mathvariant="normal">d</mi></mrow></mrow></msub><mo>=</mo><msub><mi>f</mi><mrow><mrow><mi mathvariant="normal">f</mi><mi mathvariant="normal">k</mi></mrow></mrow></msub><mo>×</mo><mn>0.085</mn><mrow><mo>/</mo></mrow><mn>1.25</mn><mo>=</mo><msub><mi>f</mi><mrow><mrow><mi mathvariant="normal">f</mi><mi mathvariant="normal">k</mi></mrow></mrow></msub><mrow><mo>/</mo></mrow><mn>1.47</mn></math>，即将其抗拉强度标准值除以材料分项系数<i>γ</i><sub>fp</sub>=1.47而得。</p>
+ <p style="text-align:justify;text-indent:2em;" >预应力螺纹钢筋的抗拉强度标准值取自现行国家标准的钢筋屈服点，材料分项系数与普通钢筋的相同，<i>γ</i><sub>fp</sub>=1.2。</p> 
+ <p style="text-align:justify;text-indent:2em;" >3 钢筋抗压强度设计值f或fl按以下两个条件确定：</p>
+ <p style="text-align:justify;text-indent:2em;" >1)钢筋的受压应变<math xmlns="http://www.w3.org/1998/Math/MathML" ><msubsup><mi>ε</mi><mrow><mi>s</mi></mrow><mrow><msup><mi></mi><mo>′</mo></msup></mrow></msubsup></math>(或<math xmlns="http://www.w3.org/1998/Math/MathML" ><msubsup><mi>ε</mi><mrow><mi>p</mi></mrow><mrow><msup><mi></mi><mo>′</mo></msup></mrow></msubsup></math>)=0.002;</p>
+ <p style="text-align:justify;text-indent:2em;" >2)钢筋的抗压强度设计值<math xmlns="http://www.w3.org/1998/Math/MathML" ><msubsup><mi>f</mi><mrow><mrow><mi mathvariant="normal">s</mi><mi mathvariant="normal">d</mi></mrow></mrow><mrow><msup><mi></mi><mo>′</mo></msup></mrow></msubsup></math>（或<math xmlns="http://www.w3.org/1998/Math/MathML" ><msubsup><mi>f</mi><mrow><mrow><mi mathvariant="normal">p</mi><mi mathvariant="normal">d</mi></mrow></mrow><mrow><msup><mi></mi><mo>′</mo></msup></mrow></msubsup></math>）=<math xmlns="http://www.w3.org/1998/Math/MathML" ><msub><mi>E</mi><mrow><mrow><mi mathvariant="normal">s</mi></mrow></mrow></msub><msubsup><mi>ε</mi><mrow><mrow><mi mathvariant="normal">s</mi></mrow></mrow><mrow><msup><mi></mi><mo>′</mo></msup></mrow></msubsup></math>(或<math xmlns="http://www.w3.org/1998/Math/MathML" ><msub><mi>E</mi><mrow><mrow><mi mathvariant="normal">p</mi></mrow></mrow></msub><msubsup><mi>ε</mi><mrow><mrow><mi mathvariant="normal">p</mi></mrow></mrow><mrow><msup><mi></mi><mo>′</mo></msup></mrow></msubsup></math>)，必须不大于钢筋的抗拉强度设计值<math xmlns="http://www.w3.org/1998/Math/MathML" ><msub><mi>f</mi><mrow><mrow><mi mathvariant="normal">s</mi><mi mathvariant="normal">d</mi></mrow></mrow></msub></math>(或<math xmlns="http://www.w3.org/1998/Math/MathML" ><msub><mi>f</mi><mrow><mrow><mi mathvariant="normal">p</mi><mi mathvariant="normal">d</mi></mrow></mrow></msub></math>)。</p> 
+ <p style="text-align:justify;text-indent:2em;" >例如，HRB400级钢筋<math xmlns="http://www.w3.org/1998/Math/MathML" ><msubsup><mi>f</mi><mrow><mrow><mi mathvariant="normal">s</mi><mi mathvariant="normal">d</mi></mrow></mrow><mrow><msup><mi></mi><mo>′</mo></msup></mrow></msubsup><mo>=</mo><mn>0.002</mn><mo>×</mo><mn>2.0</mn><mo>×</mo><msup><mn>10</mn><mrow><mn>5</mn></mrow></msup><mo>=</mo><mn>400</mn><mtext>&nbsp;</mtext><mrow><mi mathvariant="normal">M</mi><mi mathvariant="normal">P</mi><mi mathvariant="normal">a</mi></mrow></math>，该值大于钢筋抗拉强度设计值<math xmlns="http://www.w3.org/1998/Math/MathML" ><msub><mi>f</mi><mrow><mrow><mi mathvariant="normal">s</mi><mi mathvariant="normal">d</mi></mrow></mrow></msub><mo>=</mo><mn>330</mn><mtext>&nbsp;</mtext><mrow><mi mathvariant="normal">M</mi><mi mathvariant="normal">P</mi><mi mathvariant="normal">a</mi></mrow></math>，取<math xmlns="http://www.w3.org/1998/Math/MathML" ><msubsup><mi>f</mi><mrow><mrow><mi mathvariant="normal">s</mi><mi mathvariant="normal">d</mi></mrow></mrow><mrow><msup><mi></mi><mo>′</mo></msup></mrow></msubsup><mo>=</mo><mn>330</mn><mtext>&nbsp;</mtext><mrow><mi mathvariant="normal">M</mi><mi mathvariant="normal">P</mi><mi mathvariant="normal">a</mi></mrow></math>; HRB500级钢筋<math xmlns="http://www.w3.org/1998/Math/MathML" ><msubsup><mi>f</mi><mrow><mrow><mi mathvariant="normal">s</mi><mi mathvariant="normal">d</mi></mrow></mrow><mrow><msup><mi></mi><mo>′</mo></msup></mrow></msubsup><mo>=</mo><mn>0.002</mn><mo>×</mo><mn>2.0</mn><mo>×</mo><msup><mn>10</mn><mrow><mn>5</mn></mrow></msup><mo>=</mo><mn>400</mn><mtext>&nbsp;</mtext><mrow><mi mathvariant="normal">M</mi><mi mathvariant="normal">P</mi><mi mathvariant="normal">a</mi></mrow></math>，该值小于钢筋抗拉强度设计值<math xmlns="http://www.w3.org/1998/Math/MathML" ><msub><mi>f</mi><mrow><mrow><mi mathvariant="normal">s</mi><mi mathvariant="normal">d</mi></mrow></mrow></msub><mo>=</mo><mn>415</mn><mtext>&nbsp;</mtext><mrow><mi mathvariant="normal">M</mi><mi mathvariant="normal">P</mi><mi mathvariant="normal">a</mi></mrow></math>，取<math xmlns="http://www.w3.org/1998/Math/MathML" ><msubsup><mi>f</mi><mrow><mrow><mi mathvariant="normal">s</mi><mi mathvariant="normal">d</mi></mrow></mrow><mrow><msup><mi></mi><mo>′</mo></msup></mrow></msubsup><mo>=</mo><mn>400</mn><mtext>&nbsp;</mtext><mrow><mi mathvariant="normal">M</mi><mi mathvariant="normal">P</mi><mi mathvariant="normal">a</mi></mrow></math>；抗拉强度标准值<math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mi>f</mi><mrow><mrow><mi mathvariant="normal">p</mi><mi mathvariant="normal">k</mi></mrow></mrow></msub><mo>=</mo><mn>1860</mn><mtext>&nbsp;</mtext><mrow><mi mathvariant="normal">M</mi><mi mathvariant="normal">P</mi><mi mathvariant="normal">a</mi></mrow></math>的钢绞线，其设计值<math xmlns="http://www.w3.org/1998/Math/MathML" ><msubsup><mi>f</mi><mrow><mrow><mi mathvariant="normal">p</mi><mi mathvariant="normal">d</mi></mrow></mrow><mrow><msup><mi></mi><mo>′</mo></msup></mrow></msubsup><mo>=</mo><mn>0.002</mn><mo>×</mo><mn>1.95</mn><mo>×</mo><msup><mn>10</mn><mrow><mn>5</mn></mrow></msup><mo>=</mo><mn>390</mn><mtext>&nbsp;</mtext><mrow><mi mathvariant="normal">M</mi><mi mathvariant="normal">P</mi><mi mathvariant="normal">a</mi></mrow></math>，该值小于抗拉强度设计值<math xmlns="http://www.w3.org/1998/Math/MathML" ><msub><mi>f</mi><mrow><mrow><mi mathvariant="normal">p</mi><mi mathvariant="normal">d</mi></mrow></mrow></msub><mo>=</mo><mn>1260</mn><mtext>&nbsp;</mtext><mrow><mi mathvariant="normal">M</mi><mi mathvariant="normal">P</mi><mi mathvariant="normal">a</mi></mrow></math>，取<math xmlns="http://www.w3.org/1998/Math/MathML" ><msubsup><mi>f</mi><mrow><mrow><mi mathvariant="normal">p</mi><mi mathvariant="normal">d</mi></mrow></mrow><mrow><msup><mi></mi><mo>′</mo></msup></mrow></msubsup><mo>=</mo><mn>390</mn><mtext>&nbsp;</mtext><mrow><mi mathvariant="normal">M</mi><mi mathvariant="normal">P</mi><mi mathvariant="normal">a</mi></mrow></math>。</p>
+ <p style="text-align:justify;text-indent:2em;" >本次修订补充了强度级别为1960 MPa和直径为21.6 mm的钢绞线。当用作预应力配筋时，应注意其与锚夹具的匹配，应经检验并确认锚夹具及工艺可靠后方可在工程中应用。</p>
+ <p style="text-align:justify;text-indent:2em;" >根据相关试验研究，限定了受剪、受扭、受冲切箍筋的抗拉强度设计值，但用作套箍约束混凝土的间接配筋(如连续螺旋箍筋或封闭焊接箍筋)时，其抗拉强度设计值可不受此限制，高强钢筋的优势可以得到充分发挥。</p> 
+
+
+
 
 :math:`\ `
