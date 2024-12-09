@@ -128,46 +128,938 @@
 <p style="text-align:justify"><a href="#idt4.1.3"> 4.1.3</a> <span id="idt4.1.3"> 标准化跨径按现行《公路桥涵设计通用规范》(JTG D60)的规定取0.75 m、1.0 m、1.25 m、1.5 m、2.0 m、2.5 m、3.0 m、4.0 m、5.0 m、6.0 m、8.0 m、10 m、13 m、1 6m、20 m、25 m、30 m、35 m、40 m、45 m、50 m。</span></p>
 <p style="text-align:justify"><a href="#idt4.1.4"> 4.1.4</a> <span id="idt4.1.4"> ~<a href="#idt4.1.5"> 4.1.5</a> <span id="idt4.1.5">  混凝土梁桥分为装配式结构和现浇结构两大类。各种结构的跨径限值根据标准化跨径在原规范基础进行了适当细化。</span></p>
 <p style="text-align:justify"><a href="#idt4.1.7"> 4.1.7</a> <span id="idt4.1.7"> 混凝土桥梁在施工过程中存在体系转换，一般采用增量叠加法(分阶段计算结构的变形、内力和应力增量，逐阶段累加)计算作用效应。混凝土收缩徐变效应，需考虑超静定结构的内力重分布和钢筋约束混凝土引起的应力重分布，由施工阶段混凝土结构的初始内力、初始龄期和施工时段，按附录C的混凝土收缩徐变函数计算</span></p>
-<p style="text-align:justify"><a href="#idt4.1.8"> 4.1.8</a> <span id="idt4.1.8"> 自2007年，内蒙古包头、天津、浙江上虞、黑龙江哈尔滨和广东河源相继发生箱梁匝道桥体横桥向倾覆失稳直至垮塌的事故案例。事故桥梁的基本特征(如图 4-1)为：上部结构采用整体式箱梁；结构体系为连续梁，上部结构由单向受压支座支承；桥台或过渡墩采用双支座或三支座，跨中桥墩全部或部分采用单支座。</span></p>
-<p style="text-align:justify"><a href="#idt4.1.9"> 4.1.9</a> <span id="idt4.1.9"> 自上世纪八十年代以来，国际工程界倡导将混凝土结构划分为B区和 D区：B区指截面应变符合平截面假定的区域，按“梁式体系”计算；D区，即应力扰动区，指截面应变分布不符合平截面假定的区域，一般位于集中力作用点附近或几何尺寸发生突变的部位。混凝土桥梁的典型应力扰动区如图4-5。</span></p>
+<p style="text-align:justify;text-indent:2em;" > 混凝土桥梁的空间效应主要为剪力滞效应、汽车荷载的横向分布效应和箱梁的薄壁效应。空间效应的分析方法主要为杆系模型+简化参数分析方法、<a href="https://jtg-3362.readthedocs.io/zh/latest/FLA.html">附录A</a>的实用精细化分析模型和实体单元模型。其中，杆系模型+简化参数分析方法应用最为广泛，剪力滞效应通过翼缘有效宽度考虑(详见<a href="https://jtg-3362.readthedocs.io/zh/latest/04.html#id4">4.3节</a>)，汽车荷载的横向分布和箱梁薄壁效应通过偏载增大系数考虑。箱梁的偏载增大系数一般采用1.15，装配式主梁近似采用荷载横向分布系数算法计算。弯、宽、斜及变宽或分岔等形体复杂混凝土桥梁的边界条件，与荷载横向分布系数算法的假定条件不符，结构分析不应盲目套用简化参数，应采用精细化的有限元模型。</p>
+<p style="text-align:justify;text-indent:2em;" > 采用<a href="https://jtg-3362.readthedocs.io/zh/latest/FLA.html">附录A</a>“桥梁结构的实用精细化分析模型”，较实体单元模型，省去了按积分法则由应力得到内力的过程，可直接得到结构的内力、进而进行强度验算。</p>
+<p style="text-align:justify"><a href="#idt4.1.8"> 4.1.8</a> <span id="idt4.1.8"> 自2007年，内蒙古包头、天津、浙江上虞、黑龙江哈尔滨和广东河源相继发生箱梁匝道桥体横桥向倾覆失稳直至垮塌的事故案例。事故桥梁的基本特征(如<a href="#figt4.1">图4-1</a>)为：上部结构采用整体式箱梁；结构体系为连续梁，上部结构由单向受压支座支承；桥台或过渡墩采用双支座或三支座，跨中桥墩全部或部分采用单支座。</span></p>
+<div align="center"><img id="figt4.1" src="../_static/fig/T4.1.png" alt="Picture" width="500px"></div>
+ <p style="color: dimgray;text-align: center;">图 4-1 事故桥梁的典型形式</p>
+ <script type="text/javascript">var viewer = new Viewer(document.getElementById('figt4.1'));</script>
+
+<p style="text-align:justify;text-indent:2em;" > 事故桥梁的破坏过程表现为，单向受压支座脱离正常受压状态，上部结构的支承体系不再提供有效约束，上部结构扭转变形趋于发散、横向失稳垮塌，支座、下部结构连带损坏，如<a href="#figt4.2">图4-2</a>。按照现行《工程结构可靠性设计统一标准》(GB 50153)的规定，这类破坏属于承载能力极限状态范畴。</p>
+ <div align="center"><img id="figt4.2" src="../_static/fig/T4.2.png" alt="Picture" width="500px"></div>
+ <p style="color: dimgray;text-align: center;">图 4-2 典型破坏过程</p>
+ <script type="text/javascript">var viewer = new Viewer(document.getElementById('figt4.2'));</script>
+
+<p style="text-align:justify;text-indent:2em;" > 倾覆过程存在2个明确特征状态：在特征状态1,箱梁的单向受压支座开始脱离受压；在特征状态 2,箱梁的抗扭支承全部失效。参考国内外相关规范，采用这两个特征状态作为抗倾覆验算工况。</p>
+<p style="text-align:justify;text-indent:2em;" > 1 针对特征状态1,作用基本组合下，箱梁桥的单向受压支座处于受压状态。</p>
+<p style="text-align:justify;text-indent:2em;" > 2 箱梁桥同一桥墩的一对双支座构成一个抗扭支承，起到对扭矩和扭转变形的双重约束；当双支座中一个支座竖向力变为零、失效后，另一个有效支座仅起到对扭矩的约束，失去对扭转变形的约束；当箱梁的抗扭支承全部失效时，箱梁处于受力平衡或扭转变形失效的极限状态，即达到特征状态2，如<a href="#figt4.3">图4-3c</a>。对特征状态2,参考挡土墙、刚性基础的横向倾覆验算，采用“稳定作用效应≥稳定性系数×失稳作用效应”的表达式。</p>
+ <div align="center"><img id="figt4.3" src="../_static/fig/T4.3.png" alt="Picture" width="500px"></div>
+ <p style="color: dimgray;text-align: center;">图 4-3 箱梁桥达到特征状态2的过程示意<br/>●有效支座 ○一头效支座</p>
+ <script type="text/javascript">var viewer = new Viewer(document.getElementById('figt4.3'));</script>
+<p style="text-align:justify;text-indent:2em;" > 箱梁桥处于特征状态 2时，各个桥墩都存在一个有效支座，如<a href="#figt4.4">图4-4</a>。稳定效应和失稳效应按照失效支座对有效支座的力矩计算：</p><p>$$稳定效应\hspace{2cm}\sum S_{\mathrm{bk,i} }=\sum R_{\mathrm{Gki} }l_{\mathrm{i} }\tag{4-1}$$
+$$稳定效应\hspace{2cm}\sum S_{\mathrm{sk,i} }=\sum R_{\mathrm{Qki} }l_{\mathrm{i} }\tag{4-2}$$</p>
+<table border="0" style="font-family:times new roman" id="gongshi">
+<tr>
+<td width="50px" align='center' id="eqzs">式中:</td>
+<td width="50px" align='right' id="eqzs"><i>l</i><sub>i</sub></td>
+<td width="40px" align='left' id="eqzs">——</td>
+<td id="eqzs">第<i>i</i>个桥墩处失效支座与有效支座的支座中心间距；</td>
+</tr>
+<tr>
+<td id="eqzs"> </td>
+<td id="eqzs" align='right'><i>R</i><sub>Gki</sub></td>
+<td id="eqzs">——</td>
+<td id="eqzs">在永久作用下，第<i>i</i>个桥墩处失效支座的支反力，按全部支座有效的支承体系计算确定，按标准值组合取值；</td>
+</tr>
+<tr>
+<td id="eqzs"> </td>
+<td id="eqzs" align='right'><i>R</i><sub>Qki</sub></td>
+<td id="eqzs">——</td>
+<td id="eqzs">在可变作用下，第<i>i</i>个桥墩处失效支座的支反力，按全部支座有效的支承体系计算确定，按标准值组合取值，汽车荷载效应(考虑冲击)按各失效支座对应的最不利布置形式取值。</td>
+</tr>
+</table>
+<p></p>
+
+<p style="text-align:justify;text-indent:2em;" > 综合考虑该简化分析方法的偏差系数和实际车辆密集排布情况下汽车荷载效应的放大系数，确定横向抗倾覆稳定性系数为2.50。</p>
+
+
+ <div align="center"><img id="figt4.4" src="../_static/fig/T4.4.png" alt="Picture" width="350px"></div>
+ <p style="color: dimgray;text-align: center;">图 4-4 箱梁桥达到特征状态2的过程示意</p>
+ <script type="text/javascript">var viewer = new Viewer(document.getElementById('figt4.4'));</script>
+<p style="text-align:justify;text-indent:2em;" > 某4×20m 箱梁桥的曲线半径为400m，支座布置如<a href="#figt4.3">图4-3</a>，抗倾覆验算结果如<a href="#figb4-1">表4-1</a>。</p>
+
+ <p style="color: dimgray;text-align: center;"> 表4-1 箱梁桥抗倾覆验算示例</p>
+ <div align="center"><img id="figb4-1" src="../_static/fig/b4-1.png" alt="Picture" width="900px"></div>
+
+ <script type="text/javascript">var viewer = new Viewer(document.getElementById('figb4-1'));</script>
+<p style="color: dimgray;text-align: center;">  </p>
+
+
+<p style="text-align:justify"><a href="#idt4.1.9"> 4.1.9</a> <span id="idt4.1.9"> 自上世纪八十年代以来，国际工程界倡导将混凝土结构划分为B区和 D区：B区指截面应变符合平截面假定的区域，按“梁式体系”计算；D区，即应力扰动区，指截面应变分布不符合平截面假定的区域，一般位于集中力作用点附近或几何尺寸发生突变的部位。混凝土桥梁的典型应力扰动区如<a href="#figt4.5">图4-5</a>。</span></p>
+
+  <div align="center"><img id="figt4.5" src="../_static/fig/T4.5.png" alt="Picture" width="600px"></div>
+ <p style="color: dimgray;text-align: center;">图 4-5 混凝土梁桥中的典型应力扰动区</p>
+ <script type="text/javascript">var viewer = new Viewer(document.getElementById('figt4.5'));</script>
+
+<p style="text-align:justify;text-indent:2em;" > 应力扰动区常用的设计方法包括拉压杆模型方法、实体有限元模型方法或特殊受力情形简化公式方法：</p>
+
+<ol>
+<li> 拉压杆模型方法是基于连续体内传力路径的简化受力分析方法，已写入了美国《AASHTO LRFD Bridge Design Specifications》(以下简称《美国 AASHTO LRFD规范》)和欧洲规范Eurocode。原规范在桩基承台的计算中引入了拉压杆模型方法，本次修订进一步把该方法拓展到后张预应力构件的锚固区、支座处横隔梁和墩台盖梁等构件。拉压杆模型方法以塑性下限定理为理论基础，国内外的应力扰动区试验和理论研究表明，拉压杆模型方法能够较好地反映应力扰动区的受力机制，且该方法用于应力扰动区承载力的计算是偏于安全的。</li>
+<li> 实体有限元模型方法，指采用弹性、弹塑性实体有限元模型，分析应力扰动区的应力分布，以此进行配筋设计的方法。</li>
+<li> 特殊受力情形的简化公式方法，指对典型应力扰动区，利用弹性力学或力流线模型推导出的内力解析公式，以此进行配筋设计的方法。本规范在<a href="https://jtg-3362.readthedocs.io/zh/latest/08.html">第8章</a>给出了典型应力扰动区的拉力简化计算公式，简化计算得到的拉力等同于拉压杆模型计算得到的拉杆内力。</li>
+</ol>
+
+
 <p style="text-align:justify"><a href="#idt4.1.10"> 4.1.10</a> <span id="idt4.1.10"> 混凝土结构的耐久性在很大程度上取决于施工质量和结构使用过程中的正确维护与例行检测。因此，本条特作相应规定；《公路桥梁施工技术规范》(JTG/T F50)已对施工过程中的质量控制、质量保证进行了详细规定，这里不再重复。</span></p></section>
 <section id="id3">
 <h2>4.2  板的计算<a class="headerlink" href="#id3" title="此标题的永久链接"></a></h2>
-<p style="text-align:justify"><a href="#idt4.2.1"> 4.2.1</a> <span id="idt4.2.1">  </span></p>
-<p style="text-align:justify"><a href="#idt4.2.2"> 4.2.2</a> <span id="idt4.2.2"> 由于支承点并非完全固结，弯矩计算跨径取净跨径加板厚，但不大于支承点中距。与梁肋整体连接的板，支点截面偏安全地按固端考虑，其弯矩为：</span></p>
+<p style="text-align:justify"><a href="#idt4.2.1"> 4.2.1</a> <span id="idt4.2.1"> 1 四边支承的板，在均布荷载<i>q</i>作用下，长边跨中挠度为<math xmlns="http://www.w3.org/1998/Math/MathML" ><msub><mi mathvariant="normal">Δ</mi><mrow><mn>1</mn></mrow></msub><mo>=</mo><mi>k</mi><mstyle displaystyle="true" scriptlevel="0"><mfrac><mrow><msub><mi>q</mi><mrow><mn>1</mn></mrow></msub><msubsup><mi>l</mi><mrow><mn>1</mn></mrow><mrow><mn>4</mn></mrow></msubsup></mrow><mrow><mi>E</mi><mi>I</mi></mrow></mfrac></mstyle></math>，短边跨中挠度为<math xmlns="http://www.w3.org/1998/Math/MathML" ><msub><mi mathvariant="normal">Δ</mi><mrow><mn>2</mn></mrow></msub><mo>=</mo><mi>k</mi><mstyle displaystyle="true" scriptlevel="0"><mfrac><mrow><msub><mi>q</mi><mrow><mn>2</mn></mrow></msub><msubsup><mi>l</mi><mrow><mn>2</mn></mrow><mrow><mn>4</mn></mrow></msubsup></mrow><mrow><mi>E</mi><mi>I</mi></mrow></mfrac></mstyle></math>，以上<i>k</i>为系数，视板的支承条件而定，<i>q</i><sub>1</sub>为长边分配的均布荷载，<i>q</i><sub>2</sub>为短边分配的均布荷载，<math xmlns="http://www.w3.org/1998/Math/MathML" ><msub><mi>l</mi><mrow><mn>1</mn></mrow></msub></math>和<math xmlns="http://www.w3.org/1998/Math/MathML" ><msub><mi>l</mi><mrow><mn>2</mn></mrow></msub></math>分别为长边和短边计算跨径，<i>EI</i>为板的抗弯刚度。根据<math xmlns="http://www.w3.org/1998/Math/MathML" ><msub><mi mathvariant="normal">Δ</mi><mrow><mn>1</mn></mrow></msub><mo>=</mo><msub><mi mathvariant="normal">Δ</mi><mrow><mn>2</mn></mrow></msub></math>，
+<math xmlns="http://www.w3.org/1998/Math/MathML" ><mi>q</mi><mo>=</mo><msub><mi>q</mi><mrow><mn>1</mn></mrow></msub><mo>+</mo><msub><mi>q</mi><mrow><mn>2</mn></mrow></msub></math>条件，可得：<math xmlns="http://www.w3.org/1998/Math/MathML" ><msub><mi>q</mi><mrow><mn>1</mn></mrow></msub><mo>=</mo><mstyle displaystyle="true" scriptlevel="0"><mfrac><msubsup><mi>l</mi><mrow><mn>2</mn></mrow><mrow><mn>4</mn></mrow></msubsup><mrow><msubsup><mi>l</mi><mrow><mn>1</mn></mrow><mrow><mn>4</mn></mrow></msubsup><mo>+</mo><msubsup><mi>l</mi><mrow><mn>2</mn></mrow><mrow><mn>4</mn></mrow></msubsup></mrow></mfrac></mstyle><mi>q</mi></math>，<math xmlns="http://www.w3.org/1998/Math/MathML" ><msub><mi>q</mi><mrow><mn>2</mn></mrow></msub><mo>=</mo><mstyle displaystyle="true" scriptlevel="0"><mfrac><msubsup><mi>l</mi><mrow><mn>1</mn></mrow><mrow><mn>4</mn></mrow></msubsup><mrow><msubsup><mi>l</mi><mrow><mn>1</mn></mrow><mrow><mn>4</mn></mrow></msubsup><mo>+</mo><msubsup><mi>l</mi><mrow><mn>2</mn></mrow><mrow><mn>4</mn></mrow></msubsup></mrow></mfrac></mstyle><mi>q</mi></math>；当<math xmlns="http://www.w3.org/1998/Math/MathML"><mstyle displaystyle="true" scriptlevel="0"><mfrac><msub><mi>l</mi><mrow><mn>1</mn></mrow></msub><msub><mi>l</mi><mrow><mn>2</mn></mrow></msub></mfrac></mstyle><mo>⩾</mo><mn>2</mn></math>时，<math xmlns="http://www.w3.org/1998/Math/MathML" ><msub><mi>q</mi><mrow><mn>1</mn></mrow></msub><mo>⩽</mo><mstyle displaystyle="true" scriptlevel="0"><mfrac><mn>1</mn><mn>16</mn></mfrac></mstyle><msub><mi>q</mi><mrow><mn>2</mn></mrow></msub></math>，可见长边跨分配的荷载小于短边跨分配的荷载。如果以弯矩来比较，长跨弯矩与短跨弯矩之比为：</span></p><p>$$M_{1}/M_{2}=\dfrac{k^{'}q_1l_1^2}{k^{'}q_2l_2^2}=\dfrac{[l_2^4/(l_1^4+l_2^4)]q}{[l_1^4/(l_1^4+l_2^4)]q}\times\dfrac{l_1^2}{l_2^2}=\left(\dfrac{l_2}{l_1}\right)^2$$</p>
+<p style="text-align:justify;text-indent:2em;" > 当 <math xmlns="http://www.w3.org/1998/Math/MathML" ><mstyle displaystyle="true" scriptlevel="0"><mfrac><msub><mi>l</mi><mn>2</mn></msub><msub><mi>l</mi><mn>1</mn></msub></mfrac></mstyle><mo>⩾</mo><mn>2</mn></math>，<math xmlns="http://www.w3.org/1998/Math/MathML" ><msub><mi>M</mi><mn>1</mn></msub><mo>⩽</mo><mstyle displaystyle="true" scriptlevel="0"><mfrac><mn>1</mn><mn>4</mn></mfrac></mstyle><msub><mi>M</mi><mn>2</mn></msub></math>，以上<i>k'</i>为系数，视板的支承条件而定。因此，当<math xmlns="http://www.w3.org/1998/Math/MathML" ><mstyle displaystyle="true" scriptlevel="0"><mfrac><msub><mi>l</mi><mn>2</mn></msub><msub><mi>l</mi><mn>1</mn></msub></mfrac></mstyle><mo>⩾</mo><mn>2</mn></math>时，可以按长边作为支承，短边作为跨径，按单向板计算。如果<math xmlns="http://www.w3.org/1998/Math/MathML" ><mstyle displaystyle="true" scriptlevel="0"><mfrac><msub><mi>l</mi><mn>2</mn></msub><msub><mi>l</mi><mn>1</mn></msub></mfrac></mstyle><mo>&lt;</mo><mn>2</mn></math>则应按弹性力学方法分配荷载。《美国公路桥设计规范 AASHTO 14版，1989》(以下简称《美国 AASHTO 规范14版》)3.24.6，对于荷载分配的简化方法是：均布荷载<math xmlns="http://www.w3.org/1998/Math/MathML" ><msub><mi>q</mi><mn>2</mn></msub><mo>=</mo><mstyle displaystyle="true" scriptlevel="0"><mfrac><msubsup><mi>l</mi><mn>1</mn><mn>4</mn></msubsup><mrow><msubsup><mi>l</mi><mn>1</mn><mn>4</mn></msubsup><mo>+</mo><msubsup><mi>l</mi><mn>2</mn><mn>4</mn></msubsup></mrow></mfrac></mstyle><mi>q</mi></math>，集中荷载<math xmlns="http://www.w3.org/1998/Math/MathML" ><msub><mi>P</mi><mn>2</mn></msub><mo>=</mo><mstyle displaystyle="true" scriptlevel="0"><mfrac><msubsup><mi>l</mi><mn>1</mn><mn>3</mn></msubsup><mrow><msubsup><mi>l</mi><mn>1</mn><mn>3</mn></msubsup><mo>+</mo><msubsup><mi>l</mi><mn>2</mn><mn>3</mn></msubsup></mrow></mfrac></mstyle><mi>P</mi></math>(q和 P?为短边跨径所分配的均布荷载和集中荷载，<i>q</i>为板上均布荷载，<i>P</i>为板上集中荷载)。该规范还规定当<math xmlns="http://www.w3.org/1998/Math/MathML"><mstyle displaystyle="true" scriptlevel="0"><mfrac><msub><mi>l</mi><mn>1</mn></msub><msub><mi>l</mi><mn>2</mn></msub></mfrac></mstyle><mo>⩾</mo><mn>1.5</mn></math>时，短边跨径作为单向板计算，其<math xmlns="http://www.w3.org/1998/Math/MathML"><mstyle displaystyle="true" scriptlevel="0"><mfrac><msub><mi>l</mi><mn>1</mn></msub><msub><mi>l</mi><mn>2</mn></msub></mfrac></mstyle></math>的限值较本规范为小。</p>
+<p style="text-align:justify"><a href="#idt4.2.2"> 4.2.2</a> <span id="idt4.2.2"> 由于支承点并非完全固结，弯矩计算跨径取净跨径加板厚，但不大于支承点中距。</span></p>
+<p style="text-align:justify;text-indent:2em;" > 与梁肋整体连接的板，支点截面偏安全地按固端考虑，其弯矩为：</p><p>$$M=-\dfrac{1}{12}ql^2=-\dfrac{2}{3}\times\dfrac{1}{8}ql^2=-0.67M_0\approx -0.7M_0\tag{4-3}$$</p>
+<table border="0" style="font-family:times new roman" id="gongshi">
+<tr>
+<td width="50px" align='center' id="eqzs">式中:</td>
+<td width="50px" align='right' id="eqzs"><i>q</i></td>
+<td width="40px" align='left' id="eqzs">——</td>
+<td id="eqzs">单位长度上的均布荷载；</td>
+</tr>
+<tr>
+<td id="eqzs"> </td>
+<td id="eqzs" align='right'><math xmlns="http://www.w3.org/1998/Math/MathML" ><mi>l</mi></math></td>
+<td id="eqzs">——</td>
+<td id="eqzs">板的计算跨径；</td>
+</tr>
+<tr>
+<td id="eqzs"> </td>
+<td id="eqzs" align='right'><i>M</i><sub>0</sub></td>
+<td id="eqzs">——</td>
+<td id="eqzs">简支板跨中弯矩。</td>
+</tr>
+ </table>
+<p></p>
 
-<p style="text-align:justify"><a href="#idt4.2.3"> 4.2.3</a> <span id="idt4.2.3"> 3垂直于板跨径方向的分布宽度，当车轮荷载位于板的跨径中部时，一般以车轮着地并通过铺装层扩散后再加一个计算跨径分数值的形式来表达，本条规定为通过铺装层扩散后再加一个1/3 计算跨径。根据弹性理论，车轮荷载在跨中部位分布宽度一般为0.6~0.7倍计算跨径，故规定不小于2/3计算跨径。</span></p>
-<p style="text-align:justify"><a href="#idt4.2.4"> 4.2.4</a> <span id="idt4.2.4"> 当 </span></p>
-<p style="text-align:justify"><a href="#idt4.2.5"> 4.2.5</a> <span id="idt4.2.5">本条车轮荷载分布适用于<i>l</i><sub>c</sub>值不大于2.5 m情况。当悬臂板<i>l</i><sub>c</sub>值大于2.5 m时，可采用沙柯公式计算悬臂根部单位宽度的负弯矩<i>m</i><sub>x</sub>:</span></p>
-<p style="text-align:justify"><a href="#id4.2.6"> 4.2.6</a> <span id="id4.2.6"> 试验表明，当 tanα>1/3时，应力流仍集中在tanα=1/3范围以内，承托的一部分不起作用，因此板的计算高度 <i>h</i><sub>e</sub>,当 tanα>1/3时只能按 tana=1/3考虑。</span></p></section>
+<p style="text-align:justify;text-indent:2em;" > 跨中截面的弯矩偏安全地按板的支承为弹性半固结考虑，其值为：</p><p>$$M=+\dfrac{1}{16}ql^2=+\dfrac{1}{2}\times\dfrac{1}{8}ql^2=+0.5M_0\tag{4-4}$$</p>
+<p style="text-align:justify;text-indent:2em;" > 当板厚与梁肋的高度比值不小于1/4时，支承构件对板的约束减小，跨中弯矩取+0.7<i>M</i><sub>0</sub>。</p>
+<p style="text-align:justify"><a href="#idt4.2.3"> 4.2.3</a> <span id="idt4.2.3"> 垂直于板跨径方向的分布宽度，当车轮荷载位于板的跨径中部时，一般以车轮着地并通过铺装层扩散后再加一个计算跨径分数值的形式来表达，本条规定为通过铺装层扩散后再加一个1/3 计算跨径。根据弹性理论，车轮荷载在跨中部位分布宽度一般为0.6~0.7倍计算跨径，故规定不小于2/3计算跨径。</span></p>
+<p style="text-align:justify;text-indent:2em;" > 箱梁顶板一般按照<a href="#figt4.6">图4-6</a>所示计算轮载的分布宽度。</p>
+
+ <div align="center"><img id="figt4.6" src="../_static/fig/T4.6.png" alt="Picture" width="500px"></div>
+ <p style="color: dimgray;text-align: center;">图 4-6 轮载分布宽度计算示意</p>
+ <script type="text/javascript">var viewer = new Viewer(document.getElementById('figt4.6'));</script>
+
+
+<p style="text-align:justify"><a href="#idt4.2.4"> 4.2.4</a> <span id="idt4.2.4"> 根据奥尔森(Olsen)提出的实验数据，斜交板桥按正交板桥的计算条件如<a href="#Bt4.2">表4-2</a>。整体式斜板桥在编号2和3内，当<math xmlns="http://www.w3.org/1998/Math/MathML" ><mi>φ</mi><mo>&lt;</mo><mn>15</mn><mrow><mo>°</mo></mrow></math>时可用正交桥计算，计算跨径按本条规定取用。装配式斜板桥为横向铰接，其单块预制板是跨宽比很大的窄板，相邻铰接板之间仅考虑传递剪力，属于编号1内类型，故凡斜交角<math xmlns="http://www.w3.org/1998/Math/MathML" ><mi>φ</mi><mo>⩽</mo><mn>40</mn><mrow><mo>°</mo></mrow></math>的装配式斜板桥均可按计算跨径为斜跨的正交板桥计算；另据《公路桥梁设计手册》(1978)所载，当<math xmlns="http://www.w3.org/1998/Math/MathML" ><mi>l</mi><mo>&gt;</mo><mn>1.25</mn><msup><mi>b</mi><mrow><msup><mi></mi><mo>′</mo></msup></mrow></msup></math>(<i>b'</i>为斜板支承边宽)、<math xmlns="http://www.w3.org/1998/Math/MathML" ><mi>φ</mi><mo>&lt;</mo><mn>45</mn><mrow><mo>°</mo></mrow></math>时，斜板桥可按跨径为斜跨的正交桥计算。</span></p>
+
+       <table id="biaoge" style="font-family:times new roman">
+
+        <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="Bt4.4">表4-4 参数<i>A'</i>的取值</b></caption>
+
+                   <tr>
+                     <td  align="center" id="dhbg" width="60px">编号</td>
+                     <td  align="center" id="dhbg" width="150px">斜跨<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>l</mi></math>/板宽<math xmlns="http://www.w3.org/1998/Math/MathML" ><mi>b</mi></math></td>
+         <td  align="center" id="dhbg" width="150px">斜交角<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>φ</mi></math></td>
+                                 <td  align="center" id="dhbg" width="150px">计算跨径</td>
+         <td  align="center" id="dhbg" width="390px">主钢筋配置</td>
+                   </tr>
+                   <tr>
+                     <td align="center" id="dhbg" >1</td>
+                     <td align="center" id="dhbg" >≥1.3</td>
+                                 <td align="center" id="dhbg" >≤40°</td>
+         <td align="center" id="dhbg" >斜跨</td>
+         <td align="center" id="dhbg" >平行于斜跨</td>
+                   </tr>
+                   <tr>
+                     <td align="center" id="dhbg" rowspan="2">2</td>
+                     <td align="center" id="dhbg" rowspan="2">1.3~0.7</td>
+                                 <td align="center" id="dhbg" >＜15°</td>
+         <td align="center" id="dhbg" >正跨</td>
+         <td align="center" id="dhbg" rowspan="2">中间部分垂直于墩台长度方向，边缘部分平行于斜跨</td>
+                   </tr>
+                   <tr>
+                     <!-- <td></td> -->
+                     <!-- <td></td> -->
+                                 <td align="center" id="dhbg" >15°＜<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>φ</mi></math>＜40°</td>
+         <td align="center" id="dhbg" >1/2(斜跨+正跨)</td>
+         <!-- <td></td> -->
+                   </tr>
+                   <tr>
+                     <td align="center" id="dhbg" >3</td>
+                     <td align="center" id="dhbg" >＜0.7</td>
+                                 <td align="center" id="dhbg" >≤40°</td>
+         <td align="center" id="dhbg" >正跨</td>
+         <td align="center" id="dhbg" >垂直于墩台长度方向</td>
+                   </tr>
+                  </table>
+<p><font size="2">斜跨指顺桥轴线的跨径，正跨指墩(台)间垂直距离，计算宽度为垂直于桥纵轴线的板宽<i>b</i>。</font></p>
+
+
+<p style="text-align:justify"><a href="#idt4.2.5"> 4.2.5</a> <span id="idt4.2.5">本条车轮荷载分布适用于<math xmlns="http://www.w3.org/1998/Math/MathML" ><msub><mi>l</mi><mrow><mi>c</mi></mrow></msub></math>值不大于2.5 m情况。当悬臂板<math xmlns="http://www.w3.org/1998/Math/MathML" ><msub><mi>l</mi><mrow><mi>c</mi></mrow></msub></math>值大于2.5 m时，可采用沙柯公式计算悬臂根部单位宽度的负弯矩<math xmlns="http://www.w3.org/1998/Math/MathML" ><msub><mi>m</mi><mrow><mi>x</mi></mrow></msub></math>:</span></p><p>$$m_{\mathrm{x} }=f(o,\mathrm{y} )=-\dfrac{P}{\pi}A^{'}\dfrac{1}{ch(\dfrac{A^{'}\mathrm{y} }{a_{0}}/\dfrac{l_{\mathrm{c} }}{a_{0}})}\tag{4-5}$$</p>
+<table border="0" style="font-family:times new roman" id="gongshi">
+<tr>
+<td width="50px" align='center' id="eqzs">式中:</td>
+<td width="50px" align='right' id="eqzs"><i>P</i></td>
+<td width="40px" align='left' id="eqzs">——</td>
+<td id="eqzs">集中荷载；</td>
+</tr>
+<tr>
+<td id="eqzs"> </td>
+<td id="eqzs" align='right'><math xmlns="http://www.w3.org/1998/Math/MathML" ><msub><mi>l</mi><mrow><mi>c</mi></mrow></msub></math></td>
+<td id="eqzs">——</td>
+<td id="eqzs">荷载沿x轴的作用位置；</td>
+</tr>
+<tr>
+<td id="eqzs"> </td>
+<td id="eqzs" align='right'><math xmlns="http://www.w3.org/1998/Math/MathML" ><msub><mi>a</mi><mrow><mi>0</mi></mrow></msub></math></td>
+<td id="eqzs">——</td>
+<td id="eqzs">简支板跨中弯矩。</td>
+</tr>
+<tr>
+<td id="eqzs"> </td>
+<td id="eqzs" align='right'><i>X,Y</i></td>
+<td id="eqzs">——</td>
+<td id="eqzs">平面坐标系(见<a href="#figt4.7">图4-7</a>);</td>
+</tr>
+<tr>
+<td id="eqzs"> </td>
+<td id="eqzs" align='right'><i>A'</i></td>
+<td id="eqzs">——</td>
+<td id="eqzs">相关参数，按<a href="#Bt4.3">表4-3</a>取值。</td>
+</tr>
+ </table>
+<p></p>
+
+ <div align="center"><img id="figt4.7" src="../_static/fig/T4.7.png" alt="Picture" width="100px"></div>
+ <p style="color: dimgray;text-align: center;">图 4-7 <math xmlns="http://www.w3.org/1998/Math/MathML" ><msub><mi>m</mi><mrow><mi>x</mi></mrow></msub></math>计算示意</p>
+ <script type="text/javascript">var viewer = new Viewer(document.getElementById('figt4.7'));</script>
+
+<style>
+    #biaoge {
+        border: 2px solid black;
+        border-collapse: collapse;
+        margin-bottom:1px;
+
+     }
+     th, td {
+        padding-top: 5px;
+        padding-bottom:5px;
+        padding-left:5px;
+        padding-right:5px;
+        border: 1px solid black;
+
+     }
+     #eqzs {
+        border: 0px;
+     }
+     #dhbg {
+       vertical-align: middle;
+     }
+    </style>
+
+               <table id="biaoge" style="font-family:times new roman">
+
+        <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="Bt4.3">表4-3 参数<i>A'</i>的取值</b></caption>
+
+                   <tr>
+                     <td  align="center" id="dhbg" width="180px">上荷载位置(<math xmlns="http://www.w3.org/1998/Math/MathML" ><msub><mi>l</mi><mrow><mi>c</mi></mrow></msub><mrow><mo>/</mo></mrow><msub><mi>a</mi><mrow><mn>0</mn></mrow></msub></math>)</td>
+                     <td  align="center" id="dhbg" width="180px">0.25</td>
+         <td  align="center" id="dhbg" width="180px">0.50</td>
+                                 <td  align="center" id="dhbg" width="180px">0.75</td>
+         <td  align="center" id="dhbg" width="180px">1.00</td>
+                   </tr>
+                   <tr>
+                     <td align="center" id="dhbg" ><i>A'</i></td>
+                     <td align="center" id="dhbg" >1.07</td>
+                                 <td align="center" id="dhbg" >1.17</td>
+         <td align="center" id="dhbg" >1.30</td>
+         <td align="center" id="dhbg" >1.53</td>
+                   </tr>
+                  </table>
+<p><font size="2">荷载位置与表中数值不同时，可采用直线内插求解<i>A'</i>值。</font></p>
+
+
+<p style="text-align:justify;text-indent:2em;" > 公式(4-5)一般为条文公式(4.2.5)的1.15~1.30倍。此外，在车轮荷载作用点的下方，还会出现正弯矩情况，因此尚应考虑正弯矩配筋。</p>
+
+
+<p style="text-align:justify"><a href="#id4.2.6"> 4.2.6</a> <span id="id4.2.6"> 试验表明，当 tanα＞1/3时，应力流仍集中在tanα=1/3范围以内，承托的一部分不起作用，因此板的计算高度 <i>h</i><sub>e</sub>,当 tanα>1/3时只能按 tana=1/3考虑。</span></p></section>
 <section id="id4">
 <h2>4.3 梁的计算<a class="headerlink" href="#id4" title="此标题的永久链接"></a></h2>
-<p style="text-align:justify"><a href="#idt4.3.1"> 4.3.1</a> <span id="idt4.3.1"> </span></p>
-<p style="text-align:justify"><a href="#idt4.3.2"> 4.3.2</a> <span id="idt4.3.2"> </span></p>
-<p style="text-align:justify"><a href="#idt4.3.3"> 4.3.3</a> <span id="idt4.3.3"> </span></p>
-<p style="text-align:justify"><a href="#idt4.3.4"> 4.3.4</a> <span id="idt4.3.4"> </span></p>
-<p style="text-align:justify"><a href="#idt4.3.5"> 4.3.5</a> <span id="idt4.3.5"> </span></p>
-<p style="text-align:justify"><a href="#idt4.3.6"> 4.3.6</a> <span id="idt4.3.6"> </span></p>
-<p style="text-align:justify"><a href="#idt4.3.7"> 4.3.7</a> <span id="idt4.3.7"> </span></p>
-<p style="text-align:justify"><a href="#idt4.3.8"> 4.3.8</a> <span id="idt4.3.8"> </span></p>
-<p style="text-align:justify"><a href="#idt4.3.9"> 4.3.9</a> <span id="idt4.3.9"> </span></p>
-<p style="text-align:justify"><a href="#idt4.3.10"> 4.3.10</a> <span id="idt4.3.10"> </span></p></section>
+<p style="text-align:justify"><a href="#idt4.3.1"> 4.3.1</a> <span id="idt4.3.1"> 超静定结构的作用效应与构件的抗弯刚度<math xmlns="http://www.w3.org/1998/Math/MathML" ><msub><mi>E</mi><mrow><mrow><mi mathvariant="normal">c</mi></mrow></mrow></msub><mi>I</mi></math>有关。由于混凝土反复承受作用，<math xmlns="http://www.w3.org/1998/Math/MathML" ><msub><mi>E</mi><mrow><mrow><mi mathvariant="normal">c</mi></mrow></mrow></msub></math>值有所减小；对于允许开裂的构件，<i>I</i>值也有所减小。在以往超静定结构作用效应分析中，由于假设截面时尚无配筋数量，钢筋混凝土超静定结构的<math xmlns="http://www.w3.org/1998/Math/MathML" ><msub><mi>E</mi><mrow><mrow><mi mathvariant="normal">c</mi></mrow></mrow></msub><mi>I</mi></math>值，按1975年《公路桥梁设计规范》第4.4条乘以 1/1.5。现参考铁路方面有关钢筋混凝土超静定结构计算结构变形的规定，改为乘以0.8。至于不允许开裂的预应力混凝土构件，以往设计中<math xmlns="http://www.w3.org/1998/Math/MathML" ><msub><mi>E</mi><mrow><mrow><mi mathvariant="normal">c</mi></mrow></mrow></msub><mi>I</mi></math>值不打折扣，但由于假设截面时尚无配筋数量，故不计预应力钢筋截面，<i>I</i>值采用混凝土毛截面惯性矩，现仍按此方法计算。本条仅适用于作用效应分析，不适用于正常使用极限状态的挠度计算。</span></p>
+<p style="text-align:justify"><a href="#idt4.3.2"> 4.3.2</a> <span id="idt4.3.2"> 《美国 AASHTO LRFD规范》1994版4.6.2.6.1规定梁的翼缘有效宽度用于两种极限状态;而《英国混凝土桥设计规范 BS5400,1984》(以下简称《英国规范 BS5400》)5.3.1.2则规定承载能力极限状态计算应采用截面全宽。本规范规定翼缘有效宽度用于两种极限状态，其理由是当梁内钢筋达到屈服点时，混凝土由于剪滞效应将首先在梁的有效宽度内破坏，此时偏安全地可认为已处于承载能力极限状态。对于预应力混凝土构件张拉时的应力计算，参照《德国混凝土桥设计规范 DIN1075》(以下简称《德国规范 DIN075》)第 5.1.3.2条规定，预加力作为轴向力产生的应力可按实际翼缘全宽计算；这是考虑有效宽度仅适用于受弯构件，轴向力产生的应力应按全宽计算。</span></p>
+<p style="text-align:justify"><a href="#idt4.3.3"> 4.3.3</a> <span id="idt4.3.3"> T形、I形截面梁受弯时，在横桥向由于剪滞效应贴近腹板的翼缘法向应力与腹板的法向应力相同，离腹板愈远则愈小( <a href="#figt4.8">图4-8</a>)。这种在同一纤维层上沿翼缘宽度变化的法向应力，需用高等材料力学方法求解，可参阅程翔云编著《梁桥理论与计算》(以下简称《梁桥》)第六章。为了在计算中应用初等材料力学方法求解，采用了翼缘有效宽度或称翼缘计算宽度方法，即令翼缘有效宽度内的法向应力体积等于原翼缘全宽的法向应力体积，并按有效宽度内的翼缘任一纤维层的法向应力值与同一纤维层的腹板内的应力值相同,来确定翼缘有效宽度。如<a href="#figt4.8">图4-8</a>所示,设翼缘有效宽度为<math xmlns="http://www.w3.org/1998/Math/MathML" ><msubsup><mi>b</mi><mrow><mrow><mi mathvariant="normal">f</mi></mrow></mrow><mrow><msup><mi></mi><mo>′</mo></msup></mrow></msubsup></math>，在任一纤维层上，腹板两侧有效宽度所包括的虚线所示的等代法向应力面积应等于实线所示的实际法向应力的面积，<math xmlns="http://www.w3.org/1998/Math/MathML" ><msub><mi>λ</mi><mrow><mrow><mi mathvariant="normal">x</mi></mrow></mrow></msub></math>(<a href="#figt4.8">图4-8</a>)计算式(参阅铁摩辛柯著《高等材料力学》)为:</span></p>
+
+ <div align="center"><img id="figt4.8" src="../_static/fig/T4.8.png" alt="Picture" width="300px"></div>
+ <p style="color: dimgray;text-align: center;">图 4-8 形截面梁应力示意<br/>1-实际法向应力；2-等代法向应力；3-腹板；4-翼缘；5-中性轴；</p>
+ <script type="text/javascript">var viewer = new Viewer(document.getElementById('figt4.8'));</script><p>$$l_{0}=\pi\sqrt{\dfrac{8f}{kl}}\cdot l\tag{4-6}$$</p>
+<table border="0" style="font-family:times new roman" id="gongshi">
+<tr>
+<td width="50px" align='center' id="eqzs">式中:</td>
+<td width="50px" align='right' id="eqzs"><i>υ</i></td>
+<td width="40px" align='left' id="eqzs">——</td>
+<td id="eqzs">梁材料泊松比，取0.2；</td>
+</tr>
+<tr>
+<td id="eqzs"> </td>
+<td id="eqzs" align='right'><math xmlns="http://www.w3.org/1998/Math/MathML" ><mi>l</mi></math></td>
+<td id="eqzs">——</td>
+<td id="eqzs">梁计算跨径。</td>
+</tr>
+ </table>
+<p></p>
+
+<p style="text-align:justify;text-indent:2em;" > 按上式计算，<math xmlns="http://www.w3.org/1998/Math/MathML" ><mn>2</mn><msub><mi>λ</mi><mrow><mrow><mi mathvariant="normal">x</mi></mrow></mrow></msub><mo>=</mo><mn>0.379</mn><mi>l</mi></math>。为偏安全计，简支梁有效宽度<math xmlns="http://www.w3.org/1998/Math/MathML" ><msubsup><mi>b</mi><mrow><mrow><mi mathvariant="normal">f</mi></mrow></mrow><mrow><msup><mi></mi><mo>′</mo></msup></mrow></msubsup></math>包括腹板在内取<math xmlns="http://www.w3.org/1998/Math/MathML" ><mi>l</mi><mrow><mo>/</mo></mrow><mn>3</mn></math>；连续梁取1/3反弯点间距。连续梁各中间跨正弯矩区段反弯点间距取<math xmlns="http://www.w3.org/1998/Math/MathML" ><mn>0.6</mn><mi>l</mi></math>，有效宽度为<math xmlns="http://www.w3.org/1998/Math/MathML" ><mn>0.6</mn><mo>×</mo><mi>l</mi><mrow><mo>/</mo></mrow><mn>3</mn><mo>=</mo><mn>0.2</mn><mi>l</mi></math>；连续梁边跨正弯矩区段反弯点间距取<math xmlns="http://www.w3.org/1998/Math/MathML" ><mn>0.8</mn><mi>l</mi></math>，有效宽度为<math xmlns="http://www.w3.org/1998/Math/MathML"><mn>0.8</mn><mo>×</mo><mi>l</mi><mrow><mo>/</mo></mrow><mn>3</mn><mo>=</mo><mn>0.27</mn><mi>l</mi></math>；连续梁各中间支点负弯矩区段反弯点间距取该支点相邻两跨计算跨径之和(<math xmlns="http://www.w3.org/1998/Math/MathML" ><msub><mi>l</mi><mrow><mi>i</mi></mrow></msub><mo>+</mo><msub><mi>l</mi><mrow><mi>i</mi><mo>+</mo><mn>1</mn></mrow></msub></math>)的0.2倍，有效宽度取<math xmlns="http://www.w3.org/1998/Math/MathML"><mn>0.2</mn><mo>×</mo><mn>1</mn><mrow><mo>/</mo></mrow><mn>3</mn><mo>×</mo><mo stretchy="false">(</mo><msub><mi>l</mi><mrow><mi>i</mi></mrow></msub><mo>+</mo><msub><mi>l</mi><mrow><mi>i</mi><mo>+</mo><mn>1</mn></mrow></msub><mo stretchy="false">)</mo><mo>=</mo><mn>0.07</mn><mo stretchy="false">(</mo><msub><mi>l</mi><mrow><mi>i</mi></mrow></msub><mo>+</mo><msub><mi>l</mi><mrow><mi>i</mi><mo>+</mo><mn>1</mn></mrow></msub><mo stretchy="false">)</mo></math>。</p>
+<p style="text-align:justify;text-indent:2em;" > 翼缘有效宽度的另一控制条件为腹板每侧计入5~8倍悬臂板厚作为翼缘有效厚度。这与翼缘抗剪强度有关。</p>
+<p style="text-align:justify;text-indent:2em;" > 如<a href="#figt4.8">图4-8</a>所示，在有效宽度<math xmlns="http://www.w3.org/1998/Math/MathML" ><msubsup><mi>b</mi><mrow><mrow><mi mathvariant="normal">f</mi></mrow></mrow><mrow><msup><mi></mi><mo>′</mo></msup></mrow></msubsup></math>内(虚线)和原全宽<i>b</i>内(实线)，两翼缘和腹板内的法向应力体积是相等的，因此，无论采用有效宽度及等代法向应力，或采用全宽度及实际法向应力，在正常使用极限状态(弹性状态)两者应是同一中性轴。所以当用有效宽度截面计算等代法向应力时，中性轴理应取用原全宽截面的中性轴。此项讨论详见《梁桥》第六章。公路上钢筋混凝土T形截面梁在设计时多数采用全宽;箱形截面梁(见本规范<a href="https://jtg-3362.readthedocs.io/zh/latest/04.html#id4.3.4">第4.3.4条</a>)则两中性轴位置相差不大。据此，本规范不作硬性规定。</p>
+<p style="text-align:justify"><a href="#idt4.3.4"> 4.3.4</a> <span id="idt4.3.4"> 箱形截面梁的翼缘有效宽度问题，其原理与T形截面梁一样。箱形截面梁翼缘有效宽度，目前比较通用的是《德国规范DIN1075》推荐的方法。这个方法已为《德国钢桥设计规范 DIN1073》、《美国 AASHTOLRFD规范》所采用。《梁桥》第七章也介绍了这个方法。本规范也采用这个方法。</span></p>
+<p style="text-align:justify;text-indent:2em;" > 为了探讨《德国规范DIN1075》关于箱形截面梁翼缘有效宽度的计算方法，原规范编制时，编制组委托湖南大学土木系对该方法进行实桥验算，湖大土木系对国内 20 座箱形截面连续梁和连续刚构桥，分别用下列步骤进行比较、验证：(1)空间有限元方法计算箱形截面梁因剪滞效应产生的顶、底板截面的法向应力及其峰值；(2)《德国规范DIN1075》方法确定有效宽度，从而用初等材料力学方法求得梁的顶、底板截面的等代法向应力，此项应力相当于箱形截面梁因剪滞效应产生的在梁的顶、底板截面的法向应力峰值，以此与空间有限元方法计算的梁的顶、底板截面的法向应力峰值比较，来检验《德国规范DIN1075》方法的合理性和精度；(3)平面有限元方法(初等材料力学方法)求梁的顶、底板截面平均应力<math xmlns="http://www.w3.org/1998/Math/MathML" ><mover><mi>σ</mi><mo accent="false">¯</mo></mover></math>；(4)求剪滞系数<math xmlns="http://www.w3.org/1998/Math/MathML" ><mi>λ</mi><mo>=</mo><msub><mi>σ</mi><mrow><mrow><mi mathvariant="normal">m</mi><mi mathvariant="normal">a</mi><mi mathvariant="normal">x</mi></mrow></mrow></msub><mrow><mo>/</mo></mrow><mover><mi>σ</mi><mo accent="false">¯</mo></mover></math>，<math xmlns="http://www.w3.org/1998/Math/MathML" ><msub><mi>σ</mi><mrow><mrow><mi mathvariant="normal">m</mi><mi mathvariant="normal">a</mi><mi mathvariant="normal">x</mi></mrow></mrow></msub></math>自(1)或(2)中得出，<math xmlns="http://www.w3.org/1998/Math/MathML" ><mover><mi>σ</mi><mo accent="false">¯</mo></mover></math>自(3)得出，这样从<i>λ</i>=(1)(3)与<i>λ</i>=(2)(3)可以对比《德国规范 DIN1075》方法的合理性和精度。20座桥各项计算结果如<a href="#Bt4.4">表4-4</a>和<a href="#Bt4.5">表4-5</a>所示。</p>
+
+  <style>
+    #biaoge {
+        border: 2px solid black;
+        border-collapse: collapse;
+        margin-bottom:1px;
+
+     }
+     th, td {
+        padding-top: 5px;
+        padding-bottom:5px;
+        padding-left:5px;
+        padding-right:5px;
+        border: 1px solid black;
+
+     }
+     #eqzs {
+        border: 0px;
+     }
+     #dhbg {
+       vertical-align: middle;
+     }
+    </style>
+
+               <table id="biaoge" style="font-family:times new roman">
+
+        <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="Bt4.4">表4-4 剪滞系数<i>λ</i>平均值比较表<br/>(a)边跨跨内最大应力截面法向应力</b></caption>
+
+                   <tr>
+                       <td  align="center" colspan="3">上翼缘</td>
+                       <!-- <td></td> -->
+           <!-- <td></td> -->
+                                 <td  align="center" colspan="3">下翼缘</td>
+                     <!-- <td></td> -->
+                                 <!-- <td></td> -->
+                   </tr>
+                   <tr>
+                     <td align="center" id="dhbg"  width="150px">(1)/(3)</td>
+                     <td align="center" id="dhbg"  width="150px">(2)/(3)</td>
+                                 <td align="center" id="dhbg"  width="150px">(2')/(3)</td>
+         <td align="center" id="dhbg"  width="150px">(1)/(3)</td>
+         <td align="center" id="dhbg"  width="150px">(2)/(3)</td>
+         <td align="center" id="dhbg"  width="150px">(2')/(3)</td>
+                   </tr>
+                   <tr>
+         <td align="center" >1.006</td>
+         <td align="center" >1.023</td>
+         <td align="center" >1.024</td>
+         <td align="center" >1.049</td>
+         <td align="center" >1.023</td>
+         <td align="center" >1.023</td>
+                   </tr>
+               </table>
+<p></p>
+               <table id="biaoge" style="font-family:times new roman">
+
+        <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="Bt4.4b">(b)中点支点截面法向应力</b></caption>
+
+                   <tr>
+                       <td  align="center" colspan="3">上翼缘</td>
+                       <!-- <td></td> -->
+           <!-- <td></td> -->
+                                 <td  align="center" colspan="3">下翼缘</td>
+                     <!-- <td></td> -->
+                                 <!-- <td></td> -->
+                   </tr>
+                   <tr>
+                     <td align="center" id="dhbg"  width="150px">(1)/(3)</td>
+                     <td align="center" id="dhbg"  width="150px">(2)/(3)</td>
+                                 <td align="center" id="dhbg"  width="150px">(2')/(3)</td>
+         <td align="center" id="dhbg"  width="150px">(1)/(3)</td>
+         <td align="center" id="dhbg"  width="150px">(2)/(3)</td>
+         <td align="center" id="dhbg"  width="150px">(2')/(3)</td>
+                   </tr>
+                   <tr>
+         <td align="center" >1.217</td>
+         <td align="center" >1.329</td>
+         <td align="center" >1.266</td>
+         <td align="center" >1.348</td>
+         <td align="center" >1.327</td>
+         <td align="center" >1.291</td>
+                   </tr>
+               </table>
+<p></p>
+               <table id="biaoge" style="font-family:times new roman">
+
+        <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="Bt4.4c">(c)中间跨跨内最大应力截面法向应力</b></caption>
+
+                   <tr>
+                       <td  align="center" colspan="3">上翼缘</td>
+                       <!-- <td></td> -->
+           <!-- <td></td> -->
+                                 <td  align="center" colspan="3">下翼缘</td>
+                     <!-- <td></td> -->
+                                 <!-- <td></td> -->
+                   </tr>
+                   <tr>
+                     <td align="center" id="dhbg"  width="150px">(1)/(3)</td>
+                     <td align="center" id="dhbg"  width="150px">(2)/(3)</td>
+                                 <td align="center" id="dhbg"  width="150px">(2')/(3)</td>
+         <td align="center" id="dhbg"  width="150px">(1)/(3)</td>
+         <td align="center" id="dhbg"  width="150px">(2)/(3)</td>
+         <td align="center" id="dhbg"  width="150px">(2')/(3)</td>
+                   </tr>
+                   <tr>
+         <td align="center" >0.990</td>
+         <td align="center" >1.024</td>
+         <td align="center" >1.023</td>
+         <td align="center" >1.021</td>
+         <td align="center" >1.024</td>
+         <td align="center" >1.023</td>
+                   </tr>
+               </table>
+<p></p>
+       <table id="biaoge" style="font-family:times new roman">
+
+        <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="Bt4.5">表4-5 法向应力峰值平均值比较表</b></caption>
+
+                   <tr>
+                     <td  align="center" colspan="4">边跨内最大应力截面</td>
+                     <!-- <td></td> -->
+         <!-- <td></td> -->
+         <!-- <td></td> -->
+                     <td  align="center" colspan="4">中间支点</td>
+                     <!-- <td></td> -->
+         <!-- <td></td> -->
+         <!-- <td></td> -->
+                     <td  align="center" colspan="4">中间跨</td>
+                     <!-- <td></td> -->
+         <!-- <td></td> -->
+         <!-- <td></td> -->
+                   </tr>
+                   <tr>
+                     <td  align="center" colspan="2">上翼缘</td>
+                     <!-- <td></td> -->
+          <td  align="center" colspan="2">下翼缘</td>
+         <!-- <td></td> -->
+                     <td  align="center" colspan="2">上翼缘</td>
+                     <!-- <td></td> -->
+          <td  align="center" colspan="2">下翼缘</td>
+         <!-- <td></td> -->
+                     <td  align="center" colspan="2">上翼缘</td>
+                     <!-- <td></td> -->
+          <td  align="center" colspan="2">下翼缘</td>
+         <!-- <td></td> -->
+                   </tr>
+                   <tr>
+                     <td align="center" id="dhbg"  width="75px">(1)/(2)</td>
+                     <td align="center" id="dhbg"  width="75px">(1)/(2')</td>
+                                 <td align="center" id="dhbg"  width="75px">(1)/(2)</td>
+                     <td align="center" id="dhbg"  width="75px">(1)/(2')</td>
+         <td align="center" id="dhbg"  width="75px">(1)/(2)</td>
+                     <td align="center" id="dhbg"  width="75px">(1)/(2')</td>
+         <td align="center" id="dhbg"  width="75px">(1)/(2)</td>
+                     <td align="center" id="dhbg"  width="75px">(1)/(2')</td>
+         <td align="center" id="dhbg"  width="75px">(1)/(2)</td>
+                     <td align="center" id="dhbg"  width="75px">(1)/(2')</td>
+         <td align="center" id="dhbg"  width="75px">(1)/(2)</td>
+                     <td align="center" id="dhbg"  width="75px">(1)/(2')</td>
+                   </tr>
+                   <tr>
+         <td align="center" >0.983</td>
+         <td align="center" >0.983</td>
+         <td align="center" >1.025</td>
+         <td align="center" >1.025</td>
+         <td align="center" >0.918</td>
+         <td align="center" >0.964</td>
+         <td align="center" >1.026</td>
+         <td align="center" >1.055</td>
+         <td align="center" >0.966</td>
+         <td align="center" >0.967</td>
+         <td align="center" >0.948</td>
+         <td align="center" >0.998</td>
+                   </tr>
+               </table>
+<p></p>
+
+<p style="text-align:justify;text-indent:2em;" > 在<a href="#Bt4.4">表4-4</a>中，(1)/(3)与(2)/(3)或(2')/(3)对比，说明剪滞系数<i>λ</i>用空间有限元法(1)/(3)与用《德国规范 DIN1075》法(2)/(3)或(2')/(3),都比较接近。在<a href="#Bt4.5">表4-5</a>中，(1)/(2)或(1)/(2')均接近于1,说明用空间有限元法计算的应力峰值与用《德国规范DIN1075》法计算的等代法向应力(相当于峰值)比较接近；(1)/(2)或(1)/(2')小于1表示《德国规范 DIN1075》计算的等代应力较空间有限元方法计算的应力峰值偏大，大于 1 表示偏小，但总的来看，偏差均在5%内。在<a href="#Bt4.4">表4-4</a>及<a href="#Bt4.5">表4-5</a>中，(2)与(2)不同处仅为(2)内用全宽度截面中性轴，而(2')内用有效宽度截面中性轴；用(2)或(2')求得的(2)/(3)与(2')/(3)、(1)/(2)或(1)/(2'),都很为接近，说明在实际计算中，对于箱梁截面而言，中性轴位置的取用（见<a href="https://jtg-3362.readthedocs.io/zh/latest/04.html#id4.3.3">第4.3.3条</a>说明），对计算结果影响不大。</p>
+<p style="text-align:justify;text-indent:2em;" > 在<a href="#Bt4.4">表4-4</a>、<a href="#Bt4.5">表4-5</a>两表中：</p><table border="0" style="font-family:times new roman" id="gongshi">
+<tr>
+<td width="50px" align='center' id="eqzs"> </td>
+<td width="50px" align='right' id="eqzs">(1)</td>
+<td width="40px" align='left' id="eqzs">——</td>
+<td id="eqzs">间有限元方法法向应力峰值。</td>
+</tr>
+<tr>
+<td id="eqzs"> </td>
+<td id="eqzs" align='right'>(2)</td>
+<td id="eqzs">——</td>
+<td id="eqzs">《德国规范DIN1075》方法采用有效宽度时的等代法向应力，相当于应力峰值；计算法向应力时，采用全宽度截面的中性轴。</td>
+</tr>
+<tr>
+<td id="eqzs"> </td>
+<td id="eqzs" align='right'>(2')</td>
+<td id="eqzs">——</td>
+<td id="eqzs">德国规范DIN1075》方法采用有效宽度时的等代法向应力，相当于应力峰值；计算法向应力时，采用有效宽度截面的中性轴。</td>
+</tr>
+<tr>
+<td id="eqzs"> </td>
+<td id="eqzs" align='right'>(3)</td>
+<td id="eqzs">——</td>
+<td id="eqzs">平面有限元方法计算的上翼缘、下翼缘截面的法向应力(平均值)。</td>
+</tr>
+ </table>
+<p></p>
+<p style="text-align:justify;text-indent:2em;" > 连续梁中间支点理论跨径<math xmlns="http://www.w3.org/1998/Math/MathML" ><msub><mi>l</mi><mrow><mi>i</mi></mrow></msub></math>，《德国规范DIN1075》规定取用两相邻跨径中较大者，经验算，采用此项规定与按空间有限元计算偏差较大。经改以取用0.15、0.16、0.18、0.20、0.25、0.30、0.35 倍的两相邻跨径之和验算，以0.18倍和0.20倍较为接近于空间有限元计算，所以取用了 0.20倍两相邻跨径之和。以上各表内中间支点的有关数据也是以0.20 倍两相邻跨径之和作为理论跨径Ii计算得到的。这项修正是对《德国规范DIN1075》方法的惟一修正。</p>
+<p style="text-align:justify;text-indent:2em;" > 本次规范修编时，对比分析了美国《AASHTO LRFD 规范》2007 版、《德国规范DIN1075》、《英国规范BS5400》等有关于箱梁有效分布宽度的规定和说明。选取 8个不同截面和结构形式的箱梁桥，分别按照原规范第 4.2.3 条规定进行计算分析，对其合理性和精度做了进一步考证。结果表明：原规范对于跨中有效分布宽度的规定与实体有限元法计算的较为接近，但近支座处的误差会随着单个箱室宽跨比增大而增大；对于单个箱室宽跨比不大的单箱多室梁，规范的有效分布宽度算法的适应性较好。</p>
+<p style="text-align:justify;text-indent:2em;" > 本次规范修订，增加了关于<math xmlns="http://www.w3.org/1998/Math/MathML" ><msub><mi>ρ</mi><mrow><mrow><mi mathvariant="normal">s</mi></mrow></mrow></msub><mo>、</mo><msub><mi>ρ</mi><mrow><mrow><mi mathvariant="normal">f</mi></mrow></mrow></msub></math>的拟合函数式(4.3.4-2)和(4.3.4-4),替换原规范中的<math xmlns="http://www.w3.org/1998/Math/MathML" ><msub><mi>ρ</mi><mrow><mrow><mi mathvariant="normal">s</mi></mrow></mrow></msub><mo>、</mo><msub><mi>ρ</mi><mrow><mrow><mi mathvariant="normal">f</mi></mrow></mrow></msub></math>曲线图(<a href="#figt4.9">图4-9</a>)。这两个公式来源于张树仁等编著《钢筋混凝土及预应力混凝土桥梁结构设计原理》第3章。经验证，拟合函数式(4.3.4-2)和(4.3.4-4)与<a href="#figt4.9">图4-9</a>符合较好，便于使用。</p>
+
+ <div align="center"><img id="figt4.9" src="../_static/fig/T4.9.png" alt="Picture" width="400px"></div>
+ <p style="color: dimgray;text-align: center;">图 4-9 <math xmlns="http://www.w3.org/1998/Math/MathML" ><msub><mi>ρ</mi><mrow><mrow><mi mathvariant="normal">s</mi></mrow></mrow></msub><mo>、</mo><msub><mi>ρ</mi><mrow><mrow><mi mathvariant="normal">f</mi></mrow></mrow></msub></math>曲线图</p>
+ <script type="text/javascript">var viewer = new Viewer(document.getElementById('figt4.9'));</script>
+  <p style="text-indent:2em;" ><font size="2">注：1.<math xmlns="http://www.w3.org/1998/Math/MathML" ><msub><mi>b</mi><mrow><mrow><mi mathvariant="normal">m</mi><mi mathvariant="normal">i</mi><mo>,</mo><mi mathvariant="normal">f</mi></mrow></mrow></msub></math>为简支梁和连续梁各跨中梁段、悬臂梁中间跨的中部梁段，<math xmlns="http://www.w3.org/1998/Math/MathML" ><msub><mi>b</mi><mrow><mi>i</mi></mrow></msub><mrow><mo>/</mo></mrow><msub><mi>l</mi><mrow><mi>i</mi></mrow></msub><mo>⩾</mo><mn>0.7</mn></math>时翼缘的有效宽度。<br/>
+ &emsp;&emsp; &emsp;&emsp; &emsp;&nbsp;2.<math xmlns="http://www.w3.org/1998/Math/MathML" ><msub><mi>b</mi><mrow><mrow><mi mathvariant="normal">m</mi><mi mathvariant="normal">i</mi><mo>,</mo><mi mathvariant="normal">s</mi></mrow></mrow></msub></math>为简支梁支点、连续梁边支点和中间支点、悬臂梁悬臂段，<math xmlns="http://www.w3.org/1998/Math/MathML" ><msub><mi>b</mi><mrow><mi>i</mi></mrow></msub><mrow><mo>/</mo></mrow><msub><mi>l</mi><mrow><mi>i</mi></mrow></msub><mo>⩾</mo><mn>0.7</mn></math>时翼缘的有效宽度。</font></p>
+
+
+<p style="text-align:justify"><a href="#idt4.3.5"> 4.3.5</a> <span id="idt4.3.5"> 连续梁中间支承处负弯矩图，理论上呈尖形，但实际上支承处有一定的支承宽度，支承处又设有横隔梁，支承反力在梁内有扩散分布，真实弯矩图呈圆滑的曲线形。假定支承反力按45°刚性角分布到梁的重心轴，重心轴上分布长度为<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>a</mi></math>，其单位荷载强度为<math xmlns="http://www.w3.org/1998/Math/MathML" ><mi>q</mi><mo stretchy="false">(</mo><mo>=</mo><mi>R</mi><mrow><mo>/</mo></mrow><mi>a</mi><mo stretchy="false">)</mo></math>，由此产生一折减弯矩<math xmlns="http://www.w3.org/1998/Math/MathML" ><msup><mi>M</mi><mo>′</mo></msup><mo>=</mo><mi>q</mi><msup><mi>a</mi><mrow><mn>2</mn></mrow></msup><mrow><mo>/</mo></mrow><mn>8</mn></math>。将理论弯矩<i>M</i>减去<i>M'</i>，即得折减后弯矩<i>M</i><sub>e</sub>。考虑到高梁可能折减过多，故规定<i>M'</i>不大于<i>M</i>的10%。</span></p>
+<p style="text-align:justify"><a href="#idt4.3.6"> 4.3.6</a> <span id="idt4.3.6"> 连续梁作用效应与惯性矩的变化相关,但对于在沿跨长惯性矩变化较小包括承托高度、底坡均较小的梁，也可按常截面梁来计算作用效应。不考虑惯性矩变化对作用效应影响的限值，以支点惯性矩与跨中惯性矩之比不大于2较为适宜。</span></p>
+<p style="text-align:justify"><a href="#idt4.3.7"> 4.3.7</a> <span id="idt4.3.7"> 连续梁支点处设有横隔梁,使连续梁在该处截面发生急剧变化,这将使作用效应计算复杂化。为实用方便计可不计横隔梁的影响。</span></p>
+<p style="text-align:justify"><a href="#idt4.3.8"> 4.3.8</a> <span id="idt4.3.8"> 连续梁应考虑梯度温差、基础不均匀沉降的作用，其他超静定结构尚应考虑均匀温差、混凝土收缩等作用。</span></p>
+<p style="text-align:justify;text-indent:2em;" > 对于预应力混凝土连续梁或其他超静定结构，尚应考虑由于预加力引起的弹性变形受到约束而产生的次效应：预加力对梁体产生偏心弯矩，这个偏心弯矩相当于一个外力，对梁支点产生次反力，次反力又引起次剪力和次弯矩，总的称为次效应。在《桥规JTJ023-85》第3.4.7条内规定在塑性阶段(相当于承载能力极限状态)可不计由预加力引起的次效应，现在考虑到在承载能力极限状态塑性铰尚未完全形成，所以在该状态时由预加力引起的次效应，应予以考虑。至于混凝土徐变对上述各项作用的影响，一般在定性上较多起卸载作用，可在规范有明确规定或具有可靠的计算方法条件下(如预应力损失、体系转换)予以考虑。</p>
+<p style="text-align:justify;text-indent:2em;" > 对于施工过程中不转换体系的预应力混凝土连续梁，在预加力瞬时损失完成后，尚有钢筋松弛、混凝土收缩和徐变的预应力损失在持续进行直至完成，从而次效应受到影响；要计算上述影响是个复杂的问题，反映上述各因素对次效应影响的概括的简化方法如下：徐变完成后，由预加力引起的总次效应(包括弹性变形和徐变),由预加应力时引起的弹性变形次效应乘以预应力钢筋张拉力的平均有效系数C求得。平均有效系数按下式计算：</p><p>$$C=P_{\mathrm{e} }/P_{\mathrm{i} }\tag{4-7}$$</p>
+<table border="0" style="font-family:times new roman" id="gongshi">
+<tr>
+<td width="50px" align='center' id="eqzs">式中:</td>
+<td width="50px" align='right' id="eqzs"><i>P</i><sub>e</sub></td>
+<td width="40px" align='left' id="eqzs">——</td>
+<td id="eqzs">预应力损失全部完成后，预应力钢筋平均张拉力；</td>
+</tr>
+<tr>
+<td id="eqzs"> </td>
+<td id="eqzs" align='right'><i>P</i><sub>i</sub></td>
+<td id="eqzs">——</td>
+<td id="eqzs">先预应力瞬时(第一批)损失完成后，预应力钢筋平均张拉力。</td>
+</tr>
+ </table>
+<p></p>
+
+<p style="text-align:justify;text-indent:2em;" > 预应力混凝土连续梁在施工中如转换体系，且转换后为超静定体系，就要考虑混凝土徐变的次效应。这项计算较为复杂，在一定条件下的简化方法如下：</p>
+<p style="text-align:justify;text-indent:2em;" > 1 假定简支梁或悬臂梁的浇筑、预制、架设和转换为连续梁都在同一时间<i>τ</i>进行和完成。从<i>τ</i>时开始，混凝土徐变将受多余约束的制约，从而引起多余约束力的变化和结构内作用效应的变化。</p>
+<p style="text-align:justify;text-indent:2em;" > 2 设先期结构受结构自重作用引起弯矩为<i>M</i><sub>1g</sub>。先期结构上的自重，假如按作用于后期结构计算，其弯矩为<i>M</i><sub>2g</sub>。设<i>τ</i>时将先期结构转换为后期结构，随着时间的增长，由于徐变的影响，<i>M</i><sub>1g</sub>逐渐向<i>M</i><sub>2g</sub>妾近，至<i>t</i>时达到<i>M</i><sub>gt</sub>。</p>
+<p style="text-align:justify;text-indent:2em;" > 在后期结构上某一点设一铰作为基本结构(<a href="#figt4.10">图4-10</a>),在该点上作用未知力<i>M</i><sub>gt</sub>，则在基本结构设铰处，<i>dt</i>瞬间内由自重引起的徐变增量为<math xmlns="http://www.w3.org/1998/Math/MathML" ><msub><mi mathvariant="normal">Δ</mi><mrow><mrow><mi mathvariant="normal">g</mi></mrow></mrow></msub><mrow><mi mathvariant="normal">d</mi></mrow><msub><mi>φ</mi><mrow><mrow><mi mathvariant="normal">t</mi></mrow></mrow></msub></math>。</p>
+<p style="text-align:justify;text-indent:2em;" > 在基本结构中，<i>dt</i>瞬间内由于约束效应增量<math xmlns="http://www.w3.org/1998/Math/MathML" ><mi>d</mi><msub><mi>M</mi><mrow><mrow><mi mathvariant="normal">g</mi><mi mathvariant="normal">t</mi></mrow></mrow></msub></math>引起的弹性变形增量为dM<math xmlns="http://www.w3.org/1998/Math/MathML" ><mi>d</mi><msub><mi>M</mi><mrow><mrow><mi mathvariant="normal">g</mi><mi mathvariant="normal">t</mi></mrow></mrow></msub><mo>⋅</mo><mi>δ</mi></math></p>
+<p style="text-align:justify;text-indent:2em;" > 在基本结构中，<i>dt</i>瞬间内由于<i>M</i><sub>gt</sub>引起的徐变增量为<math xmlns="http://www.w3.org/1998/Math/MathML" ><msub><mi>M</mi><mrow><mrow><mi mathvariant="normal">g</mi><mi mathvariant="normal">t</mi></mrow></mrow></msub><mo>⋅</mo><mi>δ</mi><mo>⋅</mo><mrow><mi mathvariant="normal">d</mi></mrow><msub><mi>φ</mi><mrow><mrow><mi mathvariant="normal">t</mi></mrow></mrow></msub></math>。</p>
+<p style="text-align:justify;text-indent:2em;" > <i>dt</i>瞬间在基本结构设铰处的变形协调条件为：上述变形增量之和应等于零，即：</p><p>$$dM_{\mathrm{gt}}\cdot \delta +M_{\mathrm{gt}}\cdot\delta\cdot d\varphi _{\mathrm{t} }+\Delta _{\mathrm{g}}\cdot d\varphi _{\mathrm{t}=0 }\tag{4-8}$$
+$$\dfrac{dM_{\mathrm{gt}}}{d\varphi _{\mathrm{t} }}+M_{\mathrm{gt}}=-\dfrac{\Delta _{\mathrm{g}}}{\delta}=M_{2\mathrm{g} }\tag{4-9}$$</p>
+<table border="0" style="font-family:times new roman" id="gongshi">
+<tr>
+<td width="50px" align='center' id="eqzs">式中:</td>
+<td width="50px" align='right' id="eqzs"><i>Δ</i><sub>g</sub></td>
+<td width="40px" align='left' id="eqzs">——</td>
+<td id="eqzs">基本结构受自重作用时，在设铰处引起的弹性变形(角度);</td>
+</tr>
+<tr>
+<td id="eqzs"> </td>
+<td id="eqzs" align='right'><i>Δ</i></td>
+<td id="eqzs">——</td>
+<td id="eqzs">基本结构设饺处作用单位弯矩，在设铰处引起的弹性变形(角度)。</td>
+</tr>
+ </table>
+<p></p>
+
+
+ <div align="center"><img id="figt4.10" src="../_static/fig/T4.10.png" alt="Picture" width="400px"></div>
+ <p style="color: dimgray;text-align: center;">图 4-10 体系转换时作用(荷载)效应重分布</p>
+ <script type="text/javascript">var viewer = new Viewer(document.getElementById('figt4.10'));</script>
+
+
+<p style="text-align:justify;text-indent:2em;" > 解公式(4-9)得：</p><p>$$M_{\mathrm{gt}}=e^{-\varphi _{\mathrm{t}}}(M_{2\mathrm{g}}\cdot e^{\varphi _{\mathrm{t}}}+c)\tag{4-10}$$</p>
+<p style="text-align:justify;text-indent:2em;" > 利用初始条件，当<i>t</i>=<i>τ</i>时，<i>M</i><sub>gt</sub>=<i>M</i><sub>1g</sub>，代入公式(4-10)，求得<i>c</i>:</p>
+
+$$c=-(M_{\\mathrm{2g}}-M_{\\mathrm{1g}})e^{\\varphi _{\\mathrm{t}}}$$<p style="text-align:justify;text-indent:2em;" > 将<i>c</i>值代入公式(4-10),得：</p><p>$${\scriptsize M_{\mathrm{gt}}=e^{-\varphi _{\mathrm{t}}}[M_{\mathrm{2g}}\cdot e^{\varphi _{\mathrm{t}}}-(M_{\mathrm{2g}}-M_{\mathrm{1g}})\cdot  e^{\varphi _{\mathrm{t}}}]=M_{\mathrm{2g}}-(M_{\mathrm{2g}}-M_{\mathrm{1g}})\cdot e^{-\varphi _{(\mathrm{t,\tau })}}} \tag{4-11}$$
+$${\scriptsize 或 M_{\mathrm{gt}}=M_{\mathrm{2g}}+M_{\mathrm{1g}}-M_{\mathrm{1g}}-(M_{\mathrm{2g}}-M_{\mathrm{1g}})\cdot e^{-\varphi _{(\mathrm{t,\tau })}}}=M_{\mathrm{1g}}+(M_{\mathrm{2g}}-M_{\mathrm{1g}})\cdot(1-e^{-\varphi _{(\mathrm{t,\tau })}}) \tag{4-12}$$</p>
+<p style="text-align:justify;text-indent:2em;" > 3 公式(4-11)、公式(4-12)也适用于预加力引起的弯矩重分配计算，只需将<i>t</i>时预应力钢筋的有效预加力引起的弯矩，代替由自重引起的弯矩，即以<i>M</i><sub>1pt</sub>代<i>M</i><sub>1g</sub>，<i>M</i><sub>2pt</sub>代<i>M</i><sub>2gt</sub>:</p><p>$$M_{\mathrm{pt}}=M_{\mathrm{1pt}}+(M_{\mathrm{2pt}}-M_{\mathrm{1pt}})\cdot(1-e^{-\varphi _{(t,\tau)}})\tag{4-13}$$
+$$M_{\mathrm{2pt}}=M^{0}_{\mathrm{2pt}}+M^{'}_{\mathrm{2pt}}\tag{4-14}$$
+$$M_{\mathrm{1pt}}=M^{0}_{\mathrm{1pt}}+M^{'}_{\mathrm{1pt}}\tag{4-15}$$
+$$M^{0}_{\mathrm{2pt}}=M^{0}_{\mathrm{1pt}}\tag{4-16}$$</p>
+<table border="0" style="font-family:times new roman" id="gongshi">
+<tr>
+<td width="50px" align='center' id="eqzs">式中:</td>
+<td width="50px" align='right' id="eqzs"><i>M</i><sub>2p</sub></td>
+<td width="40px" align='left' id="eqzs">——</td>
+<td id="eqzs">期结构预加力(<i>t</i>时),按后期结构计算的弯矩；</td>
+</tr>
+<tr>
+<td id="eqzs"> </td>
+<td id="eqzs" align='right'><i>M</i><sub>1p</sub></td>
+<td id="eqzs">——</td>
+<td id="eqzs">先期结构预加力(<i>t</i>时),按先期结构计算的弯矩；</td>
+</tr>
+<tr>
+<td id="eqzs"colspan="2" align='right'> <i>M</i><sub>1pt</sub><sup>0</sup>=<i>M</i><sub>2pt</sub><sup>0</sup></td>
+ <!-- <td></td> -->
+<td id="eqzs">——</td>
+<td id="eqzs">初弯矩，在后期结构与先期结构中均相等；</td>
+</tr>
+ <tr>
+<td width="50px" align='center' id="eqzs"> </td>
+<td width="50px" align='right' id="eqzs"><i>M '</i><sub>2pt</sub></td>
+<td width="40px" align='left' id="eqzs">——</td>
+<td id="eqzs">结构预加力，按后期结构计算的弹性次弯矩；</td>
+</tr>
+<tr>
+<td id="eqzs"> </td>
+<td id="eqzs" align='right'><i>M '</i><sub>1pt</sub></td>
+<td id="eqzs">——</td>
+<td id="eqzs">结构预加力，按先期结构计算的弹性次弯矩，当先期结构为静定时，此值为零。</td>
+</tr>
+ </table>
+<p></p>
+
+
+
+<p style="text-align:justify;text-indent:2em;" > 代入公式(4-13)得：</p><p>$$M_{\mathrm{pt}}=M_{\mathrm{1pt}}+(M^{'}_{\mathrm{2pt}}-M^{'}_{\mathrm{1pt}})\cdot(1-e^{-\varphi _{(t,\tau)}})\tag{4-17}$$</p>
+<p style="text-align:justify;text-indent:2em;" > 先期结构为静定结构时，<math xmlns="http://www.w3.org/1998/Math/MathML" ><msubsup><mi>M</mi><mrow><mn>1</mn><mrow><mi mathvariant="normal">p</mi><mi mathvariant="normal">t</mi></mrow></mrow><mrow><msup><mi></mi><mo>′</mo></msup></mrow></msubsup><mo>=</mo><mn>0</mn></math>，则式(4-11)简化为</p><p>$$M_{\mathrm{pt}}=M^{0}_{\mathrm{1pt}}-M^{'}_{\mathrm{2pt}}(1-e^{-\varphi _{(t,\tau)}})\tag{4-18}$$</p>
+<p style="text-align:justify;text-indent:2em;" > 在以上公式中，为简支梁加载龄期<i>τ</i>(亦为体系转换龄期)至计算所考虑的时间<i>t</i>的一段时间内的徐变系数。</p>
+<p style="text-align:justify;text-indent:2em;" > 4 公式(4-12)假定简支梁预制、架设、转换为连续梁是在同一时间<i>τ</i>时进行得出的。如果简支梁的加载龄期与转换为连续梁的时间相隔较长，则先期结构混凝土经历的这段时间的龄期对徐变的影响应加以考虑。若简支梁加载龄期为<i>τ</i><sub>0</sub>，转换成连续梁时间为<i>τ</i>，则公式(4-12)可改变为：</p><p>$$M_{\mathrm{gt}}=M_{\mathrm{1g}}+(M_{\mathrm{2g}}-M_{\mathrm{1g}})\{1-e^{-[\varphi _{(t,\tau_{0})}-{\varphi _{(\tau,\tau_{0})}}]}\}\tag{4-19}$$</p>
+<p style="text-align:justify;text-indent:2em;" > 同理，对于预加力引起的弯矩重分配计算，公式(4-17)可改变为：</p><p>$$M_{\mathrm{pt}}=M_{\mathrm{1pt}}+(M^{'}_{\mathrm{2pt}}-M^{'}_{\mathrm{1pt}})\{1-e^{-[\varphi _{(t,\tau_{0})}-{\varphi _{(\tau,\tau_{0})}}]}\}\tag{4-20}$$</p>
+<p style="text-align:justify"><a href="#idt4.3.9"> 4.3.9</a> <span id="idt4.3.9"> 混凝土压应力在0.3~0.6倍混凝土立方强度时，可考虑混凝土应力与徐变成线性关系。通常混凝土压应力不超过立方强度之半，所以可以考虑徐变与应力保持线性关系。</span></p>
+<p style="text-align:justify"><a href="#idt4.3.10"> 4.3.10</a> <span id="idt4.3.10"> 日照幅射，梁体吸热，在截面内升温不一，形成温差梯度，称为正温差。由于日落后梁体反幅射散热，在截面内降温不一，形成温差梯度，称为反温差。无论正温差或反温差，均导致梁体截面发生温差应力。</span></p></section>
 <section id="id5">
 <h2>4.4 拱的计算<a class="headerlink" href="#id5" title="此标题的永久链接"></a></h2>
-<p style="text-align:justify"><a href="#idt4.4.1"> 4.3.1</a> <span id="idt4.4.1"> </span></p>
-<p style="text-align:justify"><a href="#idt4.4.2"> 4.3.2</a> <span id="idt4.4.2"> </span></p>
-<p style="text-align:justify"><a href="#idt4.4.3"> 4.3.3</a> <span id="idt4.4.3"> </span></p>
-<p style="text-align:justify"><a href="#idt4.4.7"> 4.3.7</a> <span id="idt4.4.7"> </span></p>
-<p style="text-align:justify"><a href="#idt4.4.8"> 4.3.8</a> <span id="idt4.4.8"> </span></p>
-<p style="text-align:justify"><a href="#idt4.4.9"> 4.3.9</a> <span id="idt4.4.9"> </span></p>
-<p style="text-align:justify"><a href="#idt4.4.11"> 4.4.11</a> <span id="idt4.4.11"> </span></p>
-<p style="text-align:justify"><a href="#idt4.4.12"> 4.4.12</a> <span id="idt4.4.12"> </span></p>
-<p style="text-align:justify"><a href="#idt4.4.13"> 4.4.13</a> <span id="idt4.4.13"> </span></p>
-<p style="text-align:justify"><a href="#idt4.4.14"> 4.4.14</a> <span id="idt4.4.14"> </span></p></section>
+<p style="text-align:justify"><a href="#idt4.4.1"> 4.4.1</a> <span id="idt4.4.1"> 目前，拱多按主拱圈裸拱受力计算；在构造细节上，在不导致拱上建筑发生过度约束效应的前提下，两者应具有良好的结合。</span></p>
+<p style="text-align:justify;text-indent:2em;" > 根据已建拱桥的技术资料，对车道荷载引起正弯矩效应的折减系数予以修正。</p>
+<p style="text-align:justify"><a href="#idt4.4.2"> 4.4.2</a> <span id="idt4.4.2"> 目前，拱轴线的选取方法为：先行假定各项有关拱的参数，然后用数解法算出全拱各点不考虑弹性压缩的自重压力线坐标，以选择相当的拱轴线。这样选择的拱轴线，除拱顶、拱脚与压力线符合外，其他各点也较为均匀大致符合。</span></p>
+<p style="text-align:justify;text-indent:2em;" > 大跨径拱桥宜考虑恒载压力线偏离拱轴线引起荷载效应。</p>
+<p style="text-align:justify"><a href="#idt4.4.3"> 4.4.3</a> <span id="idt4.4.3"> 本条参考《公路圬工桥梁设计规范》(JTG D61-2005)(以下简称《圬工规范JTGD61》)第5.1.3条制定。</span></p>
+<p style="text-align:justify"><a href="#idt4.4.7"> 4.4.7</a> <span id="idt4.4.7"> 验算拱的纵向稳定时采用的竖向荷载，需视验算时所设条件而定。验算拱的纵向稳定的计算长度，取自《圬工规范JTG D61》第5.1.4条。这项规定在公路桥梁规范上已使用多年。《铁路桥梁技术规范》TBJ2-85(以下简称按《TBJ 2-85规范》)第9.2.10条，拱的纵向稳定计算长度<math xmlns="http://www.w3.org/1998/Math/MathML" ><msub><mi>l</mi><mrow><mn>0</mn></mrow></msub></math>为</span></p><p>$$l_{0}=\pi\sqrt{\dfrac{8f}{kl}}\cdot l\tag{4-21}$$</p>
+<table border="0" style="font-family:times new roman" id="gongshi">
+<tr>
+<td width="50px" align='center' id="eqzs">式中:</td>
+<td width="50px" align='right' id="eqzs"><i>l</i></td>
+<td width="40px" align='left' id="eqzs">——</td>
+<td id="eqzs">拱的跨径；</td>
+</tr>
+<tr>
+<td id="eqzs"> </td>
+<td id="eqzs" align='right'><i>f</i></td>
+<td id="eqzs">——</td>
+<td id="eqzs">拱的矢高；</td>
+</tr>
+<tr>
+<td id="eqzs"> </td>
+<td id="eqzs" align='right'><i>k</i></td>
+<td id="eqzs">——</td>
+<td id="eqzs">按<a href="#Bt4.6">表4-6</a>使用。</td>
+</tr>
+ </table>
+<p></p>
+
+
+     <style>
+    #biaoge {
+        border: 2px solid black;
+        border-collapse: collapse;
+        margin-bottom:1px;
+
+     }
+     th, td {
+        padding-top: 5px;
+        padding-bottom:5px;
+        padding-left:5px;
+        padding-right:5px;
+        border: 1px solid black;
+
+     }
+     #eqzs {
+        border: 0px;
+     }
+     #dhbg {
+       vertical-align: middle;
+     }
+    </style>
+       <table id="biaoge" style="font-family:times new roman">
+
+        <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="Bt4.6"> 表4-6 <math xmlns="http://www.w3.org/1998/Math/MathML"><mi>k</mi></math>值和<math xmlns="http://www.w3.org/1998/Math/MathML" ><msub><mi>l</mi><mrow><mn>0</mn></mrow></msub></math>值</b></caption>
+
+                   <tr>
+                   <td  align="center" width="100px"rowspan="2">拱</td>
+                   <td  align="center" colspan="3">拱</td>
+       <!-- <td></td> -->
+       <!-- <td></td> -->
+                         <td  align="center" colspan="3">拱</td>
+       <!-- <td></td> -->
+       <!-- <td></td> -->
+       <td  align="center" colspan="3">拱</td>
+       <!-- <td></td> -->
+       <!-- <td></td> -->
+                   </tr>
+                   <tr>
+                   <!-- <td></td> -->
+                   <td align="center"  id="dhbg" width="100px">k</td>
+       <td align="center"  id="dhbg" colspan="2"><math xmlns="http://www.w3.org/1998/Math/MathML" ><msub><mi>l</mi><mrow><mn>0</mn></mrow></msub></math></td>
+                         <!-- <td></td> -->
+                   <td align="center"  id="dhbg" width="100px">k</td>
+       <td align="center"  id="dhbg" colspan="2"><math xmlns="http://www.w3.org/1998/Math/MathML" ><msub><mi>l</mi><mrow><mn>0</mn></mrow></msub></math></td>
+                         <!-- <td></td> -->
+                   <td align="center"  id="dhbg" width="100px">k</td>
+       <td align="center"  id="dhbg" colspan="2"><math xmlns="http://www.w3.org/1998/Math/MathML" ><msub><mi>l</mi><mrow><mn>0</mn></mrow></msub></math></td>
+                         <!-- <td></td> -->
+                   </tr>
+                   <tr>
+                   <td align="center"  id="dhbg" >无铰拱</td>
+                   <td align="center"  id="dhbg" >60.7</td>
+       <td align="center"  id="dhbg" width="100px">0.36<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>l</mi></math></td>
+                         <td align="center"  id="dhbg" width="100px">0.36<math xmlns="http://www.w3.org/1998/Math/MathML" ><msub><mi>l</mi><mrow><mi>a</mi></mrow></msub></math></td>
+                   <td align="center"  id="dhbg" >101.0</td>
+       <td align="center"  id="dhbg" width="100px">0.39<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>l</mi></math></td>
+                         <td align="center"  id="dhbg" width="100px">0.36<math xmlns="http://www.w3.org/1998/Math/MathML" ><msub><mi>l</mi><mrow><mi>a</mi></mrow></msub></math></td>
+                   <td align="center"  id="dhbg" >115.0</td>
+       <td align="center"  id="dhbg" width="100px">0.45<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>l</mi></math></td>
+                         <td align="center"  id="dhbg" width="100px">0.37<math xmlns="http://www.w3.org/1998/Math/MathML" ><msub><mi>l</mi><mrow><mi>a</mi></mrow></msub></math></td>
+                   </tr>
+                   <tr>
+                   <td align="center"  id="dhbg" >双铰拱</td>
+                   <td align="center"  id="dhbg" >28.5</td>
+       <td align="center"  id="dhbg" width="100px">0.53<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>l</mi></math></td>
+                         <td align="center"  id="dhbg" width="100px">0.53<math xmlns="http://www.w3.org/1998/Math/MathML" ><msub><mi>l</mi><mrow><mi>a</mi></mrow></msub></math></td>
+                   <td align="center"  id="dhbg" >45.4</td>
+       <td align="center"  id="dhbg" width="100px">0.59<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>l</mi></math></td>
+                         <td align="center"  id="dhbg" width="100px">0.54<math xmlns="http://www.w3.org/1998/Math/MathML" ><msub><mi>l</mi><mrow><mi>a</mi></mrow></msub></math></td>
+                   <td align="center"  id="dhbg" >46.5</td>
+       <td align="center"  id="dhbg" width="100px">0.71<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>l</mi></math></td>
+                         <td align="center"  id="dhbg" width="100px">0.58<math xmlns="http://www.w3.org/1998/Math/MathML" ><msub><mi>l</mi><mrow><mi>a</mi></mrow></msub></math></td>
+                   </tr>
+                   <tr>
+                   <td align="center"  id="dhbg" >三铰拱</td>
+                   <td align="center"  id="dhbg" >22.5</td>
+       <td align="center"  id="dhbg" width="100px">0.59<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>l</mi></math></td>
+                         <td align="center"  id="dhbg" width="100px">0.59<math xmlns="http://www.w3.org/1998/Math/MathML" ><msub><mi>l</mi><mrow><mi>a</mi></mrow></msub></math></td>
+                   <td align="center"  id="dhbg" >39.6</td>
+       <td align="center"  id="dhbg" width="100px">0.62<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>l</mi></math></td>
+                         <td align="center"  id="dhbg" width="100px">0.57<math xmlns="http://www.w3.org/1998/Math/MathML" ><msub><mi>l</mi><mrow><mi>a</mi></mrow></msub></math></td>
+                   <td align="center"  id="dhbg" >146.5</td>
+       <td align="center"  id="dhbg" width="100px">0.71<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>l</mi></math></td>
+                         <td align="center"  id="dhbg" width="100px">0.58<math xmlns="http://www.w3.org/1998/Math/MathML" ><msub><mi>l</mi><mrow><mi>a</mi></mrow></msub></math></td>
+                   </tr>
+               </table>
+  <p > <font size="2">注：<math xmlns="http://www.w3.org/1998/Math/MathML" ><msub><mi>l</mi><mrow><mi>a</mi></mrow></msub></math>为拱轴线长度。</font></p>
+
+<p style="text-align:justify;text-indent:2em;" > 公式(4-21)源于《苏联铁路、公路、城市道路桥梁设计技术规范》CH200-62第411条或1965年李国豪主编《桥梁结构与振动》，是按抛物线拱受均布荷载时的临界水平推力公式推导出来的。由于公路拱桥线形多样，荷载也不是均布荷载，所以偏安全地将上述公式用于临界轴向力作用下的纵向稳定验算。根据表4-6,拱圈纵向稳定计算长度，三铰拱、双铰拱和无铰拱分别取用0.581、0.541和0.36。这些规定值，自20 世纪 50年代以来，直为砖、石、混凝土拱所采用，1975年《公路桥梁设计规范》延伸用于钢筋混凝土拱和钢拱。为了验证这些规定值，1975年《公路桥梁设计规范》第5.18条条文说明用圆弧拱受径向均布荷载下的临界轴向力作了比较,证明可行。上述前苏联规范第206条和第 411条，也分别规定公式(4-21)适用于钢筋混凝土拱和钢拱的纵向计算长度。</p>
+<p style="text-align:justify;text-indent:2em;" > 当按本规范表5.3.1查取轴心受压构件的稳定系数时，对于变截面的拱圈或拱肋，可采用拱的换算等代截面惯性矩。换算等代截面惯性矩可按下法计算:将半个拱圈取直，为一简支梁，再取一跨径相同的等截面简支梁，在两者跨径中央作用一单位集中荷载，当该点挠度彼此相等时，后者惯性矩即视为该拱的换算等代截面惯性矩。当拱的截面变化不大时，可直接采用跨径 1/4处的截面惯性矩。</p>
+
+
+<p style="text-align:justify"><a href="#idt4.4.8"> 4.4.8</a> <span id="idt4.4.8"> 板拱拱圈宽度小于1/20拱跨时应验算拱圈横向(平面外)稳定的规定，取自《圬工规范JTG D61》第5.1.4条。这条规定在公路、铁路桥梁上较为通用。目前国内外已建拱桥中，宽跨比较小的有南斯拉夫克尔克1号桥，宽跨比1/30,南斯拉夫另一座舍宾斯基桥，宽跨比1/32.5,我国铁路也有几座拱桥宽跨比小于1/20,如丹河桥宽跨比为1/26.67。换言之，宽跨比为1/20及以上时可不验算板拱拱圈横向稳定，实践证明是可行且安全的。</span></p>
+
+<p style="text-align:justify;text-indent:2em;" > 无铰板拱的横向稳定宜用稳定计算程序验算，同时也可与下述计算方法作一比较。简化方法可近似地将板拱作为长度为<math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mi>l</mi><mrow><mn>0</mn></mrow></msub><mo>=</mo><mi>r</mi><mi>π</mi><msqrt><mstyle displaystyle="true" scriptlevel="0"><mfrac><mn>1</mn><mi>k</mi></mfrac></mstyle></msqrt></math>的两端铰接的轴心受压构件，自本规范<a href="https://jtg-3362.readthedocs.io/zh/latest/05.html#B5.3.1">表5.3.1</a>查取轴心受压构件稳定系数<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>φ</mi></math>，用本规范公式(5.3.1)验算轴心受压强度。在上式中，<i>r</i>为圆弧拱的计算半径。当为其他曲线拱时可用矢跨比<math xmlns="http://www.w3.org/1998/Math/MathML" ><mi>β</mi><mo>=</mo><mi>f</mi><mrow><mo>/</mo></mrow><mi>l</mi></math>，近似地换算为圆弧拱半径 <i>r</i>，即<math xmlns="http://www.w3.org/1998/Math/MathML" ><mi>r</mi><mo>=</mo><mstyle displaystyle="true" scriptlevel="0"><mfrac><mi>l</mi><mn>2</mn></mfrac></mstyle><mrow data-mjx-texclass="INNER"><mo data-mjx-texclass="OPEN">(</mo><mstyle displaystyle="true" scriptlevel="0"><mfrac><mn>1</mn><mrow><mn>4</mn><mi>β</mi></mrow></mfrac></mstyle><mo>+</mo><mi>β</mi><mo data-mjx-texclass="CLOSE">)</mo></mrow></math>，k为系数，其值与圆弧拱圆心角(以弧度计)α有关，k如<a href="#Bt4.7">表4-7</a>。</p>
+<table id="biaoge" style="font-family:times new roman">
+
+        <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="Bt4.7">表4-7 系数<math xmlns="http://www.w3.org/1998/Math/MathML" ><mi>k</mi></math></b></caption>
+
+                   <tr>
+                   <td  align="center" id="dhbg" width="225px"><math xmlns="http://www.w3.org/1998/Math/MathML" ><mi>a</mi><mrow><mo>/</mo></mrow><mi>π</mi></math></td>
+                   <td  align="center" id="dhbg" width="225px">0.25</td>
+       <td  align="center" id="dhbg" width="225px">0.50</td>
+       <td  align="center" id="dhbg" width="225px">1.00</td>
+           </tr>
+                   <tr>
+                   <td align="center"  id="dhbg"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>k</mi></math></td>
+                   <td align="center"  id="dhbg">60.1</td>
+       <td align="center"  id="dhbg">12.6</td>
+       <td align="center"  id="dhbg">1.85</td>
+                   </tr>
+               </table>
+   <p></p>
+<p style="text-align:justify;text-indent:2em;" > 上述方法以圆弧无铰拱均布径向荷载的临界力<math xmlns="http://www.w3.org/1998/Math/MathML" ><msub><mi>N</mi><mrow><mrow><mi mathvariant="normal">c</mi><mi mathvariant="normal">r</mi></mrow></mrow></msub><mo>=</mo><mi>k</mi><mi>E</mi><msub><mi>I</mi><mrow><mrow><mi mathvariant="normal">y</mi></mrow></mrow></msub><mrow><mo>/</mo></mrow><msup><mi>r</mi><mrow><mn>2</mn></mrow></msup></math>[见《公路设计手册：拱桥(上册)(1978)》公式(9-12)]，使其等于上下铰接的直杆临界力<math xmlns="http://www.w3.org/1998/Math/MathML" ><msup><mi>π</mi><mrow><mn>2</mn></mrow></msup><mi>E</mi><msub><mi>I</mi><mrow><mrow><mi mathvariant="normal">y</mi></mrow></mrow></msub><mrow><mo>/</mo></mrow><msubsup><mi>l</mi><mrow><mn>0</mn></mrow><mrow><mn>2</mn></mrow></msubsup></math>，解出<math xmlns="http://www.w3.org/1998/Math/MathML" ><msub><mi>l</mi><mrow><mn>0</mn></mrow></msub><mo>=</mo><mi>r</mi><mi>π</mi><msqrt><mstyle displaystyle="true" scriptlevel="0"><mfrac><mn>1</mn><mi>k</mi></mfrac></mstyle></msqrt></math>各种矢跨比的无铰板拱其横向稳定计算长度<math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mi>l</mi><mrow><mn>0</mn></mrow></msub></math>如<a href="#Bt4.8">表4-8</a>所示(对于<a href="#Bt4.7">表4-7</a>内α/π 中间值，用直线内插法确定)。</p>
+
+<table id="biaoge" style="font-family:times new roman">
+
+        <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="Bt4.8">表4-8 无铰板拱横向稳定计算长度<math xmlns="http://www.w3.org/1998/Math/MathML" ><msub><mi>l</mi><mrow><mn>0</mn></mrow></msub></math></b></caption>
+
+                   <tr>
+                   <td  align="center" id="dhbg" width="180px">矢跨比<math xmlns="http://www.w3.org/1998/Math/MathML" ><mi>f</mi><mrow><mo>/</mo></mrow><mi>l</mi></math></td>
+                   <td  align="center" id="dhbg" width="80px">1/3</td>
+       <td  align="center" id="dhbg" width="80px">1/4</td>
+       <td  align="center" id="dhbg" width="80px">1/5</td>
+       <td  align="center" id="dhbg" width="80px">1/6</td>
+       <td  align="center" id="dhbg" width="80px">1/7</td>
+       <td  align="center" id="dhbg" width="80px">1/8</td>
+       <td  align="center" id="dhbg" width="80px">1/9</td>
+       <td  align="center" id="dhbg" width="80px">1/10</td>
+       <td  align="center" id="dhbg" width="80px">乘数</td>
+                   </tr>
+                   <tr>
+                   <td align="center"  id="dhbg">计算长度<math xmlns="http://www.w3.org/1998/Math/MathML" ><msub><mi>l</mi><mrow><mn>0</mn></mrow></msub></math></td>
+                   <td align="center"  id="dhbg">1.1665</td>
+       <td align="center"  id="dhbg">0.9622</td>
+       <td align="center"  id="dhbg">0.7967</td>
+       <td align="center"  id="dhbg">0.5759</td>
+       <td align="center"  id="dhbg">0.4950</td>
+       <td align="center"  id="dhbg">0.4519</td>
+       <td align="center"  id="dhbg">0.4248</td>
+       <td align="center"  id="dhbg">0.4061</td>
+       <td align="center"  id="dhbg">r</td>
+                   </tr>
+               </table>
+   <p></p>
+<p style="text-align:justify;text-indent:2em;" > 1975年《铁路工程技术规范》第二篇第 2-317条，对于拱的横向(平面外)的稳定，建议近似地将拱视为长度等于拱轴线长度的直杆进行计算。这个方法也曾在公路拱桥设计上应用。表4-8的计算长度<math xmlns="http://www.w3.org/1998/Math/MathML" ><msub><mi>l</mi><mn>0</mn></msub></math>，接近于拱轴线长度乘以两端固接系数0.5。</p>
+<p style="text-align:justify;text-indent:2em;" > 用横系梁连接的肋拱横向稳定是一个较为复杂的问题，特大、大跨径拱桥宜用稳定计算程序计算，同时也可与下述简化法作一比较。公路和铁路桥目前均近似地将其视为长度等于拱轴长度的组合直杆进行计算。现介绍如下：</p>
+<p style="text-align:justify;text-indent:2em;" > 将以横系梁连接的拱肋作为平面桁架(<a href="#figt4.11">图4-11</a>),其长度等于拱轴长度。</p>
+ <div align="center"><img id="figt4.11" src="../_static/fig/T4.11.png" alt="Picture" width="400px"></div>
+ <p style="color: dimgray;text-align: center;">图 4-11 肋拱横向稳定计算长度</p>
+ <script type="text/javascript">var viewer = new Viewer(document.getElementById('figt4.11'));</script>
+
+<p style="text-align:justify;text-indent:2em;" > 根据铁摩辛柯研究，以布置较密的横系梁连接的拱肋，其横向(平面外)的临界力为：</p><p>$$N_{\mathrm{cr}}=a_{0}\dfrac{\pi^{2}EI}{(aL)^{2}}\tag{4.-22}$$</p>
+<p style="text-align:justify;text-indent:2em;" > 令其等于两端铰接的直杆的临界力<math xmlns="http://www.w3.org/1998/Math/MathML" ><msubsup><mi>N</mi><mrow><mrow><mi mathvariant="normal">c</mi><mi mathvariant="normal">r</mi></mrow></mrow><mrow><msup><mi></mi><mo>′</mo></msup></mrow></msubsup><mo>=</mo><mstyle displaystyle="true" scriptlevel="0"><mfrac><mrow><msup><mi>π</mi><mrow><mn>2</mn></mrow></msup><mi>E</mi><mi>I</mi></mrow><msubsup><mi>l</mi><mrow><mn>0</mn></mrow><mrow><mn>2</mn></mrow></msubsup></mfrac></mstyle></math>，可解得：</p><p>$$l_{0}=\alpha L/\sqrt{a_{0}}\tag{4.-23}$$
+$$ a_{0}=\dfrac{1}{1+\dfrac{EI\pi^{2}}{(aL)^{2}}\left(\dfrac{ab}{12EI_{\mathrm{b} }}+\dfrac{a^{2}}{24EI_{\mathrm{c} }}\times\dfrac{1}{1-\beta}+\dfrac{na}{bA_{\mathrm{b} }G}\right)}\tag{4.-24}$$
+$$\beta=\dfrac{N_{\mathrm{cr} }a^{2}}{2\pi^{2}EI}\tag{4.-25}$$</p>
+<table border="0" style="font-family:times new roman" id="gongshi">
+<tr>
+<td width="50px" align='center' id="eqzs">式中:</td>
+<td width="50px" align='right' id="eqzs"><math xmlns="http://www.w3.org/1998/Math/MathML" ><msub><mi>l</mi><mrow><mn>0</mn></mrow></msub></math></td>
+<td width="40px" align='left' id="eqzs">——</td>
+<td id="eqzs">横向稳定计算长度；</td>
+</tr>
+<tr>
+<td id="eqzs"> </td>
+<td id="eqzs" align='right'>α</td>
+<td id="eqzs">——</td>
+<td id="eqzs">按拱肋的拱脚支承条件系数，双铰拱α=1,无铰拱α=0.5;</td>
+</tr>
+<tr>
+<td id="eqzs"> </td>
+<td id="eqzs" align='right'><i>L</i></td>
+<td id="eqzs">——</td>
+<td id="eqzs">拱轴长度；</td>
+</tr>
+<tr>
+<td id="eqzs"> </td>
+<td id="eqzs" align='right'><i>EI</i></td>
+<td id="eqzs">——</td>
+<td id="eqzs">肋抗压弹性模量<i>E</i>与惯性矩<i>I</i>乘积；<i>I</i>为两拱肋对桥纵轴线的横向惯性矩；</td>
+</tr>
+<tr>
+<td id="eqzs"> </td>
+<td id="eqzs" align='right'><i>α</i><sub>0</sub></td>
+<td id="eqzs">——</td>
+<td id="eqzs">剪力影响系数；</td>
+</tr>
+<tr>
+<td id="eqzs"> </td>
+<td id="eqzs" align='right'><i>α</i></td>
+<td id="eqzs">——</td>
+<td id="eqzs">横系梁间距(沿拱轴线量取)</td>
+</tr>
+<tr>
+<td id="eqzs"> </td>
+<td id="eqzs" align='right'><i>b</i></td>
+<td id="eqzs">——</td>
+<td id="eqzs">拱肋轴线间距</td>
+</tr>
+<tr>
+<td id="eqzs"> </td>
+<td id="eqzs" align='right'><i>I</i><sub>b</sub></td>
+<td id="eqzs">——</td>
+<td id="eqzs">一根横系梁横截面对自身竖轴的惯性矩；</td>
+</tr>
+<tr>
+<td id="eqzs"> </td>
+<td id="eqzs" align='right'><i>I</i><sub>c</sub></td>
+<td id="eqzs">——</td>
+<td id="eqzs">一根拱肋横截面对自身竖轴的惯性矩；</td>
+</tr>
+<tr>
+<td id="eqzs"> </td>
+<td id="eqzs" align='right'><i>A</i><sub>b</sub></td>
+<td id="eqzs">——</td>
+<td id="eqzs">横系梁截面面积；</td>
+</tr>
+<tr>
+<td id="eqzs"> </td>
+<td id="eqzs" align='right'><i>n</i></td>
+<td id="eqzs">——</td>
+<td id="eqzs">与横系梁截面形状有关系数，矩形截面为1.20,圆形截面为1.11;</td>
+</tr>
+<tr>
+<td id="eqzs"> </td>
+<td id="eqzs" align='right'><i>G</i></td>
+<td id="eqzs">——</td>
+<td id="eqzs">横系梁的剪变模量。</td>
+</tr>
+</table>
+<p></p>
+<p style="text-align:justify;text-indent:2em;" > 计算时，先假定一个<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>β</mi></math>值，代入公式(4-24)求<math xmlns="http://www.w3.org/1998/Math/MathML" ><msub><mi>α</mi><mrow><mn>0</mn></mrow></msub></math>，再将<math xmlns="http://www.w3.org/1998/Math/MathML" ><msub><mi>α</mi><mrow><mn>0</mn></mrow></msub></math>代入公式(4-23)求<math xmlns="http://www.w3.org/1998/Math/MathML" ><msub><mi>l</mi><mrow><mn>0</mn></mrow></msub></math>，继而自公式(4-22)得<math xmlns="http://www.w3.org/1998/Math/MathML" ><msub><mi>N</mi><mrow><mi>cr</mi></mrow></msub></math>，再用<math xmlns="http://www.w3.org/1998/Math/MathML" ><msub><mi>N</mi><mrow><mi>cr</mi></mrow></msub></math>代入公式(4-25)求<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>β</mi></math>。如果求得的<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>β</mi></math>值与假定的<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>β</mi></math>值相差较大，应再假设一个<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>β</mi></math>值，再试算。这样反复试算，直至最后求得的假定值与试算结果值接近。求得<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>β</mi></math>值后，即可用公式(4-23)及(4-24)分别求得<math xmlns="http://www.w3.org/1998/Math/MathML" ><msub><mi>α</mi><mrow><mn>0</mn></mrow></msub></math>和<math xmlns="http://www.w3.org/1998/Math/MathML" ><msub><mi>l</mi><mrow><mn>0</mn></mrow></msub></math>。</p>
+<p style="text-align:justify;text-indent:2em;" > 在求得横向稳定计算长度 <math xmlns="http://www.w3.org/1998/Math/MathML" ><msub><mi>l</mi><mrow><mn>0</mn></mrow></msub></math>后，即可按本规范<a href="https://jtg-3362.readthedocs.io/zh/latest/05.html#B5.3.1">表5.3.1</a>查取纵向弯曲系数<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>φ</mi></math>。在查取<math xmlns="http://www.w3.org/1998/Math/MathML" ><mi>φ</mi></math>值时，截面最小回转半径<math xmlns="http://www.w3.org/1998/Math/MathML" ><mi>r</mi></math>应取两拱肋截面对桥纵轴线的回转半径。查取<math xmlns="http://www.w3.org/1998/Math/MathML" ><mi>φ</mi></math>值后即可按本规范公式(5.3.1)验算轴心受压截面强度。</p>
+<p style="text-align:justify;text-indent:2em;" > 以上计算忽略了材料的非线性性质，其临界荷载可能偏大，因此计算时宜具备一定的安全富余量。</p>
+<p style="text-align:justify"><a href="#idt4.4.9"> 4.4.9</a> <span id="idt4.4.9"> 本条参照《圬工规范JTG D61》第5.1.6条制定。计算桥上横向风力时，需先将全桥所受风力总和<math xmlns="http://www.w3.org/1998/Math/MathML" ><msub><mi>F</mi><mrow><mrow><mi mathvariant="normal">w</mi><mi mathvariant="normal">h</mi></mrow></mrow></msub></math>求出，在假拟的固定端水平直梁上满布均布荷载为<math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mi>q</mi><mrow><mrow><mn>1</mn><mi mathvariant="normal">w</mi></mrow></mrow></msub><mo>=</mo><msub><mi>F</mi><mrow><mrow><mi mathvariant="normal">w</mi><mi mathvariant="normal">h</mi></mrow></mrow></msub><mrow><mo>/</mo></mrow><mi>l</mi></math>(<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>l</mi></math>为计算跨径),其固定端弯矩为<math xmlns="http://www.w3.org/1998/Math/MathML" ><msub><mi>M</mi><mrow><mrow><mn>1</mn><mi mathvariant="normal">w</mi></mrow></mrow></msub><mo>=</mo><msub><mi>q</mi><mrow><mrow><mn>1</mn><mi mathvariant="normal">w</mi></mrow></mrow></msub><msup><mi>f</mi><mrow><mn>2</mn></mrow></msup><mrow><mo>/</mo></mrow><mn>12</mn></math>；在假拟的竖向悬臂梁上满布均布荷载为<math xmlns="http://www.w3.org/1998/Math/MathML" ><msub><mi>q</mi><mrow><mrow><mn>2</mn><mi mathvariant="normal">w</mi></mrow></mrow></msub><mo>=</mo><msub><mi>F</mi><mrow><mrow><mi mathvariant="normal">w</mi><mi mathvariant="normal">h</mi></mrow></mrow></msub><mrow><mo>/</mo></mrow><mn>2</mn><mi>f</mi></math>(<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>f</mi></math>为计算矢高),其固定端弯矩为<math xmlns="http://www.w3.org/1998/Math/MathML" ><msub><mi>M</mi><mrow><mrow><mn>2</mn><mi mathvariant="normal">w</mi></mrow></mrow></msub><mo>=</mo><msub><mi>q</mi><mrow><mrow><mn>2</mn><mi mathvariant="normal">w</mi></mrow></mrow></msub><msup><mi>f</mi><mrow><mn>2</mn></mrow></msup><mrow><mo>/</mo></mrow><mn>12</mn></math>。计算离心力时，需将全桥列车离心力 P求出，作用于固定端水平直梁上的均布荷载为<math xmlns="http://www.w3.org/1998/Math/MathML" ><msub><mi>q</mi><mrow><mrow><mn>1</mn><mi mathvariant="normal">c</mi></mrow></mrow></msub><mo>=</mo><mi>P</mi><mrow><mo>/</mo></mrow><mi>l</mi></math>，其固定端弯矩为<math xmlns="http://www.w3.org/1998/Math/MathML" ><msub><mi>M</mi><mrow><mrow><mn>1</mn><mi mathvariant="normal">c</mi></mrow></mrow></msub><mo>=</mo><msub><mi>q</mi><mrow><mrow><mn>1</mn><mi mathvariant="normal">c</mi></mrow></mrow></msub><msup><mi>l</mi><mrow><mn>2</mn></mrow></msup><mrow><mo>/</mo></mrow><mn>12</mn></math>；作用于竖向悬臂自由端的集中荷载为P/2,其固定端弯矩为<math xmlns="http://www.w3.org/1998/Math/MathML" ><msub><mi>M</mi><mrow><mrow><mn>2</mn><mi mathvariant="normal">c</mi></mrow></mrow></msub><mo>=</mo><mi>P</mi><mi>f</mi><mrow><mo>/</mo></mrow><mn>2</mn></math>，<math xmlns="http://www.w3.org/1998/Math/MathML" ><msub><mi>M</mi><mrow><mn>1</mn></mrow></msub><mo>=</mo><msub><mi>M</mi><mrow><mrow><mn>1</mn><mi mathvariant="normal">w</mi></mrow></mrow></msub><mo>+</mo><msub><mi>M</mi><mrow><mrow><mn>1</mn><mi mathvariant="normal">c</mi></mrow></mrow></msub></math>，<math xmlns="http://www.w3.org/1998/Math/MathML" ><msub><mi>M</mi><mrow><mn>2</mn></mrow></msub><mo>=</mo><msub><mi>M</mi><mrow><mrow><mn>2</mn><mi mathvariant="normal">w</mi></mrow></mrow></msub><mo>+</mo><msub><mi>M</mi><mrow><mrow><mn>2</mn><mi mathvariant="normal">c</mi></mrow></mrow></msub></math>，代入本条公式(4.4.9)即可得垂直于曲线平面的拱脚截面弯矩<math xmlns="http://www.w3.org/1998/Math/MathML" ><mi>M</mi></math>。</span></p>
+<p style="text-align:justify"><a href="#idt4.4.11"> 4.4.11</a> <span id="idt4.4.11"> 本条参照《圬工规范JTG D61》第5.1.7条制定。</span></p>
+<p style="text-align:justify;text-indent:2em;" > 多跨无铰拱桥当桥墩抗推刚度与主拱抗推刚度之比大于 37时，可简化为单跨无铰拱计算。根据《公路设计手册，拱桥(上册)》(1978年版)表7-5和王国鼎《拱桥连拱计算》表5-7,连拱按单拱计算的判别条件，抄录如<a href="#Bt4.9">表4-9</a>。按本条规定进行简化后，计算精度约为95%。</p>
+
+  <style>
+    #biaoge {
+        border: 2px solid black;
+        border-collapse: collapse;
+        margin-bottom:1px;
+
+     }
+     th, td {
+        padding-top: 5px;
+        padding-bottom:5px;
+        padding-left:5px;
+        padding-right:5px;
+        border: 1px solid black;
+
+     }
+     #eqzs {
+        border: 0px;
+     }
+     #dhbg {
+       vertical-align: middle;
+     }
+    </style>
+
+               <table id="biaoge" style="font-family:times new roman">
+
+        <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="Bt4.9">表4-9 连拱按单拱计算的计算精度</b></caption>
+
+                   <tr>
+                   <td  align="center" width="200px"colspan="2">计算精度</td>
+                   <!-- <td></td> -->
+                         <td  align="center" width="100px">0.98</td>
+       <td  align="center" width="100px">0.95</td>
+       <td  align="center" width="100px">0.90</td>
+       <td  align="center" width="100px">0.85</td>
+       <td  align="center" width="100px">0.80</td>
+                   </tr>
+                   <tr>
+                   <td align="center"  id="dhbg" rowspan="2"width="100px">墩、拱刚度比</td>
+                   <td align="center"  id="dhbg" width="100px">拱桥手册</td>
+       <td align="center"  id="dhbg" >——</td>
+                         <td align="center"  id="dhbg">＞37.0</td>
+       <td align="center"  id="dhbg">＞17.1</td>
+       <td align="center"  id="dhbg">＞10.3</td>
+       <td align="center"  id="dhbg">＞7.1</td>
+                   </tr>
+                   <tr>
+                   <!-- <td></td> -->
+                   <td align="center"  id="dhbg" >连拱计算</td>
+       <td align="center"  id="dhbg" >＞98.0</td>
+                         <td align="center"  id="dhbg">＞38.0</td>
+       <td align="center"  id="dhbg">＞18.0</td>
+       <td align="center"  id="dhbg">＞11.3</td>
+       <td align="center"  id="dhbg">＞8.0</td>
+                   </tr>
+               </table>
+  <p  > </p>
+
+<p style="text-align:justify"><a href="#idt4.4.12"> 4.4.12</a> <span id="idt4.4.12"> 桁架拱为双铰拱体系，其外部为一次超静定。桁架拱杆件作用效应，如节点按铰接计算，与实验结果及按刚接点计算结果比较，均较为接近，但按铰接计算不考虑次内力，因此其下弦截面强度应具备不小于20%余量。</span></p>
+<p style="text-align:justify"><a href="#idt4.4.13"> 4.4.13</a> <span id="idt4.4.13"> 刚架拱适用于跨径 80 m及以下的轻型拱桥，个别达到90 m(如广东阳山花溪大桥)。刚架拱由拱腿(相当于下弦)与跨中实腹段组成拱肋。在此拱肋基础上，拱跨两侧设上弦杆与实腹段连接。为减少上弦杆受弯和受压长度，可在上弦杆中部与拱脚之间设斜撑。上弦杆的两个桥端支点设活动支座。刚架拱应具有较强的横向联接系。</span></p>
+<p style="text-align:justify"><a href="#idt4.4.14"> 4.4.14</a> <span id="idt4.4.14"> 本条参照《TBJ2-85规范》第9.2.9条制定。系杆拱桥任一截面中的弯矩在系梁及拱中的分配与两者抗弯刚度比值有关。当<math xmlns="http://www.w3.org/1998/Math/MathML" ><msub><mi>E</mi><mrow><mrow><mi mathvariant="normal">a</mi></mrow></mrow></msub><msub><mi>I</mi><mrow><mrow><mi mathvariant="normal">a</mi></mrow></mrow></msub><mrow><mo>/</mo></mrow><msub><mi>E</mi><mrow><mrow><mi mathvariant="normal">b</mi></mrow></mrow></msub><msub><mi>I</mi><mrow><mrow><mi mathvariant="normal">b</mi></mrow></mrow></msub><mo>&lt;</mo><mstyle displaystyle="true" scriptlevel="0"><mfrac><mn>1</mn><mn>100</mn></mfrac></mstyle></math>时(<math xmlns="http://www.w3.org/1998/Math/MathML" ><msub><mi>E</mi><mrow><mrow><mi mathvariant="normal">a</mi></mrow></mrow></msub><msub><mi>I</mi><mrow><mrow><mi mathvariant="normal">a</mi></mrow></mrow></msub></math>和<math xmlns="http://www.w3.org/1998/Math/MathML" ><msub><mi>E</mi><mrow><mrow><mi mathvariant="normal">b</mi></mrow></mrow></msub><msub><mi>I</mi><mrow><mrow><mi mathvariant="normal">b</mi></mrow></mrow></msub></math>分别为拱肋和系梁抗弯刚度),弯矩可仅由系梁承受；当<math xmlns="http://www.w3.org/1998/Math/MathML" ><msub><mi>E</mi><mrow><mrow><mi mathvariant="normal">a</mi></mrow></mrow></msub><msub><mi>I</mi><mrow><mrow><mi mathvariant="normal">a</mi></mrow></mrow></msub><mrow><mo>/</mo></mrow><msub><mi>E</mi><mrow><mrow><mi mathvariant="normal">b</mi></mrow></mrow></msub><msub><mi>I</mi><mrow><mrow><mi mathvariant="normal">b</mi></mrow></mrow></msub><mo>&gt;</mo><mn>100</mn></math>时，弯矩可仅由拱肋承 受。上述的拱与梁连接处由于抗弯刚度悬殊，可视为铰接。</span></p></section>
 <section id="id6">
 <h2>4.5 耐久性设计要求<a class="headerlink" href="#id6" title="此标题的永久链接"></a></h2>
-<p style="text-align:justify"><a href="#idt4.5.2"> 4.5.2</a> <span id="idt4.5.2"> </span></p>
-<p style="text-align:justify"><a href="#idt4.5.4"> 4.5.4</a> <span id="idt4.5.4"> </span></p><p><span class="math notranslate nohighlight">\(\ \)</span></p>
+<p style="text-align:justify"><a href="#idt4.5.2"> 4.5.2</a> <span id="idt4.5.2"> 结构所处环境是影响其耐久性的外因。本次修订对影响混凝土结构耐久性的环境类别进行了较详细的分类。结构设计时，可根据实际情况确定合适的环境类别。</span></p>
+<p style="text-align:justify;text-indent:2em;" > 行业标准《公路工程混凝土结构耐久性设计细则》按照腐蚀机理以及交通行业传统经验，将我国公路工程混凝土结构所处的环境划分为 7大类：一般环境、冻融环境(无盐、酸、碱等作用)、近海或海洋氯化物环境、除冰盐等其他氯化物环境、盐结晶环境、化学腐蚀环境和磨蚀环境，同时根据不同环境类别对混凝土结构的劣化腐蚀影响程度，将环境作用等级划分为6个级别；本规范考虑混凝土桥梁的特点和环境对结构的影响，参考《公路工程混凝土结构耐久性设计细则》的规定，对环境类别作出了规定。</p>
+<p style="text-align:justify"><a href="#idt4.5.4"> 4.5.4</a> <span id="idt4.5.4"> 预应力钢筋存在应力腐蚀、氢脆等不利于耐久性的弱点，且直径一般较细，对腐蚀比较敏感，破坏后果严重。因此，对预应力钢筋、连接器、锚夹具、锚头等容易遭受腐蚀的部分采取有效的保护措施。</span></p>
+<p style="text-align:justify;text-indent:2em;" > 提高混凝土的抗渗、抗冻性能有利于混凝土结构在恶劣环境下的耐久性。混凝土抗冻性能和抗渗性能的等级划分、配合比设计及试验方法等，可参照现行行业标准《公路工程混凝土结构耐久性设计细则》的规定执行。</p>
+<p style="text-align:justify;text-indent:2em;" > 潮湿是腐蚀的必要条件，调查表明：通风良好的结构与通风不良的潮湿、水气易于凝聚的结构相比，混凝土腐蚀情况差异比较大。</p><p><span class="math notranslate nohighlight">\(\ \)</span></p>
 </section>
 </section>
 
