@@ -10,16 +10,128 @@
 
 .. raw:: html
 
- <p style="text-align:justify"><a href="#idt9.1.1"> 9.1.1</a> <span id="idt9.1.1">  </span></p>
- <p style="text-align:justify"><a href="#idt9.1.2"> 9.1.2</a> <span id="idt9.1.2">  </span></p>
- <p style="text-align:justify"><a href="#idt9.1.3"> 9.1.3</a> <span id="idt9.1.3">  </span></p>
- <p style="text-align:justify"><a href="#idt9.1.4"> 9.1.4</a> <span id="idt9.1.4">  </span></p>
- <p style="text-align:justify"><a href="#idt9.1.5"> 9.1.5</a> <span id="idt9.1.5"> 、<a href="#idt9.1.6"> 9.1.6</a> <span id="idt9.1.6">  </span></p>
- <p style="text-align:justify"><a href="#idt9.1.7"> 9.1.7</a> <span id="idt9.1.7">  </span></p>
- <p style="text-align:justify"><a href="#idt9.1.8"> 9.1.8</a> <span id="idt9.1.8">  </span></p>
- <p style="text-align:justify"><a href="#idt9.1.9"> 9.1.9</a> <span id="idt9.1.9">  </span></p>
- <p style="text-align:justify"><a href="#idt9.1.12"> 9.1.12</a> <span id="idt9.1.12">  </span></p>
- <p style="text-align:justify"><a href="#idt9.1.13"> 9.1.13</a> <span id="idt9.1.13">  </span></p>
+ <p style="text-align:justify"><a href="#idt9.1.1"> 9.1.1</a> <span id="idt9.1.1"> 根据对我国混凝土结构耐久性的调研和分析，参考《公路工程混凝土结构耐久性设计细则》以及国内外相应规范、标准的有关规定，对混凝土保护层厚度进行了调整：</span></p>
+ <ol>
+ <li> 混凝土保护层厚度不小于钢筋直径，是为了保证握裹层混凝土对钢筋的锚固。</li>
+ <li> 从混凝土碳化、脱钝和钢筋锈蚀的耐久性角度考虑，不再以纵向受力钢筋的外缘计算混凝土保护层的最小厚度，改为以最外侧钢筋(纵向受力钢筋、箍筋、分布钢筋)的外缘计算。</li> 
+ <li> 根据<a href="https://jtg-3362.readthedocs.io/zh/latest/04.html#id6">第4.5节</a>对环境类别的划分，按照构件类别和设计使用年限，规定了混凝土保护层厚度的要求。</li> 
+ </ol>
+ 
+ 
+ <p style="text-align:justify"><a href="#idt9.1.2"> 9.1.2</a> <span id="idt9.1.2"> 混凝土保护层厚度也不宜过大。当保护层很厚时，应采取有效措施减少其厚度或对厚保护层混凝土进行拉结，防止混凝土开裂剥落、下坠。通常为保护层采用纤维混凝土或加配钢筋网片。为保证防裂钢筋网片不致成为引导锈蚀的通道，应对其采取有效的绝缘和定位措施，此时网片钢筋的保护层厚度可适当减小。</span></p>
+ <p style="text-align:justify"><a href="#idt9.1.3"> 9.1.3</a> <span id="idt9.1.3"> 本条参照《德国混凝土和钢筋混凝土设计与施工规范DIN1045,1978》(以下简称《德国规范DIN1045》)18.11,对等代直径大于36 mm的束筋的混凝土保护层内设钢筋网作了具体规定。本条规定与混凝土保护层厚度无关，任何保护层厚度均设置。</span></p>
+ <p style="text-align:justify;text-indent:2em;" > 关于组成束筋的单根钢筋的直径、根数等限值，系参照美、德规范制定。</p>
+ <p style="text-align:justify"><a href="#idt9.1.4"> 9.1.4</a> <span id="idt9.1.4"> 钢筋最小锚固长度<math xmlns="http://www.w3.org/1998/Math/MathML" ><msub><mi>l</mi><mrow><mi>a</mi></mrow></msub><mtext>&nbsp;</mtext></math>按下列公式计算得出：</span></p>
+
+$$l_{a}=f_{\\mathrm{sk}}\\dfrac{\\pi d^{2}}{4}\\times\\dfrac{1}{\\pi d \\tau}=\\dfrac{f_{\\mathrm{sk} } d}{4\\tau}\\tag{9-1}$$
+
+.. raw:: html
+
+ <table border="0" style="font-family:times new roman" id="gongshi">
+ <tr>
+ <td width="50px" align='center' id="eqzs">式中:</td>
+ <td width="50px" align='right' id="eqzs"><i>f</i><sub>sk</sub></td>
+ <td width="40px" align='left' id="eqzs">——</td>
+ <td id="eqzs">钢筋抗拉强度标准值；</td>
+ </tr>
+ <tr>
+ <td id="eqzs"> </td>
+ <td id="eqzs" align='right'><i>d</i></td>
+ <td id="eqzs">——</td>
+ <td id="eqzs">钢筋直径；</td>
+ </tr>
+ <tr>
+ <td id="eqzs"> </td>
+ <td id="eqzs" align='right'><i>τ</i><sub>N</sub></td>
+ <td id="eqzs">——</td>
+ <td id="eqzs">钢筋与混凝土极限锚固粘结应力，取自《英国混凝土桥设计规范BS5400,1984》(以下简称《英国规范BS 5400》),如<a href="#Bt9.1">表9-1</a></td>
+ </tr> 
+  </table>
+ <p></p>
+ <style>
+     #biaoge {
+         border: 2px solid black;
+         border-collapse: collapse;
+         margin-bottom:1px;
+        
+      }
+      th, td {
+         padding-top: 5px;
+         padding-bottom:5px;
+         padding-left:5px;
+         padding-right:5px;
+         border: 1px solid black;
+         
+      }
+      #eqzs {
+         border: 0px;
+      }
+      #dhbg {
+        vertical-align: middle;
+      }
+     </style>
+
+		<table id="biaoge" style="font-family:times new roman">
+
+         <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="Bt9.1">表9-1 钢筋与混凝土极限锚固应力(MPa)</b></caption>	
+              
+		    <tr>
+        <td  align="center" width="300px" rowspan="2" id="dhbg">钢筋</td>
+        <td  align="center" colspan="4"   id="dhbg">混凝土强度等级</td> 
+        <!-- <td></td> -->
+        <!-- <td></td> -->
+        <!-- <td></td> -->
+		    </tr>
+		    <tr>
+			  <!-- <td></td> --> 
+        <td align="center" width="150px"  id="dhbg"> C25</td>  
+        <td align="center" width="150px"  id="dhbg"> C30</td> 
+        <td align="center" width="150px"  id="dhbg"> C35</td>  
+        <td align="center" width="150px"  id="dhbg"> ≥C40</td>  
+		    </tr>
+		    <tr>
+			  <td align="center"  id="dhbg"> 光圆钢筋受拉</td>  
+        <td align="center"  id="dhbg"> 1.4</td>  
+        <td align="center"  id="dhbg"> 1.6</td> 
+        <td align="center"  id="dhbg"> 1.8</td>  
+        <td align="center"  id="dhbg"> 1.9</td>  
+		    </tr> 
+		    <tr>
+			  <td align="center"  id="dhbg"> 光圆钢筋受压</td>  
+        <td align="center"  id="dhbg"> 1.7</td>  
+        <td align="center"  id="dhbg"> 1.9</td> 
+        <td align="center"  id="dhbg"> 2.1</td>  
+        <td align="center"  id="dhbg"> 2.1</td>  
+		    </tr> 
+		    <tr>
+			  <td align="center"  id="dhbg"> 带肋钢筋受拉</td>  
+        <td align="center"  id="dhbg"> 2.5</td>  
+        <td align="center"  id="dhbg"> 2.8</td> 
+        <td align="center"  id="dhbg"> 3.1</td>  
+        <td align="center"  id="dhbg"> 3.3</td>  
+		    </tr> 
+		    <tr>
+			  <td align="center"  id="dhbg"> 带肋钢筋受压</td>  
+        <td align="center"  id="dhbg"> 3.1</td>  
+        <td align="center"  id="dhbg"> 3.5</td> 
+        <td align="center"  id="dhbg"> 3.8</td>  
+        <td align="center"  id="dhbg">  4.1</td>  
+		    </tr>                                
+		   	</table>
+ <p> </p>
+
+ <p style="text-align:justify;text-indent:2em;" > 对于受压钢筋，美、德规范均规定端部弯钩对受压钢筋不起作用，即如同直端。对于受拉钢筋，钢筋端部设弯钩者，其锚固长度按《德国规范 DIN1045》18.5.2.2乘以0.7。</p>
+ <p style="text-align:justify"><a href="#idt9.1.5"> 9.1.5</a> <span id="idt9.1.5"> 、<a href="#idt9.1.6"> 9.1.6</a> <span id="idt9.1.6"> 6 弯钩和箍筋尺寸参照现行《混凝土结构工程施工质量验收规范》(GB 50204)(以下简称《GB 50204规范》)和《公路桥涵施工技术规范》(JTG/T F50)制定。</span></p>
+ <p style="text-align:justify"><a href="#idt9.1.7"> 9.1.7</a> <span id="idt9.1.7"> 绑扎接头的钢筋直径限值参照现行《GB 50010规范》第8.4.2条。</span></p>
+ <p style="text-align:justify"><a href="#idt9.1.8"> 9.1.8</a> <span id="idt9.1.8"> 焊接接头有关规定参照现行《GB 50204规范》第5.4.5条制定。</span></p>
+ <p style="text-align:justify"><a href="#idt9.1.9"> 9.1.9</a> <span id="idt9.1.9">  受拉钢筋绑扎接头有关规定参照现行《GB 50204规范》第5.4.6条制定。束筋搭接参照《德国规范DIN1045》18.11.5制定。根据《GB 50204规范》第5.4.6条及美、德规范，在施工条件困难时，允许绑扎接头多于25%，但搭接长度应加长，有关规定系参照现行《GB 50010规范》表8.4.4制定。</span></p>
+ <p style="text-align:justify"><a href="#idt9.1.12"> 9.1.12</a> <span id="idt9.1.12"> 本条沿用了原规范的规定。</span></p>
+ <ol>
+ <li> 受压构件破坏时，要避免混凝土突然脆性压溃，取决于纵筋的最小配筋率和箍筋的配置。此外，受压构件混凝土受压后由于混凝土徐变，一部分压力将自原由混凝土承受者转移到钢筋；所以，受压钢筋的配筋率较高。美国规范和德国规范对于受压构件的钢筋配筋率分别不小于1%和0.8%，但如设计所取用的混凝土截面面积大于实际需要的截面面积，可按减少后的混凝土实际需要的截面面积的配筋率配筋。《英国规范BS5400》5.8.4.1规定柱内钢筋截面面积<math xmlns="http://www.w3.org/1998/Math/MathML" ><msub><mi>A</mi><mrow><mrow><mi mathvariant="normal">s</mi></mrow></mrow></msub></math>不小于柱截面面积的1%或不小于0.15<i>N</i>/<math xmlns="http://www.w3.org/1998/Math/MathML" ><msub><mi>f</mi><mrow><mrow><mi mathvariant="normal">y</mi></mrow></mrow></msub></math>，(N为极限轴向荷载，<math xmlns="http://www.w3.org/1998/Math/MathML" ><msub><mi>f</mi><mrow><mrow><mi mathvariant="normal">y</mi></mrow></mrow></msub></math>为钢筋屈服强度，如一直径1.5 m柱，<i>N</i>=25000 kN，<math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mi>f</mi><mrow><mrow><mi mathvariant="normal">y</mi></mrow></mrow></msub></math>=335 MPa，<math xmlns="http://www.w3.org/1998/Math/MathML" ><msub><mi>A</mi><mrow><mrow><mi mathvariant="normal">s</mi></mrow></mrow></msub></math>=11194 mm²相当于0.6%），取较小者。由于规定了一些限制条件，国外规范规定的受压构件最小含筋率，实际上也在0.6%上下。在国外规范，轴心受压构件或偏心受压构件统称为受压构件或柱，本规范也同样将轴心受压构件与偏心受压构件列为同一类型，其最小含筋量的规定也相同。《桥规JTJ023-86》规定轴压构件的纵向钢筋最小配筋率为0.4%原规范提高至0.5%，并规定当混凝土强度等级 C50及以上时，属高强度混凝土，提高至0.6%。这里沿用了原规范的规定。</li>
+ <li> 受弯构件的受拉钢筋最小配筋率是根据混凝土开裂的弯矩，与同尺寸的钢筋混凝土梁所能承担的弯矩相等而确定的，其目的是当混凝土受拉边缘出现裂缝时，梁不致因配筋过少而脆性破坏。按上述要求钢筋混凝土构件受拉钢筋最小配筋百分率取为<math xmlns="http://www.w3.org/1998/Math/MathML" ><mn>45</mn><msub><mi>f</mi><mrow><mrow><mi mathvariant="normal">t</mi><mi mathvariant="normal">d</mi></mrow></mrow></msub><mrow><mo>/</mo></mrow><msub><mi>f</mi><mrow><mrow><mi mathvariant="normal">s</mi><mi mathvariant="normal">d</mi></mrow></mrow></msub></math>。</li> 
+ </ol>
+
+ <p style="text-align:justify"><a href="#idt9.1.13"> 9.1.13</a> <span id="idt9.1.13"> 本条公式(9.1.13)对于预应力混凝土受弯构件最小配筋率的要求，其性质与上述钢筋混凝土受弯构件类似，可表达为<math xmlns="http://www.w3.org/1998/Math/MathML" ><msub><mi>M</mi><mrow><mrow><mi mathvariant="normal">u</mi><mi mathvariant="normal">d</mi></mrow></mrow></msub><mo>⩾</mo><msub><mi>M</mi><mrow><mrow><mi mathvariant="normal">c</mi><mi mathvariant="normal">r</mi></mrow></mrow></msub></math>。</span></p>
 
 9.2 板
 ----------------------
@@ -27,72 +139,261 @@
 .. raw:: html
 
  <p style="text-align:justify"><a href="#idt9.2.6"> 9.2.6</a> <span id="idt9.2.6"> 斜板的钢筋布置沿用了原规范的规定，原规范参考了国外相关规范，说明如下</span></p>
+ <ol>
+ <li> 英国规范BS 5400》5.8.10.1要求斜板主钢筋的布置尽量与主弯矩方向接近。</li>
+ <li> 《美国 AASHTO-LRFD规范，1994》C9.7.1.3内说明，当斜交角不大于25°时，整体式斜板主钢筋可以平行于桥纵轴线布置，其影响受力仅及10%《英国规范BS 5400》5.8.10.2指出，整体实心斜板通常将钢筋(受力钢筋和分布钢筋)在垂直于和平行于支承轴线两个方向布置，再在自由边布置一条平行于边缘的钢筋带。</li>
+ <li> 预制单片板是宽跨比小的窄板，其受弯情况接近于跨径为斜长的正交板。《英国规范BS5400》5.8.10.2指出，在大斜交角、小宽跨比情况下，可把钢筋平行于和垂直于自由边布置。</li>
+ <li> 根据沃格特(Vogt)研究，简支斜板在钝角方向有负弯矩，其方向垂直于钝角平分线；根据杭伯格(Hornberg)研究，简支斜板在钝角端支点反力较正交板大数倍。因此，在垂直于钝角平分线设上层钢筋，以承受负弯矩；在平行于钝角平分线设置下层钢筋，以承受板底拉力。</li>   
+ </ol>
+
+
 
 9.3  梁
 ----------------------
 
 .. raw:: html
 
- <p style="text-align:justify"><a href="#idt9.3.1"> 9.3.1</a> <span id="idt9.3.1">  </span></p>
- <p style="text-align:justify"><a href="#idt9.3.2"> 9.3.2</a> <span id="idt9.3.2">  </span></p>
- <p style="text-align:justify"><a href="#idt9.3.3"> 9.3.3</a> <span id="idt9.3.3">  </span></p>
- <p style="text-align:justify"><a href="#idt9.3.4"> 9.3.4</a> <span id="idt9.3.4">  </span></p>
- <p style="text-align:justify"><a href="#idt9.3.5"> 9.3.5</a> <span id="idt9.3.5">  </span></p>
- <p style="text-align:justify"><a href="#idt9.3.6"> 9.3.6</a> <span id="idt9.3.6">  </span></p> 
- <p style="text-align:justify"><a href="#idt9.3.7"> 9.3.7</a> <span id="idt9.3.7">  </span></p>
- <p style="text-align:justify"><a href="#idt9.3.8"> 9.3.8</a> <span id="idt9.3.8">  </span></p>
- <p style="text-align:justify"><a href="#idt9.3.9"> 9.3.9</a> <span id="idt9.3.9">  </span></p>
- <p style="text-align:justify"><a href="#idt9.3.10"> 9.3.10</a> <span id="idt9.3.10">  </span></p>
- <p style="text-align:justify"><a href="#idt9.3.11"> 9.3.11</a> <span id="idt9.3.11">  </span></p>
- <p style="text-align:justify"><a href="#idt9.3.12"> 9.3.12</a> <span id="idt9.3.12">  </span></p>
- <p style="text-align:justify"><a href="#idt9.3.13"> 9.3.13</a> <span id="idt9.3.13">  </span></p>
- <p style="text-align:justify"><a href="#idt9.3.14"> 9.3.14</a> <span id="idt9.3.14">  </span></p>
- <p style="text-align:justify"><a href="#idt9.3.15"> 9.3.15</a> <span id="idt9.3.15">  </span></p>
- <p style="text-align:justify"><a href="#idt9.3.16"> 9.3.16</a> <span id="idt9.3.16">  </span></p>
- <p style="text-align:justify"><a href="#idt9.3.17"> 9.3.17</a> <span id="idt9.3.17">  </span></p>  
+ <p style="text-align:justify"><a href="#idt9.3.1"> 9.3.1</a> <span id="idt9.3.1"> 装配式T梁桥必须设置端横隔梁。根据我国设计图纸，在装配式T梁中，需加设中间横隔梁。《美国 AASHTO规范14版》8.12.2规定T形截面梁计算跨径大于12 m时，应在最大弯矩处设一根中间横隔梁；此项规定与我国目前采用者接近。</span></p>
+ <p style="text-align:justify;text-indent:2em;" > 箱形截面梁必须设置端横隔板；弯箱形截面梁尚应设置中间横隔板。《美国 AASHTO规范14版》8.12.1.8.12.3、9.10.3.3、9.10.3.5等规定内半径小于240 m的弯箱梁应设置中间横隔板，钢筋混凝土弯箱梁中间横隔板中距不大于12 mm,预应力混凝土弯箱梁中间横隔板中距需视结构受力情况而定。</p>
+ <p style="text-align:justify"><a href="#idt9.3.2"> 9.3.2</a> <span id="idt9.3.2"> T形和I形截面梁，在与腹板相连处的翼缘厚度，《桥规JTJ023-85》规定为不小于梁高的1/12,其值与现行设计图纸较为偏小，现参考《铁路桥涵技术规范》TBJ2-85(以下简称《TBJ2-85规范》)第5.3.15条，改为不小于梁高的1/10,当设有承托时，可计入承托加厚部分厚度。</span></p>
+ <p style="text-align:justify;text-indent:2em;" > 箱形截面梁的桥面板和底板，在板的跨中部分厚度不应小于板净跨的1/30且200 mm；经与国内17座矩形截面箱形梁尺寸对照，多数较为接近。《美国 AASHTO规范14版》9.9.1、9.9.2也有类似的规定。</p>
+ <p style="text-align:justify;text-indent:2em;" > 原规范规定T形、I形截面梁和箱形截面梁的腹板厚度不应小于140 mm，在本次修订时，要求腹板厚度不应小于160 mm。当腹板厚度有变化时，其过渡段长度不小于12倍腹板厚度差，系参照《美国 AASHTO规范14版》8.11.3及9.9.3 规定。</p> 
+ <p style="text-align:justify;text-indent:2em;" > 连续梁承托底坡不宜大于1/6,以避免截面过剧变化。</p>  
+ <p style="text-align:justify"><a href="#idt9.3.3"> 9.3.3</a> <span id="idt9.3.3"> 钢筋最小净距系沿用《桥规JTJ023-85》第6.2.12规定。</span></p>
+ <p style="text-align:justify"><a href="#idt9.3.4"> 9.3.4</a> <span id="idt9.3.4"> 悬臂板长度较大时，在车轮作用点下方可能出现正弯矩，参阅本规范<a href="https://jtg-3362.readthedocs.io/zh/latest/t04html/twsm/t04.html#idt4.2.5">第4.2.5条</a>条文说明。</span></p>
+ <p style="text-align:justify"><a href="#idt9.3.5"> 9.3.5</a> <span id="idt9.3.5"> 箱形截面梁的底板钢筋，《桥规 JTJ023-85》仅对预应力混凝土结构有所规定(第6.2.36条),顺桥向和横桥向均设不小于0.25% ~ 0.30%凝土截面面积的钢筋。原规范参考《美国 AASHTO规范14版》8.17.2.3、9.2.4等规定，对于钢筋混凝土桥，配置不小于0.4%混凝土截面面积的钢筋，对于预应力混凝土桥，配置不小于 0.3%混凝土截面面积的钢筋，本次修订沿用了原规范的规定。</span></p>
+ <p style="text-align:justify"><a href="#idt9.3.6"> 9.3.6</a> <span id="idt9.3.6"> 钢筋混凝土T形截面或箱形截面梁的翼缘有效宽度以外，受弯时截面应力较小，配置受力主钢筋作用不大，故要求受力主钢筋设于有效宽度内。在有效宽度以外，设置0.4%的构造钢筋，此系参照《美国 AASHTO规范14版》8.17.2.1制定。</span></p> 
+ <p style="text-align:justify"><a href="#idt9.3.7"> 9.3.7</a> <span id="idt9.3.7"> 梁腹板两侧设置纵向构造钢筋，主要用于腹板防裂，特别是腹板受拉区防裂。《桥规JTJ023-85》第6.2.10条规定纵向钢筋截面面积，整体浇筑混凝土梁不小于(0.0005~0.0010)bh；焊接骨架薄壁梁不小于(0.0015~0.0020)<i>bh</i>。据反映腹板两侧裂缝时有发生，侧面钢筋嫌少。本条不再分整体浇筑梁和焊接骨架薄壁梁，两侧面的钢筋截面面积合计取用(0.0010~0.0020)<i>bh</i>,对薄壁梁宜取上限。国外规范均对侧面钢筋较为重视，如《英国规范BS 5400》5.8.4.2规定每侧面至少应设0.0005<i>bh</i><sub>0</sub>的钢筋；《美国 AASHTO规范14版》8.17.2.1.3规定梁高大于610 mm时，受拉区应设10%受拉钢筋截面面积的侧面钢筋，其他侧面每米高度应设264 mm²钢筋。此外，支点附近剪力较大区段和预应力钢筋锚固区段，纵向钢筋有利于防裂，其间距宜适当加密。</span></p>
+ <p style="text-align:justify"><a href="#idt9.3.8"> 9.3.8</a> <span id="idt9.3.8"> 本条参考《GBJ10-89规范》第6.1.5条及汪一骏等主编《混凝土结构》(以下简称《混凝土结构》)8.6.12制定。本条规定主要为充分保证截断钢筋的锚固长度和斜截面受弯承载力。</span></p>
+ <p style="text-align:justify"><a href="#idt9.3.9"> 9.3.9</a> <span id="idt9.3.9"> 在梁支承部位，由于支座反力局部荷载在梁底面引起复杂的应力；为增强支座附近斜截面抗弯和斜截面抗剪能力以及抵抗梁底面拉应力，受拉主钢筋至少有1/5或两根伸入梁的支座部位。本条系沿用《桥规JTJ023-85》第6.2.13条规定。</span></p>
+ <p style="text-align:justify"><a href="#idt9.3.10"> 9.3.10</a> <span id="idt9.3.10"> 本条沿用《桥规 JTJ023-85》第6.2.17条，并参考了《GBJ 10-89规范》第 7.2.5条和《混凝土结构》8.7 制定。本条主要为保证斜截面抗弯承载力不小于正截面抗弯承载力。</span></p>
+ <p style="text-align:justify"><a href="#idt9.3.11"> 9.3.11</a> <span id="idt9.3.11"> 本条系沿用《桥规 JTJ023-85》第6.2.14条规定，但对焊接钢筋骨架的钢筋层数和直径加以限制。</span></p>
+ <p style="text-align:justify"><a href="#idt9.3.12"> 9.3.12</a> <span id="idt9.3.12"> 混凝土在出现斜裂缝前，主拉应力主要由混凝土承受，箍筋内应力很小，但当裂缝一经出现，箍筋内应力骤增，箍筋过少不足以抵抗由开裂截面转移过来的斜拉应力，因此有必要规定最小箍筋配筋率。本规范参照美国 ACI318-05 规范，最小箍筋配筋率取<math xmlns="http://www.w3.org/1998/Math/MathML" ><mn>1.2</mn><mstyle displaystyle="true" scriptlevel="0"><mfrac><mn>0.35</mn><msub><mi>f</mi><mrow><mrow><mi mathvariant="normal">s</mi><mi mathvariant="normal">v</mi></mrow></mrow></msub></mfrac></mstyle></math>, 以此规定箍筋配筋率<math xmlns="http://www.w3.org/1998/Math/MathML" ><msub><mi>ρ</mi><mrow><mrow><mi mathvariant="normal">s</mi><mi mathvariant="normal">v</mi></mrow></mrow></msub></math>，对HPB300钢筋不小于0.14对HRB400钢筋不小于0.11%</span></p>
+ <p style="text-align:justify;text-indent:2em;" > 箍筋除用于斜截面抗剪外，如还用于支撑计算受压钢筋使之不受压屈，此时必须做成封闭式，且其布置方式应与受压构件的箍筋一样(见本规范<a href="https://jtg-3362.readthedocs.io/zh/latest/09.html#id9.6.1">第9.6.1条</a>及其说明)。至于所箍为受拉钢筋时，《桥规JTJ023-85》规定箍筋每边所箍受拉钢筋不多于五根，本条内现不作规定，箍筋作为定位钢筋，只要施工安装能保持受拉钢筋的正确位置，其所箍纵向受拉钢筋不受限制。</p>
+ <p style="text-align:justify;text-indent:2em;" > 箍筋间距过大，可能有些斜裂缝在两箍筋间出现而不与箍筋相交，《桥规 JTJ023-85》规定箍筋间距不大于梁高的3/4和500 mm,现参照《美国 AASHTO规范14版》18.19.3和《GB 50010-2002规范》表10.2.10,改为不大于梁高的1/2和400 mm。钢筋绑扎搭接接头范围内，为增强钢筋的锚固力，要求加密箍筋间距。在梁的支点附近，剪力较大，为防止裂缝发展，箍筋应予以加密。</p> 
+ <p style="text-align:justify"><a href="#idt9.3.13"> 9.3.13</a> <span id="idt9.3.13"> 弯剪扭的箍筋最小配筋率应考虑受剪与受扭相互作用的影响。根据《混凝土结构》4.5.2及8.4.2,纯扭构件最小配箍率为<math xmlns="http://www.w3.org/1998/Math/MathML" ><mn>0.055</mn><msub><mi>f</mi><mrow><mrow><mi mathvariant="normal">c</mi><mi mathvariant="normal">d</mi></mrow></mrow></msub><mrow><mo>/</mo></mrow><msub><mi>f</mi><mrow><mrow><mi mathvariant="normal">s</mi><mi mathvariant="normal">v</mi></mrow></mrow></msub></math>；按本规范<a href="https://jtg-3362.readthedocs.io/zh/latest/09.html#id9.3.12">第9.3.12条</a>，受弯构件的抗剪箍筋的最小配筋率为0.11%~0.14%本条内以c概括表达)。弯剪扭构件的配箍率则通过与剪扭构件混凝土承载力降低系数<math xmlns="http://www.w3.org/1998/Math/MathML" ><msub><mi>β</mi><mrow><mrow><mi mathvariant="normal">t</mi></mrow></mrow></msub></math>，(<a href="https://jtg-3362.readthedocs.io/zh/latest/05.html#id5.5.4">第5.5.4条</a>)呈线性关系，在上两者之间确定，其计(2R-D(0.05A-o)+o P=1.0时该式为 算式见本条第 3 款公式<math xmlns="http://www.w3.org/1998/Math/MathML" ><mrow data-mjx-texclass="INNER"><mo data-mjx-texclass="OPEN">[</mo><mo stretchy="false">(</mo><mn>2</mn><msub><mi>β</mi><mrow><mrow><mi mathvariant="normal">t</mi></mrow></mrow></msub><mo>−</mo><mn>1</mn><mo stretchy="false">)</mo><mrow data-mjx-texclass="INNER"><mo data-mjx-texclass="OPEN">(</mo><mn>0.055</mn><mstyle displaystyle="true" scriptlevel="0"><mfrac><msub><mi>f</mi><mrow><mrow><mi mathvariant="normal">c</mi><mi mathvariant="normal">d</mi></mrow></mrow></msub><msub><mi>f</mi><mrow><mrow><mi mathvariant="normal">s</mi><mi mathvariant="normal">v</mi></mrow></mrow></msub></mfrac></mstyle><mo>−</mo><mi>c</mi><mo data-mjx-texclass="CLOSE">)</mo></mrow><mo>+</mo><mi>c</mi><mo data-mjx-texclass="CLOSE">]</mo></mrow></math>当纯扭构件<math xmlns="http://www.w3.org/1998/Math/MathML" ><mn>0.055</mn><msub><mi>f</mi><mrow><mrow><mi mathvariant="normal">c</mi><mi mathvariant="normal">d</mi></mrow></mrow></msub><mrow><mo>/</mo></mrow><msub><mi>f</mi><mrow><mrow><mi mathvariant="normal">s</mi><mi mathvariant="normal">v</mi></mrow></mrow></msub></math>，当受剪构件<math xmlns="http://www.w3.org/1998/Math/MathML" ><msub><mi>β</mi><mrow><mrow><mi mathvariant="normal">t</mi></mrow></mrow></msub></math>=0.5时该式为c。</span></p>
+ <p style="text-align:justify;text-indent:2em;" > 弯剪扭构件的纵向钢筋最小配筋率，不应小于受弯构件纵向受力钢筋的最小配筋率与剪扭构件纵向受力钢筋最小配筋率之和。对受弯构件纵向受力钢筋配筋率按本规范<a href="https://jtg-3362.readthedocs.io/zh/latest/09.html#id9.1.12">第9.1.12条</a>采用。对剪扭构件，参照《混凝土结构》4.5.2与8.4.2和《GBJ10-89规范》第7.2.10条，剪扭构件纵向钢筋最小配筋率取为<math xmlns="http://www.w3.org/1998/Math/MathML" ><mn>0.08</mn><mo stretchy="false">(</mo><mn>2</mn><msub><mi>β</mi><mrow><mrow><mi mathvariant="normal">t</mi></mrow></mrow></msub><mo>−</mo><mn>1</mn><mo stretchy="false">)</mo><msub><mi>f</mi><mrow><mrow><mi mathvariant="normal">c</mi><mi mathvariant="normal">d</mi></mrow></mrow></msub><mrow><mo>/</mo></mrow><msub><mi>f</mi><mrow><mrow><mi mathvariant="normal">s</mi><mi mathvariant="normal">v</mi></mrow></mrow></msub></math>；对于纯扭构件，<math xmlns="http://www.w3.org/1998/Math/MathML" ><msub><mi>β</mi><mrow><mrow><mi mathvariant="normal">t</mi></mrow></mrow></msub></math>=1.0,此时最小配筋率为<math xmlns="http://www.w3.org/1998/Math/MathML" ><mn>0.08</mn><msub><mi>f</mi><mrow><mrow><mi mathvariant="normal">c</mi><mi mathvariant="normal">d</mi></mrow></mrow></msub><mrow><mo>/</mo></mrow><msub><mi>f</mi><mrow><mrow><mi mathvariant="normal">s</mi><mi mathvariant="normal">v</mi></mrow></mrow></msub></math>，对于纯剪构件，<math xmlns="http://www.w3.org/1998/Math/MathML" ><msub><mi>β</mi><mrow><mrow><mi mathvariant="normal">t</mi></mrow></mrow></msub></math>=0.5,此时最小配筋率为零。</p> 
+ <p style="text-align:justify"><a href="#idt9.3.14"> 9.3.14</a> <span id="idt9.3.14"> 具有曲线形的梁腹，受拉区的纵向受力钢筋在拉力作用下有向下变位的趋势，使混凝土保护层剥落，因此在曲线部分要加密箍筋。设于拐角处的受拉钢筋，其受力情况与上述梁腹近凹面处的受拉钢筋类似，此时可把交叉的受拉钢筋在相交点各延伸一段锚固长度。</span></p>
+ <p style="text-align:justify;text-indent:2em;" > 设梁腹圆曲线半径为<math xmlns="http://www.w3.org/1998/Math/MathML" ><mi>r</mi></math>，曲线部分主钢筋拉力为<math xmlns="http://www.w3.org/1998/Math/MathML" ><mi>F</mi></math>，则曲线单位弧长上的圆心方向径向压力为<math xmlns="http://www.w3.org/1998/Math/MathML" ><mi>u</mi><mo>=</mo><mi>F</mi><mrow><mo>/</mo></mrow><mi>r</mi></math>，弧长<math xmlns="http://www.w3.org/1998/Math/MathML" ><msub><mi>s</mi><mrow><mrow><mi mathvariant="normal">v</mi></mrow></mrow></msub></math>(箍筋间距)内的径向压力为<math xmlns="http://www.w3.org/1998/Math/MathML" ><msub><mi>F</mi><mrow><mrow><mi mathvariant="normal">c</mi></mrow></mrow></msub><mo>=</mo><mi>u</mi><mi>s</mi><mo>=</mo><mo stretchy="false">(</mo><mi>F</mi><mrow><mo>/</mo></mrow><mi>r</mi><mo stretchy="false">)</mo><msub><mi>s</mi><mrow><mrow><mi mathvariant="normal">v</mi></mrow></mrow></msub></math>。如主钢筋截面面积为<math xmlns="http://www.w3.org/1998/Math/MathML" ><msub><mi>A</mi><mrow><mrow><mi mathvariant="normal">s</mi></mrow></mrow></msub></math>，抗拉强度设计值为<math xmlns="http://www.w3.org/1998/Math/MathML" ><msub><mi>f</mi><mrow><mrow><mi mathvariant="normal">sd</mi></mrow></mrow></msub></math>，则钢筋拉力 <math xmlns="http://www.w3.org/1998/Math/MathML" ><mi>F</mi><mo>=</mo><msub><mi>f</mi><mrow><mrow><mi mathvariant="normal">s</mi><mi mathvariant="normal">d</mi></mrow></mrow></msub><msub><mi>A</mi><mrow><mrow><mi mathvariant="normal">s</mi></mrow></mrow></msub></math>；将<math xmlns="http://www.w3.org/1998/Math/MathML" ><mi>r</mi></math>值代入<math xmlns="http://www.w3.org/1998/Math/MathML" ><msub><mi>F</mi><mrow><mrow><mi mathvariant="normal">c</mi></mrow></mrow></msub></math>的计算式，得<math xmlns="http://www.w3.org/1998/Math/MathML" ><msub><mi>F</mi><mrow><mrow><mi mathvariant="normal">c</mi></mrow></mrow></msub><mo>=</mo><msub><mi>f</mi><mrow><mrow><mi mathvariant="normal">s</mi><mi mathvariant="normal">d</mi></mrow></mrow></msub><msub><mi>A</mi><mrow><mrow><mi mathvariant="normal">s</mi></mrow></mrow></msub><msub><mi>s</mi><mrow><mrow><mi mathvariant="normal">v</mi></mrow></mrow></msub><mrow><mo>/</mo></mrow><mi>r</mi></math>。设箍筋单肢截面面积为<math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mi>A</mi><mrow><mrow><mi mathvariant="normal">s</mi><mi mathvariant="normal">v</mi><mn>1</mn></mrow></mrow></msub></math>；箍筋抗拉强度设计值为<math xmlns="http://www.w3.org/1998/Math/MathML" ><msub><mi>f</mi><mrow><mrow><mi mathvariant="normal">s</mi><mi mathvariant="normal">v</mi></mrow></mrow></msub></math>，双肢箍筋抗拉力<math xmlns="http://www.w3.org/1998/Math/MathML" ><msub><mi>F</mi><mrow><mrow><mi mathvariant="normal">r</mi></mrow></mrow></msub><mo>=</mo><mn>2</mn><msub><mi>f</mi><mrow><mrow><mi mathvariant="normal">s</mi><mi mathvariant="normal">v</mi></mrow></mrow></msub><msub><mi>A</mi><mrow><mrow><mi mathvariant="normal">s</mi><mi mathvariant="normal">v</mi><mn>1</mn></mrow></mrow></msub></math>。双肢箍筋应与其所箍的主钢筋拉力引起的径向压力平衡，令<math xmlns="http://www.w3.org/1998/Math/MathML" ><msub><mi>F</mi><mrow><mrow><mi mathvariant="normal">r</mi></mrow></mrow></msub></math>=<math xmlns="http://www.w3.org/1998/Math/MathML" ><msub><mi>F</mi><mrow><mrow><mi mathvariant="normal">c</mi></mrow></mrow></msub></math>，可得<math xmlns="http://www.w3.org/1998/Math/MathML" ><msub><mi>A</mi><mrow><mrow><mi mathvariant="normal">s</mi><mi mathvariant="normal">v</mi><mn>1</mn></mrow></mrow></msub><mo>=</mo><mo stretchy="false">(</mo><msub><mi>f</mi><mrow><mrow><mi mathvariant="normal">s</mi><mi mathvariant="normal">d</mi></mrow></mrow></msub><mrow><mo>/</mo></mrow><msub><mi>f</mi><mrow><mrow><mi mathvariant="normal">s</mi><mi mathvariant="normal">v</mi></mrow></mrow></msub><mo stretchy="false">)</mo><mo>×</mo><mo stretchy="false">(</mo><msub><mi>A</mi><mrow><mrow><mi mathvariant="normal">s</mi></mrow></mrow></msub><msub><mi>s</mi><mrow><mrow><mi mathvariant="normal">v</mi></mrow></mrow></msub><mrow><mo>/</mo></mrow><mn>2</mn><mi>r</mi><mo stretchy="false">)</mo><mo>=</mo><mi>m</mi><mo stretchy="false">(</mo><msub><mi>A</mi><mrow><mrow><mi mathvariant="normal">s</mi></mrow></mrow></msub><msub><mi>s</mi><mrow><mrow><mi mathvariant="normal">v</mi></mrow></mrow></msub><mrow><mo>/</mo></mrow><mn>2</mn><mi>r</mi><mo stretchy="false">)</mo></math>，其中<math xmlns="http://www.w3.org/1998/Math/MathML" ><mi>m</mi><mo>=</mo><msub><mi>f</mi><mrow><mrow><mi mathvariant="normal">s</mi><mi mathvariant="normal">d</mi></mrow></mrow></msub><mrow><mo>/</mo></mrow><msub><mi>f</mi><mrow><mrow><mi mathvariant="normal">s</mi><mi mathvariant="normal">v</mi></mrow></mrow></msub></math>，便得规范公式(9.3.14-1)。规范公式(9.3.14-2)为圆曲线公式，当非圆曲线时，也可近似地利用该式。</p>
+ <p style="text-align:justify"><a href="#idt9.3.15"> 9.3.15</a> <span id="idt9.3.15"> 环形搭接用于T形截面梁桥面板横桥向连接已有多年，且用于通用设计图。环形接头所有钢筋在同一截面上有100%接接头，搭接长度(两个半圆环顶端距离)仅20倍钢筋直径左右，而且相邻两梁翼缘连接段内有两个距离很近的搭接接头，这就要求采取一定的加强接头的措施，可在半圆环内设置通长纵向钢筋。此外，连接段内的桥面板厚度，应满足钢筋的混凝土保护层和圆环直径的需要，不宜取用较小的尺寸。</span></p>
+ <p style="text-align:justify"><a href="#idt9.3.16"> 9.3.16</a> <span id="idt9.3.16"> 本条沿用《桥规 JTJ023-85》第6.2.31条的规定，组合梁现浇板最小厚度参照已建桥制定。参照《GBJ10-89规范》第7.5.17条，预制件顶面应做凹凸不小于6 mm的粗糙面。</span></p>
+ <p style="text-align:justify"><a href="#idt9.3.17"> 9.3.17</a> <span id="idt9.3.17"> 组合梁的结合面受剪承载力，当结合面配筋率低于0.10%，箍筋对结合面不起作用(见《混凝土结构》9.2.3)。《英国规范BS 5400》7.4.2.3规定，组合梁内梁与板之间应设有0.15%结合面积的结合系筋，其间距不小于板厚的四倍，且不小于600 mm。</span></p>  
 
 9.4  预应力混凝土上部结构
 -------------------------------
 
 .. raw:: html
 
- <p style="text-align:justify"><a href="#idt9.4.1"> 9.4.1</a> <span id="idt9.4.1">  </span></p>
- <p style="text-align:justify"><a href="#idt9.4.3"> 9.4.3</a> <span id="idt9.4.3">  </span></p>
- <p style="text-align:justify"><a href="#idt9.4.4"> 9.4.4</a> <span id="idt9.4.4">  </span></p>
- <p style="text-align:justify"><a href="#idt9.4.5"> 9.4.5</a> <span id="idt9.4.5">  </span></p>
- <p style="text-align:justify"><a href="#idt9.4.6"> 9.4.6</a> <span id="idt9.4.6">  </span></p> 
- <p style="text-align:justify"><a href="#idt9.4.7"> 9.4.7</a> <span id="idt9.4.7">  </span></p>
- <p style="text-align:justify"><a href="#idt9.4.8"> 9.4.8</a> <span id="idt9.4.8">  </span></p>
- <p style="text-align:justify"><a href="#idt9.4.10"> 9.4.10</a> <span id="idt9.4.10">  </span></p>
- <p style="text-align:justify"><a href="#idt9.4.11"> 9.4.11</a> <span id="idt9.4.11">  </span></p>
- <p style="text-align:justify"><a href="#idt9.4.14"> 9.4.14</a> <span id="idt9.4.14">  </span></p>
- <p style="text-align:justify"><a href="#idt9.4.15"> 9.4.15</a> <span id="idt9.4.15">  </span></p>
- <p style="text-align:justify"><a href="#idt9.4.16"> 9.4.16</a> <span id="idt9.4.16">  </span></p>
- <p style="text-align:justify"><a href="#idt9.4.17"> 9.4.17</a> <span id="idt9.4.17">  </span></p>  
- <p style="text-align:justify"><a href="#idt9.4.18"> 9.4.18</a> <span id="idt9.4.18">  </span></p>  
- <p style="text-align:justify"><a href="#idt9.4.19"> 9.4.19</a> <span id="idt9.4.19">  </span></p>  
- <p style="text-align:justify"><a href="#idt9.4.20"> 9.4.20</a> <span id="idt9.4.20">  </span></p>  
- <p style="text-align:justify"><a href="#idt9.4.24"> 9.4.24</a> <span id="idt9.4.24">  </span></p>  
- <p style="text-align:justify"><a href="#idt9.4.25"> 9.4.25</a> <span id="idt9.4.25"> ~<a href="#idt9.4.27"> 9.4.27</a> <span id="idt9.4.27">  </span></p>    
+ <p style="text-align:justify"><a href="#idt9.4.1"> 9.4.1</a> <span id="idt9.4.1"> 预应力梁的梁端锚头集中，应力复杂，故要求加密箍筋。T 形截面梁的马蹄内，预应力钢筋密集，张拉时相当于受压构件，故马蹄内应另设箍筋。在梁支座中心附近，剪力较大且锚固区有拉应力，故箍筋应加密。</span></p>
+ <p style="text-align:justify;text-indent:2em;" > 预应力混凝土梁的端部在张拉与成桥各阶段的受力十分复杂，其箍筋直径和间距，除了应同时满足斜截面抗剪承载力验算(<a href="https://jtg-3362.readthedocs.io/zh/latest/05.html#id5.2.9">第5.2.9条</a>)和锚下劈裂力配筋验算(<a href="https://jtg-3362.readthedocs.io/zh/latest/08.html#id8.2.1">第8.2.1条</a>与<a href="https://jtg-3362.readthedocs.io/zh/latest/08.html#id8.2.2">第8.2.2条</a>)的规定外，本条还规定在梁端1倍梁高范围内，箍筋间距不应大于120 mm。《桥规JTG D62-2004》规定梁端箍筋的间距不应大于100 mm,此次将箍筋间距增大20 mm,主要是考虑到梁端钢筋一般比较密集，结合工程实践，适当增大箍筋间距，有利于混凝土的浇筑振捣密实。</p>  
+ <p style="text-align:justify"><a href="#idt9.4.3"> 9.4.3</a> <span id="idt9.4.3"> 本条根据<a href="https://jtg-3362.readthedocs.io/zh/latest/03.html#id3.2.2">第3.2.2条</a>规定作了调整。光面剪力钢丝与混凝土粘结力较差，据建筑科学院试验资料，构件的破坏均由于钢丝滑移而引起，钢丝强度未发挥，配以直径 5 mm、标准强度 1100 MPa的光圆钢丝受弯构件，破坏弯矩仅及设计值的 40%~50%；以直径3 mm、标准强度1600 MPa的光圆钢丝受弯构件，破坏弯矩为设计值的90所以光圆钢丝应采用压痕措施加强黏结力。</span></p>
+ <p style="text-align:justify"><a href="#idt9.4.4"> 9.4.4</a> <span id="idt9.4.4"> 本条沿用了原规范，并根据<a href="https://jtg-3362.readthedocs.io/zh/latest/03.html#id3.2.2">第3.2.2条</a>规定作了相应调整。</span></p>
+ <p style="text-align:justify"><a href="#idt9.4.5"> 9.4.5</a> <span id="idt9.4.5"> 为了使预应力钢筋放松时引起的冲击不致破坏端部混凝土，钢筋端部周围混凝土应局部加强。本条沿用了原规范的规定。</span></p>
+ <p style="text-align:justify"><a href="#idt9.4.6"> 9.4.6</a> <span id="idt9.4.6"> 现有锚具基本采用带喇叭管的锚垫板，因此取消了垫板厚度要求的规定。</span></p> 
+ <p style="text-align:justify"><a href="#idt9.4.7"> 9.4.7</a> <span id="idt9.4.7"> 本条沿用了原规范的规定。当预应力钢筋集中布置在端部截面的下部或同时布置于上部和下部时，预加力在梁端部产生的垂直于梁长方向的拉应力，使构件端部产生纵向裂缝，因此要求将部分预应力钢筋弯起后尽可能沿端部高度均匀布置。根据国外试验资料，锚下拉应力一般分布在梁端沿跨径方向3/4梁高长度的区段内；另根据铁路部门调查，在梁端出现沿管道的纵向裂缝；因此均需要加密梁端箍筋(见<a href="https://jtg-3362.readthedocs.io/zh/latest/09.html#id9.4.1">第9.4.1条</a>)和增设钢筋网。此外，在梁端部适当加厚腹板厚度，也是防止梁端纵向裂缝的有效措施。</span></p>
+ <p style="text-align:justify"><a href="#idt9.4.8"> 9.4.8</a> <span id="idt9.4.8"> 对于曲线形管道，如直梁竖曲线钢筋、弯梁钢筋和加厚齿板钢筋等的管道，其曲线平面内侧受曲线预应力钢筋的挤压，混凝土保护层在曲线平面内和平面外均受剪，所以梁底面保护层和侧面保护层均需加厚或设拉筋。参照《美国 AASHTO-LRFD规范》5.10.4.3.1和5.10.4.3.2，曲线平面内剪力<i>F</i><sub>in</sub>、平面外剪力<i>F</i><sub>out</sub>和抗剪力<i>V</i><sub>c</sub>(单位均为N/mm)为：</span></p>
+ 
+$$ F_{\\mathrm{in} }=P/r\\leqslant V_{\\mathrm{c} }\\tag{9-2}$$
+$$ F_{\\mathrm{out} }=P/\\pi r\\leqslant V_{\\mathrm{c} }\\tag{9-3}$$
+$$ V_{\\mathrm{c} }=0.33\\phi d_{\\mathrm{c} }\\sqrt{f_{\\mathrm{ci} }^{'}}\\tag{9-4}$$
 
+.. raw:: html
 
+ <table border="0" style="font-family:times new roman" id="gongshi">
+ <tr>
+ <td width="50px" align='center' id="eqzs">式中:</td>
+ <td width="50px" align='right' id="eqzs"><math xmlns="http://www.w3.org/1998/Math/MathML" ><mi>ϕ</mi></math></td>
+ <td width="40px" align='left' id="eqzs">——</td>
+ <td id="eqzs">材料抗剪系数，<math xmlns="http://www.w3.org/1998/Math/MathML" ><mi>ϕ</mi></math>=0.9;</td>
+ </tr>
+ <tr>
+ <td id="eqzs"> </td>
+ <td id="eqzs" align='right'><i>P</i></td>
+ <td id="eqzs">——</td>
+ <td id="eqzs">预应力钢筋张拉力(N);</td>
+ </tr>
+ <tr>
+ <td id="eqzs"> </td>
+ <td id="eqzs" align='right'><i>f '</i><sub>ci</sub></td>
+ <td id="eqzs">——</td>
+ <td id="eqzs">预应力钢筋传力锚固时的混凝土圆柱体(<math xmlns="http://www.w3.org/1998/Math/MathML" ><mi>ϕ</mi></math>150 mm×300 mm)抗压强度(MPa);</td>
+ </tr>
+ <tr>
+ <td id="eqzs"> </td>
+ <td id="eqzs" align='right'><i>d</i><sub>c</sub></td>
+ <td id="eqzs">——</td>
+ <td id="eqzs">管道中心至曲线平面内或平面外混凝土保护层的距离(mm)。</td>
+ </tr>  
+  </table>
+ <p></p> 
+  
+ <p style="text-align:justify;text-indent:2em;" > 同一混凝土制成的边长为150 mm 的立方体强度与圆柱体强度比值为1/0.8。如传力锚固时的混凝土立方体强度为<math xmlns="http://www.w3.org/1998/Math/MathML" ><msubsup><mi>f</mi><mrow><mrow><mi mathvariant="normal">c</mi><mi mathvariant="normal">u</mi></mrow></mrow><mrow><msup><mi></mi><mo>′</mo></msup></mrow></msubsup></math>，则应以<math xmlns="http://www.w3.org/1998/Math/MathML" ><mn>0.8</mn><msubsup><mi>f</mi><mrow><mrow><mi mathvariant="normal">c</mi><mi mathvariant="normal">u</mi></mrow></mrow><mrow><msup><mi></mi><mo>′</mo></msup></mrow></msubsup><mo>=</mo><msubsup><mi>f</mi><mrow><mrow><mi mathvariant="normal">c</mi><mi mathvariant="normal">i</mi></mrow></mrow><mrow><msup><mi></mi><mo>′</mo></msup></mrow></msubsup></math>代入(9-4)，抗剪值便为<math xmlns="http://www.w3.org/1998/Math/MathML" ><msub><mi>V</mi><mrow><mrow><mi mathvariant="normal">c</mi></mrow></mrow></msub><mo>=</mo><mn>0.33</mn><mo>×</mo><mn>0.9</mn><msub><mi>d</mi><mrow><mrow><mi mathvariant="normal">c</mi></mrow></mrow></msub><msqrt><mn>0.8</mn><msubsup><mi>f</mi><mrow><mrow><mi mathvariant="normal">c</mi><mi mathvariant="normal">u</mi></mrow></mrow><mrow><msup><mi></mi><mo>′</mo></msup></mrow></msubsup></msqrt><mo>=</mo><mn>0.266</mn><msub><mi>d</mi><mrow><mrow><mi mathvariant="normal">c</mi></mrow></mrow></msub><msqrt><msubsup><mi>f</mi><mrow><mrow><mi mathvariant="normal">c</mi><mi mathvariant="normal">u</mi></mrow></mrow><mrow><msup><mi></mi><mo>′</mo></msup></mrow></msubsup></msqrt></math>。<math xmlns="http://www.w3.org/1998/Math/MathML" ><msub><mi>d</mi><mrow><mrow><mi mathvariant="normal">c</mi></mrow></mrow></msub></math>为混凝土保护层厚度<math xmlns="http://www.w3.org/1998/Math/MathML" ><msub><mi>c</mi><mrow><mrow><mi mathvariant="normal">in</mi></mrow></mrow></msub></math>或<math xmlns="http://www.w3.org/1998/Math/MathML" ><msub><mi>c</mi><mrow><mrow><mi mathvariant="normal">out</mi></mrow></mrow></msub></math>加管道外缘半径<math xmlns="http://www.w3.org/1998/Math/MathML" d><msub><mi>d</mi><mrow><mrow><mi mathvariant="normal">s</mi></mrow></mrow></msub><mrow><mo>/</mo></mrow><mn>2</mn></math>，将其代入公式(9-4)并引入公式(9-2)、(9-3)，便得本条文内公式(9.4.8-1)、(9.4.8-3)。</p>  
+ <p style="text-align:justify;text-indent:2em;" > 预应力钢筋张拉力为<i>P</i>，则曲线单位弧长上的径向压力<math xmlns="http://www.w3.org/1998/Math/MathML" ><mi>u</mi><mo>=</mo><mi>P</mi><mrow><mo>/</mo></mrow><mi>r</mi></math>，弧长<math xmlns="http://www.w3.org/1998/Math/MathML" ><msub><mi>s</mi><mrow><mrow><mi mathvariant="normal">v</mi></mrow></mrow></msub></math>(箍筋间距)的径向压力为<math xmlns="http://www.w3.org/1998/Math/MathML" ><msub><mi>F</mi><mrow><mi>c</mi></mrow></msub><mo>=</mo><mi>u</mi><msub><mi>s</mi><mrow><mrow><mi mathvariant="normal">v</mi></mrow></mrow></msub><mo>=</mo><mo stretchy="false">(</mo><mi>p</mi><mrow><mo>/</mo></mrow><mi>r</mi><mo stretchy="false">)</mo><msub><mi>s</mi><mrow><mrow><mi mathvariant="normal">v</mi></mrow></mrow></msub></math>。如箍筋单肢截面面积为<math xmlns="http://www.w3.org/1998/Math/MathML" ><msub><mi>A</mi><mrow><mrow><mi mathvariant="normal">s</mi><mi mathvariant="normal">v</mi><mn>1</mn></mrow></mrow></msub></math>，双肢箍筋的抗拉力为<math xmlns="http://www.w3.org/1998/Math/MathML" ><msub><mi>F</mi><mrow><mi>r</mi></mrow></msub><mo>=</mo><mn>2</mn><msub><mi>f</mi><mrow><mrow><mi mathvariant="normal">s</mi><mi mathvariant="normal">d</mi></mrow></mrow></msub><msub><mi>A</mi><mrow><mrow><mi mathvariant="normal">s</mi><mi mathvariant="normal">v</mi><mn>1</mn></mrow></mrow></msub></math>，令<math xmlns="http://www.w3.org/1998/Math/MathML" ><msub><mi>F</mi><mrow><mi>c</mi></mrow></msub><mo>=</mo><msub><mi>F</mi><mrow><mi>r</mi></mrow></msub></math>，便得规范公式(9.4.8-2)。</p>
+
+ <p style="text-align:justify"><a href="#idt9.4.10"> 9.4.10</a> <span id="idt9.4.10"> 本条沿用了原规范的规定。曲线形预应力钢筋，如曲线半径过小，张拉时引起较大的管道摩擦力及径向压力。对于特殊的管道和预应力钢筋，如斜拉桥桥塔内围箍用的半圆形预应力钢筋，其半径在1.5 mm左右，由于采用特殊措施，可以不受此限。</span></p>
+
+  <div align="center"><img id="figt9.1" src="../_static/fig/T9.1.png" alt="Picture" width="400px"></div>
+  <p style="color: dimgray;text-align: center;">图 9-1 钢束的最小断裂负荷与<i>R</i><sub>min</sub>、<i>L</i><sub>min</sub>的关系曲线</p>
+  <script type="text/javascript">var viewer = new Viewer(document.getElementById('figt9.1'));</script> 
+
+ <p style="text-align:justify"><a href="#idt9.4.11"> 9.4.11</a> <span id="idt9.4.11"> 参照VSL产品标准，补充了预应力钢筋的最小切线长度。由于构造和受力要求，钢丝束、钢绞线束采用夹片式锚具时，不允许钢束的曲线部分进入锚固区段，即要求锚下钢束应具有一定的直线段长度。<a href="#figt9.1">图9-1</a>给出了不同最小断裂负荷时对应的最小直线段长度<i>L</i><sub>min</sub>，供设计人员参考。</span></p>
+ <p style="text-align:justify"><a href="#idt9.4.14"> 9.4.14</a> <span id="idt9.4.14"> 本条沿用了原规范的规定。预应力钢筋的预拉应力摩擦损失，除偏离线形外，主要是曲线管道与预应力钢筋间的摩擦损失。为减少摩擦损失，要求预应力钢筋减少整根通长的连续弯曲和加大曲线半径。在预应力钢筋设置时通常采用两种方式来达到上述目的，一种方式是预应力钢筋逐段张拉、锚固、接长，再张拉、锚固、接长，接长方法有直接用连接器接长和逐段锚固、逐段搭接；另一种方式是采用变化的梁高，使整根曲线钢筋曲率减小。这两种方式也可结合使用，使预应力钢筋的设置更趋合理。</span></p>
+
+ <p style="text-align:justify"><a href="#idt9.4.15"> 9.4.15</a> <span id="idt9.4.15"> 本条沿用了原规范的规定。预应力钢筋在梁内布置应避免急剧增减，以免在同一截面内设锚过多而削弱截面，同时也避免由于预应力突变在腹板内引起过大的剪应力或主拉应力的变化。</span></p>
+ <p style="text-align:justify;text-indent:2em;" > 在连续梁的1/4～1/3跨径区段，活载作用下正负弯矩交替出现。顶推连续梁施工顶推阶段，大部分截面交替出现正负弯矩。在上述情况下，预应力钢筋宜分散布置于梁的腹板上下及其相邻翼缘上，使正负弯矩都有预应力钢筋承受。</p>
+ <p style="text-align:justify;text-indent:2em;" > 在连续梁中间支撑处，反力集中，应力状态复杂。支点反力在梁腹板底部引起纵向水平拉应力。所以在中间支点附近梁腹板内及其下方的翼缘内应布置顺桥向非预应力钢筋。</p> 
+ <p style="text-align:justify"><a href="#idt9.4.16"> 9.4.16</a> <span id="idt9.4.16"> 本条沿用了原规范的条制定。在预压力作用下，锚具周围混凝土表层 有拉应力；锚下的扩散角范围内混凝土受压力，但在此范围内沿传力方向还有一个枣核形的拉力区。这说明锚具周围表层及锚下混凝土内应力复杂，所以在构件受拉区不宜设置锚具，而宜设于截面重心处或受压区。</span></p>
+ <p style="text-align:justify;text-indent:2em;" > 预应力钢筋伸出于板外锚固时，锚固齿板内拉筋设置可参阅<a href="https://jtg-3362.readthedocs.io/zh/latest/09.html#id9.4.8">第9.4.8条</a>。</p> 
+ <p style="text-align:justify"><a href="#idt9.4.17"> 9.4.17</a> <span id="idt9.4.17"> 节段预制拼装桥梁在越江跨海通道和城市桥梁中广泛应用(如<a href="#Bt9.2">表69-2</a>),体现综合效益好的特点，符合现代桥梁工厂化、大型化、机械化、标准化的发展趋势。根据已建节段预制拼装桥梁的结构特点，规定本条的构造要求。</span></p>  
+  <style>
+     #biaoge {
+         border: 2px solid black;
+         border-collapse: collapse;
+         margin-bottom:1px;
+        
+      }
+      th, td {
+         padding-top: 5px;
+         padding-bottom:5px;
+         padding-left:5px;
+         padding-right:5px;
+         border: 1px solid black;
+         
+      }
+      #eqzs {
+         border: 0px;
+      }
+      #dhbg {
+        vertical-align: middle;
+      }
+     </style>
+
+		<table id="biaoge" style="font-family:times new roman">
+
+         <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="Bt9.2">表9-2 我国节段预制拼装桥梁一览表</b></caption>	
+              
+		    <tr>
+        <td  align="center" width="50px"  id="dhbg">序号</td>
+        <td  align="center" width="200px" id="dhbg">桥梁</td> 
+        <td  align="center" width="100px" id="dhbg">建成时间</td> 
+        <td  align="center" width="100px" id="dhbg">路径（m）</td> 
+        <td  align="center" width="50px"  id="dhbg">序号</td>
+        <td  align="center" width="200px" id="dhbg">桥梁</td> 
+        <td  align="center" width="100px" id="dhbg">建成时间</td> 
+        <td  align="center" width="100px" id="dhbg">路径（m）</td> 
+		    </tr>
+		    <tr>
+			  <td align="center"  id="dhbg"> 1</td>  
+        <td align="center"  id="dhbg"> 上海浏河大桥</td>  
+        <td align="center"  id="dhbg"> 2000</td> 
+        <td align="center"  id="dhbg"> 42</td>  
+        <td align="center"  id="dhbg"> 6</td>  
+        <td align="center"  id="dhbg"> 江苏崇启大桥引桥</td> 
+        <td align="center"  id="dhbg"> 2011</td>  
+        <td align="center"  id="dhbg"> 50</td> 
+		    </tr>
+		    <tr>
+			  <td align="center"  id="dhbg"> 2</td>  
+        <td align="center"  id="dhbg"> 上海沪闵高架</td>  
+        <td align="center"  id="dhbg"> 2002</td> 
+        <td align="center"  id="dhbg"> 35</td>  
+        <td align="center"  id="dhbg"> 7</td>  
+        <td align="center"  id="dhbg"> 南京四桥引桥</td> 
+        <td align="center"  id="dhbg"> 2012</td>  
+        <td align="center"  id="dhbg"> 50</td> 
+		    </tr> 
+		    <tr>
+			  <td align="center"  id="dhbg"> 3</td>  
+        <td align="center"  id="dhbg"> 苏通大桥引桥</td>  
+        <td align="center"  id="dhbg"> 2008</td> 
+        <td align="center"  id="dhbg"> 75</td>  
+        <td align="center"  id="dhbg"> 8</td>  
+        <td align="center"  id="dhbg"> 厦漳大桥引桥</td> 
+        <td align="center"  id="dhbg"> 2013</td>  
+        <td align="center"  id="dhbg"> 70</td> 
+		    </tr> 
+		    <tr>
+			  <td align="center"  id="dhbg"> 4</td>  
+        <td align="center"  id="dhbg"> 厦门集美大桥</td>  
+        <td align="center"  id="dhbg"> 2008</td> 
+        <td align="center"  id="dhbg"> 100</td>  
+        <td align="center"  id="dhbg"> 9</td>  
+        <td align="center"  id="dhbg"> 嘉绍大桥引桥</td> 
+        <td align="center"  id="dhbg"> 2013</td>  
+        <td align="center"  id="dhbg"> 70</td> 
+		    </tr> 
+		    <tr>
+			  <td align="center"  id="dhbg"> 5</td>  
+        <td align="center"  id="dhbg"> 上海长江大桥引桥</td>  
+        <td align="center"  id="dhbg"> 2009</td> 
+        <td align="center"  id="dhbg"> 60</td>  
+        <td align="center"  id="dhbg">  </td>  
+        <td align="center"  id="dhbg">  </td> 
+        <td align="center"  id="dhbg">  </td>  
+        <td align="center"  id="dhbg">  </td> 
+		    </tr>                                
+		   	</table>
+ <p> </p>
+  <ol>
+ <li> 已建的节段预制拼装箱梁桥基本采用体内-体外混合配束和环氧树脂胶接缝的结构，环氧树脂胶接缝要用0.2 MPa 压应力予以压紧。采用细石混凝土的湿接缝，一般设置在箱梁合拢留出的断缝、或针对拼装误差的调整缝。</li>
+ <li> 复合剪力键的基本构造及功能如下：<br/>1)腹板剪力键：由多个矩形键块(槽)组成，承受正常使用阶段接缝截面的剪力。<br/>2)顶板剪力键：由多个长条形键块(槽)组成，用于节段拼装时对接定位。<br/>3)底板剪力键：由多个长条形键块(槽)组成，用于节段拼装时对接定位。<br/>4)加腋区剪力键：设置在腹板与顶板(底板)结合区，用于节段拼装时对接定位。</li>
+ </ol>
+
+ <p style="text-align:justify"><a href="#idt9.4.18"> 9.4.18</a> <span id="idt9.4.18"> 后张预应力构件的端部锚固区，应在相应区域配置受拉钢筋，以抵抗劈裂力、剥裂力以及边缘纵向拉力，如<a href="#figt9.2">图9-2</a>。</span></p> 
+
+  <div align="center"><img id="figt9.2" src="../_static/fig/T9.2.png" alt="Picture" width="400px"></div>
+  <p style="color: dimgray;text-align: center;">图 9-2 端部锚固区局部拉力与配筋示意</p>
+  <script type="text/javascript">var viewer = new Viewer(document.getElementById('figt9.2'));</script> 
+
+ <p style="text-align:justify"><a href="#idt9.4.19"> 9.4.19</a> <span id="idt9.4.19"> 本条规定了后张预应力锚固齿块的立面构造尺寸要求。从齿块宽度方向看，可以区分为独立齿块、角隅齿块和满布于壁板的齿块。为保证传力的平顺和可靠，一般优先考虑采用在翼板与腹板交接处的角隅齿块。</span></p>  
+ <p style="text-align:justify"><a href="#idt9.4.20"> 9.4.20</a> <span id="idt9.4.20"> 本条是在根据<a href="https://jtg-3362.readthedocs.io/zh/latest/08.html#id8.2.6">第8.2.6条</a>和<a href="https://jtg-3362.readthedocs.io/zh/latest/FLB.html">附录B</a>完成齿块及其附着壁板(即顶板、底板或腹板)局部配筋量计算之后，给出的配筋构造规定。参考了我国的工程实践、美国 AASHTO公路桥梁设计规范、日本混凝土桥梁设计规范、VSL公司后张预应力设计手册及美国德克萨斯大学奥斯汀分校的相关研究成果。</span></p>  
+ <p style="text-align:justify;text-indent:2em;" > 在齿块所附着的壁板内，抵抗锚后牵拉与边缘局部侧弯的纵向钢筋的横向配置范围见<a href="#figt9.3">图9-3</a>。</p>
+
+  <div align="center"><img id="figt9.3" src="../_static/fig/T9.3.png" alt="Picture" width="400px"></div>
+  <p style="color: dimgray;text-align: center;">图 9-3 齿块壁板内纵向加强钢筋的横向配置范围</p>
+  <script type="text/javascript">var viewer = new Viewer(document.getElementById('figt9.3'));</script> 
+
+ <p style="text-align:justify;text-indent:2em;" > 此外，在<a href="https://jtg-3362.readthedocs.io/zh/latest/08.html#fig8.2.6">图8.2.6</a>所示齿块区的五种受拉效应之外，考虑到锚固力在传递至壁板后，还要在壁板宽度方向扩散，宜在齿块前端壁板内配置横向加强钢筋以抵抗劈裂力(如<a href="#figt9.4">图9-4</a>),该位置的纵向裂缝在试验研究和实际工程中均有发现。</p>
+
+  <div align="center"><img id="figt9.4" src="../_static/fig/T9.4.png" alt="Picture" width="400px"></div>
+  <p style="color: dimgray;text-align: center;">图 9-4 锚固力在壁板宽度方向的劈裂效应与配筋</p>
+  <script type="text/javascript">var viewer = new Viewer(document.getElementById('figt9.4'));</script> 
+
+ <p style="text-align:justify"><a href="#idt9.4.24"> 9.4.24</a> <span id="idt9.4.24"> 转向块构造的说明</span></p>
+ <ol>
+ <li> 块式转向构造：用于转向钢束数量较少的情况，或用于转向构造之间钢束的定位。</li>
+ <li> 横肋式转向构造：用于横向转向力较大的情况，或转向构造之间钢束的定位。</li>
+ <li> 竖肋式转向构造：用于竖向转向力较大的情况。</li>
+ <li> 横梁式转向构造：用于横梁位置。 </li>
+ </ol>
+ <p style="text-align:justify"><a href="#idt9.4.25"> 9.4.25</a> <span id="idt9.4.25"> ~<a href="#idt9.4.27"> 9.4.27</a> <span id="idt9.4.27"> 参照已建节段预制拼装桥梁的工程经验制定。体外预应力钢筋在锚固位置、转向构造、定位构造和减震装置之间的自由长度取用8 m以上长度时应根据计算确定，并应考虑对结构受力的影响。</span></p>    
+ <p style="text-align:justify;text-indent:2em;" > 体外预应力钢筋进入锚固构造后宜适当转向(如<a href="#figt9.5">图9-5</a>),避免预应力钢筋应力波动直接传递至锚具夹片。</p>
+  <div align="center"><img id="figt9.5" src="../_static/fig/T9.5.png" alt="Picture" width="400px"></div>
+  <p style="color: dimgray;text-align: center;">图 9-5 体外预应力钢筋在锚固构造处适当转向示意</p>
+  <script type="text/javascript">var viewer = new Viewer(document.getElementById('figt9.5'));</script> 
 
 9.5 拱桥
 -------------------------------
 
 .. raw:: html
 
- <p style="text-align:justify"><a href="#idt9.5.1"> 9.5.1</a> <span id="idt9.5.1">  </span></p>
- <p style="text-align:justify"><a href="#idt9.5.2"> 9.5.2</a> <span id="idt9.5.2">  </span></p>
- <p style="text-align:justify"><a href="#idt9.5.4"> 9.5.4</a> <span id="idt9.5.4">  </span></p>
- <p style="text-align:justify"><a href="#idt9.5.5"> 9.5.5</a> <span id="idt9.5.5">  </span></p>
- <p style="text-align:justify"><a href="#idt9.5.6"> 9.5.6</a> <span id="idt9.5.6">  </span></p> 
- <p style="text-align:justify"><a href="#idt9.5.7"> 9.5.7</a> <span id="idt9.5.7">  </span></p>
- <p style="text-align:justify"><a href="#idt9.5.8"> 9.5.8</a> <span id="idt9.5.8">  </span></p>
- <p style="text-align:justify"><a href="#idt9.5.9"> 9.5.9</a> <span id="idt9.5.9">  </span></p>
- <p style="text-align:justify"><a href="#idt9.5.11"> 9.5.11</a> <span id="idt9.5.11">  </span></p>
- <p style="text-align:justify"><a href="#idt9.5.12"> 9.5.12</a> <span id="idt9.5.12">  </span></p>
- <p style="text-align:justify"><a href="#idt9.5.13"> 9.5.13</a> <span id="idt9.5.13">  </span></p>
+ <p style="text-align:justify"><a href="#idt9.5.1"> 9.5.1</a> <span id="idt9.5.1"> 1据徐凤云《SRC拱桥及CEST 拱桥设计优化研究》一文中统计分析，44座跨径100 m及以上竣工的钢筋混凝土拱桥中，矢跨比1/4者4座，1/5者4座，1/6者11座，1/7者7座，1/8者13座，1/10者1座；26座跨径66 m至313 m 设计、在建、竣工的钢骨架钢筋混凝土拱桥和钢管混凝土拱桥中，矢跨比1/4者8座，1/5者10座，1/6者7座，1/8者1座；11座跨径100 m至330 m在建、竣工的钢筋混凝土桁架式组合拱桥中，矢跨比1/6者3座，1/7者1座，1/8者6座，1/9者1座。本次修订将钢筋混凝土拱桥的矢跨比，一般在1/5至1/8之间调整为1/4.5至1/8之间。</span></p>
+ <p style="text-align:justify;text-indent:2em;" > 空腹拱的拱上建筑跨径一般取主拱跨径的1/8至1/15,这样主拱受力较为均匀；但从配合景观来考虑，也可适当采用稍大的比值。</p>
+ <p style="text-align:justify;text-indent:2em;" > 悬链线拱轴线，随着拱上建筑的轻型化及矢跨比的趋小，拱轴系数也趋小，据上述《SRC拱桥及CEST 拱桥设计优化研究》一文分析，跨径自100 m至312 m的12座拱桥，拱轴系数m自2.24至1.347。对于桁式组合拱，其底弦可取较小的m值或采用抛物线。</p>  
+ <p style="text-align:justify"><a href="#idt9.5.2"> 9.5.2</a> <span id="idt9.5.2"> 空腹式拱桥的拱上建筑，一般采用墙式墩或排架式墩和简支板或简支梁结构，以适应主拱的变形。支座可采用橡胶支座。如果采用连续桥面，在主拱的墩台立柱顶面应设滑动支座和伸缩缝；在拱顶附近，因拱上建筑墙式墩或排架式墩较矮，抗推刚度较大，也宜设置滑动支座和伸缩缝。</span></p>
+ <p style="text-align:justify"><a href="#idt9.5.4"> 9.5.4</a> <span id="idt9.5.4"> 拱肋间横系梁与拱肋组成空腹桁架，增强了拱桥的横向刚度。拱上建筑立柱下方设横系梁，有助于荷载的横向分布。</span></p>
+ <p style="text-align:justify"><a href="#idt9.5.5"> 9.5.5</a> <span id="idt9.5.5"> 横向联结系对于中承拱和系杆拱的整体性和稳定性至为重要。在浇筑拱肋混凝土时，还可利用已就位的横向联结系加强施工稳定性。拱顶设横系梁，拱顶两侧的弯矩影响线零点附近设横系梁或K形撑，桥面处设横梁，桥面以下设剪力撑。以广西邕宁邕江大桥为例，主跨312 m,全拱设拱顶横系梁一道，拱顶正弯矩影响线零点附近设K形撑两道，桥面设横梁两道，桥面以下设剪刀撑两道，此外，另在桥面以上拱肋间设横系梁四道。</span></p>
+ <p style="text-align:justify"><a href="#idt9.5.6"> 9.5.6</a> <span id="idt9.5.6"> 桁架拱桥端部结构高度较大，其上弦杆端节点与墩台上方无连接，故需设竖向剪力撑以保持横向稳定。为加强桁架拱的横向水平刚度，端节间还应设水平剪刀撑。在其他节间亦应适当设置竖向剪刀撑和水平向剪刀撑。</span></p> 
+ <p style="text-align:justify"><a href="#idt9.5.7"> 9.5.7</a> <span id="idt9.5.7"> 桁式组合拱桥是贵州省于1981年创建的一种新型拱桥。目前最大跨径的桁式组合拱桥是贵州江界河大桥，主跨330 m。</span></p>
+ <p style="text-align:justify;text-indent:2em;" > 桁式组合拱是桁架拱和桁式T形刚构(加挂孔)两种桥型综合发展的产物。桁式组合拱把桁架拱位于拱端的上、下弦杆与桥台固结，在跨中 0.5至0.6跨长段的两端将上弦断开，下弦仍保持连续。这样形成了上梁下拱的组合结构体系。拱轴线一般用二次抛物线。</p>
+ <p style="text-align:justify;text-indent:2em;" > 桁式组合拱桥的杆件，跨径稍大一些都采用箱形截面，如主跨330 m江界河大桥，主跨160 m的广西京南大桥，上、下弦杆均为三室箱梁；斜杆、竖杆为两个分离箱梁，其间用横系梁联结。</p>
+ <p style="text-align:justify;text-indent:2em;" > 桁式组合拱桥在端部因上弦与桥台固结，在拱脚后面应设短边孔。边孔长度与主孔长度之比接近于0.5时，因边孔力臂较长，其尾部反力较小，对施工阶段受力有利，而对使用期间受力不利；若比值接近于 0.2，则上述情况反之。江界河大桥，边孔与主孔跨长之比，左边孔为0.24,右边孔为0.16；广西京南大桥，边孔与主孔跨长之比，左边孔为0.24，右边孔为0.31；以上边孔长度包括台身长度。</p>
+ <p style="text-align:justify;text-indent:2em;" > 桁式组合拱桥上弦断点位置，据贵州道真桥与剑河桥分析，跨径中段两端的断点位置各以距拱顶0.3倍主孔跨径为宜。京南大桥取 0.3倍，江界河大桥取 0.25倍。</p> 
+ <p style="text-align:justify"><a href="#idt9.5.8"> 9.5.8</a> <span id="idt9.5.8"> 本条系沿用《桥规JTJ023-85》第6.3.3 条部分内容。拱桥的横系梁、K形撑、剪刀撑，为了具备一定刚度，其截面短边尺寸不应小于长度的1/15。横系梁、K形撑和剪刀撑与拱肋相交处，由于截面急剧变化，局部应力较大，所以应设倒角平缓过渡。</span></p>
+ <p style="text-align:justify"><a href="#idt9.5.9"> 9.5.9</a> <span id="idt9.5.9"> 桁架杆件在节点处交汇，形成节点块。据江界河大桥所做节点光弹性模型试验，杆件交汇处局部应力集中。为缓和节点应力集中现象，在节点块边缘即杆件相邻边缘间应设过渡线。节点块边缘设包络钢筋对改善应力集中，防止相邻杆件之间劈裂及拉杆从节点块拔出，具有一定作用。</span></p>
+ <p style="text-align:justify"><a href="#idt9.5.11"> 9.5.11</a> <span id="idt9.5.11"> 本条系沿用《桥规JTJ023-85》第6.3.2条规定。软土地区或严寒地区的桁架拱桥、刚架拱桥，由于地基沉降或温度下降等因素，使拱脚受力不利；因此，其下弦钢筋应适量增设。</span></p>
+ <p style="text-align:justify"><a href="#idt9.5.12"> 9.5.12</a> <span id="idt9.5.12"> 本条内容与《公路圬工桥涵设计规范》(JTG D61)第5.2.3条一致。多孔拱桥桥墩，以修建柔性墩较多，连拱作用显著,所以要求每三至五孔设置一个承受恒载的单向推力墩，或采取其他抗单向推力的措施。</span></p>
+ <p style="text-align:justify"><a href="#idt9.5.13"> 9.5.13</a> <span id="idt9.5.13"> 在桥面系设置连续纵梁，可以增加桥面系的整体性，防止因局部吊杆失效，引起桥梁的整体垮塌。</span></p>
 
 
 9.6 柱、墩台和桩基承台
@@ -100,26 +401,46 @@
 
 .. raw:: html
 
- <p style="text-align:justify"><a href="#idt9.6.1"> 9.6.1</a> <span id="idt9.6.1">  </span></p>
- <p style="text-align:justify"><a href="#idt9.6.2"> 9.6.2</a> <span id="idt9.6.2">  </span></p>
- <p style="text-align:justify"><a href="#idt9.6.3"> 9.6.3</a> <span id="idt9.6.3">  </span></p>  
- <p style="text-align:justify"><a href="#idt9.6.4"> 9.6.4</a> <span id="idt9.6.4">  </span></p>
- <p style="text-align:justify"><a href="#idt9.6.5"> 9.6.5</a> <span id="idt9.6.5">  </span></p>
- <p style="text-align:justify"><a href="#idt9.6.7"> 9.6.7</a> <span id="idt9.6.7">  </span></p>
- <p style="text-align:justify"><a href="#idt9.6.8"> 9.6.8</a> <span id="idt9.6.8">  </span></p>
- <p style="text-align:justify"><a href="#idt9.6.9"> 9.6.9</a> <span id="idt9.6.9">  </span></p>
- <p style="text-align:justify"><a href="#idt9.6.10"> 9.6.10</a> <span id="idt9.6.10">  </span></p>
+ <p style="text-align:justify"><a href="#idt9.6.1"> 9.6.1</a> <span id="idt9.6.1"> 本条与本规范<a href="https://jtg-3362.readthedocs.io/zh/latest/05.html#id5.3.1">第5.3.1条</a>所规定的一般轴心受压构件相适应，与本规范<a href="https://jtg-3362.readthedocs.io/zh/latest/05.html#id5.3.2">第5.3.2条</a>规定的配置密布的螺旋环形筋或焊接环形箍筋的间接钢筋轴心受压构件有区别，后者的构造要求另见<a href="#idt9.6.2">第9.6.2条</a>规定。</span></p>
+ <p style="text-align:justify;text-indent:2em;" > 箍筋主要靠其折角点(折角不大于135°)来约束纵向钢筋。纵向钢筋离折角点愈远，箍筋对纵向钢筋的约束愈弱。考虑桥梁构件尺寸较大的特点，在原规范的基础上规定纵向钢筋位置如超过规定范围除可设复合箍筋外还可设计系筋，如本规范<a href="https://jtg-3362.readthedocs.io/zh/latest/09.html#fig9.6.1.2">图9.6.1-2</a>所示。</p>
+ <p style="text-align:justify"><a href="#idt9.6.2"> 9.6.2</a> <span id="idt9.6.2"> 本条与本规范<a href="https://jtg-3362.readthedocs.io/zh/latest/05.html#id5.3.2">第5.3.2条</a>规定的配有螺旋式或焊接环式间接钢筋的受压构件相适应。与<a href="#idt9.6.1">第9.6.1条</a>一般受压构件比较，由于间接钢筋布置较密，其长细比又有限制，不考虑纵向弯曲系数，因此具有较高承载力。本条与原规范规定一致。</span></p>
+ <p style="text-align:justify"><a href="#idt9.6.3"> 9.6.3</a> <span id="idt9.6.3"> 偏心受压构件与轴心受压构件有同样的构造要求。在国外规范中，轴心受压和偏心受压统称为受压构件或柱，其构造要求也是一样。偏心受压构件需在受弯方向设置受力钢筋，在侧面非受弯方向则应设置构造钢筋，公路桥墩台多双向偏心受压，此时两个方向均设受力钢筋。本条与原规范规定一致。</span></p>  
+ <p style="text-align:justify"><a href="#idt9.6.4"> 9.6.4</a> <span id="idt9.6.4"> 表层钢筋网参照《美国 AASHTO规范14版》8.20规定，折合每米264 mm²，本规范采用250 mm²，相当于每米设直径 8 mm钢筋五根。本条与原规范规定一致。</span></p>
+ <p style="text-align:justify"><a href="#idt9.6.5"> 9.6.5</a> <span id="idt9.6.5"> 盖梁计算跨径一般为7.0~2.5 m，跨高比<math xmlns="http://www.w3.org/1998/Math/MathML" ><mi>l</mi><mrow><mo>/</mo></mrow><mi>h</mi></math>在3~5之间(跨高比随跨径增大而减小)，属深受弯构件范畴，但不属深梁(简支深梁<math xmlns="http://www.w3.org/1998/Math/MathML" ><mi>l</mi><mrow><mo>/</mo></mrow><mi>h</mi></math>≤2，连续深梁<math xmlns="http://www.w3.org/1998/Math/MathML" ><mi>l</mi><mrow><mo>/</mo></mrow><mi>h</mi></math>≤2.5)；由于跨高比<math xmlns="http://www.w3.org/1998/Math/MathML" ><mi>l</mi><mrow><mo>/</mo></mrow><mi>h</mi></math>小于一般梁，加之盖梁与墩台柱固结，梁的伸缩受到约束，因此侧面宜设置一定数量的构造钢筋，本条规定系参照常用设计图制定。盖梁因受集中荷载，剪力较高，所以要求采用等级较高的混凝土。本条与原规范规定一致。</span></p>
+ <p style="text-align:justify"><a href="#idt9.6.7"> 9.6.7</a> <span id="idt9.6.7"> 本条参照《规范GB50010》第9.3.4条和9.3.5条制定。</span></p>
+ <p style="text-align:justify"><a href="#idt9.6.8"> 9.6.8</a> <span id="idt9.6.8"> 本条参照《规范GB50010》第9.3.6条制定。</span></p>
+ <p style="text-align:justify"><a href="#idt9.6.9"> 9.6.9</a> <span id="idt9.6.9"> 公路连续梁桥中箱梁的抗倾覆性能与下部结构的结构形式密切相关。根据公路箱梁桥结构类型调研、抗倾覆稳定性参数分析和已发生事故桥梁的调研，本条规定了公路箱梁桥的下部结构类型，在结构设计时应予以重视。</span></p>
+ <ol>
+ <li> 箱梁的抗倾覆性能与支座的横向间距和箱梁的抗扭跨径密切相关。已发生倾覆的桥梁采用了连续的独柱单支座式桥墩(如<a href="https://jtg-3362.readthedocs.io/zh/latest/twsm/t04.html#figt4.1">图4-1</a>),造成箱梁的抗扭跨径过大，不能有效保障箱梁的抗倾覆性能。公路箱梁匝道桥中独柱墩的典型结构如<a href="#figt9.6">图9-6</a>。其中墩梁固结体系，将箱梁的倾覆失稳问题转换为构件的承载力问题，适用于高桥墩；独柱双支座式桥墩缩小了箱梁的抗扭跨径，能够显著提高箱梁的抗倾覆性能。</li>
+ <li> 公路的特殊节点，如跨越道路需要在中央分隔带设置的墩位，因桥下净空限制，需采用独柱单支座式桥墩，应控制一联中连续的独柱单支座数量，以保障箱梁的抗倾覆性能满足<a href="https://jtg-3362.readthedocs.io/zh/latest/04.html#id4.1.8">第4.1.8条</a>的规定。</li>
+ <li> 般情况下在主梁的墩台处均需设置“横向限位”构造，特别是斜、弯、异型桥及采用四氟滑板式橡胶支座的上部结构，根据其受力特点及四氟滑板式橡胶支座的滑移特性，主梁端部会产生水平转动和横向位移，为保持梁体平面线型和伸缩装置的正常使用，保证梁体安全，应在主梁的墩台处设置横向限位构造。纵坡较大时，主梁爬移问题显著,对此一般采取设置墩梁固结、纵向限位挡块等措施。</li>  
+ </ol>
+
+  <div align="center"><img id="figt9.6" src="../_static/fig/T9.6.png" alt="Picture" width="400px"></div>
+  <p style="color: dimgray;text-align: center;">图 9-6 独柱墩的典型结构形式</p>
+  <script type="text/javascript">var viewer = new Viewer(document.getElementById('figt9.6'));</script> 
+
+ 
+
+ <p style="text-align:justify"><a href="#idt9.6.10"> 9.6.10</a> <span id="idt9.6.10"> 桩基承台高度，《公路桥涵地基与基础设计规范》(JTG D63-2007)(以下简称《JTGD63-2007规范》)第5.2.5条规定不宜小于1.5 m，除按此要求外一般宜取桩直径的1.0～2.0倍；对于大型钻孔桩(例如直径2.5 m以上的钻孔桩)，其倍数尚宜增加。</span></p>
+ <p style="text-align:justify;text-indent:2em;" > 承台的纵筋布置，《钢筋混凝土承台设计规程》CEC88:97(以下简称《CEC88:97规程》)认为与对破坏机理的认识有关。按塑性铰线(本规范为“梁式体系”)方法计算时，往往采用均匀正交配筋，如《建筑桩基规范》(JGJ94-94)(以下简称《JGJ94-94规范》)第4.2.3.2条和第5.2.2.1条所规定；在当前公路桥梁上也多如此。按空间桁架模型(本规范为“拉压杆”体系)方法计算时，纵筋往往集中布置在通过桩顶的板带内，如莱昂哈特《钢筋混凝土结构配筋原理》16.8。上述两种配筋方式，其优缺点尚难定论。本规范规定受力主钢筋应设于距桩中心1.5倍桩直径范围内，超出上述范围部分应另设置配筋率不小于0.1%造钢筋，综合了两种不同的配筋方式。当桩距拉开到等于或大于3倍桩直径时，参考莱昂哈特《钢筋混凝土结构配筋原理》16.8，在距桩中心各一倍桩直径的中间区段内应设置吊筋。这是因为两桩之间的纵向主钢筋没有桩的直接承托，却有部分“压杆”压力向其施压，可能致使两桩之间的中间部分纵向钢筋下压而导致混凝土裂缝，故桩距较大时应配置吊筋。公路桥梁的桩基一般多采用最小中距 2.5倍桩直径，所以如上述设构造钢筋和吊筋情况不多，但因地基原因或避开地下管线干扰则有可能拉大桩距。</p>
+ <p style="text-align:justify;text-indent:2em;" > 为便于施工，承台的顶面、侧面一般不设置表层钢筋，本次修编取消了原规范该要求。</p>
+ <p style="text-align:justify;text-indent:2em;" > 按《JTGD63-2007规范》第5.2.5条，承台内桩身顶面须设一层每米宽度1200~1500 mm²的钢筋网，本条仍予列入。桩身顶面在承台底面以上150～200 mm(《JTG D63-2007规范》第5.2.6条),则主钢筋在承台底面以上至少180 mm。由于主钢筋的混凝土保护层很厚，故应 在桩身顶设钢筋网。</p> 
 
 9.7 柱、墩台和桩基承台
 -------------------------------
 
 .. raw:: html
 
- <p style="text-align:justify"><a href="#idt9.7.2"> 9.7.2</a> <span id="idt9.7.2">  </span></p>
- <p style="text-align:justify"><a href="#idt9.7.3"> 9.7.3</a> <span id="idt9.7.3">  </span></p>  
- <p style="text-align:justify"><a href="#idt9.7.4"> 9.7.4</a> <span id="idt9.7.4">  </span></p>
- <p style="text-align:justify"><a href="#idt9.7.6"> 9.7.6</a> <span id="idt9.7.6">  </span></p> 
- <p style="text-align:justify"><a href="#idt9.7.7"> 9.7.7</a> <span id="idt9.7.7">  </span></p>
+ <p style="text-align:justify"><a href="#idt9.7.2"> 9.7.2</a> <span id="idt9.7.2"> 氯丁橡胶具有较好的耐老化性能，为我国多数桥梁所采用，但其耐寒性较差，所以寒冷地区按《公路桥梁板式橡胶支座》(JT/T4-2004)和《公路桥梁盆式橡胶支座》(JT391-2009)规定，采用三元乙丙橡胶支座或天然橡胶支座。</span></p>
+ <p style="text-align:justify"><a href="#idt9.7.3"> 9.7.3</a> <span id="idt9.7.3"> 在确定支座布置时，有以下注意事项：</span></p> 
+ <ol>
+ <li> 梁的一个支点上，纵向只能设一个支座，如多于一个，则由于梁端产生挠角使支座受力不均匀。</li>
+ <li> 在横桥向，虽然没有上述纵桥向的问题，但多于两个也会受力不匀，所以横向不宜多于两个。</li> 
+ </ol>  
+ <p style="text-align:justify"><a href="#idt9.7.4"> 9.7.4</a> <span id="idt9.7.4"> 一般采取在墩帽顶设垫石、板底设垫块等措施，使支座保持水平，避免支座的剪切变形</span></p>
+ <p style="text-align:justify"><a href="#idt9.7.6"> 9.7.6</a> <span id="idt9.7.6"> 通常板式支座受橡胶性能的影响，设计使用寿命一般为20~30年左右，盆式支座、球型支座的使用寿命比板式橡胶支座长，但也低于主体结构的设计寿命。因此，进行桥梁结构设计时，应考虑桥梁在服役期间支座的维护和更换问题，设置支座的墩台必须留有检查和更换支座的构造措施。</span></p> 
+ <p style="text-align:justify"><a href="#idt9.7.7"> 9.7.7</a> <span id="idt9.7.7"> 目前公路桥梁常用的伸缩装置，包括模数式伸缩装置、梳齿板式伸缩装置和无缝式伸缩装置，其伸缩量范围为20 mm~3000 mm,其详细的技术要求见现行《公路桥梁伸缩装置通用技术条件》JT/T327。</span></p>
 
 
 9.8 涵洞、吊环和铰
@@ -127,8 +448,13 @@
 
 .. raw:: html
 
- <p style="text-align:justify"><a href="#idt9.8.2"> 9.8.2</a> <span id="idt9.8.2">  </span></p>
- <p style="text-align:justify"><a href="#idt9.8.3"> 9.8.3</a> <span id="idt9.8.3">  </span></p> 
+ <p style="text-align:justify"><a href="#idt9.8.2"> 9.8.2</a> <span id="idt9.8.2"> 本条参照《混凝土结构设计规范》(GB 50010-2010)第9.7.6条制定，与原规范相比，有如下变化：</span></p>
+ <ol>
+ <li> 以HPB300钢筋替换R235钢筋；</li>
+ <li> 对自重荷载作用下的钢筋应力限值进行了调整，由50 Mpa调整为65 MPa。</li> 
+ </ol> 
+ <p style="text-align:justify;text-indent:2em;" > 根据耐久性要求，恶劣环境下吊环钢筋绑扎接触配筋骨架时应隔垫绝缘材料或采取可靠的防锈措施。</p> 
+ <p style="text-align:justify"><a href="#idt9.8.3"> 9.8.3</a> <span id="idt9.8.3"> 铰的构造参考《公路设计手册：拱桥(上册)(1978)》及1958年《铁路桥涵设计规范》制定。</span></p> 
 
 
 :math:`\ `

@@ -120,15 +120,102 @@
 <h2>7.1 持久状况预应力混凝土构件应力计算<a class="headerlink" href="#id2" title="此标题的永久链接"></a></h2>
 <p style="text-align:justify"><a href="#idt7.1.1"> 7.1.1</a> <span id="idt7.1.1"> 预应力混凝土构件由于施加预应力以后截面应力状态较为复杂，按照以往公路桥梁设计惯例，除了计算构件承载力外，还要计算弹性阶段的构件应力。这些应力包括正截面混凝土的法向压应力、钢筋的拉应力和斜截面混凝土的主压应力。构件应力计算实质上是构件的强度计算，是对构件承载力计算的补充。计算时作用取其标准值，汽车荷载应计入冲击系数，预加应力效应应考虑在内，所有荷载分项系数均取为 1.0。对预应力混凝土简支结构，只计算预加应力引起的主效应；预应力混凝土连续梁等超静定结构，除此之外尚应计算预加应力、温度作用等其他可变作用引起的次效应。</span></p>
 
-<p style="text-align:justify"><a href="#idt7.1.4"> 7.1.4</a> <span id="idt7.1.4"> </span></p>
-<p style="text-align:justify"><a href="#idt7.1.5"> 7.1.5</a> <span id="idt7.1.5"> </span></p>
-<p style="text-align:justify"><a href="#idt7.1.6"> 7.1.6</a> <span id="idt7.1.6"> </span></p></section>
+<p style="text-align:justify"><a href="#idt7.1.4"> 7.1.4</a> <span id="idt7.1.4"> 预应力混凝土受弯构件开裂截面的应力计算，可把在外弯矩<i>M</i><sub>k</sub>和预应力钢筋及非预应力钢筋合力<i>N</i><sub>p0</sub>作用下的受弯构件，转化为仅有一距截面重心轴<i>e</i><sub>0N</sub>的轴向力<i>N</i><sub>p0</sub>作用的偏心受压构件进行。对后张法预应力混凝土连续梁等超静定结构，上述外弯矩<i>M</i><sub>k</sub>应包括所有作用引起的弯矩，此外，还应加入由预加应力引起的次弯矩<i>M</i><sub>p2</sub>。</span></p>
+<p style="text-align:justify;text-indent:2em;" > 由本规范<a href="https://jtg-3362.readthedocs.io/zh/latest/07.html#fig7.1.4">图7.1.4</a>得：</p><p>$$ N_{\mathrm{p0}}(h_{\mathrm{ps}}+e_{\mathrm{N}})=M_{\mathrm{k}}\pm M_{\mathrm{p2}}\tag{7-1}$$
+$$ e_{\mathrm{_{N} }}=\dfrac{M_{\mathrm{k}}\pm M_{\mathrm{p2}}}{N_{\mathrm{p0}}}-h_{\mathrm{ps} }\tag{7-2}$$</p>
+<table border="0" style="font-family:times new roman" id="gongshi">
+<tr>
+<td width="50px" align='center' id="eqzs">式中:</td>
+<td width="50px" align='right' id="eqzs"><i>h</i><sub>ps</sub></td>
+<td width="40px" align='left' id="eqzs">——</td>
+<td id="eqzs">应力钢筋及非预应力钢筋合力点至受压区边缘的距离；</td>
+</tr>
+<tr>
+<td id="eqzs"> </td>
+<td id="eqzs" align='right'><i>e</i><sub>N</sub></td>
+<td id="eqzs">——</td>
+<td id="eqzs">偏心压力<i>N</i><sub>p0</sub>至受压区边缘的距离。</td>
+</tr>
+ </table>
+<p></p>
+
+
+<p style="text-align:justify;text-indent:2em;" > 本条公式(7.1.4-1)、(7.1.4-5)为一般的材料力学公式。</p>
+<p style="text-align:justify;text-indent:2em;" > 配置在受拉区的非预应力钢筋，截面消压后出现的拉应力不大，本条不再列计算公式。</p>
+<p style="text-align:justify"><a href="#idt7.1.5"> 7.1.5</a> <span id="idt7.1.5"> 本条给出了预应力混凝土受弯构件按<a href="https://jtg-3362.readthedocs.io/zh/latest/07.html#id7.1.2">第7.1.2条</a>、<a href="https://jtg-3362.readthedocs.io/zh/latest/07.html#id7.1.3">第7.1.3条</a>和<a href="https://jtg-3362.readthedocs.io/zh/latest/07.html#id7.1.4">第7.1.4条</a>计算的应力叠加，以及叠加后的应力限值。</span></p>
+<p style="text-align:justify;text-indent:2em;" > 使用阶段构件受压区混凝土的最大压应力，对不开裂构件应是由作用标准值组合引起的压应力<i>σ</i><sub>kc</sub>与由预加应力引起的预拉区混凝土拉应力<i>σ</i><sub>pt</sub>的代数和；对开裂构件则为由作用标准值组合引起的开裂截面混凝土压应力<i>σ</i><sub>cc</sub>。</p>
+<p style="text-align:justify;text-indent:2em;" > 构件受拉区预应力钢筋的最大拉应力，对不开裂构件应是扣除全部预应力损失后预应力钢筋的有效预应力<i>σ</i><sub>pe</sub>与由作用标准值组合引起的钢筋应力<i>σ</i><sub>p</sub>之和；对开裂构件则为预应力钢筋合力点处混凝土法向应力等于零时的预应力钢筋的有效预应力<i>σ</i><sub>p0</sub>与由作用标准值组合引起的开裂截面预应力钢筋应力增量<i>σ</i><sub>p</sub>之和；体外预应力钢绞线取扣除全部预应力损失后预应力钢筋的有效预应力<i>σ</i><sub>pe,ex</sub>。</p>
+<p style="text-align:justify;text-indent:2em;" > 混凝土最大压应力均为混凝土抗压强度标准值的0.5倍，钢丝和钢绞线均为其抗拉强度标准值的0.65倍，上述最大应力的限值与《桥规JTJ023-85》相当。</p>
+<p style="text-align:justify;text-indent:2em;" >  在本次修订中，补充了体外预应力钢绞线的应力限值，体外预应力体系的疲劳性能是决定体外预应力钢绞线在使用阶段应力限值的主要因素，不仅要考虑体外预应力钢绞线在汽车荷载作用下的疲劳应力幅，还要考虑锚具、转向器处等局部受力的不确定性，世界各国规范对此应力限值的规定有较大的不同，如<a href="#Bt7.1">表7-1</a>所示，参考体内预应力钢绞线的拉应力限值，考虑体外预应力钢绞线体系疲劳性能，规定其限值为0.60<i>f</i><sub>pk</sub>；适当降低了预应力螺纹钢筋的拉应力限值，原规范规定为 0.80<i>f</i><sub>pk</sub>，本规范修订为 0.75<i>f</i><sub>pk</sub>。</p>
+<style>
+    #biaoge {
+        border: 2px solid black;
+        border-collapse: collapse;
+        margin-bottom:1px;
+
+     }
+     th, td {
+        padding-top: 5px;
+        padding-bottom:5px;
+        padding-left:5px;
+        padding-right:5px;
+        border: 1px solid black;
+
+     }
+     #eqzs {
+        border: 0px;
+     }
+     #dhbg {
+       vertical-align: middle;
+     }
+    </style>
+
+               <table id="biaoge" style="font-family:times new roman">
+
+        <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="Bt7.1">表7-1 国际主要规范对持久状况体外预应力钢绞线拉应力限值的规定</b></caption>
+
+                 <tr>
+       <td  align="center" width="180px" id="dhbg">规范</td>
+       <td  align="center" width="180px" id="dhbg">美国</td>
+       <td  align="center" width="180px" id="dhbg">日本</td>
+       <td  align="center" width="180px" id="dhbg">德国</td>
+       <td  align="center" width="180px" id="dhbg">法国</td>
+                 </tr>
+                 <tr>
+                 <td align="center"  id="dhbg"> 拉应力限值</td>
+       <td align="center"  id="dhbg"> 0.72<i>f</i><sub>pk</sub></td>
+       <td align="center"  id="dhbg"> 0.70<i>f</i><sub>pk</sub></td>
+       <td align="center"  id="dhbg"> 0.70<i>f</i><sub>pk</sub></td>
+       <td align="center"  id="dhbg"> 0.60<i>f</i><sub>pk</sub></td>
+                 </tr>
+                </table>
+<p> </p>
+
+
+<p style="text-align:justify"><a href="#idt7.1.6"> 7.1.6</a> <span id="idt7.1.6"> 本条作了以下两项规定：</span></p>
+<ol>
+<li> 关于预应力混凝土受弯构件斜截面主压应力的计算及其限值的规定。这项计算及规定是防止构件腹板在预加应力和使用阶段作用下被压坏，作为斜截面抗剪承载力的补充；过高的主压应力也会导致斜截面抗裂能力的降低。</li>
+<li> 按弹性阶段计算构件腹部的主拉应力，并按规定设置箍筋及计算箍筋数量，作为构件斜截面抗剪承载力计算的补充。按本条计算的箍筋用量应与斜截面抗剪承载力计算的箍筋用量进行比较，实际取用两者较多者。</li>
+</ol></section>
 <section id="id3">
 <h2>7.2 短暂状况构件的应力计算<a class="headerlink" href="#id3" title="此标题的永久链接"></a></h2>
 <p style="text-align:justify"><a href="#idt7.2.1"> 7.2.1</a> <span id="idt7.2.1"> 本节关于构件短暂状况的应力计算，实属构件弹性阶段的强度计算，施工荷载采用标准组合，但有特别规定者除外。短暂状况一般不进行正常使用极限状态计算，可以通过施工措施或构造布置来弥补，防止构件过大变形或出现不必要的裂缝。</span></p>
-<p style="text-align:justify"><a href="#idt7.1.3"> 7.1.3</a> <span id="idt7.1.3"> 构件施加预应力时，混凝土要达到一定的强度和弹性模量。</span></p>
-<p style="text-align:justify"><a href="#idt7.1.4"> 7.1.4</a> <span id="idt7.1.4"> ~<a href="#idt7.1.6"> 7.1.6</a> <span id="idt7.1.6"> 这几条是关于短暂状况钢筋混凝土受弯构件的应力计算及应力限值的规定。有以下几点说明：</span></p>
-<p style="text-align:justify"><a href="#idt7.1.8"> 7.1.8</a> <span id="idt7.1.8"> 本条规定了预应力混凝土受弯构件，在预施应力阶段预压区和预拉区混凝土法向应力的限值。预压区和预拉区系指施加预应力时形成的压应力区和拉应力区。</span></p><p><span class="math notranslate nohighlight">\(\ \)</span></p>
+<p style="text-align:justify"><a href="#idt7.2.3"> 7.2.3</a> <span id="idt7.2.3"> 构件施加预应力时，混凝土要达到一定的强度和弹性模量。</span></p>
+<ol>
+<li> 混凝土的收缩和徐变处于初期，过早施加预应力，将引起较大的预应力损失，一方面不能充分利用预应力，另一方面有可能引起构件微裂缝，降低构件抗裂性能。</li>
+<li> 目前有些施工单位为加快施工进度，常在混凝土中掺入早强剂，这样，混凝土强度很快达到要求，但混凝土的弹性模量未相应提高，施加预应力后构件出现很大变形。</li>
+</ol>
+<p style="text-align:justify;text-indent:2em;" > 本条参照《公路桥涵施工技术规范》JTG/TF50-2011<a href="https://jtg-3362.readthedocs.io/zh/latest/07.html#id7.7.4">第7.7.4条</a>和<a href="https://jtg-3362.readthedocs.io/zh/latest/07.html#id7.8.5">7.8.5条</a>的规定，施加预应力时混凝土强度要求调整为80另补充了对弹性模量的要求。</p>
+<p style="text-align:justify"><a href="#idt7.2.4"> 7.2.4</a> <span id="idt7.2.4"> ~<a href="#idt7.2.6"> 7.2.6</a> <span id="idt7.1.6"> 这几条是关于短暂状况钢筋混凝土受弯构件的应力计算及应力限值的规定。有以下几点说明：</span></p>
+<ol>
+<li> 所有正截面和斜截面的应力计算，均系用弹性阶段钢筋混凝土结构的计算公式，有关弹性阶段受弯构件的基本假定都适用；</li>
+<li> 当受压区配有纵向钢筋时，在计算受压区高度<math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mi>x</mi><mrow><mn>0</mn></mrow></msub></math>和惯性矩<math xmlns="http://www.w3.org/1998/Math/MathML" ><msub><mi>I</mi><mrow><mrow><mi mathvariant="normal">c</mi><mi mathvariant="normal">r</mi></mrow></mrow></msub></math>公式中的受压钢筋的应力应符合<math xmlns="http://www.w3.org/1998/Math/MathML" ><msub><mi>α</mi><mrow><mrow><msub><mi></mi><mrow><mi mathvariant="normal">E</mi><mi mathvariant="normal">S</mi></mrow></msub></mrow></mrow></msub><msubsup><mi>σ</mi><mrow><mrow><mi mathvariant="normal">c</mi><mi mathvariant="normal">c</mi></mrow></mrow><mrow><mrow><mi mathvariant="normal">t</mi></mrow></mrow></msubsup><mo>⩽</mo><msubsup><mi>f</mi><mrow><mrow><mi mathvariant="normal">s</mi><mi mathvariant="normal">d</mi></mrow></mrow><mrow><msup><mi></mi><mo>′</mo></msup></mrow></msubsup></math>的条件；当<math xmlns="http://www.w3.org/1998/Math/MathML" ><msub><mi>α</mi><mrow><mrow><msub><mi></mi><mrow><mi mathvariant="normal">E</mi><mi mathvariant="normal">S</mi></mrow></msub></mrow></mrow></msub><msubsup><mi>σ</mi><mrow><mrow><mi mathvariant="normal">c</mi><mi mathvariant="normal">c</mi></mrow></mrow><mrow><mrow><mi mathvariant="normal">t</mi></mrow></mrow></msubsup><mo>&gt;</mo><msubsup><mi>f</mi><mrow><mrow><mi mathvariant="normal">s</mi><mi mathvariant="normal">d</mi></mrow></mrow><mrow><msup><mi></mi><mo>′</mo></msup></mrow></msubsup></math>时，则各公式中所含的<math xmlns="http://www.w3.org/1998/Math/MathML" ><msub><mi>α</mi><mrow><mrow><mi mathvariant="normal">E</mi><mi mathvariant="normal">S</mi></mrow></mrow></msub><msubsup><mi>A</mi><mrow><mrow><mi mathvariant="normal">s</mi></mrow></mrow><mrow><msup><mi></mi><mo>′</mo></msup></mrow></msubsup></math>应以<math xmlns="http://www.w3.org/1998/Math/MathML" ><mstyle displaystyle="true" scriptlevel="0"><mfrac><msubsup><mi>f</mi><mrow><mrow><mi mathvariant="normal">s</mi><mi mathvariant="normal">d</mi></mrow></mrow><mrow><msup><mi></mi><mo>′</mo></msup></mrow></msubsup><msubsup><mi>σ</mi><mrow><mrow><mrow><mi mathvariant="normal">c</mi><mi mathvariant="normal">c</mi></mrow></mrow></mrow><mrow><mrow><mi mathvariant="normal">t</mi></mrow></mrow></msubsup></mfrac></mstyle><msubsup><mi>A</mi><mrow><mrow><mi mathvariant="normal">s</mi></mrow></mrow><mrow><msup><mi></mi><mo>′</mo></msup></mrow></msubsup></math>代替， 此处，<math xmlns="http://www.w3.org/1998/Math/MathML" ><msubsup><mi>f</mi><mrow><mrow><mi mathvariant="normal">c</mi><mi mathvariant="normal">d</mi></mrow></mrow><mrow><msup><mi></mi><mo>′</mo></msup></mrow></msubsup></math>为受压钢筋强度设计值，<math xmlns="http://www.w3.org/1998/Math/MathML"><msubsup><mi>σ</mi><mrow><mrow><mi mathvariant="normal">c</mi><mi mathvariant="normal">c</mi></mrow></mrow><mrow><mrow><mi mathvariant="normal">t</mi></mrow></mrow></msubsup></math>为受压钢筋合力点相应的混凝土压应力。当受拉区配置有多层钢筋时，在计算开裂换算截面惯性矩的公式中所含<math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mi>α</mi><mrow><mrow><mi mathvariant="normal">E</mi><mi mathvariant="normal">S</mi></mrow></mrow></msub><msub><mi>A</mi><mrow><mrow><mi mathvariant="normal">s</mi></mrow></mrow></msub><mo stretchy="false">(</mo><msub><mi>h</mi><mrow><mn>0</mn></mrow></msub><mo>−</mo><msub><mi>x</mi><mrow><mn>0</mn></mrow></msub><msup><mo stretchy="false">)</mo><mrow><mn>2</mn></mrow></msup></math>项，应用<math xmlns="http://www.w3.org/1998/Math/MathML" ><msub><mi>α</mi><mrow><mrow><mi mathvariant="normal">E</mi><mi mathvariant="normal">S</mi></mrow></mrow></msub><munderover><mo data-mjx-texclass="OP" movablelimits="false">∑</mo><mrow><mi>i</mi><mo>=</mo><mn>1</mn></mrow><mrow><mi>n</mi></mrow></munderover><msub><mi>A</mi><mrow><mrow><mi mathvariant="normal">s</mi><mi mathvariant="normal">i</mi></mrow></mrow></msub><mo stretchy="false">(</mo><msub><mi>h</mi><mrow><mn>0</mn><mi>i</mi></mrow></msub><mo>−</mo><msub><mi>x</mi><mrow><mn>0</mn></mrow></msub><msup><mo stretchy="false">)</mo><mrow><mn>2</mn></mrow></msup></math>代替，此处<math xmlns="http://www.w3.org/1998/Math/MathML" ><mi>n</mi></math>为受拉钢筋层数，<math xmlns="http://www.w3.org/1998/Math/MathML" ><msub><mi>A</mi><mrow><mrow><mi mathvariant="normal">s</mi></mrow><mi>i</mi></mrow></msub></math>为第<math xmlns="http://www.w3.org/1998/Math/MathML" ><mi>i</mi></math>层全部钢筋的截面面积，<math xmlns="http://www.w3.org/1998/Math/MathML" ><msub><mi>h</mi><mrow><mrow><mi mathvariant="normal">0</mi></mrow><mi>i</mi></mrow></msub></math>；为第<math xmlns="http://www.w3.org/1998/Math/MathML" ><mi>i</mi></math>层钢筋<math xmlns="http://www.w3.org/1998/Math/MathML" ><msub><mi>A</mi><mrow><mrow><mi mathvariant="normal">s</mi></mrow><mi>i</mi></mrow></msub></math>重心至受压区边缘的距离。</li>
+</ol>
+
+<p style="text-align:justify"><a href="#idt7.2.8"> 7.2.8</a> <span id="idt7.2.8"> 本条规定了预应力混凝土受弯构件，在预施应力阶段预压区和预拉区混凝土法向应力的限值。预压区和预拉区系指施加预应力时形成的压应力区和拉应力区。</span></p>
+<p style="text-align:justify;text-indent:2em;" > 预压区边缘混凝土的压应力限值，是吸取国内施工经验和参考国内外规范确定的，也是《桥规JTJ023-85》的规定值，但将高强的混凝土和普通强度的混凝土合并为一个限值。预压区混凝土应力过高，不但出现过大上拱度，而且沿构件纵向可能出现裂缝。多年的实践证明，规范规定是恰当的。</p>
+<p style="text-align:justify;text-indent:2em;" > 预拉区混凝土边缘的拉应力<i>σ '</i><sub>ct</sub>不应超过1.15<i>f '</i><sub>tk</sub>，1.15<i>f '</i><sub>tk</sub>是《桥规 JTJ023-85》的规定值。当<i>σ '</i><sub>ct</sub>1≤0.7<i>f '</i><sub>tk</sub>时，尽管混凝土质量有保证时，预拉区一般不会出现裂缝，但对于受拉的混凝土，由于混凝土抗拉强度离散性较大，仍应配置一定数量的纵向钢筋，以分布可能发生的裂缝，这比《桥规JTJ023-85》的要求有所提高。当<i>σ '</i><sub>ct</sub>=1.15<i>f '</i><sub>tk</sub>时，仍小于<i>γf '</i><sub>tk</sub>从理论上讲一般不会开裂，但拉应力已较高，如预施应力不准确，或混凝土拉应变的离散性过大等，出现裂缝的可能性很大，更需配置较多的纵向钢筋。</p>
+<p style="text-align:justify;text-indent:2em;" > 预拉区配置的纵向钢筋，其直径尽可能地小些，有利于将裂缝均匀地分布。</p><p><span class="math notranslate nohighlight">\(\ \)</span></p>
 </section>
 </section>
 

@@ -125,48 +125,320 @@
 <h2>5.1  一般规定<a class="headerlink" href="#id2" title="此标题的永久链接"></a></h2>
 <p style="text-align:justify"><a href="#idt5.1.1"> 5.1.1</a> <span id="idt5.1.1"> 本节所述承载能力极限状态计算，均指对持久状况下的结构。这种状况的承载能力极限状态应包括对构件的抗弯、抗压、抗拉、抗剪、抗扭等的强度及受压构件的稳定进行计算；当有必要时还应对结构的倾覆和滑移进行验算。这是结构设计最主要的部分。</span></p>
 <p style="text-align:justify"><a href="#idt5.1.2"> 5.1.2</a> <span id="idt5.1.2"> 本条所列公式(5.1.2-1)是构件承载能力极限状态计算的一般表达式，其形式与原规范基本相同。</span></p>
-<p style="text-align:justify"><a href="#idt5.1.3"> 5.1.3</a> <span id="idt5.1.3"> </span></p>
-<p style="text-align:justify"><a href="#idt5.1.4"> 5.1.4</a> <span id="idt5.1.4"> </span></p>
-<p style="text-align:justify"><a href="#idt5.1.5"> 5.1.5</a> <span id="idt5.1.5"> </span></p>
-<p style="text-align:justify"><a href="#idt5.1.6"> 5.1.6</a> <span id="idt5.1.6"> </span></p></section>
+<ol>
+<li> 表达式在作用效应项乘了一个结构重要性系数 <i>γ</i><sub>0</sub>，以表示对不同安全等级的桥梁结构可靠度的调整。</li>
+<li> 表达式中的作用效应，本规范给出的是设计值，其分项系数已计入其中；在材料强度指标上，表达式给出已将分项系数考虑在内的设计值。</li>
+<li> 预应力混凝土连续梁等超静定结构的承载能力极限状态计算，应考虑预应力引起的次效应。这是因为试验表明，这种结构在破坏时次效应部分或全部存在。当用软钢作连续梁的预应力钢筋时，若配筋率较低，界限受压区高度较小，可以形成塑性铰转动，破坏时预应力钢筋部分进入流限，次效应虽然消失较多但仍存在。当用硬钢作预应力钢筋或仍用软钢但界限受压区高度较大时，截面不能形成明显的塑性铰转动，破坏时次效应始终存在。</li>
+</ol>
+<p style="text-align:justify"><a href="#idt5.1.3"> 5.1.3</a> <span id="idt5.1.3"> 本条关于构件正截面承载力计算的基本假定，基本沿用了原规范的规定：</span></p>
+<ol>
+<li> 仍维持平截面假定。试验表明，在纵向受拉钢筋的应力达到屈服强度之前以及达到屈服强度后的一定塑性转动范围内，截面的平均应变基本符合平截面假定。引用平截面假定可以将各种类型截面(包括周边配筋截面)在单向或双向受力情况下的正截面承载力计算贯穿起来，提高了计算方法的逻辑性和条理性，使计算公式具有明确的物理概念。目前，国际上的主要规范均采用平截面假定。</li>
+<li> 体内钢筋与混凝土粘结性能良好、两者变形协调。</li>
+</ol>
+<p style="text-align:justify"><a href="#idt5.1.4"> 5.1.4</a> <span id="idt5.1.4"> 本条关于受弯构件和偏心受力构件正截面受压区混凝土压应力计算的基本假定，沿用了原规范的规定：</span></p>
+<ol>
+<li> 受压区混凝土应力图形维持等效矩形应力块，矩形应力块高度<i>x</i>与实际受压区高度<i>x</i><sub>0</sub>之比<i>β</i>值，C50及以下强度混凝土取<i>β</i>=0.80，C80及以上强度混凝土取<i>β</i>=0.74，中间按直线内插求得。</li>
+<li> 矩形应力块的等效应力取混凝土的轴心抗压强度设计值。</li>
+</ol>
+<p style="text-align:justify"><a href="#idt5.1.5"> 5.1.5</a> <span id="idt5.1.5"> 本条公式(5.1.5-1)、(5.1.5-2)用于计算体内钢筋应力，由截面应变的平截面假定和钢筋与混凝土变形协调条件，得如下关系：</span></p><p>$$ 相对受压区高度\hspace{2.2cm}\xi=\dfrac{x}{h_0}=\dfrac{\beta\varepsilon_{\mathrm{cu} }}{\varepsilon_{\mathrm{cu} }+\varepsilon_{\mathrm{s} }}\tag{5-1}$$
+$$ 钢筋应变为\hspace{4cm}\varepsilon _{\mathrm{s} }=\varepsilon_{\mathrm{cu}}(\dfrac{\beta}{\xi}-1)\tag{5-2}$$
+$$所以钢筋应力为\hspace{0.5cm}\sigma _{\mathrm{s} }=\varepsilon_{\mathrm{cu} }E_{\mathrm{s} }=\varepsilon_{\mathrm{cu} }E_{\mathrm{s} }(\dfrac{\beta h_0}{x}-1)\tag{5-3}$$</p>
+<p style="text-align:justify;text-indent:2em;" > 预应力钢筋的应力将上式<i>E</i><sub>s</sub>换为<i>E</i><sub>p</sub>，加上截面消压时预应力钢筋已有应力<i>σ</i><sub>p0</sub>。</p>
+<p style="text-align:justify;text-indent:2em;" > 按以上公式算得的钢筋应力<i>σ</i><sub>s</sub>，或<i>σ</i><sub>p</sub>以受拉为正，以受压为负。适用的条件是：</p><p>$$普通钢筋应力\hspace{3cm}-f_{\mathrm{sd} }^{'}\leqslant \sigma _{\mathrm{si} }\leqslant f_{\mathrm{sd} }$$
+$$预应力钢筋应力\hspace{2cm}-(f_{\mathrm{pd}}^{'}-\sigma _{\mathrm{poi} })\leqslant \sigma _{\mathrm{pi} }\leqslant f_{\mathrm{pd} }$$</p>
+<p style="text-align:justify"><a href="#idt5.1.6"> 5.1.6</a> <span id="idt5.1.6"> 先张法预应力混凝土构件，当计算端部锚固区段正截面和斜截面的抗弯承载力时，锚固区段内预应力钢筋的抗拉强度设计值，在锚固起点处取为零，在锚固终点处取为<i>f</i><sub>pd</sub>，两点之间按直线内插取值。本条<a href="https://jtg-3362.readthedocs.io/zh/latest/05.html#B5.1.6">表5.1.6</a>中预应力钢筋的锚固长度<math xmlns="http://www.w3.org/1998/Math/MathML" ><msub><mi>l</mi><mi>a</mi></msub></math>(mm)是由下列公式计算并不小于受拉钢筋最小锚固长度得到的。</span></p><p>$$l_{a}=a\dfrac{f_{\mathrm{pd} }}{f_{\mathrm{td} }}d\tag{5-4}$$</p>
+<table border="0" style="font-family:times new roman" id="gongshi">
+<tr>
+<td width="50px" align='center' id="eqzs">式中:</td>
+<td width="50px" align='right' id="eqzs"><i>f</i><sub>pd</sub></td>
+<td width="40px" align='left' id="eqzs">——</td>
+<td id="eqzs">锚固钢筋的抗拉强度设计值；</td>
+</tr>
+<tr>
+<td id="eqzs"> </td>
+<td id="eqzs" align='right'><i>f</i><sub>td</sub></td>
+<td id="eqzs">——</td>
+<td id="eqzs">锚固区混凝土的抗拉强度设计值；</td>
+</tr>
+<tr>
+<td id="eqzs"> </td>
+<td id="eqzs" align='right'><i>α</i></td>
+<td id="eqzs">——</td>
+<td id="eqzs">锚固钢筋的外形系数，七股钢绞线<i>α</i>=0.17，螺旋肋钢丝 <i>α</i>=0.13;</td>
+</tr>
+<tr>
+<td id="eqzs"> </td>
+<td id="eqzs" align='right'><i>d</i></td>
+<td id="eqzs">——</td>
+<td id="eqzs">锚固钢筋的公称直径，当用束筋时取等效直径<math xmlns="http://www.w3.org/1998/Math/MathML" ><msqrt><mi>n</mi></msqrt><mi>d</mi></math>，<i>n</i>为单筋根数，<i>d</i>为单筋直径。</td>
+</tr>
+ </table>
+<p></p>
+<p style="text-align:justify;text-indent:2em;" > 规范<a href="https://jtg-3362.readthedocs.io/zh/latest/05.html#B5.1.6">表5.1.6</a>中数值系按每种钢筋的某一抗拉强度设计值计算而得，设计时当采用的钢筋抗拉强度设计值有变化时，则其锚固长度应按表值以强度比例增减。本次修订预应力钢筋的种类有所调整，见<a href="https://jtg-3362.readthedocs.io/zh/latest/03.html#B3.2.2.2">表3.2.2-2</a>，<a href="https://jtg-3362.readthedocs.io/zh/latest/05.html#B5.1.6">表5.1.6</a>也作了相应的变化。</p>
+<p style="text-align:justify;text-indent:2em;" > 先张法预应力混凝土构件通常在预应力钢筋的端部设置硬塑料套管或硬塑料围裹，如<a href="#figt5.1">图5-1</a>。这时，预应力钢筋的失效长度不应过长，从抗弯或抗剪承载力控制截面算起，预应力钢筋的锚固长度应满足<a href="https://jtg-3362.readthedocs.io/zh/latest/05.html#B5.1.6">表5.1.6</a>的要求。</p>
+
+ <div align="center"><img id="figt5.1" src="../_static/fig/T5.1.png" alt="Picture" width="400px"></div>
+ <p style="color: dimgray;text-align: center;">图 5-1 先张法预应力钢筋的锚固长度要求</p>
+ <script type="text/javascript">var viewer = new Viewer(document.getElementById('figt5.1'));</script></section>
 <section id="id3">
 <h2>5.2  受弯构件<a class="headerlink" href="#id3" title="此标题的永久链接"></a></h2>
-<p style="text-align:justify"><a href="#idt5.2.1"> 5.2.1</a> <span id="idt5.2.1">  </span></p>
-<p style="text-align:justify"><a href="#idt5.2.2"> 5.2.2</a> <span id="idt5.2.2"> ~<a href="#idt5.2.6"> 5.2.6</a> <span id="idt5.2.6"> </span></p>
-<p style="text-align:justify"><a href="#idt5.2.7"> 5.2.7</a> <span id="idt5.2.7">  </span></p>
-<p style="text-align:justify"><a href="#idt5.2.9"> 5.2.9</a> <span id="idt5.2.9">  </span></p>
-<p style="text-align:justify"><a href="#idt5.2.10"> 5.2.10</a> <span id="idt5.2.10">  </span></p>
-<p style="text-align:justify"><a href="#idt5.2.11"> 5.2.11</a> <span id="idt5.2.11">  </span></p>
-<p style="text-align:justify"><a href="#idt5.2.12"> 5.2.12</a> <span id="idt5.2.12">  </span></p>
-<p style="text-align:justify"><a href="#idt5.2.13"> 5.2.13</a> <span id="idt5.2.13">  </span></p></section>
+<p style="text-align:justify"><a href="#idt5.2.1"> 5.2.1</a> <span id="idt5.2.1"> 受弯构件纵向受拉钢筋和受压区混凝土同时达到各自强度设计值时，构件正截面相对界限受压区高度<i>ξ</i><sub>b</sub>，可依据平截面假定建立的下列公式求得：</span></p>
+<p style="text-align:justify;text-indent:2em;" > 1 对热轧普通钢筋</p><p>$$l_{a}=a\dfrac{f_{\mathrm{pd} }}{f_{\mathrm{td} }}d\tag{5-6}$$</p>
+<p style="text-align:justify;text-indent:2em;" > 2对钢绞线和钢丝</p><p>$$l_{a}=a\dfrac{f_{\mathrm{pd} }}{f_{\mathrm{td} }}d\tag{5-6}$$</p>
+<table border="0" style="font-family:times new roman" id="gongshi">
+<tr>
+<td width="50px" align='center' id="eqzs">式中:</td>
+<td width="50px" align='right' id="eqzs"><i>f</i><sub>pd</sub></td>
+<td width="40px" align='left' id="eqzs">——</td>
+<td id="eqzs">锚固钢筋的抗拉强度设计值；</td>
+</tr>
+<tr>
+<td id="eqzs"> </td>
+<td id="eqzs" align='right'><i>f</i><sub>td</sub></td>
+<td id="eqzs">——</td>
+<td id="eqzs">锚固区混凝土的抗拉强度设计值；</td>
+</tr>
+<tr>
+<td id="eqzs"> </td>
+<td id="eqzs" align='right'><i>α</i></td>
+<td id="eqzs">——</td>
+<td id="eqzs">锚固钢筋的外形系数，七股钢绞线<i>α</i>=0.17，螺旋肋钢丝 <i>α</i>=0.13;</td>
+</tr>
+<tr>
+<td id="eqzs"> </td>
+<td id="eqzs" align='right'><i>d</i></td>
+<td id="eqzs">——</td>
+<td id="eqzs">锚固钢筋的公称直径，当用束筋时取等效直径<math xmlns="http://www.w3.org/1998/Math/MathML" ><msqrt><mi>n</mi></msqrt><mi>d</mi></math>，<i>n</i>为单筋根数，<i>d</i>为单筋直径。</td>
+</tr>
+ </table>
+<p></p>
+<p style="text-align:justify;text-indent:2em;" > 公式(5-5)中所有计算参数均为已知，可以直接计算出<i>ξ</i><sub>b</sub>值，列入规范表格。公式(5-6)中只有<i>σ</i><sub>p0</sub>为未知数，可根据以往预应力混凝土构件的设计经验，对(<i>f</i><sub>pd</sub>-<i>σ</i><sub>p0</sub>)作一定范围的设定，计算出最大和最小的<i>ξ</i><sub>b</sub>值。混凝土强度等级对<i>ξ</i><sub>b</sub>值的影响不大，可作适当合并。最后确定规范<a href="https://jtg-3362.readthedocs.io/zh/latest/05.html#B5.2.1">表5.2.1</a>的数值时，选用了计算的最小值，尽可能使构件取得较好的延性。对配置预应力螺纹钢筋的预应力混凝土受弯构件，按以往设计经验取与钢绞线、钢丝相同的<i>ξ</i><sub>b</sub>值。</p>
+<p style="text-align:justify"><a href="#idt5.2.2"> 5.2.2</a> <span id="idt5.2.2"> ~<a href="#idt5.2.6"> 5.2.6</a> <span id="idt5.2.6"> 受弯构件抗弯承载力的设计表达式系根据如下基本假定建立：</span></p>
+<ol>
+<li> 极限状态计算时，受拉区体内钢筋应力取抗拉强度设计值<i>f</i><sub>sd</sub>或<i>f</i><sub>pd</sub>；</li>
+<li> 极限状态计算时，受压区体内钢筋应力取抗压强度设计值<i>f '</i><sub>sd</sub>或<i>f '</i><sub>pd</sub>；</li>
+<li> 体外预应力钢筋的应力取其使用阶段扣除预应力损失后的有效应力<i>σ</i><sub>pe,ex</sub>。与体内预应力钢筋相比，体外预应力钢筋位于混凝土箱梁外，仅在锚固装置和转向装置处受到箱梁约束，与截面变形不协调，存在体外束的二次效应问题，即体外预应力钢筋的位移与箱梁变形不一致而引起的附加预应力效应，如<a href="#figt5.2">图5-2</a>。《桥梁体外预应力设计技术》(徐栋，2008)以30 m和50 m的简支梁、3×70 m的连续梁、(100+180+100) m的连续刚构为样本桥梁，分析二次效应对汽车荷载作用下混凝土应力的影响不超过 3%；过设置转向装置，可以减小二次效应，如<a href="#figt5.2">图5-2</a>中<i>e</i><sub>1</sub><<i>e</i><sub>2</sub>,其中在箱梁挠度最大点设置竖向位移约束装置，对减小体外预应力钢筋的二次效应最为有效。因此，体外预应力桥梁的整体受力分析可不计体外束的二次效应。由于体外预应力钢筋与混凝土截面变形不协调，在混凝土结构构件达到承载能力极限状态时，体外预应力钢筋并没有达到屈服强度。计算构件的抗弯极限强度时，体外预应力钢筋的极限应力<i>σ</i><sub>pu</sub>一般取有效预应力<i>σ</i><sub>pe</sub>与应力增量△<i>σ</i>之和。应力增量与跨高比、配筋率、预应力钢筋配设方式等因素有关，各国规范有所差异，如<a href="#Bt5.1">表5-1</a>。偏于保守的考虑，在计算承载能力时，建议参照欧洲 CEB-FIP 90规范，体外预应力钢筋的应力取其使用阶段扣除预应力损失后的有效应力。</li>
+</ol>
+
+ <div align="center"><img id="figt5.2" src="../_static/fig/T5.2.png" alt="Picture" width="400px"></div>
+ <p style="color: dimgray;text-align: center;">图 5-2 体外预应力钢筋的二次效应示意(<i>e</i><sub>1</sub><<i>e</i><sub>2</sub><e)</p>
+ <script type="text/javascript">var viewer = new Viewer(document.getElementById('figt5.2'));</script>
+<style>
+    #biaoge {
+        border: 2px solid black;
+        border-collapse: collapse;
+        margin-bottom:1px;
+
+     }
+     th, td {
+        padding-top: 5px;
+        padding-bottom:5px;
+        padding-left:5px;
+        padding-right:5px;
+        border: 1px solid black;
+
+     }
+     #eqzs {
+        border: 0px;
+     }
+     #dhbg {
+       vertical-align: middle;
+     }
+    </style>
+
+               <table id="biaoge" style="font-family:times new roman">
+
+        <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="Bt5.1">表5-1 各国规范对承载能力极限状态体外预应力钢筋极限应力的规定</b></caption>
+
+                   <tr>
+                         <td  align="center" width="70px"  id="dhbg">规范</td>
+       <td  align="center" width="280px" id="dhbg">美国AASHTO LRFD规范</td>
+       <td  align="center" width="420px" id="dhbg">无粘结预应力混凝土结构技术规程 JGJ92-2004</td>
+       <td  align="center" width="230px" id="dhbg">欧洲CEB-FIP90</td>
+                   </tr>
+                   <tr>
+                         <td align="center"  id="dhbg">极限应力</td>
+       <td align="center"  id="dhbg"><math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mi>σ</mi><mrow><mrow><mi mathvariant="normal">p</mi><mi mathvariant="normal">u</mi></mrow></mrow></msub><mo>=</mo><msub><mi>σ</mi><mrow><mrow><mi mathvariant="normal">p</mi><mi mathvariant="normal">e</mi></mrow></mrow></msub><mo>+</mo><mn>103</mn><mtext>&nbsp;</mtext><mrow><mi mathvariant="normal">M</mi><mi mathvariant="normal">P</mi><mi mathvariant="normal">a</mi></mrow></math></td>
+       <td align="center"  id="dhbg"><math xmlns="http://www.w3.org/1998/Math/MathML"><mtable columnspacing="1em" rowspacing="4pt"><mtr><mtd><msub><mi>σ</mi><mrow><mrow><mi mathvariant="normal">p</mi><mi mathvariant="normal">u</mi></mrow></mrow></msub><mo>=</mo><msub><mi>σ</mi><mrow><mrow><mi mathvariant="normal">p</mi><mi mathvariant="normal">e</mi></mrow></mrow></msub><mo>+</mo><mi mathvariant="normal">Δ</mi><msub><mi>σ</mi><mrow><mrow><mi mathvariant="normal">p</mi></mrow></mrow></msub></mtd></mtr><mtr><mtd><mi mathvariant="normal">Δ</mi><msub><mi>σ</mi><mrow><mrow><mi mathvariant="normal">p</mi></mrow></mrow></msub><mo>=</mo><mo stretchy="false">(</mo><mn>240</mn><mo>−</mo><mn>335</mn><msub><mi>ξ</mi><mrow><mn>0</mn></mrow></msub><mo stretchy="false">)</mo><mrow data-mjx-texclass="INNER"><mo data-mjx-texclass="OPEN">(</mo><mn>0.45</mn><mo>+</mo><mn>5.5</mn><mstyle displaystyle="true" scriptlevel="0"><mfrac><mi>h</mi><msub><mi>l</mi><mn>0</mn></msub></mfrac></mstyle><mo data-mjx-texclass="CLOSE">)</mo></mrow></mtd></mtr></mtable></math></td>
+       <td align="center"  id="dhbg"><math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mi>σ</mi><mrow><mrow><mi mathvariant="normal">p</mi><mi mathvariant="normal">u</mi></mrow></mrow></msub><mo>=</mo><msub><mi>σ</mi><mrow><mrow><mi mathvariant="normal">p</mi><mi mathvariant="normal">e</mi></mrow></mrow></msub></math></td>
+                   </tr>
+                       </table>
+<p style="text-indent:2em;" ><font size="2">注：<math xmlns="http://www.w3.org/1998/Math/MathML" ><msub><mi>ξ</mi><mrow><mn>0</mn></mrow></msub></math>——综合配筋指标；<math xmlns="http://www.w3.org/1998/Math/MathML" ><msub><mi>l</mi><mrow><mn>0</mn></mrow></msub></math>——受弯构件计算跨度；<math xmlns="http://www.w3.org/1998/Math/MathML" ><mi>h</mi></math>——受弯构件截面高度。</font></p>
+<p style="text-align:justify;text-indent:2em;" > 本规范<a href="https://jtg-3362.readthedocs.io/zh/latest/05.html#id5.1.5">第5.1.5条</a>给出了截面任意位置上纵向体内钢筋应力的计算公式，当纵向体内钢筋的位置靠近截面中性轴时，采用上述假定计算承载力时，易产生较大误差，应根据实际情况计算任意位置上纵向体内钢筋应力，进而进行正截面抗弯承载力计算。 </p>
+<p style="text-align:justify;text-indent:2em;" > 为防止受弯构件的超筋设计，规范规定了截面受压区高度的限制条件<math xmlns="http://www.w3.org/1998/Math/MathML" ><mi>x</mi><mo>&lt;</mo><msub><mi>ξ</mi><mrow><mi>b</mi></mrow></msub><msub><mi>h</mi><mn>0</mn></msub></math>，其中相对界限受压区高度<math xmlns="http://www.w3.org/1998/Math/MathML" ><msub><mi>ξ</mi><mrow><mi>b</mi></mrow></msub></math>，通过计算在本规范<a href="https://jtg-3362.readthedocs.io/zh/latest/05.html#B5.2.1">表5.2.1</a>中列出。当给定钢筋种类和混凝土强度等级，根据<math xmlns="http://www.w3.org/1998/Math/MathML" ><msub><mi>ξ</mi><mrow><mi>b</mi></mrow></msub></math>可求得相应的受拉钢筋配筋率<math xmlns="http://www.w3.org/1998/Math/MathML" ><msub><mi>ρ</mi><mrow><mi>b</mi></mrow></msub></math>，这个<math xmlns="http://www.w3.org/1998/Math/MathML" ><msub><mi>ρ</mi><mrow><mi>b</mi></mrow></msub></math>即为受弯构件界限(最大)配筋率。因此，截面受压区高度的限制条件也就是限制受弯构件的配筋率。超过这个限制条件，受弯构件有可能出现超筋，也有可能出现脆性破坏。一般来说，当设计计算的受压区高度不能满足上述要求时，表明受拉区纵向钢筋配置过多或构件高度不足，需要进行调整；当构件受拉区配置不同种类钢筋时，应选用相应于各种钢筋较小的<math xmlns="http://www.w3.org/1998/Math/MathML" ><msub><mi>ξ</mi><mrow><mi>b</mi></mrow></msub></math>。,以使构件维持更多的延性。但是，这个限制条件只是从理论上得到保证，当<i>x</i>与<math xmlns="http://www.w3.org/1998/Math/MathML" ><msub><mi>ξ</mi><mrow><mi>b</mi></mrow></msub><msub><mi>h</mi><mrow><mn>0</mn></mrow></msub></math>接近或相等时，受弯构件仍有可能发生具有明显脆性破坏特征的界限破坏。因此，在实际工程中应尽量避免出现两者接近或相等的情况。为了确保构件不发生脆性破坏，国外有些规范将构件的配筋率限制得较低。例如美国规范规定<math xmlns="http://www.w3.org/1998/Math/MathML" ><mi>ρ</mi><mo>⩽</mo><mn>0.75</mn><msub><mi>ρ</mi><mrow><mrow><mi mathvariant="normal">b</mi></mrow></mrow></msub></math>。</p>
+<p style="text-align:justify;text-indent:2em;" > 在受弯构件正截面抗弯承载力的计算中，为了使配置在受压区的纵向体内钢筋达到其抗压强度设计值，规范规定了截面受压区高度<i>x</i>必须符合<a href="https://jtg-3362.readthedocs.io/zh/latest/05.html#id5.2.2">第5.2.2条</a>公式(5.2.2-4)或(5.2.2-5)的要求；当不符合要求时，则可按<a href="https://jtg-3362.readthedocs.io/zh/latest/05.html#id5.2.4">第5.2.4条</a>或<a href="https://jtg-3362.readthedocs.io/zh/latest/05.html#id5.2.6">第5.2.6条</a>提供的公式近似地计算。该公式是假定受压区混凝土的压力点在受压纵向钢筋的合力点上，以该点为矩心取矩建立起来的。</p>
+
+<p style="text-align:justify"><a href="#idt5.2.7"> 5.2.7</a> <span id="idt5.2.7"> 受弯构件的纵向受拉钢筋一般按照承载能力极限状态计算要求、正常使用极限状态计算要求和构造要求配置。当由正常使用极限状态计算要求和构造要求配置的纵向受拉钢筋截面面积大于承载能力极限状态计算要求配置的纵向受拉钢筋截面面积时，计算混凝土受压区高度<i>x</i>时，可仅计入按承载能力极限状态计算要求配置的纵向受拉钢筋。</span></p>
+<p style="text-align:justify"><a href="#idt5.2.9"> 5.2.9</a> <span id="idt5.2.9"> 本条关于受弯构件斜截面抗剪承载力的验算，与原规范比较有以下变化：</span></p>
+
+ <div align="center"><img id="figt5.3" src="../_static/fig/T5.3.png" alt="Picture" width="400px"></div>
+ <p style="color: dimgray;text-align: center;">图 5-3 承受异号弯矩钢筋混凝土梁的典型剪切破坏<br/>1-反弯点</p>
+ <script type="text/javascript">var viewer = new Viewer(document.getElementById('figt5.3'));</script>
+
+<p style="text-align:justify"><a href="#idt5.2.10"> 5.2.10</a> <span id="idt5.2.10"> 本条斜截面水平投影长度C的计算公式(5.2.10)即是原规范的公式。试验表明：等高度和变高度的钢筋混凝土连续梁斜截面剪切破坏的倾角与简支梁接近一致，钢筋混凝土受弯构件的斜截面水平投影长度可统一取值；预应力混凝土连续梁的试验表明，破坏时其主斜裂缝长度比钢筋混凝土梁增大了1.3~1.5倍，本规范仍用钢筋混凝土梁的公式计算斜截面水平投影长度，增大范围内的腹筋没有被利用，所以是偏安全的。</span></p>
+<p style="text-align:justify"><a href="#idt5.2.11"> 5.2.11</a> <span id="idt5.2.11"> 本条关于“抗剪上限值”的公式(5.2.11),用于防止钢筋混凝土梁的斜裂缝开展过宽或出现斜压破坏。在计算中如不能满足该公式的要求，就应加大梁的截面尺寸或提高混凝土的强度等级。</span></p>
+<p style="text-align:justify"><a href="#idt5.2.12"> 5.2.12</a> <span id="idt5.2.12"> 本条关于“抗剪下限值”的公式(5.2.12),用于确定有腹筋梁与无腹筋梁的界限。当梁或某一梁段符合该公式的要求时，其箍筋可按构造要求配置。公式(5.2.12)对预应力混凝土构件考虑了预加应力的有利影响，但当钢筋合力引起的截面弯矩与外弯矩的方向相同时，或允许出现裂缝的预应力混凝土受弯构件，该有利影响仍不应被利用。</span></p>
+<p style="text-align:justify"><a href="#idt5.2.13"> 5.2.13</a> <span id="idt5.2.13"> 3 本条规定了钢筋混凝土简支梁、等高度和变高度(承托)连续梁的抗剪配筋设计方法。这个方法就是利用已绘制的剪力设计值包络图，把箍筋间距和弯起钢筋及弯起点确定下来。本规范规定混凝土和箍筋共同承担不少于最大设计剪力的60%，弯起钢筋则承担不超过最大设计剪力的40%。</span></p></section>
 <section id="id4">
 <h2>5.3  受压构件<a class="headerlink" href="#id4" title="此标题的永久链接"></a></h2>
-<p style="text-align:justify"><a href="#idt5.3.2"> 5.3.2</a> <span id="idt5.3.2">  </span></p>
-<p style="text-align:justify"><a href="#idt5.3.3"> 5.3.3</a> <span id="idt5.3.3">  </span></p>
-<p style="text-align:justify"><a href="#idt5.3.4"> 5.3.4</a> <span id="idt5.3.4">  </span></p>
-<p style="text-align:justify"><a href="#idt5.3.7"> 5.3.7</a> <span id="idt5.3.7">  </span></p>
-<p style="text-align:justify"><a href="#idt5.3.8"> 5.3.8</a> <span id="idt5.3.8">  </span></p>
-<p style="text-align:justify"><a href="#idt5.3.9"> 5.3.9</a> <span id="idt5.3.9">  </span></p>
-<p style="text-align:justify"><a href="#idt5.3.11"> 5.3.11</a> <span id="idt5.3.1">  </span></p></section>
+<p style="text-align:justify"><a href="#idt5.3.2"> 5.3.2</a> <span id="idt5.3.2"> 本条保留了原规范的规定。国外试验得出，在侧压下80~100 MPa级高强混凝土的强度提高值比普通强度的混凝土约低 25%。国内对高强混凝土钢管柱的试验也表明，80MPa混凝土的套箍系数为1.8，而普通强度的混凝土为2.0~2.1。可以认为，套箍系数随着混凝土强度等级的提高而降低，本规范取为：C50及以下时<i>k</i>=2.0；C50~C80取<i>k</i>=2.0~1.7。</span></p>
+<p style="text-align:justify"><a href="#idt5.3.3"> 5.3.3</a> <span id="idt5.3.3"> 本条给出判别偏心受压构件大小偏压的相对界限受压区高度<i>ξ</i><sub>b</sub>，其计算公式与受弯构件判别是否超筋的<i>ξ</i><sub>b</sub>相同，都是按平截面假定推导出来的。对钢筋混凝土偏压构件，计算公式中有关混凝土和钢筋的参数都是已知的，所以可以采用受弯构件已经算出的<i>ξ</i><sub>b</sub>值。对预应力混凝土偏压构件，计算公式中含有未知数<i>σ</i><sub>p0</sub>，它在设置预应力钢筋和其他条件后才能算得；如果与受弯构件一样，预先假定<i>σ</i><sub>p0</sub>算出<i>ξ</i><sub>b</sub>并订入规范，则在具体构件计算中可能出现：假定为大偏心构件，计算结果是小偏心构件；而按小偏心构件计算，结果又是大偏心构件。因此，对预应力混凝土偏压构件本规范给出<i>ξ</i><sub>b</sub>的计算公式，让设计人员根据构件具体条件计算。</span></p>
+<p style="text-align:justify"><a href="#idt5.3.4"> 5.3.4</a> <span id="idt5.3.4"> 本条关于偏心受压构件正截面承载力计算的基本公式及大、小偏压构件的判断原则，与原规范是相同的。</span></p>
+<p style="text-align:justify;text-indent:2em;" > 本条列入了矩形截面对称配筋的钢筋混凝土小偏压构件钢筋截面的近似计算公式，目的在于该构件进行配筋设计时，可直接算出所需钢筋截面面积。在公路桥梁中钢筋混凝土偏压构件较多(较少采用预应力混凝土偏压构件)，其中不乏有矩形对称配筋截面，这个由偏压构件基本公式变换而来的求<i>A</i><sub>s</sub>(或<i>A'</i><sub>s</sub>)公式，可为该类构件的设计提供方便条件。</p>
+<p style="text-align:justify;text-indent:2em;" > 对偏心受压构件的验算，《桥规 JTJ023-85》曾给出一个求中性轴位置(受压区高度)的计算公式，该公式是把截面内力对轴向力作用点取矩得到的。也有其他方法求得中性轴位置，例如将规范公式(5.3.4-1)、(5.3.4-2)联立解得受压区高度<i>x</i>，此时，两式均取为等号。所以本规范不再列出此类公式，无需规定采用什么公式，由设计者自行考虑计算。</p>
+<p style="text-align:justify;text-indent:2em;" > 对于公路桥梁大量存在的钢筋混凝土偏心受压构件，采用配筋设计也许比先配筋后验算要方便得多。配筋设计时，当<math xmlns="http://www.w3.org/1998/Math/MathML" ><mi>η</mi><msub><mi>e</mi><mrow><mn>0</mn></mrow></msub><mo>⩽</mo><mn>0.3</mn><msub><mi>h</mi><mrow><mn>0</mn></mrow></msub></math>时，可按小偏压构件计算；<math xmlns="http://www.w3.org/1998/Math/MathML" ><mi>η</mi><msub><mi>e</mi><mrow><mn>0</mn></mrow></msub><mo>></mo><mn>0.3</mn><msub><mi>h</mi><mrow><mn>0</mn></mrow></msub></math>时，可先按大偏压构件计算，但所得受拉钢筋的截面面积必须大于本规范<a href="https://jtg-3362.readthedocs.io/zh/latest/09.html#id9.1.12">第9.1.12条</a>规定的最小配筋率，否则，钢筋截面面积按小偏压构件计算。对对称配筋的偏压构件，这个判别条件不一定适用，当<math xmlns="http://www.w3.org/1998/Math/MathML" ><msub><mi>A</mi><mrow><mrow><mi mathvariant="normal">s</mi></mrow></mrow></msub><mo>=</mo><msubsup><mi>A</mi><mrow><mrow><mi mathvariant="normal">s</mi></mrow></mrow><mrow><msup><mi></mi><mo>′</mo></msup></mrow></msubsup></math>时，可直接按轴向力<math xmlns="http://www.w3.org/1998/Math/MathML" ><msub><mi>γ</mi><mrow><mn>0</mn></mrow></msub><msub><mi>N</mi><mrow><mn>0</mn></mrow></msub></math>与受压区混凝土的压力相等来判别，对矩形截面即<math xmlns="http://www.w3.org/1998/Math/MathML" ><msub><mi>γ</mi><mrow><mn>0</mn></mrow></msub><msub><mi>N</mi><mrow><mrow><mi mathvariant="normal">d</mi></mrow></mrow></msub><mo>⩽</mo><msub><mi>f</mi><mrow><mrow><mi mathvariant="normal">c</mi><mi mathvariant="normal">d</mi></mrow></mrow></msub><mi>b</mi><msub><mi>ξ</mi><mrow><mrow><mi mathvariant="normal">b</mi></mrow></mrow></msub><msub><mi>h</mi><mrow><mn>0</mn></mrow></msub></math>为大偏压构件，<math xmlns="http://www.w3.org/1998/Math/MathML" ><msub><mi>γ</mi><mrow><mn>0</mn></mrow></msub><msub><mi>N</mi><mrow><mrow><mi mathvariant="normal">d</mi></mrow></mrow></msub><mo>&gt;</mo><msub><mi>f</mi><mrow><mrow><mi mathvariant="normal">c</mi><mi mathvariant="normal">d</mi></mrow></mrow></msub><mi>b</mi><msub><mi>ξ</mi><mrow><mrow><mi mathvariant="normal">b</mi></mrow></mrow></msub><msub><mi>h</mi><mrow><mn>0</mn></mrow></msub></math>为小偏压构件。</p>
+<p style="text-align:justify"><a href="#idt5.3.7"> 5.3.7</a> <span id="idt5.3.7"> 本条系参照《GBJ10-89规范》制订。截面腹部均匀配置纵向钢筋的偏心受压构件，其正截面的承载力由两部分组成：一是由混凝土与上、下两边的纵向钢筋<i>A '</i><sub>s</sub>和<i>A</i><sub>s</sub>，构成的承载力；二是由腹部均匀配置的纵向钢筋<i>A</i><sub>sw</sub>，构成的承载力。</span></p>
+<p style="text-align:justify;text-indent:2em;" > 前者与一般钢筋混凝土偏心受压构件同样计算，利用本规范公式(5.3.5-1)、(5.3.5-2)并经简单转化可得：</p><p>$$轴向力\hspace{0.8cm}N_{\mathrm{cs}}=f_{\mathrm{cd}}[\xi bh_{0}+(b_{\mathrm{f}}^{'}-b)b_{\mathrm{f}}^{'}]+f_{\mathrm{sd}}^{'}A_{\mathrm{s}}^{'}-\sigma _{\mathrm{s}}A_{\mathrm{s}}$$
+$$弯矩\quad {\scriptsize N_{\mathrm{d} }e=f_{\mathrm{cd} }[\xi(1-0.5\xi)bh_{0}^{2}+(b_{\mathrm{f}}^{'}-b)h_{\mathrm{f}}^{'}(h_{0}-\dfrac{h_{\mathrm{f}}^{'}}{2})]+f_{\mathrm{sd} }^{'}A_{\mathrm{s} }^{'}(h_{0}-a_{\mathrm{s} }^{'})} $$</p>
+<p style="text-align:justify;text-indent:2em;" > 后者可根据基本假定，并利用平衡方程和变形协调条件进行计算，但计算过程繁琐，不便于设计应用。一般采用简化的方法，要求腹部纵向钢筋等直径、等间距布置，且每排不少于4根，假定这些钢筋的截面变换为一钢带，其截面积为<i>A</i><sub>sw</sub>，钢带高度为<i>h</i><sub>s</sub>=<i>h</i><sub>0</sub>-<i>α '</i><sub>s</sub>。</p>
+<p style="text-align:justify;text-indent:2em;" > 根据<a href="https://jtg-3362.readthedocs.io/zh/latest/05.html#id5.1.3">第5.1.3条</a>、<a href="https://jtg-3362.readthedocs.io/zh/latest/05.html#id5.1.4">第5.1.4条</a>和<a href="https://jtg-3362.readthedocs.io/zh/latest/05.html#id5.1.5">第5.1.5条</a>的基本假定，可作出此类构件的计算简图，如<a href="#figt5.4">图5-4</a>所示。</p>
+ <div align="center"><img id="figt5.4" src="../_static/fig/T5.4.png" alt="Picture" width="400px"></div>
+ <p style="color: dimgray;text-align: center;">图 5-4 沿截面高度均匀配筋的偏压构件承载力计算</p>
+ <script type="text/javascript">var viewer = new Viewer(document.getElementById('figt5.4'));</script>
+<p style="text-align:justify;text-indent:2em;" > 设均匀配置的钢筋(钢带)应变到达屈服时的纤维距中性轴的距离为<math xmlns="http://www.w3.org/1998/Math/MathML" ><msub><mi>β</mi><mrow><mrow><mi mathvariant="normal">c</mi></mrow></mrow></msub><mi>x</mi><mrow><mo>/</mo></mrow><mi>β</mi></math>，则由<a href="#figt5.4">图5-4</a>可得：</p><p>$$\dfrac{f_{\mathrm{sw} }/E_{\mathrm{s} }}{\varepsilon _{\mathrm{cu} }}=\dfrac{\beta_{\mathrm{c} }x/\beta}{x/\beta}=\beta_{\mathrm{c}}\tag{5-10}$$
+$$\beta_{\mathrm{c}}=\dfrac{f_{\mathrm{sw} }/E_{\mathrm{s} }}{\varepsilon _{\mathrm{cu} }}\tag{5-11}$$</p>
+<p style="text-align:justify;text-indent:2em;" > <i>β</i><sub>c</sub>与钢筋种类有关，当均匀配置的钢筋种类选定后，<i>β</i><sub>c</sub>为一定值。对常用的钢筋可近似地取<i>β</i><sub>c</sub>=0.4,这对构件承载力影响不大。钢筋混凝土构件，混凝土强度等级一般不大于C50,所以<i>β</i>可取为0.8。</p>
+<p style="text-align:justify;text-indent:2em;" > 当<i>ξ</i>≤<i>ξ</i><sub>b</sub>按大偏心受压计算得：</p><p>$$轴向力\qquad N_{\mathrm{sw} }=\left(1+\dfrac{\xi-\beta}{0.5\beta\omega }\right)f_{\mathrm{sw} }A_{\mathrm{sw} }$$
+$$弯矩\quad M_{\mathrm{sw} }=\left[0.5-\dfrac{(\xi-\beta)^{2}+\dfrac{1}{3}(\beta_{c}\xi)^{2}}{(\beta\omega)^{2} }\right]f_{\mathrm{sw} }A_{\mathrm{sw} }h_{\mathrm{sw} }$$</p>
+<p style="text-align:justify;text-indent:2em;" > 当<i>ξ</i>><i>ξ</i><sub>b</sub>，按小偏心受压计算得：：</p><p>$$轴向力\qquad N_{\mathrm{sw} }=\left\{1-\dfrac{[\beta-(1-\beta_{\mathrm{c}})\xi]^{2}}{1.6\omega \beta_{\mathrm{c}}\xi}\right\}f_{\mathrm{sw} }A_{\mathrm{sw} }$$
+$$弯矩\quad M_{\mathrm{sw} }=\left\{0.5-\dfrac{[\beta-(1-\beta_{\mathrm{c}})\xi]^{3}}{3.85\omega ^{2}\beta_{\mathrm{c}}\xi}\right\}f_{\mathrm{sw} }A_{\mathrm{sw} }h_{\mathrm{sw} }$$</p>
+<p style="text-align:justify;text-indent:2em;" > 将上面按平截面假定写出的均匀配筋承载力<i>N</i><sub>sw</sub>、<i>M</i><sub>sw</sub>的表达式分别用直线及二次曲线近似地拟合，同时把<i>β</i><sub>c</sub>=0.4代入，得到：</p><p>$$N_{\mathrm{sw} }=\left(1+\dfrac{\xi-\beta}{0.5\beta\omega }\right)f_{\mathrm{sw} }A_{\mathrm{sw} }$$
+$$M_{\mathrm{sw} }=\left[0.5-\left(\dfrac{\xi-\beta}{\beta\omega }\right)^{2}\right]f_{\mathrm{sw} }A_{\mathrm{sw} }h_{\mathrm{sw} }$$</p>
+<p style="text-align:justify;text-indent:2em;" > 最后将两部分承载力相加：</p><p>$$\sum N=N_{\mathrm{cs} }+N_{\mathrm{sw} }$$
+$$\sum M=N_{\mathrm{d} }e+M_{\mathrm{sw} }$$</p>
+<p style="text-align:justify;text-indent:2em;" > 上式<i>N</i><sub>sw</sub>为负值时表示受拉，正值时表示受压；<i>M</i><sub>sw</sub>为负值时与<i>N</i><sub>de</sub>同向，正值时与<i>N</i><sub>de</sub>反向。</p>
+<p style="text-align:justify"><a href="#idt5.3.8"> 5.3.8</a> <span id="idt5.3.8"> 为简化圆形截面偏压构件的承载力计算方法，参照现行《混凝土结构设计规范》(GB50010)(简称《规范GB50010》)的规定，对原规范计算公式进行了修改。与原规范相比，两者公式推导的基本原理是一致的，不同的简化处理方法，导致不同的表达式，两者的计算结果非常接近。应用本条公式时，对α进行试算和迭代，可确定正截面承载力。</span></p>
+<p style="text-align:justify"><a href="#idt5.3.9"> 5.3.9</a> <span id="idt5.3.9"> 长细比较大的偏心受压构件，由于在竖向荷载作用下由构件挠曲引起的二阶弯矩，目前尚无简便的方法计算，因此，国内外规范大多采用偏心距增大系数<i>η</i>与构件计算长度<math xmlns="http://www.w3.org/1998/Math/MathML" ><msub><mi>l</mi><mrow><mn>0</mn></mrow></msub></math>相结合的方法进行简化计算来考虑二阶弯矩对截面承载力的影响。这种方法的基本思路是，先以两端铰支等偏心距的受压标准构件为基础，通过试验分析，给出标准构件中点截面偏心距增大系数<i>η</i>的表达式，然后再以计算长度<math xmlns="http://www.w3.org/1998/Math/MathML" ><msub><mi>l</mi><mrow><mn>0</mn></mrow></msub></math>来体现与不同杆端约束条件下各偏心受压构件相应的标准构件长度，也即用长度<math xmlns="http://www.w3.org/1998/Math/MathML" ><msub><mi>l</mi><mrow><mn>0</mn></mrow></msub></math>的标准构件算出的<i>η</i>值使能接近构件控制截面中二阶弯矩的实际情况。这种简化方法计算简便，但是近似的。其中<math xmlns="http://www.w3.org/1998/Math/MathML" ><msub><mi>l</mi><mrow><mn>0</mn></mrow></msub></math>只能根据工程经验和参照某些理论分析结果来确定。</span></p>
+<p style="text-align:justify;text-indent:2em;" > 在竖向荷载作用下，两端铰支且偏心距<i>e</i><sub>0</sub>相等的标准受压构件，其偏心距增大系数可按下式表示：</p><p>$$\eta=\dfrac{e_{0}+f_{\mathrm{max} }}{e_0}=1+\dfrac{f_{\mathrm{max} }}{e_0}\tag{5-12}$$</p>
+<p style="text-align:justify;text-indent:2em;" > 本条给出的<i>η</i>表达式是按极限曲率理论建立起来的。公式(5-12)中构件中点最大挠度<i>f</i><sub>max</sub>可用积分法求得：</p><p>$$f_{\mathrm{max} }=\dfrac{l_{0}^{2}}{\beta r_{c}}\tag{5-13}$$
+$$\eta=1+\dfrac{1}{e_{0}}\left(\dfrac{l_{0}^{2}}{\beta r_{c}}\right)\tag{5-14}$$</p>
+<p style="text-align:justify;text-indent:2em;" > 式中，<i>β</i>为与构件曲率分布有关的系数，当曲率分布符合正弦曲线时，<i>β</i>=<i>π</i><sup>2</sup>≈10；<math xmlns="http://www.w3.org/1998/Math/MathML"><mstyle displaystyle="true" scriptlevel="0"><mfrac><mn>1</mn><msub><mi>r</mi><mrow><mrow><mi mathvariant="normal">c</mi></mrow></mrow></msub></mfrac></mstyle></math>为控制截面的极限曲率，取决于控制截面上受拉钢筋和受压边缘混凝土的应变值。</p>
+<p style="text-align:justify;text-indent:2em;" > 试验表明，对大偏心受压构件，当构件达到承载力极限状态时，可近似地取界限受压状态时的极限曲率；当考虑长期荷载作用影响后，根据平截面假定可写为</p><p>$$\dfrac{1}{r_{\mathrm{c} }}=\dfrac{\phi \varepsilon _{\mathrm{cu} }+\varepsilon _{\mathrm{y} }}{h_{0}}\tag{5-15}$$</p>
+<table border="0" style="font-family:times new roman" id="gongshi">
+<tr>
+<td width="50px" align='center' id="eqzs">式中:</td>
+<td width="50px" align='right' id="eqzs"><i>ε</i><sub>cu</sub></td>
+<td width="40px" align='left' id="eqzs">——</td>
+<td id="eqzs">受压区边缘混凝土极限压应变，取<i>ε</i><sub>cu</sub>=0.0033;</td>
+</tr>
+<tr>
+<td id="eqzs"> </td>
+<td id="eqzs" align='right'><i>ε</i><sub>y</sub></td>
+<td id="eqzs">——</td>
+<td id="eqzs">受拉钢筋达到屈服强度时的应变，取与HRB400级钢筋抗拉强度标准值对应的应变，即<i>ε</i><sub>y</sub>=0.0020;</td>
+</tr>
+<tr>
+<td id="eqzs"> </td>
+<td id="eqzs" align='right'><i>φ</i></td>
+<td id="eqzs">——</td>
+<td id="eqzs">荷载长期作用下混凝土徐变引起的应变增大系数，取<i>φ</i>=1.25。</td>
+</tr>
+ </table>
+<p></p>
+
+<p style="text-align:justify;text-indent:2em;" > 在界限条件下，将荷载偏心率和长细比对曲率的影响(见后)分别用<i>ζ</i><sub>1</sub>、<i>ζ</i><sub>2</sub>表示，则</p><p>$$\eta=1+\dfrac{1}{e_{0}}\left(\dfrac{\phi \varepsilon _{\mathrm{cu} }+\varepsilon _{\mathrm{y} }}{h_{0}}\cdot\dfrac{l_{0}^{2}}{\beta}\right)\zeta _{1}\zeta _{2}\tag{5-16}$$</p>
+<p style="text-align:justify;text-indent:2em;" > 用上述具体数值代入，并让<math xmlns="http://www.w3.org/1998/Math/MathML" ><mi>h</mi><mo>≈</mo><mn>1.1</mn><msub><mi>h</mi><mrow><mn>0</mn></mrow></msub></math>，可以得到计算偏心受压构件<i>η</i>的公式：</p><p>$$\eta=1+\dfrac{1}{1300e_{0}/h_{0}}\left(\dfrac{l_{0}}{h}\right)^{2}\zeta _{1}\zeta _{2}\tag{5-17}$$</p>
+<p style="text-align:justify;text-indent:2em;" > 公式(5-17)中的<i>ζ</i><sub>1</sub>为截面曲率修正系数，主要取决于相对偏心率<i>e</i><sub>0</sub>/<i>h</i><sub>0</sub>，所以也称荷载偏心率对截面曲率的影响系数。前面已经说过，<i>η</i>的计算公式是在控制截面界限极限曲率的基础上建立起来的，大偏心受压构件符合这个前提。但对非界限条件的构件如小偏心受压构件，就不符合这个前提。在极限状态时，小偏心受压构件受拉钢筋的应力达不到屈服强度，受压区边缘混凝土的极限压应变也会随受压区高度的增大而有所减小，这样，截面曲率将随轴向压力的增大而减小。因此需要引入<i>ζ</i><sub>1</sub>进行修正。<i>ζ</i><sub>1</sub>的计算公式取自《GBJ10-89规范》,它是在<i>e</i><sub>0</sub>/<i>h</i><sub>0</sub>=0.3时基本不修正的情况下建立起来的。</p>
+<p style="text-align:justify;text-indent:2em;" > 公式(5-17)中的<i>ζ</i><sub>2</sub>是构件长细比对截面曲率的影响系数。试验表明，随着构件长细比的增大，构件达到极限状态时控制截面的曲率将减小。故此引人<math xmlns="http://www.w3.org/1998/Math/MathML" ><msub><mi>ζ</mi><mrow><mn>2</mn></mrow></msub><mo>=</mo><mn>1.15</mn><mo>−</mo><mn>0.01</mn><msub><mi>l</mi><mrow><mn>0</mn></mrow></msub><mrow><mo>/</mo></mrow><mi>h</mi></math>进行修正。该公式的适用范围为<math xmlns="http://www.w3.org/1998/Math/MathML" ><mn>15</mn><mo>⩽</mo><msub><mi>l</mi><mrow><mn>0</mn></mrow></msub><mrow><mo>/</mo></mrow><mi>h</mi><mo>⩽</mo><mn>30</mn></math>。当<math xmlns="http://www.w3.org/1998/Math/MathML" ><msub><mi>l</mi><mrow><mn>0</mn></mrow></msub><mrow><mo>/</mo></mrow><mi>h</mi><mo>&lt;</mo><mn>15</mn></math>时，影响不显著,无须修正，取<i>ζ</i><sub>2</sub>=1；当<math xmlns="http://www.w3.org/1998/Math/MathML" ><msub><mi>l</mi><mrow><mn>0</mn></mrow></msub><mrow><mo>/</mo></mrow><mi>h</mi><mo>&gt;</mo><mn>30</mn></math>时，构件已由材料破坏变为失稳破坏，不在考虑范围之内。当l。/h=30时，最小值<i>ζ</i><sub>2</sub>=0.85。</p>
+<p style="text-align:justify;text-indent:2em;" > 《桥规JTJ023-85》曾规定，当构件长细比。<math xmlns="http://www.w3.org/1998/Math/MathML" ><msub><mi>l</mi><mrow><mn>0</mn></mrow></msub><mrow><mo>/</mo></mrow><mi>i</mi><mo>&gt;</mo><mn>28</mn></math>(或l<math xmlns="http://www.w3.org/1998/Math/MathML" ><msub><mi>l</mi><mrow><mn>0</mn></mrow></msub><mrow><mo>/</mo></mrow><mi>h</mi><mo>&gt;</mo><mn>8</mn></math>)时，方考虑二阶弯矩的影响。参考工民建规范和国外有关规范以后，本规范不考虑二阶弯矩的界限条件沿用了原规范的<math xmlns="http://www.w3.org/1998/Math/MathML" ><msub><mi>l</mi><mrow><mn>0</mn></mrow></msub><mrow><mo>/</mo></mrow><mi>i</mi><mo>⩽</mo><mn>17.5</mn></math>(或<math xmlns="http://www.w3.org/1998/Math/MathML" ><msub><mi>l</mi><mrow><mn>0</mn></mrow></msub><mrow><mo>/</mo></mrow><mi>h</mi><mo>⩽</mo><mn>5.0</mn></math>)。</p>
+<p style="text-align:justify"><a href="#idt5.3.11"> 5.3.11</a> <span id="idt5.3.1"> 试验表明，双向偏心受压构件的破坏形态与单向偏心受压构件的破坏形态相似，所以单向偏心受压构件正截面承载力计算的基本假定也适用于双向偏心受压构件。但由于破坏时受压区的形状较为复杂，如用正截面承载力计算的基本假定来精确计算双向偏心受压构件的承载力，过程势必复杂繁琐。目前各国规范均采用近似的计算方法。本条双偏心受压构件抗压承载力的计算表达式，是尼克丁(N.V. Nikitin)根据材料力学的方法按单向偏心受压构件推导建立的，只用于截面承载力的复核验算。现就公式来源说 明如下：</span></p>
+<p style="text-align:justify;text-indent:2em;" > 设一承受轴向压力的构件，其截面极限轴心压力为<i>N</i><sub>u0</sub>时的压应力为<i>σ</i><sub>u0</sub>；偏心距为<i>e</i><sub>x</sub>、极限偏心压力为<i>N</i><sub>ux</sub>时的压应力为<i>σ</i><sub>ux</sub>；偏心距为<i>e</i><sub>y</sub>、极限偏心压力为<i>N</i><sub>uy</sub>时的压应力为<i>σ</i><sub>uy</sub>；双向偏心距为<i>e</i><sub>x</sub>和<i>e</i><sub>y</sub>、极限压力为<i>N</i><sub>uxy</sub>时的压应力为<i>σ</i><sub>uxy</sub>。如构件换算截面面积为<i>A</i><sub>0</sub>，<i>x</i>轴方向的换算截面抵抗矩为<i>W</i><sub>0x</sub>，<i>y</i>轴方向的换算截面抵抗矩为<i>W</i><sub>0y</sub>，则可得：</p><p>$$\sigma _{\mathrm{u0} }=N_{\mathrm{u0} }/A_{0}\tag{5-18}$$
+$$\sigma _{\mathrm{ux} }=N_{\mathrm{ux} }\left(\dfrac{1}{A_{0}}+\dfrac{e_{\mathrm{x} }}{W_{\mathrm{0x}}}\right)\tag{5-19}$$
+$$\sigma _{\mathrm{uy} }=N_{\mathrm{uy} }\left(\dfrac{1}{A_{0}}+\dfrac{e_{\mathrm{y} }}{W_{\mathrm{0y}}}\right)\tag{5-20}$$
+$$\sigma _{\mathrm{uxy} }=N_{\mathrm{uxy} }\left(\dfrac{1}{A_{0}}+\dfrac{e_{\mathrm{x} }}{W_{\mathrm{0x}}}+\dfrac{e_{\mathrm{y} }}{W_{\mathrm{0y}}}\right)\tag{5-21}$$
+$$\sigma _{\mathrm{u0} }=\sigma _{\mathrm{ux} }=\sigma _{\mathrm{uy} }=\sigma _{\mathrm{uxy} }$$</p>
+<p style="text-align:justify;text-indent:2em;" > 由公式(5-19):</p><p>$$\dfrac{e_{\mathrm{x} }}{W_{\mathrm{0x}}}=\dfrac{\sigma _{\mathrm{ux} }}{N_{\mathrm{ux}}}-\dfrac{1}{A_{0}}=\dfrac{\sigma _{\mathrm{u0} }}{N_{\mathrm{ux}}}-\dfrac{1}{A_{0}}=\dfrac{N_{\mathrm{u0} }}{A_{0}N_{\mathrm{ux}}}-\dfrac{1}{A_{0}}$$</p>
+<p style="text-align:justify;text-indent:2em;" > 由公式(5-20):</p><p>$$ \dfrac{e_{\mathrm{y} }}{W_{\mathrm{0y}}}=\dfrac{\sigma _{\mathrm{uy} }}{N_{\mathrm{uy}}}-\dfrac{1}{A_{0}}=\dfrac{\sigma _{\mathrm{u0} }}{N_{\mathrm{uy}}}-\dfrac{1}{A_{0}}=\dfrac{N_{\mathrm{u0} }}{A_{0}N_{\mathrm{uy}}}-\dfrac{1}{A_{0}}$$</p>
+<p style="text-align:justify;text-indent:2em;" > 将以上<math xmlns="http://www.w3.org/1998/Math/MathML"><mstyle displaystyle="true" scriptlevel="0"><mfrac><msub><mi>e</mi><mrow><mrow><mi mathvariant="normal">x</mi></mrow></mrow></msub><msub><mi>W</mi><mrow><mrow><mn>0</mn><mi mathvariant="normal">x</mi></mrow></mrow></msub></mfrac></mstyle><mo>、</mo><mstyle displaystyle="true" scriptlevel="0"><mfrac><msub><mi>e</mi><mrow><mrow><mi mathvariant="normal">y</mi></mrow></mrow></msub><msub><mi>W</mi><mrow><mrow><mn>0</mn><mi mathvariant="normal">y</mi></mrow></mrow></msub></mfrac></mstyle></math>代入公式(5-21),得：</p><p>$${\scriptsize \sigma _{\mathrm{uxy}}=N_{\mathrm{uxy}}\left(\dfrac{1}{A_{0}}+\dfrac{N_{\mathrm{u0}}}{A_{0}N_{\mathrm{ux}}}-\dfrac{1}{A_{0}}+\dfrac{N_{\mathrm{u0}}}{A_{0}N_{\mathrm{uy}}}-\dfrac{1}{A_{0}}\right)=\dfrac{N_{\mathrm{uxy}}}{A_{0}}\left(\dfrac{N_{\mathrm{u0}}}{N_{\mathrm{ux}}}+\dfrac{N_{\mathrm{u0}}}{N_{\mathrm{uy}}}-1\right)} \tag{5-22}$$</p>
+<p style="text-align:justify;text-indent:2em;" > 在公式(5-22)两边乘以 <i>A</i><sub>0</sub>，得：</p><p>$$\sigma _{\mathrm{uxy}}A_{0}=\sigma _{\mathrm{u0}}A_{0}=N_{\mathrm{u0}}=N_{\mathrm{uxy}}\left(\dfrac{N_{\mathrm{u0}}}{N_{\mathrm{ux}}}+\dfrac{N_{\mathrm{u0}}}{N_{\mathrm{uy}}}-1\right)\tag{5-23}$$</p>
+<p style="text-align:justify;text-indent:2em;" > 将公式(5-23)除以<i>N</i><sub>u0</sub>，得：</p><p>$$N_{\mathrm{uxy}}\left(\dfrac{1}{N_{\mathrm{ux}}}+\dfrac{1}{N_{\mathrm{uy}}}-\dfrac{1}{N_{\mathrm{u0}}}\right)=1移项后$$
+$$ \dfrac{1}{N_{\mathrm{uxy}}}=\dfrac{1}{N_{\mathrm{ux}}}+\dfrac{1}{N_{\mathrm{uy}}}-\dfrac{1}{N_{\mathrm{u0}}}$$</p>
+<p style="text-align:justify;text-indent:2em;" > <i>N</i><sub>uxy</sub>应大于或等于双向偏心荷载轴向力设计值<i>γ</i><sub>0</sub><i>N</i><sub>d</sub>，于是</p><p>$$\gamma_{0}N_{\mathrm{d} }\geqslant \dfrac{1}{N_{\mathrm{uxy}}}=\dfrac{1}{N_{\mathrm{ux}}}+\dfrac{1}{N_{\mathrm{uy}}}-\dfrac{1}{N_{\mathrm{u0}}}$$</p>
+<p style="text-align:justify;text-indent:2em;" > 移项即得本条公式(5.3.11):</p><p>$$\gamma_{0}N_{\mathrm{d} }\leqslant \dfrac{1}{\dfrac{1}{N_{\mathrm{ux}}}+\dfrac{1}{N_{\mathrm{uy}}}-\dfrac{1}{N_{\mathrm{u0}}}}\tag{5-24}$$</p>
+</section>
 <section id="id5">
 <h2>5.4  受拉构件<a class="headerlink" href="#id5" title="此标题的永久链接"></a></h2>
-<p style="text-align:justify"><a href="#idt5.4.3"> 5.4.3</a> <span id="idt5.4.3"> ~<a href="#idt5.4.4"> 5.4.4</a> <span id="idt5.4.4"> 这两条参照了现行《规范GB50010》的规定。</span></p></section>
+<p style="text-align:justify"><a href="#idt5.4.3"> 5.4.3</a> <span id="idt5.4.3"> ~<a href="#idt5.4.4"> 5.4.4</a> <span id="idt5.4.4"> 这两条参照了现行《规范GB50010》的规定。</span></p>
+<p style="text-align:justify;text-indent:2em;" > 对沿周边均匀配置纵向钢筋的圆形截面钢筋混凝土偏心受拉构件，其正截面承载力基本符合<math xmlns="http://www.w3.org/1998/Math/MathML"><mstyle displaystyle="true" scriptlevel="0"><mfrac><msub><mi>N</mi><mrow><mrow><mi mathvariant="normal">d</mi></mrow></mrow></msub><msub><mi>N</mi><mrow><mrow><mi mathvariant="normal">u</mi><mi mathvariant="normal">d</mi></mrow></mrow></msub></mfrac></mstyle><mo>+</mo><mstyle displaystyle="true" scriptlevel="0"><mfrac><msub><mi>M</mi><mrow><mrow><mi mathvariant="normal">d</mi></mrow></mrow></msub><msub><mi>M</mi><mrow><mrow><mi mathvariant="normal">u</mi><mi mathvariant="normal">d</mi></mrow></mrow></msub></mfrac></mstyle><mo>=</mo><mn>1</mn></math>的变化规律，且略偏于安全；此公式改写后即为公式(5.4.4),试验表明：它也适用于对称配 筋矩形截面钢 筋混凝土双向偏心受拉构件。将<math xmlns="http://www.w3.org/1998/Math/MathML"><mstyle displaystyle="true" scriptlevel="0"><mfrac><msub><mi>e</mi><mrow><mn>0</mn></mrow></msub><msub><mi>M</mi><mrow><mrow><mi mathvariant="normal">u</mi><mi mathvariant="normal">d</mi></mrow></mrow></msub></mfrac></mstyle><mo>=</mo><msqrt><mrow data-mjx-texclass="INNER"><mo data-mjx-texclass="OPEN">(</mo><msup><mstyle displaystyle="true" scriptlevel="0"><mfrac><msub><mi>e</mi><mrow><mrow><mn>0</mn><mi mathvariant="normal">x</mi></mrow></mrow></msub><msub><mi>M</mi><mrow><mrow><mi mathvariant="normal">u</mi><mi mathvariant="normal">x</mi></mrow></mrow></msub></mfrac></mstyle><mrow><mn>2</mn></mrow></msup><mo>+</mo><msup><mstyle displaystyle="true" scriptlevel="0"><mfrac><msub><mi>e</mi><mrow><mrow><mn>0</mn><mi mathvariant="normal">y</mi></mrow></mrow></msub><msub><mi>M</mi><mrow><mrow><mi mathvariant="normal">u</mi><mi mathvariant="normal">y</mi></mrow></mrow></msub></mfrac></mstyle><mrow><mn>2</mn></mrow></msup><mo data-mjx-texclass="CLOSE">)</mo></mrow></msqrt></math>代入公式(5.4.4),获得公式(5.4.3)。</p></section>
 <section id="id6">
 <h2>5.5 受扭构件<a class="headerlink" href="#id6" title="此标题的永久链接"></a></h2>
-<p style="text-align:justify"><a href="#idt5.5.1"> 5.5.1</a> <span id="idt5.5.1"> </span></p>
-<p style="text-align:justify"><a href="#idt5.5.2"> 5.5.2</a> <span id="idt5.5.2"> </span></p>
-<p style="text-align:justify"><a href="#idt5.5.3"> 5.5.3</a> <span id="idt5.5.3"> </span></p>
-<p style="text-align:justify"><a href="#idt5.5.4"> 5.5.4</a> <span id="idt5.5.4"> </span></p>
-<p style="text-align:justify"><a href="#idt5.5.5"> 5.5.5</a> <span id="idt5.5.5"> </span></p>
-<p style="text-align:justify"><a href="#idt5.5.6"> 5.5.6</a> <span id="idt5.5.6"> </span></p></section>
+<p style="text-align:justify"><a href="#idt5.5.1"> 5.5.1</a> <span id="idt5.5.1"> 矩形截面纯扭构件极限扭矩的计算，目前有变角度空间桁架和斜弯曲两种计算理论和模型。箱形截面当其壁厚与相应壁高(或壁宽)之比达到一定数值后，也可与矩形截面一样计算。按照上述两种理论计算可以得出相同的极限扭矩：</span></p><p>$$T_{\mathrm{u} }=2\sqrt{\zeta}\dfrac{f_{\mathrm{sv}}A_{\mathrm{sv1}}A_{\mathrm{cor}}}{S_{\mathrm{v}}}\tag{5-25}$$</p>
+<p style="text-align:justify;text-indent:2em;" > 式中参数<i>ζ</i>是受扭的纵向钢筋与箍筋的配筋强度比，等于</p><p>$$\zeta=\dfrac{f_{\mathrm{sd}}A_{\mathrm{st}}S_{\mathrm{v}}}{f_{\mathrm{sv}}A_{\mathrm{sv1}}U_{\mathrm{cor}}}\tag{5-26}$$</p>
+<p style="text-align:justify;text-indent:2em;" > <i>ζ</i>具有表征受扭构件破坏裂缝与构件纵轴线倾角α的几何意义。《桥规JTJ023-85》假定α一般呈现约 45°，而变角度空间桁架计算模型取斜压杆倾角α并非定值45°，按下列公式计</p><p>$$\tan\alpha =\sqrt{\dfrac{1}{\zeta }}=\sqrt{\dfrac{f_{\mathrm{sv}}A_{\mathrm{sv1}}U_{\mathrm{cor}}}{f_{\mathrm{sd}}A_{\mathrm{st}}S_{\mathrm{v}}}}\tag{5-27}$$</p>
+<p style="text-align:justify;text-indent:2em;" > 当α=45°时，<i>ζ</i>=1，则由公式(5-26)得：</p><p>$$\dfrac{f_{\mathrm{sv}}A_{\mathrm{sv1}}}{S_{\mathrm{v}}}=\dfrac{f_{\mathrm{sv}}A_{\mathrm{st}}}{U_{\mathrm{cor}}}$$</p>
+<p style="text-align:justify;text-indent:2em;" > 将和上面的关系代入公式(5-25),可得如下两种形式：</p><p>$$T_{\mathrm{u} }=2\dfrac{f_{\mathrm{sv}}A_{\mathrm{sv1}}A_{\mathrm{cor} }}{S_{\mathrm{v} }}\tag{5-28}$$
+$$T_{\mathrm{u} }=2\dfrac{f_{\mathrm{sd}}A_{\mathrm{st}}A_{\mathrm{cor} }}{U_{\mathrm{cor} }}\tag{5-29}$$</p>
+<p style="text-align:justify;text-indent:2em;" > 将符号换为《桥规JTJ023-85》的符号，公式(5-28)、(5-29)就是《桥规JTJ023-85》第4.1.23条公式(4.1.23-1)、(4.1.23-2)。也就是说，《桥规JTJ023-85》矩形截面纯扭构件极限扭矩的计算公式，是按α=45°、<i>ζ</i>=1的假定推导出来的。但《桥规 JTJ023-85》和公式(5-25)均未考虑混凝土的抗扭作用。</p>
+<p style="text-align:justify;text-indent:2em;" > 试验表明，《桥规JTJ023-85》的计算公式，当构件的配筋率较低时，由于没有考虑混凝土的抗扭作用，偏于保守；当配筋率较高时，由于纵向钢筋和箍筋不能同时屈服，计算值又偏高。因此需要对《桥规 JTJ023-85》的计算公式作必要的修正。除了上述螺旋形破坏裂缝的倾角α进行修正外，不少学者认为极限扭矩的计算公式中还应反映试验中观测到的混凝土强度的影响，建议采用如下的计算模式：</p><p>$$T_{\mathrm{u} }=T_{\mathrm{c} }+\alpha _{\mathrm{t} }\dfrac{f_{\mathrm{sv}}A_{\mathrm{sv1}}A_{\mathrm{cor} }}{S_{\mathrm{v} }}\tag{5-30}$$</p>
+<p style="text-align:justify;text-indent:2em;" > 公式右边第一项<i>T</i><sub>c</sub>为混凝土的抗扭承载力，第二项为钢筋的抗扭承载力。本条所列公式(5.5.1-1)的这两项均取自国家标准《GBJ10-89规范》,反映混凝土抗扭的第一项取开裂扭矩<i>T</i><sub>cr</sub>（取 0.7<i>f</i><sub>td</sub><i>W</i><sub>t</sub>的50%），而第二项反映钢筋抗扭作用的系数<i>α</i><sub>t</sub>，取1.2<math xmlns="http://www.w3.org/1998/Math/MathML" ><msqrt><mi>ζ</mi></msqrt></math>。总的抗扭能力取试验数据的偏下值。试验表明，当式中的<i>ζ</i>值在 0.5~2.0 范围时，钢筋混凝土构件破坏时纵向钢筋和箍筋基本上能同时屈服，为稳妥起见，取限制条件0.6≤<i>ζ</i>≤1.7。<i>ζ</i>=1.2左右为钢筋达到屈服的最佳值。因截面内力平衡的需要，不对称布置的纵向钢筋在计算中只取对称布置的纵向钢筋截面面积。</p>
+<p style="text-align:justify;text-indent:2em;" > 对钢筋混凝土箱形截面纯扭构件承载力的计算，本规范参照国外规范，其第一项混凝土抗扭承载力乘以<i>β</i><sub>α</sub>(取<math xmlns="http://www.w3.org/1998/Math/MathML" ><mn>4</mn><mstyle displaystyle="true" scriptlevel="0"><mfrac><msub><mi>t</mi><mn>2</mn></msub><mi>b</mi></mfrac></mstyle></math>或<math xmlns="http://www.w3.org/1998/Math/MathML" ><mn>4</mn><mstyle displaystyle="true" scriptlevel="0"><mfrac><msub><mi>t</mi><mn>1</mn></msub><mi>h</mi></mfrac></mstyle></math>方两者较小值，并不大于1)予以折减。</p>
+<p style="text-align:justify;text-indent:2em;" > 预应力混凝土纯扭构件的试验表明，预应力提高抗扭承载力的前提是纵向钢筋不能屈服，当预加力产生的混凝土法向应力不超出规定的限值时，纯扭构件抗扭承载力可提高 <math xmlns="http://www.w3.org/1998/Math/MathML" ><mn>0.08</mn><mstyle displaystyle="true" scriptlevel="0"><mfrac><msub><mi>N</mi><mrow><mrow><mi mathvariant="normal">p</mi><mn>0</mn></mrow></mrow></msub><msub><mi>A</mi><mn>0</mn></msub></mfrac></mstyle><msub><mi>W</mi><mrow><mrow><mi mathvariant="normal">t</mi></mrow></mrow></msub></math>。考虑到实际上应力分布不均匀等不利影响，规范只取提高值<math xmlns="http://www.w3.org/1998/Math/MathML" ><mn>0.05</mn><mstyle displaystyle="true" scriptlevel="0"><mfrac><msub><mi>N</mi><mrow><mrow><mi mathvariant="normal">p</mi><mn>0</mn></mrow></mrow></msub><msub><mi>A</mi><mn>0</mn></msub></mfrac></mstyle><msub><mi>W</mi><mrow><mrow><mi mathvariant="normal">t</mi></mrow></mrow></msub></math>，且 仅限于偏心距<i>e</i><sub>p0</sub>≤<i>h</i>/6的情况。在计算<i>ζ</i>时，不考虑预应力钢筋的作用。</p>
+<p style="text-align:justify;text-indent:2em;" > 试验还表明，预应力承载力的有利作用应有所限制，故此当<i>N</i><sub>p0</sub>>0.3<i>f</i><sub>cd</sub><i>A</i><sub>0</sub>。时，应取<i>N</i><sub>p0</sub>=0.3<i>f</i><sub>cd</sub><i>A</i><sub>0</sub>。</p>
+<p style="text-align:justify;text-indent:2em;" > 在扭矩作用下的钢筋混凝土结构或构件，若扭矩系由荷载直接引起，并可由静力平衡条件求得，一般称为平衡扭转；若扭矩系由结构或相邻构件间的转动受到约束所引起，并由转动变形的连续条件所决定，一般称为协调扭转或附加扭转。由于后者的连续变形可引起内力重分布，对设计的扭矩起到折减作用。本节规定的抗扭计算公式均未考虑协调扭矩或附加扭矩，也即本规范有关受扭构件的计算仅适用于平衡扭转。</p>
+
+<p style="text-align:justify"><a href="#idt5.5.2"> 5.5.2</a> <span id="idt5.5.2"> 本条公式(5.5.2-1)是假定钢筋混凝土构件矩形截面进入全塑性状态时，出现与截面各边成45°剪应力界限分布区，形成的剪力流<i>τ</i><sub>t</sub>对截面的扭转中心取矩导得的。由平衡条件可得(<a href="#figt5.5">图5-5</a>):</span></p><p>$${\small T=\left\{2\dfrac{b}{2}(h-b)\dfrac{b}{4}+4\dfrac{b}{2}\dfrac{b}{2}\dfrac{1}{2}\dfrac{b}{3}+2\dfrac{b}{2}\dfrac{b}{2}\left[\dfrac{2}{3}\dfrac{b}{2}+\dfrac{1}{2}(h-b)\right]\right\}\tau_{T}=\dfrac{b^{2}}{6}(3h-6)\tau_{T}} $$
+$$W_{\mathrm{t}}=\dfrac{b^{2}}{6}(3h-6)\tag{5-31}$$</p>
+<p style="text-align:justify;text-indent:2em;" > 箱形截面的受扭塑性抵抗矩，按上述公式计算实心矩形截面与箱室空心矩形截面之差。</p>
+
+<p style="text-align:justify"><a href="#idt5.5.3"> 5.5.3</a> <span id="idt5.5.3"> 试验表明，受扭构件当抗扭钢筋配置过多时，可能出现混凝土被压坏而钢筋达不到屈服强度，必须限制截面的最小尺寸。也就是使截面混凝土剪应力不超过某一限值，类似构件斜截面抗剪承载力计算时的上限值。对弯剪扭构件，由于其受力的复杂性，目前只能将扭矩产生的剪应力与弯剪产生的剪应力叠加起来，使其总和不超过混凝土强度的规定限值。本条规定的限值基本维持《桥规 JTJ023-85》的水平。在设计中，当由剪扭产生的剪应力超过规范公式(5.5.3-1)规定的限值时，就应修改构件截面尺寸或提高混凝土强度等级。</span></p>
+
+ <div align="center"><img id="figt5.5" src="../_static/fig/T5.5.png" alt="Picture" width="150px"></div>
+ <p style="color: dimgray;text-align: center;">图 5-5 剪力流分布图</p>
+ <script type="text/javascript">var viewer = new Viewer(document.getElementById('figt5.5'));</script>
+
+<p style="text-align:justify;text-indent:2em;" > 本条公式(5.5.3-2)类似于构件斜截面抗剪计算的下限值，按该公式计算并满足限值的要求时，构件可不配置抗扭钢筋。但为了防止脆断和保证构件破坏时具有一定延性，仍应按本规范第9.3.13条构造要求配筋。公式(5.5.3-2)规定限值与《桥规JTJ023-85》相近。</p>
+
+<p style="text-align:justify"><a href="#idt5.5.4"> 5.5.4</a> <span id="idt5.5.4"> 目前钢筋混凝土剪扭构件的承载力一般按受扭构件承载力和受剪构件承载力分别进行计算，然后叠加起来。但是共同承受剪扭的构件，其剪力和扭矩对构件内的混凝土和箍筋均有一定影响。如果采取简单地叠加，对箍筋和混凝土尤其是混凝土是偏于不安全的。试验表明，构件在剪扭共同作用下，其截面的某一受压区域内承受剪切和扭转应力的双重作用，这必将降低构件内混凝土的抗剪和抗扭能力。由于受扭构件受力情况比较复杂，目前采取箍筋所承担的承载力进行简单叠加，而混凝土的承载力则在受剪构件和受扭构件承载力的计算公式中均引入一个剪扭构件混凝土承载力的降低系数<i>β</i><sub>t</sub>。本规范计算<i>β</i><sub>t</sub>，的公式(5.5.4-3)取自《GBJ10-89规范》,它是根据剪扭构件计算所得的剪扭承载力相关曲线接近于按试验所得的剪扭相关曲线，并进行适当简化而得的，现说明如下：</span></p>
+
+<p style="text-align:justify;text-indent:2em;" > 无腹筋和有腹筋的剪扭构件试验研究后认为，剪扭构件中其混凝土所能承受的强度，若以(<i>T</i><sub>c</sub>/<i>T</i><sub>co</sub>，<i>V</i><sub>c</sub>/<i>V</i><sub>co</sub>)为无量纲坐标，其剪扭试验值的相关曲线接近于 1/4圆的规律性，由此可画出剪扭构件混凝土强度相关关系，如<a href="#figt5.6">图5-6</a>。上述<i>T</i><sub>c</sub>和<i>V</i><sub>c</sub>为有腹筋剪扭构件中混凝土所能承受的抗扭和抗剪强度；<i>T</i><sub>co</sub>和<i>V</i><sub>co</sub>为有腹筋纯扭构件中和有腹筋受弯构件中混凝土所能承受的抗扭强度和抗剪强度。为简化计算，将在<a href="#figt5.6">图5-6</a>中1/4圆曲线 EF近似地以EG、GH、HF三折线来代替，将GH延长交于坐标轴C及D,并取∠OCD=45°,则CE=DF=b。</p>
+
+<p style="text-align:justify;text-indent:2em;" > 由△<i>AA'C</i>可得：</p><p>$$ \dfrac{\dfrac{V_{\mathrm{c}}}{V_{\mathrm{co}}}}{1+b-\dfrac{T_{\mathrm{c}}}{T_{\mathrm{co}}}}=1$$
+$$\hspace{-7cm}则\hspace{6cm}V_{\mathrm{c}}=1+b-\dfrac{T_{\mathrm{c}}}{T_{\mathrm{co}}}\tag{5-32}$$</p>
+ <div align="center"><img id="figt5.6" src="../_static/fig/T5.6.png" alt="Picture" width="300px"></div>
+ <p style="color: dimgray;text-align: center;">图 5-6 剪扭构件混凝土强度相关关系</p>
+ <script type="text/javascript">var viewer = new Viewer(document.getElementById('figt5.6'));</script>
+
+
+<p style="text-align:justify;text-indent:2em;" > 又因△<i>OAA"</i>≈△<i>OBB"</i>，得</p><p>$$\dfrac{\dfrac{V_{\mathrm{c}}}{V_{\mathrm{co}}}}{\dfrac{V_{\mathrm{d}}}{V_{\mathrm{co}}}}=\dfrac{\dfrac{T_{\mathrm{c}}}{T_{\mathrm{co}}}}{\dfrac{T_{\mathrm{d}}}{T_{\mathrm{co}}}}$$
+$$\dfrac{V_{\mathrm{c}}}{V_{\mathrm{d}}}=\dfrac{T_{\mathrm{c}}}{T_{\mathrm{d}}}\tag{5-33}$$</p>
+<p style="text-align:justify;text-indent:2em;" > 将式(5-32)代入式(5-33),得</p><p>$$\dfrac{T_{\mathrm{c}}}{T_{\mathrm{d}}}=\left[1+b-\dfrac{T_{\mathrm{c}}}{T_{\mathrm{co}}}\right]\dfrac{V_{\mathrm{co}}}{V_{\mathrm{d}}}$$
+$$T_{\mathrm{c}}=\dfrac{(1+b)V_{\mathrm{co} }}{\dfrac{V_{\mathrm{d}}}{T_{\mathrm{d}}}+\dfrac{V_{\mathrm{co}}}{T_{\mathrm{co}}}}\tag{5-34}$$</p>
+<p style="text-align:justify;text-indent:2em;" > 将式(5-32)代入式(5-33),得</p><p>$$V_{\mathrm{c}}=\left[(1+b)-\dfrac{1+b}{\dfrac{V_{\mathrm{d}}}{T_{\mathrm{d}}}+\dfrac{V_{\mathrm{co}}}{T_{\mathrm{co}}}}\dfrac{V_{\mathrm{co}}}{T_{\mathrm{co}}}\right]V_{\mathrm{co}}=\left[(1+b)-\dfrac{1+b}{1+\dfrac{V_{\mathrm{d}}}{T_{\mathrm{d}}}\dfrac{V_{\mathrm{co}}}{T_{\mathrm{co}}}}\right]V_{\mathrm{co}}$$
+$$\hspace{-6cm}令\hspace{6cm} \beta_{\mathrm{t}}=\dfrac{1+b}{1+\dfrac{V_{\mathrm{d}}}{T_{\mathrm{d}}}\dfrac{T_{\mathrm{co}}}{V_{\mathrm{co}}}}\tag{5-35}$$
+$$V_{\mathrm{c}}=(1+b-\beta_{\mathrm{t}})V_{\mathrm{co}}\tag{5-36}$$</p>
+<p style="text-align:justify;text-indent:2em;" > 由式(5-34)可导出：</p><p>$$\hspace{-5cm}则\hspace{5cm} T_{\mathrm{c}}=\dfrac{1+b}{1+\dfrac{V_{\mathrm{d}}}{T_{\mathrm{d}}}\dfrac{T_{\mathrm{co}}}{V_{\mathrm{co}}}}T_{\mathrm{co}}=\beta _{\mathrm{t}}T_{\mathrm{co}}\tag{5-37}$$</p>
+<p style="text-align:justify;text-indent:2em;" > 取公式(5-36)、(5-37)中 <i>b</i>=0.5，可算出<math xmlns="http://www.w3.org/1998/Math/MathML" ><mstyle displaystyle="true" scriptlevel="0"><mfrac><msub><mi>V</mi><mrow><mrow><mi mathvariant="normal">d</mi></mrow></mrow></msub><msub><mi>V</mi><mrow><mn>0</mn></mrow></msub></mfrac></mstyle><mo>∼</mo><mstyle displaystyle="true" scriptlevel="0"><mfrac><msub><mi>T</mi><mrow><mrow><mi mathvariant="normal">d</mi></mrow></mrow></msub><msub><mi>T</mi><mrow><mn>0</mn></mrow></msub></mfrac></mstyle></math>相关曲线与试验所得相关曲线吻合最好。此处<i>V</i><sub>d</sub>和<i>T</i><sub>d</sub>为有腹筋剪扭构件的抗剪和抗扭荷载设计值；<i>V</i><sub>0</sub>和<i>T</i><sub>0</sub>。为有腹筋受弯构件所能承受的抗剪和纯扭构件所能承受的抗扭强度。</p>
+
+<p style="text-align:justify;text-indent:2em;" > 《GBJ 10-89 规范》对有腹筋受弯构件混凝土的抗剪强度取<i>V</i><sub>co</sub>=0.07<i>f</i><sub>c</sub><i>bh</i><sub>0</sub>(<i>f</i><sub>c</sub>相当于本规范的<i>f</i><sub>cd</sub>);对有腹筋纯扭构件混凝土的抗扭强度取<i>T</i><sub>co</sub>=0.35<i>f</i><sub>t</sub><i>W</i><sub>t</sub>(<i>f</i><sub>t</sub>相当于本规范的<i>f</i><sub>td</sub>)，并<i>f</i><sub>t</sub>≈0.1<i>f</i><sub>c</sub>，<i>b</i>=0.5,代入公式(5-35),得</p><p>$$\beta_{\mathrm{t}}=\dfrac{1.5}{1+0.5\dfrac{V_{\mathrm{d}}}{T_{\mathrm{d}}}\dfrac{W_{\mathrm{t}}}{bh_{0}}}\tag{5-38}$$</p>
+<p style="text-align:justify;text-indent:2em;" > 对预应力混凝土构件，混凝土抗扭承载力的降低系数β<i>β</i><sub>t</sub>可不计预应力影响。</p>
+<p style="text-align:justify;text-indent:2em;" > 将<i>β</i><sub>t</sub>分别代人公式(5-36)和(5-37),得</p><p>$$ V_{\mathrm{c} }=0.07(1.5-\beta_{\mathrm{t} })f_{\mathrm{c} }bh_{0}\tag{5-39}$$
+$$ T_{\mathrm{c} }=0.35\beta_{\mathrm{t} }f_{\mathrm{t} }W_{\mathrm{t} }\tag{5-40}$$</p>
+<p style="text-align:justify;text-indent:2em;" > 这就是《GBJ10-89规范》有腹筋剪扭构件混凝土的抗剪和抗扭承载力的计算公式(箍筋抗剪和抗扭承载力取与受弯构件抗剪和纯扭构件抗扭相同)。本规范对剪扭构件承载力未作专门研究，其中抗扭承载力录自该规范；但剪扭构件中以受弯构件为基础的抗剪承载力，本规范长期以来一向采用两项积(混凝土和箍筋共同抗剪，不分项计算)公式，不能直接套用《GBJ 10-89规范》只对混凝土项进行折减的公式，需作适当调整。经对各种构件的计算比较，将剪扭构件抗剪折减系数由(1.5-<i>β</i><sub>t</sub>)改为(10-2<i>β</i><sub>t</sub>)/20，使本规范按总抗剪值折减的降低值占总抗剪值的百分数，与《GBJ 10-89规范》按混凝土抗剪值折减的降低值占总抗剪值的百分数大致接近。</p>
+<p style="text-align:justify"><a href="#idt5.5.5"> 5.5.5</a> <span id="idt5.5.5"> T形、工形和带翼缘箱形截面的钢筋混凝土受扭构件，在承载力的计算中可将其截面划分为几个矩形截面。划分的原则是：先按截面总高度划出腹板或矩形箱体，然后再划出受压翼缘和受拉翼缘。T形或I形截面受纯扭构件的试验表明，破坏时第一条斜裂缝首先出现在腹板侧面中部，当腹板宽度大于翼缘厚度时，如将悬出翼缘部分去掉，可看出腹板侧面裂缝与顶面裂缝基本相连，形成了断断续续、相互贯通的螺旋形斜裂缝，也即腹板裂缝的形成受翼缘的影响不大，其自身具有独立性。依此，可将腹板和翼缘分开分别进行抗扭计算。划分出的腹板或矩形箱体按剪扭构件计算；受压翼缘和受拉翼缘不考虑受剪仅按纯扭构件计算。试验同时表明，对于配有闭合式箍筋的翼缘，其截面抗扭承载力是随翼缘悬出部分的增加而提高。但悬出部分过大，翼缘与腹板连接时整体刚度减弱，同时受弯变形后翼缘易于断裂，因此，翼缘的抗扭作用因悬出部分过大反而显著降低。本规范取悬出长度不超过其厚度的3倍。每个矩形基本单元体所承受的扭矩设计值，按其截面受扭塑性抵抗矩与总截面的受扭塑性抵抗矩的比值从构件总扭矩中分担。</span></p>
+
+<p style="text-align:justify;text-indent:2em;" > 受压翼缘受扭塑性抵抗矩的计算公式<math xmlns="http://www.w3.org/1998/Math/MathML"><msubsup><mi>W</mi><mrow><mrow><mi mathvariant="normal">t</mi><mi mathvariant="normal">f</mi></mrow></mrow><mrow><msup><mi></mi><mo>′</mo></msup></mrow></msubsup><mo>=</mo><mstyle displaystyle="true" scriptlevel="0"><mfrac><msubsup><mi>h</mi><mrow><mrow><mi mathvariant="normal">f</mi></mrow></mrow><mrow><msup><mi></mi><mo>′</mo></msup><mn>2</mn></mrow></msubsup><mn>2</mn></mfrac></mstyle><mo stretchy="false">(</mo><msubsup><mi>b</mi><mrow><mrow><mi mathvariant="normal">f</mi></mrow></mrow><mrow><msup><mi></mi><mo>′</mo></msup></mrow></msubsup><mo>−</mo><mi>b</mi><mo stretchy="false">)</mo></math>作如下说明：按本规范公式(5.5.2-1)，矩形截面受扭塑性抵抗矩为<math xmlns="http://www.w3.org/1998/Math/MathML" ><msub><mi>W</mi><mrow><mrow><mi mathvariant="normal">t</mi></mrow></mrow></msub><mo>=</mo><mstyle displaystyle="true" scriptlevel="0"><mfrac><msup><mi>b</mi><mrow><mn>2</mn></mrow></msup><mn>6</mn></mfrac></mstyle><mo stretchy="false">(</mo><mn>3</mn><mi>h</mi><mo>−</mo><mi>b</mi><mo stretchy="false">)</mo></math>，该式可写为<math xmlns="http://www.w3.org/1998/Math/MathML" ><mi>a</mi><msup><mi>b</mi><mrow><mn>2</mn></mrow></msup><mi>h</mi></math>，<math xmlns="http://www.w3.org/1998/Math/MathML" ><mi>a</mi><mo>=</mo><mstyle displaystyle="true" scriptlevel="0"><mfrac><mn>1</mn><mn>6</mn></mfrac></mstyle><mo stretchy="false">(</mo><mn>3</mn><mo>−</mo><mstyle displaystyle="true" scriptlevel="0"><mfrac><mi>b</mi><mi>h</mi></mfrac></mstyle><mo stretchy="false">)</mo></math>，<i>α</i>为与截面短边<i>b</i>对长边<math xmlns="http://www.w3.org/1998/Math/MathML" ><mi>l</mi></math>的比值有关的系数，翼缘截面狭长，对全塑性材料，可令<math xmlns="http://www.w3.org/1998/Math/MathML" ><mi>b</mi><mrow><mo>/</mo></mrow><mi>h</mi><mo>=</mo><mn>0</mn></math>，则<math xmlns="http://www.w3.org/1998/Math/MathML" ><mi>a</mi><mo>=</mo><mstyle displaystyle="true" scriptlevel="0"><mfrac><mn>1</mn><mn>2</mn></mfrac></mstyle></math>，<math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mi>W</mi><mrow><mrow><mi mathvariant="normal">t</mi></mrow></mrow></msub><mo>=</mo><mstyle displaystyle="true" scriptlevel="0"><mfrac><mn>1</mn><mn>2</mn></mfrac></mstyle><msup><mi>b</mi><mrow><mn>2</mn></mrow></msup><mi>h</mi></math>；就翼缘而言，<math xmlns="http://www.w3.org/1998/Math/MathML" ><msubsup><mi>W</mi><mrow><mrow><mi mathvariant="normal">t</mi><mi mathvariant="normal">f</mi></mrow></mrow><mrow><msup><mi></mi><mo>′</mo></msup></mrow></msubsup><mo>=</mo><mstyle displaystyle="true" scriptlevel="0"><mfrac><msubsup><mi>h</mi><mrow><mrow><mi mathvariant="normal">f</mi></mrow></mrow><mrow><msup><mi></mi><mo>′</mo></msup><mn>2</mn></mrow></msubsup><mn>2</mn></mfrac></mstyle><mo stretchy="false">(</mo><msubsup><mi>b</mi><mrow><mrow><mi mathvariant="normal">f</mi></mrow></mrow><mrow><msup><mi></mi><mo>′</mo></msup></mrow></msubsup><mo>−</mo><mi>b</mi><mo stretchy="false">)</mo></math>，<math xmlns="http://www.w3.org/1998/Math/MathML" ><msubsup><mi>h</mi><mrow><mrow><mi mathvariant="normal">f</mi></mrow></mrow><mrow><msup><mi></mi><mo>′</mo></msup></mrow></msubsup></math>为翼缘短边，<math xmlns="http://www.w3.org/1998/Math/MathML" ><mo stretchy="false">(</mo><msubsup><mi>b</mi><mrow><mrow><mi mathvariant="normal">f</mi></mrow></mrow><mrow><msup><mi></mi><mo>′</mo></msup></mrow></msubsup><mo>−</mo><mi>b</mi><mo stretchy="false">)</mo></math>为翼缘长边。</p>
+
+<p style="text-align:justify"><a href="#idt5.5.6"> 5.5.6</a> <span id="idt5.5.6"> 在实际桥梁工程中，真正纯扭构件或剪扭构件是很少的，大多是同时承受弯矩、剪力和扭矩的构件。这些弯剪扭构件的配筋按<a href="https://jtg-3362.readthedocs.io/zh/latest/05.html#id5.5.5">第5.5.5条</a>规定，可划分为几个矩形截面分别计算和配置。例如，抗弯纵向钢筋应按受弯构件正截面抗弯承载力计算所需的钢筋截面面积，配置在受拉区边缘；矩形截面或T形、工形截面腹板及带翼缘箱形截面的矩形箱体，应按剪扭构件计算，由抗扭承载力计算所需的纵向钢筋截面面积沿腹板或矩形箱体周边均匀对称布置，而箍筋则为按斜截面抗剪承载力和抗扭承载力计算所需截面面积之和布置；T形、工形和带翼缘箱形截面的受压翼缘或受拉翼缘，应按纯扭构件的抗扭承载力计算所需的纵向钢筋和箍筋截面面积，其中纵向钢筋沿翼缘周边均匀对称布置。</span></p></section>
 <section id="id7">
 <h2>5.6 受冲切构件<a class="headerlink" href="#id7" title="此标题的永久链接"></a></h2>
 <p style="text-align:justify"><a href="#idt5.6.1"> 5.6.1</a> <span id="idt5.6.1"> 本条是关于不配置抗冲切钢筋的钢筋混凝土板抗冲切承载力计算的规定。公式(5.6.1)中的0.7是经验系数；<i>β</i><sub>h</sub>是考虑板的抗冲切承载力随板厚的增大而降低所设立的截面高度尺寸效应系数；对于腹内配有预应力钢筋的板，考虑预加应力可以阻止斜裂缝的出现和开展，增加混凝土剪压区的高度，有利于板的抗冲切作用，因而在公式中增加了这项有利的因素。</span></p>
-<p style="text-align:justify"><a href="#idt5.6.2"> 5.6.2</a> <span id="idt5.6.2"> 在实际工程中当单靠混凝土抗冲切不能满足要求或增加板厚有困难时，仅提高混凝土强度等级并不能合理地解决冲切承载力的问题。此时需要设置抗冲切钢筋。试验资料表明，配置抗冲切钢筋后板的抗冲切承载力有明显增加；它的位置应布置在集中荷载作用面的附近，否则，抗冲切承载力提高不显著;此外，抗冲切钢筋的锚固也很重要，锚固不好将影响其强度的充分发挥。</span></p></section>
+<p style="text-align:justify"><a href="#idt5.6.2"> 5.6.2</a> <span id="idt5.6.2"> 在实际工程中当单靠混凝土抗冲切不能满足要求或增加板厚有困难时，仅提高混凝土强度等级并不能合理地解决冲切承载力的问题。此时需要设置抗冲切钢筋。试验资料表明，配置抗冲切钢筋后板的抗冲切承载力有明显增加；它的位置应布置在集中荷载作用面的附近，否则，抗冲切承载力提高不显著;此外，抗冲切钢筋的锚固也很重要，锚固不好将影响其强度的充分发挥。</span></p>
+<p style="text-align:justify;text-indent:2em;" > 试验研究表明，配有抗冲切钢筋的混凝土板，其破坏形态和受力特性与有腹筋的受弯构件相似，当抗冲切钢筋达到一定数量后，板的抗冲切承载力几乎不再提高。因此，需要对抗冲切钢筋加以限制，也就是对板的受冲切截面加以限制，就像对受弯构件抗剪截面进行限制一样。国内外规范对此都作了一些规定，即配置抗冲切钢筋的板的最大抗冲切承载力不超过不配抗冲切钢筋的板的抗冲切承载力的1.5倍。这样，一般可以充分发挥抗冲切钢筋的作用，避免使用阶段过宽的斜裂缝。</p>
+<p style="text-align:justify;text-indent:2em;" > 国外研究资料认为，在各种形式的抗冲切钢筋中，以箍筋和弯起钢筋的效果较好。箍筋或弯起钢筋应布置在斜裂缝可能出现的地方。在配有抗冲切钢筋的混凝土板中，由于斜裂缝的出现和开展，使混凝土的抗冲切能力有所降低，斜裂缝出现时的荷载大约为未配置抗冲切钢筋混凝土板冲切破坏荷载的一半。</p>
+<p style="text-align:justify;text-indent:2em;" > 在冲切破坏锥体以外不需要配置抗冲切钢筋的截面，尚需按混凝土板进行抗冲切验算，以防止冲切破坏在该处提前发生。此时，计算最不利周长取在冲切破坏锥体以外0.5<i>h</i><sub>0</sub>处。</p></section>
 <section id="id8">
 <h2>5.7 受扭构件<a class="headerlink" href="#id8" title="此标题的永久链接"></a></h2>
 <p style="text-align:justify"><a href="#idt5.7.1"> 5.7.1</a> <span id="idt5.7.1"> 本条基本保持了原规范的表达形式，对部分参数作如下说明：</span></p>
-<p style="text-align:justify"><a href="#idt5.7.2"> 5.7.2</a> <span id="idt5.7.2"> 本条基本保持了原规范的表达形式，对部分参数作如下说明：</span></p><p><span class="math notranslate nohighlight">\(\ \)</span></p>
+<ol>
+<li> 在计算混凝土局部承压提高系数<i>β</i>值时，<i>A</i><sub><math xmlns="http://www.w3.org/1998/Math/MathML" ><mi>l</mi></math></sub>和<i>A</i><sub>b</sub>均不扣除孔道面积。同时考虑了实际工程中常用的带有喇叭管的锚具垫板<i>A</i><sub><math xmlns="http://www.w3.org/1998/Math/MathML" ><mi>l</mi></math>n</sub>的取值，此值来自以往工程设计和实践经验。</li>
+<li> 高强度的混凝土，其局部承压强度提高系数，无论是极限承载力阶段还是开裂阶段，都比普通强度的混凝土要低，本规范用修正系数<i>η</i><sub>s</sub>来考虑这个随混凝土强度等级(C50~C80)提高而降低的影响。</li>
+<li> 荷载和材料均采用设计值，对后张法构件锚头局压区预应力分项系数取为1.2。</li>
+</ol>
+<p style="text-align:justify"><a href="#idt5.7.2"> 5.7.2</a> <span id="idt5.7.2"> 本条基本保持了原规范的表达形式，对部分参数作如下说明：</span></p>
+<ol>
+<li> 计算局部承压提高系数<i>β</i><sub>cor</sub>时，<i>A</i><sub>cor</sub>和<i>A</i><sub><math xmlns="http://www.w3.org/1998/Math/MathML" ><mi>l</mi></math></sub>也不扣除预留孔道面积。</li>
+<li> 公式(5.7.2-1)右边第二项引入间接钢筋影响系数 <i>k</i>，以表示间接钢筋局部承压强度提高系数随混凝土强度等级的提高而降低。</li>
+</ol><p><span class="math notranslate nohighlight">\(\ \)</span></p>
 </section>
 </section>
 
