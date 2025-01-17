@@ -62,6 +62,11 @@ h1{
     width: 600px;
 
 }
+footer p{
+    line-height: 0px;
+    font-size: 0px;
+    margin: 0 0 0px;
+}
 
 
 
